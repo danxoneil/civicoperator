@@ -28,8 +28,17 @@
             font-weight: 500;
             margin-right: 15px;
         }
-        .navbar-nav .nav-link:hover {
+        .navbar-nav .nav-link:hover, .dropdown-item:hover {
             text-decoration: underline;
+        }
+        .dropdown-menu {
+            background-color: #007a99;
+        }
+        .dropdown-item {
+            color: white;
+        }
+        .dropdown-item:hover {
+            background-color: #005f75;
         }
         .hero-section {
             padding: 60px 0;
@@ -84,9 +93,17 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">monday work management</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">monday CRM</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">monday service</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="mondayDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        monday
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="mondayDropdown">
+                        <li><a class="dropdown-item" href="#">monday work management</a></li>
+                        <li><a class="dropdown-item" href="#">monday CRM</a></li>
+                        <li><a class="dropdown-item" href="#">monday service</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">More</a></li>
             </ul>
         </div>
     </nav>
@@ -120,13 +137,8 @@
     </section>
 
     <section class="section container">
-        <h2>Create a unified workspace by integrating 40+ tools you already use</h2>
-        <img src="img/integrate-existing-tools-into-monday.png" alt="Integrate existing tools into Monday" class="feature-img">
-    </section>
-
-    <section class="section container">
         <h2>Our services</h2>
-        <p>As a certified monday.com partner, we offer a wide array of product training, consulting, and implementation services customized to your business goals.</p>
+        <p class="mb-5">As a certified monday.com partner, we offer a wide array of product training, consulting, and implementation services customized to your business goals.</p>
         <div class="row text-center">
             <div class="col-md-4">
                 <h3>📋 Licenses, Product Consultancy, and Implementation</h3>
