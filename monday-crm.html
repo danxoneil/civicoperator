@@ -30,15 +30,18 @@
             padding: 50px 20px;
         }
         .header-section img {
-            margin-bottom: 20px; /* Increased space between logo and text */
+            margin-bottom: 20px;
+        }
+        .header-section h1 {
+            color: #FFFFFF; /* Ensures text is white */
         }
         .show-me-how {
             display: block;
-            margin: 40px auto 20px; /* More space below the text */
+            margin: 40px auto 20px;
             max-width: 250px;
         }
         .features-section {
-            padding: 60px 0;
+            padding: 60px 20px; /* Ensures spacing on mobile */
         }
         .feature-row {
             display: flex;
@@ -46,6 +49,7 @@
             justify-content: center;
             gap: 30px;
             margin-bottom: 50px;
+            padding: 20px; /* Adds space around each feature row */
         }
         .feature-img {
             flex: 1;
@@ -65,6 +69,19 @@
             margin: 20px auto;
             display: block;
         }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .feature-row {
+                flex-direction: column;
+                text-align: center;
+                padding: 15px; /* Adds space on mobile */
+            }
+            .feature-img,
+            .feature-text {
+                max-width: 100%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -73,14 +90,16 @@
             <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator Logo">
         </a>
         <span class="navbar-text ms-auto">
-            <img src="/img/monday-crm-logo.png" alt="Certified Partner" height="40">
+            <img src="/img/certified-partner-monday.com.png" alt="Certified Partner" height="40">
         </span>
     </nav>
 
     <header class="header-section">
         <img src="/img/monday-crm-logo.png" alt="Monday CRM">
         <h1>Speed up your sales cycle with an intuitive, AI-powered CRM that your team will love.</h1>
-        <a href="https://calendly.com/danx-civicoperator/chat"><img src="/img/show-me-how.png" alt="Show Me How" class="show-me-how"></a>
+        <a href="https://calendly.com/danx-civicoperator/chat">
+            <img src="/img/show-me-how.png" alt="Show Me How" class="show-me-how">
+        </a>
         <div class="row mt-4">
             <div class="col-md-12">
                 <img src="/img/crm-transparent-header.png" alt="CRM Features" class="img-fluid">
