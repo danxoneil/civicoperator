@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Figtree', sans-serif;
-            background-color: #FFFFFF;
+            background-color: #E1EFF2;
             color: #2C2C2C;
         }
         h1, h2, h3 {
@@ -36,7 +36,21 @@
         }
         .features-section {
             padding: 60px 0;
-            text-align: center;
+        }
+        .feature-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        .feature-img {
+            flex: 1;
+            max-width: 50%;
+        }
+        .feature-text {
+            flex: 1;
+            text-align: left;
         }
         .trusted-section {
             text-align: center;
@@ -81,31 +95,31 @@
     </header>
 
     <section class="features-section container">
-        <div class="row">
-            <div class="col-md-6">
-                <img src="/img/monday-crm-email.png" alt="Sales Automation" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-                <h3>Centralize client communication</h3>
-                <p>Communicate efficiently with your contacts by integrating your email. Automatically log sent emails, keep track of interactions, and use personalized email templates to save time.</p>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-6 order-md-2">
-                <img src="/img/monday-crm-mobile_grid_item_card.png" alt="Automations" class="img-fluid">
-            </div>
-            <div class="col-md-6 order-md-1">
-                <h3>Save valuable time by automating sales processes</h3>
-                <p>From project managers to senior executives, keep every stakeholder updated with real-time data. Effortlessly communicate project statuses, roadblocks, and deadlines while collaborating across teams.</p>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-6">
+        <div class="feature-row">
+            <div class="feature-img">
                 <img src="/img/monday-crm-Deals_dragNdrop.jpg" alt="Customization" class="img-fluid">
             </div>
-            <div class="col-md-6">
+            <div class="feature-text">
                 <h3>Customizable to fit your sales cycle</h3>
-                <p>Easily tailor your CRM to work for you, without any development help. Edit deal stages, add columns, manage multiple pipelines, and more.</p>
+                <p>Easily tailor your CRM to work for you, without any development help. Edit deal stages, add as many columns as you’d like, manage multiple pipelines at once, and more.</p>
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+                <h3>Centralize client communication</h3>
+                <p>Communicate efficiently with your contacts by integrating your email. Automatically log sent emails, keep track of interactions, and use personalized email templates to save you time.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-email.png" alt="Sales Automation" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-img">
+                <img src="/img/monday-crm-mobile_grid_item_card.png" alt="Automations" class="img-fluid">
+            </div>
+            <div class="feature-text">
+                <h3>Save valuable time by automating sales processes</h3>
+                <p>From project managers to senior executives, keep every stakeholder updated with real-time data. Effortlessly communicate project statuses, roadblocks, and deadlines while collaborating across teams.</p>
             </div>
         </div>
     </section>
