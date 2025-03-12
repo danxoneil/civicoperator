@@ -19,14 +19,22 @@
         .navbar {
             background-color: #007a99;
             padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
         .navbar-brand img {
-            height: 40px; /* Consistent logo height */
+            height: 40px; /* Keeps Civic Operator logo consistent */
+        }
+        .navbar-text {
+            display: flex;
+            align-items: center;
         }
         .navbar-text img {
-            max-height: 40px; /* Match Civic Operator logo */
-            height: auto; /* Maintain aspect ratio */
-            max-width: 120px; /* Prevent excessive width */
+            max-height: 40px; /* Matches Civic Operator logo height */
+            height: auto; /* Keeps aspect ratio */
+            max-width: auto; /* Prevents excessive width */
+            margin-left: 10px; /* Space between Civic Operator logo and Certified Partner badge */
         }
         .header-section {
             background-color: #006278;
@@ -94,9 +102,9 @@
         <a class="navbar-brand" href="#">
             <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator Logo">
         </a>
-        <span class="navbar-text ms-auto"> 
-            <img src="https://www.civicoperator.com/img/certified-partner-monday.com.png" alt="Certified Partner"> 
-        </span>
+        <div class="navbar-text">
+            <img src="https://www.civicoperator.com/img/certified-partner-monday.com.png" alt="Certified Partner">
+        </div>
     </nav>
 
     <header class="header-section">
