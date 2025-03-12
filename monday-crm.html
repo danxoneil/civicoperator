@@ -21,7 +21,12 @@
             padding: 10px 20px;
         }
         .navbar-brand img {
-            height: 40px;
+            height: 40px; /* Consistent logo height */
+        }
+        .navbar-text img {
+            max-height: 40px; /* Match Civic Operator logo */
+            height: auto; /* Maintain aspect ratio */
+            max-width: 120px; /* Prevent excessive width */
         }
         .header-section {
             background-color: #006278;
@@ -90,13 +95,13 @@
             <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator Logo">
         </a>
         <span class="navbar-text ms-auto"> 
-            <img src="/img/dxo-civic-operator-certified-partner-monday.com.png" alt="Certified Partner" height="40">
+            <img src="https://www.civicoperator.com/img/dxo-civic-operator-certified-partner-monday.com.png" alt="Certified Partner">
         </span>
     </nav>
 
     <header class="header-section">
         <img src="/img/monday-crm-logo.png" alt="Monday CRM">
-        <h1>Speed up your sales cycle with an intuitive, AI-powered CRM that your team will love</h1>
+        <h1>Speed up your sales cycle with an intuitive, AI-powered CRM that your team will love.</h1>
         <a href="https://calendly.com/danx-civicoperator/chat">
             <img src="/img/show-me-how.png" alt="Show Me How" class="show-me-how">
         </a>
