@@ -72,13 +72,20 @@
         color: #ff6b5e;
         border-color: #ffe0dc;
     }
+.feature-img {
+    width: 100%; /* Full width for small screens */
+    max-width: 300px; /* Restrict max width for desktop */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
     .feature-img {
-        width: 100%;
-        max-width: 400px; /* Increased max-width for larger display */
-        height: auto; /* Ensures responsive resizing */
-        margin: 20px auto;
-        display: block;
+        max-width: 250px; /* Slightly smaller for tablets and mobile */
     }
+}
+
     .container {
         max-width: 1200px; /* Prevents content from stretching too wide */
         padding-left: 20px; /* Added padding for mobile */
