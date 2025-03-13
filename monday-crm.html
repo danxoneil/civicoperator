@@ -6,96 +6,86 @@
     <title>CRM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Figtree', sans-serif;
-            background-color: #E1EFF2;
-            color: #2C2C2C;
-        }
-        h1, h2, h3 {
-            font-family: 'Poppins', sans-serif; 
-            color: #181B34;
-        }
-        .navbar {
-            background-color: #007a99;
-            padding: 10px 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .navbar-brand img {
-            height: 40px; /* Keeps Civic Operator logo consistent */
-        }
-        .navbar-text {
-            display: flex;
-            align-items: center;
-        }
-        .navbar-text img {
-            max-height: 20px; /* Matches Civic Operator logo height */
-            height: auto; /* Keeps aspect ratio */
-            max-width: auto; /* Prevents excessive width */
-            margin-left: 10px; /* Space between Civic Operator logo and Certified Partner badge */
-        }
-        .header-section {
-            background-color: #006278;
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        .header-section img {
-            margin-bottom: 20px;
-        }
-        .header-section h1 {
-            color: #FFFFFF; /* Ensures text is white */
-        }
-        .show-me-how {
-            display: block;
-            margin: 40px auto 20px;
-            max-width: 250px;
-        }
-        .features-section {
-            padding: 60px 20px; /* Ensures spacing on mobile */
-        }
-        .feature-row {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 30px;
-            margin-bottom: 50px;
-            padding: 20px; /* Adds space around each feature row */
-        }
-        .feature-img {
-            flex: 1;
-            max-width: 50%;
-        }
-        .feature-text {
-            flex: 1;
-            text-align: left;
-        }
-        .trusted-section {
-            text-align: center;
-            padding: 50px 0;
-            background-color: white;
-        }
-        .trusted-logos img {
-            max-width: 90%;
-            margin: 20px auto;
-            display: block;
-        }
+<style>
+    body {
+        font-family: 'Figtree', sans-serif;
+        background-color: #f5e6da;
+        color: #333a40;
+    }
+    h1, h2, h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #333a40;
+    }
+    .navbar {
+        background-color: #007a99;
+        padding: 10px 20px;
+    }
+    .navbar-brand img {
+        height: 40px;
+    }
+    .navbar-nav .nav-link {
+        color: white;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    .navbar-nav .nav-link:hover, .dropdown-item:hover {
+        text-decoration: underline;
+    }
+    .dropdown-menu {
+        background-color: #007a99;
+    }
+    .dropdown-item {
+        color: white;
+    }
+    .dropdown-item:hover {
+        background-color: #005f75;
+    }
+    .hero-section {
+        padding: 60px 20px; /* Added padding for mobile */
+        text-align: center;
+    }
+    .section {
+        padding: 60px 20px; /* Added padding for mobile */
+        text-align: center;
+    }
+    .cta {
+        background-color: #ff6b5e;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    .btn-primary {
+        background-color: #ff6b5e;
+        border-color: #ff6b5e;
+    }
+    .btn-primary:hover {
+        background-color: #e55b50;
+        border-color: #e55b50;
+    }
+    .btn-light {
+        background-color: white;
+        color: #ff6b5e;
+        border-color: white;
+    }
+    .btn-light:hover {
+        background-color: #ffe0dc;
+        color: #ff6b5e;
+        border-color: #ffe0dc;
+    }
+    .feature-img {
+        width: 100%;
+        max-width: 800px; /* Increased max-width for larger display */
+        height: auto; /* Ensures responsive resizing */
+        margin: 20px auto;
+        display: block;
+    }
+    .container {
+        max-width: 1200px; /* Prevents content from stretching too wide */
+        padding-left: 20px; /* Added padding for mobile */
+        padding-right: 20px; /* Added padding for mobile */
+    }
+</style>
 
-        /* Responsive Styles */
-        @media (max-width: 768px) {
-            .feature-row {
-                flex-direction: column;
-                text-align: center;
-                padding: 15px; /* Adds space on mobile */
-            }
-            .feature-img,
-            .feature-text {
-                max-width: 100%;
-            }
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
