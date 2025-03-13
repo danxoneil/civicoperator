@@ -116,6 +116,42 @@
                 flex-direction: row-reverse;
             }
         }
+		
+		.features-section-sidebyside {
+    padding: 60px 20px;
+}
+
+.features-section-sidebyside .feature-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+    flex-direction: row; /* Always image on the left, text on the right */
+}
+
+.features-section-sidebyside .feature-img {
+    flex: 1;
+    max-width: 45%;
+}
+
+.features-section-sidebyside .feature-text {
+    flex: 1;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .features-section-sidebyside .feature-row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .features-section-sidebyside .feature-img, 
+    .features-section-sidebyside .feature-text {
+        max-width: 100%;
+    }
+}
+
     </style>
 </head>
 <body>
@@ -186,7 +222,7 @@
             </div>
         </div>
     </section>
-    <section class="features-section container">
+    <section class="features-section-sidebyside container">
         <div class="feature-row">
             <div class="feature-img">
                 <img src="/img/monday-crrm-instant-overview.png" alt="Instant Overview" class="img-fluid">
