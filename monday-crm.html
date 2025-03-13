@@ -88,6 +88,16 @@
                 max-width: 100%;
             }
         }
+        
+        /* Desktop: Alternate Layout */
+        @media (min-width: 769px) {
+            .feature-row:nth-child(odd) {
+                flex-direction: row;
+            }
+            .feature-row:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+        }
     </style>
 </head>
 <body>
