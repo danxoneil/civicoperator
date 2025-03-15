@@ -148,6 +148,32 @@
             flex-direction: row-reverse;
         }
     }
+	.awards-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: -40px; /* Moves it slightly higher */
+}
+
+.awards-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6); /* Optional: Adds a background for better visibility */
+    color: white; /* Ensures the text is readable */
+    padding: 10px 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.awards-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+	
 </style>
 </head>
 <body>
@@ -233,14 +259,11 @@
             </div>
         </div>
     </section>
-	        <div class="feature-row">
-            <div class="feature-text">
-             <h3>Awards galore</h3>
-            </div>
-        </div>
-        <div>
-	        <img src="/img/2023_CRM_Report_Badges-monday-crm.png" alt="Increase Visibility" class="img-fluid">	
-        </div>
+<section class="awards-section">
+    <h3 class="awards-heading">Awards galore</h3>
+    <img src="/img/2023_CRM_Report_Badges-monday-crm.png" alt="Awards" class="awards-img">
+</section>
+
 	    <section class="cta">
         <h2>Let's work together</h2>
         <a href="https://calendly.com/danx-civicoperator/chat" class="btn btn-primary">Book a meeting</a>
