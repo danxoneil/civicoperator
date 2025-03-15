@@ -84,19 +84,40 @@
         text-align: left;
     }
 
-    /* Centered image fix */
-    .full-width-image {
+    /* New Style: Subheading "Flexible and intuitive" */
+    .subheading {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #007a99;
+        margin-bottom: 8px;
         display: block;
-        margin: 20px auto;
-        max-width: 100%;
     }
 
-    /* Centered text fix */
-    .centered-text {
+    /* Trusted section */
+    .trusted-section {
         text-align: center;
+        padding: 50px 0;
+        background-color: white;
+    }
+    .trusted-logos img {
+        max-width: 90%;
+        margin: 20px auto;
+        display: block;
     }
 
-    /* CTA section styling */
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .feature-row {
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+        }
+        .feature-img, .feature-text {
+            max-width: 100%;
+        }
+    }
+	
+	    /* CTA section styling */
     .cta {
         background-color: #ff6b5e;
         color: white;
@@ -115,18 +136,6 @@
     .cta .btn:hover {
         background-color: #ffeae8;
         color: #ff6b5e;
-    }
-
-    /* Responsive styles */
-    @media (max-width: 768px) {
-        .feature-row {
-            flex-direction: column;
-            text-align: center;
-            padding: 15px;
-        }
-        .feature-img, .feature-text {
-            max-width: 100%;
-        }
     }
 
     /* Desktop: Alternate Layout */
@@ -152,8 +161,8 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/software">Software</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="/software">Software</a></li>
+				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
             </ul>
         </div>
     </nav>
@@ -171,45 +180,78 @@
     </header>
 
     <section class="features-section container">
-        <div class="feature-row">
+<div class="feature-row">
             <div class="feature-text">
-                <h3>Create a unified workspace by integrating 40+ tools you already use</h3>
+                <h3>Manage everything in one workspace</h3>
+                <p>Planning, tracking, and delivering your teams' work has never been easier.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-Deals_dragNdrop.jpg" alt="Customization" class="img-fluid">
             </div>
         </div>
-        <div>
-            <img src="/img/monday-work-management-integration-icons.png" alt="Instant Overview" class="full-width-image">
+        <div class="feature-row">
+            <div class="feature-text">
+                <h3>Set up and onboard your team quickly and easily.</h3>
+                <p>Get started fast with hundreds of visual and customizable templates - or create your own.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-email.png" alt="Increase Visibility" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+			    <h3>Streamline all communication</h3>
+                <p>Keep all comments in the project environment so you spend less time chasing updates and more time supporting your team.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-Automations.png" alt="Sales Automation" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+                <h3>Build high - level overviews</h3>
+                <p>Create your team's perfect high-level overview on a no-code platform to see all of your ongoing work at a glance.</p>
+            </div>
+			<div class="feature-img">
+                <img src="/img/monday-crm-increase-visibility.png" alt="Increase Visibility" class="img-fluid">
+            </div>
+        </div>
+		<div class="feature-row">
+            <div class="feature-text">
+                <h3>Create a unified workspace by integrating 40+ tools you already use</h3
+            </div>
+			<div class="feature-img">
+                <img src="/img/monday-work-management-integration-icons.png" alt="Instant Overview" class="img-fluid">
+            </div>
         </div>
     </section>
-
-    <section class="container">
-        <h2 class="centered-text">Our services</h2>
-        <p class="centered-text">As a certified monday.com partner, we offer a wide array of product training, consulting, and implementation services customized to your business goals.</p>
+    <section class="section container">
+        <h2>Our services</h2>
+        <p class="mb-5">As a certified monday.com partner, we offer a wide array of product training, consulting, and implementation services customized to your business goals.</p>
         <div class="row text-center">
             <div class="col-md-4">
-                <img src="/img/monday-work-management-licenses-icon.png" alt="Licenses, Product Consultancy, and Implementation" class="img-fluid">
+            <img src="/img/monday-work-management-licenses-icon.png" alt="Licenses, Product Consultancy, and Implementation" class="img-fluid">
                 <h3>Licenses, Product Consultancy, and Implementation</h3>
                 <p>We will work with you to map all internal operations and workflows, ensuring a structured monday.com setup tailored to your needs.</p>
             </div>
             <div class="col-md-4">
-                <img src="/img/monday-work-management-training-icon.png" alt="Onboarding and Training" class="img-fluid">
+			<img src="/img/monday-work-management-training-icon.png" alt="Onboarding and Training" class="img-fluid">
                 <h3>Onboarding and Training</h3>
                 <p>We facilitate onboarding and training sessions for teams to ensure a smooth adoption process from day one.</p>
             </div>
             <div class="col-md-4">
-                <img src="/img/monday-work-management-development-icon.png" alt="Custom Development and monday apps" class="img-fluid">
+            <img src="/img/monday-work-management-development-icon.png" alt="ustom Development and monday apps" class="img-fluid">
                 <h3>Custom Development and monday apps</h3>
                 <p>With deep knowledge of monday.com, we develop custom apps, integrations, and automations tailored to your business needs.</p>
             </div>
         </div>
     </section>
-
-    <section class="cta">
+	    <section class="cta">
         <h2>Let's work together</h2>
-        <a href="https://calendly.com/danx-civicoperator/chat" class="btn">Book a meeting</a>
+        <a href="https://calendly.com/danx-civicoperator/chat" class="btn btn-primary">Book a meeting</a>
     </section>
-
     <footer class="text-center p-4">
-        <img src="img/monday-com-certified partner.png" alt="monday.com certified partner" class="feature-img"> 
+	<img src="img/monday-com-certified partner.png" alt="monday.com certified partner" class="feature-img"> 
         <p>&copy; 2025 Civic Operator, LLC. All rights reserved.</p>
     </footer>
 
