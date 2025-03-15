@@ -3,86 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work Management</title>
+    <title>CRM</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Figtree', sans-serif;
-            background-color: #F0F3FF;
-            color: #333a40;
-        }
-        h1, h2, h3 {
-            font-family: 'Poppins', sans-serif;
-            color: #333a40;
-        }
-        .navbar {
-            background-color: #6161FF;
-            padding: 10px 20px;
-        }
-        .navbar-brand img {
-            height: 40px;
-        }
-        .navbar-nav .nav-link {
-            color: white;
-            font-weight: 500;
-            margin-right: 15px;
-        }
-        .navbar-nav .nav-link:hover, .dropdown-item:hover {
-            text-decoration: underline;
-        }
-        .dropdown-menu {
-            background-color: #6161FF;
-        }
-        .dropdown-item {
-            color: white;
-        }
-        .dropdown-item:hover {
-            background-color: #4e4ecf;
-        }
-        .hero-section {
-            padding: 60px 0;
+<style>
+    /* General styles */
+    body {
+        font-family: 'Figtree', sans-serif;
+        background-color: #E1EFF2;
+        color: #2C2C2C;
+    }
+    h1, h2, h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #181B34;
+    }
+
+    /* Navbar styles */
+    .navbar {
+        background-color: #007a99;
+        padding: 10px 20px;
+    }
+    .navbar-brand img {
+        height: 40px;
+    }
+    .navbar-nav .nav-link {
+        color: white;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    .navbar-nav .nav-link:hover, .dropdown-item:hover {
+        text-decoration: underline;
+    }
+    .dropdown-menu {
+        background-color: #007a99;
+    }
+    .dropdown-item {
+        color: white;
+    }
+    .dropdown-item:hover {
+        background-color: #005f75;
+    }
+
+    /* Header section */
+    .header-section {
+        background-color: #006278;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+    .header-section img {
+        margin-bottom: 20px;
+    }
+    .header-section h1 {
+        color: #FFFFFF;
+    }
+    .show-me-how {
+        display: block;
+        margin: 40px auto 20px;
+        max-width: 250px;
+    }
+
+    /* Features section */
+    .features-section {
+        padding: 60px 20px;
+    }
+    .feature-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    .feature-img {
+        flex: 1;
+        max-width: 50%;
+    }
+    .feature-text {
+        flex: 1;
+        text-align: left;
+    }
+
+    /* New Style: Subheading "Flexible and intuitive" */
+    .subheading {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #007a99;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    /* Trusted section */
+    .trusted-section {
+        text-align: center;
+        padding: 50px 0;
+        background-color: white;
+    }
+    .trusted-logos img {
+        max-width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .feature-row {
+            flex-direction: column;
             text-align: center;
+            padding: 15px;
         }
-        .section {
-            padding: 60px 0;
-            text-align: center;
+        .feature-img, .feature-text {
+            max-width: 100%;
         }
-        .cta {
-            background-color: #6161FF;
-            color: white;
-            padding: 20px;
-            text-align: center;
+    }
+
+    /* Desktop: Alternate Layout */
+    @media (min-width: 769px) {
+        .feature-row:nth-child(odd) {
+            flex-direction: row;
         }
-        .btn-primary {
-            background-color: #6161FF;
-            border-color: #6161FF;
+        .feature-row:nth-child(even) {
+            flex-direction: row-reverse;
         }
-        .btn-primary:hover {
-            background-color: #4e4ecf;
-            border-color: #4e4ecf;
-        }
-        .btn-light {
-            background-color: white;
-            color: #6161FF;
-            border-color: white;
-        }
-        .btn-light:hover {
-            background-color: #e6e6ff;
-            color: #6161FF;
-            border-color: #e6e6ff;
-        }
-        .feature-img {
-            width: 100%;
-            max-width: 500px;
-            margin: 20px auto;
-            display: block;
-        }
-        footer {
-            background-color: #6161FF;
-            color: white;
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
 
@@ -102,56 +146,82 @@
         </div>
     </nav>
 
-    <header class="hero-section">
-        <h1>The project management software that works</h1>
-        <p>Plan, track, and manage everything in one place</p>
-        <img src="img/monday-work-management-header-image.png" alt="Powerful monday dashboards" class="feature-img">
-        <a href="#contact" class="btn btn-primary">Get started</a>
+    <header class="header-section">
+        <img src="/img/monday-work-management-logo.png" alt="Monday CRM">
+        <h1>The project management software that will actually work for your team</h1>
+        <a href="https://calendly.com/danx-civicoperator/chat">
+            <img src="/img/show-me-how.png" alt="Show Me How" class="show-me-how">
+        </a>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <img src="/img/monday-work-management-header-image.png" alt="CRM Features" class="img-fluid">
+            </div>
+        </div>
     </header>
 
-    <section class="section container">
-        <h2>Features</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <h3>Manage everything</h3>
-                <p>Set up and onboard your team quickly and easily</p>
-                <img src="img/manage-everything-in-one-workspace.png" alt="Manage everything in one workspace" class="feature-img">
+    <section class="features-section container">
+<div class="feature-row">
+            <div class="feature-text">
+                <h3>Manage everything in one workspace</h3>
+                <p>Planning, tracking, and delivering your teams' work has never been easier.</p>
             </div>
-            <div class="col-md-4">
-                <h3>Streamline communication</h3>
-                <p>Keep all comments in the project environment</p>
-                <img src="img/streamline-all-communication.png" alt="Streamline all communication" class="feature-img">
+            <div class="feature-img">
+                <img src="/img/monday-crm-Deals_dragNdrop.jpg" alt="Customization" class="img-fluid">
             </div>
-            <div class="col-md-4">
-                <h3>Set up and onboard teams</h3>
-                <p>Ensure smooth adoption and collaboration</p>
-                <img src="img/set-up-and-onboard teams.png" alt="Set up and onboard teams" class="feature-img">
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+                <h3>Set up and onboard your team quickly and easily.</h3>
+                <p>Get started fast with hundreds of visual and customizable templates - or create your own.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-email.png" alt="Increase Visibility" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+			    <h3>Streamline all communication</h3>
+                <p>Keep all comments in the project environment so you spend less time chasing updates and more time supporting your team.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-Automations.png" alt="Sales Automation" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+                <h3>Build high - level overviews</h3>
+                <p>Create your team's perfect high-level overview on a no-code platform to see all of your ongoing work at a glance.</p>
+            </div>
+			<div class="feature-img">
+                <img src="/img/monday-crm-increase-visibility.png" alt="Increase Visibility" class="img-fluid">
+            </div>
+        </div>
+		<div class="feature-row">
+            <div class="feature-text">
+                <h3>Create a unified workspace by integrating 40+ tools you already use</h3
+            </div>
+			<div class="feature-img">
+                <img src="/img/monday-crm-instant-overview.png" alt="Instant Overview" class="img-fluid">
             </div>
         </div>
     </section>
-
     <section class="section container">
         <h2>Our services</h2>
         <p class="mb-5">As a certified monday.com partner, we offer a wide array of product training, consulting, and implementation services customized to your business goals.</p>
         <div class="row text-center">
             <div class="col-md-4">
-                <h3>📋 Licenses, Product Consultancy, and Implementation</h3>
+                <h3>Licenses, Product Consultancy, and Implementation</h3>
                 <p>We will work with you to map all internal operations and workflows, ensuring a structured monday.com setup tailored to your needs.</p>
             </div>
             <div class="col-md-4">
-                <h3>🎓 Onboarding and Training</h3>
+                <h3>Onboarding and Training</h3>
                 <p>We facilitate onboarding and training sessions for teams to ensure a smooth adoption process from day one.</p>
             </div>
             <div class="col-md-4">
-                <h3>🛠️ Custom Development and Monday Apps</h3>
+                <h3>Custom Development and monday apps</h3>
                 <p>With deep knowledge of monday.com, we develop custom apps, integrations, and automations tailored to your business needs.</p>
             </div>
         </div>
-    </section>
-
-    <section class="cta">
-        <h2>Let's work together</h2>
-        <a href="#contact" class="btn btn-light">Contact us</a>
     </section>
     <footer class="text-center p-4">
 	<img src="img/monday-com-certified partner.png" alt="monday.com certified partner" class="feature-img"> 
@@ -159,5 +229,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+</body> 
 </html>
