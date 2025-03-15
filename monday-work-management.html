@@ -75,9 +75,12 @@
         margin-bottom: 50px;
         padding: 20px;
     }
-    .feature-img {
-        flex: 1;
-        max-width: 50%;
+.feature-img {
+    width: 100%; /* Full width for small screens */
+    max-width: 250px; /* Restrict max width for desktop */ 
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto;
+    display: block;
     }
     .feature-text {
         flex: 1;
