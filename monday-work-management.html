@@ -46,7 +46,231 @@
 
     /* Header section */
     .header-section {
+        background-color: #<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<style>
+    /* General styles */
+    body {
+        font-family: 'Figtree', sans-serif;
+        background-color: #E1EFF2;
+        color: #2C2C2C;
+    }
+    h1, h2, h3 {
+        font-family: 'Poppins', sans-serif;
+        color: #181B34;
+    }
+
+    /* Navbar styles */
+    .navbar {
+        background-color: #007a99;
+        padding: 10px 20px;
+    }
+    .navbar-brand img {
+        height: 40px;
+    }
+    .navbar-nav .nav-link {
+        color: white;
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    .navbar-nav .nav-link:hover, .dropdown-item:hover {
+        text-decoration: underline;
+    }
+    .dropdown-menu {
+        background-color: #007a99;
+    }
+    .dropdown-item {
+        color: white;
+    }
+    .dropdown-item:hover {
+        background-color: #005f75;
+    }
+
+    /* Header section */
+    .header-section {
         background-color: #6161FF;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+    .header-section img {
+        margin-bottom: 20px;
+    }
+    .header-section h1 {
+        color: #FFFFFF;
+    }
+    .show-me-how {
+        display: block;
+        margin: 40px auto 20px;
+        max-width: 250px;
+    }
+
+    /* Features section */
+    .features-section {
+        padding: 60px 20px;
+    }
+    .feature-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 50px;
+        padding: 20px;
+    }
+    .feature-img {
+        flex: 1;
+        max-width: 50%;
+    }
+    .feature-text {
+        flex: 1;
+        text-align: left;
+    }
+
+    /* New Style: Subheading "Flexible and intuitive" */
+    .subheading {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #007a99;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    /* Trusted section */
+    .trusted-section {
+        text-align: center;
+        padding: 50px 0;
+        background-color: white;
+    }
+    .trusted-logos img {
+        max-width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .feature-row {
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+        }
+        .feature-img, .feature-text {
+            max-width: 100%;
+        }
+    }
+
+    /* Desktop: Alternate Layout */
+    @media (min-width: 769px) {
+        .feature-row:nth-child(odd) {
+            flex-direction: row;
+        }
+        .feature-row:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+    }
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/">
+            <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="/software">Software</a></li>
+				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header-section">
+        <img src="/img/monday-crm-logo.png" alt="Monday CRM">
+        <h1>Speed up your sales cycle with an intuitive, AI-powered CRM that your team will love</h1>
+        <a href="https://calendly.com/danx-civicoperator/chat">
+            <img src="/img/show-me-how.png" alt="Show Me How" class="show-me-how">
+        </a>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <img src="/img/crm-transparent-header.png" alt="CRM Features" class="img-fluid">
+            </div>
+        </div>
+    </header>
+
+    <section class="features-section container">
+<div class="feature-row">
+            <div class="feature-text">
+                <span class="subheading">Flexible and intuitive</span>
+                <h3>Customizable to fit your sales cycle</h3>
+                <p>Easily tailor your CRM to work for you, without any development help. Edit deal stages, add as many columns as you’d like, manage multiple pipelines at once, and more.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-Deals_dragNdrop.jpg" alt="Customization" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+			    <span class="subheading">Communication</span>
+                <h3>Centralize client communication</h3>
+                <p>Communicate efficiently with your contacts by integrating your email. Automatically log sent emails, keep track of interactions, and use personalized email templates to save you time.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-email.png" alt="Increase Visibility" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+ 			    <span class="subheading">Automations</span>
+			    <h3>Save valuable time by automating sales processes</h3>
+                <p>From project managers to senior executives, keep every stakeholder updated with real-time data. Effortlessly communicate project statuses, roadblacks, and deadlines while collaborating across teams on one centralized platform.</p>
+            </div>
+            <div class="feature-img">
+                <img src="/img/monday-crm-Automations.png" alt="Sales Automation" class="img-fluid">
+            </div>
+        </div>
+        <div class="feature-row">
+            <div class="feature-text">
+ 			    <span class="subheading">Dashboards</span>
+                <h3>Increase visibility with customizable dashboards</h3>
+                <p>Easily build dashboards in real time with no development help. Gain insights into where deals stand, expected revenue, your team’s performance, and more.</p>
+            </div>
+			<div class="feature-img">
+                <img src="/img/monday-crm-increase-visibility.png" alt="Increase Visibility" class="img-fluid">
+            </div>
+        </div>
+		<div class="feature-row">
+            <div class="feature-text">
+ 			    <span class="subheading">Overviews</span>
+                <h3>Get an instant overview of each deal</h3>
+                <p>With a single click, quickly access all the information you need to close deals. View contact details, understand deal progress, and what needs to be done next.</p>
+            </div>
+			<div class="feature-img">
+                <img src="/img/monday-crm-instant-overview.png" alt="Instant Overview" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section>
+		<h2>Worker in the open source movement</h2>
+	        <img src="/img/2023_CRM_Report_Badges-monday-crm.png" alt="Increase Visibility" class="img-fluid">	
+	</section>
+    <footer class="text-center p-4">
+	<img src="img/monday-com-certified partner.png" alt="monday.com certified partner" class="feature-img"> 
+        <p>&copy; 2025 Civic Operator, LLC. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body> 
+</html>;
         color: white;
         text-align: center;
         padding: 50px 20px;
