@@ -1,434 +1,301 @@
-import React, { useMemo, useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { ChevronDown, ChevronUp, Download, Search, Filter, RefreshCw, Printer } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
-
-/*
-  Mecklenburg Tobacco Policy Timeline – Interactive Web Page
-  Source: Timeline extracted from Mecklenburg County Public Health webpage (1969–2025)
-  Features:
-  - Full-text search
-  - Decade filter
-  - Smart tags auto-derived from entry text
-  - Expand/collapse by year
-  - Export to CSV / JSON
-  - Print-friendly
-
-  Notes:
-  - This single-file React component is production-ready and uses shadcn/ui + Tailwind.
-  - No external network calls are made; all data is embedded.
-*/
-
-// --- Data (exactly as extracted from the web timeline) ---
-const TIMELINE: { year: number; items: string[] }[] = [
-  {
-    year: 1969,
-    items: [
-      "City of Charlotte ordinance bans smoking in shopping areas of retail stores >200 people or 25 employees for fire safety.",
-    ],
-  },
-  { year: 1989, items: ["City of Charlotte smoke-free ordinance for government owned buildings."] },
-  {
-    year: 1993,
-    items: [
-      "Mecklenburg County: Project Assist Funding started (Public Health).",
-      "North Carolina: NC enacts law authorizing state/local governments to establish non-smoking areas in government buildings.",
-    ],
-  },
-  {
-    year: 2000,
-    items: [
-      "Mecklenburg County adopts policy for smoke-free government buildings and vehicles; no smoking except designated areas at Charlotte- Douglas International Airport.",
-      "NC Tobacco Prevention & Control Branch sets goal of achieving 100% tobacco-free schools.",
-    ],
-  },
-  {
-    year: 2003,
-    items: [
-      "Charlotte-Mecklenburg Schools adopt 100% tobacco-free policy for students, staff and visitors – buildings and grounds, school events.",
-    ],
-  },
-  { year: 2004, items: ["TRU funding from NC HWTF (youth focus) from 2003-2012."] },
-  { year: 2005, items: ["Smoke Free Charlotte which becomes Smoke Free Mecklenburg Coalition starts."] },
-  {
-    year: 2006,
-    items: [
-      "Carolinas HealthCare System (CHS) becomes 100% tobacco free.",
-      "Duke Endowment funds NC Prevention Partners, in partnership with NC Hospital Association, to help NC hospitals go 100% tobacco free; NC Quitline launches.",
-    ],
-  },
-  {
-    year: 2007,
-    items: [
-      "City of Charlotte passes resolution to support local control of indoor air laws.",
-      "State laws allow UNC institutions to regulate smoking in buildings/on grounds; set 100% tobacco-free policy for public school systems (effective Aug. 1, 2008); and prohibit smoking in long-term care facilities and nursing homes; adopts fire-safe cigarette law.",
-    ],
-  },
-  {
-    year: 2008,
-    items: [
-      "City of Charlotte adopts tobacco-free policy for government buildings and vehicles.",
-      "State laws mandate smoke-free state government buildings and authorize local governments to mandate smoke-free government buildings and vehicles.",
-    ],
-  },
-  {
-    year: 2009,
-    items: [
-      "CPCC adopts tobacco-free campus policy.",
-      "CATS bus system adopts smoke-free policy for center & bus stop shelters.",
-      "All 127 full-service NC hospitals are 100% tobacco-free.",
-      "Tax rate per pack of 20 cigarettes: 45 cents. Dates of last changes: 5 cents to 35 cents in 2005-06 and from 35 cents to 45 cents in 2009.",
-    ],
-  },
-  {
-    year: 2010,
-    items: [
-      "UNC Charlotte adopts smoke-free policy for buildings & 100 ft. from doors.",
-      "Mecklenburg County Public Health Department adopts tobacco-free grounds policy.",
-      "House Bill 2 prohibits smoking in restaurants and bars; law expands local government authority to regulate smoking on government grounds and for certain enclosed public spaces.",
-    ],
-  },
-  { year: 2011, items: ["City of Charlotte revises tobacco cessation benefits for employees."] },
-  {
-    year: 2012,
-    items: [
-      "Town of Cornelius adopts tobacco-free ordinance for parks; Town of Huntersville adopts smoke-free park policy.",
-      "Town of Davidson adds no smoking to Parks Use Policy.",
-      "Charlotte Housing Authority: new and renovated buildings to open smoke free.",
-      "All state prison facilities go tobacco free.",
-    ],
-  },
-  {
-    year: 2013,
-    items: [
-      "Tobacco Free Mecklenburg network launches.",
-      "Mecklenburg County opens new Romare Bearden Park tobacco free.",
-      "Johnson C. Smith University adopts tobacco-free campus policy.",
-    ],
-  },
-  {
-    year: 2014,
-    items: [
-      "Bank of America Stadium goes smoke free.",
-      "Johnson and Wales University adopts tobacco free campus policy.",
-      "Medic in Charlotte goes tobacco free.",
-      "State operated Mental Health Facilities go 100% tobacco free.",
-    ],
-  },
-  {
-    year: 2015,
-    items: [
-      "Mecklenburg County Board of Health Rule Smoke-Free Government Grounds (county and 7 municipalities). Mecklenburg County Tobacco- Free Parks Ordinance.",
-      "2015–2016: Juul launches youth-focused marketing campaign (national).",
-      "Tax rate on E-cigarettes: 5 cents per milliliter of consumable nicotine solution in 2014. (Effective June 1, 2015). G.S> 105-113.35(a).",
-    ],
-  },
-  {
-    year: 2016,
-    items: [
-      "BB&T Stadium goes tobacco free.",
-      "HUD (federal) adopts smoke fre housing policy for housing authorities using “Public Housing” funding (voucher based not covered).",
-    ],
-  },
-  { year: 2017, items: ["GCAA Smoke-Free Multiunit Housing Certification initiative launches - 69 smoke-free properties by 2022.", "Statewide childcare facilities go tobacco free."] },
-  {
-    year: 2018,
-    items: [
-      "Mecklenburg County Public Health's Village HeartBEAT and AHA support 8 Black/AA churches taking campuses tobacco free.",
-      "Federal law increased tobacco purchase age to 21; also banned flavored e-cig pods.",
-      "2017–2019: Peak of Juul popularity among youth.",
-    ],
-  },
-  { year: 2019, items: ["Charlotte-Douglas International Airport goes tobacco free for all vendors and business partners (20,000 people); 2 outdoor passenger smoking areas still in place."] },
-  { year: 2020, items: ["Change for Life: Tobacco-Free Recovery Initiative launches to support tobacco free behavioral health.", "NC Breathe Easy Initiative supporting tobacco-free behavioral health launches."] },
-  {
-    year: 2021,
-    items: [
-      "McLeod Centers for Well Being (SUD Tx) adopts tobacco-free campus.",
-      "Charlotte Rescue Mission adopts tobacco-free campus.",
-      "NC’s JUUL Settlement passes June 2021 (1st in country): $40M; increased to $47.8M in 2023.",
-    ],
-  },
-  {
-    year: 2022,
-    items: [
-      "Anuvia Prevention & Treatment goes tobacco free (previously smoke free in detox only).",
-      "Harmony Health mental Health agency goes tobacco free  Hope Haven (SUD Tx) goes TF.",
-      "Queens University adopts tobacco-free campus.",
-      "Hope Community Clinic goes tobacco free.",
-      "Daymark (Mental Health) goes tobacco free.",
-      "G.S. 90-85.15B: Immunizing pharmacists can dispense, deliver, or administer Nicotine replacement therapy that is approved by the FDA. Standing Order by NC DHHS Chief Medical Officer and State Health Director.",
-      "Tax rate on Cigars is 12.8 percent of the wholesale price of the products with a cap of 30 cents. G.S. 105-113.36A (Effective July 1, 2022)",
-    ],
-  },
-  {
-    year: 2023,
-    items: [
-      "Clearing the Smoke- Mecklenburg TF Coalition with multicultural focus launches.",
-      "NC MedAssist goes TF, including statewide over-thecounter events.",
-      "Tobacco point-of-sale data collection (2023 & 2025); T-21 & retail permitting advocacy",
-      "State law (HB900) creates NC Vapor Registry. (amends Youth Access Law G.S> 14-313 (g)-(i)",
-    ],
-  },
-  {
-    year: 2024,
-    items: [
-      "Northeastern University adopts tobacco-free campus in Charlotte and 11 campuses nationwide.",
-      "Smith Family BH Urgent Care goes tobacco free",
-      "Monarch (Mental Health) goes tobacco free.",
-    ],
-  },
-  {
-    year: 2025,
-    items: [
-      "BOCC signs proclamation supporting NC T-21 and tobacco retail licensure.",
-      "Charlotte Pride takes Youth and Family Zone of Pride Festival tobacco free and moves event to tobacco-free First Ward Park.",
-      "NC Tobacco Prevention & Control staff furloughed after CDC stop work order and Office of Smoking and Health eliminated; Regional staff funding switched to JUUL settlement.",
-      "Tobacco-free campus policy requirement for NC Medicaid and state-funded service providers providing medical, behavioral health, I/DD and TBI services. Original effective date moved multiple times and is now January 2027.",
-    ],
-  },
-];
-
-// Utility: derive tags from text
-const deriveTags = (text: string): string[] => {
-  const tags = new Set<string>();
-  const t = text.toLowerCase();
-  if (/(mecklenburg|county|bocc|mcp|meck)/i.test(text)) tags.add("County");
-  if (/(city of charlotte|charlotte|cats|bb&t stadium|bank of america stadium)/i.test(text)) tags.add("City");
-  if (/(north carolina|nc\b|g\.s\.|house bill|unc|state law|statewide)/i.test(text)) tags.add("State");
-  if (/(federal|hud)/i.test(text)) tags.add("Federal");
-  if (/(university|college|school|cpcc|unc charlotte|johnson|wales|queens)/i.test(text)) tags.add("Education");
-  if (/(hospital|healthcare|clinic|medassist|behavioral health|sud|mental health|quitline|pharmacist|nicotine replacement)/i.test(text)) tags.add("Health");
-  if (/(airport)/i.test(text)) tags.add("Transportation");
-  if (/(tax|cents|registry)/i.test(text)) tags.add("Finance/Regulation");
-  if (/(coalition|network)/i.test(text)) tags.add("Coalitions");
-  return Array.from(tags);
-};
-
-// Flatten into entries with tags for easier filtering
-type Entry = { id: string; year: number; text: string; tags: string[] };
-const ENTRIES: Entry[] = TIMELINE.flatMap((y) =>
-  y.items.map((text, i) => ({ id: `${y.year}-${i}`, year: y.year, text, tags: deriveTags(text) }))
-);
-
-const uniqueDecades = Array.from(new Set(TIMELINE.map((y) => Math.floor(y.year / 10) * 10))).sort((a, b) => a - b);
-const allTags = Array.from(new Set(ENTRIES.flatMap((e) => e.tags))).sort();
-
-function exportJSON(entries: Entry[]) {
-  const blob = new Blob([JSON.stringify(entries, null, 2)], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "meck-tobacco-policy-timeline.json";
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-function exportCSV(entries: Entry[]) {
-  const header = ["year", "text", "tags"].join(",");
-  const rows = entries.map((e) =>
-    [e.year, '"' + e.text.replaceAll('"', '""') + '"', '"' + e.tags.join(";") + '"'].join(",")
-  );
-  const csv = [header, ...rows].join("\n");
-  const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "meck-tobacco-policy-timeline.csv";
-  a.click();
-  URL.revokeObjectURL(url);
-}
-
-export default function TimelinePage() {
-  const [query, setQuery] = useState("");
-  const [decade, setDecade] = useState<number | "all">("all");
-  const [tagFilters, setTagFilters] = useState<string[]>([]);
-  const [openYears, setOpenYears] = useState<Set<number>>(new Set());
-
-  const toggleYear = (year: number) => {
-    setOpenYears((prev) => {
-      const next = new Set(prev);
-      if (next.has(year)) next.delete(year); else next.add(year);
-      return next;
-    });
-  };
-
-  const resetFilters = () => {
-    setQuery("");
-    setDecade("all");
-    setTagFilters([]);
-    setOpenYears(new Set());
-  };
-
-  const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return ENTRIES.filter((e) => {
-      if (decade !== "all" && Math.floor(e.year / 10) * 10 !== decade) return false;
-      if (tagFilters.length && !tagFilters.every((t) => e.tags.includes(t))) return false;
-      if (q && !(e.text.toLowerCase().includes(q) || String(e.year).includes(q))) return false;
-      return true;
-    }).sort((a, b) => a.year - b.year);
-  }, [query, decade, tagFilters]);
-
-  // Group filtered results by year
-  const byYear = useMemo(() => {
-    const map = new Map<number, Entry[]>();
-    for (const e of filtered) {
-      if (!map.has(e.year)) map.set(e.year, []);
-      map.get(e.year)!.push(e);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mecklenburg Tobacco Policy Timeline (1969–2025)</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background: linear-gradient(180deg, #f8f6ff 0%, #ffffff 100%); }
+    .tag-badge { cursor: pointer; }
+    .sticky-topbar { backdrop-filter: blur(4px); background: rgba(255,255,255,0.85); }
+    @media print {
+      .no-print { display: none !important; }
+      .accordion-button::after { display: none !important; }
     }
-    return Array.from(map.entries()).sort((a, b) => a[0] - b[0]);
-  }, [filtered]);
+  </style>
+</head>
+<body>
+  <!-- Top bar -->
+  <nav class="navbar sticky-top sticky-topbar shadow-sm mb-3">
+    <div class="container-fluid container-lg">
+      <div class="d-flex align-items-center gap-2">
+        <span class="navbar-brand mb-0 h1">Mecklenburg Tobacco Policy Timeline</span>
+        <span class="text-muted small">1969–2025 • Web extract</span>
+      </div>
+      <div class="d-flex gap-2 no-print">
+        <button id="printBtn" class="btn btn-outline-secondary btn-sm">Print</button>
+        <button id="jsonBtn" class="btn btn-primary btn-sm">Export JSON</button>
+        <button id="csvBtn" class="btn btn-primary btn-sm">Export CSV</button>
+      </div>
+    </div>
+  </nav>
 
-  const exportEntries = () => exportCSV(filtered);
-
-  return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-white text-slate-800">
-      <header className="sticky top-0 z-20 backdrop-blur bg-white/70 border-b">
-        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center gap-3">
-          <div className="flex-1">
-            <h1 className="text-2xl md:text-3xl font-semibold">Mecklenburg Tobacco Policy Timeline (1969–2025)</h1>
-            <p className="text-sm md:text-base text-slate-600">Interactive reference built from the Mecklenburg County Public Health webpage timeline.</p>
-          </div>
-          <div className="hidden md:flex gap-2">
-            <Button variant="outline" onClick={() => window.print()} className="rounded-2xl"><Printer className="w-4 h-4 mr-2"/>Print</Button>
-            <Button variant="default" onClick={() => exportJSON(filtered)} className="rounded-2xl"><Download className="w-4 h-4 mr-2"/>JSON</Button>
-            <Button variant="default" onClick={exportEntries} className="rounded-2xl"><Download className="w-4 h-4 mr-2"/>CSV</Button>
+  <main class="container-lg pb-5">
+    <div class="row g-4">
+      <!-- Filters -->
+      <aside class="col-12 col-lg-4 col-xl-3 no-print">
+        <div class="card shadow-sm">
+          <div class="card-header fw-semibold">Filters</div>
+          <div class="card-body">
+            <div class="mb-3">
+              <label for="search" class="form-label">Search</label>
+              <input id="search" class="form-control" type="search" placeholder="Search text or year…" autocomplete="off">
+            </div>
+            <div class="mb-3">
+              <label for="decade" class="form-label">Decade</label>
+              <select id="decade" class="form-select">
+                <option value="all" selected>All decades</option>
+              </select>
+            </div>
+            <div class="mb-1">
+              <span class="form-label">Tags (click to toggle)</span>
+            </div>
+            <div id="tagContainer" class="d-flex flex-wrap gap-2 mb-2"></div>
+            <div class="d-grid">
+              <button id="resetBtn" class="btn btn-outline-secondary">Reset</button>
+            </div>
           </div>
         </div>
-      </header>
+        <div class="card mt-3 shadow-sm">
+          <div class="card-header fw-semibold">About</div>
+          <div class="card-body small text-muted">
+            <p>Built from the Mecklenburg County Public Health webpage timeline. Click a year to expand. Use search, decade, or tags to filter.</p>
+          </div>
+        </div>
+      </aside>
 
-      <main className="max-w-6xl mx-auto px-4 py-6 grid md:grid-cols-4 gap-6">
-        {/* Filters */}
-        <aside className="md:col-span-1 space-y-4">
-          <Card className="shadow-sm">
-            <CardHeader className="pb-2"><CardTitle className="text-base flex items-center gap-2"><Filter className="w-4 h-4"/>Filters</CardTitle></CardHeader>
-            <CardContent className="space-y-3">
-              <div className="relative">
-                <Search className="w-4 h-4 absolute left-2 top-1/2 -translate-y-1/2"/>
-                <Input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search text or year…" className="pl-8"/>
-              </div>
-
-              <div>
-                <label className="text-sm font-medium">Decade</label>
-                <select
-                  className="mt-1 w-full border rounded-md p-2"
-                  value={decade === "all" ? "all" : String(decade)}
-                  onChange={(e) => setDecade(e.target.value === "all" ? "all" : Number(e.target.value))}
-                >
-                  <option value="all">All decades</option>
-                  {uniqueDecades.map((d) => (
-                    <option key={d} value={d}>{d}s</option>
-                  ))}
-                </select>
-              </div>
-
-              <div>
-                <label className="text-sm font-medium">Tags</label>
-                <ScrollArea className="h-40 mt-2 p-1 border rounded-md">
-                  <div className="flex flex-wrap gap-2 p-1">
-                    {allTags.map((t) => {
-                      const active = tagFilters.includes(t);
-                      return (
-                        <button
-                          key={t}
-                          onClick={() => setTagFilters((prev) => active ? prev.filter((x) => x !== t) : [...prev, t])}
-                          className={`text-xs px-2 py-1 rounded-full border ${active ? "bg-black text-white" : "bg-white hover:bg-slate-50"}`}
-                          aria-pressed={active}
-                        >
-                          {t}
-                        </button>
-                      );
-                    })}
-                  </div>
-                </ScrollArea>
-              </div>
-
-              <div className="flex gap-2">
-                <Button variant="outline" className="rounded-2xl w-full" onClick={resetFilters}><RefreshCw className="w-4 h-4 mr-2"/>Reset</Button>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="shadow-sm">
-            <CardHeader className="pb-2"><CardTitle className="text-base">About</CardTitle></CardHeader>
-            <CardContent className="text-sm text-slate-600 space-y-2">
-              <p>Entries are grouped by year. Click a year to expand. Tags are auto-derived from the text to help with filtering.</p>
-              <p>Use the buttons at the top-right to export the filtered view to CSV/JSON or to print.</p>
-            </CardContent>
-          </Card>
-        </aside>
-
-        {/* Timeline */}
-        <section className="md:col-span-3 space-y-4">
-          {byYear.length === 0 ? (
-            <p className="text-slate-600">No results match your filters.</p>
-          ) : (
-            byYear.map(([year, entries]) => {
-              const open = openYears.has(year);
-              return (
-                <Card key={year} className="overflow-hidden shadow-sm">
-                  <button
-                    className="w-full text-left px-4 py-3 flex items-center justify-between bg-white hover:bg-slate-50"
-                    onClick={() => toggleYear(year)}
-                    aria-expanded={open}
-                  >
-                    <div className="flex items-center gap-3">
-                      <div className="w-16 text-xl font-semibold text-slate-900">{year}</div>
-                      <div className="text-sm text-slate-600">{entries.length} item{entries.length > 1 ? "s" : ""}</div>
-                    </div>
-                    {open ? <ChevronUp className="w-5 h-5"/> : <ChevronDown className="w-5 h-5"/>}
-                  </button>
-
-                  <AnimatePresence initial={false}>
-                    {open && (
-                      <motion.div
-                        key="content"
-                        initial={{ height: 0, opacity: 0 }}
-                        animate={{ height: "auto", opacity: 1 }}
-                        exit={{ height: 0, opacity: 0 }}
-                        transition={{ duration: 0.2 }}
-                      >
-                        <CardContent className="pt-0">
-                          <ul className="divide-y">
-                            {entries.map((e) => (
-                              <li key={e.id} className="py-3">
-                                <div className="flex flex-wrap items-center gap-2 mb-1">
-                                  {e.tags.map((t) => (
-                                    <Badge key={t} variant="outline" className="rounded-full">{t}</Badge>
-                                  ))}
-                                </div>
-                                <p className="leading-relaxed">{e.text}</p>
-                              </li>
-                            ))}
-                          </ul>
-                        </CardContent>
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </Card>
-              );
-            })
-          )}
-        </section>
-      </main>
-
-      <footer className="max-w-6xl mx-auto px-4 pb-10 pt-2 text-xs text-slate-500">
-        Built for publication as a single-page web view. Data source: Mecklenburg County Public Health – Tobacco Policy Timeline (webpage extract, 1969–2025).
-      </footer>
-
-      <style>{`
-        @media print {
-          header { position: static; border: none; }
-          main { grid-template-columns: 1fr !important; }
-          aside { display: none; }
-          section .shadow-sm { box-shadow: none !important; }
-        }
-      `}</style>
+      <!-- Timeline -->
+      <section class="col-12 col-lg-8 col-xl-9">
+        <div id="resultsCount" class="text-muted small mb-2"></div>
+        <div id="timelineContainer" class="accordion"></div>
+      </section>
     </div>
-  );
-}
+  </main>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // === Data: exactly as extracted from the web timeline ===
+    const TIMELINE = [
+      {year:1969,items:["City of Charlotte ordinance bans smoking in shopping areas of retail stores >200 people or 25 employees for fire safety."]},
+      {year:1989,items:["City of Charlotte smoke-free ordinance for government owned buildings."]},
+      {year:1993,items:["Mecklenburg County: Project Assist Funding started (Public Health).","North Carolina: NC enacts law authorizing state/local governments to establish non-smoking areas in government buildings."]},
+      {year:2000,items:["Mecklenburg County adopts policy for smoke-free government buildings and vehicles; no smoking except designated areas at Charlotte- Douglas International Airport.","NC Tobacco Prevention & Control Branch sets goal of achieving 100% tobacco-free schools."]},
+      {year:2003,items:["Charlotte-Mecklenburg Schools adopt 100% tobacco-free policy for students, staff and visitors – buildings and grounds, school events."]},
+      {year:2004,items:["TRU funding from NC HWTF (youth focus) from 2003-2012."]},
+      {year:2005,items:["Smoke Free Charlotte which becomes Smoke Free Mecklenburg Coalition starts."]},
+      {year:2006,items:["Carolinas HealthCare System (CHS) becomes 100% tobacco free.","Duke Endowment funds NC Prevention Partners, in partnership with NC Hospital Association, to help NC hospitals go 100% tobacco free; NC Quitline launches."]},
+      {year:2007,items:["City of Charlotte passes resolution to support local control of indoor air laws.","State laws allow UNC institutions to regulate smoking in buildings/on grounds; set 100% tobacco-free policy for public school systems (effective Aug. 1, 2008); and prohibit smoking in long-term care facilities and nursing homes; adopts fire-safe cigarette law."]},
+      {year:2008,items:["City of Charlotte adopts tobacco-free policy for government buildings and vehicles.","State laws mandate smoke-free state government buildings and authorize local governments to mandate smoke-free government buildings and vehicles."]},
+      {year:2009,items:["CPCC adopts tobacco-free campus policy.","CATS bus system adopts smoke-free policy for center & bus stop shelters.","All 127 full-service NC hospitals are 100% tobacco-free.","Tax rate per pack of 20 cigarettes: 45 cents. Dates of last changes: 5 cents to 35 cents in 2005-06 and from 35 cents to 45 cents in 2009."]},
+      {year:2010,items:["UNC Charlotte adopts smoke-free policy for buildings & 100 ft. from doors.","Mecklenburg County Public Health Department adopts tobacco-free grounds policy.","House Bill 2 prohibits smoking in restaurants and bars; law expands local government authority to regulate smoking on government grounds and for certain enclosed public spaces."]},
+      {year:2011,items:["City of Charlotte revises tobacco cessation benefits for employees."]},
+      {year:2012,items:["Town of Cornelius adopts tobacco-free ordinance for parks; Town of Huntersville adopts smoke-free park policy.","Town of Davidson adds no smoking to Parks Use Policy.","Charlotte Housing Authority: new and renovated buildings to open smoke free.","All state prison facilities go tobacco free."]},
+      {year:2013,items:["Tobacco Free Mecklenburg network launches.","Mecklenburg County opens new Romare Bearden Park tobacco free.","Johnson C. Smith University adopts tobacco-free campus policy."]},
+      {year:2014,items:["Bank of America Stadium goes smoke free.","Johnson and Wales University adopts tobacco free campus policy.","Medic in Charlotte goes tobacco free.","State operated Mental Health Facilities go 100% tobacco free."]},
+      {year:2015,items:["Mecklenburg County Board of Health Rule Smoke-Free Government Grounds (county and 7 municipalities). Mecklenburg County Tobacco- Free Parks Ordinance.","2015–2016: Juul launches youth-focused marketing campaign (national).","Tax rate on E-cigarettes: 5 cents per milliliter of consumable nicotine solution in 2014. (Effective June 1, 2015). G.S> 105-113.35(a)."]},
+      {year:2016,items:["BB&T Stadium goes tobacco free.","HUD (federal) adopts smoke fre housing policy for housing authorities using “Public Housing” funding (voucher based not covered)."]},
+      {year:2017,items:["GCAA Smoke-Free Multiunit Housing Certification initiative launches - 69 smoke-free properties by 2022.","Statewide childcare facilities go tobacco free."]},
+      {year:2018,items:["Mecklenburg County Public Health's Village HeartBEAT and AHA support 8 Black/AA churches taking campuses tobacco free.","Federal law increased tobacco purchase age to 21; also banned flavored e-cig pods.","2017–2019: Peak of Juul popularity among youth."]},
+      {year:2019,items:["Charlotte-Douglas International Airport goes tobacco free for all vendors and business partners (20,000 people); 2 outdoor passenger smoking areas still in place."]},
+      {year:2020,items:["Change for Life: Tobacco-Free Recovery Initiative launches to support tobacco free behavioral health.","NC Breathe Easy Initiative supporting tobacco-free behavioral health launches."]},
+      {year:2021,items:["McLeod Centers for Well Being (SUD Tx) adopts tobacco-free campus.","Charlotte Rescue Mission adopts tobacco-free campus.","NC’s JUUL Settlement passes June 2021 (1st in country): $40M; increased to $47.8M in 2023."]},
+      {year:2022,items:["Anuvia Prevention & Treatment goes tobacco free (previously smoke free in detox only).","Harmony Health mental Health agency goes tobacco free  Hope Haven (SUD Tx) goes TF.","Queens University adopts tobacco-free campus.","Hope Community Clinic goes tobacco free.","Daymark (Mental Health) goes tobacco free.","G.S. 90-85.15B: Immunizing pharmacists can dispense, deliver, or administer Nicotine replacement therapy that is approved by the FDA. Standing Order by NC DHHS Chief Medical Officer and State Health Director.","Tax rate on Cigars is 12.8 percent of the wholesale price of the products with a cap of 30 cents. G.S. 105-113.36A (Effective July 1, 2022)"]},
+      {year:2023,items:["Clearing the Smoke- Mecklenburg TF Coalition with multicultural focus launches.","NC MedAssist goes TF, including statewide over-thecounter events.","Tobacco point-of-sale data collection (2023 & 2025); T-21 & retail permitting advocacy","State law (HB900) creates NC Vapor Registry. (amends Youth Access Law G.S> 14-313 (g)-(i)"]},
+      {year:2024,items:["Northeastern University adopts tobacco-free campus in Charlotte and 11 campuses nationwide.","Smith Family BH Urgent Care goes tobacco free","Monarch (Mental Health) goes tobacco free."]},
+      {year:2025,items:["BOCC signs proclamation supporting NC T-21 and tobacco retail licensure.","Charlotte Pride takes Youth and Family Zone of Pride Festival tobacco free and moves event to tobacco-free First Ward Park.","NC Tobacco Prevention & Control staff furloughed after CDC stop work order and Office of Smoking and Health eliminated; Regional staff funding switched to JUUL settlement.","Tobacco-free campus policy requirement for NC Medicaid and state-funded service providers providing medical, behavioral health, I/DD and TBI services. Original effective date moved multiple times and is now January 2027."]}
+    ];
+
+    // === Tag derivation ===
+    function deriveTags(text) {
+      const tags = new Set();
+      const t = text.toLowerCase();
+      if (/(mecklenburg|county|bocc|romare|parks ordinance)/i.test(text)) tags.add("County");
+      if (/(city of charlotte|charlotte|cats|bb&t|bank of america stadium)/i.test(text)) tags.add("City");
+      if (/(north carolina|\\bnc\\b|g\\.|house bill|unc|state law|statewide)/i.test(text)) tags.add("State");
+      if (/(federal|hud)/i.test(text)) tags.add("Federal");
+      if (/(university|college|school|cpcc|unc charlotte|johnson|wales|queens)/i.test(text)) tags.add("Education");
+      if (/(hospital|healthcare|clinic|medassist|behavioral health|sud|mental health|quitline|pharmacist|nicotine replacement|bh )/i.test(text)) tags.add("Health");
+      if (/(airport)/i.test(text)) tags.add("Transportation");
+      if (/(tax|cents|registry)/i.test(text)) tags.add("Finance/Regulation");
+      if (/(coalition|network)/i.test(text)) tags.add("Coalitions");
+      return Array.from(tags);
+    }
+
+    // Flatten entries
+    const ENTRIES = TIMELINE.flatMap(y => y.items.map((text, i) => ({
+      id: `${y.year}-${i}`,
+      year: y.year,
+      text,
+      tags: deriveTags(text)
+    })));
+
+    // UI state
+    const state = {
+      query: "",
+      decade: "all",
+      tags: new Set()
+    };
+
+    // Build decade options
+    (() => {
+      const decades = [...new Set(TIMELINE.map(y => Math.floor(y.year/10)*10))].sort((a,b)=>a-b);
+      const sel = document.getElementById("decade");
+      decades.forEach(d => {
+        const opt = document.createElement("option");
+        opt.value = String(d);
+        opt.textContent = `${d}s`;
+        sel.appendChild(opt);
+      });
+    })();
+
+    // Build tag toggles
+    (() => {
+      const allTags = [...new Set(ENTRIES.flatMap(e => e.tags))].sort();
+      const box = document.getElementById("tagContainer");
+      allTags.forEach(tag => {
+        const span = document.createElement("span");
+        span.className = "badge text-bg-light border tag-badge";
+        span.textContent = tag;
+        span.dataset.tag = tag;
+        span.onclick = () => {
+          if (state.tags.has(tag)) {
+            state.tags.delete(tag);
+            span.className = "badge text-bg-light border tag-badge";
+          } else {
+            state.tags.add(tag);
+            span.className = "badge text-bg-dark tag-badge";
+          }
+          render();
+        };
+        box.appendChild(span);
+      });
+    })();
+
+    // Filtering
+    function getFiltered() {
+      const q = state.query.trim().toLowerCase();
+      return ENTRIES.filter(e => {
+        if (state.decade !== "all" && Math.floor(e.year/10)*10 !== Number(state.decade)) return false;
+        if (state.tags.size > 0) {
+          const hasAll = [...state.tags].every(t => e.tags.includes(t));
+          if (!hasAll) return false;
+        }
+        if (q && !(e.text.toLowerCase().includes(q) || String(e.year).includes(q))) return false;
+        return true;
+      }).sort((a,b)=>a.year-b.year);
+    }
+
+    function groupByYear(entries) {
+      const map = new Map();
+      for (const e of entries) {
+        if (!map.has(e.year)) map.set(e.year, []);
+        map.get(e.year).push(e);
+      }
+      return [...map.entries()].sort((a,b)=>a[0]-b[0]);
+    }
+
+    // Render timeline
+    function render() {
+      const filtered = getFiltered();
+      const container = document.getElementById("timelineContainer");
+      container.innerHTML = "";
+      const count = document.getElementById("resultsCount");
+      count.textContent = `${filtered.length} item${filtered.length===1?'':'s'} shown`;
+
+      const groups = groupByYear(filtered);
+
+      if (groups.length === 0) {
+        container.innerHTML = '<div class="alert alert-secondary">No results match your filters.</div>';
+        return;
+      }
+
+      groups.forEach(([year, entries], idx) => {
+        const itemId = `year-${year}`;
+        const card = document.createElement("div");
+        card.className = "accordion-item shadow-sm mb-2 rounded-2";
+
+        const header = document.createElement("h2");
+        header.className = "accordion-header";
+
+        const button = document.createElement("button");
+        button.className = "accordion-button collapsed";
+        button.type = "button";
+        button.setAttribute("data-bs-toggle", "collapse");
+        button.setAttribute("data-bs-target", `#${itemId}`);
+        button.setAttribute("aria-expanded", "false");
+        button.innerHTML = `<div class="me-3 fw-semibold">${year}</div><span class="text-muted small">${entries.length} item${entries.length>1?'s':''}</span>`;
+
+        header.appendChild(button);
+
+        const collapse = document.createElement("div");
+        collapse.id = itemId;
+        collapse.className = "accordion-collapse collapse";
+
+        const body = document.createElement("div");
+        body.className = "accordion-body";
+        const ul = document.createElement("ul");
+        ul.className = "list-group list-group-flush";
+        entries.forEach(e => {
+          const li = document.createElement("li");
+          li.className = "list-group-item px-0";
+          const tags = e.tags.map(t => `<span class='badge text-bg-secondary me-1'>${t}</span>`).join("");
+          li.innerHTML = `${tags ? "<div class='mb-1'>" + tags + "</div>" : ""}<div>${e.text}</div>`;
+          ul.appendChild(li);
+        });
+        body.appendChild(ul);
+        collapse.appendChild(body);
+
+        card.appendChild(header);
+        card.appendChild(collapse);
+        container.appendChild(card);
+      });
+    }
+
+    // Wire controls
+    document.getElementById("search").addEventListener("input", (e) => { state.query = e.target.value; render(); });
+    document.getElementById("decade").addEventListener("change", (e) => { state.decade = e.target.value; render(); });
+    document.getElementById("resetBtn").addEventListener("click", () => {
+      state.query = "";
+      state.decade = "all";
+      state.tags.clear();
+      document.getElementById("search").value = "";
+      document.getElementById("decade").value = "all";
+      // reset tag badges
+      document.querySelectorAll(".tag-badge").forEach(el => el.className = "badge text-bg-light border tag-badge");
+      render();
+    });
+
+    // Export helpers
+    function download(filename, text, type="text/plain") {
+      const blob = new Blob([text], {type});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+    document.getElementById("jsonBtn").addEventListener("click", () => {
+      const data = getFiltered();
+      download("meck-tobacco-policy-timeline.json", JSON.stringify(data, null, 2), "application/json");
+    });
+    document.getElementById("csvBtn").addEventListener("click", () => {
+      const data = getFiltered();
+      const esc = (s) => '\"' + String(s).replaceAll('\"','\"\"') + '\"';
+      const rows = data.map(d => [d.year, esc(d.text), esc(d.tags.join(';'))].join(','));
+      const csv = ['year,text,tags', ...rows].join('\\n');
+      download("meck-tobacco-policy-timeline.csv", csv, "text/csv;charset=utf-8");
+    });
+    document.getElementById("printBtn").addEventListener("click", () => window.print());
+
+    // Initial render
+    render();
+  </script>
+</body>
+</html>
