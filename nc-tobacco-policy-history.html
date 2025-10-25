@@ -6,47 +6,28 @@
   <title>Mecklenburg Tobacco Policy Timeline (1969–2025)</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    :root{
-      --line:#d9d6f7;
-      --node:#6f42c1;
-      --card:#ffffff;
-    }
+    :root{ --line:#d9d6f7; --node:#6f42c1; --card:#ffffff; }
     body{background:linear-gradient(180deg,#f7f6ff 0,#fff 100%);}
     .sticky-topbar{backdrop-filter:blur(4px);background:rgba(255,255,255,.9);}
-    .timeline {position: relative;padding: 2rem 0;margin: 0 auto;max-width: 1100px;}
-    .timeline::before {
-      content: "";position: absolute;top: 0;bottom: 0;left: 50%;width: 4px;
-      transform: translateX(-50%);background: var(--line);border-radius: 2px;
-    }
-    .year-node {position: relative;margin: 2rem 0 1rem 0;text-align: center;}
-    .year-node .dot {
-      position: relative;z-index: 2;width: 56px;height: 56px;border-radius: 50%;
-      background: var(--node);color: #fff;display: inline-flex;align-items: center;
-      justify-content: center;font-weight: 700;box-shadow: 0 6px 16px rgba(111,66,193,.25);
-    }
-    .entry-row {position: relative;margin-bottom: 1rem;}
-    .entry-card {
-      background: var(--card);border: 1px solid #eee;border-radius: .75rem;
-      box-shadow: 0 .125rem .75rem rgba(0,0,0,.06);
-    }
-    .entry-pointer {position: absolute;top: 14px;width: 14px;height: 14px;
-      background: var(--card);transform: rotate(45deg);border: 1px solid #eee;}
-    .entry-left .entry-pointer{right: -7px;}
-    .entry-right .entry-pointer{left: -7px;}
-    .side-indicator {
-      position:absolute;top: 14px;width:12px;height:12px;background: #fff;
-      border: 3px solid var(--node);border-radius: 50%;z-index: 2;
-    }
-    .entry-left .side-indicator{right: calc(50% - 6px);}
-    .entry-right .side-indicator{left: calc(50% - 6px);}
-    @media (max-width: 991.98px) {
-      .timeline::before {left: 12px;transform:none;}
-      .year-node {text-align:left;padding-left: 40px;}
+    .timeline{position:relative;padding:2rem 0;margin:0 auto;max-width:1100px;}
+    .timeline::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:4px;transform:translateX(-50%);background:var(--line);border-radius:2px;}
+    .year-node{position:relative;margin:2rem 0 1rem 0;text-align:center;}
+    .year-node .dot{position:relative;z-index:2;width:56px;height:56px;border-radius:50%;background:var(--node);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700;box-shadow:0 6px 16px rgba(111,66,193,.25);}
+    .entry-row{position:relative;margin-bottom:1rem;}
+    .entry-card{background:var(--card);border:1px solid #eee;border-radius:.75rem;box-shadow:0 .125rem .75rem rgba(0,0,0,.06);}
+    .entry-pointer{position:absolute;top:14px;width:14px;height:14px;background:var(--card);transform:rotate(45deg);border:1px solid #eee;}
+    .entry-left .entry-pointer{right:-7px;} .entry-right .entry-pointer{left:-7px;}
+    .side-indicator{position:absolute;top:14px;width:12px;height:12px;background:#fff;border:3px solid var(--node);border-radius:50%;z-index:2;}
+    .entry-left .side-indicator{right:calc(50% - 6px);} .entry-right .side-indicator{left:calc(50% - 6px);}
+    @media (max-width: 991.98px){
+      .timeline::before{left:12px;transform:none;}
+      .year-node{text-align:left;padding-left:40px;}
       .year-node .dot{width:44px;height:44px;font-size:1rem;}
-      .entry-left, .entry-right {padding-left: 40px;}
+      .entry-left,.entry-right{padding-left:40px;}
       .entry-pointer{display:none;}
-      .side-indicator{left: 6px !important;right:auto;}
+      .side-indicator{left:6px !important;right:auto;}
     }
+    @media print{ .no-print{display:none!important;} .entry-pointer{display:none;} .entry-card{box-shadow:none!important;} }
   </style>
 </head>
 <body>
@@ -65,57 +46,189 @@
   <main class="container-lg">
     <div id="timeline" class="timeline"></div>
     <div class="small text-muted mt-4 pb-5">
-      Data source: Mecklenburg County Public Health – Tobacco Policy Timeline (web extract, 1969–2025)
+      Data source: Mecklenburg County Public Health – Tobacco Policy Timeline (web extract, 1969–2025).
     </div>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
+    // Full dataset (exact text from your list)
     const TIMELINE = [
-      {year:1969,items:["City of Charlotte ordinance bans smoking in shopping areas of retail stores >200 people or 25 employees for fire safety."]},
-      {year:1989,items:["City of Charlotte smoke-free ordinance for government owned buildings."]},
-      {year:1993,items:["Mecklenburg County: Project Assist Funding started (Public Health).","North Carolina: NC enacts law authorizing state/local governments to establish non-smoking areas in government buildings."]},
-      {year:2000,items:["Mecklenburg County adopts policy for smoke-free government buildings and vehicles; no smoking except designated areas at Charlotte- Douglas International Airport.","NC Tobacco Prevention & Control Branch sets goal of achieving 100% tobacco-free schools."]},
-      {year:2003,items:["Charlotte-Mecklenburg Schools adopt 100% tobacco-free policy for students, staff and visitors – buildings and grounds, school events."]},
-      {year:2006,items:["Carolinas HealthCare System becomes 100% tobacco free.","Duke Endowment funds NC Prevention Partners, NC Quitline launches."]},
-      {year:2010,items:["UNC Charlotte adopts smoke-free policy.","Mecklenburg County Public Health Department adopts tobacco-free grounds policy.","House Bill 2 prohibits smoking in restaurants and bars."]},
-      {year:2015,items:["Mecklenburg County Board of Health Rule Smoke-Free Government Grounds.","Juul launches youth-focused marketing campaign (national)."]},
-      {year:2020,items:["Change for Life: Tobacco-Free Recovery Initiative launches.","NC Breathe Easy Initiative supporting tobacco-free behavioral health launches."]},
-      {year:2025,items:["BOCC signs proclamation supporting NC T-21 and tobacco retail licensure.","Charlotte Pride takes Youth and Family Zone tobacco free at First Ward Park."]}
+      {year:1969,items:[
+        "City of Charlotte ordinance bans smoking in shopping areas of retail stores with >200 people or 25 employees for fire safety."
+      ]},
+      {year:1989,items:[
+        "City of Charlotte smoke-free ordinance for government-owned buildings."
+      ]},
+      {year:1993,items:[
+        "Mecklenburg County: Project Assist funding started (Public Health).",
+        "North Carolina: Law authorizes state/local governments to establish nonsmoking areas in government buildings."
+      ]},
+      {year:2000,items:[
+        "Mecklenburg County adopts policy for smoke-free government buildings and vehicles; no smoking except designated areas at Charlotte-Douglas International Airport.",
+        "NC Tobacco Prevention & Control Branch sets goal of achieving 100% tobacco-free schools."
+      ]},
+      {year:2003,items:[
+        "Charlotte-Mecklenburg Schools adopt 100% tobacco-free policy for students, staff, and visitors (buildings, grounds, school events)."
+      ]},
+      {year:2004,items:[
+        "TRU funding from NC HWTF (youth focus) from 2003–2012."
+      ]},
+      {year:2005,items:[
+        "Smoke Free Charlotte, which becomes Smoke Free Mecklenburg Coalition, starts."
+      ]},
+      {year:2006,items:[
+        "Carolinas HealthCare System becomes 100% tobacco-free.",
+        "Duke Endowment funds NC Prevention Partners (with NC Hospital Association) to help NC hospitals go 100% tobacco-free; NC Quitline launches."
+      ]},
+      {year:2007,items:[
+        "City of Charlotte passes resolution to support local control of indoor air laws.",
+        "State laws allow UNC institutions to regulate smoking in buildings/on grounds; set 100% tobacco-free policy for public school systems (effective Aug. 1, 2008); prohibit smoking in long-term care facilities and nursing homes; adopt fire-safe cigarette law."
+      ]},
+      {year:2008,items:[
+        "City of Charlotte adopts tobacco-free policy for government buildings and vehicles.",
+        "State laws mandate smoke-free state government buildings and authorize local governments to mandate smoke-free government buildings and vehicles."
+      ]},
+      {year:2009,items:[
+        "CPCC adopts tobacco-free campus policy.",
+        "CATS bus system adopts smoke-free policy for center and bus stop shelters.",
+        "All 127 full-service NC hospitals are 100% tobacco-free.",
+        "Cigarette tax per pack of 20: 45 cents (raised from 35 cents in 2009; prior change 5→35 cents in 2005–06)."
+      ]},
+      {year:2010,items:[
+        "UNC Charlotte adopts smoke-free policy for buildings and 100 ft. from doors.",
+        "Mecklenburg County Public Health Department adopts tobacco-free grounds policy.",
+        "House Bill 2 prohibits smoking in restaurants and bars; expands local government authority to regulate smoking on government grounds and certain enclosed public spaces."
+      ]},
+      {year:2011,items:[
+        "City of Charlotte revises tobacco cessation benefits for employees."
+      ]},
+      {year:2012,items:[
+        "Town of Cornelius adopts tobacco-free ordinance for parks; Town of Huntersville adopts smoke-free park policy.",
+        "Town of Davidson adds no-smoking to Parks Use Policy.",
+        "Charlotte Housing Authority: new and renovated buildings to open smoke-free.",
+        "All state prison facilities go tobacco-free."
+      ]},
+      {year:2013,items:[
+        "Tobacco Free Mecklenburg network launches.",
+        "Mecklenburg County opens Romare Bearden Park tobacco-free.",
+        "Johnson C. Smith University adopts tobacco-free campus policy."
+      ]},
+      {year:2014,items:[
+        "Bank of America Stadium goes smoke-free.",
+        "Johnson & Wales University adopts tobacco-free campus policy.",
+        "Medic in Charlotte goes tobacco-free.",
+        "State-operated mental health facilities go 100% tobacco-free."
+      ]},
+      {year:2015,items:[
+        "Mecklenburg County Board of Health Rule: Smoke-Free Government Grounds (county and 7 municipalities). Mecklenburg County Tobacco-Free Parks Ordinance.",
+        "2015–2016: Juul launches youth-focused marketing campaign (national).",
+        "E-cigarette tax: 5 cents per milliliter of consumable nicotine solution (effective June 1, 2015; G.S. 105-113.35(a))."
+      ]},
+      {year:2016,items:[
+        "BB&T Stadium goes tobacco-free.",
+        "HUD (federal) adopts smoke-free housing policy for housing authorities using Public Housing funding (voucher-based not covered)."
+      ]},
+      {year:2017,items:[
+        "GCAA Smoke-Free Multiunit Housing Certification initiative launches (69 smoke-free properties by 2022).",
+        "Statewide childcare facilities go tobacco-free."
+      ]},
+      {year:2018,items:[
+        "Mecklenburg County Public Health’s Village HeartBEAT and AHA support 8 Black/African American churches taking campuses tobacco-free.",
+        "Federal law increases tobacco purchase age to 21 and bans flavored e-cig pods.",
+        "2017–2019: Peak of Juul popularity among youth."
+      ]},
+      {year:2019,items:[
+        "Charlotte-Douglas International Airport goes tobacco-free for all vendors and business partners (≈20,000 people); two outdoor passenger smoking areas remain."
+      ]},
+      {year:2020,items:[
+        "Change for Life: Tobacco-Free Recovery Initiative launches to support tobacco-free behavioral health.",
+        "NC Breathe Easy Initiative supporting tobacco-free behavioral health launches."
+      ]},
+      {year:2021,items:[
+        "McLeod Centers for Well Being (SUD treatment) adopts tobacco-free campus.",
+        "Charlotte Rescue Mission adopts tobacco-free campus.",
+        "NC’s JUUL Settlement passes June 2021 ($40M; increased to $47.8M in 2023)."
+      ]},
+      {year:2022,items:[
+        "Anuvia Prevention & Treatment goes tobacco-free (previously smoke-free in detox only).",
+        "Harmony Health mental health agency goes tobacco-free.",
+        "Hope Haven (SUD treatment) goes tobacco-free.",
+        "Queens University adopts tobacco-free campus.",
+        "Hope Community Clinic goes tobacco-free.",
+        "Daymark (mental health) goes tobacco-free.",
+        "G.S. 90-85.15B: Immunizing pharmacists can dispense, deliver, or administer FDA-approved nicotine replacement therapy (standing order by NC DHHS Chief Medical Officer and State Health Director).",
+        "Tax on cigars: 12.8% of wholesale price, capped at 30 cents (G.S. 105-113.36A; effective July 1, 2022)."
+      ]},
+      {year:2023,items:[
+        "Clearing the Smoke — Mecklenburg Tobacco-Free Coalition with multicultural focus launches.",
+        "NC MedAssist goes tobacco-free, including statewide over-the-counter events.",
+        "Tobacco point-of-sale data collection (2023 & 2025); T-21 and retail permitting advocacy.",
+        "State law (HB900) creates NC Vapor Registry (amends Youth Access Law G.S. 14-313 (g)–(i))."
+      ]},
+      {year:2024,items:[
+        "Northeastern University adopts tobacco-free campus in Charlotte and 11 campuses nationwide.",
+        "Smith Family Behavioral Health Urgent Care goes tobacco-free.",
+        "Monarch (mental health) goes tobacco-free."
+      ]},
+      {year:2025,items:[
+        "BOCC signs proclamation supporting NC T-21 and tobacco retail licensure.",
+        "Charlotte Pride takes Youth and Family Zone of Pride Festival tobacco-free and moves event to tobacco-free First Ward Park.",
+        "NC Tobacco Prevention & Control staff furloughed after CDC stop-work order and Office of Smoking and Health eliminated; regional staff funding switched to JUUL settlement.",
+        "Tobacco-free campus policy requirement for NC Medicaid and state-funded service providers (medical, behavioral health, I/DD, TBI). Effective date now January 2027 (moved multiple times)."
+      ]}
     ];
 
     function render(){
       const el = document.getElementById("timeline");
-      el.innerHTML="";
+      el.innerHTML = "";
       let side = "left";
-      TIMELINE.forEach(y=>{
+      TIMELINE.forEach(y => {
+        // Year bubble
         const yearNode = document.createElement("div");
-        yearNode.className="year-node";
-        yearNode.innerHTML=`<span class="dot">${y.year}</span>`;
+        yearNode.className = "year-node";
+        yearNode.innerHTML = `<span class="dot">${y.year}</span>`;
         el.appendChild(yearNode);
-        y.items.forEach(text=>{
-          const row=document.createElement("div");
-          row.className=`entry-row row entry-${side}`;
-          const colL=document.createElement("div"), colR=document.createElement("div");
-          if(side==="left"){colL.className="col-12 col-lg-6 order-lg-1 mb-3";colR.className="col-12 col-lg-6 order-lg-2 mb-3";}
-          else{colL.className="col-12 col-lg-6 order-lg-2 mb-3";colR.className="col-12 col-lg-6 order-lg-1 mb-3";}
-          const indicator=document.createElement("div");
-          indicator.className="side-indicator";
+
+        // Items for the year
+        y.items.forEach(text => {
+          const row = document.createElement("div");
+          row.className = `entry-row row entry-${side}`;
+
+          const colL = document.createElement("div");
+          const colR = document.createElement("div");
+          if (side === "left") {
+            colL.className = "col-12 col-lg-6 order-lg-1 mb-3";
+            colR.className = "col-12 col-lg-6 order-lg-2 mb-3";
+          } else {
+            colL.className = "col-12 col-lg-6 order-lg-2 mb-3";
+            colR.className = "col-12 col-lg-6 order-lg-1 mb-3";
+          }
+
+          const indicator = document.createElement("div");
+          indicator.className = "side-indicator";
           row.appendChild(indicator);
-          const card=document.createElement("div");
-          card.className="entry-card p-3";
-          card.innerHTML=text;
-          const pointer=document.createElement("div");
-          pointer.className="entry-pointer";
-          if(side==="left"){colL.appendChild(card);card.appendChild(pointer);}
-          else{colR.appendChild(card);card.appendChild(pointer);}
-          row.appendChild(colL);row.appendChild(colR);
+
+          const card = document.createElement("div");
+          card.className = "entry-card p-3";
+          card.innerText = text;
+
+          const pointer = document.createElement("div");
+          pointer.className = "entry-pointer";
+
+          if (side === "left") { colL.appendChild(card); card.appendChild(pointer); }
+          else { colR.appendChild(card); card.appendChild(pointer); }
+
+          row.appendChild(colL);
+          row.appendChild(colR);
           el.appendChild(row);
-          side=side==="left"?"right":"left";
+
+          side = side === "left" ? "right" : "left"; // alternate sides
         });
       });
     }
-    document.getElementById("printBtn").onclick=()=>window.print();
+
+    document.getElementById("printBtn").onclick = () => window.print();
     render();
   </script>
 </body>
