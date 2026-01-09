@@ -1,0 +1,106 @@
+name: Emilio Pucci Dress Monitor
+
+on:
+  schedule:
+    # Run daily at 9:00 AM UTC (adjust timezone as needed)
+    - cron: '0 9 * * *'
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  monitor-dress:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        cd dress-monitor
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run dress availability monitor
+      env:
+        # Email notification settings (configure in GitHub Secrets)
+        SEND_EMAIL_NOTIFICATIONS: ${{ secrets.SEND_EMAIL_NOTIFICATIONS }}
+        NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+        SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+        SMTP_PORT: ${{ secrets.SMTP_PORT }}
+        SMTP_USER: ${{ secrets.SMTP_USER }}
+        SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      run: |
+        cd dress-monitor
+        python3 monitor_enhanced.py
+
+    - name: Upload monitoring logs
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: monitor-logs-${{ github.run_number }}
+        path: |
+          dress-monitor/monitor.log
+          dress-monitor/findings.json
+        retention-days: 30
+
+    - name: Create Issue if dress found
+      if: hashFiles('dress-monitor/findings.json') != ''
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+
+          // Check if findings file exists and has new entries
+          if (fs.existsSync('dress-monitor/findings.json')) {
+            const findings = JSON.parse(fs.readFileSync('dress-monitor/findings.json', 'utf8'));
+
+            if (findings.length > 0) {
+              // Get the most recent finding
+              const latest = findings[findings.length - 1];
+
+              // Create a GitHub issue
+              const issue = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `🔔 Emilio Pucci Dress Found - ${latest.retailer}`,
+                body: `## Dress Available!\n\n` +
+                      `**Item:** ${latest.title}\n` +
+                      `**Size:** ${latest.size}\n` +
+                      `**Retailer:** ${latest.retailer}\n` +
+                      `**Price:** ${latest.price}\n` +
+                      `**Condition:** ${latest.condition}\n` +
+                      `**Link:** ${latest.url}\n\n` +
+                      `**Notes:** ${latest.notes}\n\n` +
+                      `**Found at:** ${latest.timestamp}\n\n` +
+                      `---\n` +
+                      `*This issue was automatically created by the dress monitoring workflow.*`,
+                labels: ['dress-alert', 'automated']
+              });
+
+              core.notice(`Created issue #${issue.data.number} for dress finding`);
+            }
+          }
+
+    - name: Send notification summary
+      if: always()
+      run: |
+        echo "## Dress Monitor Run Complete" >> $GITHUB_STEP_SUMMARY
+        echo "**Run Date:** $(date)" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+
+        if [ -f "dress-monitor/findings.json" ] && [ -s "dress-monitor/findings.json" ]; then
+          echo "✅ **Status:** Dress found! Check artifacts for details." >> $GITHUB_STEP_SUMMARY
+        else
+          echo "❌ **Status:** No matching items found." >> $GITHUB_STEP_SUMMARY
+        fi
+
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "View logs in the artifacts section above." >> $GITHUB_STEP_SUMMARY
