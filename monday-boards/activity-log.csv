@@ -1,6 +1,6 @@
-Activity,Date,Person,Activity Type,Duration (min),Calories Burned,Steps,Distance (km),Avg Heart Rate,Max Heart Rate,Active Zone Min,Source,Notes,Fitbit ID
-Morning Run,2026-01-08 07:30,DXO,Run,35,380,4250,5.2,145,172,28,Fitbit,Great pace today!,12345678901
-Evening Walk,2026-01-08 18:15,SL,Walk,25,150,3200,2.8,110,125,12,Manual,Walk around neighborhood,
-Strength Training,2026-01-07 17:00,DXO,Weights,45,320,850,0.5,128,156,35,Manual,Upper body focus,
-Bike Ride,2026-01-07 08:00,SL,Bike,60,420,0,15.3,135,162,45,Fitbit,Morning commute,12345678902
-Yoga Session,2026-01-06 19:30,DXO,Yoga,50,180,120,0.1,95,118,22,Manual,Restorative class,
+Activity,Date,Person,Activity Type,Duration (min),Calories Burned,Steps,Distance (miles),Avg Heart Rate,Max Heart Rate,Active Zone Min,Source,Notes,Fitbit ID
+Morning Run,2026-01-08 07:30,DXO,Run,35,380,4250,3.2,145,172,28,Fitbit,Great pace,12345678901
+Evening Walk,2026-01-08 18:15,SL,Walk,25,150,3200,1.7,110,125,12,Manual,Around neighborhood,
+Strength Training,2026-01-07 17:00,DXO,Weights,45,320,850,0.3,128,156,35,Manual,Upper body,
+Bike Ride,2026-01-07 08:00,SL,Bike,60,420,0,9.5,135,162,45,Fitbit,Morning commute,12345678902
+Yoga Session,2026-01-06 19:30,DXO,Yoga,50,180,120,0.1,95,118,22,Manual,Restorative,

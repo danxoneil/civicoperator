@@ -26,7 +26,7 @@ For **each of the 4 boards**, follow these steps:
    - Activity Type → Dropdown column
    - Duration, Calories, Steps, etc. → Numbers columns
    - Source → Status column
-   - Notes → Long Text column
+   - Notes → Text column
 
 #### Board 2: Nutrition Log
 1. Name the board: **"🍽️ Nutrition Log"**
@@ -38,22 +38,27 @@ For **each of the 4 boards**, follow these steps:
    - Calories, Protein, Carbs, Fat, Fiber → Numbers columns
    - AI Confidence → Status column
    - Source → Status column
-   - Notes → Long Text column
-   - **Add manually:** Photo column (File type)
+   - Notes → Text column
+   - Meal image → File column (should auto-detect)
 
 #### Board 3: Daily Summary
 1. Name the board: **"📈 Daily Summary"**
 2. Import: `daily-summary.csv`
 3. **After import:** Adjust column types:
+   - Summary → Item Name (default)
    - Date → Date column
    - Person → People column
    - All metrics → Numbers columns
-   - Notes → Long Text column
-4. **Set up connected boards:**
+   - Notes → Text column
+4. **Set up Net Calories formula:**
+   - Click on "Net Calories" column header
+   - Select "Edit column" → "Formula"
+   - In the formula builder, type: `{Total Calories In} - {Total Calories Out}`
+   - OR click in the field and select columns from dropdown
+   - Click "Set formula"
+5. **Set up connected boards (optional - for advanced tracking):**
    - Add "Connect Boards" column → Connect to Activity Log
    - Add "Connect Boards" column → Connect to Nutrition Log
-5. **Set up formulas:**
-   - Net Calories = Total Calories In - Total Calories Out
 
 #### Board 4: Goals & Insights
 1. Name the board: **"🎯 Goals & Insights"**
@@ -65,8 +70,8 @@ For **each of the 4 boards**, follow these steps:
    - Status → Status column
    - Progress → Progress Tracking column
    - Target Value, Current Value → Numbers columns
-   - Content → Long Text column
-   - Data Source → Long Text column
+   - Content → Text column
+   - Data Source → Text column
 
 ### Step 3: Configure Groups
 
