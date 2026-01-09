@@ -79,6 +79,28 @@ on:
 
 Use [crontab.guru](https://crontab.guru/) to help create schedules.
 
+### Testing Email Configuration
+
+Before relying on email notifications, test your setup:
+
+**Method 1: GitHub Actions (Easiest)**
+1. Go to **Actions** tab
+2. Click "Test Email Configuration"
+3. Click **Run workflow**
+4. Check your inbox for test email
+
+**Method 2: Local Testing**
+```bash
+cd dress-monitor
+source venv/bin/activate
+python3 test_email.py
+```
+
+The test script will:
+- ✅ Verify all email settings are configured
+- ✅ Send a test email to your address
+- ✅ Report any configuration issues
+
 ### Manual Runs
 
 You can trigger a check anytime:
