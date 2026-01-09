@@ -19,7 +19,6 @@
     .entry-left .entry-pointer{right:-7px;} .entry-right .entry-pointer{left:-7px;}
     .side-indicator{position:absolute;top:14px;width:12px;height:12px;background:#fff;border:3px solid var(--node);border-radius:50%;z-index:2;}
     .entry-left .side-indicator{right:calc(50% - 6px);} .entry-right .side-indicator{left:calc(50% - 6px);}
-    .thumb { width: 200px; max-width: 40%; height: auto; border-radius: .5rem; border: 1px solid #e6e6e6; box-shadow:0 .125rem .5rem rgba(0,0,0,.06);}
     @media (max-width: 991.98px){
       .timeline::before{left:12px;transform:none;}
       .year-node{text-align:left;padding-left:40px;}
@@ -27,7 +26,6 @@
       .entry-left,.entry-right{padding-left:40px;}
       .entry-pointer{display:none;}
       .side-indicator{left:6px !important;right:auto;}
-      .thumb{max-width:100%;}
     }
     @media print{ .no-print{display:none!important;} .entry-pointer{display:none;} .entry-card{box-shadow:none!important;} }
   </style>
@@ -169,9 +167,6 @@
       ]}
     ];
 
-    // Embedded image (resized thumbnail as data URL)
-    const IMG_2005 = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFB...RRQHMfU/WjmPqfrRRQHMfU/WjmPqfrRRQHMfU/Wiiig//2Q==";
-
     function render(){
       const el = document.getElementById("timeline");
       el.innerHTML = "";
@@ -205,17 +200,7 @@
           const card = document.createElement("div");
           card.className = "entry-card p-3";
 
-          // If this is the first 2005 item, add the image on the right inside the card
-          if (y.year === 2005 && idx === 0) {
-            card.innerHTML = `
-              <div class="d-flex flex-column flex-md-row align-items-start gap-3">
-                <div class="flex-grow-1">${text}</div>
-                <img class="thumb" src="${IMG_2005}" alt="Smoking prevention article cover">
-              </div>
-            `;
-          } else {
-            card.innerText = text;
-          }
+          card.innerText = text;
 
           const pointer = document.createElement("div");
           pointer.className = "entry-pointer";
