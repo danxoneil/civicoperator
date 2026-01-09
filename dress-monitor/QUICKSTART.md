@@ -1,8 +1,24 @@
 # Quick Start Guide
 
-## 🚀 Get Started in 5 Minutes
+## 🚀 Two Ways to Get Started
 
-### Step 1: Setup
+### ⭐ Option 1: GitHub Actions (EASIEST - Recommended)
+
+**Zero setup, runs automatically in the cloud:**
+
+1. Push this code to GitHub
+2. Done! It runs daily at 9 AM automatically
+3. Check GitHub Issues tab for alerts when dress is found
+
+**See:** [.github/workflows/README.md](../.github/workflows/README.md)
+
+---
+
+### Option 2: Local Setup (5 Minutes)
+
+**Run on your own computer/server:**
+
+#### Step 1: Setup
 ```bash
 cd dress-monitor
 ./setup.sh
