@@ -38,13 +38,32 @@ Automated daily monitoring system for tracking availability of a specific Emilio
 
 ## 🚀 Setup
 
-### Prerequisites
+### 🌟 Recommended: GitHub Actions (Fully Automated)
+
+**The easiest way** - runs completely automatically in the cloud, no server needed!
+
+1. Push this code to your GitHub repository
+2. The workflow will run daily at 9:00 AM UTC automatically
+3. Get alerts via GitHub Issues when the dress is found
+4. *Optional:* Configure email notifications in GitHub Secrets
+
+**See detailed instructions:** [.github/workflows/README.md](../.github/workflows/README.md)
+
+**That's it!** GitHub handles everything for you, completely free.
+
+---
+
+### Alternative: Local Installation
+
+If you prefer to run it on your own computer/server:
+
+#### Prerequisites
 
 - Python 3.7 or higher
 - pip (Python package manager)
 - Linux/macOS with cron (for scheduling)
 
-### Installation
+#### Installation
 
 1. **Run the setup script:**
    ```bash
