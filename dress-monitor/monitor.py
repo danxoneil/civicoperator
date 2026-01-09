@@ -28,7 +28,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('dress-monitor/monitor.log'),
+        logging.FileHandler('monitor.log'),
         logging.StreamHandler()
     ]
 )
@@ -235,7 +235,7 @@ Found at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
     def save_finding(self, finding: Dict):
         """Save finding to JSON file"""
-        findings_file = 'dress-monitor/findings.json'
+        findings_file = 'findings.json'
 
         try:
             findings = []
