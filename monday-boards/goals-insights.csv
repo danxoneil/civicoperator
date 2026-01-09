@@ -1,0 +1,6 @@
+Goal/Insight,Type,Person,Start Date,Target Date,Status,Progress,Target Value,Current Value,Content,Data Source
+10K daily steps goal,Goal,DXO,2026-01-01,2026-01-31,In Progress,75,10000,7500,Consistently hit 10000 steps per day,Activity tracking
+Weekly protein target,Goal,SL,2026-01-06,2026-01-12,In Progress,85,700,595,Consume 700g protein this week (100g/day),Nutrition tracking
+Weekly Report: Dec 30 - Jan 5,Weekly Insight,DXO,2025-12-30,2026-01-05,Completed,100,0,0,"Great week! Completed 5 workouts and averaged 8500 steps/day. Protein intake was consistent at 78g/day. Consider adding one more cardio session next week.","{activities: 5, avg_steps: 8500, avg_protein: 78}"
+Weekly Report: Dec 30 - Jan 5,Weekly Insight,SL,2025-12-30,2026-01-05,Completed,100,0,0,"Solid performance with 4 workouts and 7200 steps/day. Nutrition was well-balanced. Try increasing fiber intake to 30g/day.","{activities: 4, avg_steps: 7200, avg_fiber: 22}"
+Increase cardio endurance,Recommendation,DXO,2026-01-08,,Not Started,0,0,0,Based on your recent activity data: Add 2 HIIT sessions per week to improve cardiovascular capacity. Current max heart rate suggests room for intensity increase.,Heart rate analysis
