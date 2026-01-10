@@ -62,6 +62,39 @@ This monitor tracks news and announcements related to the CMS Rural Health Trans
 
 ## Configuration
 
+### Sources Configuration (`sources.json`)
+
+The monitor uses `sources.json` to configure what to monitor. This makes it easy to add new states, RSS feeds, and keywords without modifying code.
+
+**Quick customization:**
+- **Add states** - Edit the `states` section
+- **Add RSS feeds** - Add entries to `rss_sources`
+- **Add keywords** - Update the `keywords` section
+- **Adjust queries** - Modify `google_news_queries`
+
+**📖 See [ADDING_SOURCES.md](./ADDING_SOURCES.md) for detailed examples and instructions.**
+
+Example configuration:
+```json
+{
+  "states": {
+    "CA": {"name": "California", "health_dept_url": "...", "enabled": true}
+  },
+  "rss_sources": [
+    {"name": "CMS Newsroom", "url": "https://...", "enabled": true}
+  ],
+  "keywords": {
+    "primary": ["rural health transformation", "RHT program"],
+    "context": ["CMS", "funding", "rural"]
+  },
+  "settings": {
+    "lookback_days": 7,
+    "context_keyword_threshold": 3,
+    "rate_limit_seconds": 3
+  }
+}
+```
+
 ### Environment Variables
 
 Create a `.env` file or set these in GitHub Secrets:

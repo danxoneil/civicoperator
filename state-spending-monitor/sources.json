@@ -1,0 +1,75 @@
+{
+  "states": {
+    "CA": {
+      "name": "California",
+      "health_dept_url": "https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2026.aspx",
+      "enabled": true
+    },
+    "NY": {
+      "name": "New York",
+      "health_dept_url": "https://health.ny.gov/press/releases/",
+      "enabled": true
+    },
+    "FL": {
+      "name": "Florida",
+      "health_dept_url": "https://www.floridahealth.gov/newsroom/all-articles.html",
+      "enabled": true
+    },
+    "TX": {
+      "name": "Texas",
+      "health_dept_url": "https://www.dshs.texas.gov/news-alerts",
+      "enabled": true
+    }
+  },
+  "rss_sources": [
+    {
+      "name": "CMS Newsroom",
+      "url": "https://www.cms.gov/newsroom/press-releases.rss",
+      "type": "rss",
+      "scope": "federal",
+      "enabled": true
+    },
+    {
+      "name": "HHS Press Releases",
+      "url": "https://www.hhs.gov/about/news/rss/press-releases.xml",
+      "type": "rss",
+      "scope": "federal",
+      "enabled": true
+    }
+  ],
+  "google_news_queries": [
+    "{state_name} rural health funding CMS",
+    "{state_name} rural health transformation",
+    "{state_name} CMS rural hospital funding"
+  ],
+  "keywords": {
+    "primary": [
+      "rural health transformation",
+      "RHT program",
+      "rural health funding",
+      "CMS rural health",
+      "rural health awards",
+      "rural healthcare spending",
+      "rural hospital funding",
+      "rural health initiative"
+    ],
+    "context": [
+      "CMS",
+      "Centers for Medicare",
+      "Medicaid",
+      "billion",
+      "million",
+      "funding",
+      "award",
+      "rural",
+      "hospital",
+      "clinic",
+      "healthcare"
+    ]
+  },
+  "settings": {
+    "lookback_days": 7,
+    "context_keyword_threshold": 3,
+    "rate_limit_seconds": 3
+  }
+}

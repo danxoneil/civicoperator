@@ -37,40 +37,29 @@ logger = logging.getLogger(__name__)
 class StateSpendingMonitor:
     """Monitor for state spending news related to CMS Rural Health Transformation Program"""
 
-    # Target states
-    STATES = {
-        'CA': 'California',
-        'NY': 'New York',
-        'FL': 'Florida',
-        'TX': 'Texas'
-    }
-
-    # Keywords to search for
-    KEYWORDS = [
-        'rural health transformation',
-        'RHT program',
-        'rural health funding',
-        'CMS rural health',
-        'rural health awards',
-        'rural healthcare spending',
-        'rural hospital funding',
-        'rural health initiative'
-    ]
-
-    # Additional context keywords
-    CONTEXT_KEYWORDS = [
-        'CMS', 'Centers for Medicare', 'Medicaid',
-        'billion', 'million', 'funding', 'award',
-        'rural', 'hospital', 'clinic', 'healthcare'
-    ]
-
-    def __init__(self):
+    def __init__(self, config_file: str = 'sources.json'):
         """Initialize the monitor"""
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
         self.findings = []
+
+        # Load configuration from JSON file
+        self.config = self._load_config(config_file)
+
+        # Extract configuration
+        self.STATES = {code: data['name'] for code, data in self.config['states'].items() if data.get('enabled', True)}
+        self.state_urls = {code: data.get('health_dept_url', '') for code, data in self.config['states'].items() if data.get('enabled', True)}
+        self.KEYWORDS = self.config['keywords']['primary']
+        self.CONTEXT_KEYWORDS = self.config['keywords']['context']
+        self.rss_sources = [s for s in self.config['rss_sources'] if s.get('enabled', True)]
+        self.google_queries = self.config.get('google_news_queries', ['{state_name} rural health funding CMS'])
+
+        # Settings
+        settings = self.config.get('settings', {})
+        self.context_threshold = settings.get('context_keyword_threshold', 3)
+        self.rate_limit = settings.get('rate_limit_seconds', 3)
 
         # Configuration from environment variables
         self.send_email = os.getenv('SEND_EMAIL_NOTIFICATIONS', 'false').lower() == 'true'
@@ -80,8 +69,52 @@ class StateSpendingMonitor:
         self.smtp_user = os.getenv('SMTP_USER', '')
         self.smtp_password = os.getenv('SMTP_PASSWORD', '')
 
-        # Days to look back for news
-        self.lookback_days = int(os.getenv('LOOKBACK_DAYS', '7'))
+        # Days to look back for news (env var overrides config)
+        self.lookback_days = int(os.getenv('LOOKBACK_DAYS', settings.get('lookback_days', 7)))
+
+    def _load_config(self, config_file: str) -> Dict[str, Any]:
+        """Load configuration from JSON file"""
+        try:
+            # Try current directory first
+            if os.path.exists(config_file):
+                with open(config_file, 'r') as f:
+                    return json.load(f)
+
+            # Try same directory as script
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            config_path = os.path.join(script_dir, config_file)
+            if os.path.exists(config_path):
+                with open(config_path, 'r') as f:
+                    return json.load(f)
+
+            logger.warning(f"Config file {config_file} not found, using defaults")
+            return self._default_config()
+
+        except Exception as e:
+            logger.error(f"Error loading config: {e}, using defaults")
+            return self._default_config()
+
+    def _default_config(self) -> Dict[str, Any]:
+        """Return default configuration"""
+        return {
+            'states': {
+                'CA': {'name': 'California', 'enabled': True},
+                'NY': {'name': 'New York', 'enabled': True},
+                'FL': {'name': 'Florida', 'enabled': True},
+                'TX': {'name': 'Texas', 'enabled': True}
+            },
+            'rss_sources': [],
+            'google_news_queries': ['{state_name} rural health funding CMS'],
+            'keywords': {
+                'primary': ['rural health transformation', 'RHT program', 'rural health funding'],
+                'context': ['CMS', 'rural', 'funding', 'hospital']
+            },
+            'settings': {
+                'lookback_days': 7,
+                'context_keyword_threshold': 3,
+                'rate_limit_seconds': 3
+            }
+        }
 
     def parse_rss_feed(self, xml_content: str) -> List[Dict[str, Any]]:
         """Parse RSS feed XML and return list of entries"""
@@ -137,7 +170,7 @@ class StateSpendingMonitor:
         # Or have multiple context keywords
         context_count = sum(1 for keyword in self.CONTEXT_KEYWORDS if keyword.lower() in text)
 
-        return has_keyword or context_count >= 3
+        return has_keyword or context_count >= self.context_threshold
 
     def check_cms_newsroom(self) -> List[Dict[str, Any]]:
         """Check CMS newsroom for relevant announcements"""
@@ -191,39 +224,41 @@ class StateSpendingMonitor:
 
         try:
             state_name = self.STATES[state_code]
-            # Search for rural health news in the state
-            query = f"{state_name} rural health funding CMS"
-            url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}&hl=en-US&gl=US&ceid=US:en"
 
-            response = self.session.get(url, timeout=10)
+            # Check each configured query
+            for query_template in self.google_queries:
+                query = query_template.format(state_name=state_name, state_code=state_code)
+                url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}&hl=en-US&gl=US&ceid=US:en"
 
-            if response.status_code == 200:
-                entries = self.parse_rss_feed(response.text)
-                cutoff_date = datetime.now() - timedelta(days=self.lookback_days)
+                response = self.session.get(url, timeout=10)
 
-                for entry in entries[:15]:  # Check last 15 entries
-                    published = entry.get('published', datetime.now())
+                if response.status_code == 200:
+                    entries = self.parse_rss_feed(response.text)
+                    cutoff_date = datetime.now() - timedelta(days=self.lookback_days)
 
-                    if published < cutoff_date:
-                        continue
+                    for entry in entries[:15]:  # Check last 15 entries
+                        published = entry.get('published', datetime.now())
 
-                    title = entry.get('title', '')
-                    description = entry.get('description', '')
-                    link = entry.get('link', '')
+                        if published < cutoff_date:
+                            continue
 
-                    if self.is_relevant(title, description, state_code):
-                        findings.append({
-                            'source': 'Google News',
-                            'state': state_code,
-                            'title': title,
-                            'description': description[:300],
-                            'url': link,
-                            'published': published.isoformat(),
-                            'found_at': datetime.now().isoformat()
-                        })
-                        logger.info(f"Found relevant Google News for {state_code}: {title}")
+                        title = entry.get('title', '')
+                        description = entry.get('description', '')
+                        link = entry.get('link', '')
 
-            time.sleep(3)  # Rate limiting
+                        if self.is_relevant(title, description, state_code):
+                            findings.append({
+                                'source': 'Google News',
+                                'state': state_code,
+                                'title': title,
+                                'description': description[:300],
+                                'url': link,
+                                'published': published.isoformat(),
+                                'found_at': datetime.now().isoformat()
+                            })
+                            logger.info(f"Found relevant Google News for {state_code}: {title}")
+
+                time.sleep(self.rate_limit)  # Rate limiting
 
         except Exception as e:
             logger.error(f"Error checking Google News for {state_code}: {e}")
@@ -235,19 +270,12 @@ class StateSpendingMonitor:
         logger.info(f"Checking {state_code} health department...")
         findings = []
 
-        # State health department news pages
-        state_urls = {
-            'CA': 'https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2026.aspx',
-            'NY': 'https://health.ny.gov/press/releases/',
-            'FL': 'https://www.floridahealth.gov/newsroom/all-articles.html',
-            'TX': 'https://www.dshs.texas.gov/news-alerts'
-        }
-
-        if state_code not in state_urls:
+        if state_code not in self.state_urls or not self.state_urls[state_code]:
+            logger.debug(f"No health department URL configured for {state_code}")
             return findings
 
         try:
-            url = state_urls[state_code]
+            url = self.state_urls[state_code]
             response = self.session.get(url, timeout=10)
 
             if response.status_code == 200:
@@ -277,10 +305,57 @@ class StateSpendingMonitor:
                         })
                         logger.info(f"Found relevant state news for {state_code}: {title}")
 
-            time.sleep(3)  # Rate limiting
+            time.sleep(self.rate_limit)  # Rate limiting
 
         except Exception as e:
             logger.error(f"Error checking {state_code} health department: {e}")
+
+        return findings
+
+    def check_rss_sources(self) -> List[Dict[str, Any]]:
+        """Check configured RSS sources"""
+        findings = []
+
+        for source in self.rss_sources:
+            source_name = source['name']
+            source_url = source['url']
+            logger.info(f"Checking {source_name}...")
+
+            try:
+                response = self.session.get(source_url, timeout=10)
+
+                if response.status_code == 200:
+                    entries = self.parse_rss_feed(response.text)
+                    cutoff_date = datetime.now() - timedelta(days=self.lookback_days)
+
+                    for entry in entries[:20]:  # Check last 20 entries
+                        published = entry.get('published', datetime.now())
+
+                        if published < cutoff_date:
+                            continue
+
+                        title = entry.get('title', '')
+                        description = entry.get('description', '')
+                        link = entry.get('link', '')
+
+                        # Check each state
+                        for state_code in self.STATES.keys():
+                            if self.is_relevant(title, description, state_code):
+                                findings.append({
+                                    'source': source_name,
+                                    'state': state_code,
+                                    'title': title,
+                                    'description': description[:300],
+                                    'url': link,
+                                    'published': published.isoformat(),
+                                    'found_at': datetime.now().isoformat()
+                                })
+                                logger.info(f"Found relevant {source_name} news for {state_code}: {title}")
+
+                time.sleep(self.rate_limit)  # Rate limiting
+
+            except Exception as e:
+                logger.error(f"Error checking {source_name}: {e}")
 
         return findings
 
@@ -289,12 +364,14 @@ class StateSpendingMonitor:
         logger.info("Starting state spending news monitoring...")
         logger.info(f"Monitoring states: {', '.join(self.STATES.values())}")
         logger.info(f"Looking back {self.lookback_days} days")
+        logger.info(f"Checking {len(self.rss_sources)} RSS sources")
 
         all_findings = []
 
-        # Check CMS newsroom (covers all states)
-        cms_findings = self.check_cms_newsroom()
-        all_findings.extend(cms_findings)
+        # Check configured RSS sources (federal level)
+        if self.rss_sources:
+            rss_findings = self.check_rss_sources()
+            all_findings.extend(rss_findings)
 
         # Check Google News and state sites for each state
         for state_code in self.STATES.keys():
