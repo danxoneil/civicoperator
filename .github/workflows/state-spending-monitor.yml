@@ -1,0 +1,130 @@
+name: State Spending News Monitor
+
+on:
+  # Run daily at 9:00 AM UTC (4:00 AM EST / 1:00 AM PST)
+  schedule:
+    - cron: '0 9 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd state-spending-monitor
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run monitoring script
+        env:
+          SEND_EMAIL_NOTIFICATIONS: ${{ secrets.SEND_EMAIL_NOTIFICATIONS }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          LOOKBACK_DAYS: 7
+        run: |
+          cd state-spending-monitor
+          python monitor.py
+
+      - name: Upload findings
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: monitoring-results
+          path: |
+            state-spending-monitor/findings.json
+            state-spending-monitor/monitor.log
+          retention-days: 30
+
+      - name: Create issue for new findings
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const findingsPath = 'state-spending-monitor/findings.json';
+
+            if (!fs.existsSync(findingsPath)) {
+              console.log('No findings file found');
+              return;
+            }
+
+            const findings = JSON.parse(fs.readFileSync(findingsPath, 'utf8'));
+
+            // Check for recent findings (last 24 hours)
+            const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
+            const recentFindings = findings.filter(f => {
+              const foundAt = new Date(f.found_at);
+              return foundAt > oneDayAgo;
+            });
+
+            if (recentFindings.length === 0) {
+              console.log('No new findings in the last 24 hours');
+              return;
+            }
+
+            // Group by state
+            const byState = {};
+            for (const finding of recentFindings) {
+              const state = finding.state;
+              if (!byState[state]) {
+                byState[state] = [];
+              }
+              byState[state].push(finding);
+            }
+
+            // Create issue body
+            const stateNames = {
+              'CA': 'California',
+              'NY': 'New York',
+              'FL': 'Florida',
+              'TX': 'Texas'
+            };
+
+            let body = `## State Spending News Alert\n\n`;
+            body += `Found **${recentFindings.length}** new items about Rural Health Transformation Program spending:\n\n`;
+
+            for (const [stateCode, stateFindings] of Object.entries(byState).sort()) {
+              const stateName = stateNames[stateCode] || stateCode;
+              body += `### ${stateName} (${stateFindings.length} items)\n\n`;
+
+              for (const finding of stateFindings) {
+                body += `#### ${finding.title}\n\n`;
+                body += `- **Source:** ${finding.source}\n`;
+                body += `- **URL:** ${finding.url}\n`;
+                body += `- **Published:** ${finding.published}\n`;
+                if (finding.description) {
+                  body += `- **Description:** ${finding.description}\n`;
+                }
+                body += `\n`;
+              }
+            }
+
+            body += `---\n`;
+            body += `*Automated alert from State Spending News Monitor*\n`;
+            body += `*Run: ${new Date().toISOString()}*\n`;
+
+            // Create the issue
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `State Spending News: ${recentFindings.length} new items found`,
+              body: body,
+              labels: ['news-alert', 'state-spending', 'automated']
+            });
+
+            console.log(`Created issue for ${recentFindings.length} new findings`);
