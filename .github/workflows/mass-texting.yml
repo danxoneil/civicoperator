@@ -1,0 +1,80 @@
+name: Mass Texting Campaign
+
+on:
+  # Manual trigger only (for safety - don't want to accidentally spam people)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run in dry-run mode (no actual messages sent)'
+        required: true
+        default: 'true'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+      message_template:
+        description: 'Message template (optional - uses .env if empty)'
+        required: false
+        type: string
+
+jobs:
+  send-mass-texts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd mass-texting-monday-twilio
+          pip install -r requirements.txt
+
+      - name: Create .env file
+        run: |
+          cd mass-texting-monday-twilio
+          cat > .env << EOF
+          MONDAY_API_KEY=${{ secrets.MONDAY_API_KEY }}
+          MONDAY_BOARD_ID=${{ secrets.MONDAY_BOARD_ID }}
+          MONDAY_PHONE_COLUMN_ID=${{ secrets.MONDAY_PHONE_COLUMN_ID }}
+          MONDAY_STATUS_COLUMN_ID=${{ secrets.MONDAY_STATUS_COLUMN_ID }}
+          MONDAY_OPT_IN_COLUMN_ID=${{ secrets.MONDAY_OPT_IN_COLUMN_ID }}
+          TWILIO_ACCOUNT_SID=${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN=${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER=${{ secrets.TWILIO_FROM_NUMBER }}
+          MESSAGE_TEMPLATE=${{ github.event.inputs.message_template || secrets.MESSAGE_TEMPLATE }}
+          DRY_RUN=${{ github.event.inputs.dry_run }}
+          RATE_LIMIT_DELAY=1.0
+          UPDATE_MONDAY_STATUS=true
+          EOF
+
+      - name: Run mass texting campaign
+        run: |
+          cd mass-texting-monday-twilio
+          python mass_texter.py
+
+      - name: Upload campaign results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: campaign-results-${{ github.run_number }}
+          path: |
+            mass-texting-monday-twilio/campaign_results_*.json
+            mass-texting-monday-twilio/mass_texter.log
+          retention-days: 90
+
+      - name: Display summary
+        if: always()
+        run: |
+          echo "## Mass Texting Campaign Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Dry Run**: ${{ github.event.inputs.dry_run }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run Number**: ${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Triggered by**: ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the uploaded artifacts for detailed results." >> $GITHUB_STEP_SUMMARY
