@@ -122,21 +122,20 @@ The monitor runs automatically:
 ### Primary Keywords
 
 Items must contain at least one of these keywords:
-- Rural health transformation
-- RHT program
-- Rural health funding
+- Rural health transformation / RHTP / RHT program
+- Rural health funding / grant / awards
 - CMS rural health
-- Rural health awards
-- Rural healthcare spending
+- Rural healthcare spending / transformation
 - Rural hospital funding
+- Transform rural health
 - Rural health initiative
 
 ### Context Keywords
 
-Or contain 3+ of these context keywords:
-- CMS / Centers for Medicare / Medicaid
-- billion / million / funding / award
-- rural / hospital / clinic / healthcare
+Or contain 2+ of these context keywords:
+- CMS / Centers for Medicare / Medicaid / Medicare / HHS
+- billion / million / funding / award / grant / federal
+- rural / hospital / clinic / healthcare / health care
 
 ### State Matching
 
