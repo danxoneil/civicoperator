@@ -95,19 +95,24 @@ class StateSpendingMonitor:
     KEYWORDS = [
         'rural health transformation',
         'RHT program',
+        'RHTP',
         'rural health funding',
         'CMS rural health',
         'rural health awards',
         'rural healthcare spending',
         'rural hospital funding',
-        'rural health initiative'
+        'rural health initiative',
+        'rural healthcare transformation',
+        'transform rural health',
+        'rural health grant'
     ]
 
     # Additional context keywords
     CONTEXT_KEYWORDS = [
-        'CMS', 'Centers for Medicare', 'Medicaid',
-        'billion', 'million', 'funding', 'award',
-        'rural', 'hospital', 'clinic', 'healthcare'
+        'CMS', 'Centers for Medicare', 'Medicaid', 'Medicare',
+        'billion', 'million', 'funding', 'award', 'grant',
+        'rural', 'hospital', 'clinic', 'healthcare', 'health care',
+        'HHS', 'federal'
     ]
 
     def __init__(self):
@@ -180,10 +185,10 @@ class StateSpendingMonitor:
         # Must contain at least one primary keyword
         has_keyword = any(keyword.lower() in text for keyword in self.KEYWORDS)
 
-        # Or have multiple context keywords
+        # Or have multiple context keywords (lowered from 3 to 2)
         context_count = sum(1 for keyword in self.CONTEXT_KEYWORDS if keyword.lower() in text)
 
-        return has_keyword or context_count >= 3
+        return has_keyword or context_count >= 2
 
     def check_cms_newsroom(self) -> List[Dict[str, Any]]:
         """Check CMS newsroom for relevant announcements"""
