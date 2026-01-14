@@ -122,13 +122,22 @@ class StateSpendingMonitor:
 
         return entries
 
-    def is_relevant(self, title: str, description: str, state_code: str) -> bool:
+    def is_relevant(
+        self,
+        title: str,
+        description: str,
+        state_code: str,
+        *,
+        require_state: bool = True,
+        min_context_matches: int = 3,
+        require_rural_context: bool = False,
+    ) -> bool:
         """Check if a news item is relevant to our monitoring criteria"""
         text = f"{title} {description}".lower()
         state_name = self.STATES[state_code].lower()
 
         # Must mention the state
-        if state_code.lower() not in text and state_name not in text:
+        if require_state and state_code.lower() not in text and state_name not in text:
             return False
 
         # Must contain at least one primary keyword
@@ -137,7 +146,13 @@ class StateSpendingMonitor:
         # Or have multiple context keywords
         context_count = sum(1 for keyword in self.CONTEXT_KEYWORDS if keyword.lower() in text)
 
-        return has_keyword or context_count >= 3
+        if has_keyword:
+            return True
+
+        if require_rural_context and 'rural' not in text:
+            return False
+
+        return context_count >= min_context_matches
 
     def check_cms_newsroom(self) -> List[Dict[str, Any]]:
         """Check CMS newsroom for relevant announcements"""
@@ -265,7 +280,14 @@ class StateSpendingMonitor:
                         from urllib.parse import urljoin
                         href = urljoin(url, href)
 
-                    if self.is_relevant(title, '', state_code):
+                    if self.is_relevant(
+                        title,
+                        '',
+                        state_code,
+                        require_state=False,
+                        min_context_matches=2,
+                        require_rural_context=True,
+                    ):
                         findings.append({
                             'source': f'{state_code} Health Department',
                             'state': state_code,
