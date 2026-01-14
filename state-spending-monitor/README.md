@@ -130,12 +130,13 @@ Items must contain at least one of these keywords:
 - Transform rural health
 - Rural health initiative
 
-### Context Keywords
+### Simplified Context Match (Baseline Mode)
 
-Or contain 2+ of these context keywords:
-- CMS / Centers for Medicare / Medicaid / Medicare / HHS
-- billion / million / funding / award / grant / federal
-- rural / hospital / clinic / healthcare / health care
+Or contain "rural" plus any health/funding term:
+- Health terms: health, healthcare, hospital, clinic
+- Funding terms: million, billion, funding, award, grant
+
+This permissive filter helps establish a baseline of relevant announcements.
 
 ### State Matching
 

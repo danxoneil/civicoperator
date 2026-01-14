@@ -184,11 +184,15 @@ class StateSpendingMonitor:
 
         # Must contain at least one primary keyword
         has_keyword = any(keyword.lower() in text for keyword in self.KEYWORDS)
+        if has_keyword:
+            return True
 
-        # Or have multiple context keywords (lowered from 3 to 2)
-        context_count = sum(1 for keyword in self.CONTEXT_KEYWORDS if keyword.lower() in text)
+        # Or just need "rural" + any health/funding term (very permissive for baseline)
+        has_rural = 'rural' in text
+        has_health_funding = any(term in text for term in ['health', 'healthcare', 'hospital', 'clinic',
+                                                             'million', 'billion', 'funding', 'award', 'grant'])
 
-        return has_keyword or context_count >= 2
+        return has_rural and has_health_funding
 
     def check_cms_newsroom(self) -> List[Dict[str, Any]]:
         """Check CMS newsroom for relevant announcements"""
