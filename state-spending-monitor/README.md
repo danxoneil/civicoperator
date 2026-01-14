@@ -16,7 +16,7 @@ This monitor tracks news and announcements related to the CMS Rural Health Trans
 - North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina
 - South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming
 
-**Note:** Direct state health department monitoring is configured for CA, NY, FL, and TX. All other states are monitored via CMS newsroom and Google News RSS feeds.
+**Coverage:** All 50 states have direct state health department monitoring configured, plus additional monitoring via CMS newsroom and Google News RSS feeds for comprehensive coverage.
 
 ### News Sources
 
@@ -212,9 +212,9 @@ python monitor.py
 
 ## Customization
 
-### Add State Health Department URLs
+### Update State Health Department URLs
 
-All 50 states are monitored via CMS and Google News. To add direct state health department monitoring for additional states, edit `monitor.py`:
+All 50 states now have direct health department monitoring configured. To update a state's URL if it changes, edit `monitor.py`:
 
 ```python
 state_urls = {
@@ -222,7 +222,7 @@ state_urls = {
     'NY': 'https://health.ny.gov/press/releases/',
     'FL': 'https://www.floridahealth.gov/newsroom/all-articles.html',
     'TX': 'https://www.dshs.texas.gov/news-alerts',
-    'IL': 'https://dph.illinois.gov/news.html',  # Add new state URL
+    # ... all 50 states configured
 }
 ```
 
