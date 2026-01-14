@@ -1,6 +1,6 @@
 # State Spending News Monitor
 
-Automated monitoring system for tracking Rural Health Transformation (RHT) Program spending news in California, New York, Florida, and Texas.
+Automated monitoring system for tracking Rural Health Transformation (RHT) Program spending news across all 50 U.S. states.
 
 ## Overview
 
@@ -8,10 +8,15 @@ This monitor tracks news and announcements related to the CMS Rural Health Trans
 
 ### Monitored States
 
-- **California (CA)**
-- **New York (NY)**
-- **Florida (FL)**
-- **Texas (TX)** - Received $281M in 2026 (highest first-year allocation)
+**All 50 U.S. states** including:
+- Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware
+- Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas
+- Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi
+- Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York
+- North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina
+- South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming
+
+**Note:** Direct state health department monitoring is configured for CA, NY, FL, and TX. All other states are monitored via CMS newsroom and Google News RSS feeds.
 
 ### News Sources
 
@@ -135,11 +140,11 @@ Or contain 3+ of these context keywords:
 
 ### State Matching
 
-Items must mention the state (abbreviation or full name):
+Items must mention the state (abbreviation or full name) for any of the 50 U.S. states. For example:
 - CA or California
-- NY or New York
-- FL or Florida
 - TX or Texas
+- PA or Pennsylvania
+- WA or Washington
 
 ## Output Files
 
@@ -207,17 +212,17 @@ python monitor.py
 
 ## Customization
 
-### Add More States
+### Add State Health Department URLs
 
-Edit `monitor.py`:
+All 50 states are monitored via CMS and Google News. To add direct state health department monitoring for additional states, edit `monitor.py`:
 
 ```python
-STATES = {
-    'CA': 'California',
-    'NY': 'New York',
-    'FL': 'Florida',
-    'TX': 'Texas',
-    'IL': 'Illinois',  # Add new state
+state_urls = {
+    'CA': 'https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2026.aspx',
+    'NY': 'https://health.ny.gov/press/releases/',
+    'FL': 'https://www.floridahealth.gov/newsroom/all-articles.html',
+    'TX': 'https://www.dshs.texas.gov/news-alerts',
+    'IL': 'https://dph.illinois.gov/news.html',  # Add new state URL
 }
 ```
 
