@@ -37,12 +37,58 @@ logger = logging.getLogger(__name__)
 class StateSpendingMonitor:
     """Monitor for state spending news related to CMS Rural Health Transformation Program"""
 
-    # Target states
+    # Target states - all 50 US states
     STATES = {
+        'AL': 'Alabama',
+        'AK': 'Alaska',
+        'AZ': 'Arizona',
+        'AR': 'Arkansas',
         'CA': 'California',
-        'NY': 'New York',
+        'CO': 'Colorado',
+        'CT': 'Connecticut',
+        'DE': 'Delaware',
         'FL': 'Florida',
-        'TX': 'Texas'
+        'GA': 'Georgia',
+        'HI': 'Hawaii',
+        'ID': 'Idaho',
+        'IL': 'Illinois',
+        'IN': 'Indiana',
+        'IA': 'Iowa',
+        'KS': 'Kansas',
+        'KY': 'Kentucky',
+        'LA': 'Louisiana',
+        'ME': 'Maine',
+        'MD': 'Maryland',
+        'MA': 'Massachusetts',
+        'MI': 'Michigan',
+        'MN': 'Minnesota',
+        'MS': 'Mississippi',
+        'MO': 'Missouri',
+        'MT': 'Montana',
+        'NE': 'Nebraska',
+        'NV': 'Nevada',
+        'NH': 'New Hampshire',
+        'NJ': 'New Jersey',
+        'NM': 'New Mexico',
+        'NY': 'New York',
+        'NC': 'North Carolina',
+        'ND': 'North Dakota',
+        'OH': 'Ohio',
+        'OK': 'Oklahoma',
+        'OR': 'Oregon',
+        'PA': 'Pennsylvania',
+        'RI': 'Rhode Island',
+        'SC': 'South Carolina',
+        'SD': 'South Dakota',
+        'TN': 'Tennessee',
+        'TX': 'Texas',
+        'UT': 'Utah',
+        'VT': 'Vermont',
+        'VA': 'Virginia',
+        'WA': 'Washington',
+        'WV': 'West Virginia',
+        'WI': 'Wisconsin',
+        'WY': 'Wyoming'
     }
 
     # Keywords to search for
@@ -231,11 +277,16 @@ class StateSpendingMonitor:
         return findings
 
     def check_state_health_dept(self, state_code: str) -> List[Dict[str, Any]]:
-        """Check state health department news/press releases"""
+        """Check state health department news/press releases
+
+        Note: Only a subset of states have direct health department URLs configured.
+        All 50 states are still monitored via CMS newsroom and Google News RSS feeds.
+        """
         logger.info(f"Checking {state_code} health department...")
         findings = []
 
-        # State health department news pages
+        # State health department news pages (partial coverage)
+        # Other states are still monitored via CMS and Google News
         state_urls = {
             'CA': 'https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2026.aspx',
             'NY': 'https://health.ny.gov/press/releases/',
