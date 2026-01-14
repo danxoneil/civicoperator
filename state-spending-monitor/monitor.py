@@ -180,11 +180,13 @@ class StateSpendingMonitor:
 
         # Must mention the state
         if state_code.lower() not in text and state_name not in text:
+            logger.debug(f"Filtered out (no state mention): {title[:50]}")
             return False
 
         # Must contain at least one primary keyword
         has_keyword = any(keyword.lower() in text for keyword in self.KEYWORDS)
         if has_keyword:
+            logger.info(f"Match via primary keyword for {state_code}: {title[:80]}")
             return True
 
         # Or just need "rural" + any health/funding term (very permissive for baseline)
@@ -192,7 +194,11 @@ class StateSpendingMonitor:
         has_health_funding = any(term in text for term in ['health', 'healthcare', 'hospital', 'clinic',
                                                              'million', 'billion', 'funding', 'award', 'grant'])
 
-        return has_rural and has_health_funding
+        if has_rural and has_health_funding:
+            logger.info(f"Match via rural+health/funding for {state_code}: {title[:80]}")
+            return True
+
+        return False
 
     def check_cms_newsroom(self) -> List[Dict[str, Any]]:
         """Check CMS newsroom for relevant announcements"""
@@ -207,6 +213,7 @@ class StateSpendingMonitor:
             if response.status_code == 200:
                 entries = self.parse_rss_feed(response.text)
                 cutoff_date = datetime.now() - timedelta(days=self.lookback_days)
+                logger.info(f"CMS RSS: Found {len(entries)} total entries, checking last 20 from past {self.lookback_days} days")
 
                 for entry in entries[:20]:  # Check last 20 entries
                     published = entry.get('published', datetime.now())
@@ -255,6 +262,7 @@ class StateSpendingMonitor:
             if response.status_code == 200:
                 entries = self.parse_rss_feed(response.text)
                 cutoff_date = datetime.now() - timedelta(days=self.lookback_days)
+                logger.info(f"Google News {state_code}: Found {len(entries)} entries, checking last 15")
 
                 for entry in entries[:15]:  # Check last 15 entries
                     published = entry.get('published', datetime.now())
