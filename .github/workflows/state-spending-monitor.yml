@@ -35,7 +35,7 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          LOOKBACK_DAYS: 7
+          LOOKBACK_DAYS: 60
         run: |
           cd state-spending-monitor
           python monitor.py
