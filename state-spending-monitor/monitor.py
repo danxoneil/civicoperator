@@ -121,6 +121,8 @@ class StateSpendingMonitor:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
+        # Explicitly disable proxy usage in GitHub Actions
+        self.session.trust_env = False
         self.findings = []
 
         # Configuration from environment variables
