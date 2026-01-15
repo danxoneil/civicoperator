@@ -1,6 +1,6 @@
 # State Spending News Monitor
 
-Automated monitoring system for tracking Rural Health Transformation (RHT) Program spending news in California, New York, Florida, and Texas.
+Automated monitoring system for tracking Rural Health Transformation (RHT) Program spending news across all 50 U.S. states.
 
 ## Overview
 
@@ -8,10 +8,15 @@ This monitor tracks news and announcements related to the CMS Rural Health Trans
 
 ### Monitored States
 
-- **California (CA)**
-- **New York (NY)**
-- **Florida (FL)**
-- **Texas (TX)** - Received $281M in 2026 (highest first-year allocation)
+**All 50 U.S. states** including:
+- Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware
+- Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas
+- Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi
+- Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York
+- North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina
+- South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming
+
+**Coverage:** All 50 states have direct state health department monitoring configured, plus additional monitoring via CMS newsroom and Google News RSS feeds for comprehensive coverage.
 
 ### News Sources
 
@@ -117,29 +122,29 @@ The monitor runs automatically:
 ### Primary Keywords
 
 Items must contain at least one of these keywords:
-- Rural health transformation
-- RHT program
-- Rural health funding
+- Rural health transformation / RHTP / RHT program
+- Rural health funding / grant / awards
 - CMS rural health
-- Rural health awards
-- Rural healthcare spending
+- Rural healthcare spending / transformation
 - Rural hospital funding
+- Transform rural health
 - Rural health initiative
 
-### Context Keywords
+### Simplified Context Match (Baseline Mode)
 
-Or contain 3+ of these context keywords:
-- CMS / Centers for Medicare / Medicaid
-- billion / million / funding / award
-- rural / hospital / clinic / healthcare
+Or contain "rural" plus any health/funding term:
+- Health terms: health, healthcare, hospital, clinic
+- Funding terms: million, billion, funding, award, grant
+
+This permissive filter helps establish a baseline of relevant announcements.
 
 ### State Matching
 
-Items must mention the state (abbreviation or full name):
+Items must mention the state (abbreviation or full name) for any of the 50 U.S. states. For example:
 - CA or California
-- NY or New York
-- FL or Florida
 - TX or Texas
+- PA or Pennsylvania
+- WA or Washington
 
 ## Output Files
 
@@ -207,17 +212,17 @@ python monitor.py
 
 ## Customization
 
-### Add More States
+### Update State Health Department URLs
 
-Edit `monitor.py`:
+All 50 states now have direct health department monitoring configured. To update a state's URL if it changes, edit `monitor.py`:
 
 ```python
-STATES = {
-    'CA': 'California',
-    'NY': 'New York',
-    'FL': 'Florida',
-    'TX': 'Texas',
-    'IL': 'Illinois',  # Add new state
+state_urls = {
+    'CA': 'https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2026.aspx',
+    'NY': 'https://health.ny.gov/press/releases/',
+    'FL': 'https://www.floridahealth.gov/newsroom/all-articles.html',
+    'TX': 'https://www.dshs.texas.gov/news-alerts',
+    # ... all 50 states configured
 }
 ```
 

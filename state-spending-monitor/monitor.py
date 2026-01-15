@@ -37,31 +37,82 @@ logger = logging.getLogger(__name__)
 class StateSpendingMonitor:
     """Monitor for state spending news related to CMS Rural Health Transformation Program"""
 
-    # Target states
+    # Target states - all 50 US states
     STATES = {
+        'AL': 'Alabama',
+        'AK': 'Alaska',
+        'AZ': 'Arizona',
+        'AR': 'Arkansas',
         'CA': 'California',
-        'NY': 'New York',
+        'CO': 'Colorado',
+        'CT': 'Connecticut',
+        'DE': 'Delaware',
         'FL': 'Florida',
-        'TX': 'Texas'
+        'GA': 'Georgia',
+        'HI': 'Hawaii',
+        'ID': 'Idaho',
+        'IL': 'Illinois',
+        'IN': 'Indiana',
+        'IA': 'Iowa',
+        'KS': 'Kansas',
+        'KY': 'Kentucky',
+        'LA': 'Louisiana',
+        'ME': 'Maine',
+        'MD': 'Maryland',
+        'MA': 'Massachusetts',
+        'MI': 'Michigan',
+        'MN': 'Minnesota',
+        'MS': 'Mississippi',
+        'MO': 'Missouri',
+        'MT': 'Montana',
+        'NE': 'Nebraska',
+        'NV': 'Nevada',
+        'NH': 'New Hampshire',
+        'NJ': 'New Jersey',
+        'NM': 'New Mexico',
+        'NY': 'New York',
+        'NC': 'North Carolina',
+        'ND': 'North Dakota',
+        'OH': 'Ohio',
+        'OK': 'Oklahoma',
+        'OR': 'Oregon',
+        'PA': 'Pennsylvania',
+        'RI': 'Rhode Island',
+        'SC': 'South Carolina',
+        'SD': 'South Dakota',
+        'TN': 'Tennessee',
+        'TX': 'Texas',
+        'UT': 'Utah',
+        'VT': 'Vermont',
+        'VA': 'Virginia',
+        'WA': 'Washington',
+        'WV': 'West Virginia',
+        'WI': 'Wisconsin',
+        'WY': 'Wyoming'
     }
 
     # Keywords to search for
     KEYWORDS = [
         'rural health transformation',
         'RHT program',
+        'RHTP',
         'rural health funding',
         'CMS rural health',
         'rural health awards',
         'rural healthcare spending',
         'rural hospital funding',
-        'rural health initiative'
+        'rural health initiative',
+        'rural healthcare transformation',
+        'transform rural health',
+        'rural health grant'
     ]
 
     # Additional context keywords
     CONTEXT_KEYWORDS = [
-        'CMS', 'Centers for Medicare', 'Medicaid',
-        'billion', 'million', 'funding', 'award',
-        'rural', 'hospital', 'clinic', 'healthcare'
+        'CMS', 'Centers for Medicare', 'Medicaid', 'Medicare',
+        'billion', 'million', 'funding', 'award', 'grant',
+        'rural', 'hospital', 'clinic', 'healthcare', 'health care',
+        'HHS', 'federal'
     ]
 
     def __init__(self):
@@ -70,6 +121,8 @@ class StateSpendingMonitor:
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
+        # Explicitly disable proxy usage in GitHub Actions
+        self.session.trust_env = False
         self.findings = []
 
         # Configuration from environment variables
@@ -132,27 +185,36 @@ class StateSpendingMonitor:
         min_context_matches: int = 3,
         require_rural_context: bool = False,
     ) -> bool:
-        """Check if a news item is relevant to our monitoring criteria"""
+        """Check if a news item is relevant to our monitoring criteria
+
+        Note: Optional parameters (require_state, min_context_matches, require_rural_context)
+        are maintained for backward compatibility but the current implementation uses a
+        simplified permissive filter for baseline article collection.
+        """
         text = f"{title} {description}".lower()
         state_name = self.STATES[state_code].lower()
 
-        # Must mention the state
+        # Must mention the state (respecting require_state parameter for flexibility)
         if require_state and state_code.lower() not in text and state_name not in text:
+            logger.debug(f"Filtered out (no state mention): {title[:50]}")
             return False
 
         # Must contain at least one primary keyword
         has_keyword = any(keyword.lower() in text for keyword in self.KEYWORDS)
-
-        # Or have multiple context keywords
-        context_count = sum(1 for keyword in self.CONTEXT_KEYWORDS if keyword.lower() in text)
-
         if has_keyword:
+            logger.info(f"Match via primary keyword for {state_code}: {title[:80]}")
             return True
 
-        if require_rural_context and 'rural' not in text:
-            return False
+        # Or just need "rural" + any health/funding term (very permissive for baseline)
+        has_rural = 'rural' in text
+        has_health_funding = any(term in text for term in ['health', 'healthcare', 'hospital', 'clinic',
+                                                             'million', 'billion', 'funding', 'award', 'grant'])
 
-        return context_count >= min_context_matches
+        if has_rural and has_health_funding:
+            logger.info(f"Match via rural+health/funding for {state_code}: {title[:80]}")
+            return True
+
+        return False
 
     def check_cms_newsroom(self) -> List[Dict[str, Any]]:
         """Check CMS newsroom for relevant announcements"""
@@ -167,9 +229,14 @@ class StateSpendingMonitor:
             if response.status_code == 200:
                 entries = self.parse_rss_feed(response.text)
                 cutoff_date = datetime.now() - timedelta(days=self.lookback_days)
+                logger.info(f"CMS RSS: Found {len(entries)} total entries, checking last 20 from past {self.lookback_days} days")
 
                 for entry in entries[:20]:  # Check last 20 entries
                     published = entry.get('published', datetime.now())
+
+                    # Strip timezone info for comparison if present
+                    if published.tzinfo is not None:
+                        published = published.replace(tzinfo=None)
 
                     if published < cutoff_date:
                         continue
@@ -215,9 +282,14 @@ class StateSpendingMonitor:
             if response.status_code == 200:
                 entries = self.parse_rss_feed(response.text)
                 cutoff_date = datetime.now() - timedelta(days=self.lookback_days)
+                logger.info(f"Google News {state_code}: Found {len(entries)} entries, checking last 15")
 
                 for entry in entries[:15]:  # Check last 15 entries
                     published = entry.get('published', datetime.now())
+
+                    # Strip timezone info for comparison if present
+                    if published.tzinfo is not None:
+                        published = published.replace(tzinfo=None)
 
                     if published < cutoff_date:
                         continue
@@ -246,16 +318,66 @@ class StateSpendingMonitor:
         return findings
 
     def check_state_health_dept(self, state_code: str) -> List[Dict[str, Any]]:
-        """Check state health department news/press releases"""
+        """Check state health department news/press releases
+
+        Monitors all 50 state health departments directly.
+        All states are also monitored via CMS newsroom and Google News RSS feeds.
+        """
         logger.info(f"Checking {state_code} health department...")
         findings = []
 
-        # State health department news pages
+        # State health department news pages for all 50 states
         state_urls = {
+            'AL': 'https://www.alabamapublichealth.gov/blog/news-releases.html',
+            'AK': 'https://health.alaska.gov/en/news/',
+            'AZ': 'https://directorsblog.health.azdhs.gov/',
+            'AR': 'https://healthy.arkansas.gov/news/press-releases/',
             'CA': 'https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2026.aspx',
-            'NY': 'https://health.ny.gov/press/releases/',
+            'CO': 'https://cdphe.colorado.gov/category/press-release',
+            'CT': 'https://portal.ct.gov/dph/newsroom',
+            'DE': 'https://dhss.delaware.gov/dhss/newsroom.html',
             'FL': 'https://www.floridahealth.gov/newsroom/all-articles.html',
-            'TX': 'https://www.dshs.texas.gov/news-alerts'
+            'GA': 'https://dph.georgia.gov/press-releases',
+            'HI': 'https://health.hawaii.gov/news/category/newsroom/',
+            'ID': 'https://healthandwelfare.idaho.gov/news',
+            'IL': 'https://dph.illinois.gov/recent-news.html',
+            'IN': 'https://www.in.gov/health/office-of-public-affairs/',
+            'IA': 'https://hhs.iowa.gov/newsroom',
+            'KS': 'https://www.kdhe.ks.gov/CivicAlerts.aspx',
+            'KY': 'https://www.chfs.ky.gov/News/Pages/default.aspx',
+            'LA': 'https://ldh.la.gov/page/newsroom',
+            'ME': 'https://www.maine.gov/dhhs/news',
+            'MD': 'https://health.maryland.gov/newsroom/Pages/Index.aspx',
+            'MA': 'https://www.mass.gov/orgs/department-of-public-health/news',
+            'MI': 'https://www.michigan.gov/mdhhs/inside-mdhhs/newsroom/releases',
+            'MN': 'https://www.health.state.mn.us/news/index.html',
+            'MS': 'https://msdh.ms.gov/page/23,0,341.html',
+            'MO': 'https://health.mo.gov/news',
+            'MT': 'https://dphhs.mt.gov/News/index',
+            'NE': 'https://dhhs.ne.gov/Pages/News-Releases.aspx',
+            'NV': 'https://www.dhhs.nv.gov/News/',
+            'NH': 'https://www.dhhs.nh.gov/news-events/news-releases',
+            'NJ': 'https://www.nj.gov/health/news/',
+            'NM': 'https://www.nmhealth.org/news/',
+            'NY': 'https://health.ny.gov/press/releases/',
+            'NC': 'https://www.ncdhhs.gov/news',
+            'ND': 'https://www.health.nd.gov/news',
+            'OH': 'https://odh.ohio.gov/media-center/news-releases',
+            'OK': 'https://oklahoma.gov/health/about-us/news-and-updates.html',
+            'OR': 'https://www.oregon.gov/oha/PH/Pages/newsrel.aspx',
+            'PA': 'https://www.media.pa.gov/pages/health-details.aspx',
+            'RI': 'https://health.ri.gov/news/',
+            'SC': 'https://scdhec.gov/news-releases',
+            'SD': 'https://doh.sd.gov/news/',
+            'TN': 'https://www.tn.gov/health/news.html',
+            'TX': 'https://www.dshs.texas.gov/news-alerts',
+            'UT': 'https://dhhs.utah.gov/news/',
+            'VT': 'https://www.healthvermont.gov/news',
+            'VA': 'https://www.vdh.virginia.gov/news/',
+            'WA': 'https://doh.wa.gov/newsroom',
+            'WV': 'https://dhhr.wv.gov/News/Pages/default.aspx',
+            'WI': 'https://www.dhs.wisconsin.gov/news/index.htm',
+            'WY': 'https://health.wyo.gov/news/'
         }
 
         if state_code not in state_urls:
