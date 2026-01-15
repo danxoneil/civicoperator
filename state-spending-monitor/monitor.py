@@ -220,6 +220,10 @@ class StateSpendingMonitor:
                 for entry in entries[:20]:  # Check last 20 entries
                     published = entry.get('published', datetime.now())
 
+                    # Strip timezone info for comparison if present
+                    if published.tzinfo is not None:
+                        published = published.replace(tzinfo=None)
+
                     if published < cutoff_date:
                         continue
 
@@ -268,6 +272,10 @@ class StateSpendingMonitor:
 
                 for entry in entries[:15]:  # Check last 15 entries
                     published = entry.get('published', datetime.now())
+
+                    # Strip timezone info for comparison if present
+                    if published.tzinfo is not None:
+                        published = published.replace(tzinfo=None)
 
                     if published < cutoff_date:
                         continue
