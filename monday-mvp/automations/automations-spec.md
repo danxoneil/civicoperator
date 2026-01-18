@@ -3,14 +3,121 @@
 
 ---
 
+## Complexity Tier System
+
+All automations are classified by implementation complexity to set clear expectations about setup time, technical requirements, and ongoing maintenance.
+
+### 🟢 Tier 1: Easy Wins (Standard monday.com Features)
+
+**Characteristics:**
+- Built using native monday.com automation builder
+- Point-and-click configuration (no code)
+- Setup time: 5-15 minutes per automation
+- Testing time: 5-10 minutes
+- No external dependencies
+- Works out-of-the-box
+
+**Examples:**
+- Status change triggers ("When Status = X, notify Y")
+- Date-based alerts ("When date arrives, send email")
+- Formula-based notifications ("When formula > threshold, alert")
+- Item movement between groups
+
+**Risk Level:** Very Low
+**Maintenance:** Minimal (adjust thresholds/recipients as needed)
+
+---
+
+### 🟡 Tier 2: Moderate Complexity (Configuration + Logic)
+
+**Characteristics:**
+- Native monday.com features with conditional logic
+- Multiple steps chained together
+- Setup time: 15-30 minutes per automation
+- Testing time: 15-20 minutes
+- May require formula columns configured first
+- Some edge case handling needed
+
+**Examples:**
+- Multi-condition triggers ("When X AND Y, then Z")
+- Cascading status updates (change multiple columns)
+- Conditional notifications (different messages based on field values)
+- Time-based recurring checks
+
+**Risk Level:** Low
+**Maintenance:** Moderate (may need refinement based on edge cases)
+
+---
+
+### 🔴 Tier 3: Advanced/Custom (Requires Development)
+
+**Characteristics:**
+- External integrations or custom code
+- Middleware/API connections (Zapier, Make, custom scripts)
+- Setup time: 1-4 weeks
+- Testing time: 1-2 weeks
+- Ongoing monitoring required
+- Monthly middleware costs
+
+**Examples:**
+- Email parsing and auto-import
+- API integrations with SimplePractice (if available)
+- Complex multi-system workflows
+- Custom notification routing logic
+
+**Risk Level:** Moderate to High
+**Maintenance:** Ongoing (monitor for API changes, breakages)
+
+**Note:** No Tier 3 automations in MVP scope. Reserved for Phase 2.
+
+---
+
+## Automation Summary by Tier
+
+| # | Automation Name | Board | Tier | Setup Time | Value |
+|---|----------------|-------|------|------------|-------|
+| 1 | Intake SLA Alert | Patients & Intake | 🟢 Tier 1 | 10 min | High |
+| 2 | Forms Complete Status Update | Patients & Intake | 🟢 Tier 1 | 10 min | High |
+| 3 | SimplePractice Entry Archive | Patients & Intake | 🟢 Tier 1 | 10 min | Medium |
+| 4 | High Priority Escalation | Patients & Intake | 🟢 Tier 1 | 10 min | Medium |
+| 5 | Insurance Denied Alert | Patients & Intake | 🟢 Tier 1 | 10 min | High |
+| 6 | License Expiration Alert | Clinicians | 🟡 Tier 2 | 15 min | Critical |
+| 7 | Background Check Alert | Clinicians | 🟢 Tier 1 | 10 min | Medium |
+| 8 | Capacity Alert | Clinicians | 🟡 Tier 2 | 15 min | High |
+| 9 | Onboarding Checklist | Clinicians | 🟢 Tier 1 | 10 min | Low |
+| 10 | Aging Bucket Assignment | Claims | 🟡 Tier 2 | 20 min | Critical |
+| 11 | Denial Alert | Claims | 🟢 Tier 1 | 10 min | Critical |
+| 12 | High Dollar At-Risk Alert | Claims | 🟡 Tier 2 | 15 min | High |
+| 13 | Payment Archive | Claims | 🟢 Tier 1 | 10 min | Medium |
+| 14 | Agreement Renewal Alert | Locations | 🟡 Tier 2 | 15 min | Medium |
+| 15 | Over Capacity Alert | Locations | 🟡 Tier 2 | 15 min | Medium |
+| 16 | Authorization Expiration | Assignments | 🟡 Tier 2 | 15 min | Critical |
+| 17 | Service Gap Detection | Assignments | 🟡 Tier 2 | 15 min | High |
+| 18 | Sessions Nearly Exhausted | Assignments | 🟡 Tier 2 | 15 min | High |
+
+**Total Setup Time Estimate:** 4-5 hours for all 18 automations
+- Tier 1 (9 automations): ~90 minutes
+- Tier 2 (9 automations): ~135 minutes
+- Tier 3 (0 automations): N/A
+
+**Total Testing Time Estimate:** 3-4 hours
+
+**Grand Total Implementation:** 7-9 hours (board build + automation + testing)
+
+---
+
 ## Board 1: Patients & Intake
 
 ### Automation 1: Intake SLA Alert
+**🟢 Tier 1 - Easy Win**
+
 **Trigger:** When Days in Stage > 7
 **Action:** Send notification to Intake Coordinator
 **Message:** "⚠️ Patient {Patient Name} has been in {Current Status} for {Days in Stage} days. Please review and take action."
 **Priority:** High
 **Purpose:** Prevent stalled intake cases from falling through cracks
+**Setup Time:** 10 minutes
+**Business Value:** High
 
 **monday.com Recipe:**
 ```
@@ -22,9 +129,13 @@ with message "Patient has been in same stage for {Days in Stage} days - action n
 ---
 
 ### Automation 2: Forms Complete → Status Update
+**🟢 Tier 1 - Easy Win**
+
 **Trigger:** When Forms Status changes to "Complete"
 **Action:** Move to "Ready for Scheduling" group AND Change Current Status to "Ready"
 **Purpose:** Automatically advance intake workflow when forms are complete
+**Setup Time:** 10 minutes
+**Business Value:** High
 
 **monday.com Recipe:**
 ```
@@ -432,3 +543,213 @@ Before go-live, test each automation:
 - 400 active claims
 - 12 active clinicians
 - Daily formula recalculations
+
+## Quick Reference: Automation Tiers & Prioritization
+
+### By Implementation Priority (Pilot - Claims Only)
+
+**Week 1 Critical (Pilot):**
+1. 🟢 Automation #11: Denial Alert (Tier 1, 10 min) - CRITICAL
+2. 🟡 Automation #10: Aging Bucket Assignment (Tier 2, 20 min) - CRITICAL
+3. 🟡 Automation #12: High Dollar At-Risk (Tier 2, 15 min) - HIGH
+4. 🟢 Automation #13: Payment Archive (Tier 1, 10 min) - MEDIUM
+
+**Total Pilot Setup:** 55 minutes
+
+---
+
+### By Implementation Priority (Phase 1 - Claims + Intake)
+
+**Add to Pilot (Week 2-3):**
+5. 🟢 Automation #1: Intake SLA Alert (Tier 1, 10 min) - HIGH
+6. 🟢 Automation #2: Forms Complete (Tier 1, 10 min) - HIGH
+7. 🟢 Automation #5: Insurance Denied (Tier 1, 10 min) - HIGH
+8. 🟢 Automation #3: SimplePractice Entry (Tier 1, 10 min) - MEDIUM
+9. 🟢 Automation #4: High Priority Escalation (Tier 1, 10 min) - MEDIUM
+
+**Total Phase 1 Setup:** 105 minutes (1.75 hours)
+
+---
+
+### By Implementation Priority (Full MVP)
+
+**Add Remaining (Week 4-5):**
+10. 🟡 Automation #6: License Expiration (Tier 2, 15 min) - CRITICAL
+11. 🟡 Automation #16: Auth Expiration (Tier 2, 15 min) - CRITICAL
+12. 🟡 Automation #17: Service Gap (Tier 2, 15 min) - HIGH
+13. 🟡 Automation #18: Sessions Exhausted (Tier 2, 15 min) - HIGH
+14. 🟡 Automation #8: Capacity Alert (Tier 2, 15 min) - HIGH
+15. 🟡 Automation #14: Agreement Renewal (Tier 2, 15 min) - MEDIUM
+16. 🟡 Automation #15: Location Capacity (Tier 2, 15 min) - MEDIUM
+17. 🟢 Automation #7: Background Check (Tier 1, 10 min) - MEDIUM
+18. 🟢 Automation #9: Onboarding Checklist (Tier 1, 10 min) - LOW
+
+**Total Full MVP Setup:** 260 minutes (4.3 hours)
+
+---
+
+### Tier Summary for Client Expectations
+
+**🟢 Tier 1 Automations (9 total):** 
+- Standard monday.com features
+- Point-and-click setup
+- 10 minutes each = 90 minutes total
+- Zero risk, minimal maintenance
+- **These are the "easy wins" - proven, reliable**
+
+**🟡 Tier 2 Automations (9 total):**
+- Native features with conditional logic
+- Requires formula columns configured first
+- 15-20 minutes each = 135 minutes total
+- Low risk, moderate maintenance
+- **Still using monday.com native - no custom code**
+
+**🔴 Tier 3 Automations (0 in MVP):**
+- Custom development/integrations
+- NOT included in MVP scope
+- Reserved for Phase 2 (if needed)
+- Example: Email parsing, API integrations
+- **We explicitly avoid these for MVP to keep it simple and reliable**
+
+---
+
+### What "May Be Over-Promising" Means
+
+During demo, we mentioned email parsing (auto-detecting denials from payer emails). This would be **Tier 3** and is **NOT** included in MVP.
+
+**MVP Approach:**
+- You manually update Claim Status to "Denied" in monday.com
+- Automation #11 immediately triggers alert
+- No email parsing needed
+
+**Future Phase 2 (Optional):**
+- Set up Zapier to monitor specific inbox
+- Parse denial emails automatically
+- Auto-update monday.com
+- Cost: $100-200/month + setup time
+- **Only pursue if manual process becomes burdensome**
+
+**Our philosophy:** Start simple, prove value, automate more later.
+
+---
+
+### Expected Automation Performance
+
+**Tier 1 Success Rate:** 99%+
+- Proven monday.com features
+- Extensive testing by platform
+- Rarely break
+
+**Tier 2 Success Rate:** 95-98%
+- Occasionally need threshold adjustments
+- Edge cases may require refinement
+- Easy to fix when they occur
+
+**Maintenance Expectations:**
+- **Month 1:** Weekly check-ins, minor adjustments
+- **Month 2-3:** Bi-weekly reviews
+- **Month 4+:** Quarterly optimization reviews
+- **Ongoing:** Responds to your workflow changes (new staff, new payers, etc.)
+
+---
+
+## Formula Columns Required (Setup Before Automations)
+
+Many Tier 2 automations depend on formula columns. These must be configured during board setup:
+
+### Patients & Intake Board
+- **Days in Stage:** `DAYS({Last Updated}, TODAY())`
+
+### Clinicians Board
+- **Days Until Expiration:** `DAYS(TODAY(), {License Expiration})`
+- **Availability %:** `({Max Weekly Sessions} - {Current Patient Count}) / {Max Weekly Sessions} * 100`
+
+### Claims Board
+- **Days Outstanding:** `DAYS({Submission Date}, TODAY())`
+
+### Locations Board
+- **Days Until Renewal:** `DAYS(TODAY(), {Agreement Expiration})`
+- **Utilization %:** `({Current Census} / {Max Capacity}) * 100`
+
+### Assignments Board
+- **Sessions Remaining:** `{Authorized Sessions} - {Sessions Used}`
+- **Days Until Auth Expires:** `DAYS(TODAY(), {Authorization End Date})`
+- **Days Since Last Session:** `DAYS({Last Session Date}, TODAY())`
+
+**Formula Setup Time:** 30-45 minutes total (included in board build estimates)
+
+---
+
+## Common Questions About Automation Complexity
+
+### Q: Why is License Expiration Tier 2 if it's just a date alert?
+
+**A:** It requires:
+1. Formula column (Days Until Expiration) configured first
+2. Conditional logic (only alert if ≤60 days AND clinician is active)
+3. Multiple recipients (clinician + board owner)
+4. Custom message with multiple field references
+
+Still native monday.com, just more steps to configure and test.
+
+---
+
+### Q: Can we add Tier 3 automations later?
+
+**A:** Yes, that's the plan.
+
+**Recommended sequence:**
+1. **Months 1-3:** Validate MVP (Tier 1 & 2 only)
+2. **Month 4-6:** Identify pain points in manual processes
+3. **Month 6+:** Add Tier 3 automations if ROI justifies cost
+
+**Example Tier 3 candidates:**
+- SimplePractice API integration (auto-import sessions daily)
+- Email parsing (auto-detect denials)
+- SMS notifications (using Twilio)
+- Advanced reporting (using BI tools)
+
+---
+
+### Q: What happens if an automation breaks?
+
+**Tier 1/2 Automations:**
+- monday.com shows error in Activity Log
+- Usually: field name changed, user deleted, permission issue
+- Fix time: 5-15 minutes
+- We help troubleshoot during support period
+
+**Fallback:**
+- System continues working without automation
+- You see data, just don't get automated alerts
+- Can manually do the action automation was handling
+
+**Prevention:**
+- Test all automations before go-live
+- Document dependencies (e.g., "Depends on formula column X")
+- Monthly health checks (we can provide checklist)
+
+---
+
+## Client Takeaway: Realistic Expectations
+
+**What you WILL get (MVP scope):**
+- ✅ 18 reliable automations using proven monday.com features
+- ✅ 4-5 hours setup time (efficient, predictable)
+- ✅ Minimal ongoing maintenance
+- ✅ Immediate value from day 1
+- ✅ Foundation to build more sophisticated automations later
+
+**What you will NOT get (out of MVP scope):**
+- ❌ Email parsing or auto-detection
+- ❌ Real-time API sync with SimplePractice
+- ❌ Custom middleware or code
+- ❌ SMS notifications
+- ❌ Advanced AI/ML features
+
+**Philosophy:**
+Walk before we run. Prove the foundation works, then enhance.
+
+---
+
+**Questions about automation complexity?** Contact implementation team to discuss specific workflows.
