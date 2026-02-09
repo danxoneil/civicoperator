@@ -40,54 +40,46 @@ jobs:
           cd state-spending-monitor
           python monitor.py
 
-      - name: Upload findings
+      - name: Upload findings and status
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: monitoring-results
           path: |
             state-spending-monitor/findings.json
+            state-spending-monitor/status.json
             state-spending-monitor/monitor.log
           retention-days: 30
 
-      - name: Create issue for new findings
-        if: success()
+      - name: Create status issue
+        if: always()
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const findingsPath = 'state-spending-monitor/findings.json';
 
-            if (!fs.existsSync(findingsPath)) {
-              console.log('No findings file found');
-              return;
+            // Read status report
+            let statusReport = null;
+            const statusPath = 'state-spending-monitor/status.json';
+            if (fs.existsSync(statusPath)) {
+              statusReport = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
             }
 
-            const findings = JSON.parse(fs.readFileSync(findingsPath, 'utf8'));
+            // Read findings
+            let findings = [];
+            const findingsPath = 'state-spending-monitor/findings.json';
+            if (fs.existsSync(findingsPath)) {
+              findings = JSON.parse(fs.readFileSync(findingsPath, 'utf8'));
+            }
 
-            // Check for recent findings (last 24 hours)
+            // Filter to recent findings (last 24 hours)
             const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
             const recentFindings = findings.filter(f => {
               const foundAt = new Date(f.found_at);
               return foundAt > oneDayAgo;
             });
 
-            if (recentFindings.length === 0) {
-              console.log('No new findings in the last 24 hours');
-              return;
-            }
-
-            // Group by state
-            const byState = {};
-            for (const finding of recentFindings) {
-              const state = finding.state;
-              if (!byState[state]) {
-                byState[state] = [];
-              }
-              byState[state].push(finding);
-            }
-
-            // Create issue body
+            // State name lookup
             const stateNames = {
               'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
               'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware',
@@ -104,36 +96,82 @@ jobs:
               'WI': 'Wisconsin', 'WY': 'Wyoming'
             };
 
-            let body = `## State Spending News Alert\n\n`;
-            body += `Found **${recentFindings.length}** new items about Rural Health Transformation Program spending:\n\n`;
+            const runDate = new Date().toISOString().split('T')[0];
+            const hasFindings = recentFindings.length > 0;
 
-            for (const [stateCode, stateFindings] of Object.entries(byState).sort()) {
-              const stateName = stateNames[stateCode] || stateCode;
-              body += `### ${stateName} (${stateFindings.length} items)\n\n`;
+            // Build issue title
+            let title;
+            if (hasFindings) {
+              title = `State Spending Alert: ${recentFindings.length} new items found (${runDate})`;
+            } else {
+              title = `State Spending Monitor: Run completed (${runDate})`;
+            }
 
-              for (const finding of stateFindings) {
-                body += `#### ${finding.title}\n\n`;
-                body += `- **Source:** ${finding.source}\n`;
-                body += `- **URL:** ${finding.url}\n`;
-                body += `- **Published:** ${finding.published}\n`;
-                if (finding.description) {
-                  body += `- **Description:** ${finding.description}\n`;
-                }
-                body += `\n`;
+            // Build issue body
+            let body = `## State Spending News Monitor — ${runDate}\n\n`;
+
+            // Source health section
+            if (statusReport && statusReport.source_health) {
+              body += `### Source Health\n\n`;
+              body += `| Source | Attempted | Succeeded | Failed |\n`;
+              body += `|--------|-----------|-----------|--------|\n`;
+              for (const [source, stats] of Object.entries(statusReport.source_health)) {
+                const emoji = stats.failed === 0 && stats.attempted > 0 ? '✅' : (stats.succeeded > 0 ? '⚠️' : '❌');
+                body += `| ${emoji} ${source} | ${stats.attempted} | ${stats.succeeded} | ${stats.failed} |\n`;
               }
+              body += `\n`;
+            }
+
+            // Findings section
+            if (hasFindings) {
+              body += `### Findings: ${recentFindings.length} new items\n\n`;
+
+              // Group by state
+              const byState = {};
+              for (const finding of recentFindings) {
+                if (!byState[finding.state]) byState[finding.state] = [];
+                byState[finding.state].push(finding);
+              }
+
+              for (const [stateCode, stateFindings] of Object.entries(byState).sort()) {
+                const stateName = stateNames[stateCode] || stateCode;
+                body += `#### ${stateName} (${stateFindings.length} items)\n\n`;
+                for (const finding of stateFindings) {
+                  body += `- **${finding.title}**\n`;
+                  body += `  - Source: ${finding.source}\n`;
+                  body += `  - URL: ${finding.url}\n`;
+                  body += `  - Published: ${finding.published}\n`;
+                  if (finding.description && finding.description.length > 30) {
+                    body += `  - ${finding.description.substring(0, 200)}\n`;
+                  }
+                  body += `\n`;
+                }
+              }
+            } else {
+              body += `### No new findings\n\n`;
+              body += `No relevant news items matched the monitoring criteria in this run.\n`;
+              body += `This is normal — the monitor will keep checking daily.\n\n`;
             }
 
             body += `---\n`;
-            body += `*Automated alert from State Spending News Monitor*\n`;
+            body += `*Automated report from State Spending News Monitor*\n`;
             body += `*Run: ${new Date().toISOString()}*\n`;
+
+            // Determine labels
+            const labels = ['automated', 'state-spending'];
+            if (hasFindings) {
+              labels.push('news-alert');
+            } else {
+              labels.push('status-report');
+            }
 
             // Create the issue
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `State Spending News: ${recentFindings.length} new items found`,
+              title: title,
               body: body,
-              labels: ['news-alert', 'state-spending', 'automated']
+              labels: labels
             });
 
-            console.log(`Created issue for ${recentFindings.length} new findings`);
+            console.log(`Created issue: ${title}`);
