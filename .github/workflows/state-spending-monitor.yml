@@ -1,17 +1,16 @@
 name: State Spending News Monitor
 
 on:
-  # Run daily at 9:00 AM UTC (4:00 AM EST / 1:00 AM PST)
   schedule:
-    - cron: '0 9 * * *'
-
-  # Allow manual trigger
+    - cron: '0 9 * * *'  # Daily at 9:00 AM UTC
   workflow_dispatch:
 
 jobs:
-  monitor:
+  # ------------------------------------------------------------------
+  # Job 1: Official sources — CMS, HHS, state health departments
+  # ------------------------------------------------------------------
+  official-sources:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -27,7 +26,7 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run monitoring script
+      - name: Run official sources monitor
         env:
           SEND_EMAIL_NOTIFICATIONS: ${{ secrets.SEND_EMAIL_NOTIFICATIONS }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
@@ -38,16 +37,16 @@ jobs:
           LOOKBACK_DAYS: 60
         run: |
           cd state-spending-monitor
-          python monitor.py
+          python monitor.py --sources official
 
-      - name: Upload findings and status
+      - name: Upload results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: monitoring-results
+          name: official-sources-results
           path: |
-            state-spending-monitor/findings.json
-            state-spending-monitor/status.json
+            state-spending-monitor/findings-official.json
+            state-spending-monitor/status-official.json
             state-spending-monitor/monitor.log
           retention-days: 30
 
@@ -58,28 +57,21 @@ jobs:
           script: |
             const fs = require('fs');
 
-            // Read status report
             let statusReport = null;
-            const statusPath = 'state-spending-monitor/status.json';
+            const statusPath = 'state-spending-monitor/status-official.json';
             if (fs.existsSync(statusPath)) {
               statusReport = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
             }
 
-            // Read findings
             let findings = [];
-            const findingsPath = 'state-spending-monitor/findings.json';
+            const findingsPath = 'state-spending-monitor/findings-official.json';
             if (fs.existsSync(findingsPath)) {
               findings = JSON.parse(fs.readFileSync(findingsPath, 'utf8'));
             }
 
-            // Filter to recent findings (last 24 hours)
             const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
-            const recentFindings = findings.filter(f => {
-              const foundAt = new Date(f.found_at);
-              return foundAt > oneDayAgo;
-            });
+            const recentFindings = findings.filter(f => new Date(f.found_at) > oneDayAgo);
 
-            // State name lookup
             const stateNames = {
               'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
               'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware',
@@ -99,79 +91,189 @@ jobs:
             const runDate = new Date().toISOString().split('T')[0];
             const hasFindings = recentFindings.length > 0;
 
-            // Build issue title
-            let title;
-            if (hasFindings) {
-              title = `State Spending Alert: ${recentFindings.length} new items found (${runDate})`;
-            } else {
-              title = `State Spending Monitor: Run completed (${runDate})`;
-            }
+            let title = hasFindings
+              ? `[Official] State Spending Alert: ${recentFindings.length} items (${runDate})`
+              : `[Official] State Spending Monitor: Run completed (${runDate})`;
 
-            // Build issue body
-            let body = `## State Spending News Monitor — ${runDate}\n\n`;
+            let body = `## Official Sources Monitor — ${runDate}\n\n`;
+            body += `Sources: CMS Newsroom, CMS RHT Program page, HHS.gov, 50 state health departments\n\n`;
 
-            // Source health section
             if (statusReport && statusReport.source_health) {
               body += `### Source Health\n\n`;
               body += `| Source | Attempted | Succeeded | Failed |\n`;
               body += `|--------|-----------|-----------|--------|\n`;
               for (const [source, stats] of Object.entries(statusReport.source_health)) {
-                const emoji = stats.failed === 0 && stats.attempted > 0 ? '✅' : (stats.succeeded > 0 ? '⚠️' : '❌');
+                if (stats.attempted === 0) continue;
+                const emoji = stats.failed === 0 ? '✅' : (stats.succeeded > 0 ? '⚠️' : '❌');
                 body += `| ${emoji} ${source} | ${stats.attempted} | ${stats.succeeded} | ${stats.failed} |\n`;
               }
               body += `\n`;
             }
 
-            // Findings section
             if (hasFindings) {
-              body += `### Findings: ${recentFindings.length} new items\n\n`;
-
-              // Group by state
+              body += `### Findings: ${recentFindings.length} items\n\n`;
               const byState = {};
-              for (const finding of recentFindings) {
-                if (!byState[finding.state]) byState[finding.state] = [];
-                byState[finding.state].push(finding);
+              for (const f of recentFindings) {
+                if (!byState[f.state]) byState[f.state] = [];
+                byState[f.state].push(f);
               }
-
-              for (const [stateCode, stateFindings] of Object.entries(byState).sort()) {
-                const stateName = stateNames[stateCode] || stateCode;
-                body += `#### ${stateName} (${stateFindings.length} items)\n\n`;
-                for (const finding of stateFindings) {
-                  body += `- **${finding.title}**\n`;
-                  body += `  - Source: ${finding.source}\n`;
-                  body += `  - URL: ${finding.url}\n`;
-                  body += `  - Published: ${finding.published}\n`;
-                  if (finding.description && finding.description.length > 30) {
-                    body += `  - ${finding.description.substring(0, 200)}\n`;
-                  }
-                  body += `\n`;
+              for (const [sc, items] of Object.entries(byState).sort()) {
+                body += `#### ${stateNames[sc] || sc} (${items.length})\n\n`;
+                for (const item of items) {
+                  body += `- **${item.title}**\n`;
+                  body += `  - Source: ${item.source} | URL: ${item.url}\n`;
+                  body += `  - Published: ${item.published}\n\n`;
                 }
               }
             } else {
-              body += `### No new findings\n\n`;
-              body += `No relevant news items matched the monitoring criteria in this run.\n`;
-              body += `This is normal — the monitor will keep checking daily.\n\n`;
+              body += `### No new findings\n\nNo items matched from official sources in this run.\n\n`;
             }
 
-            body += `---\n`;
-            body += `*Automated report from State Spending News Monitor*\n`;
-            body += `*Run: ${new Date().toISOString()}*\n`;
+            body += `---\n*Automated report — Official Sources*\n*${new Date().toISOString()}*\n`;
 
-            // Determine labels
-            const labels = ['automated', 'state-spending'];
-            if (hasFindings) {
-              labels.push('news-alert');
-            } else {
-              labels.push('status-report');
-            }
+            const labels = ['automated', 'state-spending', 'official-sources'];
+            if (hasFindings) labels.push('news-alert');
+            else labels.push('status-report');
 
-            // Create the issue
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: title,
-              body: body,
-              labels: labels
+              title, body, labels
             });
+            console.log(`Created issue: ${title}`);
 
+  # ------------------------------------------------------------------
+  # Job 2: News sources — Google News RSS
+  # ------------------------------------------------------------------
+  news-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd state-spending-monitor
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run news sources monitor
+        env:
+          SEND_EMAIL_NOTIFICATIONS: ${{ secrets.SEND_EMAIL_NOTIFICATIONS }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          LOOKBACK_DAYS: 60
+        run: |
+          cd state-spending-monitor
+          python monitor.py --sources news
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-sources-results
+          path: |
+            state-spending-monitor/findings-news.json
+            state-spending-monitor/status-news.json
+            state-spending-monitor/monitor.log
+          retention-days: 30
+
+      - name: Create status issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            let statusReport = null;
+            const statusPath = 'state-spending-monitor/status-news.json';
+            if (fs.existsSync(statusPath)) {
+              statusReport = JSON.parse(fs.readFileSync(statusPath, 'utf8'));
+            }
+
+            let findings = [];
+            const findingsPath = 'state-spending-monitor/findings-news.json';
+            if (fs.existsSync(findingsPath)) {
+              findings = JSON.parse(fs.readFileSync(findingsPath, 'utf8'));
+            }
+
+            const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000);
+            const recentFindings = findings.filter(f => new Date(f.found_at) > oneDayAgo);
+
+            const stateNames = {
+              'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas',
+              'CA': 'California', 'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware',
+              'FL': 'Florida', 'GA': 'Georgia', 'HI': 'Hawaii', 'ID': 'Idaho',
+              'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa', 'KS': 'Kansas',
+              'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
+              'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi',
+              'MO': 'Missouri', 'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada',
+              'NH': 'New Hampshire', 'NJ': 'New Jersey', 'NM': 'New Mexico', 'NY': 'New York',
+              'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio', 'OK': 'Oklahoma',
+              'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+              'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah',
+              'VT': 'Vermont', 'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia',
+              'WI': 'Wisconsin', 'WY': 'Wyoming'
+            };
+
+            const runDate = new Date().toISOString().split('T')[0];
+            const hasFindings = recentFindings.length > 0;
+
+            let title = hasFindings
+              ? `[News] State Spending Alert: ${recentFindings.length} items (${runDate})`
+              : `[News] State Spending Monitor: Run completed (${runDate})`;
+
+            let body = `## News Sources Monitor — ${runDate}\n\n`;
+            body += `Sources: Google News RSS (2 queries x 50 states, strict relevance filter)\n\n`;
+
+            if (statusReport && statusReport.source_health) {
+              body += `### Source Health\n\n`;
+              body += `| Source | Attempted | Succeeded | Failed |\n`;
+              body += `|--------|-----------|-----------|--------|\n`;
+              for (const [source, stats] of Object.entries(statusReport.source_health)) {
+                if (stats.attempted === 0) continue;
+                const emoji = stats.failed === 0 ? '✅' : (stats.succeeded > 0 ? '⚠️' : '❌');
+                body += `| ${emoji} ${source} | ${stats.attempted} | ${stats.succeeded} | ${stats.failed} |\n`;
+              }
+              body += `\n`;
+            }
+
+            if (hasFindings) {
+              body += `### Findings: ${recentFindings.length} items\n\n`;
+              const byState = {};
+              for (const f of recentFindings) {
+                if (!byState[f.state]) byState[f.state] = [];
+                byState[f.state].push(f);
+              }
+              for (const [sc, items] of Object.entries(byState).sort()) {
+                body += `#### ${stateNames[sc] || sc} (${items.length})\n\n`;
+                for (const item of items) {
+                  body += `- **${item.title}**\n`;
+                  body += `  - Source: ${item.source} | URL: ${item.url}\n`;
+                  body += `  - Published: ${item.published}\n\n`;
+                }
+              }
+            } else {
+              body += `### No new findings\n\nNo items passed the strict relevance filter in this run.\n\n`;
+            }
+
+            body += `---\n*Automated report — News Sources*\n*${new Date().toISOString()}*\n`;
+
+            const labels = ['automated', 'state-spending', 'news-sources'];
+            if (hasFindings) labels.push('news-alert');
+            else labels.push('status-report');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title, body, labels
+            });
             console.log(`Created issue: ${title}`);
