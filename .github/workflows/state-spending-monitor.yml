@@ -164,12 +164,7 @@ jobs:
 
       - name: Run news sources monitor
         env:
-          SEND_EMAIL_NOTIFICATIONS: ${{ secrets.SEND_EMAIL_NOTIFICATIONS }}
-          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
-          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SEND_EMAIL_NOTIFICATIONS: 'false'
           LOOKBACK_DAYS: 60
         run: |
           cd state-spending-monitor
