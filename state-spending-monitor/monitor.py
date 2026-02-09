@@ -3,13 +3,22 @@
 State Spending News Monitor for Rural Health Transformation Program
 Monitors all 50 US states for news about RHT program spending.
 
-Data sources:
+Usage:
+  python monitor.py --sources official   # CMS + state health depts only
+  python monitor.py --sources news       # Google News only
+  python monitor.py --sources all        # everything (default)
+
+Data sources (official):
   - CMS Newsroom (multiple feed URLs attempted)
   - CMS RHT Program page (direct scrape)
-  - Google News RSS (per-state searches)
+  - HHS.gov newsroom
   - State health department websites (all 50 states)
+
+Data sources (news):
+  - Google News RSS (per-state searches)
 """
 
+import argparse
 import os
 import json
 import time
@@ -148,8 +157,14 @@ class StateSpendingMonitor:
         'WY': 'https://health.wyo.gov/news/',
     }
 
-    def __init__(self):
-        """Initialize the monitor with retry-capable HTTP session"""
+    def __init__(self, source_mode: str = 'all'):
+        """Initialize the monitor with retry-capable HTTP session.
+
+        Args:
+            source_mode: Which sources to check — 'official', 'news', or 'all'.
+        """
+        self.source_mode = source_mode
+
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': (
@@ -200,7 +215,6 @@ class StateSpendingMonitor:
             response.raise_for_status()
             return response
         except requests.exceptions.RequestException as e:
-            # Shorten the error message for logging
             err_type = type(e).__name__
             logger.warning(f"Request failed for {url}: {err_type}")
             return None
@@ -239,22 +253,28 @@ class StateSpendingMonitor:
 
         return entries
 
+    # ------------------------------------------------------------------
+    # Relevance filters
+    # ------------------------------------------------------------------
+
     def is_relevant(self, title: str, description: str, state_code: str,
                     *, require_state: bool = True) -> bool:
-        """Check if a news item is relevant to our monitoring criteria"""
+        """Broad relevance check used for official/authoritative sources.
+
+        Matches on primary keywords OR "rural" + any health/funding term.
+        """
         text = f"{title} {description}".lower()
         state_name = self.STATES[state_code].lower()
 
-        # Must mention the state unless explicitly waived
         if require_state and state_code.lower() not in text and state_name not in text:
             return False
 
-        # Direct keyword match = relevant
+        # Direct keyword match
         if any(kw.lower() in text for kw in self.KEYWORDS):
             logger.info(f"Match via keyword for {state_code}: {title[:80]}")
             return True
 
-        # "rural" + health/funding term = relevant
+        # "rural" + health/funding term
         if 'rural' in text and any(t in text for t in [
             'health', 'healthcare', 'hospital', 'clinic',
             'million', 'billion', 'funding', 'award', 'grant',
@@ -263,6 +283,42 @@ class StateSpendingMonitor:
             return True
 
         return False
+
+    def is_relevant_strict(self, title: str, description: str, state_code: str) -> bool:
+        """Stricter relevance check used for Google News to cut noise.
+
+        Requires either:
+          - A primary keyword match, OR
+          - The phrase "rural health" (not just "rural" and "health" separately)
+            PLUS a funding/government term
+        Also requires mentioning the state.
+        """
+        text = f"{title} {description}".lower()
+        state_name = self.STATES[state_code].lower()
+
+        # Must mention the state
+        if state_code.lower() not in text and state_name not in text:
+            return False
+
+        # Direct keyword match = relevant
+        if any(kw.lower() in text for kw in self.KEYWORDS):
+            logger.info(f"[news] Match via keyword for {state_code}: {title[:80]}")
+            return True
+
+        # "rural health" as a phrase + funding/government context
+        if 'rural health' in text and any(t in text for t in [
+            'cms', 'hhs', 'medicaid', 'medicare', 'federal',
+            'million', 'billion', 'funding', 'award', 'grant',
+            'appropriat', 'budget', 'spending', 'allocat',
+        ]):
+            logger.info(f"[news] Match via 'rural health'+funding for {state_code}: {title[:80]}")
+            return True
+
+        return False
+
+    # ------------------------------------------------------------------
+    # Official sources
+    # ------------------------------------------------------------------
 
     def check_cms_feeds(self) -> List[Dict[str, Any]]:
         """Check CMS newsroom RSS feeds, trying multiple known URLs"""
@@ -279,7 +335,6 @@ class StateSpendingMonitor:
                 self.source_stats['cms_feeds']['errors'].append(feed_url)
                 continue
 
-            # Check if we actually got XML/RSS content
             content_type = response.headers.get('content-type', '')
             if 'xml' in content_type or 'rss' in content_type or response.text.strip().startswith('<?xml'):
                 entries = self.parse_rss_feed(response.text)
@@ -366,57 +421,6 @@ class StateSpendingMonitor:
 
         return findings
 
-    def check_google_news_rss(self, state_code: str) -> List[Dict[str, Any]]:
-        """Check Google News RSS for state-specific RHT news"""
-        findings = []
-        state_name = self.STATES[state_code]
-
-        # Use two search queries per state for better coverage
-        queries = [
-            f'{state_name} rural health transformation program',
-            f'{state_name} CMS rural health funding 2026',
-        ]
-
-        for query in queries:
-            self.source_stats['google_news']['attempted'] += 1
-            url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}&hl=en-US&gl=US&ceid=US:en"
-
-            response = self._get(url)
-            if response is None:
-                self.source_stats['google_news']['errors'].append(f"{state_code}: {query[:40]}")
-                continue
-
-            self.source_stats['google_news']['succeeded'] += 1
-            entries = self.parse_rss_feed(response.text)
-            cutoff = datetime.now() - timedelta(days=self.lookback_days)
-            logger.info(f"  Google News {state_code} ({query[:30]}...): {len(entries)} entries")
-
-            for entry in entries[:15]:
-                published = entry.get('published', datetime.now())
-                if hasattr(published, 'tzinfo') and published.tzinfo is not None:
-                    published = published.replace(tzinfo=None)
-                if published < cutoff:
-                    continue
-
-                title = entry.get('title', '')
-                description = entry.get('description', '')
-                link = entry.get('link', '')
-
-                if self.is_relevant(title, description, state_code):
-                    findings.append({
-                        'source': 'Google News',
-                        'state': state_code,
-                        'title': title,
-                        'description': description[:500],
-                        'url': link,
-                        'published': published.isoformat(),
-                        'found_at': datetime.now().isoformat(),
-                    })
-
-            time.sleep(2)
-
-        return findings
-
     def check_state_health_dept(self, state_code: str) -> List[Dict[str, Any]]:
         """Check a state health department website for relevant press releases"""
         findings = []
@@ -459,26 +463,90 @@ class StateSpendingMonitor:
         time.sleep(2)
         return findings
 
+    # ------------------------------------------------------------------
+    # News sources
+    # ------------------------------------------------------------------
+
+    def check_google_news_rss(self, state_code: str) -> List[Dict[str, Any]]:
+        """Check Google News RSS for state-specific RHT news.
+
+        Uses is_relevant_strict to filter out generic rural health articles.
+        """
+        findings = []
+        state_name = self.STATES[state_code]
+
+        queries = [
+            f'{state_name} rural health transformation program',
+            f'{state_name} CMS rural health funding 2026',
+        ]
+
+        for query in queries:
+            self.source_stats['google_news']['attempted'] += 1
+            url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}&hl=en-US&gl=US&ceid=US:en"
+
+            response = self._get(url)
+            if response is None:
+                self.source_stats['google_news']['errors'].append(f"{state_code}: {query[:40]}")
+                continue
+
+            self.source_stats['google_news']['succeeded'] += 1
+            entries = self.parse_rss_feed(response.text)
+            cutoff = datetime.now() - timedelta(days=self.lookback_days)
+            logger.info(f"  Google News {state_code} ({query[:30]}...): {len(entries)} entries")
+
+            for entry in entries[:15]:
+                published = entry.get('published', datetime.now())
+                if hasattr(published, 'tzinfo') and published.tzinfo is not None:
+                    published = published.replace(tzinfo=None)
+                if published < cutoff:
+                    continue
+
+                title = entry.get('title', '')
+                description = entry.get('description', '')
+                link = entry.get('link', '')
+
+                if self.is_relevant_strict(title, description, state_code):
+                    findings.append({
+                        'source': 'Google News',
+                        'state': state_code,
+                        'title': title,
+                        'description': description[:500],
+                        'url': link,
+                        'published': published.isoformat(),
+                        'found_at': datetime.now().isoformat(),
+                    })
+
+            time.sleep(2)
+
+        return findings
+
+    # ------------------------------------------------------------------
+    # Orchestration
+    # ------------------------------------------------------------------
+
     def run_all_checks(self) -> List[Dict[str, Any]]:
-        """Run all monitoring checks and return deduplicated findings"""
+        """Run monitoring checks based on source_mode and return deduplicated findings"""
+        mode = self.source_mode
         logger.info("=" * 60)
-        logger.info("Starting state spending news monitoring")
+        logger.info(f"Starting state spending news monitoring (mode={mode})")
         logger.info(f"Monitoring {len(self.STATES)} states, lookback {self.lookback_days} days")
         logger.info("=" * 60)
 
         all_findings = []
 
-        # 1. CMS RSS feeds (covers all states)
-        all_findings.extend(self.check_cms_feeds())
+        # Official sources
+        if mode in ('official', 'all'):
+            all_findings.extend(self.check_cms_feeds())
+            all_findings.extend(self.check_cms_direct())
+            for state_code in self.STATES:
+                logger.info(f"Checking {state_code} ({self.STATES[state_code]}) health dept...")
+                all_findings.extend(self.check_state_health_dept(state_code))
 
-        # 2. CMS direct page scrapes (covers all states)
-        all_findings.extend(self.check_cms_direct())
-
-        # 3. Per-state: Google News + state health dept
-        for state_code in self.STATES:
-            logger.info(f"Checking {state_code} ({self.STATES[state_code]})...")
-            all_findings.extend(self.check_google_news_rss(state_code))
-            all_findings.extend(self.check_state_health_dept(state_code))
+        # News sources
+        if mode in ('news', 'all'):
+            for state_code in self.STATES:
+                logger.info(f"Checking {state_code} ({self.STATES[state_code]}) news...")
+                all_findings.extend(self.check_google_news_rss(state_code))
 
         # Deduplicate by URL
         seen_urls = set()
@@ -491,6 +559,10 @@ class StateSpendingMonitor:
         self.findings = unique
         logger.info(f"Total unique findings: {len(unique)}")
         return unique
+
+    # ------------------------------------------------------------------
+    # Output: save, notify, summarize
+    # ------------------------------------------------------------------
 
     def save_findings(self, filename: str = 'findings.json'):
         """Save findings to JSON, merging with any existing data"""
@@ -509,7 +581,6 @@ class StateSpendingMonitor:
                     json.dump(existing, f, indent=2)
                 logger.info(f"Saved {len(new_findings)} new findings ({len(existing)} total)")
             else:
-                # Always write the file so the workflow can upload it
                 if not os.path.exists(filename):
                     with open(filename, 'w') as f:
                         json.dump([], f, indent=2)
@@ -521,11 +592,7 @@ class StateSpendingMonitor:
             return 0
 
     def send_notification(self, *, always_notify: bool = True):
-        """Send email notification with findings or run status
-
-        Args:
-            always_notify: If True, send a status email even when there are 0 findings.
-        """
+        """Send email notification with findings or run status"""
         if not self.send_email:
             logger.info("Email notifications disabled")
             return
@@ -538,16 +605,22 @@ class StateSpendingMonitor:
         if not has_findings and not always_notify:
             return
 
+        mode_label = {
+            'official': 'Official Sources',
+            'news': 'News Sources',
+            'all': 'All Sources',
+        }.get(self.source_mode, self.source_mode)
+
         try:
             msg = MIMEMultipart('alternative')
             msg['From'] = self.smtp_user
             msg['To'] = self.notification_email
 
             if has_findings:
-                msg['Subject'] = f"State Spending Alert: {len(self.findings)} items found"
+                msg['Subject'] = f"[{mode_label}] State Spending Alert: {len(self.findings)} items found"
                 text_body = self._format_findings_email()
             else:
-                msg['Subject'] = "State Spending Monitor: Run completed (0 findings)"
+                msg['Subject'] = f"[{mode_label}] State Spending Monitor: Run completed (0 findings)"
                 text_body = self._format_status_email()
 
             msg.attach(MIMEText(text_body, 'plain'))
@@ -607,7 +680,7 @@ class StateSpendingMonitor:
             succeeded = stats['succeeded']
             failed = attempted - succeeded
             if attempted == 0:
-                status = "not checked"
+                status = "skipped"
             elif failed == 0:
                 status = f"OK ({succeeded}/{attempted})"
             else:
@@ -622,8 +695,14 @@ class StateSpendingMonitor:
 
     def create_summary(self) -> str:
         """Create a markdown summary for GitHub Actions step summary"""
+        mode_label = {
+            'official': 'Official Sources',
+            'news': 'News Sources',
+            'all': 'All Sources',
+        }.get(self.source_mode, self.source_mode)
+
         parts = [
-            "# State Spending News Monitor Results\n",
+            f"# State Spending News Monitor — {mode_label}\n",
             f"**Run date:** {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}",
             f"**Lookback:** {self.lookback_days} days",
             f"**Findings:** {len(self.findings)}\n",
@@ -637,7 +716,14 @@ class StateSpendingMonitor:
             a = stats['attempted']
             s = stats['succeeded']
             f = a - s
-            emoji = "✅" if f == 0 and a > 0 else ("⚠️" if s > 0 else "❌")
+            if a == 0:
+                emoji = "—"
+            elif f == 0:
+                emoji = "✅"
+            elif s > 0:
+                emoji = "⚠️"
+            else:
+                emoji = "❌"
             parts.append(f"| {emoji} {source} | {a} | {s} | {f} |")
         parts.append("")
 
@@ -678,6 +764,7 @@ class StateSpendingMonitor:
         """Create a machine-readable status report"""
         return {
             'run_date': datetime.now().isoformat(),
+            'source_mode': self.source_mode,
             'lookback_days': self.lookback_days,
             'findings_count': len(self.findings),
             'source_health': {
@@ -694,23 +781,42 @@ class StateSpendingMonitor:
 
 def main():
     """Main execution function"""
+    parser = argparse.ArgumentParser(description='State Spending News Monitor')
+    parser.add_argument(
+        '--sources',
+        choices=['official', 'news', 'all'],
+        default='all',
+        help='Which sources to check: official (CMS + state depts), news (Google News), or all',
+    )
+    args = parser.parse_args()
+
     logger.info("=" * 60)
-    logger.info("State Spending News Monitor - Starting")
+    logger.info(f"State Spending News Monitor - Starting (sources={args.sources})")
     logger.info("=" * 60)
 
-    monitor = StateSpendingMonitor()
+    monitor = StateSpendingMonitor(source_mode=args.sources)
 
-    # Run all checks
+    # Run checks
     findings = monitor.run_all_checks()
 
-    # Save findings
-    new_count = monitor.save_findings()
+    # Save findings to mode-specific file
+    filename = {
+        'official': 'findings-official.json',
+        'news': 'findings-news.json',
+        'all': 'findings.json',
+    }[args.sources]
+    new_count = monitor.save_findings(filename)
 
     # Save status report
+    status_filename = {
+        'official': 'status-official.json',
+        'news': 'status-news.json',
+        'all': 'status.json',
+    }[args.sources]
     status = monitor.create_status_json()
-    with open('status.json', 'w') as f:
+    with open(status_filename, 'w') as f:
         json.dump(status, f, indent=2)
-    logger.info(f"Saved status report to status.json")
+    logger.info(f"Saved status report to {status_filename}")
 
     # Send notification (always, so user knows it ran)
     monitor.send_notification(always_notify=True)
