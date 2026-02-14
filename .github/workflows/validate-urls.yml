@@ -1,0 +1,135 @@
+name: Validate & Fix URLs
+
+on:
+  workflow_dispatch:
+    inputs:
+      fix_broken:
+        description: 'Replace broken URLs with found replacements on monday.com'
+        required: true
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd state-spending-monitor
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run URL validator
+        env:
+          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
+          MONDAY_BOARD_ID: ${{ secrets.MONDAY_BOARD_ID }}
+          MONDAY_URL_COLUMN_ID: ${{ secrets.MONDAY_URL_COLUMN_ID }}
+        run: |
+          cd state-spending-monitor
+          if [ "${{ inputs.fix_broken }}" = "true" ]; then
+            python validate_urls.py --fix
+          else
+            python validate_urls.py
+          fi
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-results
+          path: |
+            state-spending-monitor/validation-results.json
+            state-spending-monitor/validate-urls.log
+          retention-days: 30
+
+      - name: Create report issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            let results = { total: 0, valid: [], broken: [], fixed: [], no_url: [], no_replacement: [] };
+            const path = 'state-spending-monitor/validation-results.json';
+            if (fs.existsSync(path)) {
+              results = JSON.parse(fs.readFileSync(path, 'utf8'));
+            }
+
+            const runDate = new Date().toISOString().split('T')[0];
+            const fixMode = '${{ inputs.fix_broken }}' === 'true';
+
+            let title = `[URL Validation] ${results.total} URLs checked`;
+            if (results.fixed.length > 0) {
+              title += `, ${results.fixed.length} fixed`;
+            }
+            if (results.broken.length > 0) {
+              title += `, ${results.broken.length} broken`;
+            }
+            title += ` (${runDate})`;
+
+            let body = `## URL Validation Report — ${runDate}\n\n`;
+            body += `**Mode:** ${fixMode ? 'Fix broken URLs' : 'Check only'}\n\n`;
+            body += `| Status | Count |\n|--------|-------|\n`;
+            body += `| Valid | ${results.valid.length} |\n`;
+            body += `| Broken | ${results.broken.length} |\n`;
+            body += `| Fixed | ${results.fixed.length} |\n`;
+            body += `| No URL set | ${results.no_url.length} |\n`;
+            body += `| No replacement found | ${results.no_replacement.length} |\n\n`;
+
+            if (results.fixed.length > 0) {
+              body += `### Fixed (updated on monday.com)\n\n`;
+              for (const item of results.fixed) {
+                body += `- **${item.name}**\n`;
+                body += `  - Old: ${item.old_url}\n`;
+                body += `  - New: ${item.new_url}\n\n`;
+              }
+            }
+
+            if (results.broken.length > 0) {
+              body += `### Broken\n\n`;
+              for (const item of results.broken) {
+                body += `- **${item.name}** — ${item.url} (${item.error})\n`;
+              }
+              body += `\n`;
+            }
+
+            if (results.no_url.length > 0) {
+              body += `### No URL Set\n\n`;
+              for (const item of results.no_url) {
+                body += `- **${item.name}**\n`;
+              }
+              body += `\n`;
+            }
+
+            if (results.valid.length > 0) {
+              body += `### Valid URLs\n\n`;
+              body += `| State | URL | RHT Content |\n|-------|-----|-------------|\n`;
+              for (const item of results.valid) {
+                const rht = item.has_rht_content ? '✅' : '—';
+                body += `| ${item.name} | ${item.url} | ${rht} |\n`;
+              }
+            }
+
+            body += `\n---\n*Automated URL validation report*\n`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title, body,
+              labels: ['automated', 'url-validation']
+            });
