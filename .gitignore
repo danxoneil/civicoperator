@@ -43,5 +43,7 @@ Thumbs.db
 .env
 
 # Monitor runtime files
-state-spending-monitor/findings.json
-state-spending-monitor/status.json
+state-spending-monitor/findings*.json
+state-spending-monitor/status*.json
+state-spending-monitor/snapshots.json
+state-spending-monitor/url-monitor-results.json
