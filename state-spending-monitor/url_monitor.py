@@ -94,14 +94,23 @@ class URLMonitor:
         """Fetch URL list from a monday.com board.
 
         Returns list of dicts with 'name' and 'url' keys.
+
+        MONDAY_URL_COLUMN_ID can be a column ID (e.g. 'link__1') or a column
+        title (e.g. 'RHTP Specific URL') — both are matched.
         """
         if not self.monday_token or not self.monday_board_id:
             logger.error("MONDAY_API_TOKEN and MONDAY_BOARD_ID are required")
             return []
 
+        # Fetch columns metadata + items in one query
         query = """
         query ($boardId: [ID!]!) {
           boards(ids: $boardId) {
+            columns {
+              id
+              title
+              type
+            }
             items_page(limit: 500) {
               items {
                 name
@@ -140,7 +149,35 @@ class URLMonitor:
                 logger.error("No boards found")
                 return []
 
-            items = boards[0].get('items_page', {}).get('items', [])
+            board = boards[0]
+
+            # Build column lookup: id -> title, title -> id
+            columns = board.get('columns', [])
+            col_id_to_title = {c['id']: c['title'] for c in columns}
+            col_title_to_id = {c['title']: c['id'] for c in columns}
+
+            # Log all columns for debugging
+            logger.info("Board columns:")
+            for c in columns:
+                logger.info(f"  id={c['id']}  type={c['type']}  title={c['title']}")
+
+            # Resolve the target column: match by ID or by title
+            target_col_id = None
+            if self.monday_url_column:
+                if self.monday_url_column in col_id_to_title:
+                    target_col_id = self.monday_url_column
+                    logger.info(f"Matched column by ID: {target_col_id} ({col_id_to_title[target_col_id]})")
+                elif self.monday_url_column in col_title_to_id:
+                    target_col_id = col_title_to_id[self.monday_url_column]
+                    logger.info(f"Matched column by title: '{self.monday_url_column}' -> id={target_col_id}")
+                else:
+                    logger.error(
+                        f"MONDAY_URL_COLUMN_ID '{self.monday_url_column}' not found. "
+                        f"Available columns: {[c['title'] + ' (' + c['id'] + ')' for c in columns]}"
+                    )
+                    return []
+
+            items = board.get('items_page', {}).get('items', [])
             logger.info(f"monday.com: found {len(items)} items on board {self.monday_board_id}")
 
             urls = []
@@ -151,24 +188,23 @@ class URLMonitor:
                 if self.monday_name_as_url and name.startswith('http'):
                     url = name
                 else:
-                    # Find the URL column
                     for col in item.get('column_values', []):
                         col_id = col.get('id', '')
                         col_type = col.get('type', '')
 
-                        # If user specified a column ID, use that
-                        if self.monday_url_column and col_id == self.monday_url_column:
+                        # Match the resolved target column
+                        if target_col_id and col_id == target_col_id:
                             url = self._extract_url_from_column(col)
                             break
 
-                        # Auto-detect: look for link-type columns
-                        if not self.monday_url_column and col_type in ('link', 'url'):
+                        # Auto-detect if no column specified
+                        if not target_col_id and col_type in ('link', 'url'):
                             url = self._extract_url_from_column(col)
                             if url:
                                 break
 
-                    # Fallback: look for any column with a URL in text
-                    if not url and not self.monday_url_column:
+                    # Fallback: any column with a URL in text
+                    if not url and not target_col_id:
                         for col in item.get('column_values', []):
                             text = col.get('text', '') or ''
                             if text.startswith('http'):
