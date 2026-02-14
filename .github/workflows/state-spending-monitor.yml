@@ -7,6 +7,10 @@ on:
   #   - cron: '0 9 * * *'
   workflow_dispatch:
 
+permissions:
+  issues: write
+  contents: read
+
 jobs:
   # ------------------------------------------------------------------
   # Job 1: Official sources — CMS, HHS, state health departments
