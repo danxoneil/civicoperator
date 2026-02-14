@@ -1,8 +1,10 @@
 name: State Spending News Monitor
 
 on:
-  schedule:
-    - cron: '0 9 * * *'  # Daily at 9:00 AM UTC
+  # Disabled daily schedule — replaced by url-monitor.yml for daily use.
+  # Uncomment the schedule to re-enable periodic news scanning.
+  # schedule:
+  #   - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
