@@ -1,0 +1,132 @@
+name: URL Change Monitor
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Daily at 9:00 AM UTC
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd state-spending-monitor
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Restore previous page snapshots from cache
+      - name: Restore snapshots cache
+        uses: actions/cache@v4
+        with:
+          path: state-spending-monitor/snapshots.json
+          key: url-monitor-snapshots
+          restore-keys: url-monitor-snapshots
+
+      - name: Run URL monitor
+        env:
+          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
+          MONDAY_BOARD_ID: ${{ secrets.MONDAY_BOARD_ID }}
+          MONDAY_URL_COLUMN_ID: ${{ secrets.MONDAY_URL_COLUMN_ID }}
+          SEND_EMAIL_NOTIFICATIONS: ${{ secrets.SEND_EMAIL_NOTIFICATIONS }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: |
+          cd state-spending-monitor
+          python url_monitor.py
+
+      # Save snapshots back to cache (always, even if monitor finds no changes)
+      # The cache action automatically saves on job completion using the same key
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: url-monitor-results
+          path: |
+            state-spending-monitor/url-monitor-results.json
+            state-spending-monitor/url-monitor.log
+            state-spending-monitor/snapshots.json
+          retention-days: 30
+
+      - name: Create status issue
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            let results = { changed: [], unchanged: [], new: [], errors: [], url_count: 0 };
+            const resultsPath = 'state-spending-monitor/url-monitor-results.json';
+            if (fs.existsSync(resultsPath)) {
+              results = JSON.parse(fs.readFileSync(resultsPath, 'utf8'));
+            }
+
+            const runDate = new Date().toISOString().split('T')[0];
+            const hasChanges = results.changed.length > 0 || results.new.length > 0;
+
+            let title;
+            if (results.changed.length > 0) {
+              title = `[URL Monitor] ${results.changed.length} pages changed (${runDate})`;
+            } else if (results.new.length > 0) {
+              title = `[URL Monitor] ${results.new.length} new URLs baselined (${runDate})`;
+            } else {
+              title = `[URL Monitor] No changes detected (${runDate})`;
+            }
+
+            let body = `## URL Change Monitor — ${runDate}\n\n`;
+            body += `Checked **${results.url_count}** URLs from monday.com board\n\n`;
+            body += `| Status | Count |\n|--------|-------|\n`;
+            body += `| Changed | ${results.changed.length} |\n`;
+            body += `| New (baselined) | ${results.new.length} |\n`;
+            body += `| Unchanged | ${results.unchanged.length} |\n`;
+            body += `| Errors | ${results.errors.length} |\n\n`;
+
+            if (results.changed.length > 0) {
+              body += `### Changed Pages\n\n`;
+              for (const item of results.changed) {
+                body += `#### ${item.name}\n`;
+                body += `URL: ${item.url}\n\n`;
+                body += `\`\`\`diff\n${item.diff}\n\`\`\`\n\n`;
+              }
+            }
+
+            if (results.new.length > 0) {
+              body += `### New URLs (baseline saved)\n\n`;
+              for (const item of results.new) {
+                body += `- **${item.name}** — ${item.url}\n`;
+              }
+              body += `\n`;
+            }
+
+            if (results.errors.length > 0) {
+              body += `### Errors\n\n`;
+              for (const item of results.errors) {
+                body += `- **${item.name}** — ${item.url} (${item.error})\n`;
+              }
+              body += `\n`;
+            }
+
+            body += `---\n*Automated report from URL Change Monitor*\n`;
+
+            const labels = ['automated', 'url-monitor'];
+            if (results.changed.length > 0) labels.push('page-changed');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title, body, labels
+            });
+            console.log(`Created issue: ${title}`);
