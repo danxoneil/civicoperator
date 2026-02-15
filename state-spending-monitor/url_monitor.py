@@ -60,6 +60,10 @@ class URLMonitor:
         self.monday_board_id = os.getenv('MONDAY_BOARD_ID', '')
         self.monday_url_column = os.getenv('MONDAY_URL_COLUMN_ID', '')
         self.monday_name_as_url = os.getenv('MONDAY_NAME_AS_URL', 'false').lower() == 'true'
+        self.monday_status_column = os.getenv('MONDAY_STATUS_COLUMN', 'RHTP URL Status')
+
+        # Resolved at runtime by fetch_urls_from_monday()
+        self._status_col_id = None
 
         # State file
         self.snapshots_file = os.getenv('SNAPSHOTS_FILE', 'snapshots.json')
@@ -113,6 +117,7 @@ class URLMonitor:
             }
             items_page(limit: 500) {
               items {
+                id
                 name
                 column_values {
                   id
@@ -156,6 +161,17 @@ class URLMonitor:
             col_id_to_title = {c['id']: c['title'] for c in columns}
             col_title_to_id = {c['title']: c['id'] for c in columns}
 
+            # Resolve the status column for marking URLs as Done
+            if self.monday_status_column:
+                if self.monday_status_column in col_id_to_title:
+                    self._status_col_id = self.monday_status_column
+                elif self.monday_status_column in col_title_to_id:
+                    self._status_col_id = col_title_to_id[self.monday_status_column]
+                if self._status_col_id:
+                    logger.info(f"Status column resolved: '{self.monday_status_column}' -> id={self._status_col_id}")
+                else:
+                    logger.warning(f"Status column '{self.monday_status_column}' not found on board")
+
             # Log all columns for debugging
             logger.info("Board columns:")
             for c in columns:
@@ -182,6 +198,7 @@ class URLMonitor:
 
             urls = []
             for item in items:
+                item_id = item.get('id', '')
                 name = item.get('name', '').strip()
                 url = None
 
@@ -212,7 +229,7 @@ class URLMonitor:
                                 break
 
                 if url:
-                    urls.append({'name': name, 'url': url})
+                    urls.append({'name': name, 'url': url, 'item_id': item_id})
                 else:
                     logger.warning(f"No URL found for item: {name}")
 
@@ -242,6 +259,40 @@ class URLMonitor:
             return text.strip()
 
         return None
+
+    def update_status(self, item_id: str, label: str = 'Done'):
+        """Set the status column on a monday.com item."""
+        if not self._status_col_id or not item_id:
+            return
+        value = json.dumps({"label": label})
+        query = """
+        mutation ($boardId: ID!, $itemId: ID!, $columnId: String!, $value: JSON!) {
+          change_column_value(
+            board_id: $boardId,
+            item_id: $itemId,
+            column_id: $columnId,
+            value: $value
+          ) { id }
+        }
+        """
+        try:
+            requests.post(
+                'https://api.monday.com/v2',
+                json={'query': query, 'variables': {
+                    'boardId': self.monday_board_id,
+                    'itemId': item_id,
+                    'columnId': self._status_col_id,
+                    'value': value,
+                }},
+                headers={
+                    'Authorization': self.monday_token,
+                    'Content-Type': 'application/json',
+                },
+                timeout=30,
+            ).raise_for_status()
+            logger.info(f"  Set status to '{label}' for item {item_id}")
+        except Exception as e:
+            logger.warning(f"  Failed to update status for item {item_id}: {e}")
 
     # ------------------------------------------------------------------
     # Page fetching and text extraction
@@ -362,6 +413,7 @@ class URLMonitor:
         for item in urls:
             name = item['name']
             url = item['url']
+            item_id = item.get('item_id', '')
             logger.info(f"Checking: {name} ({url})")
 
             text = self.fetch_page_text(url)
@@ -371,6 +423,9 @@ class URLMonitor:
                 if url in previous:
                     new_snapshots[url] = previous[url]
                 continue
+
+            # URL is valid — mark status on monday.com
+            self.update_status(item_id)
 
             current_hash = self.compute_hash(text)
             new_snapshots[url] = {
