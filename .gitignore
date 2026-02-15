@@ -48,4 +48,3 @@ state-spending-monitor/status*.json
 state-spending-monitor/snapshots.json
 state-spending-monitor/url-monitor-results.json
 state-spending-monitor/validation-results.json
-state-spending-monitor/topics-results.json
