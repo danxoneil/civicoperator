@@ -76,17 +76,26 @@ class URLMonitor:
         self.smtp_user = os.getenv('SMTP_USER', '')
         self.smtp_password = os.getenv('SMTP_PASSWORD', '')
 
-        # HTTP session with retries
+        # HTTP session with retries and realistic browser headers
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': (
                 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                 'AppleWebKit/537.36 (KHTML, like Gecko) '
-                'Chrome/120.0.0.0 Safari/537.36'
+                'Chrome/131.0.0.0 Safari/537.36'
             ),
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
         })
         self.session.trust_env = False
-        retry = Retry(total=2, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+        retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
         self.session.mount('https://', HTTPAdapter(max_retries=retry))
         self.session.mount('http://', HTTPAdapter(max_retries=retry))
 
@@ -299,9 +308,17 @@ class URLMonitor:
     # ------------------------------------------------------------------
 
     def fetch_page_text(self, url: str) -> Optional[str]:
-        """Fetch a URL and extract meaningful text content (no nav/script/style)."""
+        """Fetch a URL and extract meaningful text content (no nav/script/style).
+
+        Returns extracted text, or the string '__ACCESS_RESTRICTED__' if the
+        server responds with 403 (URL exists but blocks automated access).
+        Returns None only on connection failures or 4xx/5xx other than 403.
+        """
         try:
-            resp = self.session.get(url, timeout=20)
+            resp = self.session.get(url, timeout=20, allow_redirects=True)
+            if resp.status_code == 403:
+                logger.info(f"  URL exists but returned 403 (access restricted): {url}")
+                return '__ACCESS_RESTRICTED__'
             resp.raise_for_status()
         except requests.exceptions.RequestException as e:
             logger.warning(f"Failed to fetch {url}: {type(e).__name__}")
@@ -424,8 +441,20 @@ class URLMonitor:
                     new_snapshots[url] = previous[url]
                 continue
 
-            # URL is valid — mark status on monday.com
+            # URL is valid (even if access-restricted) — mark status on monday.com
             self.update_status(item_id)
+
+            # Access-restricted pages: URL exists but content can't be diffed
+            if text == '__ACCESS_RESTRICTED__':
+                new_snapshots[url] = {
+                    'name': name,
+                    'hash': '__ACCESS_RESTRICTED__',
+                    'content': '',
+                    'last_checked': datetime.now().isoformat(),
+                }
+                results['unchanged'].append({'name': name, 'url': url, 'note': 'access restricted (403)'})
+                logger.info(f"  Valid but access-restricted — marked as Done")
+                continue
 
             current_hash = self.compute_hash(text)
             new_snapshots[url] = {
