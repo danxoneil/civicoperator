@@ -3,9 +3,9 @@
 Weekly RHT Newsletter Generator
 
 Collects URL change data from the past week's GitHub issues,
+enriches it by re-fetching changed pages and following key links,
 pulls topic context from monday.com, and uses Claude API to
-generate a polished newsletter draft focused on spending movement,
-RFPs, awards, and technology.
+generate a newsletter draft.
 
 Output: HTML draft saved to newsletter-draft.html and printed as
 markdown for the GitHub Actions step summary / issue.
@@ -21,18 +21,25 @@ Optional env vars:
   LOOKBACK_DAYS           — days to look back for changes (default: 7)
 """
 
+import io
 import json
 import logging
 import os
 import re
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional
+from urllib.parse import urljoin, urlparse
 
 try:
     import requests
-except ImportError:
-    print("Missing dependency: requests")
+    from bs4 import BeautifulSoup
+    from requests.adapters import HTTPAdapter
+    from urllib3.util.retry import Retry
+except ImportError as e:
+    print(f"Missing dependency: {e}")
+    print("Install with: pip install requests beautifulsoup4 lxml")
     sys.exit(1)
 
 try:
@@ -41,11 +48,47 @@ except ImportError:
     print("Missing dependency: anthropic")
     sys.exit(1)
 
+# Optional PDF support
+try:
+    from pypdf import PdfReader
+    HAS_PYPDF = True
+except ImportError:
+    HAS_PYPDF = False
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
 )
 logger = logging.getLogger(__name__)
+
+
+# ── HTTP session ─────────────────────────────────────────────────────
+
+def make_session() -> requests.Session:
+    """Create an HTTP session with browser-like headers."""
+    session = requests.Session()
+    session.headers.update({
+        'User-Agent': (
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+            'AppleWebKit/537.36 (KHTML, like Gecko) '
+            'Chrome/131.0.0.0 Safari/537.36'
+        ),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept-Encoding': 'gzip, deflate',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
+    })
+    session.trust_env = False
+    retry = Retry(total=2, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
+    session.mount('https://', HTTPAdapter(max_retries=retry))
+    session.mount('http://', HTTPAdapter(max_retries=retry))
+    return session
+
+
+SESSION = make_session()
 
 
 # ── GitHub: collect changes from url-monitor issues ───────────────────
@@ -59,7 +102,6 @@ def fetch_weekly_changes(token: str, repo: str, lookback_days: int = 7) -> List[
         'Accept': 'application/vnd.github.v3+json',
     }
 
-    # Fetch issues with url-monitor label, sorted by creation date
     url = f'https://api.github.com/repos/{repo}/issues'
     params = {
         'labels': 'url-monitor,page-changed',
@@ -77,9 +119,10 @@ def fetch_weekly_changes(token: str, repo: str, lookback_days: int = 7) -> List[
     logger.info(f"Found {len(issues)} page-changed issues in the past {lookback_days} days")
 
     changes = []
+    cutoff = datetime.now(timezone.utc) - timedelta(days=lookback_days)
     for issue in issues:
         created = datetime.fromisoformat(issue['created_at'].replace('Z', '+00:00'))
-        if created < datetime.now(timezone.utc) - timedelta(days=lookback_days):
+        if created < cutoff:
             continue
 
         body = issue.get('body', '')
@@ -87,7 +130,6 @@ def fetch_weekly_changes(token: str, repo: str, lookback_days: int = 7) -> List[
         date_match = re.search(r'\d{4}-\d{2}-\d{2}', title)
         issue_date = date_match.group(0) if date_match else created.strftime('%Y-%m-%d')
 
-        # Parse the issue body for changed pages
         parsed = parse_issue_changes(body)
         for change in parsed:
             change['date'] = issue_date
@@ -103,25 +145,21 @@ def parse_issue_changes(body: str) -> List[Dict]:
     """Parse a url-monitor issue body to extract changed pages and their diffs."""
     changes = []
 
-    # Split on "####" headers (each changed state)
     sections = re.split(r'####\s+', body)
 
-    for section in sections[1:]:  # skip preamble
+    for section in sections[1:]:
         lines = section.strip().split('\n')
         if not lines:
             continue
 
         state_name = lines[0].strip()
 
-        # Extract URL
         url = ''
         for line in lines:
             if line.startswith('URL:'):
                 url = line.replace('URL:', '').strip()
                 break
 
-        # Extract diff block
-        diff = ''
         in_diff = False
         diff_lines = []
         for line in lines:
@@ -144,6 +182,187 @@ def parse_issue_changes(body: str) -> List[Dict]:
             })
 
     return changes
+
+
+# ── Link enrichment: follow key links on changed pages ────────────────
+
+def enrich_changes(changes: List[Dict]) -> List[Dict]:
+    """For each changed state, re-fetch the page and follow key links.
+
+    Adds 'page_content', 'key_links', and 'linked_content' to each change dict.
+    """
+    # Deduplicate by URL (a state may appear in multiple daily issues)
+    seen_urls = set()
+    unique_changes = []
+    for c in changes:
+        if c['url'] not in seen_urls:
+            seen_urls.add(c['url'])
+            unique_changes.append(c)
+
+    for change in unique_changes:
+        url = change['url']
+        if not url:
+            continue
+
+        logger.info(f"Enriching: {change['state']} — {url}")
+
+        # Fetch the main page
+        page_text, soup = fetch_page_with_soup(url)
+        if not page_text:
+            logger.warning(f"  Could not fetch page for enrichment")
+            continue
+
+        change['page_content'] = page_text[:5000]  # Cap at 5k chars
+
+        # Extract key links from the page
+        key_links = extract_key_links(soup, url)
+        change['key_links'] = key_links
+        logger.info(f"  Found {len(key_links)} key links")
+
+        # Follow key links and extract content
+        linked_content = []
+        for link in key_links[:10]:  # Cap at 10 links per state
+            link_url = link['url']
+            link_label = link['label']
+            logger.info(f"  Following: {link_label} — {link_url}")
+
+            content = fetch_link_content(link_url)
+            if content:
+                linked_content.append({
+                    'url': link_url,
+                    'label': link_label,
+                    'content': content[:3000],  # Cap each link
+                })
+
+            time.sleep(0.5)
+
+        change['linked_content'] = linked_content
+        time.sleep(1)
+
+    return changes
+
+
+def fetch_page_with_soup(url: str):
+    """Fetch a URL, return (text, soup) or (None, None)."""
+    try:
+        resp = SESSION.get(url, timeout=20, allow_redirects=True)
+        if resp.status_code == 403:
+            return None, None
+        resp.raise_for_status()
+    except requests.exceptions.RequestException:
+        return None, None
+
+    soup = BeautifulSoup(resp.content, 'html.parser')
+
+    for tag in soup.find_all(['script', 'style', 'nav', 'noscript', 'iframe']):
+        tag.decompose()
+
+    main = soup.find('main') or soup.find('article') or soup.find(role='main')
+    if main:
+        text = main.get_text(separator='\n', strip=True)
+    else:
+        text = soup.get_text(separator='\n', strip=True)
+
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    return '\n'.join(lines), soup
+
+
+def extract_key_links(soup: BeautifulSoup, base_url: str) -> List[Dict]:
+    """Extract links that are likely important: PDFs, subpages, forms, media."""
+    if not soup:
+        return []
+
+    base_domain = urlparse(base_url).netloc
+    key_links = []
+    seen = set()
+
+    # Look in main content area first, fall back to whole page
+    content = soup.find('main') or soup.find('article') or soup.find(role='main') or soup
+
+    for a in content.find_all('a', href=True):
+        href = a['href'].strip()
+        if not href or href.startswith('#') or href.startswith('mailto:') or href.startswith('javascript:'):
+            continue
+
+        full_url = urljoin(base_url, href)
+        parsed = urlparse(full_url)
+
+        if full_url in seen:
+            continue
+        seen.add(full_url)
+
+        label = a.get_text(strip=True)[:100] or href.split('/')[-1]
+        path_lower = parsed.path.lower()
+
+        # Score relevance
+        is_pdf = path_lower.endswith('.pdf')
+        is_same_domain = parsed.netloc == base_domain or parsed.netloc.endswith('.gov')
+        is_form = 'survey' in full_url.lower() or 'form' in full_url.lower() or 'redcap' in full_url.lower()
+        is_media = '/media/' in full_url or '/document' in full_url or '/content/dam/' in full_url
+
+        label_lower = label.lower()
+        has_keyword = any(kw in label_lower for kw in [
+            'narrative', 'rfp', 'award', 'grant', 'funding', 'application',
+            'involved', 'partner', 'initiative', 'plan', 'program',
+            'notice', 'intent', 'opportunity', 'hub', 'telehealth',
+        ])
+
+        if is_pdf or is_form or is_media or (is_same_domain and has_keyword):
+            key_links.append({
+                'url': full_url,
+                'label': label,
+                'is_pdf': is_pdf,
+            })
+
+    return key_links
+
+
+def fetch_link_content(url: str) -> Optional[str]:
+    """Fetch content from a link — handles HTML pages and PDFs."""
+    parsed = urlparse(url)
+
+    if parsed.path.lower().endswith('.pdf'):
+        return fetch_pdf_text(url)
+
+    try:
+        resp = SESSION.get(url, timeout=15, allow_redirects=True)
+        if resp.status_code != 200:
+            return None
+    except requests.exceptions.RequestException:
+        return None
+
+    soup = BeautifulSoup(resp.content, 'html.parser')
+    for tag in soup.find_all(['script', 'style', 'nav', 'noscript']):
+        tag.decompose()
+
+    main = soup.find('main') or soup.find('article') or soup
+    text = main.get_text(separator='\n', strip=True)
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    return '\n'.join(lines)
+
+
+def fetch_pdf_text(url: str) -> Optional[str]:
+    """Download a PDF and extract text."""
+    if not HAS_PYPDF:
+        return f"[PDF at {url} — pypdf not installed for text extraction]"
+
+    try:
+        resp = SESSION.get(url, timeout=30)
+        if resp.status_code != 200:
+            return None
+
+        reader = PdfReader(io.BytesIO(resp.content))
+        pages_text = []
+        for i, page in enumerate(reader.pages[:20]):  # Cap at 20 pages
+            text = page.extract_text()
+            if text:
+                pages_text.append(text)
+
+        return '\n'.join(pages_text) if pages_text else None
+
+    except Exception as e:
+        logger.warning(f"  PDF extraction failed for {url}: {e}")
+        return None
 
 
 # ── monday.com: fetch topics for context ──────────────────────────────
@@ -222,34 +441,34 @@ EDITORIAL RULES — follow these strictly:
 - Dry, factual, wire-service tone. Think Reuters or CQ Roll Call, not TechCrunch.
 - ALWAYS attribute claims. Write "Iowa states it is the first state to award RHTP funding" — NOT "Iowa becomes the first state to award RHTP funding." You are reporting what states say, not endorsing it.
 - When information comes from a state website, say "according to [state]'s RHTP page" or "[state]'s website now shows..."
-- Include a direct link to the state's RHTP page for EVERY state mentioned, using the URL from the change data.
 - Report only what the data shows. Do not speculate about motives, implications, or future events unless directly supported by the source material.
-- Do NOT invent dollar amounts, dates, or details not present in the change data.
-- If a change is just minor formatting/cosmetic, note it briefly under "Minor Updates" or skip it entirely.
-- The "What to Watch" section should only reference concrete upcoming items visible in the data (e.g., open comment periods, posted RFP timelines), not speculation.
+- Do NOT invent dollar amounts, dates, or details not present in the provided data.
+- If a change is just minor formatting/cosmetic (e.g., CAPTCHA rotation), skip it entirely.
+- The "What to Watch" section should only reference concrete items visible in the data, not speculation.
 
-CONTENT FOCUS:
-- New RFPs released, awards announced, funding allocated, contracts signed
-- Technology aspects: what tech is being procured or deployed
-- State program milestones and implementation progress
+STRUCTURE AND FORMAT:
+- <h1>: Descriptive headline summarizing the key developments (e.g., "Iowa awards, Illinois narrative, and Kentucky program details")
+- <h2> directly after h1: "Rural Health Transformation Program Brief: [date range]" as a dateline subhead
+- <h2>: Thematic section headers (e.g., "Funding and Awards", "Application Materials", "Program Updates")
+- <h3>: State name as header — say the state name ONCE here, then go straight to bullet points
+- NO <hr> line separators between sections
+- Use <ul>/<li> bullet format for all state content. Start each bullet with a verb clause: "Posted a news item...", "Published its project narrative...", "Added a Get Involved page..."
+- Use DIRECT QUOTES from source material in quotation marks when available
+- Show full URLs inline as display text for deep links: https://hhs.iowa.gov/media/18093/ — this shows geekiness and transparency
+- For every state, include a linked reference to their main RHTP page
+- When enriched content from linked pages is provided (subpages, PDFs, forms), PULL KEY DETAILS directly into the newsletter — quote program descriptions, list initiative names, note specific RFP numbers and dates
+- For PDFs and subpages, include the full URL so readers can access them directly
+- 500-1000 words. Do not pad. If a week is quiet, keep it short.
 
-FORMAT:
-- Clean HTML suitable for copy-paste into Substack
-- <h1> for the newsletter title (include the week date range)
-- <h2> for section headers
-- <h3> for subsections (state names)
-- <p> for paragraphs
-- <ul>/<li> for lists of RFPs/awards
-- <a href="..."> for direct links to state RHTP pages
-- <hr> for section breaks
-- Do NOT include <html>, <head>, or <body> tags
-- Keep it concise — 400-700 words. Do not pad."""
+HTML TAGS:
+- <h1>, <h2>, <h3>, <p>, <ul>/<li>, <a href="...">, <strong>, <em>, <blockquote>
+- Do NOT include <html>, <head>, <body>, or <hr> tags"""
+
 
 def generate_newsletter(changes: List[Dict], topics: List[Dict],
                         api_key: str) -> str:
     """Use Claude API to generate the newsletter from changes and topics."""
 
-    # Build the prompt with this week's data
     today = datetime.now().strftime('%B %d, %Y')
     week_start = (datetime.now() - timedelta(days=7)).strftime('%B %d')
 
@@ -268,9 +487,28 @@ def generate_newsletter(changes: List[Dict], topics: List[Dict],
         for state, state_changes in sorted(by_state.items()):
             user_content += f"### {state}\n"
             for c in state_changes:
-                user_content += f"URL: {c['url']}\n"
+                user_content += f"State RHTP URL: {c['url']}\n"
                 user_content += f"Date detected: {c['date']}\n"
-                user_content += f"Changes:\n{c['diff']}\n\n"
+                user_content += f"Diff:\n{c['diff']}\n\n"
+
+                # Include enriched page content
+                if c.get('page_content'):
+                    user_content += f"Current page content (excerpt):\n{c['page_content']}\n\n"
+
+                # Include linked content
+                if c.get('linked_content'):
+                    user_content += "Key links found on this page:\n"
+                    for link in c['linked_content']:
+                        user_content += f"\n--- Link: {link['label']} ({link['url']}) ---\n"
+                        user_content += f"{link['content']}\n"
+                    user_content += "\n"
+
+                if c.get('key_links'):
+                    user_content += "All key links discovered:\n"
+                    for link in c['key_links']:
+                        pdf_tag = " [PDF]" if link.get('is_pdf') else ""
+                        user_content += f"- {link['label']}{pdf_tag}: {link['url']}\n"
+                    user_content += "\n"
     else:
         user_content += "## No page changes were detected this week.\n\n"
         user_content += "The URL monitor checked all 51 RHTP pages daily but found no content updates.\n\n"
@@ -288,11 +526,11 @@ def generate_newsletter(changes: List[Dict], topics: List[Dict],
             user_content += "\n"
         user_content += "\n"
 
-    user_content += "Please write the newsletter now. Focus on spending movement and technology."
+    user_content += "Write the newsletter now. Bullet format, full URLs, direct quotes, no hype."
 
     client = anthropic.Anthropic(api_key=api_key)
 
-    logger.info("Calling Claude API to generate newsletter...")
+    logger.info(f"Calling Claude API ({len(user_content)} chars of context)...")
     message = client.messages.create(
         model="claude-sonnet-4-5-20250929",
         max_tokens=4096,
@@ -328,32 +566,37 @@ def main():
     # 1. Collect this week's changes from GitHub issues
     changes = fetch_weekly_changes(github_token, repo, lookback_days)
 
-    # 2. Fetch topics from monday.com for context
+    # 2. Enrich: re-fetch changed pages and follow key links
+    if changes:
+        logger.info("Enriching changes with linked content...")
+        changes = enrich_changes(changes)
+
+    # 3. Fetch topics from monday.com for context
     topics = fetch_topics(monday_token, topics_board_id)
 
-    # 3. Generate newsletter via Claude API
+    # 4. Generate newsletter via Claude API
     newsletter_html = generate_newsletter(changes, topics, anthropic_key)
 
-    # 4. Save HTML draft
+    # 5. Save HTML draft
     output_path = 'newsletter-draft.html'
     with open(output_path, 'w') as f:
         f.write(newsletter_html)
     logger.info(f"Saved newsletter draft to {output_path}")
 
-    # 5. Print for logs
+    # 6. Print for logs
     print("\n" + "=" * 60)
     print("NEWSLETTER DRAFT")
     print("=" * 60)
     print(newsletter_html)
 
-    # 6. GitHub Actions step summary
+    # 7. GitHub Actions step summary
     summary_file = os.getenv('GITHUB_STEP_SUMMARY')
     if summary_file:
         with open(summary_file, 'a') as f:
             f.write("# Weekly RHT Newsletter Draft\n\n")
             f.write(newsletter_html)
 
-    # 7. Save metadata
+    # 8. Save metadata
     metadata = {
         'generated_at': datetime.now().isoformat(),
         'changes_count': len(changes),
