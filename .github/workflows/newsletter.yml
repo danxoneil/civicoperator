@@ -27,12 +27,11 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests anthropic beautifulsoup4 lxml pypdf
+        run: pip install requests beautifulsoup4 lxml pypdf
 
-      - name: Generate newsletter
+      - name: Generate briefing report
         working-directory: state-spending-monitor
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
           MONDAY_TOPICS_BOARD_ID: ${{ secrets.MONDAY_TOPICS_BOARD_ID }}
@@ -70,16 +69,16 @@ jobs:
 
             const date = new Date().toISOString().split('T')[0];
             const stateCount = meta.states_with_changes.length;
-            const title = `[Newsletter Draft] Week of ${date} — ${meta.changes_count} changes across ${stateCount} states`;
+            const title = `[RHTP Briefing] Week of ${date} — ${meta.changes_count} changes across ${stateCount} states`;
 
-            const body = `## Weekly RHT Newsletter Draft\n\n` +
+            const body = `## RHTP Weekly Briefing Report\n\n` +
               `**Generated:** ${date}\n` +
               `**Changes detected:** ${meta.changes_count}\n` +
               `**States with activity:** ${meta.states_with_changes.join(', ') || 'None'}\n\n` +
               `---\n\n` +
               `${html}\n\n` +
-              `---\n*Copy the HTML above into Substack. ` +
-              `The raw HTML file is also available in the workflow artifacts.*\n`;
+              `---\n*Paste this briefing into Claude.ai to draft the newsletter. ` +
+              `The raw file is also available in the workflow artifacts.*\n`;
 
             await github.rest.issues.create({
               owner: context.repo.owner,
