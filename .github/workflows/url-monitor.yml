@@ -29,12 +29,15 @@ jobs:
           pip install -r requirements.txt
 
       # Restore previous page snapshots from cache
+      # Key must be unique per run so the updated snapshots get saved back.
+      # restore-keys prefix-matches the most recent snapshot cache.
       - name: Restore snapshots cache
         uses: actions/cache@v4
         with:
           path: state-spending-monitor/snapshots.json
-          key: url-monitor-snapshots
-          restore-keys: url-monitor-snapshots
+          key: url-monitor-snapshots-${{ github.run_id }}
+          restore-keys: |
+            url-monitor-snapshots-
 
       - name: Run URL monitor
         env:
