@@ -175,7 +175,8 @@ def main():
         logger.info(f"    New: {change['new_url']}")
 
         if not dry_run:
-            value = json.dumps({"url": change['new_url'], "text": change['name']})
+            # Column is a text type — value must be a plain JSON string
+            value = json.dumps(change['new_url'])
             mutation = """
             mutation ($boardId: ID!, $itemId: ID!, $columnId: String!, $value: JSON!) {
               change_column_value(
