@@ -50,9 +50,11 @@ def monday_query(token: str, query: str, variables: dict = None) -> dict:
         },
         timeout=30,
     )
+    logger.info(f"monday.com API response status: {resp.status_code}")
     resp.raise_for_status()
     data = resp.json()
     if 'errors' in data:
+        logger.error(f"monday.com API errors: {data['errors']}")
         raise RuntimeError(f"monday.com API errors: {data['errors']}")
     return data
 
@@ -90,11 +92,20 @@ def main():
     col_title_to_id = {c['title']: c['id'] for c in columns}
     col_id_to_title = {c['id']: c['title'] for c in columns}
 
+    # Also build case-insensitive lookup
+    col_title_lower_to_id = {c['title'].lower(): c['id'] for c in columns}
+
+    logger.info(f"Looking for column: '{url_column_title}'")
+    logger.info(f"Available columns: {[(c['id'], c['title'], c['type']) for c in columns]}")
+
     url_col_id = None
     if url_column_title in col_id_to_title:
         url_col_id = url_column_title
     elif url_column_title in col_title_to_id:
         url_col_id = col_title_to_id[url_column_title]
+    elif url_column_title.lower() in col_title_lower_to_id:
+        url_col_id = col_title_lower_to_id[url_column_title.lower()]
+        logger.info(f"Matched column by case-insensitive title")
     else:
         logger.error(f"Column '{url_column_title}' not found. Available: {list(col_title_to_id.keys())}")
         sys.exit(1)
@@ -103,6 +114,7 @@ def main():
 
     items = board['items_page']['items']
     logger.info(f"Found {len(items)} items on board")
+    logger.info(f"Item names: {[item['name'] for item in items]}")
 
     # Build item lookup by name
     changes = []
@@ -196,4 +208,8 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as e:
+        logger.error(f"Fatal error: {e}", exc_info=True)
+        sys.exit(1)
