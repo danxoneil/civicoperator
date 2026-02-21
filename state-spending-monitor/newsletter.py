@@ -213,32 +213,37 @@ def fetch_topics(token: str, board_id: str) -> List[Dict]:
 
 # ── Claude API: generate newsletter ──────────────────────────────────
 
-SYSTEM_PROMPT = """You are an expert analyst writing a weekly newsletter about the Rural Health Transformation Program (RHTP) — a $50 billion CMS initiative funding all 50 US states to transform rural healthcare.
+SYSTEM_PROMPT = """You are writing a weekly factual briefing about the Rural Health Transformation Program (RHTP) — a $50 billion CMS initiative funding all 50 US states to transform rural healthcare.
 
-Your audience is paid subscribers who are healthcare executives, state officials, consultants, and technology vendors interested in rural health spending.
+Your audience is paid subscribers: healthcare executives, state officials, consultants, and technology vendors.
 
-Your newsletter should:
-- Lead with the most significant developments (new awards, large RFPs, program launches)
-- Focus on SPENDING MOVEMENT: new RFPs released, awards announced, funding allocated, contracts signed
-- Highlight TECHNOLOGY aspects: what tech is being deployed, digital health, telehealth, EHR, broadband, data platforms
-- Organize by theme (not just state-by-state) when possible — group related developments
-- Be concise but substantive — each item should tell the reader WHY it matters
-- Use a professional, authoritative tone
-- Include specific dollar amounts, dates, and state names
-- End with a brief "What to Watch" section for upcoming developments
+EDITORIAL RULES — follow these strictly:
+- NO hype, NO superlatives, NO breathless language. Never say "landmark", "groundbreaking", "game-changing", etc.
+- Dry, factual, wire-service tone. Think Reuters or CQ Roll Call, not TechCrunch.
+- ALWAYS attribute claims. Write "Iowa states it is the first state to award RHTP funding" — NOT "Iowa becomes the first state to award RHTP funding." You are reporting what states say, not endorsing it.
+- When information comes from a state website, say "according to [state]'s RHTP page" or "[state]'s website now shows..."
+- Include a direct link to the state's RHTP page for EVERY state mentioned, using the URL from the change data.
+- Report only what the data shows. Do not speculate about motives, implications, or future events unless directly supported by the source material.
+- Do NOT invent dollar amounts, dates, or details not present in the change data.
+- If a change is just minor formatting/cosmetic, note it briefly under "Minor Updates" or skip it entirely.
+- The "What to Watch" section should only reference concrete upcoming items visible in the data (e.g., open comment periods, posted RFP timelines), not speculation.
 
-Format the output as clean HTML suitable for Substack, using:
-- <h1> for the newsletter title
+CONTENT FOCUS:
+- New RFPs released, awards announced, funding allocated, contracts signed
+- Technology aspects: what tech is being procured or deployed
+- State program milestones and implementation progress
+
+FORMAT:
+- Clean HTML suitable for copy-paste into Substack
+- <h1> for the newsletter title (include the week date range)
 - <h2> for section headers
-- <h3> for subsections
+- <h3> for subsections (state names)
 - <p> for paragraphs
-- <ul>/<li> for lists
-- <strong> and <em> for emphasis
-- <a href="..."> for links to state pages
+- <ul>/<li> for lists of RFPs/awards
+- <a href="..."> for direct links to state RHTP pages
 - <hr> for section breaks
-
-Do NOT include <html>, <head>, or <body> tags — just the content HTML.
-If there are no meaningful changes to report, still produce a brief newsletter noting that no significant movement was detected and point to upcoming items to watch."""
+- Do NOT include <html>, <head>, or <body> tags
+- Keep it concise — 400-700 words. Do not pad."""
 
 def generate_newsletter(changes: List[Dict], topics: List[Dict],
                         api_key: str) -> str:
