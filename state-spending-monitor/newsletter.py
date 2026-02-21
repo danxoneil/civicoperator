@@ -1,17 +1,16 @@
 #!/usr/bin/env python3
 """
-Weekly RHT Newsletter Generator
+Weekly RHT Briefing Report
 
 Collects URL change data from the past week's GitHub issues,
 enriches it by re-fetching changed pages and following key links,
-pulls topic context from monday.com, and uses Claude API to
-generate a newsletter draft.
+pulls topic context from monday.com, and outputs a structured
+briefing report ready to paste into Claude.ai for newsletter drafting.
 
-Output: HTML draft saved to newsletter-draft.html and printed as
-markdown for the GitHub Actions step summary / issue.
+Output: Markdown briefing saved to newsletter-draft.html and posted
+as a GitHub issue for easy copy-paste.
 
 Required env vars:
-  ANTHROPIC_API_KEY       — Claude API key
   GITHUB_TOKEN            — GitHub token (auto-provided in Actions)
   GITHUB_REPOSITORY       — owner/repo (auto-provided in Actions)
 
@@ -40,12 +39,6 @@ try:
 except ImportError as e:
     print(f"Missing dependency: {e}")
     print("Install with: pip install requests beautifulsoup4 lxml")
-    sys.exit(1)
-
-try:
-    import anthropic
-except ImportError:
-    print("Missing dependency: anthropic")
     sys.exit(1)
 
 # Optional PDF support
@@ -430,52 +423,27 @@ def fetch_topics(token: str, board_id: str) -> List[Dict]:
         return []
 
 
-# ── Claude API: generate newsletter ──────────────────────────────────
+# ── Format briefing report ────────────────────────────────────────────
 
-SYSTEM_PROMPT = """You are writing a weekly factual briefing about the Rural Health Transformation Program (RHTP) — a $50 billion CMS initiative funding all 50 US states to transform rural healthcare.
+def format_briefing_report(changes: List[Dict], topics: List[Dict]) -> str:
+    """Build a structured markdown briefing from collected changes and topics.
 
-Your audience is paid subscribers: healthcare executives, state officials, consultants, and technology vendors.
-
-EDITORIAL RULES — follow these strictly:
-- NO hype, NO superlatives, NO breathless language. Never say "landmark", "groundbreaking", "game-changing", etc.
-- Dry, factual, wire-service tone. Think Reuters or CQ Roll Call, not TechCrunch.
-- ALWAYS attribute claims. Write "Iowa states it is the first state to award RHTP funding" — NOT "Iowa becomes the first state to award RHTP funding." You are reporting what states say, not endorsing it.
-- When information comes from a state website, say "according to [state]'s RHTP page" or "[state]'s website now shows..."
-- Report only what the data shows. Do not speculate about motives, implications, or future events unless directly supported by the source material.
-- Do NOT invent dollar amounts, dates, or details not present in the provided data.
-- If a change is just minor formatting/cosmetic (e.g., CAPTCHA rotation), skip it entirely.
-- The "What to Watch" section should only reference concrete items visible in the data, not speculation.
-
-STRUCTURE AND FORMAT:
-- <h1>: Descriptive headline summarizing the key developments (e.g., "Iowa awards, Illinois narrative, and Kentucky program details")
-- <h2> directly after h1: "Rural Health Transformation Program Brief: [date range]" as a dateline subhead
-- <h2>: Thematic section headers (e.g., "Funding and Awards", "Application Materials", "Program Updates")
-- <h3>: State name as header — say the state name ONCE here, then go straight to bullet points
-- NO <hr> line separators between sections
-- Use <ul>/<li> bullet format for all state content. Start each bullet with a verb clause: "Posted a news item...", "Published its project narrative...", "Added a Get Involved page..."
-- Use DIRECT QUOTES from source material in quotation marks when available
-- Show full URLs inline as display text for deep links: https://hhs.iowa.gov/media/18093/ — this shows geekiness and transparency
-- For every state, include a linked reference to their main RHTP page
-- When enriched content from linked pages is provided (subpages, PDFs, forms), PULL KEY DETAILS directly into the newsletter — quote program descriptions, list initiative names, note specific RFP numbers and dates
-- For PDFs and subpages, include the full URL so readers can access them directly
-- 500-1000 words. Do not pad. If a week is quiet, keep it short.
-
-HTML TAGS:
-- <h1>, <h2>, <h3>, <p>, <ul>/<li>, <a href="...">, <strong>, <em>, <blockquote>
-- Do NOT include <html>, <head>, <body>, or <hr> tags"""
-
-
-def generate_newsletter(changes: List[Dict], topics: List[Dict],
-                        api_key: str) -> str:
-    """Use Claude API to generate the newsletter from changes and topics."""
-
+    Output is designed to be copy-pasted into Claude.ai for newsletter drafting
+    or read directly as a raw briefing.
+    """
     today = datetime.now().strftime('%B %d, %Y')
     week_start = (datetime.now() - timedelta(days=7)).strftime('%B %d')
 
-    user_content = f"Generate the weekly RHT newsletter for the week of {week_start} – {today}.\n\n"
+    lines = []
+    lines.append(f"# RHTP Weekly Briefing: {week_start} – {today}")
+    lines.append("")
 
-    if changes:
-        user_content += "## Page Changes Detected This Week\n\n"
+    if not changes:
+        lines.append("## No page changes detected this week.")
+        lines.append("")
+        lines.append("The URL monitor checked all 51 RHTP pages daily but found no content updates.")
+        lines.append("")
+    else:
         # Group by state
         by_state = {}
         for c in changes:
@@ -484,66 +452,70 @@ def generate_newsletter(changes: List[Dict], topics: List[Dict],
                 by_state[state] = []
             by_state[state].append(c)
 
+        lines.append(f"## {len(changes)} changes across {len(by_state)} states")
+        lines.append("")
+
         for state, state_changes in sorted(by_state.items()):
-            user_content += f"### {state}\n"
+            lines.append(f"### {state}")
+            lines.append("")
+
             for c in state_changes:
-                user_content += f"State RHTP URL: {c['url']}\n"
-                user_content += f"Date detected: {c['date']}\n"
-                user_content += f"Diff:\n{c['diff']}\n\n"
+                lines.append(f"**URL:** {c['url']}")
+                lines.append(f"**Date detected:** {c['date']}")
+                lines.append("")
 
-                # Include enriched page content
+                # Diff
+                lines.append("**Changes (diff):**")
+                lines.append("```diff")
+                lines.append(c['diff'])
+                lines.append("```")
+                lines.append("")
+
+                # Enriched page content
                 if c.get('page_content'):
-                    user_content += f"Current page content (excerpt):\n{c['page_content']}\n\n"
+                    lines.append("**Current page content (excerpt):**")
+                    lines.append("")
+                    lines.append(c['page_content'])
+                    lines.append("")
 
-                # Include linked content
+                # Linked content from followed links
                 if c.get('linked_content'):
-                    user_content += "Key links found on this page:\n"
+                    lines.append("**Content from key links on this page:**")
+                    lines.append("")
                     for link in c['linked_content']:
-                        user_content += f"\n--- Link: {link['label']} ({link['url']}) ---\n"
-                        user_content += f"{link['content']}\n"
-                    user_content += "\n"
+                        lines.append(f"#### {link['label']}")
+                        lines.append(f"URL: {link['url']}")
+                        lines.append("")
+                        lines.append(link['content'])
+                        lines.append("")
 
+                # All discovered key links
                 if c.get('key_links'):
-                    user_content += "All key links discovered:\n"
+                    lines.append("**All key links discovered:**")
                     for link in c['key_links']:
                         pdf_tag = " [PDF]" if link.get('is_pdf') else ""
-                        user_content += f"- {link['label']}{pdf_tag}: {link['url']}\n"
-                    user_content += "\n"
-    else:
-        user_content += "## No page changes were detected this week.\n\n"
-        user_content += "The URL monitor checked all 51 RHTP pages daily but found no content updates.\n\n"
+                        lines.append(f"- {link['label']}{pdf_tag}: {link['url']}")
+                    lines.append("")
 
+            lines.append("---")
+            lines.append("")
+
+    # Topics from monday.com
     if topics:
-        user_content += "## Active Topics Being Tracked (from monday.com board)\n\n"
+        lines.append("## Active Topics (monday.com)")
+        lines.append("")
         for t in topics:
-            user_content += f"- **{t['name']}**"
+            entry = f"- **{t['name']}**"
             if t['group']:
-                user_content += f" ({t['group']})"
+                entry += f" ({t['group']})"
             cols = t.get('columns', {})
             if cols:
                 details = ', '.join(f"{k}: {v}" for k, v in cols.items())
-                user_content += f" — {details}"
-            user_content += "\n"
-        user_content += "\n"
+                entry += f" — {details}"
+            lines.append(entry)
+        lines.append("")
 
-    user_content += "Write the newsletter now. Bullet format, full URLs, direct quotes, no hype."
-
-    client = anthropic.Anthropic(api_key=api_key)
-
-    logger.info(f"Calling Claude API ({len(user_content)} chars of context)...")
-    message = client.messages.create(
-        model="claude-sonnet-4-5-20250929",
-        max_tokens=4096,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_content}],
-    )
-
-    newsletter_html = message.content[0].text
-    logger.info(f"Newsletter generated: {len(newsletter_html)} chars, "
-                f"input tokens: {message.usage.input_tokens}, "
-                f"output tokens: {message.usage.output_tokens}")
-
-    return newsletter_html
+    return '\n'.join(lines)
 
 
 # ── Main ──────────────────────────────────────────────────────────────
@@ -551,16 +523,12 @@ def generate_newsletter(changes: List[Dict], topics: List[Dict],
 def main():
     github_token = os.getenv('GITHUB_TOKEN', '')
     repo = os.getenv('GITHUB_REPOSITORY', '')
-    anthropic_key = os.getenv('ANTHROPIC_API_KEY', '')
     monday_token = os.getenv('MONDAY_API_TOKEN', '')
     topics_board_id = os.getenv('MONDAY_TOPICS_BOARD_ID', '')
     lookback_days = int(os.getenv('LOOKBACK_DAYS', '7'))
 
     if not github_token or not repo:
         logger.error("GITHUB_TOKEN and GITHUB_REPOSITORY are required")
-        sys.exit(1)
-    if not anthropic_key:
-        logger.error("ANTHROPIC_API_KEY is required")
         sys.exit(1)
 
     # 1. Collect this week's changes from GitHub issues
@@ -574,27 +542,26 @@ def main():
     # 3. Fetch topics from monday.com for context
     topics = fetch_topics(monday_token, topics_board_id)
 
-    # 4. Generate newsletter via Claude API
-    newsletter_html = generate_newsletter(changes, topics, anthropic_key)
+    # 4. Format the briefing report
+    report = format_briefing_report(changes, topics)
 
-    # 5. Save HTML draft
+    # 5. Save report
     output_path = 'newsletter-draft.html'
     with open(output_path, 'w') as f:
-        f.write(newsletter_html)
-    logger.info(f"Saved newsletter draft to {output_path}")
+        f.write(report)
+    logger.info(f"Saved briefing report to {output_path}")
 
     # 6. Print for logs
     print("\n" + "=" * 60)
-    print("NEWSLETTER DRAFT")
+    print("RHTP WEEKLY BRIEFING REPORT")
     print("=" * 60)
-    print(newsletter_html)
+    print(report)
 
     # 7. GitHub Actions step summary
     summary_file = os.getenv('GITHUB_STEP_SUMMARY')
     if summary_file:
         with open(summary_file, 'a') as f:
-            f.write("# Weekly RHT Newsletter Draft\n\n")
-            f.write(newsletter_html)
+            f.write(report)
 
     # 8. Save metadata
     metadata = {
