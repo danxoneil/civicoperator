@@ -1,0 +1,91 @@
+name: Weekly RHT Newsletter
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'  # Every Monday at 9 AM ET (14:00 UTC)
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: 'Days to look back for changes'
+        required: false
+        default: '7'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  newsletter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests anthropic
+
+      - name: Generate newsletter
+        working-directory: state-spending-monitor
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
+          MONDAY_TOPICS_BOARD_ID: ${{ secrets.MONDAY_TOPICS_BOARD_ID }}
+          LOOKBACK_DAYS: ${{ inputs.lookback_days || '7' }}
+        run: python newsletter.py
+
+      - name: Upload newsletter draft
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newsletter-draft
+          path: |
+            state-spending-monitor/newsletter-draft.html
+            state-spending-monitor/newsletter-metadata.json
+          retention-days: 30
+
+      - name: Create newsletter issue
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            let html = '';
+            const draftPath = 'state-spending-monitor/newsletter-draft.html';
+            if (fs.existsSync(draftPath)) {
+              html = fs.readFileSync(draftPath, 'utf8');
+            }
+
+            let meta = { changes_count: 0, states_with_changes: [] };
+            const metaPath = 'state-spending-monitor/newsletter-metadata.json';
+            if (fs.existsSync(metaPath)) {
+              meta = JSON.parse(fs.readFileSync(metaPath, 'utf8'));
+            }
+
+            const date = new Date().toISOString().split('T')[0];
+            const stateCount = meta.states_with_changes.length;
+            const title = `[Newsletter Draft] Week of ${date} — ${meta.changes_count} changes across ${stateCount} states`;
+
+            const body = `## Weekly RHT Newsletter Draft\n\n` +
+              `**Generated:** ${date}\n` +
+              `**Changes detected:** ${meta.changes_count}\n` +
+              `**States with activity:** ${meta.states_with_changes.join(', ') || 'None'}\n\n` +
+              `---\n\n` +
+              `${html}\n\n` +
+              `---\n*Copy the HTML above into Substack. ` +
+              `The raw HTML file is also available in the workflow artifacts.*\n`;
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ['automated', 'newsletter'],
+            });
+            console.log(`Created newsletter issue: ${title}`);
