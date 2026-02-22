@@ -27,7 +27,7 @@ jobs:
           cd state-spending-monitor
           pip install --upgrade pip
           pip install -r requirements.txt
-          pip install playwright
+          pip install playwright google-auth google-api-python-client
           playwright install chromium --with-deps
 
       # Restore previous page snapshots from cache
@@ -52,6 +52,8 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GOOGLE_DRIVE_FOLDER_ID: ${{ secrets.GOOGLE_DRIVE_FOLDER_ID }}
         run: |
           cd state-spending-monitor
           python url_monitor.py
@@ -115,10 +117,13 @@ jobs:
             if (results.changed.length > 0) {
               body += `### Changed Pages\n\n`;
               const screenshots = results.screenshots || {};
+              const driveLinks = results.drive_links || {};
               for (const item of results.changed) {
                 body += `#### ${item.name}\n`;
                 body += `URL: ${item.url}\n\n`;
-                if (screenshots[item.name]) {
+                if (driveLinks[item.name]) {
+                  body += `📸 [View screenshot on Google Drive](${driveLinks[item.name]})\n\n`;
+                } else if (screenshots[item.name]) {
                   body += `📸 Screenshot: \`${screenshots[item.name]}\` (download from **page-screenshots** artifact)\n\n`;
                 }
                 body += `\`\`\`diff\n${item.diff}\n\`\`\`\n\n`;

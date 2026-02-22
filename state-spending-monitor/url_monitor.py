@@ -711,11 +711,24 @@ def main():
                 name: os.path.basename(path)
                 for name, path in screenshots.items()
             }
-            # Re-save results with screenshot info
-            with open('url-monitor-results.json', 'w') as f:
-                json.dump(results, f, indent=2, default=str)
         except Exception as e:
             logger.warning(f"Screenshot capture failed: {e}")
+            screenshots = {}
+
+        # Upload screenshots to Google Drive
+        drive_folder = os.getenv('GOOGLE_DRIVE_FOLDER_ID', '')
+        drive_creds = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON', '')
+        if screenshots and drive_folder and drive_creds:
+            try:
+                from drive_upload import upload_screenshots_to_drive
+                drive_links = upload_screenshots_to_drive(screenshots, drive_folder, drive_creds)
+                results['drive_links'] = drive_links
+            except Exception as e:
+                logger.warning(f"Drive upload failed: {e}")
+
+        # Re-save results with screenshot + drive info
+        with open('url-monitor-results.json', 'w') as f:
+            json.dump(results, f, indent=2, default=str)
 
     # Send email
     monitor.send_notification(results)
