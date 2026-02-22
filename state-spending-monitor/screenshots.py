@@ -77,6 +77,36 @@ def capture_screenshots(
                 page = context.new_page()
                 page.goto(url, wait_until='networkidle', timeout=timeout)
 
+                # Remove fixed-height containers that clip content.
+                # SharePoint wraps content in #s4-workspace with
+                # overflow:auto + fixed height, so full_page=True
+                # only captures the visible viewport, not the real
+                # content beneath it.
+                page.evaluate("""
+                    () => {
+                        // Common fixed-height wrappers (SharePoint, CMS frameworks)
+                        const selectors = [
+                            '#s4-workspace',
+                            '#s4-bodyContainer',
+                            '#contentRow',
+                            '.ms-core-overlay',
+                            '[id*="workspace"]',
+                            '[id*="Workspace"]',
+                        ];
+                        for (const sel of selectors) {
+                            for (const el of document.querySelectorAll(sel)) {
+                                el.style.height = 'auto';
+                                el.style.maxHeight = 'none';
+                                el.style.overflow = 'visible';
+                                el.style.position = 'static';
+                            }
+                        }
+                        // Also fix body/html in case they have overflow hidden
+                        document.documentElement.style.overflow = 'visible';
+                        document.body.style.overflow = 'visible';
+                    }
+                """)
+
                 # Scroll to bottom to trigger lazy-loaded content,
                 # then back to top so the screenshot starts from the header
                 page.evaluate("""
