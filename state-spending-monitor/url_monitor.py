@@ -665,6 +665,21 @@ def main():
     with open('url-monitor-results.json', 'w') as f:
         json.dump(results, f, indent=2, default=str)
 
+    # Take screenshots of changed pages
+    if results['changed']:
+        try:
+            from screenshots import capture_screenshots
+            screenshots = capture_screenshots(results['changed'])
+            results['screenshots'] = {
+                name: os.path.basename(path)
+                for name, path in screenshots.items()
+            }
+            # Re-save results with screenshot info
+            with open('url-monitor-results.json', 'w') as f:
+                json.dump(results, f, indent=2, default=str)
+        except Exception as e:
+            logger.warning(f"Screenshot capture failed: {e}")
+
     # Send email
     monitor.send_notification(results)
 
