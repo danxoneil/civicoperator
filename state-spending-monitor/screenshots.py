@@ -76,6 +76,24 @@ def capture_screenshots(
             try:
                 page = context.new_page()
                 page.goto(url, wait_until='networkidle', timeout=timeout)
+
+                # Scroll to bottom to trigger lazy-loaded content,
+                # then back to top so the screenshot starts from the header
+                page.evaluate("""
+                    async () => {
+                        const delay = ms => new Promise(r => setTimeout(r, ms));
+                        const height = () => document.body.scrollHeight;
+                        let prev = 0;
+                        while (height() !== prev) {
+                            prev = height();
+                            window.scrollTo(0, height());
+                            await delay(300);
+                        }
+                        window.scrollTo(0, 0);
+                    }
+                """)
+                page.wait_for_timeout(500)
+
                 page.screenshot(path=filepath, full_page=True)
                 page.close()
 
