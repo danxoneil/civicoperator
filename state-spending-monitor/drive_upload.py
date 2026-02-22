@@ -21,10 +21,54 @@ from typing import Dict, Optional
 logger = logging.getLogger(__name__)
 
 
+def _get_drive_service(credentials_json: str):
+    """Authenticate and return a Drive API service object."""
+    from google.oauth2 import service_account
+    from googleapiclient.discovery import build
+
+    creds_dict = json.loads(credentials_json)
+    creds = service_account.Credentials.from_service_account_info(
+        creds_dict,
+        scopes=['https://www.googleapis.com/auth/drive.file'],
+    )
+    return build('drive', 'v3', credentials=creds)
+
+
+def create_or_get_subfolder(service, parent_id: str, folder_name: str) -> str:
+    """Create a subfolder in Drive (or return existing one's ID)."""
+    # Check if folder already exists
+    query = (
+        f"'{parent_id}' in parents and name = '{folder_name}' "
+        f"and mimeType = 'application/vnd.google-apps.folder' and trashed = false"
+    )
+    results = service.files().list(q=query, fields='files(id)').execute()
+    files = results.get('files', [])
+    if files:
+        return files[0]['id']
+
+    # Create it
+    metadata = {
+        'name': folder_name,
+        'mimeType': 'application/vnd.google-apps.folder',
+        'parents': [parent_id],
+    }
+    folder = service.files().create(body=metadata, fields='id').execute()
+
+    # Make viewable
+    service.permissions().create(
+        fileId=folder['id'],
+        body={'type': 'anyone', 'role': 'reader'},
+    ).execute()
+
+    logger.info(f"Created Drive subfolder: {folder_name}")
+    return folder['id']
+
+
 def upload_screenshots_to_drive(
     screenshots: Dict[str, str],
     folder_id: str,
     credentials_json: str,
+    subfolder_name: Optional[str] = None,
 ) -> Dict[str, str]:
     """Upload screenshot files to Google Drive.
 
@@ -32,6 +76,7 @@ def upload_screenshots_to_drive(
         screenshots: Dict mapping state name to local file path.
         folder_id: Google Drive folder ID to upload into.
         credentials_json: Service account JSON key as a string.
+        subfolder_name: If set, create/use a subfolder with this name.
 
     Returns:
         Dict mapping state name to public Drive view URL.
@@ -40,8 +85,6 @@ def upload_screenshots_to_drive(
         return {}
 
     try:
-        from google.oauth2 import service_account
-        from googleapiclient.discovery import build
         from googleapiclient.http import MediaFileUpload
     except ImportError:
         logger.warning(
@@ -50,17 +93,19 @@ def upload_screenshots_to_drive(
         )
         return {}
 
-    # Authenticate
     try:
-        creds_dict = json.loads(credentials_json)
-        creds = service_account.Credentials.from_service_account_info(
-            creds_dict,
-            scopes=['https://www.googleapis.com/auth/drive.file'],
-        )
-        service = build('drive', 'v3', credentials=creds)
+        service = _get_drive_service(credentials_json)
     except Exception as e:
         logger.error(f"Failed to authenticate with Google Drive: {e}")
         return {}
+
+    # Use subfolder if requested
+    target_folder = folder_id
+    if subfolder_name:
+        try:
+            target_folder = create_or_get_subfolder(service, folder_id, subfolder_name)
+        except Exception as e:
+            logger.warning(f"Could not create subfolder '{subfolder_name}': {e}")
 
     drive_links = {}
 
@@ -74,7 +119,7 @@ def upload_screenshots_to_drive(
         try:
             file_metadata = {
                 'name': os.path.basename(filepath),
-                'parents': [folder_id],
+                'parents': [target_folder],
             }
             media = MediaFileUpload(filepath, mimetype='image/png')
 
