@@ -39,8 +39,15 @@ def test_single_url(url: str):
 
     folder_id = os.getenv('GOOGLE_DRIVE_FOLDER_ID', '')
     creds = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON', '')
-    if folder_id and creds:
-        links = upload_screenshots_to_drive(screenshots, folder_id, creds)
+    oauth_token = os.getenv('GOOGLE_OAUTH_REFRESH_TOKEN', '')
+    if folder_id and (creds or oauth_token):
+        links = upload_screenshots_to_drive(
+            screenshots, folder_id,
+            credentials_json=creds,
+            refresh_token=oauth_token,
+            client_id=os.getenv('GOOGLE_CLIENT_ID', ''),
+            client_secret=os.getenv('GOOGLE_CLIENT_SECRET', ''),
+        )
         for name, link in links.items():
             print(f"\nDrive link: {link}")
     else:
@@ -71,10 +78,16 @@ def baseline_all():
     # Upload to Drive in a dated subfolder
     folder_id = os.getenv('GOOGLE_DRIVE_FOLDER_ID', '')
     creds = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON', '')
-    if folder_id and creds:
+    oauth_token = os.getenv('GOOGLE_OAUTH_REFRESH_TOKEN', '')
+    if folder_id and (creds or oauth_token):
         subfolder = f"Baseline {date_str}"
         links = upload_screenshots_to_drive(
-            screenshots, folder_id, creds, subfolder_name=subfolder,
+            screenshots, folder_id,
+            credentials_json=creds,
+            subfolder_name=subfolder,
+            refresh_token=oauth_token,
+            client_id=os.getenv('GOOGLE_CLIENT_ID', ''),
+            client_secret=os.getenv('GOOGLE_CLIENT_SECRET', ''),
         )
         print(f"\n{'='*60}")
         print(f"BASELINE SCREENSHOTS — {date_str}")
@@ -91,7 +104,7 @@ def baseline_all():
         with open(summary_file, 'a') as f:
             f.write(f"# Baseline Screenshots — {date_str}\n\n")
             f.write(f"Captured **{len(screenshots)}** of **{len(urls)}** state pages\n\n")
-            if folder_id and creds:
+            if folder_id and (creds or oauth_token):
                 f.write("| State | Drive Link |\n|-------|------------|\n")
                 for name, link in sorted(links.items()):
                     f.write(f"| {name} | [View]({link}) |\n")
