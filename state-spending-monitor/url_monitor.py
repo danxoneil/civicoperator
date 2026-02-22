@@ -350,18 +350,16 @@ class URLMonitor:
     def is_binary_garbage(text: str) -> bool:
         """Detect if text looks like binary/Brotli gibberish rather than real content.
 
-        Returns True if the text has a high ratio of non-printable characters,
-        indicating it was stored from a compressed response that wasn't decoded.
+        BeautifulSoup converts binary data into Unicode characters that Python
+        considers 'printable' (accented letters, CJK, symbols). So we check for
+        non-ASCII ratio instead — real .gov web pages are overwhelmingly ASCII.
         """
         if not text or len(text) < 50:
             return False
         sample = text[:2000]
-        non_printable = sum(
-            1 for c in sample
-            if not c.isprintable() and c not in '\n\r\t'
-        )
-        ratio = non_printable / len(sample)
-        return ratio > 0.1  # More than 10% non-printable = garbage
+        non_ascii = sum(1 for c in sample if ord(c) > 127)
+        ratio = non_ascii / len(sample)
+        return ratio > 0.15  # More than 15% non-ASCII = garbage
 
     @staticmethod
     def compute_hash(text: str) -> str:
