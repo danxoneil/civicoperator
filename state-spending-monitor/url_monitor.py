@@ -718,10 +718,17 @@ def main():
         # Upload screenshots to Google Drive
         drive_folder = os.getenv('GOOGLE_DRIVE_FOLDER_ID', '')
         drive_creds = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON', '')
-        if screenshots and drive_folder and drive_creds:
+        oauth_token = os.getenv('GOOGLE_OAUTH_REFRESH_TOKEN', '')
+        if screenshots and drive_folder and (drive_creds or oauth_token):
             try:
                 from drive_upload import upload_screenshots_to_drive
-                drive_links = upload_screenshots_to_drive(screenshots, drive_folder, drive_creds)
+                drive_links = upload_screenshots_to_drive(
+                    screenshots, drive_folder,
+                    credentials_json=drive_creds,
+                    refresh_token=oauth_token,
+                    client_id=os.getenv('GOOGLE_CLIENT_ID', ''),
+                    client_secret=os.getenv('GOOGLE_CLIENT_SECRET', ''),
+                )
                 results['drive_links'] = drive_links
             except Exception as e:
                 logger.warning(f"Drive upload failed: {e}")
