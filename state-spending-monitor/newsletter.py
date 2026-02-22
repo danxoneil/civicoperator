@@ -135,15 +135,17 @@ def fetch_weekly_changes(token: str, repo: str, lookback_days: int = 7) -> List[
 
 
 def is_binary_garbage(text: str) -> bool:
-    """Detect if text looks like binary/Brotli gibberish rather than real content."""
+    """Detect if text looks like binary/Brotli gibberish rather than real content.
+
+    BeautifulSoup converts binary data into Unicode characters that Python
+    considers 'printable'. We check non-ASCII ratio instead — real .gov pages
+    are overwhelmingly ASCII.
+    """
     if not text or len(text) < 50:
         return False
     sample = text[:2000]
-    non_printable = sum(
-        1 for c in sample
-        if not c.isprintable() and c not in '\n\r\t'
-    )
-    return (non_printable / len(sample)) > 0.1
+    non_ascii = sum(1 for c in sample if ord(c) > 127)
+    return (non_ascii / len(sample)) > 0.15
 
 
 def parse_issue_changes(body: str) -> List[Dict]:
