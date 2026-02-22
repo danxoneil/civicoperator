@@ -347,6 +347,23 @@ class URLMonitor:
     # ------------------------------------------------------------------
 
     @staticmethod
+    def is_binary_garbage(text: str) -> bool:
+        """Detect if text looks like binary/Brotli gibberish rather than real content.
+
+        Returns True if the text has a high ratio of non-printable characters,
+        indicating it was stored from a compressed response that wasn't decoded.
+        """
+        if not text or len(text) < 50:
+            return False
+        sample = text[:2000]
+        non_printable = sum(
+            1 for c in sample
+            if not c.isprintable() and c not in '\n\r\t'
+        )
+        ratio = non_printable / len(sample)
+        return ratio > 0.1  # More than 10% non-printable = garbage
+
+    @staticmethod
     def compute_hash(text: str) -> str:
         return hashlib.sha256(text.encode('utf-8')).hexdigest()
 
@@ -467,6 +484,9 @@ class URLMonitor:
             if url not in previous:
                 results['new'].append({'name': name, 'url': url})
                 logger.info(f"  NEW — first time seeing this URL")
+            elif self.is_binary_garbage(previous[url].get('content', '')):
+                results['new'].append({'name': name, 'url': url, 'note': 're-baselined (old snapshot was corrupt)'})
+                logger.info(f"  RE-BASELINE — old snapshot was binary garbage, saving clean version")
             elif previous[url]['hash'] != current_hash:
                 diff = self.generate_diff_summary(previous[url].get('content', ''), text)
                 results['changed'].append({
