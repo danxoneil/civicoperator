@@ -396,6 +396,38 @@ class URLMonitor:
 
         return '\n'.join(parts)
 
+    @staticmethod
+    def is_trivial_change(old_text: str, new_text: str) -> bool:
+        """Detect if the diff is only noise: CAPTCHA rotation, timestamps, etc.
+
+        Returns True if ALL changed lines match known noise patterns.
+        """
+        old_lines = set(old_text.splitlines())
+        new_lines = set(new_text.splitlines())
+
+        added = new_lines - old_lines
+        removed = old_lines - new_lines
+
+        if not added and not removed:
+            return True
+
+        noise_patterns = [
+            re.compile(r'Math question\s*\(.*\)', re.IGNORECASE),
+            re.compile(r'captcha', re.IGNORECASE),
+            re.compile(r'^\d{1,2}[/\-]\d{1,2}[/\-]\d{2,4}$'),  # bare dates
+            re.compile(r'^[a-f0-9]{16,}$'),  # session/cache tokens
+            re.compile(r'nonce|csrf|token.*=', re.IGNORECASE),
+        ]
+
+        for line in (added | removed):
+            line = line.strip()
+            if not line:
+                continue
+            if not any(p.search(line) for p in noise_patterns):
+                return False
+
+        return True
+
     # ------------------------------------------------------------------
     # State persistence
     # ------------------------------------------------------------------
@@ -486,14 +518,19 @@ class URLMonitor:
                 results['new'].append({'name': name, 'url': url, 'note': 're-baselined (old snapshot was corrupt)'})
                 logger.info(f"  RE-BASELINE — old snapshot was binary garbage, saving clean version")
             elif previous[url]['hash'] != current_hash:
-                diff = self.generate_diff_summary(previous[url].get('content', ''), text)
-                results['changed'].append({
-                    'name': name,
-                    'url': url,
-                    'diff': diff,
-                    'previous_check': previous[url].get('last_checked', 'unknown'),
-                })
-                logger.info(f"  CHANGED")
+                old_content = previous[url].get('content', '')
+                if self.is_trivial_change(old_content, text):
+                    results['unchanged'].append({'name': name, 'url': url, 'note': 'trivial change (CAPTCHA/noise)'})
+                    logger.info(f"  Trivial change (CAPTCHA/noise) — skipping")
+                else:
+                    diff = self.generate_diff_summary(old_content, text)
+                    results['changed'].append({
+                        'name': name,
+                        'url': url,
+                        'diff': diff,
+                        'previous_check': previous[url].get('last_checked', 'unknown'),
+                    })
+                    logger.info(f"  CHANGED")
             else:
                 results['unchanged'].append({'name': name, 'url': url})
                 logger.info(f"  unchanged")
@@ -674,11 +711,24 @@ def main():
                 name: os.path.basename(path)
                 for name, path in screenshots.items()
             }
-            # Re-save results with screenshot info
-            with open('url-monitor-results.json', 'w') as f:
-                json.dump(results, f, indent=2, default=str)
         except Exception as e:
             logger.warning(f"Screenshot capture failed: {e}")
+            screenshots = {}
+
+        # Upload screenshots to Google Drive
+        drive_folder = os.getenv('GOOGLE_DRIVE_FOLDER_ID', '')
+        drive_creds = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON', '')
+        if screenshots and drive_folder and drive_creds:
+            try:
+                from drive_upload import upload_screenshots_to_drive
+                drive_links = upload_screenshots_to_drive(screenshots, drive_folder, drive_creds)
+                results['drive_links'] = drive_links
+            except Exception as e:
+                logger.warning(f"Drive upload failed: {e}")
+
+        # Re-save results with screenshot + drive info
+        with open('url-monitor-results.json', 'w') as f:
+            json.dump(results, f, indent=2, default=str)
 
     # Send email
     monitor.send_notification(results)
