@@ -134,6 +134,18 @@ def fetch_weekly_changes(token: str, repo: str, lookback_days: int = 7) -> List[
     return changes
 
 
+def is_binary_garbage(text: str) -> bool:
+    """Detect if text looks like binary/Brotli gibberish rather than real content."""
+    if not text or len(text) < 50:
+        return False
+    sample = text[:2000]
+    non_printable = sum(
+        1 for c in sample
+        if not c.isprintable() and c not in '\n\r\t'
+    )
+    return (non_printable / len(sample)) > 0.1
+
+
 def parse_issue_changes(body: str) -> List[Dict]:
     """Parse a url-monitor issue body to extract changed pages and their diffs."""
     changes = []
@@ -166,6 +178,11 @@ def parse_issue_changes(body: str) -> List[Dict]:
                 diff_lines.append(line)
 
         diff = '\n'.join(diff_lines)
+
+        # Skip diffs that are binary garbage (from pre-Brotli-fix runs)
+        if is_binary_garbage(diff):
+            logger.warning(f"  Skipping {state_name}: diff is binary garbage")
+            continue
 
         if state_name and diff:
             changes.append({
