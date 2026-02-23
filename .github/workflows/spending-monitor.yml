@@ -1,0 +1,60 @@
+name: Spending Monitor
+
+on:
+  schedule:
+    - cron: '0 12 * * 1'  # Weekly on Monday at 12:00 PM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd state-spending-monitor
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore spending snapshots cache
+        uses: actions/cache@v4
+        with:
+          path: state-spending-monitor/spending_snapshots.json
+          key: spending-snapshots-${{ github.run_id }}
+          restore-keys: |
+            spending-snapshots-
+
+      - name: Run spending monitor
+        env:
+          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
+          MONDAY_SPENDING_BOARD_ID: ${{ secrets.MONDAY_SPENDING_BOARD_ID }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: |
+          cd state-spending-monitor
+          python spending_monitor.py
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spending-monitor-results
+          path: |
+            state-spending-monitor/spending-monitor-results.json
+            state-spending-monitor/spending-monitor.log
+            state-spending-monitor/spending_snapshots.json
+          retention-days: 30
