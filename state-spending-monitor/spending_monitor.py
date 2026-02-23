@@ -4,13 +4,17 @@ USASpending Award Monitor — tracks RHTP federal award data for all 50 states.
 
 Queries the USASpending.gov API for award amounts, outlays, and modifications,
 compares with the previous snapshot to detect changes, and updates the
-monday.com board with latest values.
+monday.com board with latest values.  Sends an email summary every run.
 
 Every run logs all board columns (with IDs and types) for easy configuration.
 
 Required env vars:
   MONDAY_API_TOKEN
-  MONDAY_BOARD_ID
+  MONDAY_SPENDING_BOARD_ID         — board ID for the spending board
+                                     (separate from URL monitor board)
+
+Email (uses same SMTP secrets as URL monitor):
+  NOTIFICATION_EMAIL / SMTP_SERVER / SMTP_PORT / SMTP_USER / SMTP_PASSWORD
 
 Optional column mapping (column title or ID — defaults shown):
   SPENDING_AWARD_ID_COLUMN         — "Award ID"
@@ -25,8 +29,11 @@ Snapshots file:
 import json
 import logging
 import os
+import smtplib
 import time
 from datetime import datetime
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
@@ -120,10 +127,17 @@ USASPENDING_API = "https://api.usaspending.gov/api/v2"
 class SpendingMonitor:
     def __init__(self):
         self.monday_token = os.getenv('MONDAY_API_TOKEN', '')
-        self.monday_board_id = os.getenv('MONDAY_BOARD_ID', '')
+        self.monday_board_id = os.getenv('MONDAY_SPENDING_BOARD_ID', '')
         self.snapshots_file = os.getenv(
             'SPENDING_SNAPSHOTS_FILE', 'spending_snapshots.json',
         )
+
+        # Email config (reuses same SMTP secrets as URL monitor)
+        self.notification_email = os.getenv('NOTIFICATION_EMAIL', '')
+        self.smtp_server = os.getenv('SMTP_SERVER', 'smtp.gmail.com')
+        self.smtp_port = int(os.getenv('SMTP_PORT', '587'))
+        self.smtp_user = os.getenv('SMTP_USER', '')
+        self.smtp_password = os.getenv('SMTP_PASSWORD', '')
 
         # Column mapping: env var → default column title
         self.col_map = {
@@ -626,6 +640,91 @@ class SpendingMonitor:
                     print(f"    {d['field']}: {old} → {new}")
 
         print(f"{'='*60}\n")
+
+        # 9. Send email notification
+        self.send_email(changes, api_data, run_date)
+
+    # ── Email ──────────────────────────────────────────────────────
+
+    def send_email(self, changes: Dict[str, List], api_data: Dict, run_date: str):
+        """Send email summary of spending monitor run."""
+        if not all([self.smtp_user, self.smtp_password, self.notification_email]):
+            logger.info("Email config incomplete — skipping notification")
+            return
+
+        n_changed = len(changes['changed'])
+        n_new = len(changes['new'])
+        n_unchanged = len(changes['unchanged'])
+
+        if n_changed or n_new:
+            subject = f"RHTP Spending Monitor: {n_changed} changed, {n_new} new ({run_date})"
+        else:
+            subject = f"RHTP Spending Monitor: no changes ({run_date})"
+
+        body = self._format_email(changes, api_data, run_date)
+
+        try:
+            msg = MIMEMultipart('alternative')
+            msg['From'] = self.smtp_user
+            msg['To'] = self.notification_email
+            msg['Subject'] = subject
+            msg.attach(MIMEText(body, 'plain'))
+
+            with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
+                server.starttls()
+                server.login(self.smtp_user, self.smtp_password)
+                server.send_message(msg)
+
+            logger.info(f"Sent email to {self.notification_email}")
+        except Exception as e:
+            logger.error(f"Failed to send email: {e}")
+
+    def _format_email(
+        self, changes: Dict[str, List], api_data: Dict, run_date: str,
+    ) -> str:
+        """Format plain-text email body."""
+        parts = [
+            f"RHTP Spending Monitor — {run_date}",
+            f"Awards found on USASpending: {len(api_data)}/50",
+            f"Changed: {len(changes['changed'])}  |  "
+            f"New: {len(changes['new'])}  |  "
+            f"Unchanged: {len(changes['unchanged'])}",
+            "",
+        ]
+
+        if changes['changed']:
+            parts.append("=" * 60)
+            parts.append(f"CHANGES DETECTED ({len(changes['changed'])} awards)")
+            parts.append("=" * 60)
+            for item in changes['changed']:
+                parts.append(f"\n  {item['state']} ({item['fain']})")
+                for d in item['diffs']:
+                    old = f"${d['old']:,.2f}" if isinstance(d['old'], (int, float)) else d['old']
+                    new = f"${d['new']:,.2f}" if isinstance(d['new'], (int, float)) else d['new']
+                    parts.append(f"    {d['field']}: {old} → {new}")
+            parts.append("")
+
+        if changes['new']:
+            parts.append("=" * 60)
+            parts.append(f"NEW AWARDS ({len(changes['new'])} states)")
+            parts.append("=" * 60)
+            for item in changes['new']:
+                amt = item['data'].get('Award Amount', 0)
+                outlays = item['data'].get('Total Outlays', 0)
+                recipient = item['data'].get('Recipient Name', 'Unknown')
+                parts.append(
+                    f"  {item['state']} ({item['fain']}): "
+                    f"${amt:,.2f} obligated, ${outlays:,.2f} outlayed"
+                )
+                parts.append(f"    Recipient: {recipient}")
+            parts.append("")
+
+        if not changes['changed'] and not changes['new']:
+            parts.append("No changes detected. All tracked awards are unchanged.")
+            parts.append("")
+
+        parts.append("Review your monday.com board for full details.")
+        return "\n".join(parts)
 
     def _write_results(self, results: Dict):
         """Write results JSON for GitHub Actions."""
