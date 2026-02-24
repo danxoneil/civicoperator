@@ -80,6 +80,7 @@ Create a `.env` file or set these in GitHub Secrets:
 | `SMTP_USER` | SMTP username | Yes (if email enabled) | - |
 | `SMTP_PASSWORD` | SMTP password or app-specific password | Yes (if email enabled) | - |
 | `LOOKBACK_DAYS` | How many days to look back for news | No | `7` |
+| `URL_ALLOWED_DOMAIN_SUFFIXES` | Optional comma-separated allowlist for URL monitor host suffixes (e.g. `gov,cms.gov`) | No | empty (disabled) |
 
 ### Gmail Configuration
 
