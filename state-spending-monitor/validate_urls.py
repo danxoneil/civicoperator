@@ -77,7 +77,6 @@ class URLValidator:
         self.session.trust_env = False
         retry = Retry(total=3, backoff_factor=2, status_forcelist=[500, 502, 503, 504])
         self.session.mount('https://', HTTPAdapter(max_retries=retry))
-        self.session.mount('http://', HTTPAdapter(max_retries=retry))
 
     # ------------------------------------------------------------------
     # monday.com API

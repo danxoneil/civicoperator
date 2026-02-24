@@ -77,7 +77,6 @@ def make_session() -> requests.Session:
     session.trust_env = False
     retry = Retry(total=2, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
     session.mount('https://', HTTPAdapter(max_retries=retry))
-    session.mount('http://', HTTPAdapter(max_retries=retry))
     return session
 
 
