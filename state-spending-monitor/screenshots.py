@@ -136,8 +136,8 @@ def capture_screenshots(
                 logger.warning(f"  Failed to screenshot {name}: {e}")
                 try:
                     page.close()
-                except Exception:
-                    pass
+                except Exception as close_err:
+                    logger.debug(f"Failed to close page cleanly after screenshot error: {close_err}")
 
         browser.close()
 
