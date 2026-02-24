@@ -132,6 +132,13 @@ class SpendingMonitor:
             'SPENDING_SNAPSHOTS_FILE', 'spending_snapshots.json',
         )
 
+        # Drive upload config
+        self.drive_folder_id = os.getenv('GOOGLE_DRIVE_SPENDING_FOLDER_ID', '')
+        self.drive_creds = os.getenv('GOOGLE_SERVICE_ACCOUNT_JSON', '')
+        self.drive_oauth_token = os.getenv('GOOGLE_OAUTH_REFRESH_TOKEN', '')
+        self.drive_client_id = os.getenv('GOOGLE_CLIENT_ID', '')
+        self.drive_client_secret = os.getenv('GOOGLE_CLIENT_SECRET', '')
+
         # Email config (reuses same SMTP secrets as URL monitor)
         self.notification_email = os.getenv('NOTIFICATION_EMAIL', '')
         self.smtp_server = os.getenv('SMTP_SERVER', 'smtp.gmail.com')
@@ -620,7 +627,34 @@ class SpendingMonitor:
         }
         self._write_results(results)
 
-        # 8. Print summary
+        # 8. Upload results to Google Drive
+        if self.drive_folder_id and (self.drive_creds or self.drive_oauth_token):
+            try:
+                from drive_upload import upload_screenshots_to_drive, create_or_get_subfolder, _get_drive_service
+                service, auth_type = _get_drive_service(
+                    credentials_json=self.drive_creds,
+                    refresh_token=self.drive_oauth_token,
+                    client_id=self.drive_client_id,
+                    client_secret=self.drive_client_secret,
+                )
+                subfolder = f"Run {run_date}"
+                subfolder_id = create_or_get_subfolder(
+                    service, self.drive_folder_id, subfolder,
+                )
+                # Upload results JSON and snapshots
+                from googleapiclient.http import MediaFileUpload
+                for filepath in ['spending-monitor-results.json', self.snapshots_file]:
+                    if os.path.exists(filepath):
+                        meta = {'name': os.path.basename(filepath), 'parents': [subfolder_id]}
+                        media = MediaFileUpload(filepath, mimetype='application/json')
+                        service.files().create(
+                            body=meta, media_body=media, supportsAllDrives=True,
+                        ).execute()
+                        logger.info(f"  Uploaded to Drive: {filepath}")
+            except Exception as e:
+                logger.warning(f"Drive upload failed: {e}")
+
+        # 9. Print summary
         print(f"\n{'='*60}")
         print(f"RHTP SPENDING MONITOR — {run_date}")
         print(f"{'='*60}")
@@ -657,9 +691,9 @@ class SpendingMonitor:
         n_unchanged = len(changes['unchanged'])
 
         if n_changed or n_new:
-            subject = f"RHTP Spending Monitor: {n_changed} changed, {n_new} new ({run_date})"
+            subject = f"RHTP Outlay Monitor: {n_changed} changed, {n_new} new ({run_date})"
         else:
-            subject = f"RHTP Spending Monitor: no changes ({run_date})"
+            subject = f"RHTP Outlay Monitor: no changes ({run_date})"
 
         body = self._format_email(changes, api_data, run_date)
 
@@ -684,7 +718,7 @@ class SpendingMonitor:
     ) -> str:
         """Format plain-text email body."""
         parts = [
-            f"RHTP Spending Monitor — {run_date}",
+            f"RHTP Outlay Monitor — {run_date}",
             f"Awards found on USASpending: {len(api_data)}/50",
             f"Changed: {len(changes['changed'])}  |  "
             f"New: {len(changes['new'])}  |  "
@@ -694,7 +728,7 @@ class SpendingMonitor:
 
         if changes['changed']:
             parts.append("=" * 60)
-            parts.append(f"CHANGES DETECTED ({len(changes['changed'])} awards)")
+            parts.append(f"OUTLAY CHANGES ({len(changes['changed'])} awards)")
             parts.append("=" * 60)
             for item in changes['changed']:
                 parts.append(f"\n  {item['state']} ({item['fain']})")
@@ -706,7 +740,7 @@ class SpendingMonitor:
 
         if changes['new']:
             parts.append("=" * 60)
-            parts.append(f"NEW AWARDS ({len(changes['new'])} states)")
+            parts.append(f"NEW OUTLAYS ({len(changes['new'])} states)")
             parts.append("=" * 60)
             for item in changes['new']:
                 amt = item['data'].get('Award Amount', 0)
@@ -714,7 +748,7 @@ class SpendingMonitor:
                 recipient = item['data'].get('Recipient Name', 'Unknown')
                 parts.append(
                     f"  {item['state']} ({item['fain']}): "
-                    f"${amt:,.2f} obligated, ${outlays:,.2f} outlayed"
+                    f"${outlays:,.2f} outlayed (${amt:,.2f} obligated)"
                 )
                 parts.append(f"    Recipient: {recipient}")
             parts.append("")
