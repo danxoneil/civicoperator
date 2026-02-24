@@ -24,8 +24,10 @@ import logging
 import difflib
 import re
 import time
+import ipaddress
 from datetime import datetime
 from typing import List, Dict, Any, Optional
+from urllib.parse import urlparse
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -61,6 +63,7 @@ class URLMonitor:
         self.monday_url_column = os.getenv('MONDAY_URL_COLUMN_ID', '')
         self.monday_name_as_url = os.getenv('MONDAY_NAME_AS_URL', 'false').lower() == 'true'
         self.monday_status_column = os.getenv('MONDAY_STATUS_COLUMN', 'RHTP URL Status')
+        self.allowed_domain_suffixes = [s.strip().lower() for s in os.getenv('URL_ALLOWED_DOMAIN_SUFFIXES', '').split(',') if s.strip()]
 
         # Resolved at runtime by fetch_urls_from_monday()
         self._status_col_id = None
@@ -98,6 +101,47 @@ class URLMonitor:
         retry = Retry(total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504])
         self.session.mount('https://', HTTPAdapter(max_retries=retry))
         self.session.mount('http://', HTTPAdapter(max_retries=retry))
+
+
+    def is_safe_target_url(self, url: str) -> bool:
+        """Allow only http(s) URLs that do not target local/private networks."""
+        try:
+            parsed = urlparse(url)
+        except Exception:
+            return False
+
+        if parsed.scheme not in ('http', 'https'):
+            return False
+
+        host = (parsed.hostname or '').strip().lower()
+        if not host:
+            return False
+
+        # Block localhost-like names
+        if host in {'localhost', 'localhost.localdomain'} or host.endswith('.local'):
+            return False
+
+        # If host is a literal IP, block private/reserved ranges
+        try:
+            ip = ipaddress.ip_address(host)
+            if any([
+                ip.is_private,
+                ip.is_loopback,
+                ip.is_link_local,
+                ip.is_reserved,
+                ip.is_multicast,
+                ip.is_unspecified,
+            ]):
+                return False
+        except ValueError:
+            # Hostname (not literal IP)
+            pass
+
+        # Optional allowlist: comma-separated domain suffixes (e.g. gov, cms.gov)
+        if self.allowed_domain_suffixes:
+            return any(host == suffix or host.endswith(f'.{suffix}') for suffix in self.allowed_domain_suffixes)
+
+        return True
 
     # ------------------------------------------------------------------
     # monday.com integration
@@ -238,7 +282,10 @@ class URLMonitor:
                                 break
 
                 if url:
-                    urls.append({'name': name, 'url': url, 'item_id': item_id})
+                    if self.is_safe_target_url(url):
+                        urls.append({'name': name, 'url': url, 'item_id': item_id})
+                    else:
+                        logger.warning(f"Skipping unsafe URL for item {name}: {url}")
                 else:
                     logger.warning(f"No URL found for item: {name}")
 
@@ -314,6 +361,10 @@ class URLMonitor:
         server responds with 403 (URL exists but blocks automated access).
         Returns None only on connection failures or 4xx/5xx other than 403.
         """
+        if not self.is_safe_target_url(url):
+            logger.warning(f"Blocked unsafe URL target: {url}")
+            return None
+
         try:
             resp = self.session.get(url, timeout=20, allow_redirects=True)
             if resp.status_code == 403:
