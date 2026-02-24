@@ -39,9 +39,10 @@ jobs:
           MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
           MONDAY_BOARD_ID: ${{ secrets.MONDAY_BOARD_ID }}
           MONDAY_URL_COLUMN_ID: ${{ secrets.MONDAY_URL_COLUMN_ID }}
+          FIX_BROKEN: ${{ inputs.fix_broken }}
         run: |
           cd state-spending-monitor
-          if [ "${{ inputs.fix_broken }}" = "true" ]; then
+          if [ "$FIX_BROKEN" = "true" ]; then
             python validate_urls.py --fix
           else
             python validate_urls.py
