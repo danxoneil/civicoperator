@@ -6,7 +6,7 @@ Uses Playwright (headless Chromium) to take full-page screenshots of
 URLs that the URL monitor detected as changed.
 
 Saves screenshots to a configurable output directory as PNG files
-named by state (e.g., "Delaware.png").
+named by state and date (e.g., "Delaware-02-24-2026.png").
 
 Required: pip install playwright && playwright install chromium
 """
@@ -14,6 +14,7 @@ Required: pip install playwright && playwright install chromium
 import logging
 import os
 import re
+from datetime import datetime
 from typing import Dict, List
 
 logger = logging.getLogger(__name__)
@@ -68,7 +69,8 @@ def capture_screenshots(
         for item in changed:
             name = item['name']
             url = item['url']
-            filename = f"{sanitize_filename(name)}.png"
+            date_str = datetime.now().strftime('%m-%d-%Y')
+            filename = f"{sanitize_filename(name)}-{date_str}.png"
             filepath = os.path.join(output_dir, filename)
 
             logger.info(f"  Screenshotting: {name} ({url})")
