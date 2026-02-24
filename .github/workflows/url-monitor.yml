@@ -174,9 +174,10 @@ jobs:
           GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
           GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          TEST_URL: ${{ inputs.test_url }}
         run: |
           cd state-spending-monitor
-          python test_screenshot.py --url "${{ inputs.test_url }}"
+          python test_screenshot.py --url "$TEST_URL"
 
       # ── Baseline mode ──────────────────────────────────────────────
 

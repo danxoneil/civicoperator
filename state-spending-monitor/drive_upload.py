@@ -73,8 +73,9 @@ def create_or_get_subfolder(
     service, parent_id: str, folder_name: str, use_shared: bool = False,
 ) -> str:
     """Create a subfolder in Drive (or return existing one's ID)."""
+    safe_name = folder_name.replace("\\", "\\\\").replace("'", "\\'")
     query = (
-        f"'{parent_id}' in parents and name = '{folder_name}' "
+        f"'{parent_id}' in parents and name = '{safe_name}' "
         f"and mimeType = 'application/vnd.google-apps.folder' and trashed = false"
     )
     results = (
