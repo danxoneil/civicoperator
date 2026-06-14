@@ -3,200 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Civic Operator: Management Consulting from Daniel X. O'Neil</title>
+    <title>Civic Operator — Operations, delivered as software</title>
+    <meta name="description" content="Civic Operator is the consulting practice of Daniel X. O'Neil. I build the systems that public-health departments, nonprofits, media, and other complex organizations run on.">
+    <link rel="icon" href="/favicon.ico">
+
+    <meta property="og:title" content="Civic Operator — Operations, delivered as software">
+    <meta property="og:description" content="I build the systems that public-health departments, nonprofits, media, and other complex organizations run on.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.civicoperator.com/">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<style>
-    body {
-        font-family: 'Figtree', sans-serif;
-        background-color: #f5e6da;
-        color: #333a40;
-    }
-    h1, h2, h3 {
-        font-family: 'Poppins', sans-serif;
-        color: #333a40;
-    }
-    .navbar {
-        background-color: #007a99;
-        padding: 10px 20px;
-		margin-bottom: 0;
-    }
-    .navbar-brand img {
-        height: 40px;
-    }
-    .navbar-nav .nav-link {
-        color: white;
-        font-weight: 500;
-        margin-right: 15px;
-    }
-    .navbar-nav .nav-link:hover, .dropdown-item:hover {
-        text-decoration: underline;
-    }
-    .dropdown-menu {
-        background-color: #007a99;
-    }
-    .dropdown-item {
-        color: white;
-    }
-    .dropdown-item:hover {
-        background-color: #005f75;
-    }
-    .hero-section {
-        padding: 60px 20px; /* Added padding for mobile */
-        text-align: center;
-    }
-    .section {
-        padding: 60px 20px; /* Added padding for mobile */
-        text-align: center;
-    }
-    .cta {
-        background-color: #ff6b5e;
-        color: white;
-        padding: 20px;
-        text-align: center;
-    }
-    .btn-primary {
-        background-color: #7D3C98;
-        border-color: #7D3C98;
-    }
-    .btn-primary:hover {
-        background-color: #e55b50;
-        border-color: #e55b50;
-    }
-    .btn-light {
-        background-color: white;
-        color: #7D3C98;
-        border-color: white;
-    }
-    .btn-light:hover {
-        background-color: #ffe0dc;
-        color: #7D3C98;
-        border-color: #ffe0dc;
-    }
-	
-	    /* Header section */
-    .header-section {
-        background-color: #FF6B5E;
-        color: white;
-        text-align: center;
-        padding: 50px 20px;
-		margin-top: 0;
-    }
-    .header-section img {
-        margin-bottom: 20px;
-    }
-    .header-section h1 {
-        color: #FFFFFF;
-    }
-    .show-me-how {
-        display: block;
-        margin: 40px auto 20px;
-        max-width: 250px;
-    }
-.feature-img {
-    width: 100%; /* Full width for small screens */
-    max-width: 250px; /* Restrict max width for desktop */ 
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px auto;
-    display: block;
-}
-
-@media (max-width: 768px) {
-    .feature-img {
-        max-width: 250px; /* Slightly smaller for tablets and mobile */
-    }
-}
-
-    .container {
-        max-width: 1200px; /* Prevents content from stretching too wide */
-        padding-left: 20px; /* Added padding for mobile */
-        padding-right: 20px; /* Added padding for mobile */
-    }
-</style>
-
+    <link href="/css/site.css" rel="stylesheet">
 </head>
 <body>
 
+    <!-- ===================== NAV ===================== -->
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="/">
-            <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator Logo">
+            <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="/software">Software</a></li>
-				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-				<li class="nav-item"><a class="nav-link" href="/more">More</a></li>
+            <ul class="navbar-nav align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="/now">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="btn btn-light btn-sm ms-lg-2" href="https://calendar.app.google/XruT8HoUjnKLCkwD8">Book a call</a></li>
             </ul>
         </div>
     </nav>
 
-	    <header class="header-section">
-        <h1>Tech-enabled management consulting</h1>
-        <p>Practical strategies for integrating AI, automation, and emerging technologies to drive impact</p>
-        <img src="img/civic-operator-header-image.png" alt="Powerful monday dashboards" class="img-fluid">
-        <a href="https://internetlifeservices.com/" class="btn btn-primary">Get started</a>
-
-    <footer class="text-center p-4">
-	<a href="https://try.monday.com/danxoneil"><img src="img/monday-com-certified partner.png" alt="monday.com certified partner" class="feature-img"></a>
-    </footer>
-	
+    <!-- ===================== HERO ===================== -->
+    <header class="header-section">
+        <span class="eyebrow">Civic Operator — Daniel X. O'Neil</span>
+        <h1>Operations, delivered as software.</h1>
+        <p class="lead">I build the systems that public-health departments, nonprofits, media, and other complex organizations run on.</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="https://calendar.app.google/XruT8HoUjnKLCkwD8" class="btn btn-primary btn-lg">Book a call</a>
+            <a href="mailto:danielx@gmail.com?subject=Civic%20Operator%20Inquiry" class="btn btn-light btn-lg">Email</a>
+        </div>
     </header>
 
-    <section class="section container">
-	
-        <h1>Approach</h1>
-        <p class="mb-5">A thorough process centered on people and delivered as software</p>
-        <div class="row">
-            <div class="col-md-4">
-                <img src="img/evaluate-7164381-courtesy-noun-project.png" alt="Manage everything in one workspace" class="feature-img">
-                <h3>Evaluate</h3>
-                <p>Fast, deep analysis of existing business processes — ethnographic interviews backed by AI-driven document and process analysis.</p>
-            </div>
-            <div class="col-md-4">
-                <img src="img/optimize-6273605-courtesy-noun-project.png" alt="Streamline all communication" class="feature-img">
-                <h3>Optimize</h3>
-                <p>Work with your team to develop and implement streamlined systems that work for them, reducing labor and increasing effectiveness.</p>
-            </div>
-            <div class="col-md-4">
-                <img src="img/automate-4694616-courtesy-noun-project.png" alt="Set up and onboard teams" class="feature-img">
-                <h3>Automate</h3>
-                <p>Use inexpensive, powerful software like monday.com, Airtable, Smartsheets, and the Outlook suite to build forms and workflows.</p>
-            </div>
-        </div>
-    </section>
-    <section class="section container"> 
-        <h1>Services</h1>
-        <p class="mb-5">Deep experience in low-code / no-code toolsets with custom training</p>
-        <div class="row text-center">
-            <div class="col-md-4">
-			<img src="img/AINetworks.png" alt="Private AI networks" class="feature-img">
-                <h3>Private generative AI networks</h3>
-                <p>Design and deploy secure, private AI-driven automation systems for your organization based on your needs. From enterprise accounts through existing providers to simple, no-code workflows in your network, this is a great way to get started without your data being used for AI training.</p>
-            </div>
-            <div class="col-md-4">
-			<img src="img/Strategy-Process-Improvement.png" alt="Strategy & Process Improvement" class="feature-img">
-                <h3>Strategy development & process improvement</h3>
-                <p>Modernize your organization's strategy and operations by integrating AI, automation, and smarter workflows. I specialize in strategy development, process improvement, and building scalable, efficient workflows using emerging technologies.</p>
-            </div>
-            <div class="col-md-4">
-			<img src="img/Mine-Data.png" alt="Mine your own data" class="feature-img">
-                <h3>Mine your own data and put it to work</h3>
-                <p>Do a deep dive into your organization’s email, spreadsheets, and PDFs to create crisp data to feed internal systems, create training materials, and improve operations. Also leverage the new wealth of external data to drive impact.</p>
+    <!-- ===================== THREE SOLUTIONS ===================== -->
+    <section class="section">
+        <div class="container">
+            <h2>What I do now</h2>
+            <p class="section-sub">Three practices, each built around the same idea: turn how an organization works into working software.</p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="solution-card">
+                        <span class="card-eyebrow">Rural Health Transformation</span>
+                        <h3>RHT Data Consulting</h3>
+                        <p>Intelligence on the $50B federal program, state by state, plus custom briefs that show your organization exactly where it fits.</p>
+                        <a href="/now/rht" class="btn btn-primary">Explore RHT</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card">
+                        <span class="card-eyebrow">Emerging tools</span>
+                        <h3>AI Systems</h3>
+                        <p>Private, secure AI your team actually uses. Your data never trains anyone's model while we build smart tools on your valuable data.</p>
+                        <a href="/now/ai" class="btn btn-primary">Explore AI Systems</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card">
+                        <span class="card-eyebrow">Certified partner</span>
+                        <h3>monday.com</h3>
+                        <p>Certified-partner board systems for real operational complexity, handed over with training and documentation.</p>
+                        <a href="/now/monday" class="btn btn-primary">Explore monday.com</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- ===================== CTA ===================== -->
     <section class="cta">
         <h2>Let's work together</h2>
-        <a href="https://internetlifeservices.com/" class="btn btn-primary">Book a meeting</a>
+        <p class="lead mb-4">Tell me what your organization runs on, and where it's breaking down.</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="https://calendar.app.google/XruT8HoUjnKLCkwD8" class="btn btn-primary btn-lg">Book a call</a>
+            <a href="mailto:danielx@gmail.com?subject=Civic%20Operator%20Inquiry" class="btn btn-light btn-lg">Email</a>
+        </div>
     </section>
-    <footer class="text-center p-4">
-	<a href="https://try.monday.com/danxoneil"><img src="img/monday-com-certified partner.png" alt="monday.com certified partner" class="feature-img"></a>
-        <p>&copy; 2025 Civic Operator, LLC. All rights reserved.</p>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        <a href="https://try.monday.com/danxoneil"><img src="/img/monday-com-certified partner.png" alt="monday.com certified partner" class="partner-badge"></a>
+        <p class="mb-1">
+            <a href="/">Home</a> &nbsp;·&nbsp;
+            <a href="/now">Work</a> &nbsp;·&nbsp;
+            <a href="/about">About</a> &nbsp;·&nbsp;
+            <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">The Tracker</a> &nbsp;·&nbsp;
+            <a href="mailto:danielx@gmail.com">Contact</a>
+        </p>
+        <p class="mb-0"><small>&copy; 2026 Civic Operator, LLC. All rights reserved.</small></p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
