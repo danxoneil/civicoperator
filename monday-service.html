@@ -3,227 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>monday Service from Civic Operator</title>
+    <title>monday Service | Civic Operator</title>
+    <meta name="description" content="Unify and automate service operations across your organization with monday Service — implemented by a certified monday.com partner.">
+    <link rel="icon" href="/favicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-<style>
-    /* General styles */
-    body {
-        font-family: 'Figtree', sans-serif;
-        background-color: #f5e6da;
-        color: #2C2C2C;
-    }
-    h1, h2, h3 {
-        font-family: 'Poppins', sans-serif;
-        color: #181B34;
-    }
-
-    /* Navbar styles */
-    .navbar {
-        background-color: #007a99;
-        padding: 10px 20px;
-    }
-    .navbar-brand img {
-        height: 40px;
-    }
-    .navbar-nav .nav-link {
-        color: white;
-        font-weight: 500;
-        margin-right: 15px;
-    }
-    .navbar-nav .nav-link:hover, .dropdown-item:hover {
-        text-decoration: underline;
-    }
-    .dropdown-menu {
-        background-color: #007a99;
-    }
-    .dropdown-item {
-        color: white;
-    }
-    .dropdown-item:hover {
-        background-color: #005f75;
-    }
-
-    /* Header section */
-    .header-section {
-        background-color: #99013e;
-        color: white;
-        text-align: center;
-        padding: 50px 20px;
-    }
-    .header-section img {
-        margin-bottom: 20px;
-    }
-    .header-section h1 {
-        color: #FFFFFF;
-    }
-    .show-me-how {
-        display: block;
-        margin: 40px auto 20px;
-        max-width: 250px;
-    }
-
-    /* Features section */
-    .features-section {
-        padding: 60px 20px;
-    }
-    .feature-row {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        margin-bottom: 50px;
-        padding: 20px;
-    }
-    .feature-img {
-        flex: 1;
-        max-width: 50%;
-    }
-    .feature-text {
-        flex: 1;
-        text-align: left;
-    }
-
-    /* New Style: Subheading "Flexible and intuitive" */
-    .subheading {
-        font-size: 1rem;
-        font-weight: 500;
-        color: #007a99;
-        margin-bottom: 8px;
-        display: block;
-    }
-
-    /* Trusted section */
-    .trusted-section {
-        text-align: center;
-        padding: 50px 0;
-        background-color: white;
-    }
-    .trusted-logos img {
-        max-width: 90%;
-        margin: 20px auto;
-        display: block;
-    }
-	    /* CTA section styling */
-    .cta {
-        background-color: #ff6b5e;
-        color: white;
-        text-align: center;
-        padding: 40px 20px;
-    }
-    .cta h2 {
-        margin-bottom: 20px;
-    }
-    .cta .btn {
-        background-color: white;
-        color: #ff6b5e;
-        border: none;
-        font-weight: bold;
-    }
-    .cta .btn:hover {
-        background-color: #ffeae8;
-        color: #ff6b5e;
-    }
-	.section h2 {
-    text-align: center;
-}
-    /* Responsive styles */
-    @media (max-width: 768px) {
-        .feature-row {
-            flex-direction: column;
-            text-align: center;
-            padding: 15px;
-        }
-        .feature-img, .feature-text {
-            max-width: 100%;
-        }
-    }
-
-    /* Desktop: Alternate Layout */
-    @media (min-width: 769px) {
-        .feature-row:nth-child(odd) {
-            flex-direction: row;
-        }
-        .feature-row:nth-child(even) {
-            flex-direction: row-reverse;
-        }
-    }
-.awards-section {
-    text-align: center;
-    margin-top: -10px; /* Moves it closer to the header section */
-    margin-bottom: 20px; /* Ensures proper spacing before the next section */
-    padding: 40px 20px; /* Adjust padding for better layout */
-}
-
-.awards-heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px; /* Space between heading and image */
-    color: #181B34; /* Consistent with other section headings */
-    line-height: 1.2; /* Ensures proper text rendering */
-}
-
-.awards-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-}
-.footer-img {
-    width: 100%; /* Full width for small screens */
-    max-width: 250px; /* Restrict max width for desktop */ 
-    height: auto; /* Maintain aspect ratio */
-    margin: 20px auto;
-    display: block;
-}
-	
-</style>
+    <link href="/css/site.css" rel="stylesheet">
 </head>
 <body>
 
+    <!-- ===================== NAV ===================== -->
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="/">
-            <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator Logo">
+            <img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-				<li class="nav-item"><a class="nav-link" href="/software">Software</a></li>
-				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-				<li class="nav-item"><a class="nav-link" href="/more">More</a></li>
+            <ul class="navbar-nav align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="/now">Work</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="btn btn-light btn-sm ms-lg-2" href="https://calendar.app.google/XruT8HoUjnKLCkwD8">Book a call</a></li>
             </ul>
         </div>
     </nav>
-    <header class="header-section">
-        <img src="/img/monday-service-is-live.png" alt="Monday Service" class="feature-img">
-        <h1>We're officially live</h1>
-        <a href="https://internetlifeservices.com/">
-            <img src="/img/show-me-how.png" alt="Show Me How" class="show-me-how">
-        </a>
-        <div class="row mt-4">
-            <div class="col-md-12">
-                <img src="/img/monday-service-header-image.png" alt="monday Service " class="img-fluid">
-            </div>
-        </div>
-    </header>
-<section class="awards-section">
-    <h2 class="awards-heading">AI, at your service</h3>
-    <img src="/img/monday-service-lets-talk.png" alt="Awards" class="awards-img">
-</section>
 
-	    <section class="cta">
-        <h2>Let's work together</h2>
-        <a href="https://internetlifeservices.com/" class="btn btn-primary">Book a meeting</a>
+    <!-- ===================== HERO ===================== -->
+    <header class="header-section">
+        <span class="eyebrow">monday Service</span>
+        <h1>We're officially live</h1>
+        <p class="lead">Unify and automate service operations across your organization for exceptional customer experiences — implemented by a certified monday.com partner.</p>
+        <a href="https://calendar.app.google/XruT8HoUjnKLCkwD8" class="btn btn-light btn-lg">Book a working call</a>
+        <img src="/img/monday-service-header-image.png" alt="monday Service" class="hero-shot">
+    </header>
+
+    <!-- ===================== AI AT YOUR SERVICE ===================== -->
+    <section class="section bg-white-panel">
+        <div class="container">
+            <h2>AI, at your service</h2>
+            <p class="section-sub">Automate the routine and route the rest — so your team handles what matters.</p>
+            <img src="/img/monday-service-lets-talk.png" alt="AI-powered service operations" class="awards-img">
+        </div>
     </section>
-<footer class="text-center p-4">
-    <a href="https://try.monday.com/danxoneil">
-        <img src="img/monday-com-certified partner.png" alt="monday.com certified partner" class="footer-img">
-    </a>
-    <p>&copy; 2025 Civic Operator, LLC. All rights reserved.</p>
-</footer>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="cta">
+        <h2>Let's work together</h2>
+        <p class="lead mb-4">Bring your service workflow and we'll automate the parts that should run themselves.</p>
+        <div class="d-flex gap-3 justify-content-center flex-wrap">
+            <a href="https://calendar.app.google/XruT8HoUjnKLCkwD8" class="btn btn-primary btn-lg">Book a working call</a>
+            <a href="/now/monday" class="btn btn-light btn-lg">All monday work</a>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        <a href="https://try.monday.com/danxoneil"><img src="/img/monday-com-certified partner.png" alt="monday.com certified partner" class="partner-badge"></a>
+        <p class="mb-1">
+            <a href="/">Home</a> &nbsp;·&nbsp;
+            <a href="/now">Work</a> &nbsp;·&nbsp;
+            <a href="/now/monday">monday.com</a> &nbsp;·&nbsp;
+            <a href="/about">About</a> &nbsp;·&nbsp;
+            <a href="mailto:danielx@gmail.com">Contact</a>
+        </p>
+        <p class="mb-0"><small>&copy; 2026 Civic Operator, LLC. All rights reserved.</small></p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body> 
+</body>
 </html>
