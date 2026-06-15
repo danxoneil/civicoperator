@@ -255,6 +255,12 @@ h1, h2, h3, h4 {
     display: block;
 }
 
+/* Service icons are small native PNGs (~40px) — cap their size so they
+   render crisp instead of being upscaled to the full .feature-img width. */
+.product .feature-img {
+    max-width: 56px;
+}
+
 /* ---- Subscribe screenshot (RHT) ---- */
 .subscribe-shot img {
     border-radius: 12px;
