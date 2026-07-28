@@ -1,0 +1,62 @@
+name: Build RHT State Pages
+
+# Regenerates the 50 per-state RHT profile pages under work/rht/states/.
+#
+# Data sources:
+#   - states_data.json   <- monday.com "States - RHT" board (fetched live here)
+#   - dispatch_index.json <- parsed from the latest Substack export
+#   - content.json        <- authored Q&A (edited by hand, committed)
+#
+# NOTE ON THE SUBSTACK EXPORTS: the export lives in Google Drive, which this
+# runner cannot see. dispatch_index.json is therefore expected to be COMMITTED
+# to the repo (refreshed by parse_dispatches.py wherever the Drive export is
+# reachable). A push to dispatch_index.json triggers this workflow, which then
+# re-pulls Monday and rebuilds the HTML. See state_pages/README.md.
+
+on:
+  schedule:
+    - cron: '0 8 * * *'          # nightly, 08:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'state-spending-monitor/state_pages/dispatch_index.json'
+      - 'state-spending-monitor/state_pages/content.json'
+      - 'state-spending-monitor/state_pages/build.py'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: state-spending-monitor/state_pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh Monday data
+        env:
+          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
+        run: python fetch_monday.py
+
+      - name: Build state pages
+        run: python build.py
+
+      - name: Commit changes if any
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add work/rht/states state-spending-monitor/state_pages/states_data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "RHT: rebuild state pages [skip ci]"
+            git push
+          fi

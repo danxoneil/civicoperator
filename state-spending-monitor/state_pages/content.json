@@ -1,0 +1,82 @@
+{
+ "questions": [
+  "What is {STATE}'s Rural Health Transformation Program allocation, and how is the funding structured?",
+  "Which agency administers {STATE}'s RHTP, and who leads it?",
+  "What is {STATE}'s rural health transformation plan trying to accomplish?",
+  "Where is the money going — which initiatives is {STATE} funding, and at what share?",
+  "What has {STATE} procured so far, and what's open right now?",
+  "What are the key upcoming dates and deadlines in {STATE}?",
+  "What legislation or state action enables {STATE}'s RHTP?",
+  "How can vendors, providers, or consultants engage with {STATE}'s program?"
+ ],
+ "authored": {
+  "Arizona": {
+   "award_exact": "$166,988,956",
+   "facts": [
+    [
+     "FY26 award (Year 1)",
+     "$166,988,956"
+    ],
+    [
+     "CMS Notice of Award",
+     "RHTCMS332059-01-00 (Dec 29, 2025)"
+    ],
+    [
+     "Period of performance",
+     "5 years — through Oct 30, 2030"
+    ],
+    [
+     "Lead / fiscal agency",
+     "<a href=\"https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/\">AHCCCS</a>"
+    ],
+    [
+     "Program contact",
+     "<a href=\"mailto:manand@arizona.edu\">manand@arizona.edu</a> · Arizona Center for Rural Health"
+    ],
+    [
+     "Grants / RFP portal",
+     "<a href=\"https://www.azahcccs.gov/Resources/Grants/GrantsAdministration.html\">AHCCCS Grants Administration</a>"
+    ],
+    [
+     "Key project focus",
+     "Workforce Toolkit · Value-Based Payment Prep · Cybersecurity"
+    ]
+   ],
+   "lede": "Everything we track on {STATE}'s <strong>$166,988,956</strong> Rural Health Transformation Program award — the plan, the three administering agencies, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "answers": [
+    {
+     "html": "<p>Arizona received <strong>$166,988,956</strong> in Year 1 funding under CMS Notice of Award <strong>RHTCMS332059-01-00</strong>, dated December 29, 2025, with a five-year period of performance running through October 30, 2030. The award is Arizona's share of the federal $50 billion Rural Health Transformation Program.</p>",
+     "text": "Arizona received $166,988,956 in Year 1 funding under CMS Notice of Award RHTCMS332059-01-00 (Dec 29, 2025), with a five-year period of performance through October 30, 2030 — its share of the federal $50 billion Rural Health Transformation Program."
+    },
+    {
+     "html": "<p><a href=\"https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/\">AHCCCS</a> (the Arizona Health Care Cost Containment System) is the single CMS awardee. The Governor's Office named <strong>three lead agencies</strong> to administer distinct slices: the Office of Economic Opportunity (OEO) runs workforce; the Department of Health Services (ADHS) runs maternal health and chronic-disease work; and AHCCCS runs everything else. Program coordination runs through the <strong>Arizona Center for Rural Health</strong> (<a href=\"mailto:manand@arizona.edu\">manand@arizona.edu</a>).</p>",
+     "text": "AHCCCS is the single CMS awardee. The Governor's Office named three lead agencies: OEO (workforce), ADHS (maternal and chronic disease), and AHCCCS (everything else). Coordination runs through the Arizona Center for Rural Health (manand@arizona.edu)."
+    },
+    {
+     "html": "<p>Arizona is using RHTP dollars to strengthen the rural health workforce, expand access through telehealth, mobile care and satellite sites, and make rural providers financially and operationally resilient through diagnostic equipment, EHR modernization and shared-services consortiums — coordinated across three state agencies rather than a single office.</p>",
+     "text": "Arizona is using RHTP dollars to strengthen the rural workforce, expand access via telehealth/mobile/satellite care, and make rural providers resilient through equipment, EHR modernization and shared services — coordinated across three agencies."
+    },
+    {
+     "html": "<ul><li><strong>Rural Health Education &amp; Training (OEO)</strong> — 28% (≈$47M), the single largest slice.</li><li><strong>Maternal Health (ADHS)</strong> — 3%; <strong>Chronic Disease Prevention &amp; Management (ADHS)</strong> — 7%.</li><li><strong>Behavioral Health &amp; SUD (AHCCCS)</strong> — 6%.</li><li><strong>Making Rural Health Care Accessible (AHCCCS)</strong> — 23% (telehealth/digital 10%, rural-health innovation 13%).</li><li><strong>Making Rural Health Resilient (AHCCCS)</strong> — 23% (diagnostic/EHR tech 18%, shared-services consortiums 3%, operational/fiscal TA 2%).</li></ul>",
+     "text": "OEO Rural Health Education & Training 28% (~$47M); ADHS Maternal Health 3% and Chronic Disease 7%; AHCCCS Behavioral Health & SUD 6%, Making Rural Health Care Accessible 23% (telehealth 10%, innovation 13%), and Making Rural Health Resilient 23% (diagnostic/EHR 18%, shared services 3%, TA 2%)."
+    },
+    {
+     "html": "<p>Arizona's first live solicitation was the <strong>AHCCCS Opioid Antagonist Distribution Initiative RFGA</strong>, released July 10, 2026 — targeting rural counties, Tribal communities, fire districts and frontier clinics. OEO (workforce) and ADHS (maternal/chronic disease) previewed their procurement calendars at the June Arizona Rural Health Conference, with the bulk of solicitations expected across the back half of 2026. Every dispatch we've published on Arizona is listed below, newest first.</p>",
+     "text": "Arizona's first live solicitation was the AHCCCS Opioid Antagonist Distribution Initiative RFGA (July 10, 2026). OEO and ADHS previewed further workforce and maternal/chronic-disease solicitations for the back half of 2026."
+    },
+    {
+     "html": "<p>The Opioid RFGA's application deadline is posted on the AHCCCS grant application page (confirm it there — it is not printed on the toolkit card). AHCCCS is also hosting three regional “Share Your Voice on Rural Health” public meetings, with dates on the RHTP hub. Live procurement dates surface first in the dated dispatches below.</p>",
+     "text": "The Opioid RFGA deadline is on the AHCCCS grant application page. AHCCCS is hosting three regional “Share Your Voice” public meetings; dates are on the RHTP hub. Live dates surface in the dispatch list."
+    },
+    {
+     "html": "<p>The Rural Health Transformation Program was created by <strong>Section 71401 of the One Big Beautiful Bill Act (2025)</strong> and is administered federally by CMS. Arizona's participation is administered through AHCCCS under its CMS-approved project and budget narratives, with the Governor's Office designating the three lead agencies. Detailed state appropriation and allocation figures are set out in Arizona's approved Project Narrative and Budget Narrative.</p>",
+     "text": "The RHTP was created by Section 71401 of the One Big Beautiful Bill Act (2025), administered federally by CMS. Arizona administers its award through AHCCCS under CMS-approved project and budget narratives, with the Governor's Office designating three lead agencies."
+    },
+    {
+     "html": "<p>Eligibility runs on two tracks. <strong>Direct-to-state contracts</strong> go out as competitive RFPs, where firms bid as <strong>prime contractors</strong>. <strong>Subgrants and subawards</strong> flow to rural providers — hospitals, Rural Health Clinics, FQHCs, Tribal health organizations, EMS agencies, counties and fire districts — and it is here that technology vendors and consultants most often engage as <strong>subcontractors or implementation partners</strong> rather than as direct grantees.</p><p>Track opportunities on the <a href=\"https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/\">AHCCCS RHTP hub</a> and the <a href=\"https://www.azahcccs.gov/Resources/Grants/GrantsAdministration.html\">Grants Administration portal</a>; attend the regional “Share Your Voice” meetings to shape priorities before more solicitations drop; and request a letter of support from the <strong>Arizona Center for Rural Health</strong> (as State Office of Rural Health) by sending them a link to an open funding opportunity.</p>",
+     "text": "Eligibility runs on two tracks: direct-to-state contracts let out as competitive RFPs (firms bid as prime contractors), and subgrants/subawards to rural providers — hospitals, Rural Health Clinics, FQHCs, Tribal health organizations, EMS and fire districts — where vendors and consultants most often engage as subcontractors or implementation partners rather than direct grantees. Track the AHCCCS RHTP hub and Grants Administration portal, attend the regional “Share Your Voice” meetings, and request a letter of support from the Arizona Center for Rural Health by sending a link to an open funding opportunity."
+    }
+   ]
+  }
+ }
+}
