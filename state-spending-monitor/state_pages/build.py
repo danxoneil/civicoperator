@@ -275,8 +275,9 @@ def render_index(cards):
 <div class="ai">
 <p class="eyebrow">Rural Health Transformation Program</p>
 <h1>State Profiles</h1>
-<p class="lede">A permanent, question-and-answer profile of every state's CMS Rural Health Transformation Program &mdash; the plan, the money, the agencies, live procurements, and every dispatch from the Tracker. {len(cards)} states &middot; {total_disp} dispatches.</p>
+<p class="lede">A permanent, question-and-answer profile of every state's CMS Rural Health Transformation Program &mdash; the plan, the money, the agencies, live procurements, and every dispatch from the <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">Rural Health Transformation Grant Tracker</a>. {len(cards)} states &middot; {total_disp} dispatches.</p>
 <a class="hub" href="/work/rht/activity">See the quarterly activity index &rarr;</a>
+<a class="hub" href="https://www.ruralhealthtransformation.life/subscribe" target="_blank" rel="noopener" style="margin-left:18px;">Subscribe now &rarr;</a>
 <div class="rule"></div>
 <div class="grid">{grid}</div>
 <footer>Rural Health Transformation Grant Tracker &middot; State profiles &middot; <a href="https://www.ruralhealthtransformation.life/" style="color:#007a99;">ruralhealthtransformation.life</a></footer>
