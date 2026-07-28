@@ -173,7 +173,12 @@ def render_state(name, d):
     qs = [q.replace("{STATE}", name) for q in QUESTIONS]
     if auth:
         answers = [(a["html"], a["text"]) for a in auth["answers"]]
-        facts = auth.get("facts") or build_facts(name, d)
+        facts = auth.get("facts")
+        if not facts:
+            facts = build_facts(name, d)
+            if auth.get("award_exact"):   # show precise award instead of ~rounded
+                facts = [(("FY26 award (Year 1)", auth["award_exact"]) if k.startswith("FY26 award") else (k, v))
+                         for k, v in facts]
         lede = auth["lede"].replace("{STATE}", name)
         status = "authored"
     else:
