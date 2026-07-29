@@ -20,6 +20,8 @@ ACT = os.path.join(REPO_ROOT, "work", "rht", "activity", "index.html")
 states_data = json.load(open(os.path.join(HERE, "states_data.json"), encoding="utf-8"))
 dispatches  = json.load(open(os.path.join(HERE, "dispatch_index.json"), encoding="utf-8"))
 content     = json.load(open(os.path.join(HERE, "content.json"), encoding="utf-8"))
+PROC_PATH   = os.path.join(HERE, "procurements.json")
+procurements = json.load(open(PROC_PATH, encoding="utf-8")) if os.path.exists(PROC_PATH) else {}
 QUESTIONS   = content["questions"]
 AUTHORED    = content["authored"]
 
@@ -68,6 +70,15 @@ EXTRA_CSS = """
 .gov{margin-top:8px;color:#8a7f72;font-size:.82rem;line-height:1.5;}
 .gov a{color:#007a99;text-decoration:none;} .gov a:hover{text-decoration:underline;}
 .doc{color:#3d4348;font-size:1rem;} .doc h2{margin-top:28px;}
+/* wave 2: procurement table */
+.ptab-wrap{overflow-x:auto;border:1px solid #eadbcd;border-radius:10px;background:#fff;margin:12px 0;max-height:640px;overflow-y:auto;}
+.ptab{width:100%;border-collapse:collapse;font-size:.88rem;}
+.ptab th{position:sticky;top:0;background:#fff;text-align:left;font-family:'Poppins',sans-serif;font-weight:600;font-size:.64rem;letter-spacing:.05em;text-transform:uppercase;color:#8a7f72;padding:10px 12px;border-bottom:2px solid #eadbcd;white-space:nowrap;}
+.ptab td{padding:9px 12px;border-bottom:1px solid #f1e6d9;vertical-align:top;color:#333a40;}
+.ptab tr:last-child td{border-bottom:0;}
+.ptab td a{color:#005f75;text-decoration:none;} .ptab td a:hover{text-decoration:underline;}
+.ptab .dt{font-family:'Poppins',sans-serif;font-weight:600;font-size:.62rem;letter-spacing:.03em;text-transform:uppercase;color:#005f75;background:#eef4f6;border-radius:5px;padding:2px 7px;white-space:nowrap;}
+.ptab td:nth-child(3),.ptab td:nth-child(4){font-family:ui-monospace,monospace;font-size:.78rem;color:#6c757d;white-space:nowrap;}
 </style>"""
 
 NAV = """<header class="sitebar">
@@ -199,6 +210,32 @@ def dispatch_html(name):
                 f'<a href="{html.escape(url)}" target="_blank" rel="noopener">{html.escape(it["headline"])}</a></div>')
     return out, len(items)
 
+# ---------- procurement table ----------
+def usaspending_url(name):
+    q = urllib.parse.quote(f"{name} Rural Health Transformation Program")
+    return f"https://www.usaspending.gov/search/?query={q}"
+
+def procurement_block(name):
+    items = procurements.get(name, [])
+    if not items:
+        return (f'<div class="st"><h2>Procurements &amp; official documents</h2>'
+                f'<p class="note-q">No RFPs, RFAs, NOFOs or awards are on record for {name} yet. '
+                f'Solicitations will appear here, each linked to its primary source, as the state publishes them.</p></div>')
+    rows = ""
+    for r in items:
+        title = html.escape(r["title"])
+        if r.get("source"):
+            title = f'<a href="{html.escape(r["source"])}" target="_blank" rel="noopener">{title}</a>'
+        dt = html.escape(r.get("doctype") or "&mdash;") if r.get("doctype") else "&mdash;"
+        dt_cell = f'<span class="dt">{dt}</span>' if r.get("doctype") else "&mdash;"
+        rows += (f'<tr><td>{title}</td><td>{dt_cell}</td>'
+                 f'<td>{r.get("published") or "&mdash;"}</td><td>{r.get("deadline") or "&mdash;"}</td></tr>')
+    return (f'<div class="st"><h2>Procurements &amp; official documents <span class="n">&middot; {len(items)}</span></h2>'
+            f'<p class="note-q">RFPs, RFAs, NOFOs and awards on record for {name}, each row linked to its primary source '
+            f'document. Compiled from state .gov portals and the program’s reporting; newest first.</p>'
+            f'<div class="ptab-wrap"><table class="ptab"><thead><tr><th>Document</th><th>Type</th>'
+            f'<th>Published</th><th>Deadline</th></tr></thead><tbody>{rows}</tbody></table></div></div>')
+
 # ---------- render one state ----------
 def render_state(name, d):
     sl = slug(name)
@@ -226,9 +263,15 @@ def render_state(name, d):
         status = "derived"
 
     disp, ndisp = dispatch_html(name)
+    nproc = len(procurements.get(name, []))
     hub = clean_url(d.get("hub_url"))
-    # append the tracker-dispatch count to the at-a-glance grid
-    facts = list(facts) + [("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}')]
+    usa = usaspending_url(name)
+    # append procurement count, federal-data link, and dispatch count to the at-a-glance grid
+    facts = list(facts) + [
+        ("Procurements on record", f'{nproc} document{"" if nproc==1 else "s"}'),
+        ("Federal award data", f'<a href="{usa}" target="_blank" rel="noopener">Search USAspending</a>'),
+        ("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}'),
+    ]
     fact_rows = "".join(f'<div><div class="k">{k}</div><div class="v">{v}</div></div>' for k, v in facts)
 
     faq = ""
@@ -263,6 +306,7 @@ def render_state(name, d):
         "variableMeasured": [
             *([{"@type": "PropertyValue", "name": "CMS Year-1 award", "unitText": "USD",
                 "value": usd}] if usd else []),
+            {"@type": "PropertyValue", "name": "Procurements on record", "value": nproc},
             {"@type": "PropertyValue", "name": "Tracker dispatches", "value": ndisp},
         ],
     }
@@ -321,6 +365,7 @@ def render_state(name, d):
 <div class="st"><h2>At a glance</h2>
 <div class="facts">{fact_rows}</div></div>
 <div class="st"><h2>Questions &amp; answers</h2><div class="faq">{faq}</div></div>
+{procurement_block(name)}
 {disp_block}
 <p class="gov">Independent reference profile compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources (CMS, {name} .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
 <footer>Rural Health Transformation Grant Tracker &middot; {name} &middot; <a href="{TRACKER}/" style="color:#007a99;">ruralhealthtransformation.life</a></footer>
@@ -345,12 +390,12 @@ def render_index(cards):
     total_disp = sum(c["ndisp"] for c in cards)
     total_usd = sum(c.get("usd") or 0 for c in cards)
     total_b = f"${total_usd/1_000_000_000:.1f}B"
-    with_disp = sum(1 for c in cards if c["ndisp"])
+    total_proc = sum(len(procurements.get(c["name"], [])) for c in cards)
     stats = (f'<div class="stats">'
              f'<div class="stat"><div class="num">{len(cards)}</div><div class="lbl">States tracked</div></div>'
              f'<div class="stat"><div class="num">{total_b}</div><div class="lbl">Year-1 CMS awards</div></div>'
+             f'<div class="stat"><div class="num">{total_proc}</div><div class="lbl">Procurements on record</div></div>'
              f'<div class="stat"><div class="num">{total_disp}</div><div class="lbl">Dated dispatches</div></div>'
-             f'<div class="stat"><div class="num">{with_disp}</div><div class="lbl">States with activity</div></div>'
              f'</div>')
     how = ('<div class="how"><h2>How this works</h2>'
            '<div class="layer"><div class="tag">Primary source</div><div class="desc">Federal and state government pages &mdash; CMS, each state’s .gov RHTP program and procurement portals, and Governor newsrooms. Every profile links out to these.</div></div>'
@@ -419,6 +464,7 @@ def render_methodology(cards):
 <h2>Sources we monitor</h2>
 <ul>
 <li><strong>CMS</strong> &mdash; the federal program, Notices of Award, and guidance (cms.gov/RHTProgram).</li>
+<li><strong>USAspending.gov</strong> &mdash; the federal record of award obligations; each profile links to a state-scoped search.</li>
 <li><strong>State .gov program pages</strong> &mdash; each state’s official RHTP hub.</li>
 <li><strong>State procurement portals</strong> &mdash; RFPs, NOFOs, RFAs and award postings.</li>
 <li><strong>Governor newsrooms</strong> &mdash; press releases, monitored for rural-health announcements.</li>
