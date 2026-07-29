@@ -267,8 +267,10 @@ def render_state(name, d):
     hub = clean_url(d.get("hub_url"))
     usa = usaspending_url(name)
     # append procurement count, federal-data link, and dispatch count to the at-a-glance grid
+    # Procurements list intentionally NOT surfaced here — the live procurement/RFP
+    # feed is the paywalled newsletter's core product and the RHTP Alerts input;
+    # this public reference layer links to sources but does not enumerate it.
     facts = list(facts) + [
-        ("Procurements on record", f'{nproc} document{"" if nproc==1 else "s"}'),
         ("Federal award data", f'<a href="{usa}" target="_blank" rel="noopener">Search USAspending</a>'),
         ("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}'),
     ]
@@ -306,7 +308,6 @@ def render_state(name, d):
         "variableMeasured": [
             *([{"@type": "PropertyValue", "name": "CMS Year-1 award", "unitText": "USD",
                 "value": usd}] if usd else []),
-            {"@type": "PropertyValue", "name": "Procurements on record", "value": nproc},
             {"@type": "PropertyValue", "name": "Tracker dispatches", "value": ndisp},
         ],
     }
@@ -365,7 +366,6 @@ def render_state(name, d):
 <div class="st"><h2>At a glance</h2>
 <div class="facts">{fact_rows}</div></div>
 <div class="st"><h2>Questions &amp; answers</h2><div class="faq">{faq}</div></div>
-{procurement_block(name)}
 {disp_block}
 <p class="gov">Independent reference profile compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources (CMS, {name} .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
 <footer>Rural Health Transformation Grant Tracker &middot; {name} &middot; <a href="{TRACKER}/" style="color:#007a99;">ruralhealthtransformation.life</a></footer>
@@ -394,7 +394,6 @@ def render_index(cards):
     stats = (f'<div class="stats">'
              f'<div class="stat"><div class="num">{len(cards)}</div><div class="lbl">States tracked</div></div>'
              f'<div class="stat"><div class="num">{total_b}</div><div class="lbl">Year-1 CMS awards</div></div>'
-             f'<div class="stat"><div class="num">{total_proc}</div><div class="lbl">Procurements on record</div></div>'
              f'<div class="stat"><div class="num">{total_disp}</div><div class="lbl">Dated dispatches</div></div>'
              f'</div>')
     how = ('<div class="how"><h2>How this works</h2>'
