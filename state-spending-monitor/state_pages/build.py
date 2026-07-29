@@ -210,9 +210,39 @@ def dispatch_html(name):
                 f'<a href="{html.escape(url)}" target="_blank" rel="noopener">{html.escape(it["headline"])}</a></div>')
     return out, len(items)
 
-# ---------- procurement table ----------
+# ---------- federal award link ----------
+# Direct USAspending award pages for each state's RHTP cooperative agreement
+# (CFDA 93.798, awarding agency HHS/CMS, sub-tier code _075). Keyed by state
+# display name -> award FAIN. The prior free-text ?query= search matched nothing
+# on USAspending's site; these land straight on the state's $-figure award page.
+# Source: USAspending spending_by_award API, program_numbers=["93.798"].
+RHTP_AWARD_FAIN = {
+    "Alabama": "RHTCMS332060", "Alaska": "RHTCMS332062", "Arizona": "RHTCMS332059",
+    "Arkansas": "RHTCMS332061", "California": "RHTCMS332078", "Colorado": "RHTCMS332081",
+    "Connecticut": "RHTCMS332073", "Delaware": "RHTCMS332053", "Florida": "RHTCMS332067",
+    "Georgia": "RHTCMS332046", "Hawaii": "RHTCMS332064", "Idaho": "RHTCMS332084",
+    "Illinois": "RHTCMS332055", "Indiana": "RHTCMS332070", "Iowa": "RHTCMS332065",
+    "Kansas": "RHTCMS332072", "Kentucky": "RHTCMS332079", "Louisiana": "RHTCMS332085",
+    "Maine": "RHTCMS332075", "Maryland": "RHTCMS332066", "Massachusetts": "RHTCMS332069",
+    "Michigan": "RHTCMS332041", "Minnesota": "RHTCMS332077", "Mississippi": "RHTCMS332063",
+    "Missouri": "RHTCMS332090", "Montana": "RHTCMS332058", "Nebraska": "RHTCMS332086",
+    "Nevada": "RHTCMS332074", "New Hampshire": "RHTCMS332050", "New Jersey": "RHTCMS332089",
+    "New Mexico": "RHTCMS332083", "New York": "RHTCMS332049", "North Carolina": "RHTCMS332042",
+    "North Dakota": "RHTCMS332043", "Ohio": "RHTCMS332087", "Oklahoma": "RHTCMS332048",
+    "Oregon": "RHTCMS332071", "Pennsylvania": "RHTCMS332052", "Rhode Island": "RHTCMS332045",
+    "South Carolina": "RHTCMS332056", "South Dakota": "RHTCMS332080", "Tennessee": "RHTCMS332057",
+    "Texas": "RHTCMS332068", "Utah": "RHTCMS332051", "Vermont": "RHTCMS332047",
+    "Virginia": "RHTCMS332088", "Washington": "RHTCMS332044", "West Virginia": "RHTCMS332054",
+    "Wisconsin": "RHTCMS332076", "Wyoming": "RHTCMS332082",
+}
+
 def usaspending_url(name):
-    q = urllib.parse.quote(f"{name} Rural Health Transformation Program")
+    """Direct award page when we have the state's RHTP FAIN; else fall back to
+    a keyword search (broader match than the old full-phrase query)."""
+    fain = RHTP_AWARD_FAIN.get(name)
+    if fain:
+        return f"https://www.usaspending.gov/award/ASST_NON_{fain}_075/"
+    q = urllib.parse.quote("Rural Health Transformation")
     return f"https://www.usaspending.gov/search/?query={q}"
 
 def procurement_block(name):
@@ -266,12 +296,13 @@ def render_state(name, d):
     nproc = len(procurements.get(name, []))
     hub = clean_url(d.get("hub_url"))
     usa = usaspending_url(name)
+    usa_label = "View federal award" if name in RHTP_AWARD_FAIN else "Search USAspending"
     # append procurement count, federal-data link, and dispatch count to the at-a-glance grid
     # Procurements list intentionally NOT surfaced here — the live procurement/RFP
     # feed is the paywalled newsletter's core product and the RHTP Alerts input;
     # this public reference layer links to sources but does not enumerate it.
     facts = list(facts) + [
-        ("Federal award data", f'<a href="{usa}" target="_blank" rel="noopener">Search USAspending</a>'),
+        ("Federal award data", f'<a href="{usa}" target="_blank" rel="noopener">{usa_label}</a>'),
         ("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}'),
     ]
     fact_rows = "".join(f'<div><div class="k">{k}</div><div class="v">{v}</div></div>' for k, v in facts)
