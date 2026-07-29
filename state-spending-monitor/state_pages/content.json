@@ -42,7 +42,7 @@
      "Workforce Toolkit · Value-Based Payment Prep · Cybersecurity"
     ]
    ],
-   "lede": "Everything we track on {STATE}'s <strong>$166,988,956</strong> Rural Health Transformation Program award — the plan, the three administering agencies, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>$166,988,956</strong> Rural Health Transformation Program award — the plan, the three administering agencies, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Arizona received <strong>$166,988,956</strong> in Year 1 funding under CMS Notice of Award <strong>RHTCMS332059-01-00</strong>, dated December 29, 2025, with a five-year period of performance running through October 30, 2030. The award is Arizona's share of the federal $50 billion Rural Health Transformation Program.</p>",
@@ -61,7 +61,7 @@
      "text": "OEO Rural Health Education & Training 28% (~$47M); ADHS Maternal Health 3% and Chronic Disease 7%; AHCCCS Behavioral Health & SUD 6%, Making Rural Health Care Accessible 23% (telehealth 10%, innovation 13%), and Making Rural Health Resilient 23% (diagnostic/EHR 18%, shared services 3%, TA 2%)."
     },
     {
-     "html": "<p>Arizona's first live solicitation was the <strong>AHCCCS Opioid Antagonist Distribution Initiative RFGA</strong>, released July 10, 2026 — targeting rural counties, Tribal communities, fire districts and frontier clinics. OEO (workforce) and ADHS (maternal/chronic disease) previewed their procurement calendars at the June Arizona Rural Health Conference, with the bulk of solicitations expected across the back half of 2026. Every dispatch we've published on Arizona is listed below, newest first.</p>",
+     "html": "<p>Arizona's first live solicitation was the <strong>AHCCCS Opioid Antagonist Distribution Initiative RFGA</strong>, released July 10, 2026 — targeting rural counties, Tribal communities, fire districts and frontier clinics. OEO (workforce) and ADHS (maternal/chronic disease) previewed their procurement calendars at the June Arizona Rural Health Conference, with the bulk of solicitations expected across the back half of 2026. Every dated dispatch covering Arizona is listed below, newest first.</p>",
      "text": "Arizona's first live solicitation was the AHCCCS Opioid Antagonist Distribution Initiative RFGA (July 10, 2026). OEO and ADHS previewed further workforce and maternal/chronic-disease solicitations for the back half of 2026."
     },
     {
@@ -80,22 +80,22 @@
   },
   "Alabama": {
    "award_exact": null,
-   "lede": "Everything we track on Alabama's <strong>approximately $203.4M</strong> Year-1 Rural Health Transformation Program (ARHTP) award &mdash; the eleven-initiative hub strategy, the administering agency, live NOFOs, and every dispatch we've published, in a question-and-answer format for vendors, providers, and consultants tracking the program.",
+   "lede": "Alabama's <strong>approximately $203.4M</strong> Year-1 Rural Health Transformation Program (ARHTP) award &mdash; the eleven-initiative hub strategy, the administering agency, live NOFOs, with a dated log of official activity for vendors, providers, and consultants tracking the program.",
    "answers": [
     {
      "html": "<p>Alabama's Year-1 budget under the Alabama Rural Health Transformation Program (ARHTP) is <strong>approximately $203.4 million</strong>, its share of the federal $50 billion Rural Health Transformation Program &mdash; 100% CMS/HHS-funded. CMS structures the program over five years, and Alabama's approved narrative pairs Year-1 estimates with larger five-year totals for each initiative (for example, Collaborative EHR/IT/Cybersecurity shows $31.6M in Year 1 against a $125M five-year total).</p>",
      "text": "Alabama's Year-1 budget under the Alabama Rural Health Transformation Program (ARHTP) is approximately $203.4 million — its share of the federal $50 billion Rural Health Transformation Program, 100% CMS/HHS-funded. CMS structures the program over five years, and Alabama's approved narrative pairs Year-1 estimates with larger five-year totals for each initiative (e.g., Collaborative EHR/IT/Cybersecurity shows $31.6M in Year 1 against a $125M five-year total)."
     },
     {
-     "html": "<p>The <a href=\"https://adeca.alabama.gov/about/funding-opportunities/\" target=\"_blank\" rel=\"noopener\">Alabama Department of Economic and Community Affairs (ADECA)</a> administers the program and runs the competitive subaward process. Program information is published at the <a href=\"https://alabamarhtp.com/\" target=\"_blank\" rel=\"noopener\">ARHTP website</a>. A dedicated program contact email is not published in our source materials; ADECA directs applicants to the ARHTP portal and its NOFO workshops for questions.</p>",
-     "text": "The Alabama Department of Economic and Community Affairs (ADECA) administers the program and runs the competitive subaward process, with program information at alabamarhtp.com. A dedicated program contact email is not published in our source materials; ADECA directs applicants to the ARHTP portal and its NOFO workshops for questions."
+     "html": "<p>The <a href=\"https://adeca.alabama.gov/about/funding-opportunities/\" target=\"_blank\" rel=\"noopener\">Alabama Department of Economic and Community Affairs (ADECA)</a> administers the program and runs the competitive subaward process. Program information is published at the <a href=\"https://alabamarhtp.com/\" target=\"_blank\" rel=\"noopener\">ARHTP website</a>. A dedicated program contact email is not published in the primary sources reviewed; ADECA directs applicants to the ARHTP portal and its NOFO workshops for questions.</p>",
+     "text": "The Alabama Department of Economic and Community Affairs (ADECA) administers the program and runs the competitive subaward process, with program information at alabamarhtp.com. A dedicated program contact email is not published in the primary sources reviewed; ADECA directs applicants to the ARHTP portal and its NOFO workshops for questions."
     },
     {
      "html": "<p>Alabama's strategy moves beyond short-term stabilization toward long-term system redesign, built around <strong>Regional Referral Center Hubs</strong> &mdash; larger regional hospitals or health systems that serve as central resource points for smaller rural providers, offering shared IT, cybersecurity, and specialty telehealth while letting independent providers keep their autonomy. The state identified <strong>11 interrelated initiatives</strong>, 10 of which launch in Year 1 (the Community Medicine Initiative is deferred to Year 2).</p>",
      "text": "Alabama's strategy moves beyond short-term stabilization toward long-term system redesign, built around Regional Referral Center Hubs — larger regional hospitals or systems that serve as central resource points for smaller rural providers with shared IT, cybersecurity, and specialty telehealth, while independent providers keep their autonomy. The state identified 11 interrelated initiatives, 10 launching in Year 1 (Community Medicine is deferred to Year 2)."
     },
     {
-     "html": "<ul><li><strong>Collaborative EHR, IT &amp; Cybersecurity</strong> &mdash; $31.6M Year 1 ($125M over five years); modernizes infrastructure and integrates EHRs with the Alabama One Health Record (ALOHR).</li><li><strong>Rural Health Initiative</strong> &mdash; $60.9M Year 1 ($275M over five years); tele-stroke, tele-behavioral health, and remote patient monitoring.</li><li><strong>Rural Workforce Initiative</strong> &mdash; $60.9M Year 1 ($309.75M over five years); GME expansion, remote EMT training, and relocation incentives.</li><li><strong>Maternal and Fetal Health</strong> &mdash; $7.1M Year 1; telerobotic ultrasound and emergency L&amp;D stabilization carts.</li><li><strong>Rural Health Practice Initiative</strong> &mdash; $30M over five years.</li></ul><p>Recurring focuses we track include digital obstetrics, regional cancer hubs, and mobile behavioral health. The full initiative-by-initiative breakdown is in Alabama's approved Project Narrative.</p>",
+     "html": "<ul><li><strong>Collaborative EHR, IT &amp; Cybersecurity</strong> &mdash; $31.6M Year 1 ($125M over five years); modernizes infrastructure and integrates EHRs with the Alabama One Health Record (ALOHR).</li><li><strong>Rural Health Initiative</strong> &mdash; $60.9M Year 1 ($275M over five years); tele-stroke, tele-behavioral health, and remote patient monitoring.</li><li><strong>Rural Workforce Initiative</strong> &mdash; $60.9M Year 1 ($309.75M over five years); GME expansion, remote EMT training, and relocation incentives.</li><li><strong>Maternal and Fetal Health</strong> &mdash; $7.1M Year 1; telerobotic ultrasound and emergency L&amp;D stabilization carts.</li><li><strong>Rural Health Practice Initiative</strong> &mdash; $30M over five years.</li></ul><p>Recurring focuses on record include digital obstetrics, regional cancer hubs, and mobile behavioral health. The full initiative-by-initiative breakdown is in Alabama's approved Project Narrative.</p>",
      "text": "Collaborative EHR, IT & Cybersecurity — $31.6M Year 1 ($125M over five years), integrating EHRs with the Alabama One Health Record (ALOHR). Rural Health Initiative — $60.9M Year 1 ($275M over five years) for tele-stroke, tele-behavioral health, and remote patient monitoring. Rural Workforce Initiative — $60.9M Year 1 ($309.75M over five years) for GME expansion, remote EMT training, and relocation incentives. Maternal and Fetal Health — $7.1M Year 1 for telerobotic ultrasound and emergency L&D stabilization carts. Rural Health Practice Initiative — $30M over five years. Recurring focuses include digital obstetrics, regional cancer hubs, and mobile behavioral health. The full breakdown is in Alabama's approved Project Narrative."
     },
     {
@@ -118,7 +118,7 @@
   },
   "Alaska": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>Alaska</strong>'s roughly <strong>$272.2 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the six initiative tracks, the Letter-of-Interest pipeline, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>Alaska</strong>'s roughly <strong>$272.2 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the six initiative tracks, the Letter-of-Interest pipeline, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Alaska's Budget Period 1 award is approximately <strong>$272.2 million</strong>, its share of the federal $50 billion Rural Health Transformation Program and among the largest per-capita awards in the country. It is a five-year program; the state opened its funding pipeline with a Letter-of-Interest round rather than immediate RFPs, and demand vastly outstripped supply &mdash; roughly $2.5 billion in year-one asks were submitted against the available funding.</p>",
@@ -156,7 +156,7 @@
   },
   "Arkansas": {
    "award_exact": null,
-   "lede": "Everything we track on Arkansas's <strong>approximately $208.8M</strong> Rural Health Transformation Program award &mdash; the &ldquo;Healthy. Connected. Local&rdquo; plan, its four initiative tracks, live NOFOs, and every dispatch we've published, in a question-and-answer format for vendors, providers, and consultants tracking the program.",
+   "lede": "Arkansas's <strong>approximately $208.8M</strong> Rural Health Transformation Program award &mdash; the &ldquo;Healthy. Connected. Local&rdquo; plan, its four initiative tracks, live NOFOs, with a dated log of official activity for vendors, providers, and consultants tracking the program.",
    "answers": [
     {
      "html": "<p>Arkansas's FY2026 allocation is <strong>approximately $208.8 million</strong> (reported by the state as roughly $209 million), its share of the federal $50 billion Rural Health Transformation Program. CMS structures the program over five years; Arkansas's initiatives carry both Year-1 ceilings and larger five-year totals (its HEART pillar, for example, is about $27.6M in Year 1 against roughly $151.9M over five years), and &mdash; per CMS rules &mdash; every Year-1 dollar must be obligated by October 30, 2026.</p>",
@@ -171,7 +171,7 @@
      "text": "Arkansas structures its award into four named tracks: PACT (Promoting Access, Coordination, and Transformation) for access, coordinated care, and clinically integrated networks; THRIVE (Telehealth, Health-Monitoring, and Response Innovation for Vital Expansion) for telehealth, remote patient monitoring, and EMS/emergency response; RISE AR (Recruitment, Innovation, Skills, and Education) for workforce and leadership; and HEART (Healthy Eating, Active Recreation, and Transformation) for prevention, nutrition, and chronic-disease work. No matching funds are required."
     },
     {
-     "html": "<ul><li><strong>THRIVE</strong> &mdash; $55.6M for telehealth, remote patient monitoring, EMS/emergency-response modernization, and IT infrastructure.</li><li><strong>PACT</strong> sub-initiatives &mdash; ACCESS up to $24.4M, SAFE (facility enhancement) up to $63M, CINC up to $3.69M, SCOPE up to $1.5M, ROADMAP up to $1M.</li><li><strong>RISE AR</strong> sub-initiatives &mdash; RETAIN up to $14.4M, PATHWAY up to $7M (GME, scholarships), LEAD up to $4.3M, SKILL UP up to $1.6M.</li><li><strong>HEART</strong> &mdash; up to $27,557,600 in Year 1 across six sub-initiatives (IMPACT $8.42M, GROW Kids $6M, FARM $5.7M, MOVE $5.04M, HEAL $1.3M, FAITH $1.1M).</li></ul><p>Recurring focuses we track include EMS stabilization, rural maternal health, and data interoperability.</p>",
+     "html": "<ul><li><strong>THRIVE</strong> &mdash; $55.6M for telehealth, remote patient monitoring, EMS/emergency-response modernization, and IT infrastructure.</li><li><strong>PACT</strong> sub-initiatives &mdash; ACCESS up to $24.4M, SAFE (facility enhancement) up to $63M, CINC up to $3.69M, SCOPE up to $1.5M, ROADMAP up to $1M.</li><li><strong>RISE AR</strong> sub-initiatives &mdash; RETAIN up to $14.4M, PATHWAY up to $7M (GME, scholarships), LEAD up to $4.3M, SKILL UP up to $1.6M.</li><li><strong>HEART</strong> &mdash; up to $27,557,600 in Year 1 across six sub-initiatives (IMPACT $8.42M, GROW Kids $6M, FARM $5.7M, MOVE $5.04M, HEAL $1.3M, FAITH $1.1M).</li></ul><p>Recurring focuses on record include EMS stabilization, rural maternal health, and data interoperability.</p>",
      "text": "THRIVE — $55.6M for telehealth, remote patient monitoring, EMS/emergency-response modernization, and IT infrastructure. PACT sub-initiatives — ACCESS up to $24.4M, SAFE (facility enhancement) up to $63M, CINC up to $3.69M, SCOPE up to $1.5M, ROADMAP up to $1M. RISE AR sub-initiatives — RETAIN up to $14.4M, PATHWAY up to $7M (GME, scholarships), LEAD up to $4.3M, SKILL UP up to $1.6M. HEART — up to $27,557,600 in Year 1 across six sub-initiatives (IMPACT $8.42M, GROW Kids $6M, FARM $5.7M, MOVE $5.04M, HEAL $1.3M, FAITH $1.1M). Recurring focuses include EMS stabilization, rural maternal health, and data interoperability."
     },
     {
@@ -194,7 +194,7 @@
   },
   "California": {
    "award_exact": "$233,639,308.46",
-   "lede": "Everything we track on California's <strong>$233,639,308.46</strong> Budget Period 1 Rural Health Transformation Program award &mdash; the largest in the country &mdash; including the CalRHT plan, the HCAI team administering it, the initiatives, the live grants, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "California's <strong>$233,639,308.46</strong> Budget Period 1 Rural Health Transformation Program award &mdash; the largest in the country &mdash; including the CalRHT plan, the HCAI team administering it, the initiatives, the live grants, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>California's Budget Period 1 award is <strong>$233,639,308.46</strong>, 100% funded by CMS/HHS &mdash; the largest Rural Health Transformation Program award in the country and its share of the federal $50 billion program, which runs five years with additional annual awards expected. CMS's February 27, 2026 Notice of Award approved a revised budget and lifted restriction on $183,639,308.47; a $50,000,000 line for <strong>Transformative Payments to Support Strategically Located Hospitals</strong> initially remained restricted in the \"Other\" cost category pending additional information.</p>",
@@ -232,7 +232,7 @@
   },
   "Colorado": {
    "award_exact": "$200,105,604.17",
-   "lede": "Everything we track on Colorado's <strong>$200,105,604.17</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget guardrails, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Colorado's <strong>$200,105,604.17</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget guardrails, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Colorado's Year 1 award is <strong>$200,105,604.17</strong>, fully funded by CMS as its share of the federal $50 billion Rural Health Transformation Program. The approved project narrative narrows an original 5-year, roughly $1 billion draft down to <strong>Budget Period 1</strong> only, with those first-year funds to be fully expended by <strong>September 30, 2027</strong>. Spending guardrails cap direct provider payments at 15% (Budget Period 1 lands at 11%, or $21,524,573.22) and hold state administrative overhead to 2.65%.</p>",
@@ -251,7 +251,7 @@
      "text": "Direct provider payments are capped at 15% of the grant, with Budget Period 1 at 11% ($21,524,573.22). EHR replacement is capped at 5% ($205,280) under Initiative 5. Priority themes include provider stabilization, workforce retention, and Medicaid alignment, plus chronic-disease prevention, EMS transport coordination and coverage, CHW and rural-clinician continuing education, telehealth support, and the Whole Person Health and Alternative Care Models program. The full line-by-line allocation is set out in Colorado's approved Budget Narrative."
     },
     {
-     "html": "<p>Colorado's competitive <strong>Request for Applications (RFA)</strong> opened June 18, 2026 through the state's <a href=\"https://coloradorhtp-rfa.my.site.com/apply/s/\" target=\"_blank\" rel=\"noopener\">RFA application portal</a>, with applications due <strong>11:59 p.m. on August 3, 2026</strong>. Each application is led by a <strong>Lead Applicant Organization (LAO)</strong> that serves as fiscal agent for state payments. HCPF separately contracted the <strong>Colorado Rural Health Center (CRHC)</strong>, the State Office of Rural Health, to provide free application training and technical assistance (<a href=\"mailto:CRHC_RHTP@coruralhealth.org\">CRHC_RHTP@coruralhealth.org</a>). Every dispatch we've published on Colorado is listed below, newest first.</p>",
+     "html": "<p>Colorado's competitive <strong>Request for Applications (RFA)</strong> opened June 18, 2026 through the state's <a href=\"https://coloradorhtp-rfa.my.site.com/apply/s/\" target=\"_blank\" rel=\"noopener\">RFA application portal</a>, with applications due <strong>11:59 p.m. on August 3, 2026</strong>. Each application is led by a <strong>Lead Applicant Organization (LAO)</strong> that serves as fiscal agent for state payments. HCPF separately contracted the <strong>Colorado Rural Health Center (CRHC)</strong>, the State Office of Rural Health, to provide free application training and technical assistance (<a href=\"mailto:CRHC_RHTP@coruralhealth.org\">CRHC_RHTP@coruralhealth.org</a>). Every dated dispatch covering Colorado is listed below, newest first.</p>",
      "text": "Colorado's competitive Request for Applications (RFA) opened June 18, 2026 through the state's RFA application portal, with applications due 11:59 p.m. on August 3, 2026. Each application is led by a Lead Applicant Organization (LAO) that serves as fiscal agent for state payments. HCPF separately contracted the Colorado Rural Health Center (CRHC), the State Office of Rural Health, to provide free application training and technical assistance (CRHC_RHTP@coruralhealth.org)."
     },
     {
@@ -270,7 +270,7 @@
   },
   "Connecticut": {
    "award_exact": "$154,249,105.53",
-   "lede": "Everything we track on Connecticut's <strong>$154,249,105.53</strong> Rural Health Transformation Program award &mdash; the DSS-led administration, the 30-plus projects across 11 state agencies, the first AI/remote-patient-monitoring NOFO, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Connecticut's <strong>$154,249,105.53</strong> Rural Health Transformation Program award &mdash; the DSS-led administration, the 30-plus projects across 11 state agencies, the first AI/remote-patient-monitoring NOFO, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Connecticut's Year 1 award is <strong>$154,249,105.53</strong> from CMS under Notice of Award RHTCMS332073, its share of the federal $50 billion Rural Health Transformation Program. The program is a five-year CMS cooperative agreement, and Connecticut's grants are renewable for up to five years pending CMS continuation funding.</p>",
@@ -289,7 +289,7 @@
      "text": "The single biggest Year 1 concentration is Care Transformation & Stability at $85.6 million, anchored by rural hospital right-sizing grants for Charlotte-Hungerford, Day Kimball, Sharon and Windham hospitals. The remainder is spread across the Population Health Outcomes, Workforce, and Data & Technology initiatives — including the first funded project, AI-enabled remote patient monitoring and care coordination. The full breakdown of the 30-plus projects across 11 agencies is set out in Connecticut's project and budget narratives."
     },
     {
-     "html": "<p>Connecticut's first live procurement is the OHS <strong>Health Care Coordination and Remote Patient Monitoring Using Artificial Intelligence NOFO (#26OHS001)</strong>, posted May 22, 2026 &mdash; a <strong>$1.8 million</strong> Year 1 solicitation for AI-enabled remote patient monitoring and care coordination, with applications due July 7, 2026. Awards range from $100,000 to $1,000,000, with up to five grants in Year 1, renewable for up to five years pending CMS continuation funding. Every funded project must integrate bidirectionally with <strong>Connie</strong>, the state's health information exchange. Every dispatch we've published on Connecticut is listed below, newest first.</p>",
+     "html": "<p>Connecticut's first live procurement is the OHS <strong>Health Care Coordination and Remote Patient Monitoring Using Artificial Intelligence NOFO (#26OHS001)</strong>, posted May 22, 2026 &mdash; a <strong>$1.8 million</strong> Year 1 solicitation for AI-enabled remote patient monitoring and care coordination, with applications due July 7, 2026. Awards range from $100,000 to $1,000,000, with up to five grants in Year 1, renewable for up to five years pending CMS continuation funding. Every funded project must integrate bidirectionally with <strong>Connie</strong>, the state's health information exchange. Every dated dispatch covering Connecticut is listed below, newest first.</p>",
      "text": "Connecticut's first live procurement is the OHS Health Care Coordination and Remote Patient Monitoring Using Artificial Intelligence NOFO (#26OHS001), posted May 22, 2026 — a $1.8 million Year 1 solicitation for AI-enabled remote patient monitoring and care coordination, with applications due July 7, 2026. Awards range from $100,000 to $1,000,000, with up to five grants in Year 1, renewable for up to five years pending CMS continuation funding. Every funded project must integrate bidirectionally with Connie, the state's health information exchange. The dated dispatches below carry the running record."
     },
     {
@@ -308,7 +308,7 @@
   },
   "Delaware": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>Delaware</strong>'s approximately <strong>$157.4M</strong> Year-1 Rural Health Transformation Program award &mdash; the administering agency, the 15-initiative plan for Kent and Sussex counties, live RFPs, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>Delaware</strong>'s approximately <strong>$157.4M</strong> Year-1 Rural Health Transformation Program award &mdash; the administering agency, the 15-initiative plan for Kent and Sussex counties, live RFPs, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Delaware was awarded approximately <strong>$157.4 million</strong> (reported as nearly $160 million) for federal fiscal year 2026 under the Rural Health Transformation Program &mdash; the floor amount every state received. Year 1 is the first tranche of a much larger multi-year plan; Delaware's own Executive Budget Summary puts the total estimated direct cost of its plan at <strong>$721,329,131.03</strong>, with a 9.1% indirect cost rate for statewide oversight. The award is structured by CMS as an annual award across a five-year performance period, and is Delaware's share of the federal $50 billion program.</p>",
@@ -346,7 +346,7 @@
   },
   "Florida": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>Florida</strong>'s roughly <strong>$209.9 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the bundled-and-standalone RFA slate, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>Florida</strong>'s roughly <strong>$209.9 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the bundled-and-standalone RFA slate, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Florida's Year-1 award is approximately <strong>$209.9 million</strong>, its share of the federal $50 billion Rural Health Transformation Program. It is a five-year program; Florida's spending authority to expend the first-year federal award is carried in the state's Fiscal Year 2027 General Appropriations Act, and Year-1 dollars are being released through a slate of Requests for Applications administered by the Agency for Health Care Administration.</p>",
@@ -384,7 +384,7 @@
   },
   "Georgia": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>Georgia</strong>'s approximately <strong>$218.8M</strong> Year-1 <strong>GREAT Health</strong> Rural Health Transformation Program award &mdash; the administering agency, the five initiatives, the run of competitive grant rounds, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>Georgia</strong>'s approximately <strong>$218.8M</strong> Year-1 <strong>GREAT Health</strong> Rural Health Transformation Program award &mdash; the administering agency, the five initiatives, the run of competitive grant rounds, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Georgia is receiving approximately <strong>$218.8 million</strong> in Year-1 funding (the state cites $218.9M) under the federal $50 billion Rural Health Transformation Program, branded <strong>GREAT Health</strong> (Georgia Rural Enhancement And Transformation of Health). Year 1 is the first tranche of a proposed <strong>$1.428 billion</strong> five-year plan spanning 29 projects across 126 rural counties; only the Year-1 slice is presently obligated. The award is structured by CMS as an annual award across a five-year performance period.</p>",
@@ -422,7 +422,7 @@
   },
   "Hawaii": {
    "award_exact": null,
-   "lede": "Everything we track on Hawaii's <strong>approximately $188.9M</strong> Rural Health Transformation Program award &mdash; the administering agency, the state's stated focus areas, and where to watch for procurements, in a question-and-answer format for vendors, providers, and consultants tracking the program.",
+   "lede": "Hawaii's <strong>approximately $188.9M</strong> Rural Health Transformation Program award &mdash; the administering agency, the state's stated focus areas, and where to watch for procurements for vendors, providers, and consultants tracking the program.",
    "answers": [
     {
      "html": "<p>Hawaii's award is <strong>approximately $188.9 million</strong> in Year-1 funding, its share of the federal $50 billion Rural Health Transformation Program. CMS structures the program over five years, with a Year-1 allocation followed by additional annual funding across the period. Hawaii's detailed Year-1 versus five-year budget structure is set out in the state's CMS-approved application and budget narrative.</p>",
@@ -437,20 +437,20 @@
      "text": "Based on the state's published focus areas, Hawaii's plan centers on Native Hawaiian health hubs and tele-robotic surgery — signaling an emphasis on culturally grounded rural care delivery and on extending specialty surgical capacity to remote and island communities. Fuller detail on the plan's priorities and initiatives is published on the state's RHTP hub at https://engage.hawaii.gov/rhtp/."
     },
     {
-     "html": "<p>The focus areas we track for Hawaii are <strong>Native Hawaiian health hubs</strong> and <strong>tele-robotic surgery</strong>. The state has not yet published a detailed public initiative-by-initiative budget breakdown in our source materials; the full allocation is set out in Hawaii's CMS-approved budget narrative, and specific spending categories will surface as the state posts them to its hub.</p><p><a class=\"btn\" href=\"https://engage.hawaii.gov/rhtp/\" target=\"_blank\" rel=\"noopener\">Hawaii RHTP hub &rarr;</a></p>",
-     "text": "The focus areas we track for Hawaii are Native Hawaiian health hubs and tele-robotic surgery. The state has not yet published a detailed public initiative-by-initiative budget breakdown in our source materials; the full allocation is set out in Hawaii's CMS-approved budget narrative, and specific spending categories will surface as the state posts them to its hub at https://engage.hawaii.gov/rhtp/."
+     "html": "<p>The focus areas on record for Hawaii are <strong>Native Hawaiian health hubs</strong> and <strong>tele-robotic surgery</strong>. The state has not yet published a detailed public initiative-by-initiative budget breakdown in the primary sources reviewed; the full allocation is set out in Hawaii's CMS-approved budget narrative, and specific spending categories will surface as the state posts them to its hub.</p><p><a class=\"btn\" href=\"https://engage.hawaii.gov/rhtp/\" target=\"_blank\" rel=\"noopener\">Hawaii RHTP hub &rarr;</a></p>",
+     "text": "The focus areas on record for Hawaii are Native Hawaiian health hubs and tele-robotic surgery. The state has not yet published a detailed public initiative-by-initiative budget breakdown in the primary sources reviewed; the full allocation is set out in Hawaii's CMS-approved budget narrative, and specific spending categories will surface as the state posts them to its hub at https://engage.hawaii.gov/rhtp/."
     },
     {
-     "html": "<p>As of this writing, Hawaii has <strong>not published a dedicated RHTP funding or RFP portal</strong> in our source materials, and we have no live solicitations on record. Procurements, NOFOs, and awards will be tracked here as the state posts them; the state's engagement hub is the primary place to watch for the first opportunities.</p><p><a class=\"btn\" href=\"https://engage.hawaii.gov/rhtp/\" target=\"_blank\" rel=\"noopener\">Hawaii RHTP hub &rarr;</a></p>",
-     "text": "As of this writing, Hawaii has not published a dedicated RHTP funding or RFP portal in our source materials, and we have no live solicitations on record. Procurements, NOFOs, and awards will be tracked here as the state posts them; the state's engagement hub (https://engage.hawaii.gov/rhtp/) is the primary place to watch for the first opportunities."
+     "html": "<p>As of this writing, Hawaii has <strong>not published a dedicated RHTP funding or RFP portal</strong> in the primary sources reviewed, and no live solicitations are on record on record. Procurements, NOFOs, and awards will be tracked here as the state posts them; the state's engagement hub is the primary place to watch for the first opportunities.</p><p><a class=\"btn\" href=\"https://engage.hawaii.gov/rhtp/\" target=\"_blank\" rel=\"noopener\">Hawaii RHTP hub &rarr;</a></p>",
+     "text": "As of this writing, Hawaii has not published a dedicated RHTP funding or RFP portal in the primary sources reviewed, and no live solicitations are on record on record. Procurements, NOFOs, and awards will be tracked here as the state posts them; the state's engagement hub (https://engage.hawaii.gov/rhtp/) is the primary place to watch for the first opportunities."
     },
     {
-     "html": "<p>We have no confirmed application windows, technical-assistance calls, or webinar dates for Hawaii on record yet. Key upcoming deadlines will surface first in our dated dispatches as the state publishes them, and on the state's RHTP hub.</p><p><a class=\"btn\" href=\"https://engage.hawaii.gov/rhtp/\" target=\"_blank\" rel=\"noopener\">Hawaii RHTP hub &rarr;</a></p>",
-     "text": "We have no confirmed application windows, technical-assistance calls, or webinar dates for Hawaii on record yet. Key upcoming deadlines will surface first in our dated dispatches as the state publishes them, and on the state's RHTP hub at https://engage.hawaii.gov/rhtp/."
+     "html": "<p>There are no confirmed application windows, technical-assistance calls, or webinar dates for Hawaii on record yet. Key upcoming deadlines will surface first in the dated activity log as the state publishes them, and on the state's RHTP hub.</p><p><a class=\"btn\" href=\"https://engage.hawaii.gov/rhtp/\" target=\"_blank\" rel=\"noopener\">Hawaii RHTP hub &rarr;</a></p>",
+     "text": "There are no confirmed application windows, technical-assistance calls, or webinar dates for Hawaii on record yet. Key upcoming deadlines will surface first in the dated activity log as the state publishes them, and on the state's RHTP hub at https://engage.hawaii.gov/rhtp/."
     },
     {
-     "html": "<p>The Rural Health Transformation Program was created by <strong>Section 71401 of the One Big Beautiful Bill Act (2025)</strong> and is administered federally by CMS. Hawaii administers its award through the Hawaii Department of Health under its CMS-approved application. No additional Hawaii-specific enabling statute is named in our source materials.</p>",
-     "text": "The RHTP was created by Section 71401 of the One Big Beautiful Bill Act (2025), administered federally by CMS. Hawaii administers its award through the Hawaii Department of Health under its CMS-approved application. No additional Hawaii-specific enabling statute is named in our source materials."
+     "html": "<p>The Rural Health Transformation Program was created by <strong>Section 71401 of the One Big Beautiful Bill Act (2025)</strong> and is administered federally by CMS. Hawaii administers its award through the Hawaii Department of Health under its CMS-approved application. No additional Hawaii-specific enabling statute is named in the primary sources reviewed.</p>",
+     "text": "The RHTP was created by Section 71401 of the One Big Beautiful Bill Act (2025), administered federally by CMS. Hawaii administers its award through the Hawaii Department of Health under its CMS-approved application. No additional Hawaii-specific enabling statute is named in the primary sources reviewed."
     },
     {
      "html": "<p>Eligibility is expected to run on two tracks. <strong>Direct-to-state contracts</strong> go out as competitive RFPs, where firms bid as <strong>prime contractors</strong>. <strong>Subgrants and subawards</strong> flow to rural providers &mdash; hospitals, Rural Health Clinics, FQHCs, Native Hawaiian and Tribal health organizations, EMS agencies, and counties &mdash; and it is here that technology vendors and consultants most often engage as <strong>subcontractors or implementation partners</strong>. Until Hawaii posts its first solicitations, the best move is to monitor the state's engagement hub and reach the Department of Health's Office of Primary Care and Rural Health directly.</p><p><a class=\"btn\" href=\"https://engage.hawaii.gov/rhtp/\" target=\"_blank\" rel=\"noopener\">Hawaii RHTP hub &rarr;</a> <a class=\"btn\" href=\"mailto:doh.opcpdh@doh.hawaii.gov\">Email the program &rarr;</a></p>",
@@ -460,7 +460,7 @@
   },
   "Idaho": {
    "award_exact": "$185,974,367.81",
-   "lede": "Everything we track on Idaho's <strong>$185,974,367.81</strong> Rural Health Transformation Program award &mdash; the plan's five initiatives, the DHW administration, where the money is going, the mix of open RFPs and cooperative contracts, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Idaho's <strong>$185,974,367.81</strong> Rural Health Transformation Program award &mdash; the plan's five initiatives, the DHW administration, where the money is going, the mix of open RFPs and cooperative contracts, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Idaho's total award is <strong>$185,974,367.81</strong>, its share of the federal $50 billion Rural Health Transformation Program under CMS federal award RHTCMS332084 (ALN 93.798). The program is a five-year CMS cooperative agreement. Idaho's published Year 1 milestone is a hard one: <strong>all Year 1 funds must be obligated by October 30, 2026</strong> &mdash; a deadline that is now visibly shaping how the state designs, times and routes its procurements.</p>",
@@ -479,7 +479,7 @@
      "text": "The single largest Year 1 vehicle is an $83,700,800 competitive subgrant pool for technology, equipment, renovation and vehicle enhancements — telehealth pods, diagnostic and telepharmacy kiosks, AI-enabled cybersecurity, clinical equipment, mobile health units, patient-transport vehicles and targeted renovations — open to rural health clinics, FQHCs, hospitals, Tribes, long-term care and local public health districts. Direct-to-state RFPs in the pipeline include Data Analytics & Outcomes Evaluation (~$2M), Project Management Support (~$1.3M), Facility Renovation Independent Verification (~$2M), a Facility/Technology Assessment (~$2.2M), workforce/care-gap needs assessments (~$2.79M), and a Ladder Payments third-party administrator (~$800K overseeing $13.72M in Year 1 incentive payments). Workforce Residency, Broadband and Pharmacy Support are core project tags; the full breakdown is in Idaho's procurement overview and budget narrative. Federal caps apply: infrastructure ≤20%, EHR replacement ≤5%, administrative ≤10%."
     },
     {
-     "html": "<p>Idaho has posted a steady stream of solicitations. Live and recent items include the <strong>Technology Assessment RFP (RHRFP2606 / IPRO RFP1375)</strong> &mdash; posted July 10, proposals due August 21 &mdash; whose winner effectively drafts the requirements for downstream technology procurements; the <strong>Pediatric Psychiatry Access Line (RHTPPAL1)</strong>; two Maternal &amp; Child Health subawards (OB Readiness RHTPMCH1 and Perinatal Quality Collaborative RHTPMCH2); a Ladder Payments TPA RFP; and Facility Renovation Independent Verification. Notably, Idaho has routed several connective-tissue contracts through <strong>cooperative-contract vehicles rather than open bid</strong> &mdash; Project Management Support (~$1.3M), a Rural Cybersecurity Modernization Assessment, and, after canceling its open RFP on July 13, the Data Analytics &amp; Outcomes Evaluation contract (~$2M). Every dispatch we've published on Idaho is listed below, newest first.</p>",
+     "html": "<p>Idaho has posted a steady stream of solicitations. Live and recent items include the <strong>Technology Assessment RFP (RHRFP2606 / IPRO RFP1375)</strong> &mdash; posted July 10, proposals due August 21 &mdash; whose winner effectively drafts the requirements for downstream technology procurements; the <strong>Pediatric Psychiatry Access Line (RHTPPAL1)</strong>; two Maternal &amp; Child Health subawards (OB Readiness RHTPMCH1 and Perinatal Quality Collaborative RHTPMCH2); a Ladder Payments TPA RFP; and Facility Renovation Independent Verification. Notably, Idaho has routed several connective-tissue contracts through <strong>cooperative-contract vehicles rather than open bid</strong> &mdash; Project Management Support (~$1.3M), a Rural Cybersecurity Modernization Assessment, and, after canceling its open RFP on July 13, the Data Analytics &amp; Outcomes Evaluation contract (~$2M). Every dated dispatch covering Idaho is listed below, newest first.</p>",
      "text": "Idaho has posted a steady stream of solicitations. Live and recent items include the Technology Assessment RFP (RHRFP2606 / IPRO RFP1375), posted July 10 with proposals due August 21, whose winner effectively drafts the requirements for downstream technology procurements; the Pediatric Psychiatry Access Line (RHTPPAL1); two Maternal & Child Health subawards (OB Readiness RHTPMCH1 and Perinatal Quality Collaborative RHTPMCH2); a Ladder Payments TPA RFP; and Facility Renovation Independent Verification. Idaho has routed several connective-tissue contracts through cooperative-contract vehicles rather than open bid — Project Management Support (~$1.3M), a Rural Cybersecurity Modernization Assessment, and, after canceling its open RFP on July 13, the Data Analytics & Outcomes Evaluation contract (~$2M). The dated dispatches below carry the running record."
     },
     {
@@ -498,7 +498,7 @@
   },
   "Illinois": {
    "award_exact": null,
-   "lede": "Everything we track on Illinois's <strong>approximately $193.4M</strong> Transforming Rural Health Delivery award &mdash; the plan, the administering agency, where the money is headed, the NOFO pipeline, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Illinois's <strong>approximately $193.4M</strong> Transforming Rural Health Delivery award &mdash; the plan, the administering agency, where the money is headed, the NOFO pipeline, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Illinois's annual award is <strong>approximately $193.4 million</strong>, its share of the federal $50 billion Rural Health Transformation Program, structured by CMS as a five-year program. The state has branded its plan <strong>Transforming Rural Health Delivery</strong>.</p>",
@@ -536,7 +536,7 @@
   },
   "Indiana": {
    "award_exact": null,
-   "lede": "Everything we track on {STATE}'s <strong>~$206.9M</strong> Rural Health Transformation Program award &mdash; GROW: Cultivating Hoosier Health, the administering agency, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>~$206.9M</strong> Rural Health Transformation Program award &mdash; GROW: Cultivating Hoosier Health, the administering agency, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Indiana received <strong>approximately $206.9 million</strong> in Year 1 funding under the federal $50 billion Rural Health Transformation Program, part of the CMS awards announced December 29, 2025. As with every state, the award is disbursed by CMS annually over five years, with each year's payment tied to performance.</p>",
@@ -574,7 +574,7 @@
   },
   "Iowa": {
    "award_exact": "$209,040,063.71",
-   "lede": "Everything we track on Iowa's <strong>$209,040,063.71</strong> Rural Health Transformation Program award &mdash; branded <strong>Healthy Hometowns</strong> &mdash; the plan, the Iowa HHS administration, the hub-and-spoke and co-location initiatives, the wave of live RFPs, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Iowa's <strong>$209,040,063.71</strong> Rural Health Transformation Program award &mdash; branded <strong>Healthy Hometowns</strong> &mdash; the plan, the Iowa HHS administration, the hub-and-spoke and co-location initiatives, the wave of live RFPs, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Iowa's five-year federal award is <strong>$209,040,063.71</strong>, its share of the $50 billion Rural Health Transformation Program. The program is a five-year CMS cooperative agreement (opportunity CMS-RHT-26-001); contracts on Iowa's first big wave of RFPs run <strong>October 31, 2026 through September 30, 2031</strong>. Note that Iowa's anticipated funding across its four July RFPs totals $328,345,729 &mdash; larger than the single-year award &mdash; because those figures span the full multi-year program period, with Year 1 across the four totaling roughly $89.2M.</p>",
@@ -593,7 +593,7 @@
      "text": "The four RFPs Iowa issued July 14 carry the largest anticipated dollars to date: Communities of Care Co-Location (COMPADM26005) program total $168,234,514 (Year 1 $39,558,631; ~7 awards), the single biggest initiative; Maternal Health Hub and Spoke (COMPADM26006) program total $119,783,328 (Year 1 $38,591,059); High-Risk OB and Neonatal Transport (PHTHOET27002) program total $20,127,987 (Year 1 $6,000,000; ~3 awards); and Mobile Integrated Health (PHTHOET27001) program total $20,199,900 (Year 1 $5,049,975; ~7 awards). Innovation Grants, OB/GYN Recruitment and Regional EMS are core project tags; further categories appear in the state's funding-opportunity documents."
     },
     {
-     "html": "<p>Iowa has moved through Requests for Information (maternal and cardiovascular hub-and-spoke), Notices of Intent to Release, and now live RFPs. Beyond the four July 14 procurements, the state ran a <strong>Combat Cancer Health Hub Program (COMPADM26008, Round 2)</strong>, a <strong>rural workforce recruitment RFP (PHTHORC260120)</strong> posted in February, and issued a Notice of Intent for a <strong>rural residency program</strong> (Internal Medicine or OB/GYN). The University of Iowa's Health Hub TA and the Iowa PCA's Communities of Care TA operate in an open Phase 1 through October 2026, with competitive site selection to follow. Every dispatch we've published on Iowa is listed below, newest first.</p>",
+     "html": "<p>Iowa has moved through Requests for Information (maternal and cardiovascular hub-and-spoke), Notices of Intent to Release, and now live RFPs. Beyond the four July 14 procurements, the state ran a <strong>Combat Cancer Health Hub Program (COMPADM26008, Round 2)</strong>, a <strong>rural workforce recruitment RFP (PHTHORC260120)</strong> posted in February, and issued a Notice of Intent for a <strong>rural residency program</strong> (Internal Medicine or OB/GYN). The University of Iowa's Health Hub TA and the Iowa PCA's Communities of Care TA operate in an open Phase 1 through October 2026, with competitive site selection to follow. Every dated dispatch covering Iowa is listed below, newest first.</p>",
      "text": "Iowa has moved through Requests for Information (maternal and cardiovascular hub-and-spoke), Notices of Intent to Release, and now live RFPs. Beyond the four July 14 procurements, the state ran a Combat Cancer Health Hub Program (COMPADM26008, Round 2), a rural workforce recruitment RFP (PHTHORC260120) posted in February, and issued a Notice of Intent for a rural residency program (Internal Medicine or OB/GYN). The University of Iowa's Health Hub TA and the Iowa PCA's Communities of Care TA run an open Phase 1 through October 2026, with competitive site selection to follow. The dated dispatches below carry the running record."
     },
     {
@@ -612,7 +612,7 @@
   },
   "Kansas": {
    "award_exact": "$221,890,000",
-   "lede": "Everything we track on Kansas's <strong>$221,890,000</strong> Rural Health Transformation Program award &mdash; the plan, the KDHE-led administration, where the money is going, the wave of live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Kansas's <strong>$221,890,000</strong> Rural Health Transformation Program award &mdash; the plan, the KDHE-led administration, where the money is going, the wave of live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Kansas's award totals <strong>$221,890,000</strong>, 100 percent funded by CMS/HHS as its share of the federal $50 billion Rural Health Transformation Program. The Rural Health Transformation Program is a five-year CMS cooperative agreement, and Kansas's approved initial Budget Period 1 runs Dec. 31, 2025 through Oct. 30, 2026 &mdash; a compressed 10-month Year 1 in which the state is racing to obligate roughly $221M before that October deadline, with the remaining years funded through annual CMS budget periods.</p>",
@@ -631,7 +631,7 @@
      "text": "Kansas has already put roughly $79.1M on the street across two flagship programs plus targeted grants: Regional Partnerships Grant Program (RPGP) ~$50M to 22 recipients (after a $20M reallocation when demand ran ~5x supply); REH Conversion/Transformative Capital Investment (REH/CAP) ~$31.3M to 18 providers; Emerging Technology Program $9.5M to 5–10 providers for scaling proven patient-facing tech including AI; CHW + Accountable Food is Medicine $1,029,405 for ~7 rural clinics; and the Interfacility Transport Project $870,958.97 for 1–2 awards. Loan Repayment, Facility Modernization and Mental Health are core project tags; the full breakdown is in the state's approved budget narrative."
     },
     {
-     "html": "<p>Kansas has been one of the most active states in the country. Recent finance-and-revenue solicitations run by Healthworks include the Revenue Technical Support Organization (RTSO) umbrella, CFO Mentoring &amp; Financial Leadership Support, a Revenue Support Program, and an All-Payers Scorecard Program, plus a Centralized Verification Organization (CVO) RFP for the statewide credentialing pilot. On the KDHE side, the Interfacility Transport Project RFA and the Emerging Technology RFA have run, following the RPGP, REH/CAP, CHW+AFIM and Evidence-Based Practice solicitations. Every dispatch we've published on Kansas is listed below, newest first, and it carries the running procurement record.</p>",
+     "html": "<p>Kansas has been one of the most active states in the country. Recent finance-and-revenue solicitations run by Healthworks include the Revenue Technical Support Organization (RTSO) umbrella, CFO Mentoring &amp; Financial Leadership Support, a Revenue Support Program, and an All-Payers Scorecard Program, plus a Centralized Verification Organization (CVO) RFP for the statewide credentialing pilot. On the KDHE side, the Interfacility Transport Project RFA and the Emerging Technology RFA have run, following the RPGP, REH/CAP, CHW+AFIM and Evidence-Based Practice solicitations. Every dated dispatch covering Kansas is listed below, newest first, and it carries the running procurement record.</p>",
      "text": "Kansas has been one of the most active states in the country. Recent finance-and-revenue solicitations run by Healthworks include the Revenue Technical Support Organization (RTSO) umbrella, CFO Mentoring & Financial Leadership Support, a Revenue Support Program, and an All-Payers Scorecard Program, plus a Centralized Verification Organization (CVO) RFP for the statewide credentialing pilot. On the KDHE side, the Interfacility Transport Project RFA and the Emerging Technology RFA have run, following the RPGP, REH/CAP, CHW+AFIM and Evidence-Based Practice solicitations. The dated dispatches below carry the running procurement record."
     },
     {
@@ -650,7 +650,7 @@
   },
   "Kentucky": {
    "award_exact": null,
-   "lede": "Everything we track on {STATE}'s <strong>~$212.9M</strong> Rural Health Transformation Program award &mdash; the five-track plan, the administering agency, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>~$212.9M</strong> Rural Health Transformation Program award &mdash; the five-track plan, the administering agency, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Kentucky's award is <strong>approximately $212.9 million</strong> in Budget Year 1 under the federal $50 billion Rural Health Transformation Program, and the state has confirmed the project is 100% funded by CMS/HHS. The grant spans five budget periods aligned with federal fiscal years (FY2026&ndash;FY2030), disbursed annually by CMS based on achievement of performance metrics.</p>",
@@ -688,7 +688,7 @@
   },
   "Louisiana": {
    "award_exact": "$208,374,448",
-   "lede": "Everything we track on <strong>Louisiana</strong>'s <strong>$208,374,448</strong> Rural Health Transformation Program award &mdash; a top-five national award &mdash; the plan, the administering office, the dense NOFO calendar, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>Louisiana</strong>'s <strong>$208,374,448</strong> Rural Health Transformation Program award &mdash; a top-five national award &mdash; the plan, the administering office, the dense NOFO calendar, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Louisiana drew <strong>$208,374,448</strong> in Year-1 funding under the CMS Rural Health Transformation Program &mdash; a top-five national award &mdash; and is positioned to pull down roughly $1.4 billion across the program's five years. It is Louisiana's share of the federal $50 billion program, with Year-1 dollars released through a fast-moving series of Notices of Funding Opportunity funded via Cooperative Endeavor Agreements.</p>",
@@ -726,7 +726,7 @@
   },
   "Maine": {
    "award_exact": "$190,008,051",
-   "lede": "Everything we track on {STATE}'s <strong>$190,008,051</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency and its nonprofit administrator, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>$190,008,051</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency and its nonprofit administrator, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Maine received <strong>$190,008,051</strong> in Year 1 funding under the federal $50 billion Rural Health Transformation Program. As with every state, the award is disbursed by CMS annually across five years, with each year's payment tied to performance; Maine adjusted its budget to meet federal requirements and the final award.</p>",
@@ -764,7 +764,7 @@
   },
   "Maryland": {
    "award_exact": null,
-   "lede": "Everything we track on Maryland's <strong>$168.18M</strong> first-year Rural Health Transformation Program award &mdash; the largest per-rural-resident award in the country &mdash; including the three-pillar plan, the MDH team and issuing partners, the RFA wave, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Maryland's <strong>$168.18M</strong> first-year Rural Health Transformation Program award &mdash; the largest per-rural-resident award in the country &mdash; including the three-pillar plan, the MDH team and issuing partners, the RFA wave, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Maryland's Budget Period 1 Notice of Award came in at <strong>$168.18 million</strong> (about $168.2M), 100% CMS-funded &mdash; 84 percent of what the state requested, and roughly double the national average measured per rural resident. CMS released the funds on February 25, 2026. It is Year 1 of the five-year federal $50 billion program, part of a proposed roughly $1 billion Maryland allocation over five years.</p>",
@@ -802,45 +802,45 @@
   },
   "Massachusetts": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>Massachusetts</strong>'s approximately <strong>$162.0M</strong> Year-1 Rural Health Transformation Program award &mdash; the program contact, the early priorities, and where to watch for procurements as the state builds out, in a question-and-answer format.",
+   "lede": "<strong>Massachusetts</strong>'s approximately <strong>$162.0M</strong> Year-1 Rural Health Transformation Program award &mdash; the program contact, the early priorities, and where to watch for procurements as the state builds out.",
    "answers": [
     {
      "html": "<p>Massachusetts is receiving approximately <strong>$162.0 million</strong> in Year-1 funding under the federal $50 billion Rural Health Transformation Program. Like every RHTP award, it is structured by CMS as an annual award across a five-year performance period. Detailed allocation figures live in the state's CMS-approved budget narrative; program updates are posted on the state's <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">RHTP hub</a>.</p>",
      "text": "Massachusetts is receiving approximately $162.0 million in Year-1 funding under the federal $50 billion Rural Health Transformation Program. Like every RHTP award, it is structured by CMS as an annual award across a five-year performance period. Detailed allocation figures live in the state's CMS-approved budget narrative; program updates are posted on the state's RHTP hub."
     },
     {
-     "html": "<p>Massachusetts administers its award through the Commonwealth, with program information published on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">mass.gov RHTP hub</a>. The program contact is <strong>Kirby Lecy</strong> (<a href=\"mailto:kirby.lecy@mass.gov\">kirby.lecy@mass.gov</a>). We haven't yet confirmed a single named administering division from a primary source; the hub is the authoritative place for that detail.</p>",
-     "text": "Massachusetts administers its award through the Commonwealth, with program information published on the mass.gov RHTP hub. The program contact is Kirby Lecy (kirby.lecy@mass.gov). We haven't yet confirmed a single named administering division from a primary source; the hub is the authoritative place for that detail."
+     "html": "<p>Massachusetts administers its award through the Commonwealth, with program information published on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">mass.gov RHTP hub</a>. The program contact is <strong>Kirby Lecy</strong> (<a href=\"mailto:kirby.lecy@mass.gov\">kirby.lecy@mass.gov</a>). No source has yet confirmed a single named administering division from a primary source; the hub is the authoritative place for that detail.</p>",
+     "text": "Massachusetts administers its award through the Commonwealth, with program information published on the mass.gov RHTP hub. The program contact is Kirby Lecy (kirby.lecy@mass.gov). No source has yet confirmed a single named administering division from a primary source; the hub is the authoritative place for that detail."
     },
     {
-     "html": "<p>Early signals point to a plan focused on rural workforce housing, pharmacy access, and tele-emergency care. Massachusetts has not yet published detailed public plan documents that we've captured, so we're keeping this short and pointing you to the source of record.</p><p><a class=\"btn\" href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">Massachusetts RHTP hub &rarr;</a></p>",
-     "text": "Early signals point to a plan focused on rural workforce housing, pharmacy access, and tele-emergency care. Massachusetts has not yet published detailed public plan documents that we've captured, so we're keeping this short and pointing you to the source of record: the Massachusetts RHTP hub."
+     "html": "<p>Early signals point to a plan focused on rural workforce housing, pharmacy access, and tele-emergency care. Massachusetts has not yet published detailed public plan documents in the sources reviewed, so this profile is kept brief and pointing you to the source of record.</p><p><a class=\"btn\" href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">Massachusetts RHTP hub &rarr;</a></p>",
+     "text": "Early signals point to a plan focused on rural workforce housing, pharmacy access, and tele-emergency care. Massachusetts has not yet published detailed public plan documents in the sources reviewed, so this profile is kept brief and pointing you to the source of record: the Massachusetts RHTP hub."
     },
     {
-     "html": "<p>The key project areas signaled so far are <strong>Workforce Housing</strong>, <strong>Pharmacy Access</strong>, and <strong>Tele-ED</strong> (tele-emergency care). Specific dollar shares by initiative are not yet public in what we've captured; the full breakdown will appear in Massachusetts's budget narrative and on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">RHTP hub</a>.</p>",
-     "text": "The key project areas signaled so far are Workforce Housing, Pharmacy Access, and Tele-ED (tele-emergency care). Specific dollar shares by initiative are not yet public in what we've captured; the full breakdown will appear in Massachusetts's budget narrative and on the RHTP hub."
+     "html": "<p>The key project areas signaled so far are <strong>Workforce Housing</strong>, <strong>Pharmacy Access</strong>, and <strong>Tele-ED</strong> (tele-emergency care). Specific dollar shares by initiative are not yet public in the primary sources reviewed; the full breakdown will appear in Massachusetts's budget narrative and on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">RHTP hub</a>.</p>",
+     "text": "The key project areas signaled so far are Workforce Housing, Pharmacy Access, and Tele-ED (tele-emergency care). Specific dollar shares by initiative are not yet public in the primary sources reviewed; the full breakdown will appear in Massachusetts's budget narrative and on the RHTP hub."
     },
     {
-     "html": "<p>We have not yet tracked a live Massachusetts RHTP solicitation (RFP, NOFO, RFA, or award). As the state stands up its procurement track, opportunities and awards will surface first on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">RHTP hub</a> and in our running dispatch record on this page.</p>",
-     "text": "We have not yet tracked a live Massachusetts RHTP solicitation (RFP, NOFO, RFA, or award). As the state stands up its procurement track, opportunities and awards will surface first on the RHTP hub and in our running dispatch record on this page."
+     "html": "<p>No source has yet tracked a live Massachusetts RHTP solicitation (RFP, NOFO, RFA, or award). As the state stands up its procurement track, opportunities and awards will surface first on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">RHTP hub</a> and in the activity log on this page.</p>",
+     "text": "No source has yet tracked a live Massachusetts RHTP solicitation (RFP, NOFO, RFA, or award). As the state stands up its procurement track, opportunities and awards will surface first on the RHTP hub and in the activity log on this page."
     },
     {
-     "html": "<p>No firm application windows or deadlines have been posted in what we've captured yet. Because all RHTP awardees face a hard federal obligation timeline for Year-1 funds, expect Massachusetts to post solicitations in the coming months. Live dates will surface first in the dispatches below and on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">RHTP hub</a>; the Governor's office also posts related <a href=\"https://www.mass.gov/orgs/governor-maura-healey-and-lt-governor-kim-driscoll/news\" target=\"_blank\" rel=\"noopener\">news</a>.</p>",
-     "text": "No firm application windows or deadlines have been posted in what we've captured yet. Because all RHTP awardees face a hard federal obligation timeline for Year-1 funds, expect Massachusetts to post solicitations in the coming months. Live dates will surface first in the dispatches below and on the RHTP hub; the Governor's office also posts related news."
+     "html": "<p>No firm application windows or deadlines have been posted in the primary sources reviewed. Because all RHTP awardees face a hard federal obligation timeline for Year-1 funds, expect Massachusetts to post solicitations in the coming months. Live dates will surface first in the dispatches below and on the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">RHTP hub</a>; the Governor's office also posts related <a href=\"https://www.mass.gov/orgs/governor-maura-healey-and-lt-governor-kim-driscoll/news\" target=\"_blank\" rel=\"noopener\">news</a>.</p>",
+     "text": "No firm application windows or deadlines have been posted in the primary sources reviewed. Because all RHTP awardees face a hard federal obligation timeline for Year-1 funds, expect Massachusetts to post solicitations in the coming months. Live dates will surface first in the dispatches below and on the RHTP hub; the Governor's office also posts related news."
     },
     {
-     "html": "<p>The Rural Health Transformation Program was created by <strong>Section 71401 of the One Big Beautiful Bill Act (2025)</strong> and is administered federally by CMS. Massachusetts administers its award under its CMS-approved project and budget narratives. We have not confirmed a Massachusetts-specific enabling statute or executive action from a primary source, and we won't assert one until it's documented.</p>",
-     "text": "The RHTP was created by Section 71401 of the One Big Beautiful Bill Act (2025), administered federally by CMS. Massachusetts administers its award under its CMS-approved project and budget narratives. We have not confirmed a Massachusetts-specific enabling statute or executive action from a primary source, and we won't assert one until it's documented."
+     "html": "<p>The Rural Health Transformation Program was created by <strong>Section 71401 of the One Big Beautiful Bill Act (2025)</strong> and is administered federally by CMS. Massachusetts administers its award under its CMS-approved project and budget narratives. No source confirms a Massachusetts-specific enabling statute or executive action from a primary source, and none is asserted here until it's documented.</p>",
+     "text": "The RHTP was created by Section 71401 of the One Big Beautiful Bill Act (2025), administered federally by CMS. Massachusetts administers its award under its CMS-approved project and budget narratives. No source confirms a Massachusetts-specific enabling statute or executive action from a primary source, and none is asserted here until it's documented."
     },
     {
-     "html": "<p>Eligibility for RHTP funds generally runs on two tracks. <strong>Direct-to-state contracts</strong> go out as competitive RFPs, where firms bid as <strong>prime contractors</strong>. <strong>Subgrants and subawards</strong> flow to rural providers &mdash; hospitals, Rural Health Clinics, FQHCs, EMS agencies, pharmacies, and community organizations &mdash; where technology vendors and consultants most often engage as <strong>subcontractors or implementation partners</strong> rather than direct grantees. Massachusetts hasn't yet published its specific eligibility rules in what we've captured, so watch the hub for those details.</p><p>The best entry point today is to monitor the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">Massachusetts RHTP hub</a> and reach the program contact, Kirby Lecy, at <a href=\"mailto:kirby.lecy@mass.gov\">kirby.lecy@mass.gov</a>.</p>",
-     "text": "Eligibility for RHTP funds generally runs on two tracks: direct-to-state contracts let out as competitive RFPs (firms bid as prime contractors), and subgrants/subawards to rural providers — hospitals, Rural Health Clinics, FQHCs, EMS agencies, pharmacies, and community organizations — where vendors and consultants most often engage as subcontractors or implementation partners rather than direct grantees. Massachusetts hasn't yet published its specific eligibility rules in what we've captured, so watch the hub for those details. The best entry point today is to monitor the Massachusetts RHTP hub and reach the program contact, Kirby Lecy, at kirby.lecy@mass.gov."
+     "html": "<p>Eligibility for RHTP funds generally runs on two tracks. <strong>Direct-to-state contracts</strong> go out as competitive RFPs, where firms bid as <strong>prime contractors</strong>. <strong>Subgrants and subawards</strong> flow to rural providers &mdash; hospitals, Rural Health Clinics, FQHCs, EMS agencies, pharmacies, and community organizations &mdash; where technology vendors and consultants most often engage as <strong>subcontractors or implementation partners</strong> rather than direct grantees. Massachusetts hasn't yet published its specific eligibility rules in the primary sources reviewed, so watch the hub for those details.</p><p>The best entry point today is to monitor the <a href=\"https://www.mass.gov/rural-health-transformation-program\" target=\"_blank\" rel=\"noopener\">Massachusetts RHTP hub</a> and reach the program contact, Kirby Lecy, at <a href=\"mailto:kirby.lecy@mass.gov\">kirby.lecy@mass.gov</a>.</p>",
+     "text": "Eligibility for RHTP funds generally runs on two tracks: direct-to-state contracts let out as competitive RFPs (firms bid as prime contractors), and subgrants/subawards to rural providers — hospitals, Rural Health Clinics, FQHCs, EMS agencies, pharmacies, and community organizations — where vendors and consultants most often engage as subcontractors or implementation partners rather than direct grantees. Massachusetts hasn't yet published its specific eligibility rules in the primary sources reviewed, so watch the hub for those details. The best entry point today is to monitor the Massachusetts RHTP hub and reach the program contact, Kirby Lecy, at kirby.lecy@mass.gov."
     }
    ]
   },
   "Michigan": {
    "award_exact": null,
-   "lede": "Everything we track on Michigan's <strong>approximately $173.1 million</strong> Rural Health Transformation Program award &mdash; the MDHHS administration, the four-part &ldquo;Care Closer to Home&rdquo; blueprint, the themed grant funding opportunities, the subrecipient roster, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Michigan's <strong>approximately $173.1 million</strong> Rural Health Transformation Program award &mdash; the MDHHS administration, the four-part &ldquo;Care Closer to Home&rdquo; blueprint, the themed grant funding opportunities, the subrecipient roster, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Michigan's award is <strong>approximately $173.1 million</strong> in Year 1 federal funds &mdash; its share of the $50 billion Rural Health Transformation Program (CMS assistance listing 93.798). The program is a five-year CMS cooperative agreement. The state's enacted FY2026-2027 budget carries the appropriation at $173.2 million after the legislature reduced a $250 million base by $76.8 million to align it with Michigan's actual CMS award. So far MDHHS is releasing the money as a series of themed, mid-size grant funding opportunities rather than a few large ones.</p>",
@@ -859,7 +859,7 @@
      "text": "Michigan has released money in themed batches: Workforce for Wellness — $34,231,500 across five competitive GFOs (~73 awards), heavily weighted toward the MSW social-work pipeline ($14.5M), plus a $14,731,500 Rural Health Provider Recruitment & Retention fund and $5.0M for Maternal Health Provider Training; Improving Care Delivery and Access through Transportation — $12M across ~15 awards; Chronic Disease Collaborative Care (Diabetes and Hypertension Management and Education) — ~$2.5M across ~8 awards; and subrecipient awards to date of 124 awards totaling roughly $65M across the four initiatives plus Tribal government awards. Quality Improvement, Clinical Residency and Cybersecurity are core project tags; the full breakdown is in Michigan's budget narrative and subrecipient award page."
     },
     {
-     "html": "<p>Michigan procures through its <strong>EGrAMS</strong> grant system as competitive grant funding opportunities. Recent GFOs include the five Workforce for Wellness funds ($34.2M), the Improving Care Delivery and Access through Transportation Grant Program ($12M), and the Chronic Disease Collaborative Care Fund (~$2.5M). MDHHS also maintains a public subrecipient award page listing 124 awards (~$65M) and an earlier tranche of ~$15M to six entities, led by the Michigan Health and Hospital Association's hub-and-spoke work. Every dispatch we've published on Michigan is listed below, newest first, and it carries the running procurement record.</p>",
+     "html": "<p>Michigan procures through its <strong>EGrAMS</strong> grant system as competitive grant funding opportunities. Recent GFOs include the five Workforce for Wellness funds ($34.2M), the Improving Care Delivery and Access through Transportation Grant Program ($12M), and the Chronic Disease Collaborative Care Fund (~$2.5M). MDHHS also maintains a public subrecipient award page listing 124 awards (~$65M) and an earlier tranche of ~$15M to six entities, led by the Michigan Health and Hospital Association's hub-and-spoke work. Every dated dispatch covering Michigan is listed below, newest first, and it carries the running procurement record.</p>",
      "text": "Michigan procures through its EGrAMS grant system as competitive grant funding opportunities. Recent GFOs include the five Workforce for Wellness funds ($34.2M), the Improving Care Delivery and Access through Transportation Grant Program ($12M), and the Chronic Disease Collaborative Care Fund (~$2.5M). MDHHS also maintains a public subrecipient award page listing 124 awards (~$65M) and an earlier tranche of ~$15M to six entities, led by the Michigan Health and Hospital Association's hub-and-spoke work. The dated dispatches below carry the running record."
     },
     {
@@ -878,7 +878,7 @@
   },
   "Minnesota": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>Minnesota</strong>'s roughly <strong>$193.1 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the early RFP and grant slate, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>Minnesota</strong>'s roughly <strong>$193.1 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the early RFP and grant slate, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Minnesota's Year-1 award is approximately <strong>$193.1 million</strong>, its share of the federal $50 billion Rural Health Transformation Program. It is a five-year program; Minnesota's early Year-1 activity has flowed through competitive RFPs for advisory services and grant opportunities aimed at rural providers.</p>",
@@ -916,7 +916,7 @@
   },
   "Mississippi": {
    "award_exact": "$205,990,180.16",
-   "lede": "Everything we track on <strong>Mississippi</strong>'s <strong>$205,990,180.16</strong> Year-1 Rural Health Transformation Program award &mdash; the administering office, the initiatives, live provider grant programs, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>Mississippi</strong>'s <strong>$205,990,180.16</strong> Year-1 Rural Health Transformation Program award &mdash; the administering office, the initiatives, live provider grant programs, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Mississippi's total RHTP award is roughly <strong>$206 million</strong> &mdash; precisely <strong>$205,990,180.16</strong>, and about 99.96% CMS-funded. This is Mississippi's Year-1 share of the federal $50 billion Rural Health Transformation Program, structured by CMS as an annual award across a five-year performance period (the program's obligation deadline for Year-1 funds is October 30, 2026).</p>",
@@ -954,7 +954,7 @@
   },
   "Missouri": {
    "award_exact": null,
-   "lede": "Everything we track on Missouri's <strong>approximately $215.9M</strong> ToRCH Care (Transformation of Rural Community Health Care) award &mdash; the plan, the administering agency, where the money is flowing, live opportunities, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Missouri's <strong>approximately $215.9M</strong> ToRCH Care (Transformation of Rural Community Health Care) award &mdash; the plan, the administering agency, where the money is flowing, live opportunities, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Missouri's Year 1 award is <strong>approximately $215.9 million</strong>, its share of the federal $50 billion Rural Health Transformation Program, structured by CMS as a five-year program. The state has branded its plan <strong>ToRCH Care</strong> (Transformation of Rural Community Health Care).</p>",
@@ -992,7 +992,7 @@
   },
   "Montana": {
    "award_exact": null,
-   "lede": "Everything we track on {STATE}'s <strong>~$233.5M</strong> Rural Health Transformation Program award &mdash; the five-initiative plan, the administering agency, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>~$233.5M</strong> Rural Health Transformation Program award &mdash; the five-initiative plan, the administering agency, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Montana received <strong>approximately $233.5 million</strong> in Year 1 funding under the federal $50 billion Rural Health Transformation Program, with up to <strong>$1.2 billion over five years</strong>. CMS issued final approval of Montana's first-year budget on February 19, 2026, clearing the way to award funds. As with every state, disbursement is annual across five budget periods (FY2026&ndash;FY2030), with each year's payment tied to performance.</p>",
@@ -1030,7 +1030,7 @@
   },
   "Nebraska": {
    "award_exact": null,
-   "lede": "Everything we track on Nebraska's <strong>approximately $218.4M</strong> first-year Rural Health Transformation Program award &mdash; the seven-initiative plan, the DHHS team running it, the RFA wave, the early awardees, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Nebraska's <strong>approximately $218.4M</strong> first-year Rural Health Transformation Program award &mdash; the seven-initiative plan, the DHHS team running it, the RFA wave, the early awardees, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Nebraska received <strong>approximately $218.4 million</strong> for the first year of the five-year Rural Health Transformation Program &mdash; a revised CMS Notice of Award dated February 27, 2026 put the figure at about $218.5 million, its share of the federal $50 billion program, which runs five years with additional application opportunities in each funding year. The award lets DHHS access federal funds to launch Nebraska's seven initiatives.</p>",
@@ -1068,7 +1068,7 @@
   },
   "Nevada": {
    "award_exact": null,
-   "lede": "Everything we track on Nevada's <strong>approximately $179.9M</strong> Rural Health Transformation Program award &mdash; the four funding pillars, the Nevada Health Authority, its tracks-based RFAs, and every dispatch we've published, in a question-and-answer format for vendors, providers, and consultants tracking the program.",
+   "lede": "Nevada's <strong>approximately $179.9M</strong> Rural Health Transformation Program award &mdash; the four funding pillars, the Nevada Health Authority, its tracks-based RFAs, with a dated log of official activity for vendors, providers, and consultants tracking the program.",
    "answers": [
     {
      "html": "<p>Nevada's FY2026 allocation is <strong>approximately $179.9 million</strong>, its share of the federal $50 billion Rural Health Transformation Program (CMS cooperative agreement <strong>#RHTCMS332074-01</strong>). CMS structures the program over five years, with a Year-1 (Budget Period 1) allocation followed by additional annual funding; Nevada requires all BP1 subawards and contracts to be fully signed and obligated no later than October 30, 2026.</p>",
@@ -1083,7 +1083,7 @@
      "text": "Nevada organizes funding into four pillars — the Rural Health Outcomes Accelerator Program (RHOAP), the Nevada Rural Health System Flex Fund, the Workforce Recruitment and Rural Access Program (WRRAP), and the Rural Health Innovation and Technology (RHIT) grant — plus cross-cutting set-asides for Tribal health, Veterans/Corrections, and a school-based fitness initiative. Priorities span value-based care, telehealth and remote patient monitoring, behavioral health integration, maternal and infant health, workforce expansion, population-health analytics, and cross-sector coordination."
     },
     {
-     "html": "<ul><li><strong>RHOAP</strong> &mdash; roughly $27M made available in Budget Period 1, tiered from Tier 1 pilots ($100k&ndash;$250k) up to Tier 4 transformational system-level programs ($1.5M&ndash;$2.5M).</li><li><strong>RHIT</strong> &mdash; $26,989,741 (about 15% of the FY2026 allocation), across three tracks: Core Health IT &amp; Interoperability, Provider-Facing Digital Health &amp; Remote Care, and a capped Consumer-Facing Digital Tools &amp; AI track.</li><li><strong>WRRAP</strong> and the <strong>Flex Fund</strong> &mdash; workforce recruitment/retention and rural system flexibility, run through their own RFAs.</li><li><strong>Presidential Fitness Test</strong> &mdash; a $1,298,985 set-aside (85% Nevada Department of Education, 15% State Public Charter School Association).</li></ul><p>Recurring focuses we track include a workforce data utility, telehealth infrastructure, and quality. The full multi-year budget is in Nevada's Program Fact Sheet and Project Narrative.</p>",
+     "html": "<ul><li><strong>RHOAP</strong> &mdash; roughly $27M made available in Budget Period 1, tiered from Tier 1 pilots ($100k&ndash;$250k) up to Tier 4 transformational system-level programs ($1.5M&ndash;$2.5M).</li><li><strong>RHIT</strong> &mdash; $26,989,741 (about 15% of the FY2026 allocation), across three tracks: Core Health IT &amp; Interoperability, Provider-Facing Digital Health &amp; Remote Care, and a capped Consumer-Facing Digital Tools &amp; AI track.</li><li><strong>WRRAP</strong> and the <strong>Flex Fund</strong> &mdash; workforce recruitment/retention and rural system flexibility, run through their own RFAs.</li><li><strong>Presidential Fitness Test</strong> &mdash; a $1,298,985 set-aside (85% Nevada Department of Education, 15% State Public Charter School Association).</li></ul><p>Recurring focuses on record include a workforce data utility, telehealth infrastructure, and quality. The full multi-year budget is in Nevada's Program Fact Sheet and Project Narrative.</p>",
      "text": "RHOAP made roughly $27M available in Budget Period 1, tiered from Tier 1 pilots ($100k–$250k) up to Tier 4 transformational programs ($1.5M–$2.5M). RHIT is $26,989,741 (about 15% of the allocation) across three tracks: Core Health IT & Interoperability, Provider-Facing Digital Health & Remote Care, and a capped Consumer-Facing Digital Tools & AI track. WRRAP and the Flex Fund run workforce and system-flexibility RFAs. A $1,298,985 set-aside funds the Presidential Fitness Test (85% Nevada Dept. of Education, 15% State Public Charter School Association). Recurring focuses include a workforce data utility, telehealth infrastructure, and quality. The full multi-year budget is in Nevada's Program Fact Sheet and Project Narrative."
     },
     {
@@ -1106,7 +1106,7 @@
   },
   "New Hampshire": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>New Hampshire</strong>'s roughly <strong>$204 million</strong> Rural Health Transformation Program award &mdash; the plan, the GO-NORTH office that runs it, the hub-organization contracts, the competitive evaluation award, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>New Hampshire</strong>'s roughly <strong>$204 million</strong> Rural Health Transformation Program award &mdash; the plan, the GO-NORTH office that runs it, the hub-organization contracts, the competitive evaluation award, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>New Hampshire's Year-1 award is approximately <strong>$204 million</strong>, its share of the federal $50 billion Rural Health Transformation Program. It is a five-year program, delivered through five initiatives carried out with contracted hub organizations. Federal RHTP dollars flow as sub-awards under 2 CFR Part 200 &mdash; the state's independent evaluation contract, for example, runs through September 30, 2031.</p>",
@@ -1144,7 +1144,7 @@
   },
   "New Jersey": {
    "award_exact": null,
-   "lede": "Everything we track on {STATE}'s <strong>~$147.2M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>~$147.2M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>New Jersey received <strong>approximately $147.2 million</strong> in Year 1 funding under the federal $50 billion Rural Health Transformation Program. As with every state, the award is disbursed by CMS annually across five years, with each year's payment tied to performance.</p>",
@@ -1182,7 +1182,7 @@
   },
   "New Mexico": {
    "award_exact": "$211,484,741",
-   "lede": "Everything we track on <strong>New Mexico</strong>'s <strong>$211,484,741</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the outsourced operating model, the live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>New Mexico</strong>'s <strong>$211,484,741</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the outsourced operating model, the live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>New Mexico was awarded <strong>$211,484,741</strong> for Federal Fiscal Year 2026 (FFY26) through the CMS Rural Health Transformation Program &mdash; its share of the federal $50 billion program, and a figure the state confirmed in its Administrative Services Organization RFP. It is a five-year award (roughly $1 billion over the grant period), structured with Year-1 funding released through competitive procurements and subawards, subject to annual CMS approval and a program-wide administrative-cost cap of 10%.</p>",
@@ -1220,7 +1220,7 @@
   },
   "New York": {
    "award_exact": "$212,058,207.80",
-   "lede": "Everything we track on New York's <strong>$212,058,207.80</strong> Rural Health Transformation Program award &mdash; the plan, the Department of Health administration, the Rural Community Health Integration procurement, its budget-period structure, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "New York's <strong>$212,058,207.80</strong> Rural Health Transformation Program award &mdash; the plan, the Department of Health administration, the Rural Community Health Integration procurement, its budget-period structure, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>New York's Year 1 award is <strong>$212,058,207.80</strong> from CMS/HHS, its share of the federal $50 billion Rural Health Transformation Program. The program is a five-year CMS cooperative agreement structured in budget periods. New York's first procurement, Rural Community Health Integration (RCHI), draws <strong>$76,190,022</strong> from Budget Period 1; notably, RCHI's implementation dollars don't flow in BP1 &mdash; they arrive in Budget Periods 2 through 5, with BP2 beginning November 1, 2026.</p>",
@@ -1239,7 +1239,7 @@
      "text": "The first tranche is RCHI's $76,190,022 in Budget Period 1, split into two tracks: planning grants up to $500,000 per county (a per-county ceiling), stackable for multi-county applicants (three counties = up to $1.5M); and implementation grants capped at $3,000,000 per application, covering up to three projects combined. Administrative costs are held to a tighter 5% in aggregate across the lead applicant and all partners/subcontractors, and capital/infrastructure spending is capped at 20%. The remaining initiatives — including global-budget pilots and hospital-transition work — are detailed in New York's project and budget narratives, with most implementation dollars scheduled for Budget Periods 2 through 5."
     },
     {
-     "html": "<p>New York's first live procurement is the <strong>Rural Community Health Integration (RCHI)</strong> funding guidance, released June 11, 2026. Through Addendum #1 (July 2) and Addendum #2 (July 6, a 375-question Q&amp;A), the state extended the deadline, expanded the eligible-county map, and hardened the &ldquo;located in&rdquo; test. Award announcements are anticipated by the end of August 2026, with all contracts executed by September 30, 2026. This is the first of four planned initiatives; subsequent procurements will surface in later budget periods. Every dispatch we've published on New York is listed below, newest first.</p>",
+     "html": "<p>New York's first live procurement is the <strong>Rural Community Health Integration (RCHI)</strong> funding guidance, released June 11, 2026. Through Addendum #1 (July 2) and Addendum #2 (July 6, a 375-question Q&amp;A), the state extended the deadline, expanded the eligible-county map, and hardened the &ldquo;located in&rdquo; test. Award announcements are anticipated by the end of August 2026, with all contracts executed by September 30, 2026. This is the first of four planned initiatives; subsequent procurements will surface in later budget periods. Every dated dispatch covering New York is listed below, newest first.</p>",
      "text": "New York's first live procurement is the Rural Community Health Integration (RCHI) funding guidance, released June 11, 2026. Through Addendum #1 (July 2) and Addendum #2 (July 6, a 375-question Q&A), the state extended the deadline, expanded the eligible-county map, and hardened the \"located in\" test. Award announcements are anticipated by the end of August 2026, with all contracts executed by September 30, 2026. This is the first of four planned initiatives; subsequent procurements will surface in later budget periods. The dated dispatches below carry the running record."
     },
     {
@@ -1258,7 +1258,7 @@
   },
   "North Carolina": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>North Carolina</strong>'s approximately <strong>$213M</strong> Year-1 Rural Health Transformation Program award &mdash; the five ROOTS Hubs, the administering office, the initiatives, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>North Carolina</strong>'s approximately <strong>$213M</strong> Year-1 Rural Health Transformation Program award &mdash; the five ROOTS Hubs, the administering office, the initiatives, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>North Carolina is receiving approximately <strong>$213 million</strong> in Year-1 funding under the federal $50 billion Rural Health Transformation Program. Year 1 is the first tranche of an approximately <strong>$1 billion</strong> five-year plan; the award is structured by CMS as an annual award across a five-year performance period.</p>",
@@ -1277,7 +1277,7 @@
      "text": "Money is flowing through the ROOTS Hubs and named initiatives. Five hub leads: Impact Health (western/Region 1), Trillium Health Resources (Regions 2 and 5), Vaya/VIA Health with Appalachian State and Partners Health Management (Region 3), UNC Health with Granville Vance Public Health and Piedmont Health Services (Region 4), and Access East, an ECU Health affiliate (Region 6). Other initiatives: a Rural Health Innovation Fund ($20M/year for up to five years, launching this fall); $10M to 39 EMS agencies for Mobile Integrated Health; digital infrastructure connecting providers to NC HealthConnex and onboarding 400+ rural providers plus NC 211 digital health navigators; and Minority Diabetes Prevention Program and School Health Centers expansions. The full breakdown is in the state's budget narrative and grant-opportunities postings."
     },
     {
-     "html": "<p>North Carolina's flagship procurement was the <strong>NC ROOTS Hub Lead RFA</strong>, which named the five regional leads in May. Since then the state has posted a <strong>Minority Diabetes Prevention Program</strong> funding opportunity (extended via addendum), a <strong>Mobile Integrated Health Grant</strong>, and an invited-only <strong>Expanding School Health Centers to Rural Areas</strong> opportunity (questions due July 29, applications due 5 p.m. August 12, 2026). The Rural Health Innovation Fund is expected to open a provider-facing application this fall. Individual ROOTS Hubs are now issuing their own letters of interest and subgrant opportunities on their own timelines. Every dispatch we've published on North Carolina is listed below, newest first.</p>",
+     "html": "<p>North Carolina's flagship procurement was the <strong>NC ROOTS Hub Lead RFA</strong>, which named the five regional leads in May. Since then the state has posted a <strong>Minority Diabetes Prevention Program</strong> funding opportunity (extended via addendum), a <strong>Mobile Integrated Health Grant</strong>, and an invited-only <strong>Expanding School Health Centers to Rural Areas</strong> opportunity (questions due July 29, applications due 5 p.m. August 12, 2026). The Rural Health Innovation Fund is expected to open a provider-facing application this fall. Individual ROOTS Hubs are now issuing their own letters of interest and subgrant opportunities on their own timelines. Every dated dispatch covering North Carolina is listed below, newest first.</p>",
      "text": "North Carolina's flagship procurement was the NC ROOTS Hub Lead RFA, which named the five regional leads in May. Since then the state posted a Minority Diabetes Prevention Program funding opportunity (extended via addendum), a Mobile Integrated Health Grant, and an invited-only Expanding School Health Centers to Rural Areas opportunity (questions due July 29, applications due 5 p.m. August 12, 2026). The Rural Health Innovation Fund is expected to open a provider-facing application this fall. Individual ROOTS Hubs are now issuing their own letters of interest and subgrant opportunities. Dispatches below carry the running record."
     },
     {
@@ -1296,7 +1296,7 @@
   },
   "North Dakota": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>North Dakota</strong>'s roughly <strong>$198.9 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the four program pillars, the stack of live funding opportunities, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>North Dakota</strong>'s roughly <strong>$198.9 million</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the four program pillars, the stack of live funding opportunities, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>North Dakota's Year-1 award is approximately <strong>$198.9 million</strong>, its share of the federal $50 billion Rural Health Transformation Program. On February 25, 2026, CMS approved <strong>$194,807,869.55</strong> of North Dakota's year-one budget, with the remaining <strong>$4,129,100</strong> still under review to align the Notice of Award with the state's application. The program runs five years; Year-1 funds must be <strong>obligated by October 30, 2026</strong> and <strong>fully spent by September 30, 2027</strong>.</p>",
@@ -1334,7 +1334,7 @@
   },
   "Ohio": {
    "award_exact": null,
-   "lede": "Everything we track on {STATE}'s <strong>~$202.0M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>~$202.0M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Ohio received <strong>approximately $202.0 million</strong> in Year 1 funding under the federal $50 billion Rural Health Transformation Program. As with every state, the award is disbursed by CMS annually across five years, with each year's payment tied to performance; Ohio's solicitations are 100% federally funded by CMS/HHS.</p>",
@@ -1372,7 +1372,7 @@
   },
   "Oklahoma": {
    "award_exact": "$223,476,949",
-   "lede": "Everything we track on {STATE}'s <strong>$223,476,949</strong> Rural Health Transformation Program award &mdash; the six-pillar plan, the administering agency, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "{STATE}'s <strong>$223,476,949</strong> Rural Health Transformation Program award &mdash; the six-pillar plan, the administering agency, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Oklahoma received <strong>$223,476,949</strong> in Year 1 funding under the federal $50 billion Rural Health Transformation Program &mdash; the fifth-largest RHTP award in the country. As with every state, the award is disbursed by CMS annually across five budget periods (FY2026&ndash;FY2030), with each year's payment tied to performance. Year 1 (Budget Period One) runs December 28, 2025 through October 30, 2026.</p>",
@@ -1391,8 +1391,8 @@
      "text": "Oklahoma has published a program-by-program map in its Program Quick Summary Guide. The largest bucket is Regional Collaboration at roughly $75.1M in Year 1, anchored by a $43.1M Provider Collaborative Network and a still-forming statewide Clinically Integrated Network. Other major lines: Rural Residency Programs (~$22.1M, six new training sites, co-administered by OU and OSU), a Technology Cooperative for primary-care and behavioral-health providers (~$13.8M), Rural Regional Reorientation (~$27.5M in the narrative, $20M in the first NOFO), Chronic Disease Management (~$15.3M), and School-Based Health Services (~$15.1M over five years). The full breakdown lives in the state's Quick Summary Guide and budget narrative."
     },
     {
-     "html": "<p>Oklahoma is front-loading procurement. Closed solicitations include Community-Led Wellness Hubs Microgrants (~$4M, 69 of 75 counties), Rural Regional Reorientation NOFO RHTP2026002 ($20M, closed June 12), Chronic Disease Management RHTP2026003 (~$15M, closed June 8), Behavioral Health Integration &mdash; MOUD/MAUD ($2.8M, closed July 10), and EMS &amp; Community Paramedicine Vehicles ($3.7M, deadline extended to July 27). Also live this summer: the Expanding Care: Doulas NOFO (at least $2.5M, due July 27) and school-based grants through OSDE (ROOTS, School-Based Health Services). By mid-June OSDH reported ~70% of the Year-1 award obligated. Every dispatch we've published on Oklahoma is listed below, newest first.</p>",
-     "text": "Oklahoma is front-loading procurement. Closed solicitations include Community-Led Wellness Hubs Microgrants (~$4M, 69 of 75 counties), Rural Regional Reorientation NOFO RHTP2026002 ($20M, closed June 12), Chronic Disease Management RHTP2026003 (~$15M, closed June 8), Behavioral Health Integration MOUD/MAUD ($2.8M, closed July 10), and EMS & Community Paramedicine Vehicles ($3.7M, deadline extended to July 27). Also live this summer: the Expanding Care: Doulas NOFO (at least $2.5M, due July 27) and school-based grants through OSDE (ROOTS, School-Based Health Services). By mid-June OSDH reported ~70% of the Year-1 award obligated. Every dispatch we've published on Oklahoma is listed below, newest first."
+     "html": "<p>Oklahoma is front-loading procurement. Closed solicitations include Community-Led Wellness Hubs Microgrants (~$4M, 69 of 75 counties), Rural Regional Reorientation NOFO RHTP2026002 ($20M, closed June 12), Chronic Disease Management RHTP2026003 (~$15M, closed June 8), Behavioral Health Integration &mdash; MOUD/MAUD ($2.8M, closed July 10), and EMS &amp; Community Paramedicine Vehicles ($3.7M, deadline extended to July 27). Also live this summer: the Expanding Care: Doulas NOFO (at least $2.5M, due July 27) and school-based grants through OSDE (ROOTS, School-Based Health Services). By mid-June OSDH reported ~70% of the Year-1 award obligated. Every dated dispatch covering Oklahoma is listed below, newest first.</p>",
+     "text": "Oklahoma is front-loading procurement. Closed solicitations include Community-Led Wellness Hubs Microgrants (~$4M, 69 of 75 counties), Rural Regional Reorientation NOFO RHTP2026002 ($20M, closed June 12), Chronic Disease Management RHTP2026003 (~$15M, closed June 8), Behavioral Health Integration MOUD/MAUD ($2.8M, closed July 10), and EMS & Community Paramedicine Vehicles ($3.7M, deadline extended to July 27). Also live this summer: the Expanding Care: Doulas NOFO (at least $2.5M, due July 27) and school-based grants through OSDE (ROOTS, School-Based Health Services). By mid-June OSDH reported ~70% of the Year-1 award obligated. Every dated dispatch covering Oklahoma is listed below, newest first."
     },
     {
      "html": "<p>Near-term dates: 16 in-person county-cluster kickoffs run <strong>July 27&ndash;August 14, 2026</strong>; Year-1 awards are due to be announced late July or early August; CMS holds a site visit <strong>August 4&ndash;5</strong>; and OSDH files its first annual report <strong>August 30</strong> &mdash; the document that determines Year 2 funding. The next competitive Rural Regional Reorientation NOFO is expected to open around <strong>February 2027</strong>. Subrecipients should note the BP1 spend-down rules: personnel, fringe and travel must be spent by October 30, 2026; all other BP1 funds spent and invoiced by July 31, 2027; and drawn down by OSDH by September 30, 2027. Live dates surface first in the dated dispatches below.</p>",
@@ -1410,7 +1410,7 @@
   },
   "Oregon": {
    "award_exact": null,
-   "lede": "Everything we track on Oregon's <strong>approximately $197.3M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, where the money has actually landed, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Oregon's <strong>approximately $197.3M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, where the money has actually landed, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Oregon's Year 1 award is <strong>approximately $197.3 million</strong> as its share of the federal $50 billion Rural Health Transformation Program, structured by CMS as a five-year program. CMS lifted restrictions on all Oregon RHTP funds on March 20, 2026 (previously only state staffing dollars were accessible), clearing the roughly $197M intended for subawardees to move; Oregon has since pushed more than $175 million out the door in 2026.</p>",
@@ -1448,7 +1448,7 @@
   },
   "Pennsylvania": {
    "award_exact": null,
-   "lede": "Everything we track on Pennsylvania's <strong>approximately $193.3M</strong> Rural Health Transformation Program award &mdash; the six-initiative plan, the administering agency, its first-come program payments, and every dispatch we've published, in a question-and-answer format for vendors, providers, and consultants tracking the program.",
+   "lede": "Pennsylvania's <strong>approximately $193.3M</strong> Rural Health Transformation Program award &mdash; the six-initiative plan, the administering agency, its first-come program payments, with a dated log of official activity for vendors, providers, and consultants tracking the program.",
    "answers": [
     {
      "html": "<p>Pennsylvania's Year-1 allocation is <strong>approximately $193.3 million</strong>, its share of the federal $50 billion Rural Health Transformation Program. CMS structures the program over five years, with a Year-1 allocation followed by additional annual funding. Pennsylvania is sequencing its Year-1 money into discrete channels &mdash; a broad $25M Rapid Response Stabilization round followed by targeted technology and provider-type payments &mdash; with awarded stabilization funds required to be expended by July 31, 2027.</p>",
@@ -1463,7 +1463,7 @@
      "text": "Pennsylvania's federally approved application is built around six initiatives — Aging and Access, Behavioral Health, EMS and Transportation, Maternal Health, Technology and Infrastructure, and Workforce. A defining bet is interoperability: the state is using RHTP dollars to move its fragmented provider base onto a single state-controlled data spine, with five certified Health Information Organizations (HIOs) feeding one statewide hub, the Pennsylvania Patient and Provider Network (P3N) — a prerequisite for care coordination, maternal-health hubs, and remote behavioral health across the plan."
     },
     {
-     "html": "<p>Early Year-1 money has flowed through capped payment channels tied to the six initiatives. The <strong>Rapid Response Stabilization</strong> round put $25M toward one-time purchases (supplies, equipment, renovations, structural improvements, and ambulance enhancements) at $10,000&ndash;$1,000,000 per entity. Two technology tracks then targeted interoperability: a <strong>$1.8M FQHC &amp; FQHC Look-Alikes</strong> payment (six awards of $300,000) and a <strong>$25M EHR &amp; HIO</strong> payment for hospitals, long-term care, home health, behavioral health, and community/ICF providers &mdash; both funding CEHRT adoption and full P3N onboarding. Recurring focuses we track include rural budget expansion, health IT, EMS, and pharmacy. The full breakdown is in DHS's federally approved RHTP application.</p>",
+     "html": "<p>Early Year-1 money has flowed through capped payment channels tied to the six initiatives. The <strong>Rapid Response Stabilization</strong> round put $25M toward one-time purchases (supplies, equipment, renovations, structural improvements, and ambulance enhancements) at $10,000&ndash;$1,000,000 per entity. Two technology tracks then targeted interoperability: a <strong>$1.8M FQHC &amp; FQHC Look-Alikes</strong> payment (six awards of $300,000) and a <strong>$25M EHR &amp; HIO</strong> payment for hospitals, long-term care, home health, behavioral health, and community/ICF providers &mdash; both funding CEHRT adoption and full P3N onboarding. Recurring focuses on record include rural budget expansion, health IT, EMS, and pharmacy. The full breakdown is in DHS's federally approved RHTP application.</p>",
      "text": "Early Year-1 money has flowed through capped payment channels tied to the six initiatives. The Rapid Response Stabilization round put $25M toward one-time purchases (supplies, equipment, renovations, structural improvements, and ambulance enhancements) at $10,000–$1,000,000 per entity. Two technology tracks then targeted interoperability: a $1.8M FQHC & FQHC Look-Alikes payment (six awards of $300,000) and a $25M EHR & HIO payment for hospitals, long-term care, home health, behavioral health, and community/ICF providers — both funding CEHRT adoption and full P3N onboarding. Recurring focuses include rural budget expansion, health IT, EMS, and pharmacy. The full breakdown is in DHS's federally approved RHTP application."
     },
     {
@@ -1486,7 +1486,7 @@
   },
   "Rhode Island": {
    "award_exact": "$156,169,931.19",
-   "lede": "Everything we track on Rhode Island's <strong>$156,169,931.19</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Rhode Island's <strong>$156,169,931.19</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Rhode Island's Year 1 award is <strong>$156,169,931.19</strong>, its share of the federal $50 billion Rural Health Transformation Program, structured by CMS as a five-year program. The state has filed a <strong>$142.7 million budget amendment</strong> for SFY 2026&ndash;2027 reflecting its spending plan under the Year 1 award following final CMS approval.</p>",
@@ -1524,7 +1524,7 @@
   },
   "South Carolina": {
    "award_exact": null,
-   "lede": "Everything we track on South Carolina's <strong>approximately $200.03M</strong> first-year Rural Health Transformation award &mdash; the five-initiative plan, the SCDHHS team and its partners, the four concurrent RFPs, the Tech Catalyst Fund, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "South Carolina's <strong>approximately $200.03M</strong> first-year Rural Health Transformation award &mdash; the five-initiative plan, the SCDHHS team and its partners, the four concurrent RFPs, the Tech Catalyst Fund, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>South Carolina received <strong>approximately $200.03 million</strong> for the first budget period of the five-year Rural Health Transformation Program, its share of the federal $50 billion program, with additional annual awards expected in each funding year. The state is deploying the money largely through a subrecipient grant model organized around five core initiatives.</p>",
@@ -1562,7 +1562,7 @@
   },
   "South Dakota": {
    "award_exact": "$189,477,607.26",
-   "lede": "Everything we track on <strong>South Dakota</strong>'s <strong>$189,477,607.26</strong> Year-1 Rural Health Transformation Program award &mdash; the administering office, the initiatives, the run of live RFPs, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>South Dakota</strong>'s <strong>$189,477,607.26</strong> Year-1 Rural Health Transformation Program award &mdash; the administering office, the initiatives, the run of live RFPs, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>South Dakota is working against a <strong>$189,477,607.26</strong> Year-1 CMS award (100% federally funded) &mdash; the opening tranche of an approximately <strong>$1 billion</strong>, five-year plan that runs through September 2031. Like all RHTP awards, it is structured by CMS as an annual award across a five-year performance period, and it is South Dakota's share of the federal $50 billion Rural Health Transformation Program.</p>",
@@ -1600,7 +1600,7 @@
   },
   "Tennessee": {
    "award_exact": null,
-   "lede": "Everything we track on Tennessee's <strong>approximately $206.9M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the funding categories, the wave of live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Tennessee's <strong>approximately $206.9M</strong> Rural Health Transformation Program award &mdash; the plan, the administering agency, the funding categories, the wave of live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Tennessee's Budget Period 1 award is <strong>approximately $206.9 million</strong> &mdash; above the $200 million baseline states were asked to apply for &mdash; as its share of the federal $50 billion Rural Health Transformation Program, structured by CMS as a five-year program with Year 1 funds obligated by October 31, 2026 and spent by September 30, 2027.</p>",
@@ -1638,7 +1638,7 @@
   },
   "Texas": {
    "award_exact": null,
-   "lede": "Everything we track on Texas's <strong>approximately $281.3M</strong> first-year Rural Health Transformation Program award &mdash; the \"Rural Texas Strong\" plan, the HHSC team running it, the initiative rounds, the live RFAs, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Texas's <strong>approximately $281.3M</strong> first-year Rural Health Transformation Program award &mdash; the \"Rural Texas Strong\" plan, the HHSC team running it, the initiative rounds, the live RFAs, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Texas received <strong>approximately $281.3 million</strong> in its first-year award from the CMS Rural Health Transformation Program &mdash; its share of the federal $50 billion program &mdash; with an estimated $1.4 billion expected to flow to Texas over the five-year performance period. Additional annual awards are expected in each funding year.</p>",
@@ -1676,7 +1676,7 @@
   },
   "Utah": {
    "award_exact": "$195,743,566.29",
-   "lede": "Everything we track on Utah's <strong>$195,743,566.29</strong> first-year Rural Health Transformation Program award &mdash; the seven-initiative plan, the DHHS team running it, the four-bucket budget split, the fast-moving RFGA calendar, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Utah's <strong>$195,743,566.29</strong> first-year Rural Health Transformation Program award &mdash; the seven-initiative plan, the DHHS team running it, the four-bucket budget split, the fast-moving RFGA calendar, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Utah received <strong>$195,743,566.29</strong> in first-year (Budget Period 1) funding, 100% funded by CMS/HHS, as its share of the federal $50 billion Rural Health Transformation Program. The program runs five years (FY2026&ndash;FY2030), with additional annual awards expected in each funding year. Utah has mapped Year 1 into four buckets: <strong>Competitive &amp; Community Grants $115.5M (59.1%)</strong>, <strong>State &amp; Public Entity Agreements $75.4M (38.5%)</strong>, Data Evaluation &amp; Mapping $1.7M (0.9%), and State Administration &amp; Reserves $3.0M (1.5%).</p>",
@@ -1714,7 +1714,7 @@
   },
   "Vermont": {
    "award_exact": "$195,053,740",
-   "lede": "Everything we track on Vermont's <strong>$195,053,740</strong> Year-1 Rural Health Transformation Program award &mdash; the five-initiative plan, the administering agency, live RFPs and NOFOs, and every dispatch we've published, in a question-and-answer format for vendors, providers, and consultants tracking the program.",
+   "lede": "Vermont's <strong>$195,053,740</strong> Year-1 Rural Health Transformation Program award &mdash; the five-initiative plan, the administering agency, live RFPs and NOFOs, with a dated log of official activity for vendors, providers, and consultants tracking the program.",
    "answers": [
     {
      "html": "<p>Vermont's Year-1 award is <strong>$195,053,740.44</strong>, 100% CMS-funded under Notice of Award <strong>#RHTCMS332047-01-00</strong>. It is Vermont's share of the federal $50 billion Rural Health Transformation Program, which CMS structures as a five-year initiative (roughly one-fifth of the national $50B is distributed to states in Year 1, with additional annual allocations across the five-year period).</p>",
@@ -1729,7 +1729,7 @@
      "text": "Vermont organizes its award into five Strategic Initiatives — Regionalization, Shared Services, Primary Care, Workforce Development, and Price Transparency — spanning 35 discrete activities. The goal is stronger rural health networks, better shared technology and operations, a stronger workforce, and the right care at the right time at an affordable cost. Primary Care and Workforce Development are the largest by activity count."
     },
     {
-     "html": "<p>The plan funds thirty grant subrecipient activities plus consultant and contractor procurements across the five initiatives. Key project focuses we track include <strong>AHEAD integration, rural health information technology, and workforce housing</strong>, alongside mobile dental and MH/SUD units, community paramedicine, a shared EHR/EMR platform, a shared HRIS, a statewide closed-loop referral system, e-Consult, remote patient monitoring, telehealth, a Family Medicine residency, and pharmacist test-to-treat scope expansion. The full activity-by-activity budget breakdown lives in Vermont's approved Project Narrative and Budget Narrative.</p>",
+     "html": "<p>The plan funds thirty grant subrecipient activities plus consultant and contractor procurements across the five initiatives. Key project focuses on record include <strong>AHEAD integration, rural health information technology, and workforce housing</strong>, alongside mobile dental and MH/SUD units, community paramedicine, a shared EHR/EMR platform, a shared HRIS, a statewide closed-loop referral system, e-Consult, remote patient monitoring, telehealth, a Family Medicine residency, and pharmacist test-to-treat scope expansion. The full activity-by-activity budget breakdown lives in Vermont's approved Project Narrative and Budget Narrative.</p>",
      "text": "The plan funds thirty grant subrecipient activities plus consultant and contractor procurements across the five initiatives. Key focuses include AHEAD integration, rural health IT, and workforce housing, alongside mobile dental and MH/SUD units, community paramedicine, a shared EHR/EMR platform, a shared HRIS, a statewide closed-loop referral system, e-Consult, remote patient monitoring, telehealth, a Family Medicine residency, and pharmacist test-to-treat. The full activity-level budget breakdown is in Vermont's approved Project and Budget Narratives."
     },
     {
@@ -1752,7 +1752,7 @@
   },
   "Virginia": {
    "award_exact": "$189,544,888.14",
-   "lede": "Everything we track on Virginia's <strong>$189,544,888.14</strong> first-year Rural Health Transformation Program award &mdash; the \"VA Rural Vitality\" plan, the DMAS-led partner model, the workforce and tech initiatives, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Virginia's <strong>$189,544,888.14</strong> first-year Rural Health Transformation Program award &mdash; the \"VA Rural Vitality\" plan, the DMAS-led partner model, the workforce and tech initiatives, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Virginia secured a confirmed federal award of <strong>$189,544,888.14</strong> for the first budget period of the five-year Rural Health Transformation Program &mdash; its share of the federal $50 billion program. Branded <strong>\"VA Rural Vitality,\"</strong> the effort is a five-year strategic investment plan, with additional annual awards expected in each funding year.</p>",
@@ -1775,8 +1775,8 @@
      "text": "Virginia runs a partner-led model in which Key Implementation Partners -- the Virginia Hospital Research and Education Foundation, the VCCS Foundation, Virginia Works, and the Virginia Department of Education -- issue downstream RFAs to local providers and organizations. As of mid-2026 the state is transitioning from Phase 1 (partners established and contracting) to Phase 2 (identifying administrators for its access and wellness initiatives). Specific solicitation numbers and amounts had not yet been detailed publicly; the dispatch list below carries the running record."
     },
     {
-     "html": "<p>Virginia has not published concrete application windows in the material we track; because RFAs are released by the individual implementation partners as the state moves from Phase 1 to Phase 2, deadlines surface first in the dated dispatches below and on the DMAS <a href=\"https://dmas.virginia.gov/data-reporting/programs-services/rural-health-transformation/\" target=\"_blank\" rel=\"noopener\">Rural Health Transformation page</a>.</p>",
-     "text": "Virginia has not published concrete application windows in the material we track; because RFAs are released by the individual implementation partners as the state moves from Phase 1 to Phase 2, deadlines surface first in the dated dispatches below and on the DMAS Rural Health Transformation page."
+     "html": "<p>Virginia has not published concrete application windows in the sources on record; because RFAs are released by the individual implementation partners as the state moves from Phase 1 to Phase 2, deadlines surface first in the dated dispatches below and on the DMAS <a href=\"https://dmas.virginia.gov/data-reporting/programs-services/rural-health-transformation/\" target=\"_blank\" rel=\"noopener\">Rural Health Transformation page</a>.</p>",
+     "text": "Virginia has not published concrete application windows in the sources on record; because RFAs are released by the individual implementation partners as the state moves from Phase 1 to Phase 2, deadlines surface first in the dated dispatches below and on the DMAS Rural Health Transformation page."
     },
     {
      "html": "<p>The Rural Health Transformation Program was created by <strong>Section 71401 of the One Big Beautiful Bill Act (2025)</strong> and is administered federally by CMS. Virginia administers its award through DMAS as the primary recipient of the CMS cooperative agreement, delegating funding streams to named Key Implementation Partners under its CMS-approved plan.</p>",
@@ -1790,7 +1790,7 @@
   },
   "Washington": {
    "award_exact": null,
-   "lede": "Everything we track on Washington's <strong>approximately $181.3M</strong> Rural Health Transformation Program award &mdash; the six CMS-approved initiatives, the administering agency, the funding guardrails, live RFAs, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Washington's <strong>approximately $181.3M</strong> Rural Health Transformation Program award &mdash; the six CMS-approved initiatives, the administering agency, the funding guardrails, live RFAs, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>CMS approved Washington a Year 1 budget of <strong>approximately $181.3 million</strong> as its share of the federal $50 billion Rural Health Transformation Program. During the original application CMS suggested states budget for $200 million per year; Washington's revised budget, approved February 26, 2026, brought the Year 1 figure to about $181 million <strong>without eliminating any of the six approved activities</strong>, instead front-loading projects ready for rapid implementation. The program runs on a five-year period of performance.</p>",
@@ -1828,7 +1828,7 @@
   },
   "West Virginia": {
    "award_exact": null,
-   "lede": "Everything we track on <strong>West Virginia</strong>'s approximately <strong>$199.5M</strong> Year-1 Rural Health Transformation Program award &mdash; the \"Health to Prosperity\" plan, the seven pillars, the budget split, live procurements, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "<strong>West Virginia</strong>'s approximately <strong>$199.5M</strong> Year-1 Rural Health Transformation Program award &mdash; the \"Health to Prosperity\" plan, the seven pillars, the budget split, live procurements, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>West Virginia secured approximately <strong>$199.5 million</strong> in Year-1 funding under the federal $50 billion Rural Health Transformation Program. Year 1 is the first tranche of an estimated <strong>$1 billion</strong> five-year plan; like every RHTP award, the funding is structured by CMS as an annual award across a five-year performance period, and it is roughly 100% federally funded.</p>",
@@ -1847,7 +1847,7 @@
      "text": "West Virginia's disclosed Year-1 pillar allocations: Connected Care Grid $45.9M, Smart Care Catalyst $45.6M, Personal Health Accelerator $29.0M, HealthTech Appalachia $18.8M, Mountain State Care Force $15.2M, Rural Health Link $13.8M, and Health to Prosperity $13.4M. Administrative costs are excluded, so the figures don't sum to $199.5M. Hard cost caps apply: admin 10%, provider payments 15%, EMR replacement 5%, and the Rural Tech Catalyst Fund at 10% or $20M (whichever is lower)."
     },
     {
-     "html": "<p>West Virginia is running the fastest procurement cadence in the RHTP &mdash; it reported 20+ funding opportunities released with 10+ more coming this summer. Named solicitations include the Connected Care Grid <strong>Data Spine RFP</strong> (RHT26*4, sealed bids opened July 7), the <strong>Workforce Catalyst Program AFA</strong> ($500K, due Aug 5), <strong>Mountain State Care Force Provider Rotational Staffing Pools</strong> ($1.8M, due July 28), multiple CCG telehealth and mobile-unit AFAs, and the $24.1M Personal Health Accelerator nutrition-and-lifestyle solicitation. All applications route through the <strong>wvOASIS Vendor Self Service</strong> portal. Every dispatch we've published on West Virginia is listed below, newest first.</p>",
+     "html": "<p>West Virginia is running the fastest procurement cadence in the RHTP &mdash; it reported 20+ funding opportunities released with 10+ more coming this summer. Named solicitations include the Connected Care Grid <strong>Data Spine RFP</strong> (RHT26*4, sealed bids opened July 7), the <strong>Workforce Catalyst Program AFA</strong> ($500K, due Aug 5), <strong>Mountain State Care Force Provider Rotational Staffing Pools</strong> ($1.8M, due July 28), multiple CCG telehealth and mobile-unit AFAs, and the $24.1M Personal Health Accelerator nutrition-and-lifestyle solicitation. All applications route through the <strong>wvOASIS Vendor Self Service</strong> portal. Every dated dispatch covering West Virginia is listed below, newest first.</p>",
      "text": "West Virginia is running the fastest procurement cadence in the RHTP, reporting 20+ funding opportunities released with 10+ more coming. Named solicitations include the Connected Care Grid Data Spine RFP (sealed bids opened July 7), the Workforce Catalyst Program AFA ($500K, due Aug 5), Mountain State Care Force Provider Rotational Staffing Pools ($1.8M, due July 28), multiple CCG telehealth and mobile-unit AFAs, and the $24.1M Personal Health Accelerator solicitation. All applications route through the wvOASIS Vendor Self Service portal. Dispatches below carry the running record."
     },
     {
@@ -1866,7 +1866,7 @@
   },
   "Wisconsin": {
    "award_exact": null,
-   "lede": "Everything we track on Wisconsin's <strong>approximately $203.7 million</strong> Rural Health Transformation Program award &mdash; the DHS administration, the technology and care-coordination funding channels, the statewide EHR procurement, the two-round allocation design, and every dispatch we've published, in a question-and-answer format.",
+   "lede": "Wisconsin's <strong>approximately $203.7 million</strong> Rural Health Transformation Program award &mdash; the DHS administration, the technology and care-coordination funding channels, the statewide EHR procurement, the two-round allocation design, with a dated log of official activity.",
    "answers": [
     {
      "html": "<p>Wisconsin's first-year award is <strong>approximately $203.7 million</strong>, its share of the federal $50 billion Rural Health Transformation Program. The program is a five-year CMS cooperative agreement; CMS has not yet announced award amounts for the subsequent four years. Wisconsin is sequencing its money in rounds &mdash; for example, its Rural Technology Transformation Fund is designed as formula-based allocations of an estimated $209 million over five years (pending CMS approval), delivered in two rounds, with Round 1 in 2026 and the larger Round 2 in 2027.</p>",
@@ -1885,7 +1885,7 @@
      "text": "Wisconsin's marquee vehicle is the Rural Technology Transformation Fund: Round 1 is $61M over three years, an invitation-only competition limited to the 12 FQHC organizations and 28 Rural Health Clinic organizations named in the state's Exhibit 4 (RHCs see $28M in Year 1, ~$1.01M average per org; FQHCs see $15M, ~$1.26M average). Round 2 is an estimated $148M in 2027, reaching hospital systems (44), local health departments (69), Tribal clinics (14), and free/charitable and opioid-treatment facilities (26). A separate June batch put $40M into three grants — Care Coordination (up to $10M planning), Community Health Worker ($20M), and Rural Dental Efficiency and Access ($10M). Eligible technology buys are broad and hardware-specific — EHR/IT upgrades, data-analytics subscriptions, Bluetooth blood-pressure cuffs, continuous glucose monitors, ambient AI scribes, even robotic surgical systems — within federal caps (EHR replacement 5%, administrative 8%, minor renovations 20%; no new construction)."
     },
     {
-     "html": "<p>Wisconsin has moved on several fronts. It issued a <strong>statewide EHR RFP</strong> (eSupplier event S-FMF1944 OGM-26 / Event 14009, proposals due April 20) for a vendor to design, host and manage a full-service shared EHR, following an EHR Readiness and Interest survey. It opened the <strong>Rural Technology Transformation Fund Round 1 ($61M)</strong> in July, and released a June batch of three grants ($40M) for care coordination, community health workers and rural dental. Round 2 of the technology fund and its eligible-organization list won't post until 2027. Every dispatch we've published on Wisconsin is listed below, newest first, and it carries the running procurement record.</p>",
+     "html": "<p>Wisconsin has moved on several fronts. It issued a <strong>statewide EHR RFP</strong> (eSupplier event S-FMF1944 OGM-26 / Event 14009, proposals due April 20) for a vendor to design, host and manage a full-service shared EHR, following an EHR Readiness and Interest survey. It opened the <strong>Rural Technology Transformation Fund Round 1 ($61M)</strong> in July, and released a June batch of three grants ($40M) for care coordination, community health workers and rural dental. Round 2 of the technology fund and its eligible-organization list won't post until 2027. Every dated dispatch covering Wisconsin is listed below, newest first, and it carries the running procurement record.</p>",
      "text": "Wisconsin has moved on several fronts. It issued a statewide EHR RFP (eSupplier event S-FMF1944 OGM-26 / Event 14009, proposals due April 20) for a vendor to design, host and manage a full-service shared EHR, following an EHR Readiness and Interest survey. It opened the Rural Technology Transformation Fund Round 1 ($61M) in July, and released a June batch of three grants ($40M) for care coordination, community health workers and rural dental. Round 2 of the technology fund and its eligible-organization list won't post until 2027. The dated dispatches below carry the running record."
     },
     {
@@ -1904,7 +1904,7 @@
   },
   "Wyoming": {
    "award_exact": null,
-   "lede": "Everything we track on Wyoming's <strong>approximately $205.0M</strong> Rural Health Transformation Program award &mdash; the infrastructure-stabilization plan, the administering agency, its RFA portal and tech-vendor RFPs, and every dispatch we've published, in a question-and-answer format for vendors, providers, and consultants tracking the program.",
+   "lede": "Wyoming's <strong>approximately $205.0M</strong> Rural Health Transformation Program award &mdash; the infrastructure-stabilization plan, the administering agency, its RFA portal and tech-vendor RFPs, with a dated log of official activity for vendors, providers, and consultants tracking the program.",
    "answers": [
     {
      "html": "<p>Wyoming's award is <strong>approximately $205.0 million</strong> in Year-1 funding, its share of the federal $50 billion Rural Health Transformation Program. CMS structures the program as a five-year, spend-down initiative &mdash; a point Wyoming learned firsthand when CMS rejected the state's proposed perpetuity/endowment fund (which had aimed to stretch an anticipated ~$1 billion over five years for decades). Wyoming refiled a revised plan without the fund, which CMS approved in May 2026.</p>",
@@ -1919,7 +1919,7 @@
      "text": "Wyoming's plan focuses on stabilizing essential rural healthcare infrastructure rather than funding temporary programs or unneeded specialty services. Driven by the fundamentals of high fixed costs and low patient volumes across its frontier regions, the state prioritizes access to foundational care — emergency departments, reliable ambulances, and primary care — and building a durable workforce pipeline, alongside longer-term population-health investments."
     },
     {
-     "html": "<ul><li><strong>Emergency medical care access &mdash; roughly 48% of the budget</strong>, the largest share. Includes the &ldquo;Critical Access Hospital &ndash; Basic&rdquo; (CAHB) incentive rewarding small hospitals for maintaining 24/7 emergency departments, stroke/trauma imaging, and local ambulance service; EMS regionalization incentives; and &ldquo;BearCare,&rdquo; a public major-medical plan for residents priced out of comprehensive insurance.</li><li><strong>Workforce pipeline &mdash; over 25% of the budget</strong>, funding educational support and post-graduate medical slots for physicians, nurses, and EMS personnel in exchange for five-year rural service commitments.</li><li><strong>Population health</strong> &mdash; longer-term investments to improve rural health outcomes.</li></ul><p>Recurring focuses we track include EMS stabilization, robotics, pharmacy, and high-risk care. The full breakdown is in Wyoming's approved plan.</p>",
+     "html": "<ul><li><strong>Emergency medical care access &mdash; roughly 48% of the budget</strong>, the largest share. Includes the &ldquo;Critical Access Hospital &ndash; Basic&rdquo; (CAHB) incentive rewarding small hospitals for maintaining 24/7 emergency departments, stroke/trauma imaging, and local ambulance service; EMS regionalization incentives; and &ldquo;BearCare,&rdquo; a public major-medical plan for residents priced out of comprehensive insurance.</li><li><strong>Workforce pipeline &mdash; over 25% of the budget</strong>, funding educational support and post-graduate medical slots for physicians, nurses, and EMS personnel in exchange for five-year rural service commitments.</li><li><strong>Population health</strong> &mdash; longer-term investments to improve rural health outcomes.</li></ul><p>Recurring focuses on record include EMS stabilization, robotics, pharmacy, and high-risk care. The full breakdown is in Wyoming's approved plan.</p>",
      "text": "Emergency medical care access — roughly 48% of the budget, the largest share — includes the 'Critical Access Hospital – Basic' (CAHB) incentive rewarding small hospitals for maintaining 24/7 emergency departments, stroke/trauma imaging, and local ambulance service; EMS regionalization incentives; and 'BearCare,' a public major-medical plan for residents priced out of comprehensive insurance. Workforce pipeline — over 25% of the budget — funds educational support and post-graduate medical slots for physicians, nurses, and EMS personnel in exchange for five-year rural service commitments. Population health investments round out the plan. Recurring focuses include EMS stabilization, robotics, pharmacy, and high-risk care. The full breakdown is in Wyoming's approved plan."
     },
     {

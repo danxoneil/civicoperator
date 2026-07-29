@@ -4,7 +4,11 @@ Merges  states_data.json (Monday) + dispatch_index.json (Substack export parse)
 + content.json (authored Q&A)  ->  work/rht/states/<slug>/index.html  for all 50
 states, plus a states index. Authored states render full prose; the rest render
 honest structured-derived answers that upgrade automatically once authored."""
-import json, os, re, html, urllib.parse
+import json, os, re, html, urllib.parse, datetime
+
+LAST_REVIEWED = datetime.date.today().isoformat()
+SITE = "https://www.civicoperator.com"
+TRACKER = "https://www.ruralhealthtransformation.life"
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Default repo root = two levels up from state-spending-monitor/state_pages/.
@@ -44,6 +48,26 @@ EXTRA_CSS = """
 .card .nm{font-family:'Poppins',sans-serif;font-weight:700;font-size:1.12rem;color:#005f75;}
 .card .meta{font-size:.85rem;color:#6c757d;margin-top:4px;}
 .card .badge{font-family:'Poppins',sans-serif;font-size:.6rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:#0a7a3f;background:#e4f5ea;border-radius:5px;padding:2px 6px;}
+/* wave 1: hub intro, stats, how-it-works, sources, governance, methodology */
+.intro{color:#3d4348;font-size:1.02rem;max-width:70ch;}
+.intro p{margin:0 0 12px;}
+.stats{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 6px;}
+.stat{background:#fff;border:1px solid #eadbcd;border-radius:10px;padding:12px 18px;min-width:120px;}
+.stat .num{font-family:'Poppins',sans-serif;font-weight:700;font-size:1.5rem;color:#005f75;line-height:1.1;}
+.stat .lbl{font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:#8a7f72;margin-top:2px;}
+.how{background:#fff;border:1px solid #eadbcd;border-radius:10px;padding:16px 20px;margin:16px 0;}
+.how h2{border:0;font-size:1.15rem;margin:0 0 8px;padding:0;}
+.how .layer{display:flex;gap:12px;padding:8px 0;border-bottom:1px solid #f1e6d9;}
+.how .layer:last-child{border-bottom:0;}
+.how .tag{font-family:'Poppins',sans-serif;font-weight:700;font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:#005f75;flex:none;width:120px;}
+.how .desc{font-size:.95rem;color:#3d4348;}
+.st h3{font-family:'Poppins',sans-serif;font-weight:600;font-size:1rem;color:#333a40;margin:16px 0 4px;}
+.srcs{list-style:none;padding:0;margin:6px 0;}
+.srcs li{padding:6px 0;border-bottom:1px solid #eadbcd;font-size:.96rem;}
+.srcs .lbl{font-family:'Poppins',sans-serif;font-weight:600;font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;color:#8a7f72;display:block;}
+.gov{margin-top:8px;color:#8a7f72;font-size:.82rem;line-height:1.5;}
+.gov a{color:#007a99;text-decoration:none;} .gov a:hover{text-decoration:underline;}
+.doc{color:#3d4348;font-size:1rem;} .doc h2{margin-top:28px;}
 </style>"""
 
 NAV = """<header class="sitebar">
@@ -52,8 +76,9 @@ NAV = """<header class="sitebar">
     <a href="/work">Work</a>
     <a href="/work/rht">RHT Consulting</a>
     <a href="/work/rht/states">States</a>
+    <a href="/work/rht/states/methodology">Methodology</a>
     <a href="/about">About</a>
-    <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">The Tracker</a>
+    <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">Newsletter</a>
   </nav>
 </header>"""
 
@@ -65,6 +90,14 @@ def award_str(m):
     try: v = float(m)
     except: return None
     return f"${v:,.2f}M".replace(".00M", "M")
+
+def award_usd(auth, d):
+    """Best whole-dollar award figure: exact authored value if present, else Monday millions."""
+    if auth and auth.get("award_exact"):
+        digits = re.sub(r"[^0-9]", "", auth["award_exact"].split(".")[0])
+        if digits: return int(digits)
+    try: return int(round(float(d.get("award_m")) * 1_000_000))
+    except: return None
 
 def linkline(url, label):
     if not url: return ""
@@ -88,6 +121,7 @@ def build_facts(name, d):
     if d.get("email"): rows.append(("Program contact", f'<a href="mailto:{html.escape(d["email"])}">{html.escape(d["email"])}</a>'))
     if d.get("rfp_link"): rows.append(("Funding / RFP portal", f'<a href="{html.escape(clean_url(d["rfp_link"]))}">Funding opportunities</a>'))
     if d.get("advisory"): rows.append(("Advisory council", f'<a href="{html.escape(clean_url(d["advisory"]))}">Advisory council</a>'))
+    if d.get("gov_news"): rows.append(("Governor's newsroom", f'<a href="{html.escape(clean_url(d["gov_news"]))}">Press releases</a>'))
     if d.get("key_projects"): rows.append(("Key project focus", html.escape(d["key_projects"])))
     return rows
 
@@ -191,35 +225,85 @@ def render_state(name, d):
                   "live procurements, and every dispatch we've published, in a question-and-answer format.")
         status = "derived"
 
-    fact_rows = "".join(f'<div><div class="k">{k}</div><div class="v">{v}</div></div>' for k, v in facts)
-    faq = ""
-    ld_items = []
-    for (q, (ah, at)) in zip(qs, answers):
-        faq += f'<details><summary>{html.escape(q)}</summary><div class="a">{ah}</div></details>'
-        ld_items.append({"@type": "Question", "name": q,
-                         "acceptedAnswer": {"@type": "Answer", "text": at or strip_tags(ah)}})
-    ld = json.dumps({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": ld_items},
-                    ensure_ascii=False, indent=1)
     disp, ndisp = dispatch_html(name)
     hub = clean_url(d.get("hub_url"))
+    # append the tracker-dispatch count to the at-a-glance grid
+    facts = list(facts) + [("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}')]
+    fact_rows = "".join(f'<div><div class="k">{k}</div><div class="v">{v}</div></div>' for k, v in facts)
+
+    faq = ""
+    ld_faq = []
+    for (q, (ah, at)) in zip(qs, answers):
+        faq += f'<details><summary>{html.escape(q)}</summary><div class="a">{ah}</div></details>'
+        ld_faq.append({"@type": "Question", "name": q,
+                       "acceptedAnswer": {"@type": "Answer", "text": at or strip_tags(ah)}})
+
+    # ---- JSON-LD @graph: WebPage + GovernmentService + Dataset + FAQPage + BreadcrumbList ----
+    page_url = f"{SITE}/work/rht/states/{sl}/"
+    usd = award_usd(auth, d)
+    admin_name = d.get("program") or f"{name} state administering agency"
+    gov_service = {
+        "@type": "GovernmentService",
+        "@id": page_url + "#service",
+        "name": f"{name} Rural Health Transformation Program",
+        "serviceType": "Rural health transformation funding",
+        "areaServed": {"@type": "State", "name": name},
+        "provider": {"@type": "GovernmentOrganization", "name":
+                     "Centers for Medicare & Medicaid Services", "url": "https://www.cms.gov/"},
+        "administrator": {"@type": "GovernmentOrganization", "name": admin_name,
+                          **({"url": hub} if hub else {})},
+    }
+    dataset = {
+        "@type": "Dataset", "@id": page_url + "#dataset",
+        "name": f"{name} Rural Health Transformation Program \u2014 funding & procurement tracking",
+        "description": f"Structured profile of {name}'s CMS Rural Health Transformation Program award, "
+                       f"administering agency, official sources and dated activity.",
+        "isAccessibleForFree": True, "creator": {"@type": "Organization", "name": "Civic Operator LLC"},
+        "dateModified": LAST_REVIEWED,
+        "variableMeasured": [
+            *([{"@type": "PropertyValue", "name": "CMS Year-1 award", "unitText": "USD",
+                "value": usd}] if usd else []),
+            {"@type": "PropertyValue", "name": "Tracker dispatches", "value": ndisp},
+        ],
+    }
+    webpage = {
+        "@type": "WebPage", "@id": page_url, "url": page_url,
+        "name": f"{name} \u2014 State Procurement & Funding Profile",
+        "isPartOf": {"@type": "CollectionPage", "@id": f"{SITE}/work/rht/states/"},
+        "about": {"@id": page_url + "#service"},
+        "dateModified": LAST_REVIEWED,
+        "publisher": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE},
+    }
+    breadcrumb = {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + u}
+        for i, (n, u) in enumerate([("Home", "/"), ("Work", "/work"), ("RHT", "/work/rht"),
+                                    ("States", "/work/rht/states/"), (name, f"/work/rht/states/{sl}/")])]}
+    faqpage = {"@type": "FAQPage", "@id": page_url + "#faq", "mainEntity": ld_faq}
+    ld = json.dumps({"@context": "https://schema.org",
+                     "@graph": [webpage, gov_service, dataset, faqpage, breadcrumb]},
+                    ensure_ascii=False, indent=1)
+
     hub_line = (f'<a class="hub" href="{html.escape(hub)}" target="_blank" rel="noopener">'
                 f'{name}\u2019s official RHTP hub &rarr;</a>') if hub else ""
-    disp_block = (f'<div class="st"><h2>{name} dispatches <span class="n">&middot; {ndisp} from the Tracker</span></h2>'
-                  f'<p class="note-q">Auto-updated from newsletter exports &mdash; each headline deep-links to that '
-                  f'story inside the dated brief (subscriber content).</p>{disp}</div>') if ndisp else ""
+    disp_block = (f'<div class="st"><h2>Activity log <span class="n">&middot; {ndisp} dated '
+                  f'{"brief" if ndisp==1 else "briefs"}</span></h2>'
+                  f'<p class="note-q">A chronological archive of coverage of {name}\u2019s program. Each entry '
+                  f'deep-links to that story\u2019s section in the dated brief on the '
+                  f'<a href="{TRACKER}/" target="_blank" rel="noopener" style="color:#007a99;">Rural Health '
+                  f'Transformation Grant Tracker</a> (the analysis layer).</p>{disp}</div>') if ndisp else ""
 
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{name} Rural Health Transformation Program &mdash; Plan, Budget &amp; Procurements &middot; Civic Operator</title>
-<meta name="description" content="{name}'s CMS Rural Health Transformation Program: who runs it, where the money goes, what's been procured, and every newsletter dispatch &mdash; in a Q&amp;A format.">
+<title>{name} Rural Health Transformation Program &mdash; State Procurement &amp; Funding Profile &middot; Civic Operator</title>
+<meta name="description" content="Structured reference profile of {name}'s CMS Rural Health Transformation Program: award amount, administering agency, official .gov sources, procurements, and a dated activity log.">
 <link rel="icon" href="/favicon.ico">
-<meta property="og:title" content="{name} Rural Health Transformation Program &mdash; Q&amp;A">
+<meta property="og:title" content="{name} &mdash; RHTP State Procurement &amp; Funding Profile">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.civicoperator.com/work/rht/states/{sl}">
-<link rel="canonical" href="https://www.civicoperator.com/work/rht/states/{sl}/">
+<meta property="og:url" content="{page_url}">
+<link rel="canonical" href="{page_url}">
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
@@ -229,62 +313,177 @@ def render_state(name, d):
 <body>
 {NAV}
 <div class="ai">
-<p class="eyebrow">Rural Health Transformation Program &middot; State Profile</p>
+<p class="eyebrow">Rural Health Transformation Program &middot; State Procurement &amp; Funding Profile</p>
 <h1>{name}</h1>
 <p class="lede">{lede}</p>
 {hub_line}
 <div class="rule"></div>
-<div class="facts">{fact_rows}</div>
-<p class="prov">Quick facts sourced from the Civic Operator RHT tracker (Monday board: States &ndash; RHT). Last reviewed 2026-07-28.</p>
+<div class="st"><h2>At a glance</h2>
+<div class="facts">{fact_rows}</div></div>
 <div class="st"><h2>Questions &amp; answers</h2><div class="faq">{faq}</div></div>
 {disp_block}
-<footer>Rural Health Transformation Grant Tracker &middot; State profile: {name} &middot; <a href="https://www.ruralhealthtransformation.life/" style="color:#007a99;">ruralhealthtransformation.life</a> &middot; <a href="/work/rht/states" style="color:#007a99;">All states</a></footer>
+<p class="gov">Independent reference profile compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources (CMS, {name} .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
+<footer>Rural Health Transformation Grant Tracker &middot; {name} &middot; <a href="{TRACKER}/" style="color:#007a99;">ruralhealthtransformation.life</a></footer>
 </div>
 </body>
 </html>"""
     d_out = os.path.join(OUT_ROOT, sl)
     os.makedirs(d_out, exist_ok=True)
     open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
-    return {"name": name, "slug": sl, "award": award_str(d.get("award_m")), "ndisp": ndisp, "status": status}
+    return {"name": name, "slug": sl, "award": award_str(d.get("award_m")),
+            "usd": usd, "ndisp": ndisp, "status": status}
 
-# ---------- index page ----------
+# ---------- index page (hub root) ----------
 def render_index(cards):
     cards_sorted = sorted(cards, key=lambda c: c["name"])
     grid = ""
     for c in cards_sorted:
-        badge = '<span class="badge">Full profile</span>' if c["status"] == "authored" else ""
         aw = f'~{c["award"]}' if c["award"] else "&mdash;"
         grid += (f'<a class="card" href="/work/rht/states/{c["slug"]}/">'
-                 f'<div class="nm">{c["name"]} {badge}</div>'
+                 f'<div class="nm">{c["name"]}</div>'
                  f'<div class="meta">{aw} &middot; {c["ndisp"]} dispatch{"es" if c["ndisp"]!=1 else ""}</div></a>')
     total_disp = sum(c["ndisp"] for c in cards)
+    total_usd = sum(c.get("usd") or 0 for c in cards)
+    total_b = f"${total_usd/1_000_000_000:.1f}B"
+    with_disp = sum(1 for c in cards if c["ndisp"])
+    stats = (f'<div class="stats">'
+             f'<div class="stat"><div class="num">{len(cards)}</div><div class="lbl">States tracked</div></div>'
+             f'<div class="stat"><div class="num">{total_b}</div><div class="lbl">Year-1 CMS awards</div></div>'
+             f'<div class="stat"><div class="num">{total_disp}</div><div class="lbl">Dated dispatches</div></div>'
+             f'<div class="stat"><div class="num">{with_disp}</div><div class="lbl">States with activity</div></div>'
+             f'</div>')
+    how = ('<div class="how"><h2>How this works</h2>'
+           '<div class="layer"><div class="tag">Primary source</div><div class="desc">Federal and state government pages &mdash; CMS, each state’s .gov RHTP program and procurement portals, and Governor newsrooms. Every profile links out to these.</div></div>'
+           '<div class="layer"><div class="tag">Reference layer</div><div class="desc">This site. A neutral, structured, independently maintained profile of each state’s program &mdash; award, administering agency, official sources, and a dated activity log.</div></div>'
+           '<div class="layer"><div class="tag">Analysis layer</div><div class="desc">The <a href="' + TRACKER + '/" target="_blank" rel="noopener">Rural Health Transformation Grant Tracker</a> newsletter &mdash; commentary, interpretation and reporting. Profiles link into its dated briefs; the analysis lives there, not here.</div></div>'
+           '</div>')
+    coll = json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": "CollectionPage", "@id": f"{SITE}/work/rht/states/",
+         "url": f"{SITE}/work/rht/states/", "name": "Rural Health Transformation Program — State Profiles",
+         "description": "Independent, state-by-state reference profiles of the CMS Rural Health Transformation Program.",
+         "dateModified": LAST_REVIEWED,
+         "isPartOf": {"@type": "WebSite", "name": "Civic Operator", "url": SITE},
+         "publisher": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE},
+         "hasPart": [{"@type": "WebPage", "name": c["name"],
+                      "url": f'{SITE}/work/rht/states/{c["slug"]}/'} for c in cards_sorted]},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": i+1, "name": n, "item": SITE+u} for i, (n, u) in
+            enumerate([("Home", "/"), ("Work", "/work"), ("RHT", "/work/rht"), ("States", "/work/rht/states/")])]}
+    ]}, ensure_ascii=False, indent=1)
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rural Health Transformation Program &mdash; State Profiles &middot; Civic Operator</title>
-<meta name="description" content="Q&amp;A profiles of all 50 states' CMS Rural Health Transformation Program plans, budgets, procurements and dispatches.">
+<title>Rural Health Transformation Program &mdash; State-by-State Reference &middot; Civic Operator</title>
+<meta name="description" content="An independent, state-by-state reference for the $50B CMS Rural Health Transformation Program: award amounts, administering agencies, official .gov sources, procurements, and a dated activity log for all 50 states.">
 <link rel="icon" href="/favicon.ico">
-<link rel="canonical" href="https://www.civicoperator.com/work/rht/states/">
+<link rel="canonical" href="{SITE}/work/rht/states/">
 {STYLE}
 {EXTRA_CSS}
+<script type="application/ld+json">
+{coll}
+</script>
 </head>
 <body>
 {NAV}
 <div class="ai">
 <p class="eyebrow">Rural Health Transformation Program</p>
-<h1>State Profiles</h1>
-<p class="lede">A permanent, question-and-answer profile of every state's CMS Rural Health Transformation Program &mdash; the plan, the money, the agencies, live procurements, and every dispatch from the <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">Rural Health Transformation Grant Tracker</a>. {len(cards)} states &middot; {total_disp} dispatches.</p>
-<a class="hub" href="/work/rht/activity">See the quarterly activity index &rarr;</a>
-<a class="hub" href="https://www.ruralhealthtransformation.life/subscribe" target="_blank" rel="noopener" style="margin-left:18px;">Subscribe now &rarr;</a>
-<div class="rule"></div>
-<div class="grid">{grid}</div>
-<footer>Rural Health Transformation Grant Tracker &middot; State profiles &middot; <a href="https://www.ruralhealthtransformation.life/" style="color:#007a99;">ruralhealthtransformation.life</a></footer>
+<h1>State-by-State Reference</h1>
+<div class="intro">
+<p>The <strong>Rural Health Transformation Program (RHTP)</strong> is a $50 billion, five-year CMS program &mdash; created by Section 71401 of the One Big Beautiful Bill Act (2025) &mdash; that awarded every U.S. state a share to transform rural health care. Each state administers its own award through a designated agency, on its own timeline, with its own procurements.</p>
+<p>This is an <strong>independent reference</strong> to that program, state by state. Each profile collects the facts that are otherwise scattered across dozens of government sites: the state’s CMS award, its administering agency and contacts, its official program and procurement pages, and a dated log of activity &mdash; each entry deep-linked to the source. It is maintained by Civic Operator LLC as a neutral archive; commentary and analysis live separately on the newsletter.</p>
+</div>
+{stats}
+{how}
+<div class="st"><h2>Browse all {len(cards)} states</h2>
+<p class="note-q">Each card: state &middot; CMS Year-1 award &middot; number of dated dispatches. Open a state for its full profile.</p>
+<div class="grid">{grid}</div></div>
+<p class="gov">Maintained by <strong>Civic Operator LLC</strong>. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/activity">Quarterly activity index</a></p>
+<footer>Rural Health Transformation Program &middot; State-by-state reference &middot; Civic Operator LLC &middot; <a href="{TRACKER}/" style="color:#007a99;">Newsletter &amp; analysis</a></footer>
 </div>
 </body>
 </html>"""
     open(os.path.join(OUT_ROOT, "index.html"), "w", encoding="utf-8").write(page)
+
+# ---------- methodology / sources / about ----------
+def render_methodology(cards):
+    total_usd = sum(c.get("usd") or 0 for c in cards)
+    total_b = f"${total_usd/1_000_000_000:.1f}B"
+    body = f"""<div class="doc">
+<p class="lede">How the Civic Operator Rural Health Transformation Program reference is compiled, sourced, and maintained.</p>
+
+<h2>What this is (and isn’t)</h2>
+<p>This is an independent, structured <strong>reference</strong> to the CMS Rural Health Transformation Program (RHTP) &mdash; a $50 billion, five-year program covering all 50 states ({total_b} in Year-1 awards tracked here). It exists to collect, in one predictable place per state, facts that are otherwise scattered across federal and state government sites. It is <strong>not</strong> a government site, and it is not the program’s commentary layer &mdash; interpretation, opinion and reporting live on the separate <a href="{TRACKER}/" target="_blank" rel="noopener">Rural Health Transformation Grant Tracker</a> newsletter.</p>
+
+<h2>Sources we monitor</h2>
+<ul>
+<li><strong>CMS</strong> &mdash; the federal program, Notices of Award, and guidance (cms.gov/RHTProgram).</li>
+<li><strong>State .gov program pages</strong> &mdash; each state’s official RHTP hub.</li>
+<li><strong>State procurement portals</strong> &mdash; RFPs, NOFOs, RFAs and award postings.</li>
+<li><strong>Governor newsrooms</strong> &mdash; press releases, monitored for rural-health announcements.</li>
+<li><strong>Primary documents</strong> &mdash; CMS-approved project and budget narratives.</li>
+<li><strong>The Tracker’s dated dispatches</strong> &mdash; used as a chronological record of what happened and when, each deep-linked to its source brief.</li>
+</ul>
+
+<h2>How facts are derived</h2>
+<p>Award amounts, administering agencies, procurement details and dates are drawn from the primary sources above and from the program’s own dated reporting. Where a precise figure (e.g. an exact CMS award) appears in a primary source, we use it; otherwise we label a figure as approximate. We do not invent figures, agencies, or dates.</p>
+
+<h2>Update cadence</h2>
+<ul>
+<li><strong>Nightly</strong> &mdash; official-source links and the dated activity log refresh automatically.</li>
+<li><strong>Weekly (Sundays)</strong> &mdash; state profiles are regenerated from the latest reporting; material changes are reviewed before publication.</li>
+<li>Every page carries a <strong>&ldquo;last reviewed&rdquo;</strong> date.</li>
+</ul>
+
+<h2>Inclusion &amp; corrections</h2>
+<p>A state is profiled once it has a CMS RHTP award. An activity-log entry is included when the program’s reporting covers that state by name. Spotted an error or omission? Corrections are welcome &mdash; the fastest path is the newsletter contact channel; verified corrections are applied at the next regeneration.</p>
+
+<h2>Reference vs. analysis</h2>
+<p>We keep a strict line between <strong>facts</strong> (award amounts, agencies, official documents, procurements, dates &mdash; here) and <strong>analysis</strong> (interpretation, trends, implications &mdash; on the newsletter). Profiles link into the newsletter’s dated briefs for context, but the reference layer stays neutral.</p>
+
+<h2>Editorial ownership</h2>
+<p>Compiled and maintained by <strong>Civic Operator LLC</strong>. Last reviewed {LAST_REVIEWED}.</p>
+</div>"""
+    coll = json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": "WebPage", "@id": f"{SITE}/work/rht/states/methodology/",
+         "url": f"{SITE}/work/rht/states/methodology/",
+         "name": "Methodology & Sources — RHTP State Reference",
+         "dateModified": LAST_REVIEWED,
+         "publisher": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE}},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": i+1, "name": n, "item": SITE+u} for i, (n, u) in
+            enumerate([("Home", "/"), ("Work", "/work"), ("RHT", "/work/rht"),
+                       ("States", "/work/rht/states/"), ("Methodology", "/work/rht/states/methodology/")])]}
+    ]}, ensure_ascii=False, indent=1)
+    page = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Methodology &amp; Sources &mdash; RHTP State Reference &middot; Civic Operator</title>
+<meta name="description" content="How the Civic Operator Rural Health Transformation Program state reference is sourced, derived, updated, and maintained &mdash; and how it separates neutral reference from newsletter analysis.">
+<link rel="icon" href="/favicon.ico">
+<link rel="canonical" href="{SITE}/work/rht/states/methodology/">
+{STYLE}
+{EXTRA_CSS}
+<script type="application/ld+json">
+{coll}
+</script>
+</head>
+<body>
+{NAV}
+<div class="ai">
+<p class="eyebrow">Rural Health Transformation Program &middot; Reference</p>
+<h1>Methodology &amp; Sources</h1>
+{body}
+<footer>Rural Health Transformation Program &middot; Methodology &middot; Civic Operator LLC &middot; <a href="/work/rht/states" style="color:#007a99;">All states</a></footer>
+</div>
+</body>
+</html>"""
+    d_out = os.path.join(OUT_ROOT, "methodology")
+    os.makedirs(d_out, exist_ok=True)
+    open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
 
 # ---------- run ----------
 os.makedirs(OUT_ROOT, exist_ok=True)
@@ -294,7 +493,8 @@ for name, d in states_data.items():
         continue
     cards.append(render_state(name, d))
 render_index(cards)
+render_methodology(cards)
 auth = sum(1 for c in cards if c["status"] == "authored")
-print(f"Generated {len(cards)} state pages + index  |  authored: {auth}  |  derived: {len(cards)-auth}")
-print(f"Total dispatches linked: {sum(c['ndisp'] for c in cards)}")
+print(f"Generated {len(cards)} state pages + index + methodology  |  authored: {auth}  |  derived: {len(cards)-auth}")
+print(f"Total dispatches linked: {sum(c['ndisp'] for c in cards)}  |  Year-1 awards: ${sum(c.get('usd') or 0 for c in cards)/1e9:.1f}B")
 print("Output:", OUT_ROOT)
