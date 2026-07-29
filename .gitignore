@@ -53,3 +53,7 @@ state-spending-monitor/newsletter-metadata.json
 
 # Claude Code local config
 .claude/
+
+# RHT product data — never publish (RHTP Alerts feed + paywalled newsletter content)
+state-spending-monitor/state_pages/procurements.json
+state-spending-monitor/state_pages/dispatch_sources.json

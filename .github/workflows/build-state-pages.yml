@@ -45,10 +45,9 @@ jobs:
           MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
         run: python fetch_monday.py
 
-      - name: Refresh procurements
-        env:
-          MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
-        run: python fetch_procurements.py
+      # NOTE: procurements.json and dispatch_sources.json are intentionally NOT
+      # produced or committed here — they are product data (RHTP Alerts feed /
+      # paywalled newsletter content) and must never land in this public repo.
 
       - name: Build state pages
         run: python build.py
@@ -58,7 +57,7 @@ jobs:
           cd "$GITHUB_WORKSPACE"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add work/rht/states state-spending-monitor/state_pages/states_data.json state-spending-monitor/state_pages/procurements.json
+          git add work/rht/states state-spending-monitor/state_pages/states_data.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

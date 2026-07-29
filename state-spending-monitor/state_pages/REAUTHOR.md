@@ -1,5 +1,14 @@
 # Weekly RHT state re-authoring routine
 
+> **⏸ PAUSED (2026-07-29).** The scheduled routine is disabled. Its grounding
+> files — `dispatch_sources.json` (paywalled newsletter content) and
+> `procurements.json` (RHTP Alerts feed) — were removed from this **public**
+> repo to protect those products, so the inputs below are no longer present
+> here. Before re-enabling, re-point grounding to a **private source** (the
+> `danxoneil/RHT` repo produced by the RHT automation, or runtime regeneration
+> via the routine's Monday/Drive MCP connectors), and update the input paths
+> below. Tracked for the next working session.
+
 **You are the Sunday re-author agent.** Keep the 50 state Q&A profiles current
 with the week's newsletter reporting, and surface any changes as a **pull
 request** for DXO to review before it reaches production. **Never push to
