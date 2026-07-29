@@ -131,7 +131,7 @@ def build_facts(name, d):
     if d.get("hub_url"): rows.append(("Official RHTP hub", f'<a href="{html.escape(clean_url(d["hub_url"]))}">{html.escape(name)} program page</a>'))
     if d.get("email"): rows.append(("Program contact", f'<a href="mailto:{html.escape(d["email"])}">{html.escape(d["email"])}</a>'))
     if d.get("rfp_link"): rows.append(("Funding / RFP portal", f'<a href="{html.escape(clean_url(d["rfp_link"]))}">Funding opportunities</a>'))
-    if d.get("advisory"): rows.append(("Advisory council", f'<a href="{html.escape(clean_url(d["advisory"]))}">Advisory council</a>'))
+    if d.get("advisory"): rows.append(("Advisory committee", f'<a href="{html.escape(clean_url(d["advisory"]))}" target="_blank" rel="noopener">Members &amp; meetings</a>'))
     if d.get("gov_news"): rows.append(("Governor's newsroom", f'<a href="{html.escape(clean_url(d["gov_news"]))}">Press releases</a>'))
     if d.get("key_projects"): rows.append(("Key project focus", html.escape(d["key_projects"])))
     return rows
