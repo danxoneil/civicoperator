@@ -393,10 +393,10 @@ def render_state(name, d):
                 f'{name}\u2019s official RHTP hub &rarr;</a>') if hub else ""
     disp_block = (f'<div class="st"><h2>Activity log <span class="n">&middot; {ndisp} dated '
                   f'{"brief" if ndisp==1 else "briefs"}</span></h2>'
-                  f'<p class="note-q">A chronological archive of coverage of {name}\u2019s program. Each entry '
-                  f'deep-links to that story\u2019s section in the dated brief on the '
-                  f'<a href="{TRACKER}/" target="_blank" rel="noopener" style="color:#007a99;">Rural Health '
-                  f'Transformation Grant Tracker</a> (the analysis layer).</p>{disp}</div>') if ndisp else ""
+                  f'<p class="note-q">Chronology of official activity compiled from automated monitoring '
+                  f'of state sources, with personal review and verification. Links to primary documents and '
+                  f'related <a href="{TRACKER}/" target="_blank" rel="noopener" style="color:#007a99;">Tracker '
+                  f'analysis</a>.</p>{disp}</div>') if ndisp else ""
 
     page = f"""<!DOCTYPE html>
 <html lang="en">
