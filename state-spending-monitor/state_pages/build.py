@@ -22,6 +22,8 @@ dispatches  = json.load(open(os.path.join(HERE, "dispatch_index.json"), encoding
 content     = json.load(open(os.path.join(HERE, "content.json"), encoding="utf-8"))
 PROC_PATH   = os.path.join(HERE, "procurements.json")
 procurements = json.load(open(PROC_PATH, encoding="utf-8")) if os.path.exists(PROC_PATH) else {}
+SHOTS_PATH  = os.path.join(HERE, "screenshots_meta.json")
+screenshots = json.load(open(SHOTS_PATH, encoding="utf-8")) if os.path.exists(SHOTS_PATH) else {}
 QUESTIONS   = content["questions"]
 AUTHORED    = content["authored"]
 
@@ -79,6 +81,11 @@ EXTRA_CSS = """
 .ptab td a{color:#005f75;text-decoration:none;} .ptab td a:hover{text-decoration:underline;}
 .ptab .dt{font-family:'Poppins',sans-serif;font-weight:600;font-size:.62rem;letter-spacing:.03em;text-transform:uppercase;color:#005f75;background:#eef4f6;border-radius:5px;padding:2px 7px;white-space:nowrap;}
 .ptab td:nth-child(3),.ptab td:nth-child(4){font-family:ui-monospace,monospace;font-size:.78rem;color:#6c757d;white-space:nowrap;}
+/* state page hero (official .gov page capture) */
+.hero{margin:16px 0 4px;}
+.hero img{display:block;width:100%;height:auto;border:1px solid #eadbcd;border-radius:10px;}
+.hero figcaption{color:#8a7f72;font-size:.82rem;margin-top:6px;line-height:1.45;}
+.hero figcaption a{color:#007a99;text-decoration:none;} .hero figcaption a:hover{text-decoration:underline;}
 </style>"""
 
 NAV = """<header class="sitebar">
@@ -267,6 +274,25 @@ def procurement_block(name):
             f'<th>Published</th><th>Deadline</th></tr></thead><tbody>{rows}</tbody></table></div></div>')
 
 # ---------- render one state ----------
+def hero_block(name):
+    """Cropped top-of-page capture of the state's official RHTP .gov page."""
+    meta = screenshots.get(name)
+    if not meta:
+        return ""
+    sl = slug(name)
+    hub = clean_url(states_data.get(name, {}).get("hub_url"))
+    domain = urllib.parse.urlparse(hub).netloc.replace("www.", "") if hub else ""
+    alt = (f"Screenshot of the top of {name}'s official Rural Health Transformation Program page"
+           + (f" at {domain}" if domain else "") + ", the state's primary RHTP source.")
+    o = f'<a href="{html.escape(hub)}" target="_blank" rel="noopener">' if hub else ""
+    c = "</a>" if hub else ""
+    cap_src = f'{o}{html.escape(domain)}{c}' if domain else "the official state page"
+    return (f'<figure class="hero">{o}'
+            f'<img src="/img/states/{sl}.webp" width="1000" height="519" loading="lazy" '
+            f'alt="{html.escape(alt)}">{c}'
+            f'<figcaption>{name}’s official Rural Health Transformation Program page &mdash; '
+            f'{cap_src}, captured {meta.get("date","")}.</figcaption></figure>')
+
 def render_state(name, d):
     sl = slug(name)
     auth = AUTHORED.get(name)
@@ -349,6 +375,10 @@ def render_state(name, d):
         "about": {"@id": page_url + "#service"},
         "dateModified": LAST_REVIEWED,
         "publisher": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE},
+        **({"primaryImageOfPage": {"@type": "ImageObject",
+            "url": f"{SITE}/img/states/{sl}.webp",
+            "caption": f"{name}'s official Rural Health Transformation Program page"}}
+           if name in screenshots else {}),
     }
     breadcrumb = {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": i + 1, "name": n, "item": SITE + u}
@@ -393,6 +423,7 @@ def render_state(name, d):
 <h1>{name}</h1>
 <p class="lede">{lede}</p>
 {hub_line}
+{hero_block(name)}
 <div class="rule"></div>
 <div class="st"><h2>At a glance</h2>
 <div class="facts">{fact_rows}</div></div>
