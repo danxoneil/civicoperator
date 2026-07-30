@@ -24,6 +24,12 @@ PROC_PATH   = os.path.join(HERE, "procurements.json")
 procurements = json.load(open(PROC_PATH, encoding="utf-8")) if os.path.exists(PROC_PATH) else {}
 SHOTS_PATH  = os.path.join(HERE, "screenshots_meta.json")
 screenshots = json.load(open(SHOTS_PATH, encoding="utf-8")) if os.path.exists(SHOTS_PATH) else {}
+KPI_PATH    = os.path.join(HERE, "kpis.json")
+kpis_raw    = json.load(open(KPI_PATH, encoding="utf-8")) if os.path.exists(KPI_PATH) else {"states": []}
+# self-declared metrics/objectives extracted from each state's CMS project narrative,
+# keyed by state display name. Only `tracked` (the topic list) is surfaced publicly;
+# the detailed baseline->target rows stay for the paywalled tracker.
+KPIS        = {s["state"]: s for s in kpis_raw.get("states", []) if s.get("tracked")}
 QUESTIONS   = content["questions"]
 AUTHORED    = content["authored"]
 
@@ -86,6 +92,9 @@ EXTRA_CSS = """
 .hero img{display:block;width:100%;height:auto;border:1px solid #eadbcd;border-radius:10px;}
 .hero figcaption{color:#8a7f72;font-size:.82rem;margin-top:6px;line-height:1.45;}
 .hero figcaption a{color:#007a99;text-decoration:none;} .hero figcaption a:hover{text-decoration:underline;}
+/* self-declared metrics: Topics-style chips from the state's project narrative */
+.kpi{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px;}
+.kpi .kchip{font-family:'Poppins',sans-serif;font-size:.82rem;color:#00596c;background:#eef4f6;border:1px solid #d5e5ea;border-radius:20px;padding:5px 13px;white-space:nowrap;}
 </style>"""
 
 NAV = """<header class="sitebar">
@@ -273,6 +282,30 @@ def procurement_block(name):
             f'<div class="ptab-wrap"><table class="ptab"><thead><tr><th>Document</th><th>Type</th>'
             f'<th>Published</th><th>Deadline</th></tr></thead><tbody>{rows}</tbody></table></div></div>')
 
+# ---------- self-declared metrics (Topics-style) ----------
+def kpi_block(name):
+    """Public 'what the state committed to measure' list, drawn from the state's
+    CMS project narrative's metrics/evaluation section. Surfaces only the topic
+    chips; detailed baselines/targets stay in the paywalled tracker."""
+    k = KPIS.get(name)
+    if not k or not k.get("tracked"):
+        return ""
+    chips = "".join(f'<span class="kchip">{html.escape(t)}</span>' for t in k["tracked"])
+    url = (k.get("source") or {}).get("url")
+    if url:
+        srcline = (f'Source: <a href="{html.escape(clean_url(url))}" target="_blank" rel="noopener">'
+                   f'{name}’s RHTP project narrative</a>.')
+    else:
+        srcline = f'Source: {name}’s CMS-approved RHTP project narrative.'
+    return (f'<div class="st"><h2>What {name} committed to measure</h2>'
+            f'<p class="note-q">The subjects {name}’s funded application pledges to track and report to CMS '
+            f'— the yardsticks its progress will be measured against. Extracted from the state’s own '
+            f'project narrative; the detailed baselines and targets behind each are tracked in the '
+            f'<a href="{TRACKER}/" target="_blank" rel="noopener" style="color:#007a99;">newsletter</a>.</p>'
+            f'<div class="kpi">{chips}</div>'
+            f'<p class="prov">{srcline} These are the state’s self-declared objectives; '
+            f'CMS weighs each state’s progress against its own commitments.</p></div>')
+
 # ---------- render one state ----------
 def hero_block(name):
     """Cropped top-of-page capture of the state's official RHTP .gov page."""
@@ -427,6 +460,7 @@ def render_state(name, d):
 <div class="rule"></div>
 <div class="st"><h2>At a glance</h2>
 <div class="facts">{fact_rows}</div></div>
+{kpi_block(name)}
 <div class="st"><h2>Questions &amp; answers</h2><div class="faq">{faq}</div></div>
 {disp_block}
 <p class="gov">Independent reference profile compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources (CMS, {name} .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
