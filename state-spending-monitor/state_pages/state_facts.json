@@ -3,7 +3,7 @@
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
   "obligated": 203404326.54,
-  "agency_name": "Economic and Community Affairs, Alabama Department of"
+  "agency_name": "Alabama Department of Economic and Community Affairs"
  },
  "Alaska": {
   "tier_label": "federal HRSA default",
@@ -21,7 +21,7 @@
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
   "obligated": 208779396.02,
-  "agency_name": "Executive Office of the State of Arkansa"
+  "agency_name": "Executive Office of the State of Arkansas"
  },
  "California": {
   "tier_label": "own rural geography",
@@ -111,7 +111,7 @@
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
   "obligated": 190008051.09,
-  "agency_name": "Health and Human Services, Maine Department of"
+  "agency_name": "Maine Department of Health and Human Services"
  },
  "Maryland": {
   "tier_label": "own rural geography",
@@ -177,7 +177,7 @@
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
   "obligated": 147250805.85,
-  "agency_name": "Human Services, New Jersey Department of"
+  "agency_name": "New Jersey Department of Human Services"
  },
  "New Mexico": {
   "tier_label": "own rural geography",
@@ -231,7 +231,7 @@
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
   "obligated": 156169931.19,
-  "agency_name": "Health & Human Services, Rhode Island Executive Office of"
+  "agency_name": "Rhode Island Executive Office of Health & Human Services"
  },
  "South Carolina": {
   "tier_label": "federal HRSA default",

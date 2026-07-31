@@ -31,14 +31,23 @@ ORG = {
 # GA4 tag (public Measurement ID; ships in page HTML by design). Emitted into
 # every page <head> when set; empty string = no tag.
 GA_ID = "G-H2EB005NB5"
-ANALYTICS = (f'''<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){{dataLayer.push(arguments);}}
-gtag('js', new Date());
-gtag('config', '{GA_ID}');
-</script>''' if GA_ID else "")
+def ga_tag(page_type, state=None):
+    """gtag.js snippet with GA4 custom-dimension params (event-scoped). Register
+    'page_type' and 'state_name' as custom dimensions in the GA4 UI to segment."""
+    if not GA_ID:
+        return ""
+    params = {"page_type": page_type}
+    if state:
+        params["state_name"] = state
+    cfg = json.dumps(params)
+    return (f'<!-- Google tag (gtag.js) -->\n'
+            f'<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>\n'
+            f'<script>\n'
+            f'window.dataLayer = window.dataLayer || [];\n'
+            f'function gtag(){{dataLayer.push(arguments);}}\n'
+            f"gtag('js', new Date());\n"
+            f"gtag('config', '{GA_ID}', {cfg});\n"
+            f'</script>')
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Default repo root = two levels up from state-spending-monitor/state_pages/.
@@ -507,6 +516,7 @@ def render_state(name, d):
                   f'related <a href="{TRACKER}/" target="_blank" rel="noopener" style="color:#007a99;">Tracker '
                   f'analysis</a>.</p>{disp}</div>') if ndisp else ""
 
+    analytics = ga_tag("state_profile", name)
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -520,7 +530,7 @@ def render_state(name, d):
 <meta property="og:type" content="website">
 <meta property="og:url" content="{page_url}">
 <link rel="canonical" href="{page_url}">
-{ANALYTICS}
+{analytics}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
@@ -600,6 +610,7 @@ def render_index(cards):
             {"@type": "ListItem", "position": i+1, "name": n, "item": SITE+u} for i, (n, u) in
             enumerate([("Home", "/"), ("Work", "/work"), ("RHT", "/work/rht"), ("States", "/work/rht/states/")])]}
     ]}, ensure_ascii=False, indent=1)
+    analytics = ga_tag("reference_hub")
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -611,7 +622,7 @@ def render_index(cards):
 <meta property="og:description" content="Exact CMS awards, administering agencies, rural definitions, committed metrics and official sources for all 50 states' Rural Health Transformation Programs.">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="{SITE}/work/rht/states/">
-{ANALYTICS}
+{analytics}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
@@ -699,6 +710,7 @@ def render_methodology(cards):
             enumerate([("Home", "/"), ("Work", "/work"), ("RHT", "/work/rht"),
                        ("States", "/work/rht/states/"), ("Methodology", "/work/rht/states/methodology/")])]}
     ]}, ensure_ascii=False, indent=1)
+    analytics = ga_tag("methodology")
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -708,7 +720,7 @@ def render_methodology(cards):
 <meta name="description" content="How the Civic Operator Rural Health Transformation Program state reference is sourced, derived, updated, and maintained &mdash; and how it separates neutral reference from newsletter analysis.">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="{SITE}/work/rht/states/methodology/">
-{ANALYTICS}
+{analytics}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
@@ -753,6 +765,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
                        ("States", "/work/rht/states/"), (h1, f"/work/rht/states/{slug_}/")])]}
     ]}, ensure_ascii=False, indent=1)
     note_html = f'<p class="note-q">{note}</p>' if note else ""
+    analytics = ga_tag("cluster")
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -764,7 +777,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 <meta property="og:description" content="{description}">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="{page_url}">
-{ANALYTICS}
+{analytics}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
