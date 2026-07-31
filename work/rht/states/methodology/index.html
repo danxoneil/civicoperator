@@ -108,6 +108,16 @@ body{margin:0;background:#fff;}
 /* self-declared metrics: Topics-style chips from the state's project narrative */
 .kpi{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px;}
 .kpi .kchip{font-family:'Poppins',sans-serif;font-size:.82rem;color:#00596c;background:#eef4f6;border:1px solid #d5e5ea;border-radius:20px;padding:5px 13px;white-space:nowrap;}
+/* breadcrumbs (visible, mirrors the BreadcrumbList JSON-LD) */
+.crumbs{font-size:.78rem;color:#8a7f72;margin:0 0 10px;letter-spacing:.01em;}
+.crumbs a{color:#007a99;text-decoration:none;} .crumbs a:hover{text-decoration:underline;}
+.crumbs span{color:#8a7f72;}
+.crumbs .sep{color:#c9a37e;margin:0 6px;}
+/* related-links strip */
+.related{margin:14px 0 0;font-size:.92rem;}
+.related a{color:#005f75;font-weight:600;font-family:'Poppins',sans-serif;text-decoration:none;margin-right:18px;}
+.related a:hover{text-decoration:underline;}
+.rowlink{color:#005f75;text-decoration:none;} .rowlink:hover{text-decoration:underline;}
 </style>
 <script type="application/ld+json">
 {
@@ -177,6 +187,7 @@ body{margin:0;background:#fff;}
   </nav>
 </header>
 <div class="ai">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>Methodology</span></nav>
 <p class="eyebrow">Rural Health Transformation Program &middot; Reference</p>
 <h1>Methodology &amp; Sources</h1>
 <div class="doc">

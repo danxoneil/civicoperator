@@ -100,6 +100,16 @@ EXTRA_CSS = """
 /* self-declared metrics: Topics-style chips from the state's project narrative */
 .kpi{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px;}
 .kpi .kchip{font-family:'Poppins',sans-serif;font-size:.82rem;color:#00596c;background:#eef4f6;border:1px solid #d5e5ea;border-radius:20px;padding:5px 13px;white-space:nowrap;}
+/* breadcrumbs (visible, mirrors the BreadcrumbList JSON-LD) */
+.crumbs{font-size:.78rem;color:#8a7f72;margin:0 0 10px;letter-spacing:.01em;}
+.crumbs a{color:#007a99;text-decoration:none;} .crumbs a:hover{text-decoration:underline;}
+.crumbs span{color:#8a7f72;}
+.crumbs .sep{color:#c9a37e;margin:0 6px;}
+/* related-links strip */
+.related{margin:14px 0 0;font-size:.92rem;}
+.related a{color:#005f75;font-weight:600;font-family:'Poppins',sans-serif;text-decoration:none;margin-right:18px;}
+.related a:hover{text-decoration:underline;}
+.rowlink{color:#005f75;text-decoration:none;} .rowlink:hover{text-decoration:underline;}
 </style>"""
 
 NAV = """<header class="sitebar">
@@ -384,7 +394,8 @@ def render_state(name, d):
     # feed is the paywalled newsletter's core product and the RHTP Alerts input;
     # this public reference layer links to sources but does not enumerate it.
     rg = (state_facts.get(name) or {}).get("rural_geography")
-    rg_rows = [("Rural geography", html.escape(rg))] if rg and not any(k == "Rural geography" for k, _ in facts) else []
+    rg_val = f'<a class="rowlink" href="/work/rht/states/rural-definitions/">{html.escape(rg)}</a>' if rg else None
+    rg_rows = [("Rural geography", rg_val)] if rg and not any(k == "Rural geography" for k, _ in facts) else []
     facts = list(facts) + rg_rows + [
         ("Federal award data", f'<a href="{usa}" target="_blank" rel="noopener">{usa_label}</a>'),
         ("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}'),
@@ -461,10 +472,11 @@ def render_state(name, d):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{name} Rural Health Transformation Program State Profile &middot; Civic Operator</title>
-<meta name="description" content="Structured reference profile of {name}'s CMS Rural Health Transformation Program: award amount, administering agency, official .gov sources, procurements, and a dated activity log.">
+<title>{name} Rural Health Transformation Program &mdash; CMS award, lead agency, committed metrics &amp; activity &middot; Civic Operator</title>
+<meta name="description" content="{name}'s CMS Rural Health Transformation Program at a glance: the exact Year-1 federal award, administering agency and contacts, how the state defines rural, the metrics it committed to CMS, official .gov sources, and a dated activity log. Independent reference by Civic Operator.">
 <link rel="icon" href="/favicon.ico">
 <meta property="og:title" content="{name} Rural Health Transformation Program State Profile">
+<meta property="og:description" content="Exact CMS award, administering agency, committed metrics, rural definition, official sources and a dated activity log for {name}'s Rural Health Transformation Program.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{page_url}">
 <link rel="canonical" href="{page_url}">
@@ -477,6 +489,7 @@ def render_state(name, d):
 <body>
 {NAV}
 <div class="ai">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>{name}</span></nav>
 <h1>{name} Rural Health Transformation Program State Profile</h1>
 <p class="lede">{lede}</p>
 {hub_line}
@@ -487,6 +500,13 @@ def render_state(name, d):
 {kpi_block(name)}
 <div class="st"><h2>Questions &amp; answers</h2><div class="faq">{faq}</div></div>
 {disp_block}
+<div class="st"><h2>Related</h2><p class="related">
+<a href="/work/rht/states/">&larr; All 50 state profiles</a>
+<a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
+<a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
+<a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
+<a href="{TRACKER}/" target="_blank" rel="noopener">Newsletter analysis &rarr;</a>
+</p></div>
 <p class="gov">Independent reference profile compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources (CMS, {name} .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
 <footer>Rural Health Transformation Grant Tracker &middot; {name} &middot; <a href="{TRACKER}/" style="color:#007a99;">ruralhealthtransformation.life</a></footer>
 </div>
@@ -544,7 +564,9 @@ def render_index(cards):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rural Health Transformation Program &mdash; State-by-State Reference &middot; Civic Operator</title>
-<meta name="description" content="An independent, state-by-state reference for the $50B CMS Rural Health Transformation Program: award amounts, administering agencies, official .gov sources, procurements, and a dated activity log for all 50 states.">
+<meta name="description" content="An independent, state-by-state reference for the $50B CMS Rural Health Transformation Program: exact Year-1 federal awards, administering agencies, how each state defines rural, the metrics states committed to CMS, official .gov sources, and a dated activity log for all 50 states.">
+<meta property="og:title" content="Rural Health Transformation Program — State-by-State Reference Guide">
+<meta property="og:description" content="Exact CMS awards, administering agencies, rural definitions, committed metrics and official sources for all 50 states' Rural Health Transformation Programs.">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="{SITE}/work/rht/states/">
 {STYLE}
@@ -556,14 +578,22 @@ def render_index(cards):
 <body>
 {NAV}
 <div class="ai">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><span>States</span></nav>
 <h1>Rural Health Transformation Program State-by-State Reference Guide</h1>
 <div class="intro">
 <p>The <strong>Rural Health Transformation Program (RHTP)</strong> is a $50 billion, five-year CMS program &mdash; created by Section 71401 of the One Big Beautiful Bill Act (2025) &mdash; that awarded every U.S. state a share to transform rural health care. Each state administers its own award through a designated agency, on its own timeline, with its own procurements.</p>
 <p>This is an <strong>independent reference</strong> to that program, state by state. Each profile collects the facts that are otherwise scattered across dozens of web sites: the state’s CMS award, its administering agency and contacts, its official program and procurement pages, and a dated log of activity &mdash; each entry deep-linked to the source. It is maintained by Civic Operator LLC as a neutral archive; commentary and analysis live separately on the newsletter.</p>
 </div>
 {how}
+<div class="st"><h2>Compare across states</h2>
+<p class="note-q">Single-dimension reference tables that cut across all 50 states, each linking back to the full profiles.</p>
+<p class="related">
+<a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
+<a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
+<a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
+</p></div>
 <div class="st"><h2>Browse all {len(cards)} states</h2>
-<p class="note-q">Each card: state &middot; CMS Year-1 award &middot; number of dated dispatches. Open a state for its full profile.</p>
+<p class="note-q">Each card: state &middot; exact CMS Year-1 award &middot; dated dispatches &middot; how it defines rural. Open a state for its full profile.</p>
 <div class="grid">{grid}</div></div>
 <p class="gov">Maintained by <strong>Civic Operator LLC</strong>. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/activity">Quarterly activity index</a></p>
 <footer>Rural Health Transformation Program &middot; State-by-state reference &middot; Civic Operator LLC &middot; <a href="{TRACKER}/" style="color:#007a99;">Newsletter &amp; analysis</a></footer>
@@ -643,6 +673,7 @@ def render_methodology(cards):
 <body>
 {NAV}
 <div class="ai">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>Methodology</span></nav>
 <p class="eyebrow">Rural Health Transformation Program &middot; Reference</p>
 <h1>Methodology &amp; Sources</h1>
 {body}
@@ -654,6 +685,102 @@ def render_methodology(cards):
     os.makedirs(d_out, exist_ok=True)
     open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
 
+# ---------- cross-state cluster pages ----------
+def render_cluster(slug_, h1, title, description, intro, headers, rows, note=None):
+    """Generic single-dimension reference table across all 50 states. Each row
+    links back to a full profile — hub-and-spoke internal linking."""
+    page_url = f"{SITE}/work/rht/states/{slug_}/"
+    thead = "".join(f"<th>{h}</th>" for h in headers)
+    tbody = ""
+    for r in rows:
+        tds = "".join(f"<td>{c}</td>" for c in r)
+        tbody += f"<tr>{tds}</tr>"
+    ld = json.dumps({"@context": "https://schema.org", "@graph": [
+        {"@type": ["CollectionPage", "Dataset"], "@id": page_url, "url": page_url,
+         "name": title, "description": strip_tags(intro), "isAccessibleForFree": True,
+         "dateModified": LAST_REVIEWED,
+         "isPartOf": {"@type": "CollectionPage", "@id": f"{SITE}/work/rht/states/"},
+         "creator": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE},
+         "publisher": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE}},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": i+1, "name": n, "item": SITE+u} for i, (n, u) in
+            enumerate([("Home", "/"), ("Work", "/work"), ("RHT", "/work/rht"),
+                       ("States", "/work/rht/states/"), (h1, f"/work/rht/states/{slug_}/")])]}
+    ]}, ensure_ascii=False, indent=1)
+    note_html = f'<p class="note-q">{note}</p>' if note else ""
+    page = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title} &middot; Civic Operator</title>
+<meta name="description" content="{description}">
+<meta property="og:title" content="{h1} — RHTP">
+<meta property="og:description" content="{description}">
+<link rel="icon" href="/favicon.ico">
+<link rel="canonical" href="{page_url}">
+{STYLE}
+{EXTRA_CSS}
+<script type="application/ld+json">
+{ld}
+</script>
+</head>
+<body>
+{NAV}
+<div class="ai">
+<nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>{h1}</span></nav>
+<h1>{h1}</h1>
+<div class="intro">{intro}</div>
+<div class="st">{note_html}
+<div class="ptab-wrap"><table class="ptab"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div></div>
+<div class="st"><h2>Related</h2><p class="related">
+<a href="/work/rht/states/">&larr; All 50 state profiles</a>
+<a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
+<a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
+<a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
+</p></div>
+<p class="gov">Independent reference compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
+<footer>Rural Health Transformation Program &middot; {h1} &middot; Civic Operator LLC &middot; <a href="{TRACKER}/" style="color:#007a99;">Newsletter &amp; analysis</a></footer>
+</div>
+</body>
+</html>"""
+    d_out = os.path.join(OUT_ROOT, slug_)
+    os.makedirs(d_out, exist_ok=True)
+    open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
+
+def render_rural_definitions(names):
+    rows = []
+    for name in sorted(names):
+        sl = slug(name)
+        rg = (state_facts.get(name) or {}).get("rural_geography") or "&mdash;"
+        prof = f'<a class="rowlink" href="/work/rht/states/{sl}/">{name}</a>'
+        rows.append((prof, html.escape(rg) if rg != "&mdash;" else rg))
+    render_cluster(
+        "rural-definitions", "How states define &ldquo;rural&rdquo;",
+        "How every state defines rural for its Rural Health Transformation Program",
+        "How each U.S. state defines &ldquo;rural&rdquo; for its CMS Rural Health Transformation Program &mdash; its own published definition, a fixed county list, or the federal HRSA default. Factual classification for all 50 states, by Civic Operator.",
+        "<p>Each state decides which communities count as &ldquo;rural&rdquo; for its Rural Health Transformation Program. Some publish their own rural definition or map; some adopt a fixed county list; others default to the federal (HRSA/FORHP) designation. This table records that choice for every state &mdash; a factual classification of the state&rsquo;s own methodology, not a ranking or judgment. See <a href=\"/work/rht/states/methodology\">Methodology</a> for how this is derived.</p>",
+        ["State", "Rural definition (RHTP)"], rows,
+        note="How each state defines rural for RHTP &mdash; own definition, county list, or federal HRSA default. Click a state for its full profile.")
+
+def render_agencies(cards_by_name):
+    rows = []
+    for name in sorted(cards_by_name):
+        d = cards_by_name[name]
+        sl = slug(name)
+        prof = f'<a class="rowlink" href="/work/rht/states/{sl}/">{name}</a>'
+        agency = html.escape(d["program"]) if d.get("program") else "&mdash;"
+        hub = clean_url(d.get("hub_url"))
+        hub_cell = f'<a href="{html.escape(hub)}" target="_blank" rel="noopener">Official hub</a>' if hub else "&mdash;"
+        rows.append((prof, agency, hub_cell))
+    render_cluster(
+        "agencies", "Administering agencies by state",
+        "RHTP administering agency for every state",
+        "The state agency or program administering each state's CMS Rural Health Transformation Program, with a link to its official .gov hub. All 50 states, by Civic Operator.",
+        "<p>Every state runs its Rural Health Transformation Program through a designated lead agency or named program. This table lists that administering body for all 50 states, each linked to the state&rsquo;s official program hub and full profile. See <a href=\"/work/rht/states/methodology\">Methodology</a> for sourcing.</p>",
+        ["State", "Administering program / agency", "Official hub"], rows,
+        note="The designated lead agency or program running RHTP in each state. Click a state for its full profile.")
+
 # ---------- run ----------
 os.makedirs(OUT_ROOT, exist_ok=True)
 cards = []
@@ -663,7 +790,10 @@ for name, d in states_data.items():
     cards.append(render_state(name, d))
 render_index(cards)
 render_methodology(cards)
+_state_names = [n for n in states_data if n != "CMS"]
+render_rural_definitions(_state_names)
+render_agencies({n: states_data[n] for n in _state_names})
 auth = sum(1 for c in cards if c["status"] == "authored")
-print(f"Generated {len(cards)} state pages + index + methodology  |  authored: {auth}  |  derived: {len(cards)-auth}")
+print(f"Generated {len(cards)} state pages + index + methodology + 2 cluster pages  |  authored: {auth}  |  derived: {len(cards)-auth}")
 print(f"Total dispatches linked: {sum(c['ndisp'] for c in cards)}  |  Year-1 awards: ${sum(c.get('usd') or 0 for c in cards)/1e9:.1f}B")
 print("Output:", OUT_ROOT)
