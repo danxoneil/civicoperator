@@ -403,7 +403,7 @@ def render_state(name, d):
     }
     webpage = {
         "@type": "WebPage", "@id": page_url, "url": page_url,
-        "name": f"{name} \u2014 State Procurement & Funding Profile",
+        "name": f"{name} Rural Health Transformation Program State Profile",
         "isPartOf": {"@type": "CollectionPage", "@id": f"{SITE}/work/rht/states/"},
         "about": {"@id": page_url + "#service"},
         "dateModified": LAST_REVIEWED,
@@ -436,10 +436,10 @@ def render_state(name, d):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{name} Rural Health Transformation Program &mdash; State Procurement &amp; Funding Profile &middot; Civic Operator</title>
+<title>{name} Rural Health Transformation Program State Profile &middot; Civic Operator</title>
 <meta name="description" content="Structured reference profile of {name}'s CMS Rural Health Transformation Program: award amount, administering agency, official .gov sources, procurements, and a dated activity log.">
 <link rel="icon" href="/favicon.ico">
-<meta property="og:title" content="{name} &mdash; RHTP State Procurement &amp; Funding Profile">
+<meta property="og:title" content="{name} Rural Health Transformation Program State Profile">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{page_url}">
 <link rel="canonical" href="{page_url}">
