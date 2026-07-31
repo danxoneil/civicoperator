@@ -2,251 +2,301 @@
  "Alabama": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 203404326.54
+  "obligated": 203404326.54,
+  "agency_name": "Economic and Community Affairs, Alabama Department of"
  },
  "Alaska": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 272174855.72
+  "obligated": 272174855.72,
+  "agency_name": "State of Alaska Department of Health"
  },
  "Arizona": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 166988955.92
+  "obligated": 166988955.92,
+  "agency_name": "Arizona Health Care Cost Containment System"
  },
  "Arkansas": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 208779396.02
+  "obligated": 208779396.02,
+  "agency_name": "Executive Office of the State of Arkansa"
  },
  "California": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 233639308.47
+  "obligated": 233639308.47,
+  "agency_name": "California Department of Health Care Access and Information"
  },
  "Colorado": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 200105604.17
+  "obligated": 200105604.17,
+  "agency_name": "State of Colorado - Dept of Health Care Policy & Financing"
  },
  "Connecticut": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 154249105.53
+  "obligated": 154249105.53,
+  "agency_name": "Department of Social Services Connecticut"
  },
  "Delaware": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 157394963.86
+  "obligated": 157394963.86,
+  "agency_name": "Executive Office of the Governor of Delaware"
  },
  "Florida": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 209938194.5
+  "obligated": 209938194.5,
+  "agency_name": "Florida Agency for Health Care Administration"
  },
  "Georgia": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 218862169.63
+  "obligated": 218862169.63,
+  "agency_name": "Georgia Department of Community Health"
  },
  "Hawaii": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 188892439.75
+  "obligated": 188892439.75,
+  "agency_name": "Executive Office of the State of Hawaii"
  },
  "Idaho": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 185974367.81
+  "obligated": 185974367.81,
+  "agency_name": "Idaho Department of Health & Welfare"
  },
  "Illinois": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 193418216.21
+  "obligated": 193418216.21,
+  "agency_name": "Illinois Department of Healthcare & Family Services"
  },
  "Indiana": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 206927896.8
+  "obligated": 206927896.8,
+  "agency_name": "Indiana Family and Social Serv"
  },
  "Iowa": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 209040063.71
+  "obligated": 209040063.71,
+  "agency_name": "Iowa Department of Health and Human Services"
  },
  "Kansas": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 221898007.82
+  "obligated": 221898007.82,
+  "agency_name": "Kansas Department of Health & Environment"
  },
  "Kentucky": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 212905590.56
+  "obligated": 212905590.56,
+  "agency_name": "Health Services Kentucky Cabinet for"
  },
  "Louisiana": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 208374447.57
+  "obligated": 208374447.57,
+  "agency_name": "Louisiana Department of Health"
  },
  "Maine": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 190008051.09
+  "obligated": 190008051.09,
+  "agency_name": "Health and Human Services, Maine Department of"
  },
  "Maryland": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 168180837.61
+  "obligated": 168180837.61,
+  "agency_name": "Maryland Department of Health"
  },
  "Massachusetts": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 162005238.13
+  "obligated": 162005238.13,
+  "agency_name": "Commonwealth of Massachusetts Executive Office of Health and Human Services"
  },
  "Michigan": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 173128201.02
+  "obligated": 173128201.02,
+  "agency_name": "Michigan Department of Health and Human Services"
  },
  "Minnesota": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 193090618.14
+  "obligated": 193090618.14,
+  "agency_name": "Minnesota Department of Health"
  },
  "Mississippi": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 205907220.16
+  "obligated": 205907220.16,
+  "agency_name": "Executive Office of the State of Mississippi"
  },
  "Missouri": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 216276817.66
+  "obligated": 216276817.66,
+  "agency_name": "Department of Social Services Misso"
  },
  "Montana": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 233509358.76
+  "obligated": 233509358.76,
+  "agency_name": "State of Montana Department of Health and Human Services"
  },
  "Nebraska": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 218529075.01
+  "obligated": 218529075.01,
+  "agency_name": "Nebraska Department of Health & Human Services"
  },
  "Nevada": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 179931608.42
+  "obligated": 179931608.42,
+  "agency_name": "Nevada Health Authority"
  },
  "New Hampshire": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 204016550.2
+  "obligated": 204016550.2,
+  "agency_name": "New Hampshire Department of Health & Human Services"
  },
  "New Jersey": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 147250805.85
+  "obligated": 147250805.85,
+  "agency_name": "Human Services, New Jersey Department of"
  },
  "New Mexico": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 211484740.89
+  "obligated": 211484740.89,
+  "agency_name": "Department of Human Services New Mexico"
  },
  "New York": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 212058207.8
+  "obligated": 212058207.8,
+  "agency_name": "NYS Department of Health"
  },
  "North Carolina": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 213008356.47
+  "obligated": 213008356.47,
+  "agency_name": "North Carolina Department of Health & Human Services"
  },
  "North Dakota": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 198936969.55
+  "obligated": 198936969.55,
+  "agency_name": "North Dakota Department of Human Services"
  },
  "Ohio": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 202030262.02
+  "obligated": 202030262.02,
+  "agency_name": "Ohio Department of Health"
  },
  "Oklahoma": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 223476948.62
+  "obligated": 223476948.62,
+  "agency_name": "Oklahoma State Department of Health"
  },
  "Oregon": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 197271577.67
+  "obligated": 197271577.67,
+  "agency_name": "Oregon Health Authority"
  },
  "Pennsylvania": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 193294053.98
+  "obligated": 193294053.98,
+  "agency_name": "PA Department of Human Services"
  },
  "Rhode Island": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 156169931.19
+  "obligated": 156169931.19,
+  "agency_name": "Health & Human Services, Rhode Island Executive Office of"
  },
  "South Carolina": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 200030252.32
+  "obligated": 200030252.32,
+  "agency_name": "Department of Health Human Services"
  },
  "South Dakota": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 189477607.26
+  "obligated": 189477607.26,
+  "agency_name": "South Dakota Department of Health"
  },
  "Tennessee": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 206888882.11
+  "obligated": 206888882.11,
+  "agency_name": "Tennessee Department of Health"
  },
  "Texas": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 281319360.67
+  "obligated": 281319360.67,
+  "agency_name": "Health & Human Svc Commn TX"
  },
  "Utah": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 195743566.29
+  "obligated": 195743566.29,
+  "agency_name": "Utah Department of Health and Human Services"
  },
  "Vermont": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 195053740.44
+  "obligated": 195053740.44,
+  "agency_name": "Human Services Vermont Agency of"
  },
  "Virginia": {
   "tier_label": "definition / list only",
   "rural_geography": "Defined rural county list",
-  "obligated": 189544888.14
+  "obligated": 189544888.14,
+  "agency_name": "VA Department of Medical Assistance Service"
  },
  "Washington": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 181257515.06
+  "obligated": 181257515.06,
+  "agency_name": "Health Care Authority"
  },
  "West Virginia": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 199476098.72
+  "obligated": 199476098.72,
+  "agency_name": "West Virginia State Health Department"
  },
  "Wisconsin": {
   "tier_label": "own rural geography",
   "rural_geography": "Uses its own rural definition",
-  "obligated": 203670005.21
+  "obligated": 203670005.21,
+  "agency_name": "State of Wisconsin Department of Health Services"
  },
  "Wyoming": {
   "tier_label": "federal HRSA default",
   "rural_geography": "Federal HRSA rural default",
-  "obligated": 205004742.95
+  "obligated": 205004742.95,
+  "agency_name": "Department of Health Wyoming"
  }
 }

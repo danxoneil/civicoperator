@@ -411,10 +411,13 @@ def render_state(name, d):
     # Procurements list intentionally NOT surfaced here — the live procurement/RFP
     # feed is the paywalled newsletter's core product and the RHTP Alerts input;
     # this public reference layer links to sources but does not enumerate it.
+    ag = (state_facts.get(name) or {}).get("agency_name")
+    ag_val = f'<a class="rowlink" href="/work/rht/states/agencies/">{html.escape(ag)}</a>' if ag else None
+    ag_rows = [("Administering agency", ag_val)] if ag and not any(k == "Administering agency" for k, _ in facts) else []
     rg = (state_facts.get(name) or {}).get("rural_geography")
     rg_val = f'<a class="rowlink" href="/work/rht/states/rural-definitions/">{html.escape(rg)}</a>' if rg else None
     rg_rows = [("Rural geography", rg_val)] if rg and not any(k == "Rural geography" for k, _ in facts) else []
-    facts = list(facts) + rg_rows + [
+    facts = list(facts) + ag_rows + rg_rows + [
         ("Federal award data", f'<a href="{usa}" target="_blank" rel="noopener">{usa_label}</a>'),
         ("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}'),
     ]
@@ -796,17 +799,18 @@ def render_agencies(cards_by_name):
         d = cards_by_name[name]
         sl = slug(name)
         prof = f'<a class="rowlink" href="/work/rht/states/{sl}/">{name}</a>'
-        agency = html.escape(d["program"]) if d.get("program") else "&mdash;"
+        ag = (state_facts.get(name) or {}).get("agency_name") or d.get("program")
+        agency = html.escape(ag) if ag else "&mdash;"
         hub = clean_url(d.get("hub_url"))
         hub_cell = f'<a href="{html.escape(hub)}" target="_blank" rel="noopener">Official hub</a>' if hub else "&mdash;"
         rows.append((prof, agency, hub_cell))
     render_cluster(
         "agencies", "Administering agencies by state",
         "RHTP administering agency for every state",
-        "The state agency or program administering each state's CMS Rural Health Transformation Program, with a link to its official .gov hub. All 50 states, by Civic Operator.",
-        "<p>Every state runs its Rural Health Transformation Program through a designated lead agency or named program. This table lists that administering body for all 50 states, each linked to the state&rsquo;s official program hub and full profile. See <a href=\"/work/rht/states/methodology\">Methodology</a> for sourcing.</p>",
-        ["State", "Administering program / agency", "Official hub"], rows,
-        note="The designated lead agency or program running RHTP in each state. Click a state for its full profile.")
+        "The state agency administering each state's CMS Rural Health Transformation Program, with a link to its official .gov hub. All 50 states, by Civic Operator.",
+        "<p>Every state runs its Rural Health Transformation Program through a designated lead agency. This table lists that administering body for all 50 states &mdash; the federal award recipient of record &mdash; each linked to the state&rsquo;s official program hub and full profile. See <a href=\"/work/rht/states/methodology\">Methodology</a> for sourcing.</p>",
+        ["State", "Administering agency", "Official hub"], rows,
+        note="The designated lead agency running RHTP in each state (federal award recipient of record). Click a state for its full profile.")
 
 # ---------- run ----------
 os.makedirs(OUT_ROOT, exist_ok=True)
