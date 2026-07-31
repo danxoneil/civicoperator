@@ -30,6 +30,11 @@ kpis_raw    = json.load(open(KPI_PATH, encoding="utf-8")) if os.path.exists(KPI_
 # keyed by state display name. Only `tracked` (the topic list) is surfaced publicly;
 # the detailed baseline->target rows stay for the paywalled tracker.
 KPIS        = {s["state"]: s for s in kpis_raw.get("states", []) if s.get("tracked")}
+# per-state factual add-ons: rural-geography classification + exact CMS/USAspending
+# obligated award. NB: the maturity "Stage" analysis is intentionally NOT here —
+# it lives in the paid Field Guide, not this public repo.
+FACTS_PATH  = os.path.join(HERE, "state_facts.json")
+state_facts = json.load(open(FACTS_PATH, encoding="utf-8")) if os.path.exists(FACTS_PATH) else {}
 QUESTIONS   = content["questions"]
 AUTHORED    = content["authored"]
 
@@ -138,11 +143,28 @@ def clean_url(url):
     u = url.split(" - ")[-1].strip() if " - " in url else url.strip()
     return ("https://" + u) if not u.startswith("http") else u
 
+# ---------- firm award (exact CMS/USAspending obligation) ----------
+def _obligated(name):
+    return (state_facts.get(name) or {}).get("obligated")
+
+def award_firm_full(name):
+    ob = _obligated(name)
+    return f"${ob:,.0f}" if ob else None      # e.g. $203,404,327 — no tilde
+
+def award_firm_compact(name):
+    ob = _obligated(name)
+    return f"${ob/1e6:,.1f}M" if ob else None  # e.g. $203.4M — no tilde
+
 # ---------- facts ----------
 def build_facts(name, d):
+    firm = award_firm_full(name)
     aw = award_str(d.get("award_m"))
     rows = []
-    if aw: rows.append(("FY26 award (Year 1)", f"~{aw}"))
+    if firm:
+        rows.append(("FY26 award (Year 1)",
+                     f'{firm} <span style="color:#8a7f72;font-size:.82rem;">&middot; CMS obligated</span>'))
+    elif aw:
+        rows.append(("FY26 award (Year 1)", f"~{aw}"))
     if d.get("program"): rows.append(("Program name", html.escape(d["program"])))
     if d.get("hub_url"): rows.append(("Official RHTP hub", f'<a href="{html.escape(clean_url(d["hub_url"]))}">{html.escape(name)} program page</a>'))
     if d.get("email"): rows.append(("Program contact", f'<a href="mailto:{html.escape(d["email"])}">{html.escape(d["email"])}</a>'))
@@ -336,7 +358,7 @@ def render_state(name, d):
         facts = auth.get("facts")
         if not facts:
             facts = build_facts(name, d)
-            if auth.get("award_exact"):   # show precise award instead of ~rounded
+            if auth.get("award_exact") and not award_firm_full(name):  # firm USAspending figure wins
                 facts = [(("FY26 award (Year 1)", auth["award_exact"]) if k.startswith("FY26 award") else (k, v))
                          for k, v in facts]
         lede = auth["lede"].replace("{STATE}", name)
@@ -344,9 +366,10 @@ def render_state(name, d):
     else:
         answers = derived_answers(name, d)
         facts = build_facts(name, d)
-        aw = award_str(d.get("award_m"))
+        firm_c = award_firm_compact(name); aw = award_str(d.get("award_m"))
+        award_bit = (f"<strong>{firm_c}</strong> " if firm_c else (f"<strong>~{aw}</strong> " if aw else ""))
         lede = (f"Everything we track on {name}'s "
-                + (f"<strong>~{aw}</strong> " if aw else "")
+                + award_bit
                 + "Rural Health Transformation Program award &mdash; the plan, the administering agency, "
                   "live procurements, and every dispatch we've published, in a question-and-answer format.")
         status = "derived"
@@ -360,7 +383,9 @@ def render_state(name, d):
     # Procurements list intentionally NOT surfaced here — the live procurement/RFP
     # feed is the paywalled newsletter's core product and the RHTP Alerts input;
     # this public reference layer links to sources but does not enumerate it.
-    facts = list(facts) + [
+    rg = (state_facts.get(name) or {}).get("rural_geography")
+    rg_rows = [("Rural geography", html.escape(rg))] if rg and not any(k == "Rural geography" for k, _ in facts) else []
+    facts = list(facts) + rg_rows + [
         ("Federal award data", f'<a href="{usa}" target="_blank" rel="noopener">{usa_label}</a>'),
         ("Tracker dispatches", f'{ndisp} dated {"brief" if ndisp==1 else "briefs"}'),
     ]
@@ -471,6 +496,8 @@ def render_state(name, d):
     os.makedirs(d_out, exist_ok=True)
     open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
     return {"name": name, "slug": sl, "award": award_str(d.get("award_m")),
+            "award_firm": award_firm_compact(name),
+            "rural_geography": (state_facts.get(name) or {}).get("rural_geography"),
             "usd": usd, "ndisp": ndisp, "status": status}
 
 # ---------- index page (hub root) ----------
@@ -478,10 +505,12 @@ def render_index(cards):
     cards_sorted = sorted(cards, key=lambda c: c["name"])
     grid = ""
     for c in cards_sorted:
-        aw = f'~{c["award"]}' if c["award"] else "&mdash;"
+        aw = c.get("award_firm") or (f'~{c["award"]}' if c["award"] else "&mdash;")
+        rg = c.get("rural_geography")
+        rg_bit = f' &middot; {html.escape(rg)}' if rg else ""
         grid += (f'<a class="card" href="/work/rht/states/{c["slug"]}/">'
                  f'<div class="nm">{c["name"]}</div>'
-                 f'<div class="meta">{aw} &middot; {c["ndisp"]} dispatch{"es" if c["ndisp"]!=1 else ""}</div></a>')
+                 f'<div class="meta">{aw} &middot; {c["ndisp"]} dispatch{"es" if c["ndisp"]!=1 else ""}{rg_bit}</div></a>')
     total_disp = sum(c["ndisp"] for c in cards)
     total_usd = sum(c.get("usd") or 0 for c in cards)
     total_b = f"${total_usd/1_000_000_000:.1f}B"

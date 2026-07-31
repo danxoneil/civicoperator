@@ -1,0 +1,252 @@
+{
+ "Alabama": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 203404326.54
+ },
+ "Alaska": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 272174855.72
+ },
+ "Arizona": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 166988955.92
+ },
+ "Arkansas": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 208779396.02
+ },
+ "California": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 233639308.47
+ },
+ "Colorado": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 200105604.17
+ },
+ "Connecticut": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 154249105.53
+ },
+ "Delaware": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 157394963.86
+ },
+ "Florida": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 209938194.5
+ },
+ "Georgia": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 218862169.63
+ },
+ "Hawaii": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 188892439.75
+ },
+ "Idaho": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 185974367.81
+ },
+ "Illinois": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 193418216.21
+ },
+ "Indiana": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 206927896.8
+ },
+ "Iowa": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 209040063.71
+ },
+ "Kansas": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 221898007.82
+ },
+ "Kentucky": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 212905590.56
+ },
+ "Louisiana": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 208374447.57
+ },
+ "Maine": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 190008051.09
+ },
+ "Maryland": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 168180837.61
+ },
+ "Massachusetts": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 162005238.13
+ },
+ "Michigan": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 173128201.02
+ },
+ "Minnesota": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 193090618.14
+ },
+ "Mississippi": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 205907220.16
+ },
+ "Missouri": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 216276817.66
+ },
+ "Montana": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 233509358.76
+ },
+ "Nebraska": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 218529075.01
+ },
+ "Nevada": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 179931608.42
+ },
+ "New Hampshire": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 204016550.2
+ },
+ "New Jersey": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 147250805.85
+ },
+ "New Mexico": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 211484740.89
+ },
+ "New York": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 212058207.8
+ },
+ "North Carolina": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 213008356.47
+ },
+ "North Dakota": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 198936969.55
+ },
+ "Ohio": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 202030262.02
+ },
+ "Oklahoma": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 223476948.62
+ },
+ "Oregon": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 197271577.67
+ },
+ "Pennsylvania": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 193294053.98
+ },
+ "Rhode Island": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 156169931.19
+ },
+ "South Carolina": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 200030252.32
+ },
+ "South Dakota": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 189477607.26
+ },
+ "Tennessee": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 206888882.11
+ },
+ "Texas": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 281319360.67
+ },
+ "Utah": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 195743566.29
+ },
+ "Vermont": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 195053740.44
+ },
+ "Virginia": {
+  "tier_label": "definition / list only",
+  "rural_geography": "Defined rural county list",
+  "obligated": 189544888.14
+ },
+ "Washington": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 181257515.06
+ },
+ "West Virginia": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 199476098.72
+ },
+ "Wisconsin": {
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "obligated": 203670005.21
+ },
+ "Wyoming": {
+  "tier_label": "federal HRSA default",
+  "rural_geography": "Federal HRSA rural default",
+  "obligated": 205004742.95
+ }
+}
