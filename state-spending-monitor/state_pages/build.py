@@ -10,6 +10,24 @@ LAST_REVIEWED = datetime.date.today().isoformat()
 SITE = "https://www.civicoperator.com"
 TRACKER = "https://www.ruralhealthtransformation.life"
 
+# Canonical Organization entity for Civic Operator LLC. Stable @id so any page
+# (here, About, homepage) that references {SITE}/#organization consolidates to one entity.
+ORG = {
+    "@type": "Organization",
+    "@id": f"{SITE}/#organization",
+    "name": "Civic Operator LLC",
+    "legalName": "Civic Operator LLC",
+    "url": SITE,
+    "logo": {"@type": "ImageObject", "url": f"{SITE}/img/Civic-Operator-Logo-Transparent.png"},
+    "description": ("Civic Operator LLC is an independent research and consulting firm. It maintains a "
+                    "neutral, structured reference to the CMS Rural Health Transformation Program and "
+                    "publishes the Rural Health Transformation Grant Tracker newsletter."),
+    "founder": {"@type": "Person", "name": "Daniel X. O’Neil"},
+    "knowsAbout": ["Rural Health Transformation Program", "CMS rural health policy",
+                   "State health procurement", "Rural health care"],
+    "sameAs": [TRACKER],
+}
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Default repo root = two levels up from state-spending-monitor/state_pages/.
 # Override with env REPO_ROOT when running from elsewhere (e.g. scratchpad).
@@ -424,16 +442,23 @@ def render_state(name, d):
         "administrator": {"@type": "GovernmentOrganization", "name": admin_name,
                           **({"url": hub} if hub else {})},
     }
+    _ob = _obligated(name)
+    _kpi = KPIS.get(name)
+    _rg = (state_facts.get(name) or {}).get("rural_geography")
     dataset = {
         "@type": "Dataset", "@id": page_url + "#dataset",
-        "name": f"{name} Rural Health Transformation Program \u2014 funding & procurement tracking",
-        "description": f"Structured profile of {name}'s CMS Rural Health Transformation Program award, "
-                       f"administering agency, official sources and dated activity.",
+        "name": f"{name} Rural Health Transformation Program \u2014 award, metrics & activity",
+        "description": f"Structured profile of {name}'s CMS Rural Health Transformation Program: "
+                       f"exact federal award, administering agency, how the state defines rural, "
+                       f"the performance measures it committed to CMS, official sources and dated activity.",
         "isAccessibleForFree": True, "creator": {"@type": "Organization", "name": "Civic Operator LLC"},
         "dateModified": LAST_REVIEWED,
         "variableMeasured": [
-            *([{"@type": "PropertyValue", "name": "CMS Year-1 award", "unitText": "USD",
-                "value": usd}] if usd else []),
+            *([{"@type": "PropertyValue", "name": "CMS Year-1 federal award (obligated)",
+                "unitText": "USD", "value": int(round(_ob)) if _ob else usd}] if (_ob or usd) else []),
+            *([{"@type": "PropertyValue", "name": "Rural definition (RHTP)", "value": _rg}] if _rg else []),
+            *([{"@type": "PropertyValue", "name": "Committed RHTP performance measure", "value": t}
+               for t in _kpi["tracked"]] if _kpi else []),
             {"@type": "PropertyValue", "name": "Tracker dispatches", "value": ndisp},
         ],
     }
@@ -546,12 +571,13 @@ def render_index(cards):
            '<div class="layer"><div class="tag">Analysis layer</div><div class="desc">The <a href="' + TRACKER + '/" target="_blank" rel="noopener">Rural Health Transformation Grant Tracker</a> newsletter &mdash; commentary, interpretation and reporting. Profiles link into its dated briefs; the analysis lives there, not here.</div></div>'
            '</div>')
     coll = json.dumps({"@context": "https://schema.org", "@graph": [
+        ORG,
         {"@type": "CollectionPage", "@id": f"{SITE}/work/rht/states/",
          "url": f"{SITE}/work/rht/states/", "name": "Rural Health Transformation Program — State Profiles",
          "description": "Independent, state-by-state reference profiles of the CMS Rural Health Transformation Program.",
          "dateModified": LAST_REVIEWED,
          "isPartOf": {"@type": "WebSite", "name": "Civic Operator", "url": SITE},
-         "publisher": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE},
+         "publisher": {"@id": f"{SITE}/#organization"},
          "hasPart": [{"@type": "WebPage", "name": c["name"],
                       "url": f'{SITE}/work/rht/states/{c["slug"]}/'} for c in cards_sorted]},
         {"@type": "BreadcrumbList", "itemListElement": [
@@ -645,11 +671,12 @@ def render_methodology(cards):
 <p>Compiled and maintained by <strong>Civic Operator LLC</strong>. Last reviewed {LAST_REVIEWED}.</p>
 </div>"""
     coll = json.dumps({"@context": "https://schema.org", "@graph": [
+        ORG,
         {"@type": "WebPage", "@id": f"{SITE}/work/rht/states/methodology/",
          "url": f"{SITE}/work/rht/states/methodology/",
          "name": "Methodology & Sources — RHTP State Reference",
          "dateModified": LAST_REVIEWED,
-         "publisher": {"@type": "Organization", "name": "Civic Operator LLC", "url": SITE}},
+         "publisher": {"@id": f"{SITE}/#organization"}},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": i+1, "name": n, "item": SITE+u} for i, (n, u) in
             enumerate([("Home", "/"), ("Work", "/work"), ("RHT", "/work/rht"),

@@ -126,6 +126,31 @@ body{margin:0;background:#fff;}
  "@context": "https://schema.org",
  "@graph": [
   {
+   "@type": "Organization",
+   "@id": "https://www.civicoperator.com/#organization",
+   "name": "Civic Operator LLC",
+   "legalName": "Civic Operator LLC",
+   "url": "https://www.civicoperator.com",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.civicoperator.com/img/Civic-Operator-Logo-Transparent.png"
+   },
+   "description": "Civic Operator LLC is an independent research and consulting firm. It maintains a neutral, structured reference to the CMS Rural Health Transformation Program and publishes the Rural Health Transformation Grant Tracker newsletter.",
+   "founder": {
+    "@type": "Person",
+    "name": "Daniel X. O’Neil"
+   },
+   "knowsAbout": [
+    "Rural Health Transformation Program",
+    "CMS rural health policy",
+    "State health procurement",
+    "Rural health care"
+   ],
+   "sameAs": [
+    "https://www.ruralhealthtransformation.life"
+   ]
+  },
+  {
    "@type": "CollectionPage",
    "@id": "https://www.civicoperator.com/work/rht/states/",
    "url": "https://www.civicoperator.com/work/rht/states/",
@@ -138,9 +163,7 @@ body{margin:0;background:#fff;}
     "url": "https://www.civicoperator.com"
    },
    "publisher": {
-    "@type": "Organization",
-    "name": "Civic Operator LLC",
-    "url": "https://www.civicoperator.com"
+    "@id": "https://www.civicoperator.com/#organization"
    },
    "hasPart": [
     {
