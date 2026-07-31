@@ -492,7 +492,7 @@ def render_index(cards):
              f'<div class="stat"><div class="num">{total_disp}</div><div class="lbl">Dated dispatches</div></div>'
              f'</div>')
     how = ('<div class="how"><h2>How this works</h2>'
-           '<div class="layer"><div class="tag">Primary source</div><div class="desc">Federal and state government pages &mdash; CMS, each state’s .gov RHTP program and procurement portals, and Governor newsrooms. Every profile links out to these.</div></div>'
+           '<div class="layer"><div class="tag">Primary source</div><div class="desc">Federal and state government pages &mdash; CMS, each state’s .gov RHTP program and procurement portals, and Governor newsrooms. Every profile links out to these. Also relies on <a href="https://kffhealthnews.org/rural-health/tracking-state-rural-health-transformation-plans/" target="_blank" rel="noopener">KFF Health News</a> for many approved plans.</div></div>'
            '<div class="layer"><div class="tag">Reference layer</div><div class="desc">This site. A neutral, structured, independently maintained profile of each state’s program &mdash; award, administering agency, official sources, and a dated activity log.</div></div>'
            '<div class="layer"><div class="tag">Analysis layer</div><div class="desc">The <a href="' + TRACKER + '/" target="_blank" rel="noopener">Rural Health Transformation Grant Tracker</a> newsletter &mdash; commentary, interpretation and reporting. Profiles link into its dated briefs; the analysis lives there, not here.</div></div>'
            '</div>')
@@ -527,13 +527,11 @@ def render_index(cards):
 <body>
 {NAV}
 <div class="ai">
-<p class="eyebrow">Rural Health Transformation Program</p>
-<h1>State-by-State Reference</h1>
+<h1>Rural Health Transformation Program State-by-State Reference Guide</h1>
 <div class="intro">
 <p>The <strong>Rural Health Transformation Program (RHTP)</strong> is a $50 billion, five-year CMS program &mdash; created by Section 71401 of the One Big Beautiful Bill Act (2025) &mdash; that awarded every U.S. state a share to transform rural health care. Each state administers its own award through a designated agency, on its own timeline, with its own procurements.</p>
-<p>This is an <strong>independent reference</strong> to that program, state by state. Each profile collects the facts that are otherwise scattered across dozens of government sites: the state’s CMS award, its administering agency and contacts, its official program and procurement pages, and a dated log of activity &mdash; each entry deep-linked to the source. It is maintained by Civic Operator LLC as a neutral archive; commentary and analysis live separately on the newsletter.</p>
+<p>This is an <strong>independent reference</strong> to that program, state by state. Each profile collects the facts that are otherwise scattered across dozens of web sites: the state’s CMS award, its administering agency and contacts, its official program and procurement pages, and a dated log of activity &mdash; each entry deep-linked to the source. It is maintained by Civic Operator LLC as a neutral archive; commentary and analysis live separately on the newsletter.</p>
 </div>
-{stats}
 {how}
 <div class="st"><h2>Browse all {len(cards)} states</h2>
 <p class="note-q">Each card: state &middot; CMS Year-1 award &middot; number of dated dispatches. Open a state for its full profile.</p>
