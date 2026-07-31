@@ -594,7 +594,9 @@ def render_methodology(cards):
 </ul>
 
 <h2>How facts are derived</h2>
-<p>Award amounts, administering agencies, procurement details and dates are drawn from the primary sources above and from the program’s own dated reporting. Where a precise figure (e.g. an exact CMS award) appears in a primary source, we use it; otherwise we label a figure as approximate. We do not invent figures, agencies, or dates.</p>
+<p>Award amounts, administering agencies, procurement details and dates are drawn from the primary sources above and from the program’s own dated reporting. Where a precise figure appears in a primary source, we use it; otherwise we label a figure as approximate. We do not invent figures, agencies, or dates.</p>
+<p>The <strong>Year-1 award</strong> shown on each profile is the state’s exact obligated amount from <a href="https://www.usaspending.gov/" target="_blank" rel="noopener">USAspending.gov</a> (CFDA 93.798), not a rounded estimate.</p>
+<p>The <strong>“Rural geography”</strong> fact records how each state itself defines “rural” for its RHTP — a state-published rural definition or map, a fixed county list, or the default federal (HRSA/FORHP) designation. It is a factual classification of the state’s own methodology, drawn from its program materials; it is not a ranking, score, or judgment of the program.</p>
 
 <h2>Update cadence</h2>
 <ul>
