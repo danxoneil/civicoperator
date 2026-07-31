@@ -28,6 +28,18 @@ ORG = {
     "sameAs": [TRACKER],
 }
 
+# GA4 tag (public Measurement ID; ships in page HTML by design). Emitted into
+# every page <head> when set; empty string = no tag.
+GA_ID = "G-H2EB005NB5"
+ANALYTICS = (f'''<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){{dataLayer.push(arguments);}}
+gtag('js', new Date());
+gtag('config', '{GA_ID}');
+</script>''' if GA_ID else "")
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Default repo root = two levels up from state-spending-monitor/state_pages/.
 # Override with env REPO_ROOT when running from elsewhere (e.g. scratchpad).
@@ -508,6 +520,7 @@ def render_state(name, d):
 <meta property="og:type" content="website">
 <meta property="og:url" content="{page_url}">
 <link rel="canonical" href="{page_url}">
+{ANALYTICS}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
@@ -598,6 +611,7 @@ def render_index(cards):
 <meta property="og:description" content="Exact CMS awards, administering agencies, rural definitions, committed metrics and official sources for all 50 states' Rural Health Transformation Programs.">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="{SITE}/work/rht/states/">
+{ANALYTICS}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
@@ -694,6 +708,7 @@ def render_methodology(cards):
 <meta name="description" content="How the Civic Operator Rural Health Transformation Program state reference is sourced, derived, updated, and maintained &mdash; and how it separates neutral reference from newsletter analysis.">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="{SITE}/work/rht/states/methodology/">
+{ANALYTICS}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
@@ -749,6 +764,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 <meta property="og:description" content="{description}">
 <link rel="icon" href="/favicon.ico">
 <link rel="canonical" href="{page_url}">
+{ANALYTICS}
 {STYLE}
 {EXTRA_CSS}
 <script type="application/ld+json">
