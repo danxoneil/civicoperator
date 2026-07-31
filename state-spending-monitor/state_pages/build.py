@@ -452,8 +452,7 @@ def render_state(name, d):
 <body>
 {NAV}
 <div class="ai">
-<p class="eyebrow">Rural Health Transformation Program &middot; State Procurement &amp; Funding Profile</p>
-<h1>{name}</h1>
+<h1>{name} Rural Health Transformation Program State Profile</h1>
 <p class="lede">{lede}</p>
 {hub_line}
 {hero_block(name)}
