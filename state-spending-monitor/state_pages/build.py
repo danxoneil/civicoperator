@@ -151,17 +151,27 @@ EXTRA_CSS = """
 .rowlink{color:#005f75;text-decoration:none;} .rowlink:hover{text-decoration:underline;}
 </style>"""
 
+# Global header: identical link set to the hand-authored pages (Work / About / Book a call).
 NAV = """<header class="sitebar">
   <a class="brand" href="/"><img src="/img/Civic-Operator-Logo-Transparent.png" alt="Civic Operator"></a>
   <nav>
     <a href="/work">Work</a>
-    <a href="/work/rht">RHT Consulting</a>
-    <a href="/work/rht/states">States</a>
-    <a href="/work/rht/states/methodology">Methodology</a>
     <a href="/about">About</a>
-    <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">Newsletter</a>
+    <a class="book" href="https://calendar.app.google/XruT8HoUjnKLCkwD8">Book a call</a>
   </nav>
 </header>"""
+
+# RHT section sub-nav: one bar spanning both halves of RHT, shown on every generated
+# reference page. These are all States-section pages, so "States" is the active item.
+SUBNAV = """<div class="rht-subnav">
+  <a href="/work/rht">Overview</a>
+  <a class="active" href="/work/rht/states">States</a>
+  <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">Newsletter</a>
+  <a href="/work/rht/brief">State Fit Brief</a>
+  <span class="arch-sep">&middot;</span>
+  <a class="arch" href="/work/rht/activity">Activity Index</a>
+  <a class="arch" href="/work/rht/dashboard">Quarterly Report</a>
+</div>"""
 
 def slug(name): return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 def strip_tags(s): return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", s))).strip()
@@ -539,6 +549,7 @@ def render_state(name, d):
 </head>
 <body>
 {NAV}
+{SUBNAV}
 <div class="ai">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>{name}</span></nav>
 <h1>{name} Rural Health Transformation Program State Profile</h1>
@@ -631,6 +642,7 @@ def render_index(cards):
 </head>
 <body>
 {NAV}
+{SUBNAV}
 <div class="ai">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><span>States</span></nav>
 <h1>Rural Health Transformation Program State-by-State Reference Guide</h1>
@@ -729,6 +741,7 @@ def render_methodology(cards):
 </head>
 <body>
 {NAV}
+{SUBNAV}
 <div class="ai">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>Methodology</span></nav>
 <p class="eyebrow">Rural Health Transformation Program &middot; Reference</p>
@@ -786,6 +799,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 </head>
 <body>
 {NAV}
+{SUBNAV}
 <div class="ai">
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>{h1}</span></nav>
 <h1>{h1}</h1>
