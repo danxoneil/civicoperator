@@ -164,10 +164,10 @@ NAV = """<header class="sitebar">
 # RHT section sub-nav: one bar spanning both halves of RHT, shown on every generated
 # reference page. These are all States-section pages, so "States" is the active item.
 SUBNAV = """<div class="rht-subnav">
-  <a href="/work/rht">Overview</a>
-  <a class="active" href="/work/rht/states">States</a>
+  <a href="/work/rht">RHT</a>
+  <a class="active" href="/work/rht/states">State profiles</a>
   <a href="https://www.ruralhealthtransformation.life/" target="_blank" rel="noopener">Newsletter</a>
-  <a href="/work/rht/brief">State Fit Brief</a>
+  <a href="/work/rht/brief">Consulting</a>
   <span class="arch-sep">&middot;</span>
   <a class="arch" href="/work/rht/activity">Activity Index</a>
   <a class="arch" href="/work/rht/dashboard">Quarterly Report</a>

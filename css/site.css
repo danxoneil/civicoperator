@@ -135,7 +135,15 @@ h1, h2, h3, h4 {
 .layer-card h3 { font-size: 1.3rem; margin-bottom: 10px; }
 .layer-card .layer-meta { font-weight: 600; color: var(--co-purple); margin-bottom: 12px; }
 .layer-card p { margin-bottom: 22px; }
-.layer-card .layer-cta { margin-top: auto; align-self: flex-start; }
+.layer-card .layer-foot { margin-top: auto; }
+.layer-card .layer-cta { align-self: flex-start; }
+.layer-card .layer-price {
+    margin-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--co-purple);
+}
 
 /* ---- Buttons ---- */
 .btn-primary {
