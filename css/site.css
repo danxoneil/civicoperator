@@ -414,6 +414,48 @@ h1, h2, h3, h4 {
 .awards-img { display: block; margin: 0 auto; max-width: 100%; }
 .brand-logo { max-width: 240px; height: auto; margin: 0 auto 18px; display: block; }
 
+/* ---- State Fit Brief gateway (RHT hub) ----
+   Hangs directly off the middle (newsletter) column of the three-layer band:
+   a teal product-CTA card, pulled up under the band with an upward connector
+   tab pointing back at the newsletter — so the two read as one path. */
+.fit-gateway {
+    padding: 6px 20px 60px;
+    margin-top: -30px;             /* tuck up under the three-layer band */
+}
+.fit-gateway-card {
+    position: relative;
+    max-width: 560px;
+    margin: 0 auto;
+    background: var(--co-teal);
+    color: #fff;
+    border-radius: 16px;
+    padding: 32px 34px 34px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0,122,153,0.26);
+}
+/* connector tab — points up at the middle column */
+.fit-gateway-card::before {
+    content: "";
+    position: absolute;
+    top: -11px; left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 22px; height: 22px;
+    background: var(--co-teal);
+    border-radius: 5px;
+}
+.fit-gateway-card .fit-kicker {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: rgba(255,255,255,0.82);
+    display: block; margin-bottom: 10px;
+}
+.fit-gateway-card h3 { color: #fff; font-size: 1.5rem; margin-bottom: 12px; }
+.fit-gateway-card p { color: rgba(255,255,255,0.94); margin-bottom: 24px; }
+.fit-gateway-card a:not(.btn) { color: #fff; text-decoration: underline; }
+.fit-gateway-card .btn-light { color: var(--co-teal); }
+.fit-gateway-card .btn-light:hover { background-color: #ffe0dc; color: var(--co-teal-d); }
+
 /* ---- Footer ---- */
 footer.site-footer { text-align: center; padding: 30px 20px; }
 footer.site-footer a { color: var(--co-teal); }
