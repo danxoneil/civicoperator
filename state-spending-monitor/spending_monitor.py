@@ -567,11 +567,26 @@ class SpendingMonitor:
 
     # ── Main ─────────────────────────────────────────────────────────
 
-    def run(self):
-        """Main execution: fetch data, detect changes, update board."""
+    def run(self, outlays_only=False):
+        """Main execution: fetch data, detect changes, update board.
+
+        outlays_only=True is a dry run: fetch the public USASpending figures and
+        (re)write state_pages/outlays.json only — no Monday board read/write, no
+        snapshots, no email. Use it to verify the outlays.json output before a
+        real weekly run.
+        """
         run_date = datetime.now().strftime('%Y-%m-%d')
         logger.info(f"Spending Monitor run — {run_date}")
         logger.info(f"Tracking {len(AWARD_MAP)} RHTP awards")
+
+        if outlays_only:
+            logger.info("outlays-only dry run — no Monday board or email")
+            api_data = self.fetch_awards_from_usaspending()
+            if not api_data:
+                logger.warning("No award data returned from USASpending API")
+                return
+            self.write_outlays_json(api_data, run_date)
+            return
 
         # 1. Fetch board data (also logs columns for discovery)
         items, columns = self.fetch_board_data()
@@ -808,8 +823,10 @@ class SpendingMonitor:
 
 
 def main():
+    import sys
+    outlays_only = '--outlays-only' in sys.argv[1:]
     monitor = SpendingMonitor()
-    monitor.run()
+    monitor.run(outlays_only=outlays_only)
 
 
 if __name__ == '__main__':
