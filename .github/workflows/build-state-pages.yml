@@ -23,6 +23,7 @@ on:
       - 'state-spending-monitor/state_pages/dispatch_index.json'
       - 'state-spending-monitor/state_pages/content.json'
       - 'state-spending-monitor/state_pages/build.py'
+      - 'state-spending-monitor/state_pages/rural_maps.json'
 
 permissions:
   contents: write
