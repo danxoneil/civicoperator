@@ -762,11 +762,53 @@ def render_methodology(cards):
     open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
 
 # ---------- cross-state cluster pages ----------
-def render_cluster(slug_, h1, title, description, intro, headers, rows, note=None):
+# Progressive-enhancement click-to-sort for cluster tables. Served order is
+# unchanged (neutral default holds with JS off). Numeric columns (detected by
+# stripping $ , and spaces) sort numerically; others sort as text.
+SORT_CSS = """<style>
+table.ptab.sortable th{cursor:pointer;user-select:none;white-space:nowrap;}
+table.ptab.sortable th:focus-visible{outline:2px solid #007a99;outline-offset:-2px;}
+table.ptab.sortable th::after{content:'';display:inline-block;width:0;height:0;margin-left:7px;vertical-align:middle;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid currentColor;opacity:.25;}
+table.ptab.sortable th[aria-sort=ascending]::after{border-top:0;border-bottom:5px solid currentColor;opacity:.85;}
+table.ptab.sortable th[aria-sort=descending]::after{opacity:.85;}
+</style>"""
+SORT_JS = """<script>
+(function(){
+  var t=document.querySelector('table.ptab.sortable'); if(!t||!t.tHead) return;
+  var tb=t.tBodies[0], ths=t.tHead.rows[0].cells;
+  function txt(td){return (td.textContent||'').trim();}
+  function num(s){s=s.replace(/[^0-9.\\-]/g,'');return s===''?null:parseFloat(s);}
+  function numeric(ci){var seen=false,r=tb.rows;for(var i=0;i<r.length;i++){var s=txt(r[i].cells[ci]);if(s==='')continue;if(num(s)===null)return false;seen=true;}return seen;}
+  var dir={};
+  for(var c=0;c<ths.length;c++){(function(ci){
+    var th=ths[ci]; th.tabIndex=0; th.setAttribute('role','button');
+    function sort(){
+      var isNum=numeric(ci), asc=dir[ci]!=='asc'; dir={}; dir[ci]=asc?'asc':'desc';
+      var rows=Array.prototype.slice.call(tb.rows);
+      rows.sort(function(a,b){
+        var x=txt(a.cells[ci]),y=txt(b.cells[ci]);
+        if(isNum){var nx=num(x),ny=num(y);nx=nx===null?-Infinity:nx;ny=ny===null?-Infinity:ny;return asc?nx-ny:ny-nx;}
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r);});
+      for(var k=0;k<ths.length;k++)ths[k].removeAttribute('aria-sort');
+      th.setAttribute('aria-sort',asc?'ascending':'descending');
+    }
+    th.addEventListener('click',sort);
+    th.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();sort();}});
+  })(c);}
+})();
+</script>"""
+
+def render_cluster(slug_, h1, title, description, intro, headers, rows, note=None,
+                   sortable=False):
     """Generic single-dimension reference table across all 50 states. Each row
-    links back to a full profile — hub-and-spoke internal linking."""
+    links back to a full profile — hub-and-spoke internal linking. sortable=True
+    adds progressive-enhancement click-to-sort headers (numeric columns sort
+    numerically); the served order stays as passed, so the neutral default holds
+    with JS off."""
     page_url = f"{SITE}/work/rht/states/{slug_}/"
-    thead = "".join(f"<th>{h}</th>" for h in headers)
+    thead = "".join(f'<th scope="col">{h}</th>' for h in headers)
     tbody = ""
     for r in rows:
         tds = "".join(f"<td>{c}</td>" for c in r)
@@ -785,6 +827,9 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
     ]}, ensure_ascii=False, indent=1)
     note_html = f'<p class="note-q">{note}</p>' if note else ""
     analytics = ga_tag("cluster")
+    tbl_cls = "ptab sortable" if sortable else "ptab"
+    sort_css = SORT_CSS if sortable else ""
+    sort_js = SORT_JS if sortable else ""
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -810,8 +855,8 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>{h1}</span></nav>
 <h1>{h1}</h1>
 <div class="intro">{intro}</div>
-<div class="st">{note_html}
-<div class="ptab-wrap"><table class="ptab"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div></div>
+<div class="st">{note_html}{sort_css}
+<div class="ptab-wrap"><table class="{tbl_cls}"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div></div>{sort_js}
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
 <a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
@@ -906,7 +951,9 @@ def render_outlays(names):
         intro,
         ["State", "Obligated", "Outlaid (disbursed)"], rows,
         note=(f"Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for "
-              f"each state, as of {as_of}. Click a state for its full profile."))
+              f"each state, as of {as_of}. Click a column header to sort; click a state for its "
+              f"full profile."),
+        sortable=True)
 
 # ---------- run ----------
 os.makedirs(OUT_ROOT, exist_ok=True)
