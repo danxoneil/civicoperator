@@ -63,6 +63,12 @@ PROC_PATH   = os.path.join(HERE, "procurements.json")
 procurements = json.load(open(PROC_PATH, encoding="utf-8")) if os.path.exists(PROC_PATH) else {}
 SHOTS_PATH  = os.path.join(HERE, "screenshots_meta.json")
 screenshots = json.load(open(SHOTS_PATH, encoding="utf-8")) if os.path.exists(SHOTS_PATH) else {}
+# per-state rural-geography detail: survey tier, FORHP baseline county/tract counts,
+# authoritative source URL, and (for the ~15 states with one) the authentic
+# state-published rural map. Materialized from G:/RHT/Geographies (CSV + curated
+# provenance) by gen_rural_maps.py so the CI build never needs the Drive mount.
+RURAL_PATH  = os.path.join(HERE, "rural_maps.json")
+rural_maps  = json.load(open(RURAL_PATH, encoding="utf-8")) if os.path.exists(RURAL_PATH) else {}
 KPI_PATH    = os.path.join(HERE, "kpis.json")
 kpis_raw    = json.load(open(KPI_PATH, encoding="utf-8")) if os.path.exists(KPI_PATH) else {"states": []}
 # self-declared metrics/objectives extracted from each state's CMS project narrative,
@@ -140,6 +146,12 @@ EXTRA_CSS = """
 .hero img{display:block;width:100%;height:auto;border:1px solid #eadbcd;border-radius:10px;}
 .hero figcaption{color:#8a7f72;font-size:.82rem;margin-top:6px;line-height:1.45;}
 .hero figcaption a{color:#007a99;text-decoration:none;} .hero figcaption a:hover{text-decoration:underline;}
+/* state-published rural map (authentic; only present for the ~15 states that publish one) */
+.statemap{margin:14px 0 4px;}
+.statemap a{display:inline-block;max-width:100%;}
+.statemap img{display:block;max-width:100%;max-height:520px;height:auto;border:1px solid #eadbcd;border-radius:10px;background:#faf6f0;padding:6px;}
+.statemap figcaption{color:#8a7f72;font-size:.82rem;margin-top:6px;line-height:1.45;}
+.statemap figcaption a{color:#007a99;text-decoration:none;} .statemap figcaption a:hover{text-decoration:underline;}
 /* self-declared metrics: Topics-style chips from the state's project narrative */
 .kpi{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px;}
 .kpi .kchip{font-family:'Poppins',sans-serif;font-size:.82rem;color:#00596c;background:#eef4f6;border:1px solid #d5e5ea;border-radius:20px;padding:5px 13px;white-space:nowrap;}
@@ -411,6 +423,30 @@ def hero_block(name):
             f'<figcaption>{name}’s official Rural Health Transformation Program page &mdash; '
             f'{cap_src}, captured {meta.get("date","")}.</figcaption></figure>')
 
+def rural_map_block(name):
+    """The state's own published rural map, when it publishes one (~15 states).
+    A screenshot of the state's map, linked to its primary .gov source. Self-
+    generated fallback maps are deliberately never shown here."""
+    rm = (rural_maps.get(name) or {}).get("map")
+    if not rm:
+        return ""
+    sl = slug(name)
+    src = rm.get("source_url") or ""
+    lab = rm.get("source_label") or "the state's program materials"
+    note = rm.get("note") or ""
+    alt = (f"{name}'s official state-published rural map for its Rural Health "
+           f"Transformation Program &mdash; {note}")
+    o = f'<a href="{html.escape(src)}" target="_blank" rel="noopener">' if src else ""
+    c = "</a>" if src else ""
+    cap_src = f'{o}{html.escape(lab)}{c}' if src else html.escape(lab)
+    note_txt = f"{html.escape(note)} " if note else ""
+    return (f'<figure class="statemap">{o}'
+            f'<img src="{rm["file"]}" loading="lazy" decoding="async" '
+            f'alt="{html.escape(alt)}">{c}'
+            f'<figcaption>{name}’s own state-published rural map &mdash; {note_txt}'
+            f'Source: {cap_src}. See <a href="/work/rht/states/rural-definitions/#map-{sl}">'
+            f'how every state defines rural</a>.</figcaption></figure>')
+
 def render_state(name, d):
     sl = slug(name)
     auth = AUTHORED.get(name)
@@ -560,6 +596,7 @@ def render_state(name, d):
 <p class="lede">{lede}</p>
 {hub_line}
 {hero_block(name)}
+{rural_map_block(name)}
 <div class="rule"></div>
 <div class="st"><h2>At a glance</h2>
 <div class="facts">{fact_rows}</div></div>
@@ -801,12 +838,12 @@ SORT_JS = """<script>
 </script>"""
 
 def render_cluster(slug_, h1, title, description, intro, headers, rows, note=None,
-                   sortable=False):
+                   sortable=False, extra_html=""):
     """Generic single-dimension reference table across all 50 states. Each row
     links back to a full profile — hub-and-spoke internal linking. sortable=True
     adds progressive-enhancement click-to-sort headers (numeric columns sort
     numerically); the served order stays as passed, so the neutral default holds
-    with JS off."""
+    with JS off. extra_html is injected after the table (e.g. a map gallery)."""
     page_url = f"{SITE}/work/rht/states/{slug_}/"
     thead = "".join(f'<th scope="col">{h}</th>' for h in headers)
     tbody = ""
@@ -857,6 +894,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 <div class="intro">{intro}</div>
 <div class="st">{note_html}{sort_css}
 <div class="ptab-wrap"><table class="{tbl_cls}"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div></div>{sort_js}
+{extra_html}
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
 <a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
@@ -873,20 +911,121 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
     os.makedirs(d_out, exist_ok=True)
     open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
 
+DEF_SHORT = {
+    "Uses its own rural definition": "Own definition",
+    "Defined rural county list": "County list",
+    "Federal HRSA rural default": "Federal (HRSA) default",
+}
+
+def _rural_gallery(names):
+    """Gallery of the authentic state-published rural maps we hold — each a
+    screenshot of the state's own map, linked to its primary .gov source. Fallback
+    (self-generated) maps are deliberately excluded; only verifiable state maps
+    appear, which is the point: it is a provenance wall, not decoration."""
+    have = sorted(n for n in names if (rural_maps.get(n) or {}).get("map"))
+    if not have:
+        return ""
+    cards, items = [], []
+    for name in have:
+        sl = slug(name)
+        m = rural_maps[name]["map"]
+        src = m.get("source_url") or ""
+        lab = m.get("source_label") or "state source"
+        note = m.get("note") or ""
+        alt = f"{name}'s official state-published rural map for its Rural Health Transformation Program &mdash; {note}"
+        srcopen = f'<a href="{html.escape(src)}" target="_blank" rel="noopener">' if src else ""
+        srcclose = "</a>" if src else ""
+        cards.append(
+            f'<figure class="rmap" id="map-{sl}">'
+            f'{srcopen}<img src="{m["file"]}" loading="lazy" decoding="async" '
+            f'alt="{html.escape(alt)}">{srcclose}'
+            f'<figcaption><a class="rmap-state" href="/work/rht/states/{sl}/">{name}</a>'
+            f'<span class="rmap-note">{html.escape(note)}</span>'
+            + (f'<a class="rmap-src" href="{html.escape(src)}" target="_blank" rel="noopener">'
+               f'Source: {html.escape(lab)} &nearr;</a>' if src else "")
+            + '</figcaption></figure>')
+        items.append({"@type": "ImageObject", "name": f"{name} RHTP rural map",
+                      "contentUrl": f"{SITE}{m['file']}", "caption": strip_tags(note),
+                      "isBasedOn": src, "creditText": lab,
+                      "isAccessibleForFree": True})
+    ld = json.dumps({"@context": "https://schema.org", "@type": "ImageGallery",
+                     "name": "State-published RHTP rural maps",
+                     "numberOfItems": len(items),
+                     "associatedMedia": items}, ensure_ascii=False, indent=1)
+    css = """<style>
+.rgal{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin:14px 0 2px;}
+.rmap{margin:0;border:1px solid #eadbcd;border-radius:10px;background:#fff;overflow:hidden;display:flex;flex-direction:column;}
+.rmap img{display:block;width:100%;height:180px;object-fit:contain;background:#faf6f0;border-bottom:1px solid #f0e6d9;padding:6px;}
+.rmap figcaption{padding:10px 12px 12px;display:flex;flex-direction:column;gap:3px;}
+.rmap-state{font-weight:650;color:#1c1206;text-decoration:none;font-size:1rem;}
+.rmap-state:hover{color:#007a99;text-decoration:underline;}
+.rmap-note{color:#6f6456;font-size:.82rem;line-height:1.4;}
+.rmap-src{color:#007a99;font-size:.78rem;text-decoration:none;margin-top:2px;}
+.rmap-src:hover{text-decoration:underline;}
+</style>"""
+    return (f'<div class="st" id="maps">{css}'
+            f'<h2>Authentic state-published rural maps ({len(have)})</h2>'
+            f'<p>The {len(have)} states below publish their own map of where &ldquo;rural&rdquo; '
+            f'is under the RHTP. Each image here is that state&rsquo;s own map, captured from its '
+            f'primary source and linked back to it &mdash; not a Civic Operator rendering. '
+            f'The other states define rural in text, a county list, or by the federal '
+            f'HRSA/FORHP standard, with no published map graphic.</p>'
+            f'<div class="rgal">{"".join(cards)}</div>'
+            f'<script type="application/ld+json">\n{ld}\n</script></div>')
+
 def render_rural_definitions(names):
+    """Enriched cross-state rural-definition table + a gallery of the authentic
+    state-published rural maps. Definition basis comes from state_facts; the
+    survey tier, FORHP baseline share, source URL, and map come from
+    rural_maps.json (materialized from the Geographies CSV + curated provenance)."""
+    def cell(v):
+        return v if v else "&mdash;"
     rows = []
+    n_map = n_own = 0
     for name in sorted(names):
         sl = slug(name)
-        rg = (state_facts.get(name) or {}).get("rural_geography") or "&mdash;"
+        rm = rural_maps.get(name) or {}
+        rg = (state_facts.get(name) or {}).get("rural_geography") or ""
+        basis = DEF_SHORT.get(rg, html.escape(rg) if rg else "&mdash;")
+        if rg == "Uses its own rural definition":
+            n_own += 1
         prof = f'<a class="rowlink" href="/work/rht/states/{sl}/">{name}</a>'
-        rows.append((prof, html.escape(rg) if rg != "&mdash;" else rg))
+        # published map -> anchor into the gallery below
+        if rm.get("map"):
+            n_map += 1
+            mapcell = f'<a href="#map-{sl}">View &darr;</a>'
+        else:
+            mapcell = "&mdash;"
+        pct = rm.get("forhp_pct")
+        pctcell = f"{pct}%" if isinstance(pct, int) else "&mdash;"
+        rural, total, grain = rm.get("forhp_rural"), rm.get("forhp_total"), rm.get("grain") or "units"
+        unitcell = f"{rural} of {total} {html.escape(grain)}" if total else "&mdash;"
+        src, lab = rm.get("source_url"), rm.get("source_label")
+        srccell = (f'<a href="{html.escape(src)}" target="_blank" rel="noopener">{html.escape(lab)}</a>'
+                   if src else "&mdash;")
+        rows.append((prof, basis, mapcell, pctcell, unitcell, srccell))
+    intro = (
+        f"<p>Each state decides which communities count as &ldquo;rural&rdquo; for its Rural Health "
+        f"Transformation Program. This table records that choice for all 50 states &mdash; whether the "
+        f"state uses its <strong>own definition</strong>, a fixed <strong>county list</strong>, or the "
+        f"federal <strong>HRSA/FORHP</strong> default &mdash; alongside how rural the state is on a "
+        f"common federal baseline and a link to the state&rsquo;s own source. "
+        f"<strong>{n_map} states publish an actual rural map</strong> (gallery below); "
+        f"the rest define rural in text or defer to the federal standard. "
+        f"The <em>% rural</em> column is a single comparable yardstick &mdash; the share of the "
+        f"state&rsquo;s counties (or census tracts) that are rural under the HRSA/FORHP standard "
+        f"&mdash; <em>not</em> the state&rsquo;s own count, which often differs. It is a factual "
+        f"classification, not a ranking. See <a href=\"/work/rht/states/methodology\">Methodology</a> "
+        f"for how this is derived.</p>")
     render_cluster(
         "rural-definitions", "How states define &ldquo;rural&rdquo;",
         "How every state defines rural for its Rural Health Transformation Program",
-        "How each U.S. state defines &ldquo;rural&rdquo; for its CMS Rural Health Transformation Program &mdash; its own published definition, a fixed county list, or the federal HRSA default. Factual classification for all 50 states, by Civic Operator.",
-        "<p>Each state decides which communities count as &ldquo;rural&rdquo; for its Rural Health Transformation Program. Some publish their own rural definition or map; some adopt a fixed county list; others default to the federal (HRSA/FORHP) designation. This table records that choice for every state &mdash; a factual classification of the state&rsquo;s own methodology, not a ranking or judgment. See <a href=\"/work/rht/states/methodology\">Methodology</a> for how this is derived.</p>",
-        ["State", "Rural definition (RHTP)"], rows,
-        note="How each state defines rural for RHTP &mdash; own definition, county list, or federal HRSA default. Click a state for its full profile.")
+        "How each U.S. state defines &ldquo;rural&rdquo; for its CMS Rural Health Transformation Program &mdash; own definition, county list, or federal HRSA default &mdash; with each state's rural share on a common federal baseline, a link to its source, and a gallery of the 15 authentic state-published rural maps. By Civic Operator.",
+        intro,
+        ["State", "Definition basis", "Published map", "% rural (FORHP)",
+         "Rural units (FORHP)", "Source"], rows,
+        note="How each state defines rural for RHTP, with its rural share on a common federal baseline and a link to its source. Click a column header to sort; click a state for its full profile.",
+        sortable=True, extra_html=_rural_gallery(names))
 
 def render_agencies(cards_by_name):
     rows = []

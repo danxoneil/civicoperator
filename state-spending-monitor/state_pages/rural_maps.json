@@ -1,0 +1,592 @@
+{
+ "Alabama": {
+  "forhp_pct": 54,
+  "forhp_rural": 36,
+  "forhp_total": 67,
+  "grain": "counties",
+  "source_label": "adeca.alabama.gov",
+  "source_url": "https://adeca.alabama.gov/wp-content/uploads/ARHTP-Rural-Counties.pdf",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Alaska": {
+  "forhp_pct": 90,
+  "forhp_rural": 27,
+  "forhp_total": 30,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Arizona": {
+  "forhp_pct": 47,
+  "forhp_rural": 7,
+  "forhp_total": 15,
+  "grain": "counties",
+  "source_label": "crh.arizona.edu",
+  "source_url": "https://crh.arizona.edu/sites/default/files/2025-08/250819RHTP-Defining-Rural.pdf",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Arkansas": {
+  "forhp_pct": 77,
+  "forhp_rural": 58,
+  "forhp_total": 75,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "California": {
+  "forhp_pct": 36,
+  "forhp_rural": 21,
+  "forhp_total": 58,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/california.webp",
+   "note": "HCAI Medical Service Study Area (MSSA) Definition Map — frontier/rural/urban.",
+   "source_label": "hcai.ca.gov",
+   "source_url": "https://hcai.ca.gov/wp-content/uploads/2020/10/MSSADefinitionMap.pdf"
+  },
+  "source_label": "hcai.ca.gov",
+  "source_url": "https://hcai.ca.gov/wp-content/uploads/2020/10/MSSADefinitionMap.pdf",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Colorado": {
+  "forhp_pct": 73,
+  "forhp_rural": 47,
+  "forhp_total": 64,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/colorado.webp",
+   "note": "HCPF Rural & Frontier Counties map — 52 of 64 counties.",
+   "source_label": "hcpf.colorado.gov",
+   "source_url": "https://hcpf.colorado.gov/sites/hcpf/files/52%20Rural%20%26%20Frontier%20Counties%20%28for%20publication%29.pdf"
+  },
+  "source_label": "hcpf.colorado.gov",
+  "source_url": "https://hcpf.colorado.gov/sites/hcpf/files/52%20Rural%20%26%20Frontier%20Counties%20%28for%20publication%29.pdf",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Connecticut": {
+  "forhp_pct": 4,
+  "forhp_rural": 35,
+  "forhp_total": 829,
+  "grain": "tracts",
+  "source_label": "ruralhealthct.org",
+  "source_url": "https://ruralhealthct.org/about-us/map",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Delaware": {
+  "forhp_pct": 21,
+  "forhp_rural": 45,
+  "forhp_total": 217,
+  "grain": "tracts",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Florida": {
+  "forhp_pct": 33,
+  "forhp_rural": 22,
+  "forhp_total": 67,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/florida.webp",
+   "note": "AHCA RHTP Regional Map — the program's rural regions.",
+   "source_label": "ahca.myflorida.com",
+   "source_url": "https://ahca.myflorida.com/content/download/28497/file/AHCA-Rural_Definition_March_2026_1.pdf"
+  },
+  "source_label": "ahca.myflorida.com",
+  "source_url": "https://ahca.myflorida.com/content/download/28497/file/AHCA-Rural_Definition_March_2026_1.pdf",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Georgia": {
+  "forhp_pct": 53,
+  "forhp_rural": 85,
+  "forhp_total": 159,
+  "grain": "counties",
+  "source_label": "greathealth.georgia.gov",
+  "source_url": "https://greathealth.georgia.gov/about-program/eligible-counties-list",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Hawaii": {
+  "forhp_pct": 40,
+  "forhp_rural": 2,
+  "forhp_total": 5,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Idaho": {
+  "forhp_pct": 68,
+  "forhp_rural": 30,
+  "forhp_total": 44,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/idaho.webp",
+   "note": "DHW federally-defined rural-areas map.",
+   "source_label": "publicdocuments.dhw.idaho.gov",
+   "source_url": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35012&dbid=0&repo=PUBLIC-DOCUMENTS"
+  },
+  "source_label": "publicdocuments.dhw.idaho.gov",
+  "source_url": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35012&dbid=0&repo=PUBLIC-DOCUMENTS",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Illinois": {
+  "forhp_pct": 64,
+  "forhp_rural": 65,
+  "forhp_total": 102,
+  "grain": "counties",
+  "source_label": "hfs.illinois.gov",
+  "source_url": "https://hfs.illinois.gov/content/dam/soi/en/web/hfs/info/fedresctr/rhtsprogramnarrative.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Indiana": {
+  "forhp_pct": 52,
+  "forhp_rural": 48,
+  "forhp_total": 92,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/indiana.webp",
+   "note": "GROW Rural Health eight-region map.",
+   "source_label": "in.gov",
+   "source_url": "https://www.in.gov/grow-rural-health/regional-grants"
+  },
+  "source_label": "in.gov",
+  "source_url": "https://www.in.gov/grow-rural-health/regional-grants",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Iowa": {
+  "forhp_pct": 78,
+  "forhp_rural": 77,
+  "forhp_total": 99,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Kansas": {
+  "forhp_pct": 81,
+  "forhp_rural": 85,
+  "forhp_total": 105,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Kentucky": {
+  "forhp_pct": 68,
+  "forhp_rural": 81,
+  "forhp_total": 120,
+  "grain": "counties",
+  "source_label": "ruralhealthplan.ky.gov",
+  "source_url": "https://ruralhealthplan.ky.gov/Documents/KY%20RHTP%20Other%20Supporting%20Documentation_CMS-RHT-26-001.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Louisiana": {
+  "forhp_pct": 42,
+  "forhp_rural": 27,
+  "forhp_total": 64,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Maine": {
+  "forhp_pct": 69,
+  "forhp_rural": 11,
+  "forhp_total": 16,
+  "grain": "counties",
+  "source_label": "maine.gov",
+  "source_url": "https://www.maine.gov/dhhs/mecdc/healthy-living/rural-health/rural-health-systems",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Maryland": {
+  "forhp_pct": 29,
+  "forhp_rural": 7,
+  "forhp_total": 24,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/maryland.webp",
+   "note": "State-designated rural counties — 18 of 24 jurisdictions.",
+   "source_label": "health.maryland.gov",
+   "source_url": "https://health.maryland.gov/pophealth/Pages/Rural-health.aspx"
+  },
+  "source_label": "health.maryland.gov",
+  "source_url": "https://health.maryland.gov/pophealth/Pages/Rural-health.aspx",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Massachusetts": {
+  "forhp_pct": 3,
+  "forhp_rural": 50,
+  "forhp_total": 1474,
+  "grain": "tracts",
+  "source_label": "mass.gov",
+  "source_url": "https://www.mass.gov/info-details/state-office-of-rural-health-rural-definition",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Michigan": {
+  "forhp_pct": 64,
+  "forhp_rural": 53,
+  "forhp_total": 83,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/michigan.webp",
+   "note": "MDHHS county map — Fully Rural, Partially Rural, Metropolitan (from the state narrative).",
+   "source_label": "",
+   "source_url": null
+  },
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Minnesota": {
+  "forhp_pct": 69,
+  "forhp_rural": 60,
+  "forhp_total": 87,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Mississippi": {
+  "forhp_pct": 76,
+  "forhp_rural": 62,
+  "forhp_total": 82,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/mississippi.webp",
+   "note": "Mississippi RHT “Defining Rural” ArcGIS map.",
+   "source_label": "",
+   "source_url": null
+  },
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Missouri": {
+  "forhp_pct": 70,
+  "forhp_rural": 80,
+  "forhp_total": 115,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/missouri.webp",
+   "note": "ToRCH Hub County Groupings map — ~104 counties in hubs.",
+   "source_label": "mydss.mo.gov",
+   "source_url": "https://mydss.mo.gov/media/pdf/rural-health-transformation-program-rhtp-hub-county-groupings-map"
+  },
+  "source_label": "mydss.mo.gov",
+  "source_url": "https://mydss.mo.gov/media/pdf/rural-health-transformation-program-rhtp-hub-county-groupings-map",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Montana": {
+  "forhp_pct": 82,
+  "forhp_rural": 46,
+  "forhp_total": 56,
+  "grain": "counties",
+  "source_label": "dphhs.mt.gov",
+  "source_url": "https://dphhs.mt.gov/RuralHealthTransformationProgram/",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Nebraska": {
+  "forhp_pct": 88,
+  "forhp_rural": 82,
+  "forhp_total": 93,
+  "grain": "counties",
+  "source_label": "dhhs.ne.gov",
+  "source_url": "https://dhhs.ne.gov/Pages/RHTP-Health-Care-Advisory-Regions.aspx",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Nevada": {
+  "forhp_pct": 71,
+  "forhp_rural": 12,
+  "forhp_total": 17,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "New Hampshire": {
+  "forhp_pct": 70,
+  "forhp_rural": 7,
+  "forhp_total": 10,
+  "grain": "counties",
+  "source_label": "dhhs.nh.gov",
+  "source_url": "https://www.dhhs.nh.gov/document/rural-status-map-new-hampshire",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "New Jersey": {
+  "forhp_pct": 0,
+  "forhp_rural": 0,
+  "forhp_total": 21,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/new-jersey.webp",
+   "note": "Designated Rural Areas in New Jersey.",
+   "source_label": "nj.gov",
+   "source_url": "https://www.nj.gov/health/fhs/primarycare/rural-health/DesignatedRuralAreasinNewJersey.pdf"
+  },
+  "source_label": "nj.gov",
+  "source_url": "https://www.nj.gov/health/fhs/primarycare/rural-health/DesignatedRuralAreasinNewJersey.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "New Mexico": {
+  "forhp_pct": 79,
+  "forhp_rural": 26,
+  "forhp_total": 33,
+  "grain": "counties",
+  "source_label": "hca.nm.gov",
+  "source_url": "https://www.hca.nm.gov/wp-content/uploads/RHT-Program_Regional-Map.png",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "New York": {
+  "forhp_pct": 40,
+  "forhp_rural": 25,
+  "forhp_total": 62,
+  "grain": "counties",
+  "source_label": "health.ny.gov",
+  "source_url": "https://health.ny.gov/facilities/transforming_rural_healthcare/docs/project_narrative.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "North Carolina": {
+  "forhp_pct": 55,
+  "forhp_rural": 55,
+  "forhp_total": 100,
+  "grain": "counties",
+  "source_label": "ncdhhs.gov",
+  "source_url": "https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program/nc-rural-health-transformation-program-frequently-asked-questions",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "North Dakota": {
+  "forhp_pct": 85,
+  "forhp_rural": 45,
+  "forhp_total": 53,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Ohio": {
+  "forhp_pct": 53,
+  "forhp_rural": 47,
+  "forhp_total": 88,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/ohio.webp",
+   "note": "ODH RHTP Counties of Focus map.",
+   "source_label": "odh.ohio.gov",
+   "source_url": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-reference-documents/odh-rht-rural-health-transformation-counties-of-focus-map"
+  },
+  "source_label": "odh.ohio.gov",
+  "source_url": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-reference-documents/odh-rht-rural-health-transformation-counties-of-focus-map",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Oklahoma": {
+  "forhp_pct": 77,
+  "forhp_rural": 59,
+  "forhp_total": 77,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/oklahoma.webp",
+   "note": "Eligible-communities map (Project Narrative, Attachment A) — pop. <55,000, 75 counties.",
+   "source_label": "oklahoma.gov",
+   "source_url": "https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/health-promotion/rhtp/Project%20Narrative.pdf"
+  },
+  "source_label": "oklahoma.gov",
+  "source_url": "https://oklahoma.gov/content/dam/ok/en/health/health2/aem-documents/health-promotion/rhtp/Project%20Narrative.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Oregon": {
+  "forhp_pct": 58,
+  "forhp_rural": 21,
+  "forhp_total": 36,
+  "grain": "counties",
+  "source_label": "ohsu.edu",
+  "source_url": "https://www.ohsu.edu/media/881",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Pennsylvania": {
+  "forhp_pct": 51,
+  "forhp_rural": 34,
+  "forhp_total": 67,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/pennsylvania.webp",
+   "note": "PREP Regions (Figure 2, p7) — regional collaboratives with HRSA rural tracts shaded.",
+   "source_label": "pa.gov",
+   "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/rural-health/2026-02-06-pennsylvania-rural-health-transformation-plan-february-2026.pdf"
+  },
+  "source_label": "pa.gov",
+  "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/rural-health/2026-02-06-pennsylvania-rural-health-transformation-plan-february-2026.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Rhode Island": {
+  "forhp_pct": 1,
+  "forhp_rural": 2,
+  "forhp_total": 243,
+  "grain": "tracts",
+  "source_label": "health.ri.gov",
+  "source_url": "https://health.ri.gov/sites/g/files/xkgbur1006/files/publications/definitions/2022Rural-definition.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "South Carolina": {
+  "forhp_pct": 43,
+  "forhp_rural": 20,
+  "forhp_total": 46,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "South Dakota": {
+  "forhp_pct": 88,
+  "forhp_rural": 58,
+  "forhp_total": 66,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Tennessee": {
+  "forhp_pct": 54,
+  "forhp_rural": 51,
+  "forhp_total": 95,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Texas": {
+  "forhp_pct": 66,
+  "forhp_rural": 168,
+  "forhp_total": 254,
+  "grain": "counties",
+  "source_label": "pfd.hhs.texas.gov",
+  "source_url": "https://pfd.hhs.texas.gov/sites/default/files/documents/rural-hlth-prgm/bdgt-prd-1-rvsd-prjt-narr.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Utah": {
+  "forhp_pct": 69,
+  "forhp_rural": 20,
+  "forhp_total": 29,
+  "grain": "counties",
+  "source_label": "ruralhealth.health.utah.gov",
+  "source_url": "https://ruralhealth.health.utah.gov/utah-state-profile/county-classifications-map/",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Vermont": {
+  "forhp_pct": 79,
+  "forhp_rural": 11,
+  "forhp_total": 14,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Virginia": {
+  "forhp_pct": 40,
+  "forhp_rural": 53,
+  "forhp_total": 133,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/virginia.webp",
+   "note": "Map of Virginia's rural regions (Figure 2, p3) — the six-region rural horseshoe.",
+   "source_label": "dmas.virginia.gov",
+   "source_url": "https://dmas.virginia.gov/media/visgijnd/rhc-transformation-project-narrative.pdf"
+  },
+  "source_label": "dmas.virginia.gov",
+  "source_url": "https://dmas.virginia.gov/media/visgijnd/rhc-transformation-project-narrative.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
+ },
+ "Washington": {
+  "forhp_pct": 51,
+  "forhp_rural": 20,
+  "forhp_total": 39,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "West Virginia": {
+  "forhp_pct": 64,
+  "forhp_rural": 35,
+  "forhp_total": 55,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ },
+ "Wisconsin": {
+  "forhp_pct": 62,
+  "forhp_rural": 45,
+  "forhp_total": 72,
+  "grain": "counties",
+  "map": {
+   "file": "/img/states/rural-maps/wisconsin.webp",
+   "note": "WORH FORHP rural-areas map.",
+   "source_label": "worh.org",
+   "source_url": "https://worh.org/resources/data-maps/maps/"
+  },
+  "source_label": "worh.org",
+  "source_url": "https://worh.org/resources/data-maps/maps/",
+  "tier": "T1",
+  "tier_label": "Publishes a rural map"
+ },
+ "Wyoming": {
+  "forhp_pct": 91,
+  "forhp_rural": 21,
+  "forhp_total": 23,
+  "grain": "counties",
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
+ }
+}
