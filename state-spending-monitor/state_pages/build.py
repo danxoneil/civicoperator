@@ -74,6 +74,10 @@ KPIS        = {s["state"]: s for s in kpis_raw.get("states", []) if s.get("track
 # it lives in the paid Field Guide, not this public repo.
 FACTS_PATH  = os.path.join(HERE, "state_facts.json")
 state_facts = json.load(open(FACTS_PATH, encoding="utf-8")) if os.path.exists(FACTS_PATH) else {}
+# weekly USASpending pull: obligated (committed) + outlaid (actually disbursed) per
+# state. Written by spending_monitor.py each Monday run; drives the /outlays/ page.
+OUTLAYS_PATH = os.path.join(HERE, "outlays.json")
+outlays_data = json.load(open(OUTLAYS_PATH, encoding="utf-8")) if os.path.exists(OUTLAYS_PATH) else {}
 QUESTIONS   = content["questions"]
 AUTHORED    = content["authored"]
 
@@ -564,6 +568,7 @@ def render_state(name, d):
 {disp_block}
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
+<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
 <a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
 <a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
@@ -654,6 +659,7 @@ def render_index(cards):
 <div class="st"><h2>Compare across states</h2>
 <p class="note-q">Single-dimension reference tables that cut across all 50 states, each linking back to the full profiles.</p>
 <p class="related">
+<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
 <a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
 <a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
@@ -808,6 +814,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 <div class="ptab-wrap"><table class="ptab"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div></div>
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
+<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
 <a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
 <a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
@@ -855,6 +862,52 @@ def render_agencies(cards_by_name):
         ["State", "Administering agency", "Official hub"], rows,
         note="The designated lead agency running RHTP in each state (federal award recipient of record). Click a state for its full profile.")
 
+def render_outlays(names):
+    """Money-actually-disbursed cluster page. Neutral, alphabetical: obligated
+    (committed) vs outlaid (disbursed) for every state, fed by the weekly
+    USASpending pull in outlays.json. The drawn-down story lives in the intro,
+    not as a ranking column."""
+    od = outlays_data or {}
+    st = od.get("states", {})
+    as_of = od.get("as_of", LAST_REVIEWED)
+    def usd0(v):
+        try:
+            return f"${float(v):,.0f}"
+        except (TypeError, ValueError):
+            return "&mdash;"
+    rows, tot_ob, tot_out = [], 0.0, 0.0
+    for name in sorted(names):
+        s = st.get(name) or {}
+        ob, out = s.get("obligated"), s.get("outlaid")
+        if isinstance(ob, (int, float)):
+            tot_ob += ob
+        if isinstance(out, (int, float)):
+            tot_out += out
+        prof = f'<a class="rowlink" href="/work/rht/states/{slug(name)}/">{name}</a>'
+        rows.append((prof, usd0(ob), usd0(out)))
+    pct = (tot_out / tot_ob * 100) if tot_ob else 0
+    intro = (
+        "<p>Every state runs its Rural Health Transformation Program on a federal "
+        "cooperative agreement, and two numbers track the money: <strong>obligated</strong> "
+        "&mdash; funds CMS has committed to the state &mdash; and <strong>outlaid</strong> "
+        "&mdash; funds actually disbursed to date. This table records both for all 50 states, "
+        "pulled weekly from USASpending.gov (federal program 93.798). "
+        f"As of {as_of}, states had drawn down <strong>${tot_out/1e6:,.1f} million</strong> "
+        f"of <strong>${tot_ob/1e9:,.2f} billion</strong> obligated in Year&nbsp;1 &mdash; "
+        f"about {pct:.1f}%. Federal award pages report each state&rsquo;s outlays one grant at a "
+        "time; this is a maintained side-by-side comparison of all 50. See "
+        "<a href=\"/work/rht/states/methodology\">Methodology</a> for sourcing.</p>")
+    render_cluster(
+        "outlays", "RHTP outlays by state",
+        "RHTP outlays by state — federal money actually disbursed",
+        ("How much CMS Rural Health Transformation Program money has actually been disbursed "
+         "(outlaid) to each state versus obligated &mdash; all 50 states, pulled weekly from "
+         f"USASpending.gov. Current as of {as_of}, by Civic Operator."),
+        intro,
+        ["State", "Obligated", "Outlaid (disbursed)"], rows,
+        note=(f"Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for "
+              f"each state, as of {as_of}. Click a state for its full profile."))
+
 # ---------- run ----------
 os.makedirs(OUT_ROOT, exist_ok=True)
 cards = []
@@ -867,7 +920,8 @@ render_methodology(cards)
 _state_names = [n for n in states_data if n != "CMS"]
 render_rural_definitions(_state_names)
 render_agencies({n: states_data[n] for n in _state_names})
+render_outlays(_state_names)
 auth = sum(1 for c in cards if c["status"] == "authored")
-print(f"Generated {len(cards)} state pages + index + methodology + 2 cluster pages  |  authored: {auth}  |  derived: {len(cards)-auth}")
+print(f"Generated {len(cards)} state pages + index + methodology + 3 cluster pages  |  authored: {auth}  |  derived: {len(cards)-auth}")
 print(f"Total dispatches linked: {sum(c['ndisp'] for c in cards)}  |  Year-1 awards: ${sum(c.get('usd') or 0 for c in cards)/1e9:.1f}B")
 print("Output:", OUT_ROOT)
