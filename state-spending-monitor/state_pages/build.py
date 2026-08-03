@@ -74,6 +74,10 @@ KPIS        = {s["state"]: s for s in kpis_raw.get("states", []) if s.get("track
 # it lives in the paid Field Guide, not this public repo.
 FACTS_PATH  = os.path.join(HERE, "state_facts.json")
 state_facts = json.load(open(FACTS_PATH, encoding="utf-8")) if os.path.exists(FACTS_PATH) else {}
+# weekly USASpending pull: obligated (committed) + outlaid (actually disbursed) per
+# state. Written by spending_monitor.py each Monday run; drives the /outlays/ page.
+OUTLAYS_PATH = os.path.join(HERE, "outlays.json")
+outlays_data = json.load(open(OUTLAYS_PATH, encoding="utf-8")) if os.path.exists(OUTLAYS_PATH) else {}
 QUESTIONS   = content["questions"]
 AUTHORED    = content["authored"]
 
@@ -564,6 +568,7 @@ def render_state(name, d):
 {disp_block}
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
+<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
 <a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
 <a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
@@ -654,6 +659,7 @@ def render_index(cards):
 <div class="st"><h2>Compare across states</h2>
 <p class="note-q">Single-dimension reference tables that cut across all 50 states, each linking back to the full profiles.</p>
 <p class="related">
+<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
 <a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
 <a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
@@ -756,11 +762,53 @@ def render_methodology(cards):
     open(os.path.join(d_out, "index.html"), "w", encoding="utf-8").write(page)
 
 # ---------- cross-state cluster pages ----------
-def render_cluster(slug_, h1, title, description, intro, headers, rows, note=None):
+# Progressive-enhancement click-to-sort for cluster tables. Served order is
+# unchanged (neutral default holds with JS off). Numeric columns (detected by
+# stripping $ , and spaces) sort numerically; others sort as text.
+SORT_CSS = """<style>
+table.ptab.sortable th{cursor:pointer;user-select:none;white-space:nowrap;}
+table.ptab.sortable th:focus-visible{outline:2px solid #007a99;outline-offset:-2px;}
+table.ptab.sortable th::after{content:'';display:inline-block;width:0;height:0;margin-left:7px;vertical-align:middle;border-left:4px solid transparent;border-right:4px solid transparent;border-top:5px solid currentColor;opacity:.25;}
+table.ptab.sortable th[aria-sort=ascending]::after{border-top:0;border-bottom:5px solid currentColor;opacity:.85;}
+table.ptab.sortable th[aria-sort=descending]::after{opacity:.85;}
+</style>"""
+SORT_JS = """<script>
+(function(){
+  var t=document.querySelector('table.ptab.sortable'); if(!t||!t.tHead) return;
+  var tb=t.tBodies[0], ths=t.tHead.rows[0].cells;
+  function txt(td){return (td.textContent||'').trim();}
+  function num(s){s=s.replace(/[^0-9.\\-]/g,'');return s===''?null:parseFloat(s);}
+  function numeric(ci){var seen=false,r=tb.rows;for(var i=0;i<r.length;i++){var s=txt(r[i].cells[ci]);if(s==='')continue;if(num(s)===null)return false;seen=true;}return seen;}
+  var dir={};
+  for(var c=0;c<ths.length;c++){(function(ci){
+    var th=ths[ci]; th.tabIndex=0; th.setAttribute('role','button');
+    function sort(){
+      var isNum=numeric(ci), asc=dir[ci]!=='asc'; dir={}; dir[ci]=asc?'asc':'desc';
+      var rows=Array.prototype.slice.call(tb.rows);
+      rows.sort(function(a,b){
+        var x=txt(a.cells[ci]),y=txt(b.cells[ci]);
+        if(isNum){var nx=num(x),ny=num(y);nx=nx===null?-Infinity:nx;ny=ny===null?-Infinity:ny;return asc?nx-ny:ny-nx;}
+        return asc?x.localeCompare(y):y.localeCompare(x);
+      });
+      rows.forEach(function(r){tb.appendChild(r);});
+      for(var k=0;k<ths.length;k++)ths[k].removeAttribute('aria-sort');
+      th.setAttribute('aria-sort',asc?'ascending':'descending');
+    }
+    th.addEventListener('click',sort);
+    th.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();sort();}});
+  })(c);}
+})();
+</script>"""
+
+def render_cluster(slug_, h1, title, description, intro, headers, rows, note=None,
+                   sortable=False):
     """Generic single-dimension reference table across all 50 states. Each row
-    links back to a full profile — hub-and-spoke internal linking."""
+    links back to a full profile — hub-and-spoke internal linking. sortable=True
+    adds progressive-enhancement click-to-sort headers (numeric columns sort
+    numerically); the served order stays as passed, so the neutral default holds
+    with JS off."""
     page_url = f"{SITE}/work/rht/states/{slug_}/"
-    thead = "".join(f"<th>{h}</th>" for h in headers)
+    thead = "".join(f'<th scope="col">{h}</th>' for h in headers)
     tbody = ""
     for r in rows:
         tds = "".join(f"<td>{c}</td>" for c in r)
@@ -779,6 +827,9 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
     ]}, ensure_ascii=False, indent=1)
     note_html = f'<p class="note-q">{note}</p>' if note else ""
     analytics = ga_tag("cluster")
+    tbl_cls = "ptab sortable" if sortable else "ptab"
+    sort_css = SORT_CSS if sortable else ""
+    sort_js = SORT_JS if sortable else ""
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -804,10 +855,11 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">&rsaquo;</span><a href="/work/rht">RHT</a><span class="sep">&rsaquo;</span><a href="/work/rht/states/">States</a><span class="sep">&rsaquo;</span><span>{h1}</span></nav>
 <h1>{h1}</h1>
 <div class="intro">{intro}</div>
-<div class="st">{note_html}
-<div class="ptab-wrap"><table class="ptab"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div></div>
+<div class="st">{note_html}{sort_css}
+<div class="ptab-wrap"><table class="{tbl_cls}"><thead><tr>{thead}</tr></thead><tbody>{tbody}</tbody></table></div></div>{sort_js}
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
+<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
 <a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
 <a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
@@ -855,6 +907,54 @@ def render_agencies(cards_by_name):
         ["State", "Administering agency", "Official hub"], rows,
         note="The designated lead agency running RHTP in each state (federal award recipient of record). Click a state for its full profile.")
 
+def render_outlays(names):
+    """Money-actually-disbursed cluster page. Neutral, alphabetical: obligated
+    (committed) vs outlaid (disbursed) for every state, fed by the weekly
+    USASpending pull in outlays.json. The drawn-down story lives in the intro,
+    not as a ranking column."""
+    od = outlays_data or {}
+    st = od.get("states", {})
+    as_of = od.get("as_of", LAST_REVIEWED)
+    def usd0(v):
+        try:
+            return f"${float(v):,.0f}"
+        except (TypeError, ValueError):
+            return "&mdash;"
+    rows, tot_ob, tot_out = [], 0.0, 0.0
+    for name in sorted(names):
+        s = st.get(name) or {}
+        ob, out = s.get("obligated"), s.get("outlaid")
+        if isinstance(ob, (int, float)):
+            tot_ob += ob
+        if isinstance(out, (int, float)):
+            tot_out += out
+        prof = f'<a class="rowlink" href="/work/rht/states/{slug(name)}/">{name}</a>'
+        rows.append((prof, usd0(ob), usd0(out)))
+    pct = (tot_out / tot_ob * 100) if tot_ob else 0
+    intro = (
+        "<p>Every state runs its Rural Health Transformation Program on a federal "
+        "cooperative agreement, and two numbers track the money: <strong>obligated</strong> "
+        "&mdash; funds CMS has committed to the state &mdash; and <strong>outlaid</strong> "
+        "&mdash; funds actually disbursed to date. This table records both for all 50 states, "
+        "pulled weekly from USASpending.gov (federal program 93.798). "
+        f"As of {as_of}, states had drawn down <strong>${tot_out/1e6:,.1f} million</strong> "
+        f"of <strong>${tot_ob/1e9:,.2f} billion</strong> obligated in Year&nbsp;1 &mdash; "
+        f"about {pct:.1f}%. Federal award pages report each state&rsquo;s outlays one grant at a "
+        "time; this is a maintained side-by-side comparison of all 50. See "
+        "<a href=\"/work/rht/states/methodology\">Methodology</a> for sourcing.</p>")
+    render_cluster(
+        "outlays", "RHTP outlays by state",
+        "RHTP outlays by state — federal money actually disbursed",
+        ("How much CMS Rural Health Transformation Program money has actually been disbursed "
+         "(outlaid) to each state versus obligated &mdash; all 50 states, pulled weekly from "
+         f"USASpending.gov. Current as of {as_of}, by Civic Operator."),
+        intro,
+        ["State", "Obligated", "Outlaid (disbursed)"], rows,
+        note=(f"Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for "
+              f"each state, as of {as_of}. Click a column header to sort; click a state for its "
+              f"full profile."),
+        sortable=True)
+
 # ---------- run ----------
 os.makedirs(OUT_ROOT, exist_ok=True)
 cards = []
@@ -867,7 +967,8 @@ render_methodology(cards)
 _state_names = [n for n in states_data if n != "CMS"]
 render_rural_definitions(_state_names)
 render_agencies({n: states_data[n] for n in _state_names})
+render_outlays(_state_names)
 auth = sum(1 for c in cards if c["status"] == "authored")
-print(f"Generated {len(cards)} state pages + index + methodology + 2 cluster pages  |  authored: {auth}  |  derived: {len(cards)-auth}")
+print(f"Generated {len(cards)} state pages + index + methodology + 3 cluster pages  |  authored: {auth}  |  derived: {len(cards)-auth}")
 print(f"Total dispatches linked: {sum(c['ndisp'] for c in cards)}  |  Year-1 awards: ${sum(c.get('usd') or 0 for c in cards)/1e9:.1f}B")
 print("Output:", OUT_ROOT)

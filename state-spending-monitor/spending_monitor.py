@@ -478,6 +478,44 @@ class SpendingMonitor:
         with open(self.snapshots_file, 'w') as f:
             json.dump(snapshots, f, indent=2, default=str)
 
+    def write_outlays_json(self, api_data: Dict, run_date: str):
+        """Write state_pages/outlays.json — the committed build input that drives
+        the public /work/rht/states/outlays/ page. Runs every weekly pull so the
+        page's obligated/outlaid figures and `as_of` date stay current. Keyed by
+        state display name; only the 50 states in AWARD_MAP are emitted."""
+        def _num(v):
+            try:
+                return round(float(v), 2)
+            except (TypeError, ValueError):
+                return None
+        states = {}
+        for fain, r in api_data.items():
+            name = AWARD_MAP.get(fain)
+            if not name:
+                continue
+            states[name] = {
+                'fain': fain,
+                'obligated': _num(r.get('Award Amount')),
+                'outlaid': _num(r.get('Total Outlays')),
+                'award_last_modified': r.get('Last Modified Date'),
+                'usaspending_url':
+                    f"https://www.usaspending.gov/award/ASST_NON_{fain}_075/",
+            }
+        doc = {
+            'as_of': run_date,
+            'source': 'USASpending.gov',
+            'program': '93.798 — Rural Health Transformation Program',
+            'note': ("obligated = federal funds committed to the state's cooperative "
+                     "agreement; outlaid = federal funds actually disbursed to date. "
+                     "Pulled weekly from USASpending.gov."),
+            'states': dict(sorted(states.items())),
+        }
+        out_path = os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), 'state_pages', 'outlays.json')
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(doc, f, indent=2, ensure_ascii=False)
+        logger.info(f"Wrote {out_path} ({len(states)} states, as_of {run_date})")
+
     def detect_changes(
         self, previous: Dict, current: Dict,
     ) -> Dict[str, List[Dict]]:
@@ -529,11 +567,26 @@ class SpendingMonitor:
 
     # ── Main ─────────────────────────────────────────────────────────
 
-    def run(self):
-        """Main execution: fetch data, detect changes, update board."""
+    def run(self, outlays_only=False):
+        """Main execution: fetch data, detect changes, update board.
+
+        outlays_only=True is a dry run: fetch the public USASpending figures and
+        (re)write state_pages/outlays.json only — no Monday board read/write, no
+        snapshots, no email. Use it to verify the outlays.json output before a
+        real weekly run.
+        """
         run_date = datetime.now().strftime('%Y-%m-%d')
         logger.info(f"Spending Monitor run — {run_date}")
         logger.info(f"Tracking {len(AWARD_MAP)} RHTP awards")
+
+        if outlays_only:
+            logger.info("outlays-only dry run — no Monday board or email")
+            api_data = self.fetch_awards_from_usaspending()
+            if not api_data:
+                logger.warning("No award data returned from USASpending API")
+                return
+            self.write_outlays_json(api_data, run_date)
+            return
 
         # 1. Fetch board data (also logs columns for discovery)
         items, columns = self.fetch_board_data()
@@ -598,6 +651,9 @@ class SpendingMonitor:
         # 6. Save new snapshots
         self.save_snapshots(api_data)
         logger.info(f"Saved snapshots to {self.snapshots_file}")
+
+        # 6b. Refresh the committed build input for the public /outlays/ page.
+        self.write_outlays_json(api_data, run_date)
 
         # 7. Write results JSON
         results = {
@@ -767,8 +823,10 @@ class SpendingMonitor:
 
 
 def main():
+    import sys
+    outlays_only = '--outlays-only' in sys.argv[1:]
     monitor = SpendingMonitor()
-    monitor.run()
+    monitor.run(outlays_only=outlays_only)
 
 
 if __name__ == '__main__':
