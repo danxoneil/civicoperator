@@ -45,6 +45,17 @@ jobs:
           MONDAY_API_TOKEN: ${{ secrets.MONDAY_API_TOKEN }}
         run: python fetch_monday.py
 
+      # Refresh outlays.json for the /outlays/ page from the public USASpending
+      # API (obligated vs disbursed per state). No secrets — the --outlays-only
+      # path skips the Monday board and email. Non-fatal: if USASpending is down,
+      # build.py falls back to the last committed outlays.json.
+      - name: Refresh outlays.json from USASpending
+        working-directory: state-spending-monitor
+        continue-on-error: true
+        run: |
+          pip install requests==2.32.5
+          python spending_monitor.py --outlays-only
+
       # NOTE: procurements.json and dispatch_sources.json are intentionally NOT
       # produced or committed here — they are product data (RHTP Alerts feed /
       # paywalled newsletter content) and must never land in this public repo.
@@ -57,7 +68,7 @@ jobs:
           cd "$GITHUB_WORKSPACE"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add work/rht/states state-spending-monitor/state_pages/states_data.json
+          git add work/rht/states state-spending-monitor/state_pages/states_data.json state-spending-monitor/state_pages/outlays.json
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
