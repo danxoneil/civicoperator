@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-05",
+  "as_of": "2026-08-06",
   "source": "USASpending.gov",
   "program": "93.798 — Rural Health Transformation Program",
   "note": "obligated = federal funds committed to the state's cooperative agreement; outlaid = federal funds actually disbursed to date. Pulled weekly from USASpending.gov.",
@@ -15,7 +15,7 @@
       "fain": "RHTCMS332062",
       "obligated": 272174855.72,
       "outlaid": 2204927.3,
-      "award_last_modified": "2026-02-20 23:41:04",
+      "award_last_modified": "2026-08-05 19:45:29",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332062_075/"
     },
     "Arizona": {
@@ -50,7 +50,7 @@
       "fain": "RHTCMS332073",
       "obligated": 154249105.53,
       "outlaid": 1017125.14,
-      "award_last_modified": "2026-04-20 19:41:45",
+      "award_last_modified": "2026-08-05 19:45:29",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332073_075/"
     },
     "Delaware": {
@@ -176,7 +176,7 @@
       "fain": "RHTCMS332090",
       "obligated": 216276817.66,
       "outlaid": 4902065.53,
-      "award_last_modified": "2026-04-06 19:30:04",
+      "award_last_modified": "2026-08-05 19:45:29",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332090_075/"
     },
     "Montana": {
@@ -295,7 +295,7 @@
       "fain": "RHTCMS332057",
       "obligated": 206888882.11,
       "outlaid": 478321.31,
-      "award_last_modified": "2026-04-06 19:30:04",
+      "award_last_modified": "2026-08-05 19:45:29",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332057_075/"
     },
     "Texas": {
@@ -330,7 +330,7 @@
       "fain": "RHTCMS332044",
       "obligated": 181257515.06,
       "outlaid": 401164.94,
-      "award_last_modified": "2026-04-20 19:41:45",
+      "award_last_modified": "2026-08-05 19:45:29",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332044_075/"
     },
     "West Virginia": {
