@@ -98,7 +98,7 @@ h1, h2, h3, h4 {
 .rht-subnav a.arch.active { background: rgba(255,255,255,0.9); color: var(--co-teal-d); }
 
 /* ---- Breadcrumbs (shared; mirrors generated pages' .crumbs) ---- */
-.crumbs { font-size: .82rem; color: #8a7f72; padding: 14px 20px 0; max-width: 1140px; margin: 0 auto; letter-spacing: .01em; }
+.crumbs { font-size: .82rem; color: #8a7f72; padding: 14px 20px; max-width: 1140px; margin: 0 auto; letter-spacing: .01em; }
 .crumbs a { color: var(--co-teal); text-decoration: none; }
 .crumbs a:hover { text-decoration: underline; }
 .crumbs span { color: #8a7f72; }
