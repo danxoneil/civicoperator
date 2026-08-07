@@ -1,0 +1,7 @@
+# Bot access rules and AI content signals are managed by Cloudflare
+# (AI Crawl Control -> Managed robots.txt). When this origin file returns
+# 200, Cloudflare PREPENDS its managed block and keeps the directives below,
+# so this Sitemap line is preserved in the served robots.txt.
+# Verify after deploy:  curl -s https://www.civicoperator.com/robots.txt
+
+Sitemap: https://www.civicoperator.com/sitemap.xml
