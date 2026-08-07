@@ -70,6 +70,14 @@ jobs:
         working-directory: ${{ github.workspace }}
         run: python scripts/generate_sitemap.py
 
+      # Regenerate the Markdown companions (Accept: text/markdown negotiation,
+      # served via worker/markdown-negotiation.js) from the rebuilt HTML.
+      - name: Regenerate Markdown companions
+        working-directory: ${{ github.workspace }}
+        run: |
+          pip install beautifulsoup4 markdownify
+          python scripts/generate_markdown.py
+
       - name: Commit changes if any
         run: |
           cd "$GITHUB_WORKSPACE"
