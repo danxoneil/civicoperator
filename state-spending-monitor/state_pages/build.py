@@ -448,6 +448,19 @@ def rural_map_block(name):
             f'Source: {cap_src}. See <a href="/work/rht/states/rural-definitions/#map-{sl}">'
             f'how every state defines rural</a>.</figcaption></figure>')
 
+def rural_def_block(name):
+    """Optional prose on how the state defines rural for its RHTP, shown only when
+    a state publishes its own methodology worth explaining (e.g. multi-pathway
+    eligibility). Rendered from state_facts[name]['rural_geography_prose']; the
+    compact category still appears in the At-a-glance grid and the cross-state
+    rural-definitions table, both driven by the same 'rural_geography' record."""
+    prose = (state_facts.get(name) or {}).get("rural_geography_prose")
+    if not prose:
+        return ""
+    return (f'<div class="st"><h2>How {name} defines rural</h2>{prose}'
+            f'<p class="note-q">See <a href="/work/rht/states/rural-definitions/">how every '
+            f'state defines &ldquo;rural&rdquo;</a> for the cross-state comparison and source.</p></div>')
+
 def render_state(name, d):
     sl = slug(name)
     auth = AUTHORED.get(name)
@@ -600,7 +613,7 @@ def render_state(name, d):
 {rural_map_block(name)}
 <div class="rule"></div>
 <div class="st"><h2>At a glance</h2>
-<div class="facts">{fact_rows}</div></div>
+<div class="facts">{fact_rows}</div></div>{rural_def_block(name)}
 {kpi_block(name)}
 <div class="st"><h2>Questions &amp; answers</h2><div class="faq">{faq}</div></div>
 {disp_block}

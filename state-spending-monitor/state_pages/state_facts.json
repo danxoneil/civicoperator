@@ -102,8 +102,9 @@
   "agency_name": "Health Services Kentucky Cabinet for"
  },
  "Louisiana": {
-  "tier_label": "federal HRSA default",
-  "rural_geography": "Federal HRSA rural default",
+  "tier_label": "own rural geography",
+  "rural_geography": "Uses its own rural definition",
+  "rural_geography_prose": "<p>An organization does not have to be located in rural Louisiana to be eligible for the state's Rural Health Transformation Program. Rather than defer to the federal default, the Louisiana Department of Health published its own rural eligibility methodology (RHTP: Rural Eligibility Definition and Methodology, v1.0, May 13, 2026), under which an applicant qualifies as rural-serving through any one of three pathways &mdash; and two of the three are not geographic at all.</p><p>The first pathway is location: a provider in a non-metro parish, or in a RUCA-aligned rural census tract inside a metro parish, verified through HRSA's Rural Health Grants Eligibility Analyzer. The second is a CMS rural hospital designation &mdash; Critical Access Hospital, Sole Community Hospital, Medicare Dependent Hospital, or a hospital in a rural-designated area. The third is patient share: an organization more than half of whose patients live in ZIP codes classified RUCA 4&ndash;10 qualifies, measured either across the whole organization by its headquarters or at a single site such as a clinic or office. LDH's stated intent is to reach high-impact providers that may not be geographically rural but still serve rural populations &mdash; telehealth, mobile delivery, regional hubs &mdash; and it reserves the right to validate submissions against federal datasets.</p>",
   "obligated": 208374447.57,
   "agency_name": "Louisiana Department of Health"
  },

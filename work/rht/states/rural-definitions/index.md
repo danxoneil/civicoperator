@@ -23,7 +23,7 @@ How each state defines rural for RHTP, with its rural share on a common federal 
 | [Iowa](/work/rht/states/iowa/) | Federal (HRSA) default | — | 78% | 77 of 99 counties | — |
 | [Kansas](/work/rht/states/kansas/) | Federal (HRSA) default | — | 81% | 85 of 105 counties | — |
 | [Kentucky](/work/rht/states/kentucky/) | County list | — | 68% | 81 of 120 counties | [ruralhealthplan.ky.gov](https://ruralhealthplan.ky.gov/Documents/KY%20RHTP%20Other%20Supporting%20Documentation_CMS-RHT-26-001.pdf) |
-| [Louisiana](/work/rht/states/louisiana/) | Federal (HRSA) default | — | 42% | 27 of 64 counties | — |
+| [Louisiana](/work/rht/states/louisiana/) | Own definition | — | 42% | 27 of 64 counties | [RHTP: Rural Eligibility Definition and Methodology (v1.0, May 13, 2026)](https://ldh.la.gov/assets/docs/Secretary/RHTP/Rural-Eligibility-Definition-Methodology.pdf) |
 | [Maine](/work/rht/states/maine/) | County list | — | 69% | 11 of 16 counties | [maine.gov](https://www.maine.gov/dhhs/mecdc/healthy-living/rural-health/rural-health-systems) |
 | [Maryland](/work/rht/states/maryland/) | Own definition | [View ↓](#map-maryland) | 29% | 7 of 24 counties | [health.maryland.gov](https://health.maryland.gov/pophealth/Pages/Rural-health.aspx) |
 | [Massachusetts](/work/rht/states/massachusetts/) | Own definition | — | 3% | 50 of 1474 tracts | [mass.gov](https://www.mass.gov/info-details/state-office-of-rural-health-rural-definition) |

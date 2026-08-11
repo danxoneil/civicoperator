@@ -204,10 +204,10 @@
   "forhp_rural": 27,
   "forhp_total": 64,
   "grain": "counties",
-  "source_label": "",
-  "source_url": null,
-  "tier": "T3",
-  "tier_label": "Federal (HRSA) default"
+  "source_label": "RHTP: Rural Eligibility Definition and Methodology (v1.0, May 13, 2026)",
+  "source_url": "https://ldh.la.gov/assets/docs/Secretary/RHTP/Rural-Eligibility-Definition-Methodology.pdf",
+  "tier": "T2",
+  "tier_label": "Publishes a list/definition"
  },
  "Maine": {
   "forhp_pct": 69,

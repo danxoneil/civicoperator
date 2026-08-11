@@ -67,7 +67,7 @@ $221.9M · 23 dispatches · Federal HRSA rural default](/work/rht/states/kansas/
 
 $212.9M · 12 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
-$208.4M · 10 dispatches · Federal HRSA rural default](/work/rht/states/louisiana/)[Maine
+$208.4M · 10 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
 $190.0M · 4 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 

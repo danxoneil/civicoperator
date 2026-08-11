@@ -42,7 +42,7 @@ Administering agency
 
 Rural geography
 
-[Federal HRSA rural default](/work/rht/states/rural-definitions/)
+[Uses its own rural definition](/work/rht/states/rural-definitions/)
 
 Federal award data
 
@@ -51,6 +51,14 @@ Federal award data
 Tracker dispatches
 
 10 dated briefs
+
+## How Louisiana defines rural
+
+An organization does not have to be located in rural Louisiana to be eligible for the state's Rural Health Transformation Program. Rather than defer to the federal default, the Louisiana Department of Health published its own rural eligibility methodology (RHTP: Rural Eligibility Definition and Methodology, v1.0, May 13, 2026), under which an applicant qualifies as rural-serving through any one of three pathways — and two of the three are not geographic at all.
+
+The first pathway is location: a provider in a non-metro parish, or in a RUCA-aligned rural census tract inside a metro parish, verified through HRSA's Rural Health Grants Eligibility Analyzer. The second is a CMS rural hospital designation — Critical Access Hospital, Sole Community Hospital, Medicare Dependent Hospital, or a hospital in a rural-designated area. The third is patient share: an organization more than half of whose patients live in ZIP codes classified RUCA 4–10 qualifies, measured either across the whole organization by its headquarters or at a single site such as a clinic or office. LDH's stated intent is to reach high-impact providers that may not be geographically rural but still serve rural populations — telehealth, mobile delivery, regional hubs — and it reserves the right to validate submissions against federal datasets.
+
+See [how every state defines “rural”](/work/rht/states/rural-definitions/) for the cross-state comparison and source.
 
 ## Questions & answers
 
