@@ -127,7 +127,7 @@ Once you're a Founding Member, we get on an initial consulting call. At the end 
 
 ### Get your State Fit Brief
 
-I build your custom State Fit Brief around what you shared and deliver it within 2 business days. After that, you're an existing client — additional briefs are available any time.
+I build your custom State Fit Brief around what you shared and deliver it. After that, you're an existing client — additional briefs are available any time.
 
 Save your subscription-plans screenshot as `img/substack-plans.png` and it will appear here.
 
@@ -149,7 +149,7 @@ All payments are processed on Substack. Just want the newsletter? Monthly and an
 
 ## How your State Fit Brief comes together
 
-From kickoff to delivered brief, typically within **2 business days**.
+From kickoff to delivered brief.
 
 1
 

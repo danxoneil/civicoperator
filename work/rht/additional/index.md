@@ -29,24 +29,13 @@ Secure checkout via Stripe
 
 Additional briefs are billed via Stripe. Your original Founding Member subscription remains on Substack.
 
-## Monthly Retainer
+## Want this standing, not one brief at a time?
 
-For clients who want me on call all month — not one brief at a time.
+That's a different engagement, and it has its own page.
 
-Ongoing partnership
+[RHTP Verified Intelligence](/work/rht/intelligence) is the standing arrangement — the instrument pointed at your organization, with a person reading what it surfaces before it reaches you. Month to month, from $2,000 a month.
 
-### Monthly Retainer
-
-$5,000/mo
-
-Billed monthly via Stripe
-
-- Standing access to me and the proprietary database
-- Monthly strategy calls on the states that matter to you
-- A steady cadence of briefs and priority intelligence
-- First in line for new RFPs and contracting windows
-
-[Start a monthly retainer](mailto:danx@civicoperator.com?subject=RHT%20Monthly%20Retainer)
+[See how it works →](/work/rht/intelligence)
 
 ## Custom Development
 
@@ -72,7 +61,7 @@ Design and build of marketing sites and landing pages — like this one.
 
 ## How each brief comes together
 
-Same process you know — from kickoff to delivered brief, typically within **2 business days**.
+Same process you know — from kickoff to delivered brief.
 
 1
 

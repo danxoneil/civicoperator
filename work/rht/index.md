@@ -2,7 +2,7 @@ Rural Health Transformation
 
 # Everything I do on the $50B rural health program — in three layers
 
-A free, neutral state-by-state reference; the newsletter that interprets it; and consulting that maps *your* organization to the money — from a one-time State Fit Brief to daily, verified intelligence. Start free, go as deep as you need.
+A free, neutral state-by-state reference; the newsletter that interprets it; and consulting that maps *your* organization to the money — from a one-time State Fit Brief to a standing, verified intelligence arrangement. Start free, go as deep as you need.
 
 [Browse the States — free](/work/rht/states)
 [Become a client — $480](/work/rht/brief#consulting)
@@ -33,11 +33,11 @@ Free – $480/year
 
 The subscription — operate
 
-### Verified Daily Intelligence
+### RHTP Verified Intelligence
 
-Your State Fit Brief, kept alive. Every morning: the new RHTP opportunities that match your organization — each one checked by a human, ranked, and paired with who to call. [See how it works](/work/rht/intelligence).
+Your State Fit Brief, kept alive. A digest, by email, most business days — the RHTP opportunities that match your organization, read by a person before they reach you, with the contacts the state has published. [See how it works](/work/rht/intelligence).
 
-[Start a scoped pilot →](/work/rht/intelligence)
+[Start a conversation →](/work/rht/intelligence)
 
 Scoped retainer · from $2,000/mo
 
@@ -45,7 +45,7 @@ The gateway — customize
 
 ### Start with a one-time State Fit Brief
 
-Before you go daily, get the map. A one-time, ranked **State Fit Brief** shows where your organization fits the program across up to ten states — matched dollars, procurement windows, enabling legislation, and named contacts. It's the point-in-time analysis most clients start with, and the on-ramp to [Verified Daily Intelligence](/work/rht/intelligence).
+Get the map first. A one-time, ranked **State Fit Brief** shows where your organization fits the program across up to ten states — matched dollars, procurement windows, enabling legislation, and named contacts. It's the point-in-time analysis most clients start with, and the on-ramp to [RHTP Verified Intelligence](/work/rht/intelligence).
 
 [See what's in a brief — $480](/work/rht/brief)
 
