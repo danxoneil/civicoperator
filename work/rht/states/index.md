@@ -133,7 +133,7 @@ $203.7M · 5 dispatches · Uses its own rural definition](/work/rht/states/wisco
 
 $205.0M · 4 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-08-17. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-08-18. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
