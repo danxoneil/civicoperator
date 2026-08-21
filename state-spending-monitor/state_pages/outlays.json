@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-20",
+  "as_of": "2026-08-21",
   "source": "USASpending.gov",
   "program": "93.798 — Rural Health Transformation Program",
   "note": "obligated = federal funds committed to the state's cooperative agreement; outlaid = federal funds actually disbursed to date. Pulled weekly from USASpending.gov.",
@@ -64,7 +64,7 @@
       "fain": "RHTCMS332067",
       "obligated": 209938194.5,
       "outlaid": 205603.34,
-      "award_last_modified": "2026-04-06 19:30:04",
+      "award_last_modified": "2026-08-20 20:29:22",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332067_075/"
     },
     "Georgia": {
@@ -85,7 +85,7 @@
       "fain": "RHTCMS332084",
       "obligated": 185974367.81,
       "outlaid": 37318.46,
-      "award_last_modified": "2026-06-22 19:41:13",
+      "award_last_modified": "2026-08-20 20:29:22",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332084_075/"
     },
     "Illinois": {
@@ -134,7 +134,7 @@
       "fain": "RHTCMS332075",
       "obligated": 190008051.09,
       "outlaid": 2269499.15,
-      "award_last_modified": "2026-04-20 19:41:45",
+      "award_last_modified": "2026-08-20 20:29:22",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332075_075/"
     },
     "Maryland": {
@@ -169,14 +169,14 @@
       "fain": "RHTCMS332063",
       "obligated": 205907220.16,
       "outlaid": 0.0,
-      "award_last_modified": "2026-04-22 19:44:11",
+      "award_last_modified": "2026-08-20 20:29:22",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332063_075/"
     },
     "Missouri": {
       "fain": "RHTCMS332090",
       "obligated": 216276817.66,
       "outlaid": 4902065.53,
-      "award_last_modified": "2026-08-05 19:45:29",
+      "award_last_modified": "2026-08-20 20:29:22",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332090_075/"
     },
     "Montana": {
@@ -267,7 +267,7 @@
       "fain": "RHTCMS332052",
       "obligated": 193294053.98,
       "outlaid": 0.0,
-      "award_last_modified": "2026-02-06 04:03:18",
+      "award_last_modified": "2026-08-20 20:29:22",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332052_075/"
     },
     "Rhode Island": {
@@ -281,7 +281,7 @@
       "fain": "RHTCMS332056",
       "obligated": 200030252.32,
       "outlaid": 141931.1,
-      "award_last_modified": "2026-05-05 20:19:32",
+      "award_last_modified": "2026-08-20 20:29:22",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332056_075/"
     },
     "South Dakota": {
