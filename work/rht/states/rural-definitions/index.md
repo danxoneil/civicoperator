@@ -17,13 +17,13 @@ How each state defines rural for RHTP, with its rural share on a common federal 
 | [Florida](/work/rht/states/florida/) | Own definition | [View ↓](#map-florida) | 33% | 22 of 67 counties | [ahca.myflorida.com](https://ahca.myflorida.com/content/download/28497/file/AHCA-Rural_Definition_March_2026_1.pdf) |
 | [Georgia](/work/rht/states/georgia/) | Own definition | — | 53% | 85 of 159 counties | [greathealth.georgia.gov](https://greathealth.georgia.gov/about-program/eligible-counties-list) |
 | [Hawaii](/work/rht/states/hawaii/) | Federal (HRSA) default | — | 40% | 2 of 5 counties | — |
-| [Idaho](/work/rht/states/idaho/) | Own definition | [View ↓](#map-idaho) | 68% | 30 of 44 counties | [publicdocuments.dhw.idaho.gov](https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35012&dbid=0&repo=PUBLIC-DOCUMENTS) |
+| [Idaho](/work/rht/states/idaho/) | Own definition | [View ↓](#map-idaho) | 68% | 30 of 44 counties | [healthandwelfare.idaho.gov](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health) |
 | [Illinois](/work/rht/states/illinois/) | County list | — | 64% | 65 of 102 counties | [hfs.illinois.gov](https://hfs.illinois.gov/content/dam/soi/en/web/hfs/info/fedresctr/rhtsprogramnarrative.pdf) |
 | [Indiana](/work/rht/states/indiana/) | Own definition | [View ↓](#map-indiana) | 52% | 48 of 92 counties | [in.gov](https://www.in.gov/grow-rural-health/regional-grants) |
 | [Iowa](/work/rht/states/iowa/) | Federal (HRSA) default | — | 78% | 77 of 99 counties | — |
 | [Kansas](/work/rht/states/kansas/) | Federal (HRSA) default | — | 81% | 85 of 105 counties | — |
 | [Kentucky](/work/rht/states/kentucky/) | County list | — | 68% | 81 of 120 counties | [ruralhealthplan.ky.gov](https://ruralhealthplan.ky.gov/Documents/KY%20RHTP%20Other%20Supporting%20Documentation_CMS-RHT-26-001.pdf) |
-| [Louisiana](/work/rht/states/louisiana/) | Own definition | — | 42% | 27 of 64 counties | [RHTP: Rural Eligibility Definition and Methodology (v1.0, May 13, 2026)](https://ldh.la.gov/assets/docs/Secretary/RHTP/Rural-Eligibility-Definition-Methodology.pdf) |
+| [Louisiana](/work/rht/states/louisiana/) | Own definition | — | 42% | 27 of 64 counties | — |
 | [Maine](/work/rht/states/maine/) | County list | — | 69% | 11 of 16 counties | [maine.gov](https://www.maine.gov/dhhs/mecdc/healthy-living/rural-health/rural-health-systems) |
 | [Maryland](/work/rht/states/maryland/) | Own definition | [View ↓](#map-maryland) | 29% | 7 of 24 counties | [health.maryland.gov](https://health.maryland.gov/pophealth/Pages/Rural-health.aspx) |
 | [Massachusetts](/work/rht/states/massachusetts/) | Own definition | — | 3% | 50 of 1474 tracts | [mass.gov](https://www.mass.gov/info-details/state-office-of-rural-health-rural-definition) |
@@ -67,7 +67,7 @@ The 15 states below publish their own map of where “rural” is under the RHTP
 
 [Florida](/work/rht/states/florida/)AHCA RHTP Regional Map — the program's rural regions.[Source: ahca.myflorida.com ↗](https://ahca.myflorida.com/content/download/28497/file/AHCA-Rural_Definition_March_2026_1.pdf)
 
-[Idaho](/work/rht/states/idaho/)DHW federally-defined rural-areas map.[Source: publicdocuments.dhw.idaho.gov ↗](https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35012&dbid=0&repo=PUBLIC-DOCUMENTS)
+[Idaho](/work/rht/states/idaho/)DHW RHTP eligibility map (replacement issued 8/27/2026, superseding the withdrawn Appendix A) — eligible rural tracts plus 225 named eligible cities, 29 of them under 25,000 residents inside urban areas.[Source: healthandwelfare.idaho.gov ↗](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health)
 
 [Indiana](/work/rht/states/indiana/)GROW Rural Health eight-region map.[Source: in.gov ↗](https://www.in.gov/grow-rural-health/regional-grants)
 

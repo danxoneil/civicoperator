@@ -6,7 +6,7 @@ Idaho's **$185,974,367.81** Rural Health Transformation Program award — the pl
 
 Idaho’s official Rural Health Transformation Program page — [healthandwelfare.idaho.gov](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant), captured 2026-07-25.
 
-Idaho’s own state-published rural map — DHW federally-defined rural-areas map. Source: [publicdocuments.dhw.idaho.gov](https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35012&dbid=0&repo=PUBLIC-DOCUMENTS). See [how every state defines rural](/work/rht/states/rural-definitions/#map-idaho).
+Idaho’s own state-published rural map — DHW RHTP eligibility map (replacement issued 8/27/2026, superseding the withdrawn Appendix A) — eligible rural tracts plus 225 named eligible cities, 29 of them under 25,000 residents inside urban areas. Source: [healthandwelfare.idaho.gov](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health). See [how every state defines rural](/work/rht/states/rural-definitions/#map-idaho).
 
 ## At a glance
 
@@ -53,6 +53,16 @@ Federal award data
 Tracker dispatches
 
 12 dated briefs
+
+## How Idaho defines rural
+
+Idaho designates rural at the **census tract**, not the county. Its RHTP eligibility map applies the federal Office of Rural Health Policy definition of rural to 2020 Census tract population estimates, under which 655,070 residents — 36 percent of the state — live in eligible rural tracts covering roughly 96 percent of Idaho’s land area. County boundaries appear on the map as a display frame only; no Idaho RHTP document designates a county as rural or ineligible.
+
+Sitting on top of the tract layer is a list of 225 named eligible places in two classes: 196 *eligible rural cities*, and 29 cities of fewer than 25,000 residents that fall *inside* an urban area and are individually eligible on that population test. The second class is the substance of the 27 August 2026 revision, when the Department of Health and Welfare replaced the eligibility map and the accompanying list of eligible cities across every open funding opportunity and described the earlier versions as incorrect. Nineteen cities named as ineligible in the withdrawn appendix — among them Chubbuck, Ammon, Hayden, Rathdrum, Kimberly and Garden City — are eligible under the replacement.
+
+Two cautions for anyone reading the list as a target list. Thirty-one of the 196 eligible rural cities are unincorporated — census-designated places, and in one case an Air Force base — so they are eligible geography with no municipal government to receive a subgrant. And a place is not always contained by one county: Star spans Ada and Canyon, and the withdrawn appendix listed it as ineligible under Ada and eligible under Canyon at the same time. Applicants scoping a service area should work from the 27 August map rather than from an appendix inside a solicitation packet downloaded before that date.
+
+See [how every state defines “rural”](/work/rht/states/rural-definitions/) for the cross-state comparison and source.
 
 ## What Idaho committed to measure
 
