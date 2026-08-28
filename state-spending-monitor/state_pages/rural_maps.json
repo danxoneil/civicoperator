@@ -134,12 +134,12 @@
   "grain": "counties",
   "map": {
    "file": "/img/states/rural-maps/idaho.webp",
-   "note": "DHW federally-defined rural-areas map.",
-   "source_label": "publicdocuments.dhw.idaho.gov",
-   "source_url": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35012&dbid=0&repo=PUBLIC-DOCUMENTS"
+   "note": "DHW RHTP eligibility map (replacement issued 8/27/2026, superseding the withdrawn Appendix A) — eligible rural tracts plus 225 named eligible cities, 29 of them under 25,000 residents inside urban areas.",
+   "source_label": "healthandwelfare.idaho.gov",
+   "source_url": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health"
   },
-  "source_label": "publicdocuments.dhw.idaho.gov",
-  "source_url": "https://publicdocuments.dhw.idaho.gov/WebLink/DocView.aspx?id=35012&dbid=0&repo=PUBLIC-DOCUMENTS",
+  "source_label": "healthandwelfare.idaho.gov",
+  "source_url": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health",
   "tier": "T1",
   "tier_label": "Publishes a rural map"
  },
@@ -204,10 +204,10 @@
   "forhp_rural": 27,
   "forhp_total": 64,
   "grain": "counties",
-  "source_label": "RHTP: Rural Eligibility Definition and Methodology (v1.0, May 13, 2026)",
-  "source_url": "https://ldh.la.gov/assets/docs/Secretary/RHTP/Rural-Eligibility-Definition-Methodology.pdf",
-  "tier": "T2",
-  "tier_label": "Publishes a list/definition"
+  "source_label": "",
+  "source_url": null,
+  "tier": "T3",
+  "tier_label": "Federal (HRSA) default"
  },
  "Maine": {
   "forhp_pct": 69,
