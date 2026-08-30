@@ -12,6 +12,10 @@ FY26 award (Year 1)
 
 $188,892,440 · CMS obligated
 
+Program name
+
+Hawaiʻi’s Rural Health Transformation Plan
+
 Official RHTP hub
 
 [Hawaii program page](https://engage.hawaii.gov/rhtp/)
@@ -19,6 +23,10 @@ Official RHTP hub
 Program contact
 
 [doh.opcpdh@doh.hawaii.gov](mailto:doh.opcpdh@doh.hawaii.gov)
+
+Funding / RFP portal
+
+[Funding opportunities](https://hands.ehawaii.gov/hands/opportunities)
 
 Governor's newsroom
 
@@ -99,7 +107,7 @@ Eligibility is expected to run on two tracks. **Direct-to-state contracts** go o
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Hawaii .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-08-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Hawaii .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-08-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/hawaii/

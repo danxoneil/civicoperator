@@ -2,9 +2,9 @@
 
 California's **$233,639,308.46** Budget Period 1 Rural Health Transformation Program award — the largest in the country — including the CalRHT plan, the HCAI team administering it, the initiatives, the live grants, with a dated log of official activity.
 
-[California’s official RHTP hub →](https://hcai.ca.gov/workforce/health-workforce/california-state-office-of-rural-health/)
+[California’s official RHTP hub →](https://hcai.ca.gov/rural-health/calrht/)
 
-California’s official Rural Health Transformation Program page — [hcai.ca.gov](https://hcai.ca.gov/workforce/health-workforce/california-state-office-of-rural-health/), captured 2026-07-29.
+California’s official Rural Health Transformation Program page — [hcai.ca.gov](https://hcai.ca.gov/rural-health/calrht/), captured 2026-07-29.
 
 California’s own state-published rural map — HCAI Medical Service Study Area (MSSA) Definition Map — frontier/rural/urban. Source: [hcai.ca.gov](https://hcai.ca.gov/wp-content/uploads/2020/10/MSSADefinitionMap.pdf). See [how every state defines rural](/work/rht/states/rural-definitions/#map-california).
 
@@ -14,9 +14,13 @@ FY26 award (Year 1)
 
 $233,639,308 · CMS obligated
 
+Program name
+
+California Rural Health Transformation (CalRHT)
+
 Official RHTP hub
 
-[California program page](https://hcai.ca.gov/workforce/health-workforce/california-state-office-of-rural-health/)
+[California program page](https://hcai.ca.gov/rural-health/calrht/)
 
 Program contact
 
@@ -139,7 +143,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, California .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-08-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, California .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-08-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/california/
