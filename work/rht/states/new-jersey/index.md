@@ -2,9 +2,9 @@
 
 New Jersey's **$147.2M** Rural Health Transformation Program award — the plan, the administering agency, the budget split, live procurements, with a dated log of official activity.
 
-[New Jersey’s official RHTP hub →](https://www.nj.gov/health/fhs/primarycare/rural-health/)
+[New Jersey’s official RHTP hub →](https://www.nj.gov/rural-health-transformation/)
 
-New Jersey’s official Rural Health Transformation Program page — [nj.gov](https://www.nj.gov/health/fhs/primarycare/rural-health/), captured 2026-07-23.
+New Jersey’s official Rural Health Transformation Program page — [nj.gov](https://www.nj.gov/rural-health-transformation/), captured 2026-07-23.
 
 New Jersey’s own state-published rural map — Designated Rural Areas in New Jersey. Source: [nj.gov](https://www.nj.gov/health/fhs/primarycare/rural-health/DesignatedRuralAreasinNewJersey.pdf). See [how every state defines rural](/work/rht/states/rural-definitions/#map-new-jersey).
 
@@ -16,11 +16,11 @@ $147,250,806 · CMS obligated
 
 Official RHTP hub
 
-[New Jersey program page](https://www.nj.gov/health/fhs/primarycare/rural-health/)
+[New Jersey program page](https://www.nj.gov/rural-health-transformation/)
 
 Program contact
 
-[RHTP.Application@doh.nj.gov](mailto:RHTP.Application@doh.nj.gov)
+[mahs.njrht@dhs.nj.gov](mailto:mahs.njrht@dhs.nj.gov)
 
 Funding / RFP portal
 
@@ -109,7 +109,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Jersey .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-08-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Jersey .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-08-31. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-jersey/

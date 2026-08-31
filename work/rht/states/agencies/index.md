@@ -35,7 +35,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 | [Nebraska](/work/rht/states/nebraska/) | Nebraska Department of Health & Human Services | [Official hub](https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx) |
 | [Nevada](/work/rht/states/nevada/) | Nevada Health Authority | [Official hub](https://www.nvha.nv.gov/RHTP/) |
 | [New Hampshire](/work/rht/states/new-hampshire/) | New Hampshire Department of Health & Human Services | [Official hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program) |
-| [New Jersey](/work/rht/states/new-jersey/) | New Jersey Department of Human Services | [Official hub](https://www.nj.gov/health/fhs/primarycare/rural-health/) |
+| [New Jersey](/work/rht/states/new-jersey/) | New Jersey Department of Human Services | [Official hub](https://www.nj.gov/rural-health-transformation/) |
 | [New Mexico](/work/rht/states/new-mexico/) | Department of Human Services New Mexico | [Official hub](https://www.hca.nm.gov/rural-health-transformation-program/) |
 | [New York](/work/rht/states/new-york/) | NYS Department of Health | [Official hub](https://health.ny.gov/facilities/transforming_rural_healthcare/) |
 | [North Carolina](/work/rht/states/north-carolina/) | North Carolina Department of Health & Human Services | [Official hub](https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program) |
@@ -65,7 +65,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-08-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-08-31. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/agencies/

@@ -3,7 +3,6 @@
   "name": "Alabama",
   "hub_url": "https://alabamarhtp.com/",
   "rfp_link": "https://adeca.alabama.gov/about/funding-opportunities/",
-  "program": "Alabama Rural Health Transformation Program (ARHTP)",
   "advisory": "https://governor.alabama.gov/newsroom/2025/12/gki-eo741/",
   "gov_news": "https://governor.alabama.gov/newsroom/category/press-releases/",
   "email": "Info@AlabamaRHTP.com",
@@ -11,13 +10,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766403810/ARHTP-Project-Narrative.pdf",
   "budget_pdf": null,
   "award_m": "203.404",
-  "key_projects": "Digital Obstetrics, Regional Cancer Hubs, Mobile BH"
+  "key_projects": "Digital Obstetrics, Regional Cancer Hubs, Mobile BH",
+  "program": "Alabama Rural Health Transformation Program (ARHTP)"
  },
  "Alaska": {
   "name": "Alaska",
   "hub_url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
   "rfp_link": "https://alaskacf.org/grants/",
-  "program": "Rural Health Transformation Program (RHTP)",
   "advisory": "https://health.alaska.gov/en/education/rural-health-transformation-program/rhtp-advisory-council/",
   "gov_news": "https://gov.alaska.gov/newsroom/",
   "email": "RHTP@alaska.gov",
@@ -25,13 +24,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766408403/ak-rhtp-initiatives.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141345389/AK-RHTP-Approved-Budget.pdf",
   "award_m": "272.2",
-  "key_projects": "Indigenous Traditional Healing, Mobile Specialist Teams"
+  "key_projects": "Indigenous Traditional Healing, Mobile Specialist Teams",
+  "program": "Rural Health Transformation Program (RHTP)"
  },
  "Arizona": {
   "name": "Arizona",
   "hub_url": "https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/",
   "rfp_link": "https://www.azahcccs.gov/Resources/Grants/GrantsAdministration.html",
-  "program": "Arizona Rural Health Transformation Program (RHTP)",
   "advisory": "https://www.azahcccs.gov/shared/News/GeneralNews/RHTP_Launch.html",
   "gov_news": "https://azgovernor.gov/news-releases",
   "email": "manand@arizona.edu",
@@ -39,13 +38,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766415705/2.260130_AZRHTP_RevisedProject_Narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139463013/Arizona'sApprovedBudgetNarrative.pdf",
   "award_m": "166.989",
-  "key_projects": "Workforce Toolkit, Value-Based Payment Prep, Cybersecurity"
+  "key_projects": "Workforce Toolkit, Value-Based Payment Prep, Cybersecurity",
+  "program": "Arizona Rural Health Transformation Program (RHTP)"
  },
  "Arkansas": {
   "name": "Arkansas",
   "hub_url": "https://arkansasrhtp.com/",
   "rfp_link": "https://arkansasrhtp.com/resources/",
-  "program": "Healthy. Connected. Local",
   "advisory": null,
   "gov_news": "https://governor.arkansas.gov/news_post/",
   "email": "adh.ruralhealth@arkansas.gov",
@@ -53,13 +52,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766430676/Arkansas-Rural-Health-Transformation-Program-Application.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139464667/Year-1_AR-Revised-Budget-Narrative_ADAFINAL-2.pdf",
   "award_m": "208.779",
-  "key_projects": "EMS Stabilization, Rural Maternal Health, Data Interop"
+  "key_projects": "EMS Stabilization, Rural Maternal Health, Data Interop",
+  "program": "Healthy. Connected. Local"
  },
  "California": {
   "name": "California",
   "hub_url": "https://hcai.ca.gov/rural-health/calrht/",
   "rfp_link": "https://hcai.ca.gov/rural-health/calrht/funding/",
-  "program": "California Rural Health Transformation (CalRHT)",
   "advisory": "https://hcai.ca.gov/rural-health/calrht/",
   "gov_news": "https://www.gov.ca.gov/category/press-releases/",
   "email": "CalRHT@hcai.ca.gov",
@@ -67,13 +66,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766432419/RHTP-Project-Narrative-1-2026.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139467826/California%20Budget-Narrative-RHTP-v4-2026-02-13.pdf",
   "award_m": "233.639",
-  "key_projects": "Doula/Midwife Training, CHW Expansion, Rural Residency"
+  "key_projects": "Doula/Midwife Training, CHW Expansion, Rural Residency",
+  "program": "California Rural Health Transformation (CalRHT)"
  },
  "Colorado": {
   "name": "Colorado",
   "hub_url": "https://hcpf.colorado.gov/rural-health-transformation-program",
   "rfp_link": "https://coloradorhtp-rfa.my.site.com/apply/s/",
-  "program": "Colorado Rural Health Transformation Program",
   "advisory": "https://hcpf.colorado.gov/rhtp-advisory-committee",
   "gov_news": "https://governorsoffice.colorado.gov/governor/news",
   "email": "hcpf_rhtp@state.co.us",
@@ -81,13 +80,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766451159/Project%20Narrative%20(acc).pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2837311592/RHTP%20Advisory%20Committee%20Meeting%203.17.26%20Slides.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/2837312459/March_10_2026_Advisory_Committee_Slides.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3139470546/Final_Colorado%20RHTP%20Budget%20Narrative.pdf",
   "award_m": "200.106",
-  "key_projects": "Provider Stabilization, Workforce Retention, Medicaid Alignment"
+  "key_projects": "Provider Stabilization, Workforce Retention, Medicaid Alignment",
+  "program": "Colorado Rural Health Transformation Program"
  },
  "Connecticut": {
   "name": "Connecticut",
   "hub_url": "https://portal.ct.gov/dss/rural-health-transformation-program",
   "rfp_link": "https://portal.ct.gov/ohs/press-room/press-releases/2025-press-releases/notice-of-funding-opportunity-rural-health-transformation-program",
-  "program": "Connecticut  Rural Health Transformation",
   "advisory": "https://portal.ct.gov/dss/rural-health-transformation-program/public-engagement",
   "gov_news": "https://portal.ct.gov/governor/news/press-releases",
   "email": "RHTP-Questions@ct.gov",
@@ -95,13 +94,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766452340/CMS_Project_Narrative_20251105.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139473468/CT%20RHTP%20Budget%20Narrative-Updated%20472026.pdf",
   "award_m": "154.249",
-  "key_projects": "AHEAD Model Readiness, Health Equity Data"
+  "key_projects": "AHEAD Model Readiness, Health Equity Data",
+  "program": "Connecticut  Rural Health Transformation"
  },
  "Delaware": {
   "name": "Delaware",
   "hub_url": "https://dhss.delaware.gov/dph/rural-health-transformation-program/",
   "rfp_link": "https://bids.delaware.gov.",
-  "program": null,
   "advisory": null,
   "gov_news": "https://governor.delaware.gov/press-releases/",
   "email": "nichole.moxley@delaware.gov",
@@ -109,13 +108,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766455422/DE%20RHTP%20Project%20Narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139484135/Final-RHTP-Revised-Budget-1.30.26.pdf",
   "award_m": "157.4",
-  "key_projects": "Rural Med School Track, Telehealth to Libraries"
+  "key_projects": "Rural Med School Track, Telehealth to Libraries",
+  "program": null
  },
  "Florida": {
   "name": "Florida",
   "hub_url": "https://ahca.myflorida.com/rural-health-transformation-program.html",
   "rfp_link": "https://vendor.myfloridamarketplace.com/search/bids",
-  "program": null,
   "advisory": null,
   "gov_news": "https://www.flgov.com/eog/news/press",
   "email": "RHTP@AHCA.myFlorida.com",
@@ -123,13 +122,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766478153/11032025_Grant%20Submission.pdf",
   "budget_pdf": null,
   "award_m": "209.938",
-  "key_projects": "Satellite Clinic Expansion, Mobile Maternal, Pharmacy Tech"
+  "key_projects": "Satellite Clinic Expansion, Mobile Maternal, Pharmacy Tech",
+  "program": null
  },
  "Georgia": {
   "name": "Georgia",
   "hub_url": "https://greathealth.georgia.gov/",
   "rfp_link": "https://greathealth.georgia.gov/find-funding-opportunities",
-  "program": "GREAT Health (Georgia Rural Enhancement And Transformation of Health)",
   "advisory": "https://greathealth.georgia.gov/great-health-advisory-council",
   "gov_news": "https://gov.georgia.gov/press-releases",
   "email": "GREATHealth@dch.ga.gov",
@@ -137,13 +136,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766480782/RHT%20Program%20Application%2011.25.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139486198/Georgia%20Budget%20Spreadsheet-%20Y1%20Award%20Balanced_0.xlsx",
   "award_m": "218.8",
-  "key_projects": "Connections to Care, Tech Catalyst, Workforce Housing"
+  "key_projects": "Connections to Care, Tech Catalyst, Workforce Housing",
+  "program": "GREAT Health (Georgia Rural Enhancement And Transformation of Health)"
  },
  "Hawaii": {
   "name": "Hawaii",
   "hub_url": "https://engage.hawaii.gov/rhtp/",
   "rfp_link": "https://hands.ehawaii.gov/hands/opportunities",
-  "program": "Hawaiʻi’s Rural Health Transformation Plan",
   "advisory": null,
   "gov_news": "https://governor.hawaii.gov/category/newsroom/office-of-the-governor-press-releases/",
   "email": "doh.opcpdh@doh.hawaii.gov",
@@ -151,13 +150,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766483290/Compiled-RHT-Application_Redacted29.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141346968/HI-RHTP-Approved-Budget.pdf",
   "award_m": "188.892",
-  "key_projects": "Native Hawaiian Health Hubs, Tele-Robotic Surgery"
+  "key_projects": "Native Hawaiian Health Hubs, Tele-Robotic Surgery",
+  "program": "Hawaiʻi’s Rural Health Transformation Plan"
  },
  "Idaho": {
   "name": "Idaho",
   "hub_url": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant",
   "rfp_link": "https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/funding-opportunities-rural-health",
-  "program": null,
   "advisory": "https://publicdocuments.dhw.idaho.gov/WebLink/Browse.aspx?id=36973&dbid=0&repo=PUBLIC-DOCUMENTS&cr=1",
   "gov_news": "https://gov.idaho.gov/pressrelease/",
   "email": "IdahoRHTP@dhw.idaho.gov",
@@ -165,13 +164,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766504820/ID%20RHTP%20Project%20Narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139488169/Idaho%20RHTP%20Revised%20Budget.pdf",
   "award_m": "185.974",
-  "key_projects": "Workforce Residency, Broadband, Pharmacy Support"
+  "key_projects": "Workforce Residency, Broadband, Pharmacy Support",
+  "program": null
  },
  "Illinois": {
   "name": "Illinois",
   "hub_url": "https://hfs.illinois.gov/info/fedresctr/ruralhealthtp.html",
   "rfp_link": "https://il.amplifund.com/Public/Opportunities/Details/d37720d3-ac35-43c2-b1d1-8f5db84e977e",
-  "program": "Transforming Rural Health Delivery",
   "advisory": null,
   "gov_news": "https://gov.illinois.gov/news/press-release.html",
   "email": "dph.crh@illinois.gov",
@@ -179,13 +178,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2770709157/rhtsprogramnarrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141348543/IL-RHTP-Approved-Budget.pdf",
   "award_m": "193.4",
-  "key_projects": "Hospital Transformation, Health Data Utility, Pipeline"
+  "key_projects": "Hospital Transformation, Health Data Utility, Pipeline",
+  "program": "Transforming Rural Health Delivery"
  },
  "Indiana": {
   "name": "Indiana",
   "hub_url": "https://www.in.gov/grow-rural-health/",
   "rfp_link": "https://www.in.gov/idoa/procurement/current-business-opportunities/",
-  "program": "GROW: Cultivating Hoosier Health",
   "advisory": "https://www.in.gov/grow-rural-health/regional-grants/",
   "gov_news": "https://www.in.gov/gov/newsroom/news-releases/",
   "email": "lbouza@health.in.gov",
@@ -193,13 +192,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766505966/RHTP-NarrativeIN.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139489952/RHTP-BudgetNarrative.pdf",
   "award_m": "206.928",
-  "key_projects": "Cardiac Access, Pediatric Telehealth, Rural Net"
+  "key_projects": "Cardiac Access, Pediatric Telehealth, Rural Net",
+  "program": "GROW: Cultivating Hoosier Health"
  },
  "Iowa": {
   "name": "Iowa",
   "hub_url": "https://hhs.iowa.gov/initiatives/healthy-hometowns-iowas-rural-health-transformation-plan",
   "rfp_link": "https://hhs.iowa.gov/about/funding-opportunities",
-  "program": "Healthy Hometowns",
   "advisory": null,
   "gov_news": "https://governor.iowa.gov/newsroom",
   "email": "healthyhometowns@hhs.iowa.gov",
@@ -207,13 +206,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2816037264/Iowa-Narrative-Rural-Health-Transformation-Plan.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141350160/IA-RHTP-Approved-Budget.pdf",
   "award_m": "209.04",
-  "key_projects": "Innovation Grants, OB/GYN Recruitment, Regional EMS"
+  "key_projects": "Innovation Grants, OB/GYN Recruitment, Regional EMS",
+  "program": "Healthy Hometowns"
  },
  "Kansas": {
   "name": "Kansas",
   "hub_url": "https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program",
   "rfp_link": "https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program",
-  "program": null,
   "advisory": "https://www.governor.ks.gov/Home/Components/News/News/792/55",
   "gov_news": "https://www.governor.ks.gov/newsroom/press-releases",
   "email": "kdhe.primarycare@ks.gov",
@@ -221,13 +220,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766508266/Kansas%20RHTP%20Full%20Application.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139491769/Kansas%2020260225%20RHT%20Plan%20Updated%20Budget%20Narrative%20--%20Clean.pdf",
   "award_m": "222.4",
-  "key_projects": "Loan Repayment, Facility Modernization, Mental Health"
+  "key_projects": "Loan Repayment, Facility Modernization, Mental Health",
+  "program": null
  },
  "Kentucky": {
   "name": "Kentucky",
   "hub_url": "https://ruralhealthplan.ky.gov/Pages/index.aspx",
   "rfp_link": "https://ruralhealthplan.ky.gov/Pages/Request_For_Applications.aspx",
-  "program": null,
   "advisory": null,
   "gov_news": "https://governor.ky.gov/news/",
   "email": "ruralhealthplan@ky.gov",
@@ -235,13 +234,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766510585/KY%20RHTP%20Project%20Narrative_CMS-RHT-26-001.pdf",
   "budget_pdf": null,
   "award_m": "212.5",
-  "key_projects": "Vaccine Confidence, Primary Care Extension, SUD"
+  "key_projects": "Vaccine Confidence, Primary Care Extension, SUD",
+  "program": null
  },
  "Louisiana": {
   "name": "Louisiana",
   "hub_url": "https://ldh.la.gov/page/rural-health-transformation-program",
   "rfp_link": "https://ldh.la.gov/page/rhtp-funding-opportunities",
-  "program": null,
   "advisory": "https://ldh.la.gov/news/office-of-rural-health-transformation",
   "gov_news": "https://gov.louisiana.gov/news?pn=1&cat=&y=&q=",
   "email": "RuralHealthTransformation@la.gov",
@@ -249,13 +248,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766511590/RHTP-Application.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141339025/LA-RHTP-Approved-Budget.pdf",
   "award_m": "208.374",
-  "key_projects": "Value-Based Shift, Clinical Pipeline, Rural EMS Tech"
+  "key_projects": "Value-Based Shift, Clinical Pipeline, Rural EMS Tech",
+  "program": null
  },
  "Maine": {
   "name": "Maine",
   "hub_url": "https://www.maine.gov/dhhs/ruralhealth",
   "rfp_link": "https://www.mcd.org/focus-areas/maine-rural-health-transformation-program",
-  "program": null,
   "advisory": null,
   "gov_news": "https://www.maine.gov/governor/mills/newsroom",
   "email": "kyle.kagele@maine.gov",
@@ -263,13 +262,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766513759/V2_SoM_RHTP_Project%20Narrative_11Dec25_CMS%20Response%20ADDED.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141351647/ME-RHTP-Approved-Budget.pdf",
   "award_m": "190.008",
-  "key_projects": "Small Hospital Support, Oral Health, Tele-Emergency"
+  "key_projects": "Small Hospital Support, Oral Health, Tele-Emergency",
+  "program": null
  },
  "Maryland": {
   "name": "Maryland",
   "hub_url": "https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx",
   "rfp_link": "https://health.maryland.gov/pophealth/Pages/RHTP-Procurement.aspx",
-  "program": null,
   "advisory": "https://health.maryland.gov/pophealth/Documents/Rural%20Health/RHTP/RHT-Committee-Members-2-18-2026.pdf",
   "gov_news": "https://governor.maryland.gov/news/press/Pages/default.aspx",
   "email": "jamie.cardillo@maryland.gov",
@@ -277,13 +276,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766516033/MD-Project-Narrative-CMS-RHT-26-001-Cover-Updated-Watermark-(3).pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141340634/MD-RHTP-Approved-Budget.pdf",
   "award_m": "168.181",
-  "key_projects": "Global Budget Transition, Population Health"
+  "key_projects": "Global Budget Transition, Population Health",
+  "program": null
  },
  "Massachusetts": {
   "name": "Massachusetts",
   "hub_url": "https://www.mass.gov/rural-health-transformation-program",
-  "rfp_link": "https://www.mass.gov/info-details/key-dates-and-opportunities",
-  "program": null,
+  "rfp_link": "https://www.commbuys.com/bso/view/search/external/advancedSearchBid.xhtml?q=rht&currentDocType=bids",
   "advisory": "https://www.mass.gov/info-details/rural-health-transformation-in-massachusetts",
   "gov_news": "https://www.mass.gov/orgs/governor-maura-healey-and-lt-governor-kim-driscoll/news",
   "email": "kirby.lecy@mass.gov",
@@ -291,13 +290,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766524605/Final%20RHTP%20Summary%20and%20Project%20Narrative%2011-5-25.pdf",
   "budget_pdf": null,
   "award_m": "162.005",
-  "key_projects": "Workforce Housing, Pharmacy Access, Tele-ED"
+  "key_projects": "Workforce Housing, Pharmacy Access, Tele-ED",
+  "program": "Massachusetts Rural Health Transformation"
  },
  "Michigan": {
   "name": "Michigan",
   "hub_url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program",
   "rfp_link": null,
-  "program": null,
   "advisory": "https://www.mha.org/mha-center-of-rural-excellence/rural-health-transformation-program/",
   "gov_news": "https://www.michigan.gov/whitmer/news/press-releases",
   "email": "MDHHS-RHTP@michigan.gov",
@@ -305,13 +304,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766525518/RHT%20Project%20Narrative%20Final_Compressed.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3034268785/Michigan%20Summary%201-page%20RHT%20Project%20Summary.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3034670577/Michigan%20Summary%202-page%20RHT%20Summary_v1.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3085441130/MI_RHTP_Newsletter_02-26.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3085441303/MI_RHTP_Newsletter_04-26.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3085441426/MI_RHTP_Newsletter_06-26.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3034260431/MI%20RHTP%20Budget.pdf",
   "award_m": "173.128",
-  "key_projects": "Quality Improvement, Clinical Residency, Cybersecurity"
+  "key_projects": "Quality Improvement, Clinical Residency, Cybersecurity",
+  "program": null
  },
  "Minnesota": {
   "name": "Minnesota",
   "hub_url": "https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/index.html",
   "rfp_link": "https://www.health.state.mn.us/facilities/ruralhealth/funding/grants",
-  "program": null,
   "advisory": null,
   "gov_news": "https://mn.gov/governor/newsroom/press-releases/",
   "email": "roble.aden@state.mn.us",
@@ -319,13 +318,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766526652/rhtpnarrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141352982/MN-RHTP-Approved-Budget.pdf",
   "award_m": "193.091",
-  "key_projects": "Capital Improvement, Workforce Grants, Rural EMS"
+  "key_projects": "Capital Improvement, Workforce Grants, Rural EMS",
+  "program": null
  },
  "Mississippi": {
   "name": "Mississippi",
   "hub_url": "https://mississippirhtp.com",
   "rfp_link": "https://mississippirhtp.com/funding/",
-  "program": "Mississippi Rural Health Transformation Program",
   "advisory": null,
   "gov_news": "https://governorreeves.ms.gov/newsroom/",
   "email": "info@mississippirhtp.com",
@@ -333,13 +332,13 @@
   "narrative_pdf": null,
   "budget_pdf": null,
   "award_m": "205.99",
-  "key_projects": "Hospital Stabilization, Maternal Hubs, Care Coord"
+  "key_projects": "Hospital Stabilization, Maternal Hubs, Care Coord",
+  "program": "Mississippi Rural Health Transformation Program"
  },
  "Missouri": {
   "name": "Missouri",
   "hub_url": "https://mydss.mo.gov/mhd/rural-health",
   "rfp_link": null,
-  "program": "ToRCH Care (Transformation of Rural Community Health Care)",
   "advisory": null,
   "gov_news": "https://governor.mo.gov/media/press-releases",
   "email": "ruralhealth@health.mo.gov",
@@ -347,13 +346,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766539465/RHTP%20Application%20Narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141342326/MO-RHTP-Approved-Budget.pdf",
   "award_m": "215.9",
-  "key_projects": "Talent Pipeline, EHR Upgrades, Regional Networks, Ambient AI, Social Care Referral Platform, Community Information Exchange, Hub Boundary Map, Remote Patient Technology"
+  "key_projects": "Talent Pipeline, EHR Upgrades, Regional Networks, Ambient AI, Social Care Referral Platform, Community Information Exchange, Hub Boundary Map, Remote Patient Technology",
+  "program": "ToRCH Care (Transformation of Rural Community Health Care)"
  },
  "Montana": {
   "name": "Montana",
   "hub_url": "https://dphhs.mt.gov/RuralHealthTransformationProgram/",
   "rfp_link": "https://ruralhealth.mt.gov",
-  "program": null,
   "advisory": "https://dphhs.mt.gov/RuralHealthTransformationProgram/AdvisoryCommittee",
   "gov_news": "https://governor.mt.gov/newsroom/NewsReleases",
   "email": "montana.sorh@montana.edu",
@@ -361,13 +360,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766544336/RHTP-Plan.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139494422/RHTPBudgetNarrative.pdf",
   "award_m": "233.509",
-  "key_projects": "Drone Med Delivery, Rural EMS, Critical Repair"
+  "key_projects": "Drone Med Delivery, Rural EMS, Critical Repair",
+  "program": null
  },
  "Nebraska": {
   "name": "Nebraska",
   "hub_url": "https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx",
   "rfp_link": "https://dhhs.ne.gov/Pages/DHHS-Releases-RFAs-for-RHTP-Funding-Opportunities.aspx",
-  "program": null,
   "advisory": "https://dhhs.ne.gov/Pages/RHTP-Health-Care-Advisory-Regions.aspx",
   "gov_news": "https://governor.nebraska.gov/press-releases",
   "email": "dhhs.ruralhealth@nebraska.gov",
@@ -375,13 +374,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766545592/NE%20Final%20Project%20Narrative%20RHTP%202025.pdf",
   "budget_pdf": null,
   "award_m": "218.4",
-  "key_projects": "CAH Modernization, Workforce Retention, Pharmacy"
+  "key_projects": "CAH Modernization, Workforce Retention, Pharmacy",
+  "program": null
  },
  "Nevada": {
   "name": "Nevada",
   "hub_url": "https://www.nvha.nv.gov/RHTP/",
   "rfp_link": "https://www.nvha.nv.gov/RHTP/rht-nofos/",
-  "program": null,
   "advisory": "https://www.gov.nv.gov/press-releases/nevada-awarded-rural-health-transformation-program-grant/",
   "gov_news": "https://gov.nv.gov/Newsroom/PRs/news-releases/",
   "email": "gackerman@med.unr.edu",
@@ -389,13 +388,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766547662/Project_Narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139496481/revised-budget-narrative_year-1.pdf",
   "award_m": "179.9",
-  "key_projects": "Workforce Data Utility, Telehealth Infra, Quality"
+  "key_projects": "Workforce Data Utility, Telehealth Infra, Quality",
+  "program": null
  },
  "New Hampshire": {
   "name": "New Hampshire",
   "hub_url": "https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program",
   "rfp_link": "https://www.gonorth.nh.gov/contracts-awards",
-  "program": null,
   "advisory": "https://www.gonorth.nh.gov/",
   "gov_news": "https://www.governor.nh.gov/news/press-releases",
   "email": "rhtf@dhhs.nh.gov",
@@ -403,27 +402,27 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766548960/rhtc-project-narrative.pdf",
   "budget_pdf": null,
   "award_m": "204.017",
-  "key_projects": "CCBHC Expansion, SUD Services, Elder Care Models"
+  "key_projects": "CCBHC Expansion, SUD Services, Elder Care Models",
+  "program": null
  },
  "New Jersey": {
   "name": "New Jersey",
-  "hub_url": "https://www.nj.gov/health/fhs/primarycare/rural-health/",
+  "hub_url": "https://www.nj.gov/rural-health-transformation/",
   "rfp_link": "https://healthapps.nj.gov/noticeofgrant/noticegrants.aspx",
-  "program": null,
   "advisory": "https://www.nj.gov/health/news/2025/approved/20250926b.shtml",
   "gov_news": "https://www.nj.gov/governor/news/2026/approved/news_archive.shtml",
-  "email": "RHTP.Application@doh.nj.gov",
+  "email": "mahs.njrht@dhs.nj.gov",
   "signup": null,
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766550223/2025-12-03EXCERPT%20NJRHT_Application.pdf",
   "budget_pdf": null,
   "award_m": "147.2",
-  "key_projects": "Migrant Health Access, Rural Primary Care Expansion"
+  "key_projects": "Migrant Health Access, Rural Primary Care Expansion",
+  "program": null
  },
  "New Mexico": {
   "name": "New Mexico",
   "hub_url": "https://www.hca.nm.gov/rural-health-transformation-program/",
   "rfp_link": "https://www.hca.nm.gov/lookingforinformation/open-rfps/",
-  "program": null,
   "advisory": null,
   "gov_news": "https://www.governor.state.nm.us/press-releases/",
   "email": "MAHARural@cms.hhs.gov",
@@ -431,13 +430,13 @@
   "narrative_pdf": null,
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139498549/Approved_New-Mexico-RHT-Budget-Narrative-Revised-03.26.pdf",
   "award_m": "211.5",
-  "key_projects": "Health Equity, Infrastructure, Maternal Deserts"
+  "key_projects": "Health Equity, Infrastructure, Maternal Deserts",
+  "program": null
  },
  "New York": {
   "name": "New York",
   "hub_url": "https://health.ny.gov/facilities/transforming_rural_healthcare/",
   "rfp_link": "https://www.health.ny.gov/facilities/transforming_rural_healthcare/docs/rchi_funding_guidance.pdf",
-  "program": null,
   "advisory": null,
   "gov_news": "https://www.governor.ny.gov/news",
   "email": "RHTP@health.ny.gov",
@@ -445,13 +444,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766571062/project_narrative%20(1).pdf",
   "budget_pdf": null,
   "award_m": "212.1",
-  "key_projects": "Global Budget Pilots, Hospital Transition, HIT"
+  "key_projects": "Global Budget Pilots, Hospital Transition, HIT",
+  "program": null
  },
  "North Carolina": {
   "name": "North Carolina",
   "hub_url": "https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program",
   "rfp_link": "https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program/rural-health-transformation-program-grant-opportunities",
-  "program": null,
   "advisory": "https://www.ncdhhs.gov/about/department-initiatives/rural-health-transformation-program/nc-rural-health-transformation-program-advisory-committee",
   "gov_news": "https://governor.nc.gov/news/press-releases",
   "email": "corey.alford@dhhs.nc.gov",
@@ -459,13 +458,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766552115/North%20Carolina%20Rural%20Health%20Transformation%20Application_Final%20for%20sharing_0.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3067786550/NCRHTP-One-Pager-Project-Summary.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3067788781/NC-RHTP-Overview.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141354547/NC-RHTP-Approved-Budget.pdf",
   "award_m": "213.0",
-  "key_projects": "NC ROOTS Hubs, Telehealth Literacy, Workforce"
+  "key_projects": "NC ROOTS Hubs, Telehealth Literacy, Workforce",
+  "program": null
  },
  "North Dakota": {
   "name": "North Dakota",
   "hub_url": "https://www.hhs.nd.gov/rural-health-transformation",
   "rfp_link": "https://www.hhs.nd.gov/rural-health-transformation/funding",
-  "program": null,
   "advisory": "https://ndlegis.gov/assembly/69-2025/committees/interim/rural-health-transformation-committee",
   "gov_news": "https://www.governor.nd.gov/news",
   "email": "rhtp@nd.gov",
@@ -473,13 +472,13 @@
   "narrative_pdf": null,
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3139501014/North%20Dakota-rhtp-budget-narrative.pdf",
   "award_m": "198.9",
-  "key_projects": "EMS Sustainability, Tech Upgrades, Cardiac Care, Strengthen and Stabilize Rural Health Workforce, Connecting Technology, Data and Providers for a Stronger ND"
+  "key_projects": "EMS Sustainability, Tech Upgrades, Cardiac Care, Strengthen and Stabilize Rural Health Workforce, Connecting Technology, Data and Providers for a Stronger ND",
+  "program": null
  },
  "Ohio": {
   "name": "Ohio",
   "hub_url": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program",
   "rfp_link": "https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-invitations/solicitation-invitations",
-  "program": null,
   "advisory": null,
   "gov_news": "https://governor.ohio.gov/media/news-and-media",
   "email": "RuralHealthTransformation@odh.ohio.gov",
@@ -487,13 +486,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766554136/Ohio+RHT+PROGRAM+NARRATIVE.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3029139172/Ohio+RHT+PROGRAM+NARRATIVE.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3029139286/Ohio+Rural+Health+Transormation+Counties+of+Focus.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3029139410/Rural+Health+Proposal+Final.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3029139522/Rural+Health+Transformation+Letter.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3029139630/RHT+Slides+Stakeholders+September+2025+comms+edit.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141356072/OH-RHTP-Approved-Budget.pdf",
   "award_m": "202.03",
-  "key_projects": "Workforce Housing, Pharmacy, Behavioral Health"
+  "key_projects": "Workforce Housing, Pharmacy, Behavioral Health",
+  "program": null
  },
  "Oklahoma": {
   "name": "Oklahoma",
   "hub_url": "https://oklahoma.gov/health/rhtp.html",
   "rfp_link": "https://oklahoma.gov/health/rhtp/rhtp-funding.html",
-  "program": "Oklahoma Rural Health Transformation Program",
   "advisory": null,
   "gov_news": "https://oklahoma.gov/governor/newsroom/newsroom.html",
   "email": "OklahomaRHTP@health.ok.gov  - OklahomaRHTP@health.ok.gov",
@@ -501,13 +500,13 @@
   "narrative_pdf": null,
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141305956/Oklahoma%20Budget%20Narrative.pdf",
   "award_m": "223.5",
-  "key_projects": "Innovating Care Model, Growing Talent, Health Data, Rural Maternal Health, CHW Expansion, Rural Residency, EMS Stabilization, Value-Based Shift, Telehealth, Provider Stabilization, Behavioral Health, Chronic Care"
+  "key_projects": "Innovating Care Model, Growing Talent, Health Data, Rural Maternal Health, CHW Expansion, Rural Residency, EMS Stabilization, Value-Based Shift, Telehealth, Provider Stabilization, Behavioral Health, Chronic Care",
+  "program": "Oklahoma Rural Health Transformation Program"
  },
  "Oregon": {
   "name": "Oregon",
   "hub_url": "https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx",
   "rfp_link": "https://oregonbuys.gov/bso/external/bidDetail.sdo?docId=S-44300-00001537&external=true&parentUrl=close",
-  "program": null,
   "advisory": "https://www.ohsu.edu/oregon-office-of-rural-health/rural-health-transformation-program",
   "gov_news": "https://www.oregon.gov/gov/news/pages/default.aspx",
   "email": "RHTP@oha.oregon.gov",
@@ -515,13 +514,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766555329/Oregon%20RHT%20Project%20Summary%20and%20Narrative.pdf",
   "budget_pdf": null,
   "award_m": "197.272",
-  "key_projects": "Workforce Equity, Remote Monitoring, Cybersecurity"
+  "key_projects": "Workforce Equity, Remote Monitoring, Cybersecurity",
+  "program": null
  },
  "Pennsylvania": {
   "name": "Pennsylvania",
   "hub_url": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan",
   "rfp_link": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rhtp-funding-opportunities",
-  "program": null,
   "advisory": "https://www.pa.gov/agencies/dhs/newsroom/rural-health-transformation-plan",
   "gov_news": "https://www.pa.gov/governor/newsroom",
   "email": "klb520@psu.edu",
@@ -529,13 +528,13 @@
   "narrative_pdf": null,
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141343717/PA-RHTP-Approved-Budget.pdf",
   "award_m": "193.294",
-  "key_projects": "Rural Budget expansion, HIT, EMS, Pharmacy"
+  "key_projects": "Rural Budget expansion, HIT, EMS, Pharmacy",
+  "program": null
  },
  "Rhode Island": {
   "name": "Rhode Island",
   "hub_url": "https://eohhs.ri.gov/initiatives/rural-health-transformation-grant",
   "rfp_link": "https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46",
-  "program": "Rhode Island Rural Health Transformation Program",
   "advisory": "https://eohhs.ri.gov/initiatives/rural-health-transformation-program/rural-stakeholder-advisory-council",
   "gov_news": "https://governor.ri.gov/press-releases",
   "email": "RIDOH.OPCRH@health.ri.gov",
@@ -543,13 +542,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766557625/RI%20RHTP%20-%20Project%20Narrative%202025%2011-3.pdf",
   "budget_pdf": null,
   "award_m": "156.0",
-  "key_projects": "Rural Access Data, Recruitment, Telehealth"
+  "key_projects": "Rural Access Data, Recruitment, Telehealth",
+  "program": "Rhode Island Rural Health Transformation Program"
  },
  "South Carolina": {
   "name": "South Carolina",
   "hub_url": "https://scorh.net/rural-health-transformation-fund/",
   "rfp_link": "https://scdhhs.gov/resources/grants",
-  "program": "South Carolina Rural Health Transformation",
   "advisory": "https://www.scdhhs.gov/communications/stakeholder-meeting-rural-health-transformation-program-0",
   "gov_news": "https://governor.sc.gov/news",
   "email": "grants@scdhhs.gov",
@@ -557,13 +556,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766565638/Project%20Narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141307790/South%20Carolina%20Updated%20Budget%20Narrative.pdf",
   "award_m": "200.030",
-  "key_projects": "Digital Regionalization, Maternal Care, Hubs, EMS Stabilization, CHW Expansion, Telehealth, Rural Residency"
+  "key_projects": "Digital Regionalization, Maternal Care, Hubs, EMS Stabilization, CHW Expansion, Telehealth, Rural Residency",
+  "program": "South Carolina Rural Health Transformation"
  },
  "South Dakota": {
   "name": "South Dakota",
   "hub_url": "https://doh.sd.gov/healthcare-professionals/rural-health/rural-health-transformation-project/",
   "rfp_link": "https://postingboard.esmsolutions.com/3444a404-3818-494f-84c5-2a850acd7779/events",
-  "program": null,
   "advisory": null,
   "gov_news": "https://governor.sd.gov/news/press-releases.aspx",
   "email": "DOH.Info@state.sd.us",
@@ -571,13 +570,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766567468/project-summary.pdf",
   "budget_pdf": null,
   "award_m": "189.478",
-  "key_projects": "EMS Simulation, Tele-Psych, Recruitment"
+  "key_projects": "EMS Simulation, Tele-Psych, Recruitment",
+  "program": null
  },
  "Tennessee": {
   "name": "Tennessee",
   "hub_url": "https://www.tn.gov/health/rural",
   "rfp_link": "https://c2cre237.caspio.com/dp/4cdb40003c407a2328014c28a496",
-  "program": "Tennessee Rural Health Transformation",
   "advisory": null,
   "gov_news": "https://www.tn.gov/governor/news.html",
   "email": "RuralHealth@TN.gov",
@@ -585,13 +584,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766564023/TN_RHTF_Application_Full_Document.pdf",
   "budget_pdf": null,
   "award_m": "206.9",
-  "key_projects": "Memory Care, NEMT program, Maternity Deserts"
+  "key_projects": "Memory Care, NEMT program, Maternity Deserts",
+  "program": "Tennessee Rural Health Transformation"
  },
  "Texas": {
   "name": "Texas",
   "hub_url": "https://pfd.hhs.texas.gov/rural-health-transformation-program",
   "rfp_link": "https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation",
-  "program": "Rural Texas Strong: Supporting Health and Wellness",
   "advisory": null,
   "gov_news": "https://gov.texas.gov/news/category/press-release",
   "email": "RuralTexasStrong@hhs.texas.gov",
@@ -599,13 +598,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766568608/bdgt-prd-1-rvsd-prjt-narr.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141309730/aprvd-bdgt-prd-1-rvsd-bdgt-narr.pdf",
   "award_m": "281.0",
-  "key_projects": "Patients in Driver's Seat, RPM, Health Data Exchange"
+  "key_projects": "Patients in Driver's Seat, RPM, Health Data Exchange",
+  "program": "Rural Texas Strong: Supporting Health and Wellness"
  },
  "Utah": {
   "name": "Utah",
   "hub_url": "https://dhhs.utah.gov/ruralhealth/",
   "rfp_link": "https://dhhs.utah.gov/ruralhealth/funding-opportunities/",
-  "program": null,
   "advisory": null,
   "gov_news": "https://governor.utah.gov/category/press-release/",
   "email": "ruralht@utah.gov",
@@ -613,13 +612,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766576256/Rural-Health-Transformation-Plan.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141332393/UT-RHTP-Approved-Budget.pdf",
   "award_m": "195.744",
-  "key_projects": "Tech-Enabled Solutions, Chronic Care, Retention"
+  "key_projects": "Tech-Enabled Solutions, Chronic Care, Retention",
+  "program": null
  },
  "Vermont": {
   "name": "Vermont",
   "hub_url": "https://healthcarereform.vermont.gov/hr1rural-health-transformation-fund",
   "rfp_link": "https://healthcarereform.vermont.gov/rht-program-rfps-nofos",
-  "program": null,
   "advisory": null,
   "gov_news": "https://governor.vermont.gov/press_releases",
   "email": "AHS.VDH_SORH@vermont.gov",
@@ -627,13 +626,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766578398/RHTP%2011-12-2025.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141334070/VT-RHTP-Approved-Budget.pdf",
   "award_m": "195.054",
-  "key_projects": "AHEAD Integration, Rural HIT, Workforce Housing"
+  "key_projects": "AHEAD Integration, Rural HIT, Workforce Housing",
+  "program": null
  },
  "Virginia": {
   "name": "Virginia",
   "hub_url": "https://www.ruralhealthtransformationva.virginia.gov/",
   "rfp_link": "https://dmas.virginia.gov/data-reporting/programs-services/rural-health-transformation/",
-  "program": "VA Rural Vitality",
   "advisory": null,
   "gov_news": "https://www.governor.virginia.gov/newsroom/news-releases/",
   "email": "ruralhealth@vdh.virginia.gov",
@@ -641,13 +640,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766584871/rhc-transformation-project-narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141335750/VA-RHTP-Approved-Budget.pdf",
   "award_m": "189.545",
-  "key_projects": "Clinical Transformation, Rural Residency, Mobile PC"
+  "key_projects": "Clinical Transformation, Rural Residency, Mobile PC",
+  "program": "VA Rural Vitality"
  },
  "Washington": {
   "name": "Washington",
   "hub_url": "https://www.hca.wa.gov/about-hca/programs-and-initiatives/value-based-purchasing/rural-health-transformation-program",
   "rfp_link": "https://www.hca.wa.gov/about-hca/bids-and-contracts",
-  "program": null,
   "advisory": "https://www.hca.wa.gov/assets/program/rht-webinar-20260414.pdf",
   "gov_news": "https://governor.wa.gov/news/news-releases",
   "email": "ruralhealth@doh.wa.gov",
@@ -655,13 +654,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766586728/rhtp-project-narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141311353/rht-program-updated-budget.pdf",
   "award_m": "181.258",
-  "key_projects": "Integrated BH, CHC Model, Cybersecurity"
+  "key_projects": "Integrated BH, CHC Model, Cybersecurity",
+  "program": null
  },
  "West Virginia": {
   "name": "West Virginia",
   "hub_url": "https://health.wv.gov/rural-health-transformation-program",
   "rfp_link": "https://health.wv.gov/grant-opportunities",
-  "program": null,
   "advisory": "https://health.wv.gov/article/west-virginia-department-health-announces-advisory-panel-rural-health-transformation",
   "gov_news": "https://governor.wv.gov/allnews/all",
   "email": "wvsorh@wv.gov",
@@ -669,13 +668,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766598131/02_WV%20Project%20Narrative_vF.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141312820/RHTP%20Detailed%20Line%20Item%20Budget.xlsx",
   "award_m": "199.476",
-  "key_projects": "Care Force, Apprenticeships, HIT Upgrades"
+  "key_projects": "Care Force, Apprenticeships, HIT Upgrades",
+  "program": null
  },
  "Wisconsin": {
   "name": "Wisconsin",
   "hub_url": "https://www.dhs.wisconsin.gov/business/rhtp.htm",
   "rfp_link": "https://www.dhs.wisconsin.gov/business/solicitations-list.htm",
-  "program": "Wisconsin Rural Health Transformation Program",
   "advisory": "https://www.dhs.wisconsin.gov/business/rhtpac.htm",
   "gov_news": "https://evers.wi.gov/Pages/Newsroom/Press-Releases.aspx",
   "email": "aaron.larson@dhs.wisconsin.gov",
@@ -683,13 +682,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766599848/dhs-rhtp-application-narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141337198/WI-RHTP-Approved-Budget.pdf",
   "award_m": "203.67",
-  "key_projects": "RHC Network, Quality Initiatives, Pharmacy Hubs"
+  "key_projects": "RHC Network, Quality Initiatives, Pharmacy Hubs",
+  "program": "Wisconsin Rural Health Transformation Program"
  },
  "Wyoming": {
   "name": "Wyoming",
   "hub_url": "https://health.wyo.gov/admin/rural-health-transformation-program/",
   "rfp_link": "https://wyrhtp.submittable.com/submit",
-  "program": null,
   "advisory": "https://health.wyo.gov/wyoming-department-of-health-seeks-public-input-on-rural-health-transformation-program/",
   "gov_news": "https://governor.wyo.gov/news-releases",
   "email": "wdh-primarycare-ruralhealth@wyo.gov",
@@ -697,13 +696,13 @@
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766602376/Rural-Health-Transformation-in-Wyoming-final-application.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141314487/Rural%20Health%20Transformation%20-%20Revised%20Budget%20Narrative%20-%205.8.26.pdf",
   "award_m": "205.005",
-  "key_projects": "EMS Stabilization, Robotics, Pharmacy, High-Risk"
+  "key_projects": "EMS Stabilization, Robotics, Pharmacy, High-Risk",
+  "program": "Wyoming Rural Health Transformation"
  },
  "CMS": {
   "name": "CMS",
   "hub_url": "https://www.cms.gov/priorities/rural-health-transformation-rht-program/overview",
   "rfp_link": "https://grants.gov/search-results-detail/360442",
-  "program": null,
   "advisory": null,
   "gov_news": null,
   "email": "maharural@cms.hhs.gov",
@@ -711,6 +710,7 @@
   "narrative_pdf": null,
   "budget_pdf": null,
   "award_m": null,
-  "key_projects": null
+  "key_projects": null,
+  "program": null
  }
 }
