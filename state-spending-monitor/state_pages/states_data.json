@@ -650,7 +650,7 @@
   "advisory": "https://www.hca.wa.gov/assets/program/rht-webinar-20260414.pdf",
   "gov_news": "https://governor.wa.gov/news/news-releases",
   "email": "ruralhealth@doh.wa.gov",
-  "signup": null,
+  "signup": "https://public.govdelivery.com/accounts/WAHCA/subscriber/new?topic_id=WAHCA_709",
   "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766586728/rhtp-project-narrative.pdf",
   "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141311353/rht-program-updated-budget.pdf",
   "award_m": "181.258",
