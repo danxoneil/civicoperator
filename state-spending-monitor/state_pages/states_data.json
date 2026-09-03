@@ -296,7 +296,7 @@
  "Michigan": {
   "name": "Michigan",
   "hub_url": "https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program",
-  "rfp_link": null,
+  "rfp_link": "https://egrams-mi.com/mdhhs/user/home.aspx",
   "advisory": "https://www.mha.org/mha-center-of-rural-excellence/rural-health-transformation-program/",
   "gov_news": "https://www.michigan.gov/whitmer/news/press-releases",
   "email": "MDHHS-RHTP@michigan.gov",
@@ -338,7 +338,7 @@
  "Missouri": {
   "name": "Missouri",
   "hub_url": "https://mydss.mo.gov/mhd/rural-health",
-  "rfp_link": null,
+  "rfp_link": "https://dss.mo.gov/bids/",
   "advisory": null,
   "gov_news": "https://governor.mo.gov/media/press-releases",
   "email": "ruralhealth@health.mo.gov",
