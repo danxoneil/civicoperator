@@ -533,14 +533,14 @@
  },
  "Rhode Island": {
   "name": "Rhode Island",
-  "hub_url": "https://eohhs.ri.gov/initiatives/rural-health-transformation-grant",
+  "hub_url": "https://eohhs.ri.gov/initiatives/rural-health-transformation-program",
   "rfp_link": "https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46",
   "advisory": "https://eohhs.ri.gov/initiatives/rural-health-transformation-program/rural-stakeholder-advisory-council",
   "gov_news": "https://governor.ri.gov/press-releases",
   "email": "RIDOH.OPCRH@health.ri.gov",
   "signup": "https://surveys.health.ri.gov/redcap/surveys/?s=CNJ3ADLPD4MRHLP3",
-  "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766557625/RI%20RHTP%20-%20Project%20Narrative%202025%2011-3.pdf",
-  "budget_pdf": null,
+  "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766557625/RI%20RHTP%20-%20Project%20Narrative%202025%2011-3.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3229124630/Rhode%20Island%20RHTP%20-%20Revised%20Project%20Narrative%20-%20(RHT2026000020)%20-%2002.10.26-No%20Highlights%20-%20EOHHS%20RHTP%20Site.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3229125265/Rhode%20Island%20RHTP%20-%20Project%20Summary_3.27.26.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3229125755/RI%20RHTP%20-%20Attachment%20A%20-%20Governor's%20Endorsement%202025%2011-3.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3229126253/RI%20RHTP%20-%20Attachment%20D%20-%20Other%20Supporting%20Materials%202025%2011-3.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3229126601/RI%20RHTP%20101%20Public%20Communication.pdf",
+  "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3229126976/Rhode%20Island%20Rural%20Health%20Budget%20Amendment%20Summary_04022026.pdf",
   "award_m": "156.0",
   "key_projects": "Rural Access Data, Recruitment, Telehealth",
   "program": "Rhode Island Rural Health Transformation Program"

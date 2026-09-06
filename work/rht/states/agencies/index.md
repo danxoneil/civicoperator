@@ -44,7 +44,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 | [Oklahoma](/work/rht/states/oklahoma/) | Oklahoma State Department of Health | [Official hub](https://oklahoma.gov/health/rhtp.html) |
 | [Oregon](/work/rht/states/oregon/) | Oregon Health Authority | [Official hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx) |
 | [Pennsylvania](/work/rht/states/pennsylvania/) | PA Department of Human Services | [Official hub](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan) |
-| [Rhode Island](/work/rht/states/rhode-island/) | Rhode Island Executive Office of Health & Human Services | [Official hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-grant) |
+| [Rhode Island](/work/rht/states/rhode-island/) | Rhode Island Executive Office of Health & Human Services | [Official hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-program) |
 | [South Carolina](/work/rht/states/south-carolina/) | Department of Health Human Services | [Official hub](https://scorh.net/rural-health-transformation-fund/) |
 | [South Dakota](/work/rht/states/south-dakota/) | South Dakota Department of Health | [Official hub](https://doh.sd.gov/healthcare-professionals/rural-health/rural-health-transformation-project/) |
 | [Tennessee](/work/rht/states/tennessee/) | Tennessee Department of Health | [Official hub](https://www.tn.gov/health/rural) |
@@ -65,7 +65,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-09-05. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-09-06. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/agencies/
