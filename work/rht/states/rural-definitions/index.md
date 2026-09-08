@@ -48,6 +48,7 @@ How each state defines rural for RHTP, with its rural share on a common federal 
 | [South Carolina](/work/rht/states/south-carolina/) | Federal (HRSA) default | — | 43% | 20 of 46 counties | — |
 | [South Dakota](/work/rht/states/south-dakota/) | Federal (HRSA) default | — | 88% | 58 of 66 counties | — |
 | [Tennessee](/work/rht/states/tennessee/) | Federal (HRSA) default | — | 54% | 51 of 95 counties | — |
+| [Test Run Pilot](/work/rht/states/test-run-pilot/) | — | — | — | — | — |
 | [Texas](/work/rht/states/texas/) | County list | — | 66% | 168 of 254 counties | [pfd.hhs.texas.gov](https://pfd.hhs.texas.gov/sites/default/files/documents/rural-hlth-prgm/bdgt-prd-1-rvsd-prjt-narr.pdf) |
 | [Utah](/work/rht/states/utah/) | Own definition | — | 69% | 20 of 29 counties | [ruralhealth.health.utah.gov](https://ruralhealth.health.utah.gov/utah-state-profile/county-classifications-map/) |
 | [Vermont](/work/rht/states/vermont/) | Federal (HRSA) default | — | 79% | 11 of 14 counties | — |
@@ -99,7 +100,7 @@ The 15 states below publish their own map of where “rural” is under the RHTP
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-09-07. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-09-08. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/rural-definitions/

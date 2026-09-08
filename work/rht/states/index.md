@@ -27,7 +27,7 @@ Single-dimension reference tables that cut across all 50 states, each linking ba
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-## Browse all 50 states
+## Browse all 51 states
 
 Each card: state · exact CMS Year-1 award · dated dispatches · how it defines rural. Open a state for its full profile.
 
@@ -115,7 +115,9 @@ $200.0M · 6 dispatches · Federal HRSA rural default](/work/rht/states/south-ca
 
 $189.5M · 9 dispatches · Federal HRSA rural default](/work/rht/states/south-dakota/)[Tennessee
 
-$206.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Texas
+$206.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Test Run Pilot
+
+~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
 $281.3M · 4 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
@@ -133,7 +135,7 @@ $203.7M · 5 dispatches · Uses its own rural definition](/work/rht/states/wisco
 
 $205.0M · 4 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-09-07. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-09-08. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
