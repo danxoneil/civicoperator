@@ -100,7 +100,7 @@ The 15 states below publish their own map of where “rural” is under the RHTP
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-09-09. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-09-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/rural-definitions/
