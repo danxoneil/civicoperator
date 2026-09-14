@@ -79,15 +79,51 @@ jobs:
           pip install beautifulsoup4 markdownify
           python scripts/generate_markdown.py
 
+      # Agent discovery layer: /llms.txt (index) + /llms-full.txt (inlined
+      # reference text). Must run AFTER generate_markdown.py, which produces the
+      # .md companions that llms-full.txt is built from.
+      - name: Regenerate llms.txt
+        working-directory: ${{ github.workspace }}
+        run: python scripts/generate_llms_txt.py
+
       - name: Commit changes if any
         run: |
           cd "$GITHUB_WORKSPACE"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add work/rht/states state-spending-monitor/state_pages/states_data.json state-spending-monitor/state_pages/outlays.json sitemap.xml
+          git add work/rht/states state-spending-monitor/state_pages/states_data.json state-spending-monitor/state_pages/outlays.json sitemap.xml llms.txt llms-full.txt
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "RHT: rebuild state pages [skip ci]"
             git push
+          fi
+
+      # The agent-facing text files are regenerated above and are served with
+      # Cloudflare cache bypassed, but an already-cached copy is not evicted by
+      # a bypass rule. Purge them so a rebuild is visible to crawlers at once.
+      # Skips cleanly if the secret is unset, so it can never fail the build.
+      - name: Purge Cloudflare cache for agent files
+        if: always()
+        env:
+          CLOUDFLARE_PURGE_TOKEN: ${{ secrets.CLOUDFLARE_PURGE_TOKEN }}
+          # Zone ID is not a secret; it is visible in the dashboard URL.
+          CLOUDFLARE_ZONE_ID: "077b73f45a08804a3edfad8f309ff331"
+        run: |
+          if [ -z "$CLOUDFLARE_PURGE_TOKEN" ]; then
+            echo "CLOUDFLARE_PURGE_TOKEN not set - skipping cache purge." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          # Token is passed only as a header, never in the URL or an echo.
+          code=$(curl -s -o /tmp/purge.json -w '%{http_code}' -X POST             -H "Authorization: Bearer $CLOUDFLARE_PURGE_TOKEN"             -H "Content-Type: application/json"             --data '{"files":[
+              "https://www.civicoperator.com/robots.txt",
+              "https://www.civicoperator.com/sitemap.xml",
+              "https://www.civicoperator.com/llms.txt",
+              "https://www.civicoperator.com/llms-full.txt"
+            ]}'             "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache")
+          if [ "$code" = "200" ] && grep -q '"success":true' /tmp/purge.json; then
+            echo "Purged robots.txt, sitemap.xml, llms.txt, llms-full.txt." >> "$GITHUB_STEP_SUMMARY"
+          else
+            # Never fail the build over a cache purge - the files are already live.
+            echo "Cache purge failed (HTTP $code). Files are live; cache clears on TTL." >> "$GITHUB_STEP_SUMMARY"
           fi
