@@ -1,7 +1,135 @@
-# Bot access rules and AI content signals are managed by Cloudflare
-# (AI Crawl Control -> Managed robots.txt). When this origin file returns
-# 200, Cloudflare PREPENDS its managed block and keeps the directives below,
-# so this Sitemap line is preserved in the served robots.txt.
+# robots.txt for civicoperator.com
+#
+# SELF-HOSTED (since 2026-09-14). Cloudflare's "Managed robots.txt" used to
+# PREPEND a generated block above this file; that block could not express what
+# this site actually wants, so it was turned off:
+#
+#   * it had no way to declare `ai-input=yes` (the content signal that permits
+#     grounding / RAG — i.e. being CITED), and
+#   * it hard-blocked `Google-Extended`, which is not merely a training control:
+#     it also gates whether content may ground Gemini answers. Combined with
+#     Google-CloudVertexBot having never once fetched this site, that left the
+#     Gemini citation path with no data route at all.
+#
+# The whole point of this site's RHTP reference layer is to BE CITED by answer
+# engines. See CLOUDFLARE_GEO_ROBOTS.md in the private civicoperator-geo repo
+# for the citation-monitoring data behind these choices.
+#
 # Verify after deploy:  curl -s https://www.civicoperator.com/robots.txt
+
+# ---------------------------------------------------------------------------
+# Content signals (https://contentsignals.org)
+#   search   = yes  -> index us and link to us
+#   ai-input = yes  -> you MAY use this content to ground/answer, i.e. cite us
+#   ai-train = no   -> do NOT train models on this content
+#   use      = reference
+# ---------------------------------------------------------------------------
+
+User-agent: *
+Content-Signal: search=yes,ai-input=yes,ai-train=no,use=reference
+Allow: /
+
+# ---------------------------------------------------------------------------
+# Blocked: bulk-scrape / corpus-resale crawlers with no citation upside.
+# These take content without ever sending a reader or a citation back.
+# ---------------------------------------------------------------------------
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: TikTokSpider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: ProRataInc
+Disallow: /
+
+User-agent: Novellum AI Crawl
+Disallow: /
+
+User-agent: Anchor Browser
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Blocked: model-TRAINING crawlers. Consistent with ai-train=no above.
+# Note these are DISTINCT from each vendor's citation-time agent, which is
+# allowed by the wildcard rule: GPTBot != OAI-SearchBot / ChatGPT-User, and
+# ClaudeBot != Claude-SearchBot / Claude-User. Blocking training has cost us
+# nothing — OpenAI cites us while GPTBot is blocked.
+# ---------------------------------------------------------------------------
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# ---------------------------------------------------------------------------
+# Explicitly welcome: citation-time agents. These are what put us in answers.
+# Google-Extended is listed with an explicit Allow because it gates Gemini
+# GROUNDING, not just training — the opposite of a scrape-only crawler.
+# ---------------------------------------------------------------------------
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
 
 Sitemap: https://www.civicoperator.com/sitemap.xml
