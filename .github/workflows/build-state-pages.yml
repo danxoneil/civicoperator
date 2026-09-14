@@ -79,12 +79,19 @@ jobs:
           pip install beautifulsoup4 markdownify
           python scripts/generate_markdown.py
 
+      # Agent discovery layer: /llms.txt (index) + /llms-full.txt (inlined
+      # reference text). Must run AFTER generate_markdown.py, which produces the
+      # .md companions that llms-full.txt is built from.
+      - name: Regenerate llms.txt
+        working-directory: ${{ github.workspace }}
+        run: python scripts/generate_llms_txt.py
+
       - name: Commit changes if any
         run: |
           cd "$GITHUB_WORKSPACE"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add work/rht/states state-spending-monitor/state_pages/states_data.json state-spending-monitor/state_pages/outlays.json sitemap.xml
+          git add work/rht/states state-spending-monitor/state_pages/states_data.json state-spending-monitor/state_pages/outlays.json sitemap.xml llms.txt llms-full.txt
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
