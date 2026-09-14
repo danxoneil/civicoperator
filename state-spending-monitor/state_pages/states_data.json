@@ -352,7 +352,7 @@
  "Montana": {
   "name": "Montana",
   "hub_url": "https://dphhs.mt.gov/RuralHealthTransformationProgram/",
-  "rfp_link": "https://ruralhealth.mt.gov",
+  "rfp_link": "https://dphhs.mt.gov/RuralHealthTransformationProgram/RHTP-RFPs",
   "advisory": "https://dphhs.mt.gov/RuralHealthTransformationProgram/AdvisoryCommittee",
   "gov_news": "https://governor.mt.gov/newsroom/NewsReleases",
   "email": "HHSRuralHealthTransformation@mt.gov",
