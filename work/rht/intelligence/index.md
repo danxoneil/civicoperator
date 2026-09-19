@@ -2,7 +2,7 @@ RHT Data Consulting
 
 # RHTP Verified Intelligence
 
-You already know the work. This is what it looks like as a standing arrangement — a machine trained on one program, and a person who reads everything before it reaches you.
+The RHTP data that matter to your business—awards, awardees, and new opps filtered to your exact fit, enriched with published context and contacts, and ready to work from.
 
 [Start a conversation](mailto:danx@civicoperator.com?subject=RHTP%20Verified%20Intelligence)
 [How it works](#how)
