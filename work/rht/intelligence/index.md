@@ -37,11 +37,11 @@ Contacts aren't a separate product and they aren't rationed. Knowing who to call
 
 The machine finds. The operator vouches.
 
-Matching runs automatically across what fifty states publish. Then a person reads what it surfaced — me, or someone working under my direction — and decides what's worth your attention. You don't get "probably relevant." You get the things I'd walk down the hall to tell you about, which is the arrangement this is meant to approximate.
+Matching runs automatically across what fifty states publish. Then a person reads what it surfaced and decides what's worth your attention. You don't get "probably relevant." You get the things we'd walk down the hall to tell you about, which is the arrangement this is meant to approximate.
 
 That judgment is the part that can't be automated, and it's the part you're paying for.
 
-What it isn't is a promise that a state won't move a deadline the week after I've read the page. Public procurement changes without notice. The source link is on every item so you can confirm it before you commit to anything.
+What it isn't is a promise that a state won't move a deadline the week after we've read the page. Public procurement changes without notice. The source link is on every item so you can confirm it before you commit to anything.
 
 ## It takes the shape you need
 
@@ -85,17 +85,17 @@ The map kept alive, worked daily, and turned into a list of what to do and who t
 
 Engagements start at **$2,000 a month** and scale with what you're asking the instrument to do.
 
-Month to month. Thirty days' notice in either direction, no annual commitment, no platform fee, no seat licenses. If it stops earning its place, you stop paying for it — which is the only service guarantee I think is worth much. It also means the first month is the trial, so there isn't a separate one to negotiate.
+Month to month. Thirty days' notice in either direction, no annual commitment, no platform fee, no seat licenses. If it stops earning its place, you stop paying for it — which is the only service guarantee we think is worth much. It also means the first month is the trial, so there isn't a separate one to negotiate.
 
-What I don't do: I don't write your proposals, I don't contact agencies on your behalf, and I don't lobby. One-time compiled research — a sweep of every awardee in a named state, a ranked fit analysis — is its own piece of work and gets quoted separately.
+What we don't do: we don't write your proposals, we don't contact agencies on your behalf, and we don't lobby. One-time compiled research — a sweep of every awardee in a named state, a ranked fit analysis — is its own piece of work and gets quoted separately.
 
 A [State Fit Brief](/work/rht/brief) ($480) is the usual way in.
 
 ## Start a conversation
 
-Tell me what you sell and where you're trying to sell it. I'll tell you what the instrument already knows about that, and we'll figure out together whether a standing arrangement earns its keep. One call is usually enough to know.
+Tell us what you sell and where you're trying to sell it. We'll tell you what the instrument already knows about that, and together we'll work out whether a standing arrangement earns its keep. One call is usually enough to know.
 
-[Email me](mailto:danx@civicoperator.com?subject=RHTP%20Verified%20Intelligence)
+[Email us](mailto:danx@civicoperator.com?subject=RHTP%20Verified%20Intelligence)
 [Book a conversation](https://calendar.app.google/XruT8HoUjnKLCkwD8)
 
 [danx@civicoperator.com](mailto:danx@civicoperator.com)  ·  [(773) 960-6045](tel:+17739606045)
