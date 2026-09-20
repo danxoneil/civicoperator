@@ -693,8 +693,8 @@
   "gov_news": "https://governor.wyo.gov/news-releases",
   "email": "monique.mcbride@wyo.gov",
   "signup": null,
-  "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766602376/Rural-Health-Transformation-in-Wyoming-final-application.pdf",
-  "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141314487/Rural%20Health%20Transformation%20-%20Revised%20Budget%20Narrative%20-%205.8.26.pdf",
+  "narrative_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/2766602376/Rural-Health-Transformation-in-Wyoming-final-application.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3259604365/RHT%20-%20Advisory%20Committee%20-%208.11.26%20Minutes.pdf",
+  "budget_pdf": "https://civicoperator.monday.com/protected_static/27534786/resources/3141314487/Rural%20Health%20Transformation%20-%20Revised%20Budget%20Narrative%20-%205.8.26.pdf, https://civicoperator.monday.com/protected_static/27534786/resources/3259604273/RHT%20-%20Advisory%20Committee%20-%20Award%20Approvals%20-%208.11.26.pdf",
   "award_m": "205.005",
   "key_projects": "EMS Stabilization, Robotics, Pharmacy, High-Risk",
   "program": "Wyoming Rural Health Transformation"
