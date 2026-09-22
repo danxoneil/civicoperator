@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-20",
+  "as_of": "2026-09-22",
   "source": "USASpending.gov",
   "program": "93.798 — Rural Health Transformation Program",
   "note": "obligated = federal funds committed to the state's cooperative agreement; outlaid = federal funds actually disbursed to date. Pulled weekly from USASpending.gov.",
@@ -50,7 +50,7 @@
       "fain": "RHTCMS332073",
       "obligated": 154249105.53,
       "outlaid": 1587908.55,
-      "award_last_modified": "2026-08-05 19:45:29",
+      "award_last_modified": "2026-09-21 20:40:13",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332073_075/"
     },
     "Delaware": {
@@ -183,7 +183,7 @@
       "fain": "RHTCMS332058",
       "obligated": 233509358.76,
       "outlaid": 2878397.3,
-      "award_last_modified": "2026-07-06 19:08:57",
+      "award_last_modified": "2026-09-21 20:40:13",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332058_075/"
     },
     "Nebraska": {
@@ -253,7 +253,7 @@
       "fain": "RHTCMS332048",
       "obligated": 223476948.62,
       "outlaid": 7807278.5,
-      "award_last_modified": "2026-05-05 20:19:32",
+      "award_last_modified": "2026-09-21 20:40:13",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332048_075/"
     },
     "Oregon": {
