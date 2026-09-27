@@ -59,3 +59,9 @@ any diff. The GitHub runner **cannot reach Google Drive**, so
 `parse_dispatches.py` wherever the Drive export is synced (e.g. the same machine
 / automation that produces the nightly Substack export). A push of an updated
 `dispatch_index.json` re-triggers the build.
+
+That refresh is automated on DXO's PC by the Task Scheduler task
+**RHT Dispatch Index Refresh** (daily 9:00 AM local, after the ~6–8 AM export
+lands), which runs `refresh_dispatches.ps1`: it parses the newest export in a
+dedicated clone under `%LOCALAPPDATA%\civicoperator-dispatch` and pushes
+`dispatch_index.json` to `main` only when it changed. Log: `refresh.log` there.
