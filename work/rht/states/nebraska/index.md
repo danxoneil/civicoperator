@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+16 dated briefs
 
 ## What Nebraska committed to measure
 
@@ -96,9 +96,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts and RFAs** are open 
 
 Track opportunities on the [Nebraska RHTP hub](https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx) and the [RFA funding page](https://dhhs.ne.gov/Pages/DHHS-Releases-RFAs-for-RHTP-Funding-Opportunities.aspx), and direct questions to [dhhs.ruralhealth@nebraska.gov](mailto:dhhs.ruralhealth@nebraska.gov).
 
-## Activity log · 12 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-02[Nebraska awards $5.5 million to 13 providers under Initiative 5.3, Modification of Existing Clinical Facilities for Mental Health Crisis, one day after applications closed](https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#%C2%A7nebraska-awards-5-5-million-to-13-providers-under-initiative-5-3-modification-of-existing-clinical-facilities-for-mental-health-crisis-one-day-after-applications-closed)
+
+2026-08-31[Nebraska removes the award cap on 1.1 School Kitchen Modernization Grants days before it closes today](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7nebraska-removes-the-award-cap-on-1-1-school-kitchen-modernization-grants-days-before-it-closes-today)
+
+2026-08-18[Nebraska has $8,344,000 out under Farm-to-School Procurement and Policy Technical Assistance (TA), closing August 31](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7nebraska-has-8-344-000-out-under-farm-to-school-procurement-and-policy-technical-assistance-ta-closing-august-31)
+
+2026-07-31[Nebraska stands up a public RHTP dashboard](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7nebraska-stands-up-a-public-rhtp-dashboard)
 
 2026-07-15[Nebraska lists awardees for 3.3 Rural Health Care Workforce Incentive & Sustainability](https://www.ruralhealthtransformation.life/p/west-virginia-opens-18m-for-rotational#%C2%A7nebraska-lists-awardees-for-3-3-rural-health-care-workforce-incentive-and-sustainability)
 

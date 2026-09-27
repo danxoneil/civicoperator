@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+24 dated briefs
 
 ## What Alaska committed to measure
 
@@ -102,9 +102,33 @@ Eligibility runs on two tracks. **Direct-to-state contracts** will go out as com
 
 Grant administration and applications run through the [Alaska Community Foundation grants portal](https://alaskacf.org/grants/); contribute ideas via the DOH Community Input Form and track updates on the [Alaska RHTP hub](https://health.alaska.gov/en/education/rural-health-transformation-program/).
 
-## Activity log · 12 dated briefs
+## Activity log · 24 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[Alaska opens its Year 2 fall funding cycle September 30, the first of two planned for Year 2](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7alaska-opens-its-year-2-fall-funding-cycle-september-30-the-first-of-two-planned-for-year-2)
+
+2026-09-21[Alaska‘s Year 1 Funding Cycle Update reaches 244 projects and $239,186,194.73](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7alaska-s-year-1-funding-cycle-update-reaches-244-projects-and-239-186-194-73)
+
+2026-09-17[Alaska opens September 23 RHTP Applicant Convening Registration](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7alaska-opens-september-23-rhtp-applicant-convening-registration)
+
+2026-09-15[Alaska sets its Alaska RHTP Applicant Convening: Celebrating Year 1, Looking Ahead to Year 2 for September 23 and asks vendors not to sell there](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7alaska-sets-its-alaska-rhtp-applicant-convening-celebrating-year-1-looking-ahead-to-year-2-for-september-23-and-asks-vendors-not-to-sell-there)
+
+2026-09-08[Alaska posts Week 5 of its Year 1 Funding Announcements, 32 more projects and $25.8 million, running total $207.7 million across 217 projects](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7alaska-posts-week-5-of-its-year-1-funding-announcements-32-more-projects-and-25-8-million-running-total-207-7-million-across-217-projects)
+
+2026-09-04[Alaska sets an RHTP Funding Cycle Updates: Reflections and Next Steps webinar for September 11, 2 to 3 p.m., Year 1 reflections and the Year 2 approach](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7alaska-sets-an-rhtp-funding-cycle-updates-reflections-and-next-steps-webinar-for-september-11-2-to-3-p-m-year-1-reflections-and-the-year-2-approach)
+
+2026-08-31[Alaska announces another $16.8 Million for 24 Projects — see full award list](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7alaska-announces-another-16-8-million-for-24-projects-see-full-award-list)
+
+2026-08-24[Alaska has now announced $160,701,975 across 161 projects, and $125,984,552 of it landed on Friday](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7alaska-has-now-announced-160-701-975-across-161-projects-and-125-984-552-of-it-landed-on-friday)
+
+2026-08-18[Alaska fielded $2.5B in Year 1 requests against $272M and has notified 19 of 394 applicants, per RHTP Advisory Council materials](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7alaska-fielded-2-5b-in-year-1-requests-against-272m-and-has-notified-19-of-394-applicants-per-rhtp-advisory-council-materials)
+
+2026-08-17[Alaska is up to 56 awards and $34,717,909, and its award list shows three ways to get one](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7alaska-is-up-to-56-awards-and-34-717-909-and-its-award-list-shows-three-ways-to-get-one)
+
+2026-08-13[Alaska softens its Year 2 timing and adds three more regional meeting dates](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7alaska-softens-its-year-2-timing-and-adds-three-more-regional-meeting-dates)
+
+2026-08-10[Alaska announces its first Rural Health Transformation awards, $4.59 million to 19 projects](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7alaska-announces-its-first-rural-health-transformation-awards-4-59-million-to-19-projects)
 
 2026-06-02[Alaska posts RHTP Letters of Interest: Summary of Submissions and Outcomes](https://www.ruralhealthtransformation.life/p/south-carolina-tech-catalyst-fund#%C2%A7alaska-posts-rhtp-letters-of-interest-summary-of-submissions-and-outcomes)
 

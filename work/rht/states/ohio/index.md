@@ -48,7 +48,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+8 dated briefs
 
 ## What Ohio committed to measure
 
@@ -98,9 +98,13 @@ Join the RHT project listserv and track the ODH solicitation page for open oppor
 
 [Ohio RHTP solicitations →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-invitations/solicitation-invitations) [Join the RHT listserv →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/join-rht-project-listserv)
 
-## Activity log · 6 dated briefs
+## Activity log · 8 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-04[Ohio opens the Dental Access Collaborative RFP SRC0000041620, one vendor to recruit Medicaid dentists, due October 13](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7ohio-opens-the-dental-access-collaborative-rfp-src0000041620-one-vendor-to-recruit-medicaid-dentists-due-october-13)
+
+2026-08-04[Ohio RHT Deep Dive: Systemic Integration Over Cash Injection](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7ohio-rht-deep-dive-systemic-integration-over-cash-injection)
 
 2026-07-13[Ohio closes the loop: $10M workforce award lands at Ohio University](https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#%C2%A7ohio-closes-the-loop-10m-workforce-award-lands-at-ohio-university)
 

@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+29 dated briefs
 
 ## How Idaho defines rural
 
@@ -110,9 +110,43 @@ Track opportunities on the [Idaho RHTP funding-opportunities page](https://healt
 
 [Idaho DHW Rural Health Transformation Program →](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant)
 
-## Activity log · 12 dated briefs
+## Activity log · 29 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Idaho says its Healthcare Infrastructure Support Solicitation drew more than 250 applications asking for more than $300 million](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7idaho-says-its-healthcare-infrastructure-support-solicitation-drew-more-than-250-applications-asking-for-more-than-300-million)
+
+2026-09-23[Idaho closes every Year 1 opportunity on its funding opportunities page](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7idaho-closes-every-year-1-opportunity-on-its-funding-opportunities-page)
+
+2026-09-22[Idaho closes three RFAs on its funding opportunities page](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7idaho-closes-three-rfas-on-its-funding-opportunities-page)
+
+2026-09-21[Idaho closes three solicitations in four days on its Funding Opportunities — Rural Health page](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7idaho-closes-three-solicitations-in-four-days-on-its-funding-opportunities-rural-health-page)
+
+2026-09-18[Idaho‘s Implementation Task Force meets September 23](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7idaho-s-implementation-task-force-meets-september-23)
+
+2026-09-10[Idaho extends its Healthcare Infrastructure Support (HIS) Solicitation to September 18](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7idaho-extends-its-healthcare-infrastructure-support-his-solicitation-to-september-18)
+
+2026-09-09[Idaho opens $8 million in Graduate Medical Education applications due on Sep. 14, vendor conference tomorrow](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7idaho-opens-8-million-in-graduate-medical-education-applications-due-on-sep-14-vendor-conference-tomorrow)
+
+2026-09-04[Idaho posts a 10-page Healthcare Infrastructure Support (HIS) FAQ on the $97.2 million solicitation, nine days before it closes](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7idaho-posts-a-10-page-healthcare-infrastructure-support-his-faq-on-the-97-2-million-solicitation-nine-days-before-it-closes)
+
+2026-09-01[Idaho publishes webinar materials on six solicitations, applications close in a week](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7idaho-publishes-webinar-materials-on-six-solicitations-applications-close-in-a-week)
+
+2026-08-28[Idaho moves the SUD Prevention and Behavioral Health Prevention vendor conferences and updates rural map](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7idaho-moves-the-sud-prevention-and-behavioral-health-prevention-vendor-conferences-and-updates-rural-map)
+
+2026-08-24[Idaho posts SUD Prevention and Behavioral Health Prevention, $400,000 each and both due September 18](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7idaho-posts-sud-prevention-and-behavioral-health-prevention-400-000-each-and-both-due-september-18)
+
+2026-08-20[Idaho posts and passcodes nine vendor events, running August 24 through September 2](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7idaho-posts-and-passcodes-nine-vendor-events-running-august-24-through-september-2)
+
+2026-08-19[Idaho posts three more RHTP solicitations totaling $111.7 million, and its Healthcare Infrastructure Support solicitation sets no cap on individual awards](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7idaho-posts-three-more-rhtp-solicitations-totaling-111-7-million-and-its-healthcare-infrastructure-support-solicitation-sets-no-cap-on-individual-awards)
+
+2026-08-12[Idaho posts five RHTP subaward solicitations in one day, $14 million and all due September 8](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7idaho-posts-five-rhtp-subaward-solicitations-in-one-day-14-million-and-all-due-september-8)
+
+2026-08-11[Idaho posts a Crisis Intervention Training funding opportunity— $2.5M, five-year award](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7idaho-posts-a-crisis-intervention-training-funding-opportunity-2-5m-five-year-award)
+
+2026-08-10[Idaho posts Materials from Aug. 4 Pre-application Webinar for Pediatric Psychiatry Access Line](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7idaho-posts-materials-from-aug-4-pre-application-webinar-for-pediatric-psychiatry-access-line)
+
+2026-08-01[Idaho names Comagine Health as awardee for its Maternal and Child Health Initiatives](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7idaho-names-comagine-health-as-awardee-for-its-maternal-and-child-health-initiatives)
 
 2026-07-24[Idaho posts a $1.2M Pediatric Psychiatry Access Line — four bidders qualify](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7idaho-posts-a-1-2m-pediatric-psychiatry-access-line-four-bidders-qualify)
 

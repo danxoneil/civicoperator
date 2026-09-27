@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+14 dated briefs
 
 ## What Kentucky committed to measure
 
@@ -96,9 +96,13 @@ Track open opportunities on the [Request for Applications page](https://ruralhea
 
 [Kentucky RHTP funding opportunities →](https://ruralhealthplan.ky.gov/Pages/Request_For_Applications.aspx)
 
-## Activity log · 12 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-25[Kentucky routed $10.5M through a foundation for its Rural Community Hubs Hub Leadership Opportunity, and nobody has been named](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7kentucky-routed-10-5m-through-a-foundation-for-its-rural-community-hubs-hub-leadership-opportunity-and-nobody-has-been-named)
+
+2026-08-24[Kentucky‘s $10.5M Rural Health Transformation Hub Leadership Opportunity has no named awardee eight weeks after Phase 1 started](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7kentucky-s-10-5m-rural-health-transformation-hub-leadership-opportunity-has-no-named-awardee-eight-weeks-after-phase-1-started)
 
 2026-07-27[Kentucky opens Community Health Worker Specialized Certificates RFA](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7kentucky-opens-community-health-worker-specialized-certificates-rfa)
 

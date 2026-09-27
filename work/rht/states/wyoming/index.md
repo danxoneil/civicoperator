@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-4 dated briefs
+7 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,15 @@ Eligibility runs on two tracks. **Subgrants/subawards** flow to rural providers 
 
 [Wyoming RHTP hub →](https://health.wyo.gov/admin/rural-health-transformation-program/) [RFA application portal →](https://wyrhtp.submittable.com/submit)
 
-## Activity log · 4 dated briefs
+## Activity log · 7 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-17[Wyoming‘s advisory committee divides $205 million](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7wyoming-s-advisory-committee-divides-205-million)
+
+2026-08-11[Wyoming‘s Rural Health Transformation Advisory Committee meets this morning to discuss awards, with no public comment](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7wyoming-s-rural-health-transformation-advisory-committee-meets-this-morning-to-discuss-awards-with-no-public-comment)
+
+2026-08-03[Wyoming closes its first Rural Health Transformation Program RFA round](https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#%C2%A7wyoming-closes-its-first-rural-health-transformation-program-rfa-round)
 
 2026-07-11[Wyoming publishes two of three tech vendor RFPs](https://www.ruralhealthtransformation.life/p/utah-drops-a-94m-opp-maryland-out#%C2%A7wyoming-publishes-two-of-three-tech-vendor-rfps)
 

@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## What Indiana committed to measure
 
@@ -106,9 +106,11 @@ Indiana maintains a self-service vendor intake list (add your firm via the state
 
 [Indiana IDOA opportunities →](https://www.in.gov/idoa/procurement/current-business-opportunities/) [Subscribe to GROW updates →](https://cloud.subscription.in.gov/signup?depid=546006748)
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-04[Indiana names nearly 200 GROW Regional Grant subrecipients, $112.4 million across eight regions plus $16.25 million in surplus awards](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7indiana-names-nearly-200-grow-regional-grant-subrecipients-112-4-million-across-eight-regions-plus-16-25-million-in-surplus-awards)
 
 2026-06-05[Indiana: June 11, 2026 Pre-Proposal Conference](https://www.ruralhealthtransformation.life/p/west-virginia-remote-monitoring-rfi#%C2%A7indiana-june-11-2026-pre-proposal-conference)
 

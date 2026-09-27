@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-17 dated briefs
+27 dated briefs
 
 ## What New Mexico committed to measure
 
@@ -101,9 +101,29 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track the [HCA open-RFP portal](https://www.hca.nm.gov/lookingforinformation/open-rfps/), join the [RHTP updates and distribution list](https://forms.monday.com/forms/8e030d1aba2d00bf39f496544cea29ae?r=use1), and watch the [program hub](https://www.hca.nm.gov/rural-health-transformation-program/).
 
-## Activity log · 17 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[New Mexico moves the Rural Health Data Hub Administrator (RHDHA) RFP to September 25 and cuts the contract term to four years](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7new-mexico-moves-the-rural-health-data-hub-administrator-rhdha-rfp-to-september-25-and-cuts-the-contract-term-to-four-years)
+
+2026-09-21[New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7new-mexico-names-six-healthy-horizons-regional-hub-organizations-and-74-061-254-18-in-regional-allocations)
+
+2026-09-11[New Mexico sets September 21 for the Rural Health Data Hub Administrator (RHDHA) RFP](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7new-mexico-sets-september-21-for-the-rural-health-data-hub-administrator-rhdha-rfp)
+
+2026-09-09[New Mexico posts the Rural Health Data Hub Administrator (RHDHA) RFP](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7new-mexico-posts-the-rural-health-data-hub-administrator-rhdha-rfp)
+
+2026-08-28[New Mexico announces a Rooted in New Mexico (RiNM) Q&A and an Amendment and posts neither, seven days from close](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7new-mexico-announces-a-rooted-in-new-mexico-rinm-q-and-a-and-an-amendment-and-posts-neither-seven-days-from-close)
+
+2026-08-27[New Mexico answers six questions on RFA 27-630-8000-0037 Ob/Gyn Services and opens the door to telehealth-only bids](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7new-mexico-answers-six-questions-on-rfa-27-630-8000-0037-ob-gyn-services-and-opens-the-door-to-telehealth-only-bids)
+
+2026-08-14[New Mexico opens applications for its RHTP Stakeholder Advisory Committee and puts four RFPs under evaluation](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7new-mexico-opens-applications-for-its-rhtp-stakeholder-advisory-committee-and-puts-four-rfps-under-evaluation)
+
+2026-08-07[New Mexico puts out $22M Rooted in New Mexico Program Administrator RFP](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7new-mexico-puts-out-22m-rooted-in-new-mexico-program-administrator-rfp)
+
+2026-07-29[New Mexico revises the Rural Health Innovation Fund schedule](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7new-mexico-revises-the-rural-health-innovation-fund-schedule)
+
+2026-07-28[New Mexico extends the Rural Health Innovation Fund RFP deadline to Aug 3](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7new-mexico-extends-the-rural-health-innovation-fund-rfp-deadline-to-aug-3)
 
 2026-07-17[New Mexico posts 8 job openings](https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#%C2%A7new-mexico-posts-8-job-openings)
 

@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-21 dated briefs
+25 dated briefs
 
 ## What Vermont committed to measure
 
@@ -94,9 +94,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 [Vermont RHT hub →](https://healthcarereform.vermont.gov/hr1rural-health-transformation-fund) [Join the RHT list →](https://list.vermont.gov/mailman/listinfo/vt.rht)
 
-## Activity log · 21 dated briefs
+## Activity log · 25 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Vermont‘s RHT Year 1 Awards and Contracts list adds 26 agreements and $22,365,970.68 in a week, and Rutland Regional’s primary care agreement comes off it](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7vermont-s-rht-year-1-awards-and-contracts-list-adds-26-agreements-and-22-365-970-68-in-a-week-and-rutland-regional-s-primary-care-agreement-comes-off-it)
+
+2026-09-14[Vermont publishes RHT Year 1 Awards and Contracts — 87 executed agreements, $62,790,450.50](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7vermont-publishes-rht-year-1-awards-and-contracts-87-executed-agreements-62-790-450-50)
+
+2026-09-11[Vermont‘s $11.7 million CMS announcement puts $9 million into tuition benefits and $2.7 million into three nursing homes and four LNA training partners, none named](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7vermont-s-11-7-million-cms-announcement-puts-9-million-into-tuition-benefits-and-2-7-million-into-three-nursing-homes-and-four-lna-training-partners-none-named)
+
+2026-08-19[Vermont closes out Year 1 on its RHT Program RFPs/NOFOs page with no dates set for Year 2](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7vermont-closes-out-year-1-on-its-rht-program-rfps-nofos-page-with-no-dates-set-for-year-2)
 
 2026-07-18[Vermont clarifies](https://www.ruralhealthtransformation.life/p/missouri-announces-27-awardees-north#%C2%A7vermont-clarifies)
 

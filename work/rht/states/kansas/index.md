@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+30 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,23 @@ Track opportunities on the [KDHE RHTP hub](https://www.kdhe.ks.gov/2361/Rural-He
 
 [KDHE Rural Health Transformation Program →](https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program)
 
-## Activity log · 23 dated briefs
+## Activity log · 30 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[Kansas names Emerging Technology Award Winners and Project Descriptions](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7kansas-names-emerging-technology-award-winners-and-project-descriptions)
+
+2026-09-15[Kansas awards $16,006,648 in Emerging Technology Grants against a $9.5 million RFA](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7kansas-awards-16-006-648-in-emerging-technology-grants-against-a-9-5-million-rfa)
+
+2026-09-04[Kansas posts its Year 2 Budget Narrative, Year 2 Project Narrative, and Annual Report, $221.9 million a year, with a second round of RPGP and REH/CAP RFAs coming in Q4](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7kansas-posts-its-year-2-budget-narrative-year-2-project-narrative-and-annual-report-221-9-million-a-year-with-a-second-round-of-rpgp-and-reh-cap-rfas-coming-in-q4)
+
+2026-08-25[Kansas posts its approved Year 1 Budget Narrative, Revision 2 — $221.9 million, and it names the vendors](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7kansas-posts-its-approved-year-1-budget-narrative-revision-2-221-9-million-and-it-names-the-vendors)
+
+2026-08-14[Kansas awards $1,007,152 to seven organizations under Community Health Worker + Accountable Food is Medicine](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7kansas-awards-1-007-152-to-seven-organizations-under-community-health-worker-accountable-food-is-medicine)
+
+2026-08-04[Kansas opens the Dementia-Related Behavioral Supports in Rural Nursing Facilities Pilot RFA](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7kansas-opens-the-dementia-related-behavioral-supports-in-rural-nursing-facilities-pilot-rfa)
+
+2026-08-04[Kansas opens the Dementia-Related Behavioral Supports in Rural Nursing Facilities Pilot RFA](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7kansas-opens-the-dementia-related-behavioral-supports-in-rural-nursing-facilities-pilot-rfa)
 
 2026-07-21[Kansas debuts a set of four finance-and-revenue RFPs](https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#%C2%A7kansas-debuts-a-set-of-four-finance-and-revenue-rfps)
 

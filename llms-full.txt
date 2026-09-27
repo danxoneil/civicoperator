@@ -2118,107 +2118,107 @@ Each card: state · exact CMS Year-1 award · dated dispatches · how it defines
 
 [Alabama
 
-$203.4M · 11 dispatches · Uses its own rural definition](/work/rht/states/alabama/)[Alaska
+$203.4M · 13 dispatches · Uses its own rural definition](/work/rht/states/alabama/)[Alaska
 
-$272.2M · 12 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
+$272.2M · 24 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
 
-$167.0M · 9 dispatches · Uses its own rural definition](/work/rht/states/arizona/)[Arkansas
+$167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/arizona/)[Arkansas
 
-$208.8M · 6 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
+$208.8M · 8 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
 
-$233.6M · 14 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
+$233.6M · 21 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
-$200.1M · 32 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
+$200.1M · 36 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
 
 $154.2M · 2 dispatches · Uses its own rural definition](/work/rht/states/connecticut/)[Delaware
 
-$157.4M · 3 dispatches · Federal HRSA rural default](/work/rht/states/delaware/)[Florida
+$157.4M · 4 dispatches · Federal HRSA rural default](/work/rht/states/delaware/)[Florida
 
-$209.9M · 7 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
+$209.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
 
-$218.9M · 5 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
+$218.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
 
-$188.9M · 0 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
+$188.9M · 1 dispatch · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
-$186.0M · 12 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
+$186.0M · 29 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
 
 $193.4M · 3 dispatches · Defined rural county list](/work/rht/states/illinois/)[Indiana
 
-$206.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/indiana/)[Iowa
+$206.9M · 10 dispatches · Uses its own rural definition](/work/rht/states/indiana/)[Iowa
 
-$209.0M · 16 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[Kansas
+$209.0M · 19 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[Kansas
 
-$221.9M · 23 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
+$221.9M · 30 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
 
-$212.9M · 12 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
+$212.9M · 14 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
-$208.4M · 10 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
+$208.4M · 14 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
-$190.0M · 4 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
+$190.0M · 14 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
-$168.2M · 9 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
+$168.2M · 16 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
 
 $162.0M · 0 dispatches · Uses its own rural definition](/work/rht/states/massachusetts/)[Michigan
 
-$173.1M · 10 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
+$173.1M · 13 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
 
-$193.1M · 3 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
+$193.1M · 5 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
 
-$205.9M · 11 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
+$205.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 5 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 12 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
-$233.5M · 15 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
+$233.5M · 21 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
-$218.5M · 12 dispatches · Uses its own rural definition](/work/rht/states/nebraska/)[Nevada
+$218.5M · 16 dispatches · Uses its own rural definition](/work/rht/states/nebraska/)[Nevada
 
-$179.9M · 14 dispatches · Federal HRSA rural default](/work/rht/states/nevada/)[New Hampshire
+$179.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/nevada/)[New Hampshire
 
-$204.0M · 5 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
+$204.0M · 12 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
 
-$147.3M · 1 dispatch · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
+$147.3M · 3 dispatches · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
 
-$211.5M · 17 dispatches · Uses its own rural definition](/work/rht/states/new-mexico/)[New York
+$211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-mexico/)[New York
 
-$212.1M · 6 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
+$212.1M · 12 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 14 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 18 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
-$198.9M · 24 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
+$198.9M · 42 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
-$202.0M · 6 dispatches · Uses its own rural definition](/work/rht/states/ohio/)[Oklahoma
+$202.0M · 8 dispatches · Uses its own rural definition](/work/rht/states/ohio/)[Oklahoma
 
-$223.5M · 23 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
+$223.5M · 27 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
 
-$197.3M · 11 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
+$197.3M · 12 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
 
-$193.3M · 9 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
+$193.3M · 16 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
-$156.2M · 8 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
+$156.2M · 11 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
 
-$200.0M · 6 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
+$200.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
 
-$189.5M · 9 dispatches · Federal HRSA rural default](/work/rht/states/south-dakota/)[Tennessee
+$189.5M · 13 dispatches · Federal HRSA rural default](/work/rht/states/south-dakota/)[Tennessee
 
-$206.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Test Run Pilot
+$206.9M · 21 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Test Run Pilot
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 4 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 5 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
-$195.7M · 22 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
+$195.7M · 32 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
-$195.1M · 21 dispatches · Federal HRSA rural default](/work/rht/states/vermont/)[Virginia
+$195.1M · 25 dispatches · Federal HRSA rural default](/work/rht/states/vermont/)[Virginia
 
-$189.5M · 1 dispatch · Defined rural county list](/work/rht/states/virginia/)[Washington
+$189.5M · 12 dispatches · Defined rural county list](/work/rht/states/virginia/)[Washington
 
-$181.3M · 13 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
+$181.3M · 23 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
 
-$199.5M · 20 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
+$199.5M · 31 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
 
-$203.7M · 5 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
+$203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
 
-$205.0M · 4 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
+$205.0M · 7 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
 Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-09-27. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
 
@@ -2366,7 +2366,7 @@ Federal award data
 
 Tracker dispatches
 
-11 dated briefs
+13 dated briefs
 
 ## What Alabama committed to measure
 
@@ -2420,9 +2420,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** are awarded compet
 
 [ARHTP hub →](https://alabamarhtp.com/) [ADECA Funding Opportunities →](https://adeca.alabama.gov/about/funding-opportunities/)
 
-## Activity log · 11 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-26[Alabama awards 138 ARHTP Round 1 grants worth $143,745,821, four of five initiatives over their advertised ceilings](https://www.ruralhealthtransformation.life/p/alabama-awards-138-arhtp-round-1#%C2%A7alabama-awards-138-arhtp-round-1-grants-worth-143-745-821-four-of-five-initiatives-over-their-advertised-ceilings)
+
+2026-08-25[Alabama closes all Year 1 initiative application periods and says applications reopen for Year 2](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7alabama-closes-all-year-1-initiative-application-periods-and-says-applications-reopen-for-year-2)
 
 2026-07-10[Alabama will run two in-person RFP workshops this month](https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#%C2%A7alabama-will-run-two-in-person-rfp-workshops-this-month)
 
@@ -2522,7 +2526,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+24 dated briefs
 
 ## What Alaska committed to measure
 
@@ -2570,9 +2574,33 @@ Eligibility runs on two tracks. **Direct-to-state contracts** will go out as com
 
 Grant administration and applications run through the [Alaska Community Foundation grants portal](https://alaskacf.org/grants/); contribute ideas via the DOH Community Input Form and track updates on the [Alaska RHTP hub](https://health.alaska.gov/en/education/rural-health-transformation-program/).
 
-## Activity log · 12 dated briefs
+## Activity log · 24 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[Alaska opens its Year 2 fall funding cycle September 30, the first of two planned for Year 2](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7alaska-opens-its-year-2-fall-funding-cycle-september-30-the-first-of-two-planned-for-year-2)
+
+2026-09-21[Alaska‘s Year 1 Funding Cycle Update reaches 244 projects and $239,186,194.73](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7alaska-s-year-1-funding-cycle-update-reaches-244-projects-and-239-186-194-73)
+
+2026-09-17[Alaska opens September 23 RHTP Applicant Convening Registration](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7alaska-opens-september-23-rhtp-applicant-convening-registration)
+
+2026-09-15[Alaska sets its Alaska RHTP Applicant Convening: Celebrating Year 1, Looking Ahead to Year 2 for September 23 and asks vendors not to sell there](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7alaska-sets-its-alaska-rhtp-applicant-convening-celebrating-year-1-looking-ahead-to-year-2-for-september-23-and-asks-vendors-not-to-sell-there)
+
+2026-09-08[Alaska posts Week 5 of its Year 1 Funding Announcements, 32 more projects and $25.8 million, running total $207.7 million across 217 projects](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7alaska-posts-week-5-of-its-year-1-funding-announcements-32-more-projects-and-25-8-million-running-total-207-7-million-across-217-projects)
+
+2026-09-04[Alaska sets an RHTP Funding Cycle Updates: Reflections and Next Steps webinar for September 11, 2 to 3 p.m., Year 1 reflections and the Year 2 approach](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7alaska-sets-an-rhtp-funding-cycle-updates-reflections-and-next-steps-webinar-for-september-11-2-to-3-p-m-year-1-reflections-and-the-year-2-approach)
+
+2026-08-31[Alaska announces another $16.8 Million for 24 Projects — see full award list](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7alaska-announces-another-16-8-million-for-24-projects-see-full-award-list)
+
+2026-08-24[Alaska has now announced $160,701,975 across 161 projects, and $125,984,552 of it landed on Friday](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7alaska-has-now-announced-160-701-975-across-161-projects-and-125-984-552-of-it-landed-on-friday)
+
+2026-08-18[Alaska fielded $2.5B in Year 1 requests against $272M and has notified 19 of 394 applicants, per RHTP Advisory Council materials](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7alaska-fielded-2-5b-in-year-1-requests-against-272m-and-has-notified-19-of-394-applicants-per-rhtp-advisory-council-materials)
+
+2026-08-17[Alaska is up to 56 awards and $34,717,909, and its award list shows three ways to get one](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7alaska-is-up-to-56-awards-and-34-717-909-and-its-award-list-shows-three-ways-to-get-one)
+
+2026-08-13[Alaska softens its Year 2 timing and adds three more regional meeting dates](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7alaska-softens-its-year-2-timing-and-adds-three-more-regional-meeting-dates)
+
+2026-08-10[Alaska announces its first Rural Health Transformation awards, $4.59 million to 19 projects](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7alaska-announces-its-first-rural-health-transformation-awards-4-59-million-to-19-projects)
 
 2026-06-02[Alaska posts RHTP Letters of Interest: Summary of Submissions and Outcomes](https://www.ruralhealthtransformation.life/p/south-carolina-tech-catalyst-fund#%C2%A7alaska-posts-rhtp-letters-of-interest-summary-of-submissions-and-outcomes)
 
@@ -2670,7 +2698,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## What Arizona committed to measure
 
@@ -2720,9 +2748,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [AHCCCS RHTP hub](https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/) and the [Grants Administration portal](https://www.azahcccs.gov/Resources/Grants/GrantsAdministration.html); attend the regional “Share Your Voice” meetings to shape priorities before more solicitations drop; and request a letter of support from the **Arizona Center for Rural Health** (as State Office of Rural Health) by sending them a link to an open funding opportunity.
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-07-28[Arizona has two RFGAs open now — $17M Telehealth and $30.1M Diagnostic Equipment & EHR — with four more forecast](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7arizona-has-two-rfgas-open-now-17m-telehealth-and-30-1m-diagnostic-equipment-and-ehr-with-four-more-forecast)
 
 2026-07-24[Arizona deep dive: three agencies leading the way](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7arizona-deep-dive-three-agencies-leading-the-way)
 
@@ -2814,7 +2844,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+8 dated briefs
 
 ## What Arkansas committed to measure
 
@@ -2867,9 +2897,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 [Arkansas RHTP hub →](https://arkansasrhtp.com/) [Application portal →](https://arkansasrhtp.com/resources/)
 
-## Activity log · 6 dated briefs
+## Activity log · 8 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-25[Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7arkansas-awards-54-685-068-84-in-year-1-rise-ar-and-heart-funding-to-38-organizations)
+
+2026-08-28[Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7arkansas-posts-its-year-1-rhtp-thrive-and-pact-awards-149-177-618-45-to-31-organizations-across-50-projects)
 
 2026-07-24[Arkansas extendeds HEART](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7arkansas-extendeds-heart)
 
@@ -2961,7 +2995,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+21 dated briefs
 
 ## What California committed to measure
 
@@ -3007,9 +3041,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [CalRHT funding page](https://hcai.ca.gov/rural-health/calrht/funding/), join the [HCAI mailing list](https://hcai.ca.gov/mailing-list/), and email a resume and expression of interest to [CalRHT@hcai.ca.gov](mailto:CalRHT@hcai.ca.gov) to be considered for the Rural Health Policy Council.
 
-## Activity log · 14 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-24[California posts an EHR Readiness Assessment that every CalRHT EHR Modernization subrecipient is required to complete](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7california-posts-an-ehr-readiness-assessment-that-every-calrht-ehr-modernization-subrecipient-is-required-to-complete)
+
+2026-08-21[California RHT Deep-Dive: The $15 Million CMS Made California Move](https://www.ruralhealthtransformation.life/p/north-dakota-closes-24-of-25-year#%C2%A7california-rht-deep-dive-the-15-million-cms-made-california-move)
+
+2026-08-18[California posts CalRHT EHR Modernization Grant FAQs: rules out vendors, HIEs and consortiums](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7california-posts-calrht-ehr-modernization-grant-faqs-rules-out-vendors-hies-and-consortiums)
+
+2026-08-13[California posts Workforce Development Recruitment and Retention webinar recording](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7california-posts-workforce-development-recruitment-and-retention-webinar-recording)
+
+2026-08-11[California posts presentations and recordings for the Accelerator Partners, WDRR, and EHR Modernization grant webinars](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7california-posts-presentations-and-recordings-for-the-accelerator-partners-wdrr-and-ehr-modernization-grant-webinars)
+
+2026-08-01[California opens its full first CalRHT wave, four programs now taking applications](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7california-opens-its-full-first-calrht-wave-four-programs-now-taking-applications)
+
+2026-07-29[California stands up its subrecipient machinery](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7california-stands-up-its-subrecipient-machinery)
 
 2026-07-27[California has two engagement opportunities this week](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7california-has-two-engagement-opportunities-this-week)
 
@@ -3117,7 +3165,7 @@ Federal award data
 
 Tracker dispatches
 
-32 dated briefs
+36 dated briefs
 
 ## What Colorado committed to measure
 
@@ -3174,9 +3222,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [HCPF RHTP hub](https://hcpf.colorado.gov/rural-health-transformation-program) and the [RFA application portal](https://coloradorhtp-rfa.my.site.com/apply/s/), and complete the state's vendor interest survey to be listed for partnerships.
 
-## Activity log · 32 dated briefs
+## Activity log · 36 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-18[Colorado’s public vendor interest list is still growing](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7colorado-s-public-vendor-interest-list-is-still-growing)
+
+2026-09-08[Colorado publishes the Potential Grantee Partnership Interest spreadsheet, 43 organizations with named contacts, ahead of end-of-September awards on $200.1 million](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7colorado-publishes-the-potential-grantee-partnership-interest-spreadsheet-43-organizations-with-named-contacts-ahead-of-end-of-september-awards-on-200-1-million)
+
+2026-08-27[Colorado Raises Its Capital Cap to 20% and Warns Grantees About Unspent Money](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7colorado-raises-its-capital-cap-to-20-and-warns-grantees-about-unspent-money)
+
+2026-08-06[Colorado closes its RHTP RFA; award announcements set for September](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7colorado-closes-its-rhtp-rfa-award-announcements-set-for-september)
 
 2026-07-23[Colorado publishes FAQ for Final Application Push and New Program Guidance](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7colorado-publishes-faq-for-final-application-push-and-new-program-guidance)
 
@@ -3442,7 +3498,7 @@ Federal award data
 
 Tracker dispatches
 
-3 dated briefs
+4 dated briefs
 
 ## What Delaware committed to measure
 
@@ -3497,9 +3553,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track and respond to opportunities on the [Delaware bids portal](https://bids.delaware.gov) and follow the [RHTP hub](https://dhss.delaware.gov/dph/rural-health-transformation-program/).
 
-## Activity log · 3 dated briefs
+## Activity log · 4 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-25[Delaware awards $22.69 million to its three FQHCs](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7delaware-awards-22-69-million-to-its-three-fqhcs)
 
 2026-05-15[Delaware moves diabetes pilot RFP forward with enabling legislation](https://www.ruralhealthtransformation.life/p/wv-posts-16m-match-rfp-for-upskilling#%C2%A7delaware-moves-diabetes-pilot-rfp-forward-with-enabling-legislation)
 
@@ -3577,7 +3635,7 @@ Federal award data
 
 Tracker dispatches
 
-7 dated briefs
+9 dated briefs
 
 ## Questions & answers
 
@@ -3628,9 +3686,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Find and respond to solicitations on [MyFloridaMarketplace](https://vendor.myfloridamarketplace.com/search/bids) (search “RHTP”), and track updates on the [AHCA RHTP hub](https://ahca.myflorida.com/rural-health-transformation-program.html).
 
-## Activity log · 7 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-14[Florida says Year 1 sub-awards are made and sets a September 23–24 convening in Jacksonville](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7florida-says-year-1-sub-awards-are-made-and-sets-a-september-23-24-convening-in-jacksonville)
+
+2026-07-31[Florida Legislation Watch: $209M is greenlit](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7florida-legislation-watch-209m-is-greenlit)
 
 2026-06-25[Florida legislation watch](https://www.ruralhealthtransformation.life/p/west-virginia-out-with-24m-on-nutrition#%C2%A7florida-legislation-watch)
 
@@ -3722,7 +3784,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+9 dated briefs
 
 ## Questions & answers
 
@@ -3767,9 +3829,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 Apply through the [GREAT Health grants portal](https://portal.greathealth.georgia.gov/) and track opportunities on the [funding opportunities](https://greathealth.georgia.gov/find-funding-opportunities) page and the [program hub](https://greathealth.georgia.gov/).
 
-## Activity log · 5 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-17[Georgia opens the GREAT Health Rural Graduate Medical Education Development Grant Program, up to $3 million per award, closing October 15](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7georgia-opens-the-great-health-rural-graduate-medical-education-development-grant-program-up-to-3-million-per-award-closing-october-15)
+
+2026-09-17[Georgia‘s GME money has to be spent by September 1, 2027, and consultants are an allowable cost](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7georgia-s-gme-money-has-to-be-spent-by-september-1-2027-and-consultants-are-an-allowable-cost)
+
+2026-08-13[Georgia awards $26 million for surgical robots to 13 rural hospitals and names the five that lost](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7georgia-awards-26-million-for-surgical-robots-to-13-rural-hospitals-and-names-the-five-that-lost)
+
+2026-08-01[Georgia posts a Notice of Intent to Award for Workforce Retention Technology, $26 million to 13 rural hospitals](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7georgia-posts-a-notice-of-intent-to-award-for-workforce-retention-technology-26-million-to-13-rural-hospitals)
 
 2026-07-27[Georgia posts its Notice of Intent to Award for Point-of-Care Telepods — eight awards, ~$4.3M, winners named](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7georgia-posts-its-notice-of-intent-to-award-for-point-of-care-telepods-eight-awards-4-3m-winners-named)
 
@@ -3853,7 +3923,7 @@ Federal award data
 
 Tracker dispatches
 
-0 dated briefs
+1 dated brief
 
 ## Questions & answers
 
@@ -3900,6 +3970,12 @@ How can vendors, providers, or consultants engage with Hawaii's program?
 Eligibility is expected to run on two tracks. **Direct-to-state contracts** go out as competitive RFPs, where firms bid as **prime contractors**. **Subgrants and subawards** flow to rural providers — hospitals, Rural Health Clinics, FQHCs, Native Hawaiian and Tribal health organizations, EMS agencies, and counties — and it is here that technology vendors and consultants most often engage as **subcontractors or implementation partners**. Until Hawaii posts its first solicitations, the best move is to monitor the state's engagement hub and reach the Department of Health's Office of Primary Care and Rural Health directly.
 
 [Hawaii RHTP hub →](https://engage.hawaii.gov/rhtp/) [Email the program →](mailto:doh.opcpdh@doh.hawaii.gov)
+
+## Activity log · 1 dated brief
+
+Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-01[Hawaii names $75 million of its $188.9 million, as CMS announces $58 million to Deliver New Ambulances and Upgrade Emergency Communications Systems Across Hawaii and SHPDA awards $](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7hawaii-names-75-million-of-its-188-9-million-as-cms-announces-58-million-to-deliver-new-ambulances-and-upgrade-emergency-communications-systems-across-hawaii-and-shpda-awards-17-million-to-the-hawaii-primary-care-association)
 
 ## Related
 
@@ -3975,7 +4051,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+29 dated briefs
 
 ## How Idaho defines rural
 
@@ -4033,9 +4109,43 @@ Track opportunities on the [Idaho RHTP funding-opportunities page](https://healt
 
 [Idaho DHW Rural Health Transformation Program →](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant)
 
-## Activity log · 12 dated briefs
+## Activity log · 29 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Idaho says its Healthcare Infrastructure Support Solicitation drew more than 250 applications asking for more than $300 million](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7idaho-says-its-healthcare-infrastructure-support-solicitation-drew-more-than-250-applications-asking-for-more-than-300-million)
+
+2026-09-23[Idaho closes every Year 1 opportunity on its funding opportunities page](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7idaho-closes-every-year-1-opportunity-on-its-funding-opportunities-page)
+
+2026-09-22[Idaho closes three RFAs on its funding opportunities page](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7idaho-closes-three-rfas-on-its-funding-opportunities-page)
+
+2026-09-21[Idaho closes three solicitations in four days on its Funding Opportunities — Rural Health page](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7idaho-closes-three-solicitations-in-four-days-on-its-funding-opportunities-rural-health-page)
+
+2026-09-18[Idaho‘s Implementation Task Force meets September 23](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7idaho-s-implementation-task-force-meets-september-23)
+
+2026-09-10[Idaho extends its Healthcare Infrastructure Support (HIS) Solicitation to September 18](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7idaho-extends-its-healthcare-infrastructure-support-his-solicitation-to-september-18)
+
+2026-09-09[Idaho opens $8 million in Graduate Medical Education applications due on Sep. 14, vendor conference tomorrow](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7idaho-opens-8-million-in-graduate-medical-education-applications-due-on-sep-14-vendor-conference-tomorrow)
+
+2026-09-04[Idaho posts a 10-page Healthcare Infrastructure Support (HIS) FAQ on the $97.2 million solicitation, nine days before it closes](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7idaho-posts-a-10-page-healthcare-infrastructure-support-his-faq-on-the-97-2-million-solicitation-nine-days-before-it-closes)
+
+2026-09-01[Idaho publishes webinar materials on six solicitations, applications close in a week](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7idaho-publishes-webinar-materials-on-six-solicitations-applications-close-in-a-week)
+
+2026-08-28[Idaho moves the SUD Prevention and Behavioral Health Prevention vendor conferences and updates rural map](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7idaho-moves-the-sud-prevention-and-behavioral-health-prevention-vendor-conferences-and-updates-rural-map)
+
+2026-08-24[Idaho posts SUD Prevention and Behavioral Health Prevention, $400,000 each and both due September 18](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7idaho-posts-sud-prevention-and-behavioral-health-prevention-400-000-each-and-both-due-september-18)
+
+2026-08-20[Idaho posts and passcodes nine vendor events, running August 24 through September 2](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7idaho-posts-and-passcodes-nine-vendor-events-running-august-24-through-september-2)
+
+2026-08-19[Idaho posts three more RHTP solicitations totaling $111.7 million, and its Healthcare Infrastructure Support solicitation sets no cap on individual awards](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7idaho-posts-three-more-rhtp-solicitations-totaling-111-7-million-and-its-healthcare-infrastructure-support-solicitation-sets-no-cap-on-individual-awards)
+
+2026-08-12[Idaho posts five RHTP subaward solicitations in one day, $14 million and all due September 8](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7idaho-posts-five-rhtp-subaward-solicitations-in-one-day-14-million-and-all-due-september-8)
+
+2026-08-11[Idaho posts a Crisis Intervention Training funding opportunity— $2.5M, five-year award](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7idaho-posts-a-crisis-intervention-training-funding-opportunity-2-5m-five-year-award)
+
+2026-08-10[Idaho posts Materials from Aug. 4 Pre-application Webinar for Pediatric Psychiatry Access Line](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7idaho-posts-materials-from-aug-4-pre-application-webinar-for-pediatric-psychiatry-access-line)
+
+2026-08-01[Idaho names Comagine Health as awardee for its Maternal and Child Health Initiatives](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7idaho-names-comagine-health-as-awardee-for-its-maternal-and-child-health-initiatives)
 
 2026-07-24[Idaho posts a $1.2M Pediatric Psychiatry Access Line — four bidders qualify](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7idaho-posts-a-1-2m-pediatric-psychiatry-access-line-four-bidders-qualify)
 
@@ -4261,7 +4371,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## What Indiana committed to measure
 
@@ -4311,9 +4421,11 @@ Indiana maintains a self-service vendor intake list (add your firm via the state
 
 [Indiana IDOA opportunities →](https://www.in.gov/idoa/procurement/current-business-opportunities/) [Subscribe to GROW updates →](https://cloud.subscription.in.gov/signup?depid=546006748)
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-04[Indiana names nearly 200 GROW Regional Grant subrecipients, $112.4 million across eight regions plus $16.25 million in surplus awards](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7indiana-names-nearly-200-grow-regional-grant-subrecipients-112-4-million-across-eight-regions-plus-16-25-million-in-surplus-awards)
 
 2026-06-05[Indiana: June 11, 2026 Pre-Proposal Conference](https://www.ruralhealthtransformation.life/p/west-virginia-remote-monitoring-rfi#%C2%A7indiana-june-11-2026-pre-proposal-conference)
 
@@ -4405,7 +4517,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+19 dated briefs
 
 ## What Iowa committed to measure
 
@@ -4460,9 +4572,15 @@ Track opportunities on the [Iowa HHS funding-opportunities portal](https://hhs.i
 
 [Healthy Hometowns — Iowa RHTP →](https://hhs.iowa.gov/initiatives/healthy-hometowns-iowas-rural-health-transformation-plan)
 
-## Activity log · 16 dated briefs
+## Activity log · 19 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-25[Iowa gets CMS’s first State Spotlight for its Combat Cancer Health Hub Program, and its Healthy Hometowns dashboard shows $32,850,309.82 obligated to the hubs and $0 spent](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7iowa-gets-cms-s-first-state-spotlight-for-its-combat-cancer-health-hub-program-and-its-healthy-hometowns-dashboard-shows-32-850-309-82-obligated-to-the-hubs-and-0-spent)
+
+2026-09-22[Iowa releases RFP # COMPADM26007 for Cardiovascular Health Hub Program, $33,361,333](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7iowa-releases-rfp-compadm26007-for-cardiovascular-health-hub-program-33-361-333)
+
+2026-08-03[Iowa Deep Dive: The First State to Award Is Now the First to Force a Choice](https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#%C2%A7iowa-deep-dive-the-first-state-to-award-is-now-the-first-to-force-a-choice)
 
 2026-07-16[Iowa Just Put $328M(?) out — first deadline (LOI) is August 10](https://www.ruralhealthtransformation.life/p/iowa-just-put-328m-out-first-deadline#%C2%A7iowa-just-put-328m-out-first-deadline-loi-is-august-10)
 
@@ -4568,7 +4686,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+30 dated briefs
 
 ## Questions & answers
 
@@ -4616,9 +4734,23 @@ Track opportunities on the [KDHE RHTP hub](https://www.kdhe.ks.gov/2361/Rural-He
 
 [KDHE Rural Health Transformation Program →](https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program)
 
-## Activity log · 23 dated briefs
+## Activity log · 30 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[Kansas names Emerging Technology Award Winners and Project Descriptions](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7kansas-names-emerging-technology-award-winners-and-project-descriptions)
+
+2026-09-15[Kansas awards $16,006,648 in Emerging Technology Grants against a $9.5 million RFA](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7kansas-awards-16-006-648-in-emerging-technology-grants-against-a-9-5-million-rfa)
+
+2026-09-04[Kansas posts its Year 2 Budget Narrative, Year 2 Project Narrative, and Annual Report, $221.9 million a year, with a second round of RPGP and REH/CAP RFAs coming in Q4](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7kansas-posts-its-year-2-budget-narrative-year-2-project-narrative-and-annual-report-221-9-million-a-year-with-a-second-round-of-rpgp-and-reh-cap-rfas-coming-in-q4)
+
+2026-08-25[Kansas posts its approved Year 1 Budget Narrative, Revision 2 — $221.9 million, and it names the vendors](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7kansas-posts-its-approved-year-1-budget-narrative-revision-2-221-9-million-and-it-names-the-vendors)
+
+2026-08-14[Kansas awards $1,007,152 to seven organizations under Community Health Worker + Accountable Food is Medicine](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7kansas-awards-1-007-152-to-seven-organizations-under-community-health-worker-accountable-food-is-medicine)
+
+2026-08-04[Kansas opens the Dementia-Related Behavioral Supports in Rural Nursing Facilities Pilot RFA](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7kansas-opens-the-dementia-related-behavioral-supports-in-rural-nursing-facilities-pilot-rfa)
+
+2026-08-04[Kansas opens the Dementia-Related Behavioral Supports in Rural Nursing Facilities Pilot RFA](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7kansas-opens-the-dementia-related-behavioral-supports-in-rural-nursing-facilities-pilot-rfa)
 
 2026-07-21[Kansas debuts a set of four finance-and-revenue RFPs](https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#%C2%A7kansas-debuts-a-set-of-four-finance-and-revenue-rfps)
 
@@ -4734,7 +4866,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+14 dated briefs
 
 ## What Kentucky committed to measure
 
@@ -4784,9 +4916,13 @@ Track open opportunities on the [Request for Applications page](https://ruralhea
 
 [Kentucky RHTP funding opportunities →](https://ruralhealthplan.ky.gov/Pages/Request_For_Applications.aspx)
 
-## Activity log · 12 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-25[Kentucky routed $10.5M through a foundation for its Rural Community Hubs Hub Leadership Opportunity, and nobody has been named](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7kentucky-routed-10-5m-through-a-foundation-for-its-rural-community-hubs-hub-leadership-opportunity-and-nobody-has-been-named)
+
+2026-08-24[Kentucky‘s $10.5M Rural Health Transformation Hub Leadership Opportunity has no named awardee eight weeks after Phase 1 started](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7kentucky-s-10-5m-rural-health-transformation-hub-leadership-opportunity-has-no-named-awardee-eight-weeks-after-phase-1-started)
 
 2026-07-27[Kentucky opens Community Health Worker Specialized Certificates RFA](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7kentucky-opens-community-health-worker-specialized-certificates-rfa)
 
@@ -4884,7 +5020,7 @@ Federal award data
 
 Tracker dispatches
 
-10 dated briefs
+14 dated briefs
 
 ## How Louisiana defines rural
 
@@ -4940,9 +5076,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [LA RHTP funding-opportunities page](https://ldh.la.gov/page/rhtp-funding-opportunities), watch for vendor showcases co-hosted with the Louisiana Rural Health Association, and monitor the [program hub](https://ldh.la.gov/page/rural-health-transformation-program).
 
-## Activity log · 10 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-10[Louisiana makes 53 Rural Clinician Credit Bank awards, $12,701,996 against a $10 million allocation](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7louisiana-makes-53-rural-clinician-credit-bank-awards-12-701-996-against-a-10-million-allocation)
+
+2026-08-26[Louisiana publishes Year 1 award calendar in Advisory Council Meeting Slides— 505 applications against $95.5 million](https://www.ruralhealthtransformation.life/p/alabama-awards-138-arhtp-round-1#%C2%A7louisiana-publishes-year-1-award-calendar-in-advisory-council-meeting-slides-505-applications-against-95-5-million)
+
+2026-08-20[Louisiana launches RHTLA.net, a parish-by-parish public data platform for its $208.4M Year 1](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7louisiana-launches-rhtla-net-a-parish-by-parish-public-data-platform-for-its-208-4m-year-1)
+
+2026-08-10[Louisiana posts a Rurality Definition and Methodology and puts the next monthly webinar on September 3](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7louisiana-posts-a-rurality-definition-and-methodology-and-puts-the-next-monthly-webinar-on-september-3)
 
 2026-07-27[Louisiana’s application windows close; awards are next](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7louisiana-s-application-windows-close-awards-are-next)
 
@@ -5032,7 +5176,7 @@ Federal award data
 
 Tracker dispatches
 
-4 dated briefs
+14 dated briefs
 
 ## What Maine committed to measure
 
@@ -5082,9 +5226,29 @@ Track opportunities through the program hub and MCD Global Health's RHTP page.
 
 [Maine RHTP application portal (MCD Global Health) →](https://www.mcd.org/focus-areas/maine-rural-health-transformation-program)
 
-## Activity log · 4 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Maine opens a Youth Tele-Behavioral Health Provider opportunity, applications due October 18](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7maine-opens-a-youth-tele-behavioral-health-provider-opportunity-applications-due-october-18)
+
+2026-09-23[Maine publishes Rural Health Transformation Program Advisory Committee September 2, 2026 deck](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7maine-publishes-rural-health-transformation-program-advisory-committee-september-2-2026-deck)
+
+2026-09-21[Maine publishes its Five Strategic Initiatives and puts $88.5 million of a $190,008,051.09 Year 1 award behind three provider opportunities](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7maine-publishes-its-five-strategic-initiatives-and-puts-88-5-million-of-a-190-008-051-09-year-1-award-behind-three-provider-opportunities)
+
+2026-09-10[Maine‘s technology partner schedules two RHTP: Technology & Innovation Initiatives - Funding Opportunity webinars, September 17 and 22](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7maine-s-technology-partner-schedules-two-rhtp-technology-and-innovation-initiatives-funding-opportunity-webinars-september-17-and-22)
+
+2026-09-09[Maine‘s technology partner posts Funding Opportunities Coming Soon Through Maine’s Rural Health Transformation Program](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7maine-s-technology-partner-posts-funding-opportunities-coming-soon-through-maine-s-rural-health-transformation-program)
+
+2026-09-04[Maine posts its RHTP Y1 Budget (Amended), $184.9 million of $190 million now routed through contracts and subawards, most of it in four Consolidated Partner Agreements](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7maine-posts-its-rhtp-y1-budget-amended-184-9-million-of-190-million-now-routed-through-contracts-and-subawards-most-of-it-in-four-consolidated-partner-agreements)
+
+2026-09-01[Maine sets its September Rural Health Transformation Program Advisory Committee meeting for tomorrow, noon to 1](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7maine-sets-its-september-rural-health-transformation-program-advisory-committee-meeting-for-tomorrow-noon-to-1)
+
+2026-08-20[Maine’s RHTP Advisory Committee meets again in September, with two meeting decks now in the archive](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7maine-s-rhtp-advisory-committee-meets-again-in-september-with-two-meeting-decks-now-in-the-archive)
+
+2026-08-04[Maine picks 11 rural hospitals to share $30 million from its Rural Hospital Efficiency Fund for planning](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7maine-picks-11-rural-hospitals-to-share-30-million-from-its-rural-hospital-efficiency-fund-for-planning)
+
+2026-07-29[Maine opens a $500K rural-workforce opportunity](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7maine-opens-a-500k-rural-workforce-opportunity)
 
 2026-07-13[Maine to put $30M out for EMRs — and nobody has to compete for it](https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#%C2%A7maine-to-put-30m-out-for-emrs-and-nobody-has-to-compete-for-it)
 
@@ -5168,7 +5332,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+16 dated briefs
 
 ## What Maryland committed to measure
 
@@ -5219,9 +5383,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [RHTP procurement page](https://health.maryland.gov/pophealth/Pages/RHTP-Procurement.aspx), monitor the [program hub](https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx), and route questions to [mdh.transformruralhealth@maryland.gov](mailto:mdh.transformruralhealth@maryland.gov).
 
-## Activity log · 9 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-17[Maryland Deep Dive: explication of structure and spending to date](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7maryland-deep-dive-explication-of-structure-and-spending-to-date)
+
+2026-09-09[Maryland RHT Committee meeting is tomorrow](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7maryland-rht-committee-meeting-is-tomorrow)
+
+2026-08-21[Maryland extends the Maryland Healthcare Workforce Data Clearinghouse: Phase 1 Requirements Analysis and Future Planning RFA to August 26](https://www.ruralhealthtransformation.life/p/north-dakota-closes-24-of-25-year#%C2%A7maryland-extends-the-maryland-healthcare-workforce-data-clearinghouse-phase-1-requirements-analysis-and-future-planning-rfa-to-august-26)
+
+2026-08-12[Maryland puts project period start dates on all ten Budget Period 1 funding opportunities](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7maryland-puts-project-period-start-dates-on-all-ten-budget-period-1-funding-opportunities)
+
+2026-08-11[Maryland makes $78.6 million in Pillar 2 award offers to 41 organizations](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7maryland-makes-78-6-million-in-pillar-2-award-offers-to-41-organizations)
+
+2026-08-04[Maryland fileds questions for its Pathways to Health Careers and RISE workforce RFAs: five-year service commitment clawback is rough](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7maryland-fileds-questions-for-its-pathways-to-health-careers-and-rise-workforce-rfas-five-year-service-commitment-clawback-is-rough)
+
+2026-07-31[Maryland posts its final Budget Period 1 procurement, a Healthcare Workforce Data Clearinghouse RFA](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7maryland-posts-its-final-budget-period-1-procurement-a-healthcare-workforce-data-clearinghouse-rfa)
 
 2026-07-15[Maryland: $168M in hand, but the RFA wave hasn’t broken](https://www.ruralhealthtransformation.life/p/west-virginia-opens-18m-for-rotational#%C2%A7maryland-168m-in-hand-but-the-rfa-wave-hasn-t-broken)
 
@@ -5496,7 +5674,7 @@ Federal award data
 
 Tracker dispatches
 
-10 dated briefs
+13 dated briefs
 
 ## What Michigan committed to measure
 
@@ -5551,9 +5729,15 @@ Track opportunities in **EGrAMS** via the [MDHHS RHTP hub](https://www.michigan.
 
 [MDHHS Rural Health Transformation Program →](https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program)
 
-## Activity log · 10 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-08[Michigan routes $25.8 million of RHTP to the Department of Labor and Economic Opportunity, $16.7 million to the Office of Rural Prosperity and $9.1 million to the High-Speed Intern](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7michigan-routes-25-8-million-of-rhtp-to-the-department-of-labor-and-economic-opportunity-16-7-million-to-the-office-of-rural-prosperity-and-9-1-million-to-the-high-speed-internet-office)
+
+2026-08-27[Michigan puts a number on the pipeline in its July 2026 RHTP newsletter: seven GFOs in Budget Period 1, five of them workforce](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7michigan-puts-a-number-on-the-pipeline-in-its-july-2026-rhtp-newsletter-seven-gfos-in-budget-period-1-five-of-them-workforce)
+
+2026-08-06[Michigan names its RHTP Advisory Council, and tells you not to call them](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7michigan-names-its-rhtp-advisory-council-and-tells-you-not-to-call-them)
 
 2026-07-22[Michigan passes budget with Rural Health Transformation Program appropriation](https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#%C2%A7michigan-passes-budget-with-rural-health-transformation-program-appropriation)
 
@@ -5643,7 +5827,7 @@ Federal award data
 
 Tracker dispatches
 
-3 dated briefs
+5 dated briefs
 
 ## Questions & answers
 
@@ -5685,9 +5869,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MDH grants and funding page](https://www.health.state.mn.us/facilities/ruralhealth/funding/grants) and the [Minnesota RHTP hub](https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/index.html).
 
-## Activity log · 3 dated briefs
+## Activity log · 5 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-14[Minnesota issues Sub-Recipient Logo Guidance for RHTP grantees, and bars Rural Clinical Rotations Expansion double-dipping](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7minnesota-issues-sub-recipient-logo-guidance-for-rhtp-grantees-and-bars-rural-clinical-rotations-expansion-double-dipping)
+
+2026-08-27[Minnesota opens Analysis of the Rural Maternity Care System and Rural Telehealth Services](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7minnesota-opens-analysis-of-the-rural-maternity-care-system-and-rural-telehealth-services)
 
 2026-06-26[Minnesota posts RHTP Rural Clinical Rotations Expansion Grant Program RFP](https://www.ruralhealthtransformation.life/p/new-rural-clinical-rotations-expansion#%C2%A7minnesota-posts-rhtp-rural-clinical-rotations-expansion-grant-program-rfp)
 
@@ -5769,7 +5957,7 @@ Federal award data
 
 Tracker dispatches
 
-11 dated briefs
+18 dated briefs
 
 ## Questions & answers
 
@@ -5813,9 +6001,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 11 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-22[Mississippi opens a Stakeholder Survey on the state RHTP site](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7mississippi-opens-a-stakeholder-survey-on-the-state-rhtp-site)
+
+2026-09-16[Mississippi announces 167 Rural Health Transformation Program Awards Totaling More Than $104 Million](https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#%C2%A7mississippi-announces-167-rural-health-transformation-program-awards-totaling-more-than-104-million)
+
+2026-09-01[Mississippi announces the First Round of Technology and Infrastructure Awards, with sub-award execution starting this week](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7mississippi-announces-the-first-round-of-technology-and-infrastructure-awards-with-sub-award-execution-starting-this-week)
+
+2026-08-18[Mississippi is hiring a consultant through Knowledge Services posting 162359 to write its statewide Health Information Exchange solicitation](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7mississippi-is-hiring-a-consultant-through-knowledge-services-posting-162359-to-write-its-statewide-health-information-exchange-solicitation)
+
+2026-07-30[Mississippi posts a Q&A for its PES / EmPATH Units NOFO](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7mississippi-posts-a-q-and-a-for-its-pes-empath-units-nofo)
+
+2026-07-29[Mississippi‘s WEI Q&A reveals who’s circling the $16.8M — and clawback scaries](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7mississippi-s-wei-q-and-a-reveals-who-s-circling-the-16-8m-and-clawback-scaries)
+
+2026-07-28[Mississippi posts a consultant opportunity to design a statewide HIE procurement](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7mississippi-posts-a-consultant-opportunity-to-design-a-statewide-hie-procurement)
 
 2026-07-16[Mississippi out with two new opps](https://www.ruralhealthtransformation.life/p/iowa-just-put-328m-out-first-deadline#%C2%A7mississippi-out-with-two-new-opps)
 
@@ -5913,7 +6115,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+12 dated briefs
 
 ## What Missouri committed to measure
 
@@ -5971,9 +6173,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 5 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-23[Missouri names the 20 hospitals in its RHTP Strategic Minor Renovations Program, approximately $35 million](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7missouri-names-the-20-hospitals-in-its-rhtp-strategic-minor-renovations-program-approximately-35-million)
+
+2026-09-23[Missouri awarded MEMSA $12.3 million through a Single Feasible Source for Rural Health Transformation for Emergency Medical Services Systems,](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7missouri-awarded-memsa-12-3-million-through-a-single-feasible-source-for-rural-health-transformation-for-emergency-medical-services-systems)
+
+2026-09-08[Missouri‘s MEMSA award is $12,343,385 across three pillars on the Rural Health Transformation Funding page, not the $6.5 million announced in July](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7missouri-s-memsa-award-is-12-343-385-across-three-pillars-on-the-rural-health-transformation-funding-page-not-the-6-5-million-announced-in-july)
+
+2026-09-01[Missouri issues RFI 0000000012SL, two telehealth tracks, responses due September 9](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7missouri-issues-rfi-0000000012sl-two-telehealth-tracks-responses-due-september-9)
+
+2026-08-27[Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7missouri-extends-ifb-dss26015-01-torch-care-smart-growth-and-service-line-modification-horizon-2-to-2-p-m-september-1)
+
+2026-08-19[Missouri adds a ToRCH Care alignment test to IFB #DSS26015, the nearly $40 million Smart Growth and Service Line Modification solicitation](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7missouri-adds-a-torch-care-alignment-test-to-ifb-dss26015-the-nearly-40-million-smart-growth-and-service-line-modification-solicitation)
+
+2026-07-30[Missouri opens IFB #DSS26015, a $40M IFB to modernize rural facilities](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7missouri-opens-ifb-dss26015-a-40m-ifb-to-modernize-rural-facilities)
 
 2026-07-27[Missouri routes RHTP dollars to rural EMS through MEMSA — a $6.5M Mobile Integrated Healthcare build](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7missouri-routes-rhtp-dollars-to-rural-ems-through-memsa-a-6-5m-mobile-integrated-healthcare-build)
 
@@ -6057,7 +6273,7 @@ Federal award data
 
 Tracker dispatches
 
-15 dated briefs
+21 dated briefs
 
 ## What Montana committed to measure
 
@@ -6107,9 +6323,21 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 15 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-14[Montana opens RHTP-Montana Community Health Aide Program (CHAP) Technical Assistance, DPHHS-RFP-2027-0700NAV, closing October 1](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7montana-opens-rhtp-montana-community-health-aide-program-chap-technical-assistance-dphhs-rfp-2027-0700nav-closing-october-1)
+
+2026-09-02[Montana publishes FY26 DPHHS Community Integrated Health Pilot Site Grant, rural EMS only, due September 15](https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#%C2%A7montana-publishes-fy26-dphhs-community-integrated-health-pilot-site-grant-rural-ems-only-due-september-15)
+
+2026-08-27[Montana issues RHTP Emergency Medical Dispatch, DPHHS-RFP-2027-0692AB, a single statewide contract closing September 23](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7montana-issues-rhtp-emergency-medical-dispatch-dphhs-rfp-2027-0692ab-a-single-statewide-contract-closing-september-23)
+
+2026-08-18[Montana has operationalized $157 million of its $233.5 million Year 1 award, per the Aug. 6 Stakeholder Advisory Committee materials, with three procurements still to post in Augus](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7montana-has-operationalized-157-million-of-its-233-5-million-year-1-award-per-the-aug-6-stakeholder-advisory-committee-materials-with-three-procurements-still-to-post-in-august)
+
+2026-08-18[Montana names MHREF the winner of its Center of Excellence Implementation Partner contract, $105.5 million](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7montana-names-mhref-the-winner-of-its-center-of-excellence-implementation-partner-contract-105-5-million)
+
+2026-08-14[Montana opens Rural Health Care Workforce Retention, DLI-RFI-2027-0091, an RFI on health care workforce mental health](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7montana-opens-rural-health-care-workforce-retention-dli-rfi-2027-0091-an-rfi-on-health-care-workforce-mental-health)
 
 2026-07-17[Montana launches $4M in Rural EMS grants](https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#%C2%A7montana-launches-4m-in-rural-ems-grants)
 
@@ -6213,7 +6441,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+16 dated briefs
 
 ## What Nebraska committed to measure
 
@@ -6259,9 +6487,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts and RFAs** are open 
 
 Track opportunities on the [Nebraska RHTP hub](https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx) and the [RFA funding page](https://dhhs.ne.gov/Pages/DHHS-Releases-RFAs-for-RHTP-Funding-Opportunities.aspx), and direct questions to [dhhs.ruralhealth@nebraska.gov](mailto:dhhs.ruralhealth@nebraska.gov).
 
-## Activity log · 12 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-02[Nebraska awards $5.5 million to 13 providers under Initiative 5.3, Modification of Existing Clinical Facilities for Mental Health Crisis, one day after applications closed](https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#%C2%A7nebraska-awards-5-5-million-to-13-providers-under-initiative-5-3-modification-of-existing-clinical-facilities-for-mental-health-crisis-one-day-after-applications-closed)
+
+2026-08-31[Nebraska removes the award cap on 1.1 School Kitchen Modernization Grants days before it closes today](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7nebraska-removes-the-award-cap-on-1-1-school-kitchen-modernization-grants-days-before-it-closes-today)
+
+2026-08-18[Nebraska has $8,344,000 out under Farm-to-School Procurement and Policy Technical Assistance (TA), closing August 31](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7nebraska-has-8-344-000-out-under-farm-to-school-procurement-and-policy-technical-assistance-ta-closing-august-31)
+
+2026-07-31[Nebraska stands up a public RHTP dashboard](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7nebraska-stands-up-a-public-rhtp-dashboard)
 
 2026-07-15[Nebraska lists awardees for 3.3 Rural Health Care Workforce Incentive & Sustainability](https://www.ruralhealthtransformation.life/p/west-virginia-opens-18m-for-rotational#%C2%A7nebraska-lists-awardees-for-3-3-rural-health-care-workforce-incentive-and-sustainability)
 
@@ -6359,7 +6595,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+18 dated briefs
 
 ## What Nevada committed to measure
 
@@ -6412,9 +6648,17 @@ Eligibility runs on two tracks, and Nevada has been unusually explicit about the
 
 [Nevada RHTP hub →](https://www.nvha.nv.gov/RHTP/)
 
-## Activity log · 14 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-22[Nevada deep dive: review of newly filed BP2 docs and Y1 annual report](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7nevada-deep-dive-review-of-newly-filed-bp2-docs-and-y1-annual-report)
+
+2026-09-18[Nevada‘s Budget Period 2 NCC Budget Narrative puts $174,803,558 into eight solicitations with published open dates](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7nevada-s-budget-period-2-ncc-budget-narrative-puts-174-803-558-into-eight-solicitations-with-published-open-dates)
+
+2026-09-18[Nevada‘s Annual Report-Year 1 shows 280 applications asking for $330.7 million, and one initiative still unlaunched](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7nevada-s-annual-report-year-1-shows-280-applications-asking-for-330-7-million-and-one-initiative-still-unlaunched)
+
+2026-07-31[Nevada awards more than $50 million to strengthen its rural healthcare workforce](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7nevada-awards-more-than-50-million-to-strengthen-its-rural-healthcare-workforce)
 
 2026-06-15[Nevada clarifies that universities and out-of-state vendors are eligible as primary applicants on RHOAP & RHIT](https://www.ruralhealthtransformation.life/p/alabam-deep-dive-nevada-eligibilty#%C2%A7nevada-clarifies-that-universities-and-out-of-state-vendors-are-eligible-as-primary-applicants-on-rhoap-and-rhit)
 
@@ -6516,7 +6760,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+12 dated briefs
 
 ## What New Hampshire committed to measure
 
@@ -6566,9 +6810,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Watch the [GO-NORTH contracts & awards](https://www.gonorth.nh.gov/contracts-awards) and [apply-for-funds](https://www.gonorth.nh.gov/apply-funds) pages, and track the [DHHS RHTP hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program).
 
-## Activity log · 5 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[New Hampshire hands Health Strategies for New Hampshire a $40 million sole-source contract to run GO-NORTH population health grants](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7new-hampshire-hands-health-strategies-for-new-hampshire-a-40-million-sole-source-contract-to-run-go-north-population-health-grants)
+
+2026-09-18[New Hampshire’s Foundation for Healthy Communities is closing School Based Oral Health Program RFA soon](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7new-hampshire-s-foundation-for-healthy-communities-is-closing-school-based-oral-health-program-rfa-soon)
+
+2026-09-10[New Hampshire: USNH HUB: RFA to Support Youth Career Exploration in Healthcare and Allied Health](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7new-hampshire-usnh-hub-rfa-to-support-youth-career-exploration-in-healthcare-and-allied-health)
+
+2026-09-08[New Hampshire is running a rolling Request for Qualifications: Technical Assistance Consultants for RCHIP](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7new-hampshire-is-running-a-rolling-request-for-qualifications-technical-assistance-consultants-for-rchip)
+
+2026-08-04[New Hampshire: GO-NORTH HUB Foundation for Healthy Communities (FHC) hosts School Based Oral Health Informational Session](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7new-hampshire-go-north-hub-foundation-for-healthy-communities-fhc-hosts-school-based-oral-health-informational-session)
+
+2026-08-03[New Hampshire authorizes a $2 million GO-NORTH Planning Grant Agreement to seed rural planning grants](https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#%C2%A7new-hampshire-authorizes-a-2-million-go-north-planning-grant-agreement-to-seed-rural-planning-grants)
+
+2026-07-30[New Hampshire opens four GO-NORTH sub-recipient solicitations](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7new-hampshire-opens-four-go-north-sub-recipient-solicitations)
 
 2026-07-07[New Hampshire chose NORC at the University of Chicago for evaluation](https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#%C2%A7new-hampshire-chose-norc-at-the-university-of-chicago-for-evaluation)
 
@@ -6654,7 +6912,7 @@ Federal award data
 
 Tracker dispatches
 
-1 dated brief
+3 dated briefs
 
 ## Questions & answers
 
@@ -6696,9 +6954,13 @@ Track open opportunities on the state's grant directory and the program hub.
 
 [NJ DOH Grant Programs Directory →](https://healthapps.nj.gov/noticeofgrant/noticegrants.aspx)
 
-## Activity log · 1 dated brief
+## Activity log · 3 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-31[New Jersey‘s $21.7M public health institute grant is now paying clinicians directly through Invest Rural NJ, up to $200,000 for a physician on a five-year rural commitment](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7new-jersey-s-21-7m-public-health-institute-grant-is-now-paying-clinicians-directly-through-invest-rural-nj-up-to-200-000-for-a-physician-on-a-five-year-rural-commitment)
+
+2026-08-01[New Jersey awards $83M across 103 rural health projects](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7new-jersey-awards-83m-across-103-rural-health-projects)
 
 2026-04-10[New Jersey publishes RFA for Doula Integration in Rural New Jersey](https://www.ruralhealthtransformation.life/p/nebraska-workforce-incentive-program#%C2%A7new-jersey-publishes-rfa-for-doula-integration-in-rural-new-jersey)
 
@@ -6770,7 +7032,7 @@ Federal award data
 
 Tracker dispatches
 
-17 dated briefs
+27 dated briefs
 
 ## What New Mexico committed to measure
 
@@ -6825,9 +7087,29 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track the [HCA open-RFP portal](https://www.hca.nm.gov/lookingforinformation/open-rfps/), join the [RHTP updates and distribution list](https://forms.monday.com/forms/8e030d1aba2d00bf39f496544cea29ae?r=use1), and watch the [program hub](https://www.hca.nm.gov/rural-health-transformation-program/).
 
-## Activity log · 17 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[New Mexico moves the Rural Health Data Hub Administrator (RHDHA) RFP to September 25 and cuts the contract term to four years](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7new-mexico-moves-the-rural-health-data-hub-administrator-rhdha-rfp-to-september-25-and-cuts-the-contract-term-to-four-years)
+
+2026-09-21[New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7new-mexico-names-six-healthy-horizons-regional-hub-organizations-and-74-061-254-18-in-regional-allocations)
+
+2026-09-11[New Mexico sets September 21 for the Rural Health Data Hub Administrator (RHDHA) RFP](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7new-mexico-sets-september-21-for-the-rural-health-data-hub-administrator-rhdha-rfp)
+
+2026-09-09[New Mexico posts the Rural Health Data Hub Administrator (RHDHA) RFP](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7new-mexico-posts-the-rural-health-data-hub-administrator-rhdha-rfp)
+
+2026-08-28[New Mexico announces a Rooted in New Mexico (RiNM) Q&A and an Amendment and posts neither, seven days from close](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7new-mexico-announces-a-rooted-in-new-mexico-rinm-q-and-a-and-an-amendment-and-posts-neither-seven-days-from-close)
+
+2026-08-27[New Mexico answers six questions on RFA 27-630-8000-0037 Ob/Gyn Services and opens the door to telehealth-only bids](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7new-mexico-answers-six-questions-on-rfa-27-630-8000-0037-ob-gyn-services-and-opens-the-door-to-telehealth-only-bids)
+
+2026-08-14[New Mexico opens applications for its RHTP Stakeholder Advisory Committee and puts four RFPs under evaluation](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7new-mexico-opens-applications-for-its-rhtp-stakeholder-advisory-committee-and-puts-four-rfps-under-evaluation)
+
+2026-08-07[New Mexico puts out $22M Rooted in New Mexico Program Administrator RFP](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7new-mexico-puts-out-22m-rooted-in-new-mexico-program-administrator-rfp)
+
+2026-07-29[New Mexico revises the Rural Health Innovation Fund schedule](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7new-mexico-revises-the-rural-health-innovation-fund-schedule)
+
+2026-07-28[New Mexico extends the Rural Health Innovation Fund RFP deadline to Aug 3](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7new-mexico-extends-the-rural-health-innovation-fund-rfp-deadline-to-aug-3)
 
 2026-07-17[New Mexico posts 8 job openings](https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#%C2%A7new-mexico-posts-8-job-openings)
 
@@ -6931,7 +7213,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+12 dated briefs
 
 ## What New York committed to measure
 
@@ -6984,9 +7266,21 @@ Track opportunities on the [NYSDOH Transforming Rural Healthcare hub](https://he
 
 [NYSDOH Transforming Rural Healthcare →](https://health.ny.gov/facilities/transforming_rural_healthcare/)
 
-## Activity log · 6 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-09[New York names the 56 Rural Community Health Integration Awardees, $76,190,022 to the dollar](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7new-york-names-the-56-rural-community-health-integration-awardees-76-190-022-to-the-dollar)
+
+2026-09-08[New York awards $76.2 million through the Rural Community Health Integration Initiative, 90 awards to 56 organizations](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7new-york-awards-76-2-million-through-the-rural-community-health-integration-initiative-90-awards-to-56-organizations)
+
+2026-08-20[New York makes the cybersecurity resilience assessment a prerequisite for future funding in Introduction to Initiative 4: Cybersecurity Resilience for Rural NY, with an August 31 i](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7new-york-makes-the-cybersecurity-resilience-assessment-a-prerequisite-for-future-funding-in-introduction-to-initiative-4-cybersecurity-resilience-for-rural-ny-with-an-august-31-interest-form-deadline)
+
+2026-08-14[New York posts the August 12 Update Presentation — Rural Community Health Integration drew 91 applications and $156 million in requests](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7new-york-posts-the-august-12-update-presentation-rural-community-health-integration-drew-91-applications-and-156-million-in-requests)
+
+2026-08-13[New York to open Rural Community Health Integration budget period 2 in November, and new applicants are welcome](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7new-york-to-open-rural-community-health-integration-budget-period-2-in-november-and-new-applicants-are-welcome)
+
+2026-08-07[New York schedules an August 12 webinar](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7new-york-schedules-an-august-12-webinar)
 
 2026-07-07[New York Answers 375 Questions about Its $76M Rural Grant— here’s the upshots](https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#%C2%A7new-york-answers-375-questions-about-its-76m-rural-grant-here-s-the-upshots)
 
@@ -7072,7 +7366,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+18 dated briefs
 
 ## Questions & answers
 
@@ -7120,9 +7414,17 @@ Track opportunities on the [NC RHTP Grant Opportunities](https://www.ncdhhs.gov/
 
 [Sign up for the NC RHTP newsletter →](https://ncdhhs.us4.list-manage.com/subscribe?u=58ec19aaea4630b1baad0e5e4&id=10ae728a96)
 
-## Activity log · 14 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[North Carolina‘s ROOTS Region 2 Hub seats its 21-member Advisory Board](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7north-carolina-s-roots-region-2-hub-seats-its-21-member-advisory-board)
+
+2026-09-15[North Carolina sets a September 23 webinar on the $20 million Rural Health Innovation Fund and names five school-based health center recipients](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7north-carolina-sets-a-september-23-webinar-on-the-20-million-rural-health-innovation-fund-and-names-five-school-based-health-center-recipients)
+
+2026-08-20[North Carolina sends applicants to Regional Funding Opportunities through NC ROOTS Hubs, where Trillium has ten RFAs issued July 30 and two close Monday](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7north-carolina-sends-applicants-to-regional-funding-opportunities-through-nc-roots-hubs-where-trillium-has-ten-rfas-issued-july-30-and-two-close-monday)
+
+2026-08-13[North Carolina posts about advisory committee](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7north-carolina-posts-about-advisory-committee)
 
 2026-07-27[North Carolina posts an (invited-only) School Health Centers expansion](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7north-carolina-posts-an-invited-only-school-health-centers-expansion)
 
@@ -7224,7 +7526,7 @@ Federal award data
 
 Tracker dispatches
 
-24 dated briefs
+42 dated briefs
 
 ## What North Dakota committed to measure
 
@@ -7279,9 +7581,45 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Vendors can email product information to [rhtp@nd.gov](mailto:rhtp@nd.gov) to be added to the state's interested-vendor list. Track opportunities on the [ND RHTP hub](https://www.hhs.nd.gov/rural-health-transformation) and the [funding opportunities page](https://www.hhs.nd.gov/rural-health-transformation/funding).
 
-## Activity log · 24 dated briefs
+## Activity log · 42 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-15[North Dakota marks Expand Rural Health Care Rotations Awarded, the first of 25 Year 1 opportunities to say so](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7north-dakota-marks-expand-rural-health-care-rotations-awarded-the-first-of-25-year-1-opportunities-to-say-so)
+
+2026-08-28[North Dakota closes Coordinating and Connecting Care, the last of 25 Year 1 opportunities, and the applicant counts now total 793](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7north-dakota-closes-coordinating-and-connecting-care-the-last-of-25-year-1-opportunities-and-the-applicant-counts-now-total-793)
+
+2026-08-21[North Dakota closes 24 of 25 Year 1 opportunities— executed 42 RHTP subawards worth $8,069,454.52](https://www.ruralhealthtransformation.life/p/north-dakota-closes-24-of-25-year#%C2%A7north-dakota-closes-24-of-25-year-1-opportunities-executed-42-rhtp-subawards-worth-8-069-454-52)
+
+2026-08-20[North Dakota closes Technology as an Extender at 49 applicants, and its funding table now totals 770 applications across 23 closed opportunities](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7north-dakota-closes-technology-as-an-extender-at-49-applicants-and-its-funding-table-now-totals-770-applications-across-23-closed-opportunities)
+
+2026-08-18[North Dakota answers a health technology company’s neutral-convener question on Coordinating and Connecting Care, $1 million closing August 26](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7north-dakota-answers-a-health-technology-company-s-neutral-convener-question-on-coordinating-and-connecting-care-1-million-closing-august-26)
+
+2026-08-17[North Dakota posts applicant counts on three more closed opportunities: 23, 14, and 6](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7north-dakota-posts-applicant-counts-on-three-more-closed-opportunities-23-14-and-6)
+
+2026-08-13[North Dakota‘s Childcare for the Rural Health Workforce closes with 9 applicants against 38 planned awards](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7north-dakota-s-childcare-for-the-rural-health-workforce-closes-with-9-applicants-against-38-planned-awards)
+
+2026-08-12[North Dakota answers the EIN question on Technology as an Extender: apply per location](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7north-dakota-answers-the-ein-question-on-technology-as-an-extender-apply-per-location)
+
+2026-08-11[North Dakota posts applicant counts, including 86 for Rural Ambulance Modernization](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7north-dakota-posts-applicant-counts-including-86-for-rural-ambulance-modernization)
+
+2026-08-11[North Dakota opens Coordinating and Connecting Care, $1 million for one statewide planning award, due August 26](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7north-dakota-opens-coordinating-and-connecting-care-1-million-for-one-statewide-planning-award-due-august-26)
+
+2026-08-07[North Dakota answers Clinics without Walls: Telehealth Infrastructure questions and rules out bandwidth](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7north-dakota-answers-clinics-without-walls-telehealth-infrastructure-questions-and-rules-out-bandwidth)
+
+2026-08-06[North Dakota closes School-Based Wellness Equipment with 68 applicants](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7north-dakota-closes-school-based-wellness-equipment-with-68-applicants)
+
+2026-08-06[North Dakota answers the vendors circling Technology as an Extender with a one-word no](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7north-dakota-answers-the-vendors-circling-technology-as-an-extender-with-a-one-word-no)
+
+2026-08-06[North Dakota opens Non-Emergency Medical Transportation Acquisition, $2 million for wheelchair-accessible vans](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7north-dakota-opens-non-emergency-medical-transportation-acquisition-2-million-for-wheelchair-accessible-vans)
+
+2026-08-04[North Dakota posts an FAQ for its $22 million Rural Ambulance Modernization opportunity: Remounts welcome](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7north-dakota-posts-an-faq-for-its-22-million-rural-ambulance-modernization-opportunity-remounts-welcome)
+
+2026-08-01[North Dakota closes its Self-Serve Dispensing Kiosks in Pharmacies funding opportunity (210-441)](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7north-dakota-closes-its-self-serve-dispensing-kiosks-in-pharmacies-funding-opportunity-210-441)
+
+2026-07-30[North Dakota announces its pipeline into a $50.5M push](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7north-dakota-announces-its-pipeline-into-a-50-5m-push)
+
+2026-07-29[North Dakota out with Parents Lead Assessment and Train-the-Trainer Curriculum funding opportunity](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7north-dakota-out-with-parents-lead-assessment-and-train-the-trainer-curriculum-funding-opportunity)
 
 2026-07-27[North Dakota adds two more funding opportunities](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7north-dakota-adds-two-more-funding-opportunities)
 
@@ -7401,7 +7739,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+8 dated briefs
 
 ## What Ohio committed to measure
 
@@ -7451,9 +7789,13 @@ Join the RHT project listserv and track the ODH solicitation page for open oppor
 
 [Ohio RHTP solicitations →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-invitations/solicitation-invitations) [Join the RHT listserv →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/join-rht-project-listserv)
 
-## Activity log · 6 dated briefs
+## Activity log · 8 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-04[Ohio opens the Dental Access Collaborative RFP SRC0000041620, one vendor to recruit Medicaid dentists, due October 13](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7ohio-opens-the-dental-access-collaborative-rfp-src0000041620-one-vendor-to-recruit-medicaid-dentists-due-october-13)
+
+2026-08-04[Ohio RHT Deep Dive: Systemic Integration Over Cash Injection](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7ohio-rht-deep-dive-systemic-integration-over-cash-injection)
 
 2026-07-13[Ohio closes the loop: $10M workforce award lands at Ohio University](https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#%C2%A7ohio-closes-the-loop-10m-workforce-award-lands-at-ohio-university)
 
@@ -7541,7 +7883,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+27 dated briefs
 
 ## What Oklahoma committed to measure
 
@@ -7591,9 +7933,17 @@ Track open opportunities on the [RHTP funding page](https://oklahoma.gov/health/
 
 [Oklahoma RHTP funding page →](https://oklahoma.gov/health/rhtp/rhtp-funding.html)
 
-## Activity log · 23 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[Oklahoma puts $16,023,961 of RHTP money into Building Health Data Utility at the Health Care Authority, off the state’s RHTP funding page entirely](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7oklahoma-puts-16-023-961-of-rhtp-money-into-building-health-data-utility-at-the-health-care-authority-off-the-state-s-rhtp-funding-page-entirely)
+
+2026-08-25[Oklahoma posts the August 2026 Touchpoint Webinar deck, and leaves the three Budget Period 2 questions unanswered on the slide](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7oklahoma-posts-the-august-2026-touchpoint-webinar-deck-and-leaves-the-three-budget-period-2-questions-unanswered-on-the-slide)
+
+2026-08-19[Oklahoma opens OSDE’s ROOTS Competitive Grant (Year 2 Application), $10,000 per site for 60 rural schools, closing October 15](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7oklahoma-opens-osde-s-roots-competitive-grant-year-2-application-10-000-per-site-for-60-rural-schools-closing-october-15)
+
+2026-08-13[Oklahoma names Pulsara its statewide EMS centralization platform, with no solicitation anywhere](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7oklahoma-names-pulsara-its-statewide-ems-centralization-platform-with-no-solicitation-anywhere)
 
 2026-07-23[Oklahoma posts slides and videos of webinars; telegraphs regional facilitator approach](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7oklahoma-posts-slides-and-videos-of-webinars-telegraphs-regional-facilitator-approach)
 
@@ -7611,7 +7961,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 
 2026-06-10[Oklahoma posts webinar on Community Paramedicine Vehicles NOFO](https://www.ruralhealthtransformation.life/p/michigan-subrecipient-list-mississippi#%C2%A7oklahoma-posts-webinar-on-community-paramedicine-vehicles-nofo)
 
-2026-06-09[Oklahoma releases Behavioral Health Integration – Medications for Opioid and Alcohol Use Disorder Program and Emergency Medical Service and Community Paramedici](https://www.ruralhealthtransformation.life/p/arkansas-launches-46m-pact-oklahoma#%C2%A7oklahoma-releases-behavioral-health-integration-medications-for-opioid-and-alcohol-use-disorder-program-and-emergency-medical-service-and-community-paramedicine-vehicles-nofos)
+2026-06-09[Oklahoma releases Behavioral Health Integration – Medications for Opioid and Alcohol Use Disorder Program and Emergency Medical Service and Community Paramedicine Vehicles NOFOs](https://www.ruralhealthtransformation.life/p/arkansas-launches-46m-pact-oklahoma#%C2%A7oklahoma-releases-behavioral-health-integration-medications-for-opioid-and-alcohol-use-disorder-program-and-emergency-medical-service-and-community-paramedicine-vehicles-nofos)
 
 2026-06-03[Oklahoma updates subrecipient spenddown deadlines](https://www.ruralhealthtransformation.life/p/louisiana-oversight-iowa-adds-a-technical#%C2%A7oklahoma-updates-subrecipient-spenddown-deadlines)
 
@@ -7713,7 +8063,7 @@ Federal award data
 
 Tracker dispatches
 
-11 dated briefs
+12 dated briefs
 
 ## What Oregon committed to measure
 
@@ -7771,9 +8121,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Complete OHA's [Vendor Interest Form](https://app.smartsheet.com/b/form/019c8c4dc64574cc8d9c0507aaba0e98) to be listed in the public directory, request an ORH regional convening invitation, and watch the [Catalyst Awards RFGP on OregonBuys](https://oregonbuys.gov/bso/external/bidDetail.sdo?docId=S-44300-00001537&external=true&parentUrl=close) and the [RHTP hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx).
 
-## Activity log · 11 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Oregon‘s Transformation Funds show up by name for the first time: Wallowa Memorial Hospital and Medical Clinics awarded over $5.4 million](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7oregon-s-transformation-funds-show-up-by-name-for-the-first-time-wallowa-memorial-hospital-and-medical-clinics-awarded-over-5-4-million)
 
 2026-07-27[Oregon RHTP Progress Recap](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7oregon-rhtp-progress-recap)
 
@@ -7950,7 +8302,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+16 dated briefs
 
 ## Questions & answers
 
@@ -7990,9 +8342,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** would go out compe
 
 [PA RHTP hub →](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan) [Subscribe for updates →](https://maestro.pa.gov/list/subscribe.html?mContainer=870&mOwner=G1j1d&mListId=HL%231142)
 
-## Activity log · 9 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-04[Pennsylvania opens the Quality Investment Program (QIP), $2,500 per licensed bed up to $250,000 per long-term care facility, about $2.75 million, due October 1](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7pennsylvania-opens-the-quality-investment-program-qip-2-500-per-licensed-bed-up-to-250-000-per-long-term-care-facility-about-2-75-million-due-october-1)
+
+2026-08-17[Pennsylvania opened Rapid Response Stabilization — Round 2 today, $35 million at $1 million per location, closing August 24](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7pennsylvania-opened-rapid-response-stabilization-round-2-today-35-million-at-1-million-per-location-closing-august-24)
+
+2026-08-14[Pennsylvania posts Rapid Response Stabilization Program – Round 2 FAQs three days before the webform opens](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7pennsylvania-posts-rapid-response-stabilization-program-round-2-faqs-three-days-before-the-webform-opens)
+
+2026-08-12[Pennsylvania names 35 to its RHTP Advisory Council and opens Regional Rural Care Collaboratives nominations](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7pennsylvania-names-35-to-its-rhtp-advisory-council-and-opens-regional-rural-care-collaboratives-nominations)
+
+2026-08-10[Pennsylvania correct eligible costs in Rapid Response Stabilization Round 2](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7pennsylvania-correct-eligible-costs-in-rapid-response-stabilization-round-2)
+
+2026-08-01[Pennsylvania opens Rapid Response Stabilization Round 2, a $35 million supplies-and-equipment payment](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7pennsylvania-opens-rapid-response-stabilization-round-2-a-35-million-supplies-and-equipment-payment)
+
+2026-07-29[Pennsylvania maps its entire RHTP pipeline](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7pennsylvania-maps-its-entire-rhtp-pipeline)
 
 2026-07-24[Pennsylvania publishes two FAQs: EHR & HIO participants and FQHCs and FQH](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7pennsylvania-publishes-two-faqs-ehr-and-hio-participants-and-fqhcs-and-fqh)
 
@@ -8088,7 +8454,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+11 dated briefs
 
 ## What Rhode Island committed to measure
 
@@ -8147,9 +8513,15 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on [Ocean State Procures](https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46) (search “rural health”), complete the state's [interest survey](https://surveys.health.ri.gov/redcap/surveys/?s=CNJ3ADLPD4MRHLP3), and watch the [RHTP hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-grant) and its Rural Stakeholder Advisory Council.
 
-## Activity log · 8 dated briefs
+## Activity log · 11 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-08[Rhode Island gets $5.48 million for healthcare Career and Technical Education at 14 Local Education Agencies](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7rhode-island-gets-5-48-million-for-healthcare-career-and-technical-education-at-14-local-education-agencies)
+
+2026-08-06[Rhode Island schedules an August 13 technical assistance session for its Rural Community Health Networks application](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7rhode-island-schedules-an-august-13-technical-assistance-session-for-its-rural-community-health-networks-application)
+
+2026-07-31[Rhode Island opens its Rural Community Health Network (RCHN) Development application](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7rhode-island-opens-its-rural-community-health-network-rchn-development-application)
 
 2026-07-10[Rhode Island closes its Administrator for a Health Information Technology (HIT) Rural Infrastructure Fund RFP](https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#%C2%A7rhode-island-closes-its-administrator-for-a-health-information-technology-hit-rural-infrastructure-fund-rfp)
 
@@ -8356,7 +8728,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+8 dated briefs
 
 ## What South Carolina committed to measure
 
@@ -8408,9 +8780,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [SCDHHS grants portal](https://scdhhs.gov/resources/grants) and the [RHT hub](https://scorh.net/rural-health-transformation-fund/), subscribe to [Office of Rural Health updates](https://public.govdelivery.com/accounts/ORHA/subscriber/new?topic_id=ORHA_209), and direct questions to [grants@scdhhs.gov](mailto:grants@scdhhs.gov).
 
-## Activity log · 6 dated briefs
+## Activity log · 8 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-18[South Carolina opens a Public Input Survey to Help Inform Future RHTP Funding Decisions, closing October 2](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7south-carolina-opens-a-public-input-survey-to-help-inform-future-rhtp-funding-decisions-closing-october-2)
+
+2026-09-16[South Carolina posts its SC RHTP Year 1 Award List, 228 projects for $167,299,900.69](https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#%C2%A7south-carolina-posts-its-sc-rhtp-year-1-award-list-228-projects-for-167-299-900-69)
 
 2026-06-02[South Carolina: Tech Catalyst Fund Applications closes June 26](https://www.ruralhealthtransformation.life/p/south-carolina-tech-catalyst-fund#%C2%A7south-carolina-tech-catalyst-fund-applications-closes-june-26)
 
@@ -8492,7 +8868,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+13 dated briefs
 
 ## What South Dakota committed to measure
 
@@ -8540,9 +8916,17 @@ Track opportunities on the [RHT posting board](https://postingboard.esmsolutions
 
 [Join the SD Rural Health listserv →](https://listserv.sd.gov/scripts/wa.exe?SUBED1=SDRURALHEALTH&A=1)
 
-## Activity log · 9 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-25[South Dakota has its Rural Health Data Atlas–Informatics Services and Medicaid PACT RFPs open, due September 28 and October 2](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7south-dakota-has-its-rural-health-data-atlas-informatics-services-and-medicaid-pact-rfps-open-due-september-28-and-october-2)
+
+2026-09-25[South Dakota awards 12 CCBHC modernization and infrastructure grants, more than $13 million](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7south-dakota-awards-12-ccbhc-modernization-and-infrastructure-grants-more-than-13-million)
+
+2026-08-31[South Dakota names 13 RHTP recipients on OpenSD, $5,618,367 against $121.5 million announced](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7south-dakota-names-13-rhtp-recipients-on-opensd-5-618-367-against-121-5-million-announced)
+
+2026-08-20[South Dakota announces Rural Health Transformation Technology and Data Grants — 82 grants, $90 million, no recipient named](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7south-dakota-announces-rural-health-transformation-technology-and-data-grants-82-grants-90-million-no-recipient-named)
 
 2026-07-23[South Dakota running two RFPs](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7south-dakota-running-two-rfps)
 
@@ -8634,7 +9018,7 @@ Federal award data
 
 Tracker dispatches
 
-18 dated briefs
+21 dated briefs
 
 ## What Tennessee committed to measure
 
@@ -8694,9 +9078,15 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Tennessee RHTP hub](https://www.tn.gov/health/rural) and the [RHTP funding portal](https://c2cre237.caspio.com/dp/4cdb40003c407a2328014c28a496), and watch the Department of General Services RFP page for live solicitations.
 
-## Activity log · 18 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-15[Tennessee‘s Community Health Worker (CHW) Infrastructure Project, RFA #31865-00020, takes questions until 2 p.m. today](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7tennessee-s-community-health-worker-chw-infrastructure-project-rfa-31865-00020-takes-questions-until-2-p-m-today)
+
+2026-08-06[Tennessee holds forth on entity-determination guidance](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7tennessee-holds-forth-on-entity-determination-guidance)
+
+2026-08-01[Tennessee posts five RHTP RFPs through General Services and opens competitive grants](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7tennessee-posts-five-rhtp-rfps-through-general-services-and-opens-competitive-grants)
 
 2026-07-23[Tennessee Q&A for Health Technology & Innovation (Long-Range) reveals lots](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7tennessee-q-and-a-for-health-technology-and-innovation-long-range-reveals-lots)
 
@@ -8882,7 +9272,7 @@ Federal award data
 
 Tracker dispatches
 
-4 dated briefs
+5 dated briefs
 
 ## Questions & answers
 
@@ -8920,9 +9310,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 4 dated briefs
+## Activity log · 5 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-07-29[Texas opens award negotiations on three Rural Texas Strong initiatives — on a clock](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7texas-opens-award-negotiations-on-three-rural-texas-strong-initiatives-on-a-clock)
 
 2026-07-16[Texas notifies re: Rural Texas Strong - Initiative 4, Round 2 Posting](https://www.ruralhealthtransformation.life/p/iowa-just-put-328m-out-first-deadline#%C2%A7texas-notifies-re-rural-texas-strong-initiative-4-round-2-posting)
 
@@ -9000,7 +9392,7 @@ Federal award data
 
 Tracker dispatches
 
-22 dated briefs
+32 dated briefs
 
 ## What Utah committed to measure
 
@@ -9051,9 +9443,29 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Utah RHTP hub](https://dhhs.utah.gov/ruralhealth/) and the [funding-opportunities portal](https://dhhs.utah.gov/ruralhealth/funding-opportunities/), and join the RHTP contact list for new-opportunity alerts by emailing [ruralht@utah.gov](mailto:ruralht@utah.gov).
 
-## Activity log · 22 dated briefs
+## Activity log · 32 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-14[Utah pushes SHIFT 3.3 Rural EMS Request for Grant Applications to September 20, up to $12,500,000, and finally puts dollar figures on RISE 2.3 and 2.4](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7utah-pushes-shift-3-3-rural-ems-request-for-grant-applications-to-september-20-up-to-12-500-000-and-finally-puts-dollar-figures-on-rise-2-3-and-2-4)
+
+2026-09-11[Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7utah-opens-rise-initiative-2-3-grow-our-own-rural-health-pipeline-and-2-4-expand-non-gme-rural-healthcare-pipeline-both-due-october-29)
+
+2026-09-03[Utah posts the final SHIFT 3.4 New Models of Care Q&A, 41 answers, for-profit technology companies can lead](https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#%C2%A7utah-posts-the-final-shift-3-4-new-models-of-care-q-and-a-41-answers-for-profit-technology-companies-can-lead)
+
+2026-09-03[Utah updates RHTP Evaluation Contract Solicitation](https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#%C2%A7utah-updates-rhtp-evaluation-contract-solicitation)
+
+2026-09-02[Utah opens the RHTP Evaluation Contract Solicitation, $8.2 million for one monitoring and evaluation vendor, due September 15](https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#%C2%A7utah-opens-the-rhtp-evaluation-contract-solicitation-8-2-million-for-one-monitoring-and-evaluation-vendor-due-september-15)
+
+2026-08-14[Utah opens SHIFT 3.3 Rural EMS, $12.5 million in Year 1, closing September 13](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7utah-opens-shift-3-3-rural-ems-12-5-million-in-year-1-closing-september-13)
+
+2026-08-13[Utah opens SHIFT 3.4 New Models of Care five days early, $10 million, closing September 1](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7utah-opens-shift-3-4-new-models-of-care-five-days-early-10-million-closing-september-1)
+
+2026-08-12[Utah forecasts SHIFT 3.4 New Models of Care, $10 million opening August 17](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7utah-forecasts-shift-3-4-new-models-of-care-10-million-opening-august-17)
+
+2026-07-29[Utah extends its LIFT telehealth RFA to August 10](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7utah-extends-its-lift-telehealth-rfa-to-august-10)
+
+2026-07-28[Utah opens the PATH 1.4 Community Care Hub RFGA — $2M in Year 1, closing Aug 17](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7utah-opens-the-path-1-4-community-care-hub-rfga-2m-in-year-1-closing-aug-17)
 
 2026-07-23[Utah opens $18.5M SHIFT 3.2: Rural Health Provider Networks, due August 14](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7utah-opens-18-5m-shift-3-2-rural-health-provider-networks-due-august-14)
 
@@ -9167,7 +9579,7 @@ Federal award data
 
 Tracker dispatches
 
-21 dated briefs
+25 dated briefs
 
 ## What Vermont committed to measure
 
@@ -9215,9 +9627,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 [Vermont RHT hub →](https://healthcarereform.vermont.gov/hr1rural-health-transformation-fund) [Join the RHT list →](https://list.vermont.gov/mailman/listinfo/vt.rht)
 
-## Activity log · 21 dated briefs
+## Activity log · 25 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Vermont‘s RHT Year 1 Awards and Contracts list adds 26 agreements and $22,365,970.68 in a week, and Rutland Regional’s primary care agreement comes off it](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7vermont-s-rht-year-1-awards-and-contracts-list-adds-26-agreements-and-22-365-970-68-in-a-week-and-rutland-regional-s-primary-care-agreement-comes-off-it)
+
+2026-09-14[Vermont publishes RHT Year 1 Awards and Contracts — 87 executed agreements, $62,790,450.50](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7vermont-publishes-rht-year-1-awards-and-contracts-87-executed-agreements-62-790-450-50)
+
+2026-09-11[Vermont‘s $11.7 million CMS announcement puts $9 million into tuition benefits and $2.7 million into three nursing homes and four LNA training partners, none named](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7vermont-s-11-7-million-cms-announcement-puts-9-million-into-tuition-benefits-and-2-7-million-into-three-nursing-homes-and-four-lna-training-partners-none-named)
+
+2026-08-19[Vermont closes out Year 1 on its RHT Program RFPs/NOFOs page with no dates set for Year 2](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7vermont-closes-out-year-1-on-its-rht-program-rfps-nofos-page-with-no-dates-set-for-year-2)
 
 2026-07-18[Vermont clarifies](https://www.ruralhealthtransformation.life/p/missouri-announces-27-awardees-north#%C2%A7vermont-clarifies)
 
@@ -9335,7 +9755,7 @@ Federal award data
 
 Tracker dispatches
 
-1 dated brief
+12 dated briefs
 
 ## What Virginia committed to measure
 
@@ -9384,9 +9804,31 @@ Eligibility runs on two tracks. **Direct-to-state contracts and partner agreemen
 
 Track opportunities on the [VA Rural Vitality hub](https://www.ruralhealthtransformationva.virginia.gov/) and the DMAS [Rural Health Transformation page](https://dmas.virginia.gov/data-reporting/programs-services/rural-health-transformation/), and direct questions to [ruralhealth@vdh.virginia.gov](mailto:ruralhealth@vdh.virginia.gov).
 
-## Activity log · 1 dated brief
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Virginia publishes the Earn to Learn Initiative RFA through Virginia Works, $4,679,752.46 for rural allied health apprenticeships, due October 16](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7virginia-publishes-the-earn-to-learn-initiative-rfa-through-virginia-works-4-679-752-46-for-rural-allied-health-apprenticeships-due-october-16)
+
+2026-09-22[Virginia‘s VHCF closes Provider Interoperability and Provider Productivity and dates the awards September 30 and October 14](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7virginia-s-vhcf-closes-provider-interoperability-and-provider-productivity-and-dates-the-awards-september-30-and-october-14)
+
+2026-09-16[Virginia‘s NSVRC posts the Request for Applications – Q&A Addendum, Virginia Rural Health Transformation Program Mobile and Hybrid Care, and says yes to for-profit and vendor-led a](https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#%C2%A7virginia-s-nsvrc-posts-the-request-for-applications-q-and-a-addendum-virginia-rural-health-transformation-program-mobile-and-hybrid-care-and-says-yes-to-for-profit-and-vendor-led-applicants-two-days-before-applications-close)
+
+2026-09-15[Virginia names award dates for the Provider Interoperability & Provider Productivity RFAs](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7virginia-names-award-dates-for-the-provider-interoperability-and-provider-productivity-rfas)
+
+2026-09-14[Virginia‘s NSVRC delays the Q&A Addendum on its Mobile and Hybrid Care RFA, six days before applications close](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7virginia-s-nsvrc-delays-the-q-and-a-addendum-on-its-mobile-and-hybrid-care-rfa-six-days-before-applications-close)
+
+2026-09-11[Virginia‘s VDH opens the Innovative Maternal Care RFA (VDH-26-705-0387), about $11.6 million, due October 6](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7virginia-s-vdh-opens-the-innovative-maternal-care-rfa-vdh-26-705-0387-about-11-6-million-due-october-6)
+
+2026-09-08[Virginia‘s Provider Interoperability: Where Connection Meets Care deck puts VHCF’s two CareIQ subinitiatives at $26 million in Year 1, which leaves $3 million to $5 million behind](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7virginia-s-provider-interoperability-where-connection-meets-care-deck-puts-vhcf-s-two-careiq-subinitiatives-at-26-million-in-year-1-which-leaves-3-million-to-5-million-behind-the-two-rounds)
+
+2026-09-03[Virginia reissues the Provider Interoperability & Provider Productivity FAQ Responses at 40 questions, only the applicant needs SAM.gov](https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#%C2%A7virginia-reissues-the-provider-interoperability-and-provider-productivity-faq-responses-at-40-questions-only-the-applicant-needs-sam-gov)
+
+2026-09-01[Virginia‘s Provider Productivity Request for Applications is the last VHCF fund open, $7 million to $9 million, due September 14](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7virginia-s-provider-productivity-request-for-applications-is-the-last-vhcf-fund-open-7-million-to-9-million-due-september-14)
+
+2026-08-31[Virginia‘s Northern Shenandoah Valley Regional Commission opens RFA-RHTP-2026-02, Mobile and Hybrid Care, $4.2 million and at least five awards](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7virginia-s-northern-shenandoah-valley-regional-commission-opens-rfa-rhtp-2026-02-mobile-and-hybrid-care-4-2-million-and-at-least-five-awards)
+
+2026-08-11[Virginia opens its first RFAs and publishes the RHT RFA Navigator](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7virginia-opens-its-first-rfas-and-publishes-the-rht-rfa-navigator)
 
 2026-07-13[Virginia Implementation: The “VA Rural Vitality” Framework](https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#%C2%A7virginia-implementation-the-va-rural-vitality-framework)
 
@@ -9462,7 +9904,7 @@ Federal award data
 
 Tracker dispatches
 
-13 dated briefs
+23 dated briefs
 
 ## What Washington committed to measure
 
@@ -9518,9 +9960,29 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on Washington's **Electronic Business Solution (WEBS)** to be notified of bids, and track the [HCA Bids & Contracts](https://www.hca.wa.gov/about-hca/bids-and-contracts) page and the [RHTP hub](https://www.hca.wa.gov/about-hca/programs-and-initiatives/value-based-purchasing/rural-health-transformation-program).
 
-## Activity log · 13 dated briefs
+## Activity log · 23 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-23[Washington maps all $181.26 million by channel in its Rural Health Transformation Program Update webinar deck](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7washington-maps-all-181-26-million-by-channel-in-its-rural-health-transformation-program-update-webinar-deck)
+
+2026-09-21[Washington posts an ICF webinar: Early lessons in rural health transformation for September 30](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7washington-posts-an-icf-webinar-early-lessons-in-rural-health-transformation-for-september-30)
+
+2026-09-11[Washington‘s Department of Health opens Rural Nursing Education Program (RNEP) community partner applications to Critical Access Hospitals, through October 2](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7washington-s-department-of-health-opens-rural-nursing-education-program-rnep-community-partner-applications-to-critical-access-hospitals-through-october-2)
+
+2026-09-08[Washington‘s Rural Collaborative publishes its own Rural Health Transformation Program page, and all ten of its vendor solicitations are now closed](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7washington-s-rural-collaborative-publishes-its-own-rural-health-transformation-program-page-and-all-ten-of-its-vendor-solicitations-are-now-closed)
+
+2026-09-04[Washington sets its quarterly RHT Program webinar for September 16, 1 to 2 p.m., questions due September 11](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7washington-sets-its-quarterly-rht-program-webinar-for-september-16-1-to-2-p-m-questions-due-september-11)
+
+2026-08-31[Washington seats its Rural Health Transformation Advisory Committee — 13 members, quarterly meetings, and no decision-making authority](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7washington-seats-its-rural-health-transformation-advisory-committee-13-members-quarterly-meetings-and-no-decision-making-authority)
+
+2026-08-31[Washington reopens RFA 2026HCA9, the Opioid Treatment Programs (OTP) Workforce Incentive Program, for a second round closing September 8 at 2 p.m. PT](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7washington-reopens-rfa-2026hca9-the-opioid-treatment-programs-otp-workforce-incentive-program-for-a-second-round-closing-september-8-at-2-p-m-pt)
+
+2026-08-10[Washington issues Amendment 2 to Rural Hospitals RFA — 2-year term confirmed](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7washington-issues-amendment-2-to-rural-hospitals-rfa-2-year-term-confirmed)
+
+2026-08-07[Washington extends three Rural Health Transformation RFA deadlines due to wildfires](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7washington-extends-three-rural-health-transformation-rfa-deadlines-due-to-wildfires)
+
+2026-08-06[Washington issues Amendment 1 to RFA 2026HCA9, and clawbacks are prominent](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7washington-issues-amendment-1-to-rfa-2026hca9-and-clawbacks-are-prominent)
 
 2026-07-24[Washington opens its Rural Hospitals (Maternal, Emergency and Specialty Services) RFA](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7washington-opens-its-rural-hospitals-maternal-emergency-and-specialty-services-rfa)
 
@@ -9620,7 +10082,7 @@ Federal award data
 
 Tracker dispatches
 
-20 dated briefs
+31 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -9678,9 +10140,31 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 20 dated briefs
+## Activity log · 31 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-23[West Virginia names its first Provider Productivity Support Fund award: $500,000 to CHANGE, Inc. for AI tools](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7west-virginia-names-its-first-provider-productivity-support-fund-award-500-000-to-change-inc-for-ai-tools)
+
+2026-08-26[West Virginia opens Increasing Home Dialysis Access under the Personal Health Accelerator, roughly $2 million, closing September 9](https://www.ruralhealthtransformation.life/p/alabama-awards-138-arhtp-round-1#%C2%A7west-virginia-opens-increasing-home-dialysis-access-under-the-personal-health-accelerator-roughly-2-million-closing-september-9)
+
+2026-08-25[West Virginia adds Rural Health Link — Establish Regional Hubs & Mobility Coordinators, up to $7.1 million, closing September 8](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7west-virginia-adds-rural-health-link-establish-regional-hubs-and-mobility-coordinators-up-to-7-1-million-closing-september-8)
+
+2026-08-24[West Virginia adds Smart Care Catalyst and a fourth Rural Health Link solicitation to its funding opportunities table, closing September 3 and 4](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7west-virginia-adds-smart-care-catalyst-and-a-fourth-rural-health-link-solicitation-to-its-funding-opportunities-table-closing-september-3-and-4)
+
+2026-08-17[West Virginia‘s Mobility Platform Software closes August 25 and its EMS Community Paramedicine solicitation closes August 28](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7west-virginia-s-mobility-platform-software-closes-august-25-and-its-ems-community-paramedicine-solicitation-closes-august-28)
+
+2026-08-14[West Virginia releases its first two Rural Health Link solicitations, both due August 26](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7west-virginia-releases-its-first-two-rural-health-link-solicitations-both-due-august-26)
+
+2026-08-04[West Virginia doubles the ceiling on its Design and Administer Statewide, Multi-Payer Payment Models AFA to $5 million](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7west-virginia-doubles-the-ceiling-on-its-design-and-administer-statewide-multi-payer-payment-models-afa-to-5-million)
+
+2026-08-04[West Virginia doubles the ceiling on its Design and Administer Statewide, Multi-Payer Payment Models AFA to $5 million](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7west-virginia-doubles-the-ceiling-on-its-design-and-administer-statewide-multi-payer-payment-models-afa-to-5-million)
+
+2026-07-31[West Virginia puts $14 million into remote patient monitoring](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7west-virginia-puts-14-million-into-remote-patient-monitoring)
+
+2026-07-30[West Virginia reopens its Health-to-Work Programs for Chronic Conditions AFA](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7west-virginia-reopens-its-health-to-work-programs-for-chronic-conditions-afa)
+
+2026-07-28[West Virginia opens a $10M value-based-care on-ramp with three SmartCare Catalyst AFAs](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7west-virginia-opens-a-10m-value-based-care-on-ramp-with-three-smartcare-catalyst-afas)
 
 2026-07-23[West Virginia posts Workforce Catalyst Program AFA](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7west-virginia-posts-workforce-catalyst-program-afa)
 
@@ -9800,7 +10284,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+9 dated briefs
 
 ## What Wisconsin committed to measure
 
@@ -9853,9 +10337,17 @@ Track opportunities on the [DHS grant funding opportunities page](https://www.dh
 
 [Wisconsin DHS Rural Health Transformation Program →](https://www.dhs.wisconsin.gov/business/rhtp.htm)
 
-## Activity log · 5 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-24[Wisconsin closes its last two RHTP grants and its current grant funding opportunities list is now empty](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7wisconsin-closes-its-last-two-rhtp-grants-and-its-current-grant-funding-opportunities-list-is-now-empty)
+
+2026-08-01[Wisconsin issues a Community Health Workers Training Providers RFA, $600K a year due August 21](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7wisconsin-issues-a-community-health-workers-training-providers-rfa-600k-a-year-due-august-21)
+
+2026-07-30[Wisconsin opens the Sources of Strength Project RFA](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7wisconsin-opens-the-sources-of-strength-project-rfa)
+
+2026-07-29[Wisconsin closes the Rural Dental Efficiency and Access grant](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7wisconsin-closes-the-rural-dental-efficiency-and-access-grant)
 
 2026-07-07[Wisconsin opens two RHTP funding channels](https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#%C2%A7wisconsin-opens-two-rhtp-funding-channels)
 
@@ -9943,7 +10435,7 @@ Federal award data
 
 Tracker dispatches
 
-4 dated briefs
+7 dated briefs
 
 ## Questions & answers
 
@@ -9987,9 +10479,15 @@ Eligibility runs on two tracks. **Subgrants/subawards** flow to rural providers 
 
 [Wyoming RHTP hub →](https://health.wyo.gov/admin/rural-health-transformation-program/) [RFA application portal →](https://wyrhtp.submittable.com/submit)
 
-## Activity log · 4 dated briefs
+## Activity log · 7 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-17[Wyoming‘s advisory committee divides $205 million](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7wyoming-s-advisory-committee-divides-205-million)
+
+2026-08-11[Wyoming‘s Rural Health Transformation Advisory Committee meets this morning to discuss awards, with no public comment](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7wyoming-s-rural-health-transformation-advisory-committee-meets-this-morning-to-discuss-awards-with-no-public-comment)
+
+2026-08-03[Wyoming closes its first Rural Health Transformation Program RFA round](https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#%C2%A7wyoming-closes-its-first-rural-health-transformation-program-rfa-round)
 
 2026-07-11[Wyoming publishes two of three tech vendor RFPs](https://www.ruralhealthtransformation.life/p/utah-drops-a-94m-opp-maryland-out#%C2%A7wyoming-publishes-two-of-three-tech-vendor-rfps)
 

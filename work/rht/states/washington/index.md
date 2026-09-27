@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-13 dated briefs
+23 dated briefs
 
 ## What Washington committed to measure
 
@@ -106,9 +106,29 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on Washington's **Electronic Business Solution (WEBS)** to be notified of bids, and track the [HCA Bids & Contracts](https://www.hca.wa.gov/about-hca/bids-and-contracts) page and the [RHTP hub](https://www.hca.wa.gov/about-hca/programs-and-initiatives/value-based-purchasing/rural-health-transformation-program).
 
-## Activity log · 13 dated briefs
+## Activity log · 23 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-23[Washington maps all $181.26 million by channel in its Rural Health Transformation Program Update webinar deck](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7washington-maps-all-181-26-million-by-channel-in-its-rural-health-transformation-program-update-webinar-deck)
+
+2026-09-21[Washington posts an ICF webinar: Early lessons in rural health transformation for September 30](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7washington-posts-an-icf-webinar-early-lessons-in-rural-health-transformation-for-september-30)
+
+2026-09-11[Washington‘s Department of Health opens Rural Nursing Education Program (RNEP) community partner applications to Critical Access Hospitals, through October 2](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7washington-s-department-of-health-opens-rural-nursing-education-program-rnep-community-partner-applications-to-critical-access-hospitals-through-october-2)
+
+2026-09-08[Washington‘s Rural Collaborative publishes its own Rural Health Transformation Program page, and all ten of its vendor solicitations are now closed](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7washington-s-rural-collaborative-publishes-its-own-rural-health-transformation-program-page-and-all-ten-of-its-vendor-solicitations-are-now-closed)
+
+2026-09-04[Washington sets its quarterly RHT Program webinar for September 16, 1 to 2 p.m., questions due September 11](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7washington-sets-its-quarterly-rht-program-webinar-for-september-16-1-to-2-p-m-questions-due-september-11)
+
+2026-08-31[Washington seats its Rural Health Transformation Advisory Committee — 13 members, quarterly meetings, and no decision-making authority](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7washington-seats-its-rural-health-transformation-advisory-committee-13-members-quarterly-meetings-and-no-decision-making-authority)
+
+2026-08-31[Washington reopens RFA 2026HCA9, the Opioid Treatment Programs (OTP) Workforce Incentive Program, for a second round closing September 8 at 2 p.m. PT](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7washington-reopens-rfa-2026hca9-the-opioid-treatment-programs-otp-workforce-incentive-program-for-a-second-round-closing-september-8-at-2-p-m-pt)
+
+2026-08-10[Washington issues Amendment 2 to Rural Hospitals RFA — 2-year term confirmed](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7washington-issues-amendment-2-to-rural-hospitals-rfa-2-year-term-confirmed)
+
+2026-08-07[Washington extends three Rural Health Transformation RFA deadlines due to wildfires](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7washington-extends-three-rural-health-transformation-rfa-deadlines-due-to-wildfires)
+
+2026-08-06[Washington issues Amendment 1 to RFA 2026HCA9, and clawbacks are prominent](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7washington-issues-amendment-1-to-rfa-2026hca9-and-clawbacks-are-prominent)
 
 2026-07-24[Washington opens its Rural Hospitals (Maternal, Emergency and Specialty Services) RFA](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7washington-opens-its-rural-hospitals-maternal-emergency-and-specialty-services-rfa)
 

@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+8 dated briefs
 
 ## What South Carolina committed to measure
 
@@ -106,9 +106,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [SCDHHS grants portal](https://scdhhs.gov/resources/grants) and the [RHT hub](https://scorh.net/rural-health-transformation-fund/), subscribe to [Office of Rural Health updates](https://public.govdelivery.com/accounts/ORHA/subscriber/new?topic_id=ORHA_209), and direct questions to [grants@scdhhs.gov](mailto:grants@scdhhs.gov).
 
-## Activity log · 6 dated briefs
+## Activity log · 8 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-18[South Carolina opens a Public Input Survey to Help Inform Future RHTP Funding Decisions, closing October 2](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7south-carolina-opens-a-public-input-survey-to-help-inform-future-rhtp-funding-decisions-closing-october-2)
+
+2026-09-16[South Carolina posts its SC RHTP Year 1 Award List, 228 projects for $167,299,900.69](https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#%C2%A7south-carolina-posts-its-sc-rhtp-year-1-award-list-228-projects-for-167-299-900-69)
 
 2026-06-02[South Carolina: Tech Catalyst Fund Applications closes June 26](https://www.ruralhealthtransformation.life/p/south-carolina-tech-catalyst-fund#%C2%A7south-carolina-tech-catalyst-fund-applications-closes-june-26)
 

@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+16 dated briefs
 
 ## What Maryland committed to measure
 
@@ -103,9 +103,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [RHTP procurement page](https://health.maryland.gov/pophealth/Pages/RHTP-Procurement.aspx), monitor the [program hub](https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx), and route questions to [mdh.transformruralhealth@maryland.gov](mailto:mdh.transformruralhealth@maryland.gov).
 
-## Activity log · 9 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-17[Maryland Deep Dive: explication of structure and spending to date](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7maryland-deep-dive-explication-of-structure-and-spending-to-date)
+
+2026-09-09[Maryland RHT Committee meeting is tomorrow](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7maryland-rht-committee-meeting-is-tomorrow)
+
+2026-08-21[Maryland extends the Maryland Healthcare Workforce Data Clearinghouse: Phase 1 Requirements Analysis and Future Planning RFA to August 26](https://www.ruralhealthtransformation.life/p/north-dakota-closes-24-of-25-year#%C2%A7maryland-extends-the-maryland-healthcare-workforce-data-clearinghouse-phase-1-requirements-analysis-and-future-planning-rfa-to-august-26)
+
+2026-08-12[Maryland puts project period start dates on all ten Budget Period 1 funding opportunities](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7maryland-puts-project-period-start-dates-on-all-ten-budget-period-1-funding-opportunities)
+
+2026-08-11[Maryland makes $78.6 million in Pillar 2 award offers to 41 organizations](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7maryland-makes-78-6-million-in-pillar-2-award-offers-to-41-organizations)
+
+2026-08-04[Maryland fileds questions for its Pathways to Health Careers and RISE workforce RFAs: five-year service commitment clawback is rough](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7maryland-fileds-questions-for-its-pathways-to-health-careers-and-rise-workforce-rfas-five-year-service-commitment-clawback-is-rough)
+
+2026-07-31[Maryland posts its final Budget Period 1 procurement, a Healthcare Workforce Data Clearinghouse RFA](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7maryland-posts-its-final-budget-period-1-procurement-a-healthcare-workforce-data-clearinghouse-rfa)
 
 2026-07-15[Maryland: $168M in hand, but the RFA wave hasn’t broken](https://www.ruralhealthtransformation.life/p/west-virginia-opens-18m-for-rotational#%C2%A7maryland-168m-in-hand-but-the-rfa-wave-hasn-t-broken)
 

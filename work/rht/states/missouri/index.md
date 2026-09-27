@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+12 dated briefs
 
 ## What Missouri committed to measure
 
@@ -110,9 +110,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 5 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-23[Missouri names the 20 hospitals in its RHTP Strategic Minor Renovations Program, approximately $35 million](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7missouri-names-the-20-hospitals-in-its-rhtp-strategic-minor-renovations-program-approximately-35-million)
+
+2026-09-23[Missouri awarded MEMSA $12.3 million through a Single Feasible Source for Rural Health Transformation for Emergency Medical Services Systems,](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7missouri-awarded-memsa-12-3-million-through-a-single-feasible-source-for-rural-health-transformation-for-emergency-medical-services-systems)
+
+2026-09-08[Missouri‘s MEMSA award is $12,343,385 across three pillars on the Rural Health Transformation Funding page, not the $6.5 million announced in July](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7missouri-s-memsa-award-is-12-343-385-across-three-pillars-on-the-rural-health-transformation-funding-page-not-the-6-5-million-announced-in-july)
+
+2026-09-01[Missouri issues RFI 0000000012SL, two telehealth tracks, responses due September 9](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7missouri-issues-rfi-0000000012sl-two-telehealth-tracks-responses-due-september-9)
+
+2026-08-27[Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7missouri-extends-ifb-dss26015-01-torch-care-smart-growth-and-service-line-modification-horizon-2-to-2-p-m-september-1)
+
+2026-08-19[Missouri adds a ToRCH Care alignment test to IFB #DSS26015, the nearly $40 million Smart Growth and Service Line Modification solicitation](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7missouri-adds-a-torch-care-alignment-test-to-ifb-dss26015-the-nearly-40-million-smart-growth-and-service-line-modification-solicitation)
+
+2026-07-30[Missouri opens IFB #DSS26015, a $40M IFB to modernize rural facilities](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7missouri-opens-ifb-dss26015-a-40m-ifb-to-modernize-rural-facilities)
 
 2026-07-27[Missouri routes RHTP dollars to rural EMS through MEMSA — a $6.5M Mobile Integrated Healthcare build](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7missouri-routes-rhtp-dollars-to-rural-ems-through-memsa-a-6-5m-mobile-integrated-healthcare-build)
 

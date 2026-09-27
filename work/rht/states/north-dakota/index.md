@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-24 dated briefs
+42 dated briefs
 
 ## What North Dakota committed to measure
 
@@ -105,9 +105,45 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Vendors can email product information to [rhtp@nd.gov](mailto:rhtp@nd.gov) to be added to the state's interested-vendor list. Track opportunities on the [ND RHTP hub](https://www.hhs.nd.gov/rural-health-transformation) and the [funding opportunities page](https://www.hhs.nd.gov/rural-health-transformation/funding).
 
-## Activity log · 24 dated briefs
+## Activity log · 42 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-15[North Dakota marks Expand Rural Health Care Rotations Awarded, the first of 25 Year 1 opportunities to say so](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7north-dakota-marks-expand-rural-health-care-rotations-awarded-the-first-of-25-year-1-opportunities-to-say-so)
+
+2026-08-28[North Dakota closes Coordinating and Connecting Care, the last of 25 Year 1 opportunities, and the applicant counts now total 793](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7north-dakota-closes-coordinating-and-connecting-care-the-last-of-25-year-1-opportunities-and-the-applicant-counts-now-total-793)
+
+2026-08-21[North Dakota closes 24 of 25 Year 1 opportunities— executed 42 RHTP subawards worth $8,069,454.52](https://www.ruralhealthtransformation.life/p/north-dakota-closes-24-of-25-year#%C2%A7north-dakota-closes-24-of-25-year-1-opportunities-executed-42-rhtp-subawards-worth-8-069-454-52)
+
+2026-08-20[North Dakota closes Technology as an Extender at 49 applicants, and its funding table now totals 770 applications across 23 closed opportunities](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7north-dakota-closes-technology-as-an-extender-at-49-applicants-and-its-funding-table-now-totals-770-applications-across-23-closed-opportunities)
+
+2026-08-18[North Dakota answers a health technology company’s neutral-convener question on Coordinating and Connecting Care, $1 million closing August 26](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7north-dakota-answers-a-health-technology-company-s-neutral-convener-question-on-coordinating-and-connecting-care-1-million-closing-august-26)
+
+2026-08-17[North Dakota posts applicant counts on three more closed opportunities: 23, 14, and 6](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7north-dakota-posts-applicant-counts-on-three-more-closed-opportunities-23-14-and-6)
+
+2026-08-13[North Dakota‘s Childcare for the Rural Health Workforce closes with 9 applicants against 38 planned awards](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7north-dakota-s-childcare-for-the-rural-health-workforce-closes-with-9-applicants-against-38-planned-awards)
+
+2026-08-12[North Dakota answers the EIN question on Technology as an Extender: apply per location](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7north-dakota-answers-the-ein-question-on-technology-as-an-extender-apply-per-location)
+
+2026-08-11[North Dakota posts applicant counts, including 86 for Rural Ambulance Modernization](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7north-dakota-posts-applicant-counts-including-86-for-rural-ambulance-modernization)
+
+2026-08-11[North Dakota opens Coordinating and Connecting Care, $1 million for one statewide planning award, due August 26](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7north-dakota-opens-coordinating-and-connecting-care-1-million-for-one-statewide-planning-award-due-august-26)
+
+2026-08-07[North Dakota answers Clinics without Walls: Telehealth Infrastructure questions and rules out bandwidth](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7north-dakota-answers-clinics-without-walls-telehealth-infrastructure-questions-and-rules-out-bandwidth)
+
+2026-08-06[North Dakota closes School-Based Wellness Equipment with 68 applicants](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7north-dakota-closes-school-based-wellness-equipment-with-68-applicants)
+
+2026-08-06[North Dakota answers the vendors circling Technology as an Extender with a one-word no](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7north-dakota-answers-the-vendors-circling-technology-as-an-extender-with-a-one-word-no)
+
+2026-08-06[North Dakota opens Non-Emergency Medical Transportation Acquisition, $2 million for wheelchair-accessible vans](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7north-dakota-opens-non-emergency-medical-transportation-acquisition-2-million-for-wheelchair-accessible-vans)
+
+2026-08-04[North Dakota posts an FAQ for its $22 million Rural Ambulance Modernization opportunity: Remounts welcome](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7north-dakota-posts-an-faq-for-its-22-million-rural-ambulance-modernization-opportunity-remounts-welcome)
+
+2026-08-01[North Dakota closes its Self-Serve Dispensing Kiosks in Pharmacies funding opportunity (210-441)](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7north-dakota-closes-its-self-serve-dispensing-kiosks-in-pharmacies-funding-opportunity-210-441)
+
+2026-07-30[North Dakota announces its pipeline into a $50.5M push](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7north-dakota-announces-its-pipeline-into-a-50-5m-push)
+
+2026-07-29[North Dakota out with Parents Lead Assessment and Train-the-Trainer Curriculum funding opportunity](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7north-dakota-out-with-parents-lead-assessment-and-train-the-trainer-curriculum-funding-opportunity)
 
 2026-07-27[North Dakota adds two more funding opportunities](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7north-dakota-adds-two-more-funding-opportunities)
 

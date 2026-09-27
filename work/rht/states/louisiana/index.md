@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-10 dated briefs
+14 dated briefs
 
 ## How Louisiana defines rural
 
@@ -106,9 +106,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [LA RHTP funding-opportunities page](https://ldh.la.gov/page/rhtp-funding-opportunities), watch for vendor showcases co-hosted with the Louisiana Rural Health Association, and monitor the [program hub](https://ldh.la.gov/page/rural-health-transformation-program).
 
-## Activity log · 10 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-10[Louisiana makes 53 Rural Clinician Credit Bank awards, $12,701,996 against a $10 million allocation](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7louisiana-makes-53-rural-clinician-credit-bank-awards-12-701-996-against-a-10-million-allocation)
+
+2026-08-26[Louisiana publishes Year 1 award calendar in Advisory Council Meeting Slides— 505 applications against $95.5 million](https://www.ruralhealthtransformation.life/p/alabama-awards-138-arhtp-round-1#%C2%A7louisiana-publishes-year-1-award-calendar-in-advisory-council-meeting-slides-505-applications-against-95-5-million)
+
+2026-08-20[Louisiana launches RHTLA.net, a parish-by-parish public data platform for its $208.4M Year 1](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7louisiana-launches-rhtla-net-a-parish-by-parish-public-data-platform-for-its-208-4m-year-1)
+
+2026-08-10[Louisiana posts a Rurality Definition and Methodology and puts the next monthly webinar on September 3](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7louisiana-posts-a-rurality-definition-and-methodology-and-puts-the-next-monthly-webinar-on-september-3)
 
 2026-07-27[Louisiana’s application windows close; awards are next](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7louisiana-s-application-windows-close-awards-are-next)
 

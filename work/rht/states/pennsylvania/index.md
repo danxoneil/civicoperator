@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+16 dated briefs
 
 ## Questions & answers
 
@@ -92,9 +92,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** would go out compe
 
 [PA RHTP hub →](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan) [Subscribe for updates →](https://maestro.pa.gov/list/subscribe.html?mContainer=870&mOwner=G1j1d&mListId=HL%231142)
 
-## Activity log · 9 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-04[Pennsylvania opens the Quality Investment Program (QIP), $2,500 per licensed bed up to $250,000 per long-term care facility, about $2.75 million, due October 1](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7pennsylvania-opens-the-quality-investment-program-qip-2-500-per-licensed-bed-up-to-250-000-per-long-term-care-facility-about-2-75-million-due-october-1)
+
+2026-08-17[Pennsylvania opened Rapid Response Stabilization — Round 2 today, $35 million at $1 million per location, closing August 24](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7pennsylvania-opened-rapid-response-stabilization-round-2-today-35-million-at-1-million-per-location-closing-august-24)
+
+2026-08-14[Pennsylvania posts Rapid Response Stabilization Program – Round 2 FAQs three days before the webform opens](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7pennsylvania-posts-rapid-response-stabilization-program-round-2-faqs-three-days-before-the-webform-opens)
+
+2026-08-12[Pennsylvania names 35 to its RHTP Advisory Council and opens Regional Rural Care Collaboratives nominations](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7pennsylvania-names-35-to-its-rhtp-advisory-council-and-opens-regional-rural-care-collaboratives-nominations)
+
+2026-08-10[Pennsylvania correct eligible costs in Rapid Response Stabilization Round 2](https://www.ruralhealthtransformation.life/p/alaska-announces-its-first-rural#%C2%A7pennsylvania-correct-eligible-costs-in-rapid-response-stabilization-round-2)
+
+2026-08-01[Pennsylvania opens Rapid Response Stabilization Round 2, a $35 million supplies-and-equipment payment](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7pennsylvania-opens-rapid-response-stabilization-round-2-a-35-million-supplies-and-equipment-payment)
+
+2026-07-29[Pennsylvania maps its entire RHTP pipeline](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7pennsylvania-maps-its-entire-rhtp-pipeline)
 
 2026-07-24[Pennsylvania publishes two FAQs: EHR & HIO participants and FQHCs and FQH](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7pennsylvania-publishes-two-faqs-ehr-and-hio-participants-and-fqhcs-and-fqh)
 

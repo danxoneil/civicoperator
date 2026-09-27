@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-22 dated briefs
+32 dated briefs
 
 ## What Utah committed to measure
 
@@ -97,9 +97,29 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Utah RHTP hub](https://dhhs.utah.gov/ruralhealth/) and the [funding-opportunities portal](https://dhhs.utah.gov/ruralhealth/funding-opportunities/), and join the RHTP contact list for new-opportunity alerts by emailing [ruralht@utah.gov](mailto:ruralht@utah.gov).
 
-## Activity log · 22 dated briefs
+## Activity log · 32 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-14[Utah pushes SHIFT 3.3 Rural EMS Request for Grant Applications to September 20, up to $12,500,000, and finally puts dollar figures on RISE 2.3 and 2.4](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7utah-pushes-shift-3-3-rural-ems-request-for-grant-applications-to-september-20-up-to-12-500-000-and-finally-puts-dollar-figures-on-rise-2-3-and-2-4)
+
+2026-09-11[Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7utah-opens-rise-initiative-2-3-grow-our-own-rural-health-pipeline-and-2-4-expand-non-gme-rural-healthcare-pipeline-both-due-october-29)
+
+2026-09-03[Utah posts the final SHIFT 3.4 New Models of Care Q&A, 41 answers, for-profit technology companies can lead](https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#%C2%A7utah-posts-the-final-shift-3-4-new-models-of-care-q-and-a-41-answers-for-profit-technology-companies-can-lead)
+
+2026-09-03[Utah updates RHTP Evaluation Contract Solicitation](https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#%C2%A7utah-updates-rhtp-evaluation-contract-solicitation)
+
+2026-09-02[Utah opens the RHTP Evaluation Contract Solicitation, $8.2 million for one monitoring and evaluation vendor, due September 15](https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#%C2%A7utah-opens-the-rhtp-evaluation-contract-solicitation-8-2-million-for-one-monitoring-and-evaluation-vendor-due-september-15)
+
+2026-08-14[Utah opens SHIFT 3.3 Rural EMS, $12.5 million in Year 1, closing September 13](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7utah-opens-shift-3-3-rural-ems-12-5-million-in-year-1-closing-september-13)
+
+2026-08-13[Utah opens SHIFT 3.4 New Models of Care five days early, $10 million, closing September 1](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7utah-opens-shift-3-4-new-models-of-care-five-days-early-10-million-closing-september-1)
+
+2026-08-12[Utah forecasts SHIFT 3.4 New Models of Care, $10 million opening August 17](https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#%C2%A7utah-forecasts-shift-3-4-new-models-of-care-10-million-opening-august-17)
+
+2026-07-29[Utah extends its LIFT telehealth RFA to August 10](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7utah-extends-its-lift-telehealth-rfa-to-august-10)
+
+2026-07-28[Utah opens the PATH 1.4 Community Care Hub RFGA — $2M in Year 1, closing Aug 17](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7utah-opens-the-path-1-4-community-care-hub-rfga-2m-in-year-1-closing-aug-17)
 
 2026-07-23[Utah opens $18.5M SHIFT 3.2: Rural Health Provider Networks, due August 14](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7utah-opens-18-5m-shift-3-2-rural-health-provider-networks-due-august-14)
 

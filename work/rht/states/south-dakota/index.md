@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+13 dated briefs
 
 ## What South Dakota committed to measure
 
@@ -94,9 +94,17 @@ Track opportunities on the [RHT posting board](https://postingboard.esmsolutions
 
 [Join the SD Rural Health listserv →](https://listserv.sd.gov/scripts/wa.exe?SUBED1=SDRURALHEALTH&A=1)
 
-## Activity log · 9 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-25[South Dakota has its Rural Health Data Atlas–Informatics Services and Medicaid PACT RFPs open, due September 28 and October 2](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7south-dakota-has-its-rural-health-data-atlas-informatics-services-and-medicaid-pact-rfps-open-due-september-28-and-october-2)
+
+2026-09-25[South Dakota awards 12 CCBHC modernization and infrastructure grants, more than $13 million](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7south-dakota-awards-12-ccbhc-modernization-and-infrastructure-grants-more-than-13-million)
+
+2026-08-31[South Dakota names 13 RHTP recipients on OpenSD, $5,618,367 against $121.5 million announced](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7south-dakota-names-13-rhtp-recipients-on-opensd-5-618-367-against-121-5-million-announced)
+
+2026-08-20[South Dakota announces Rural Health Transformation Technology and Data Grants — 82 grants, $90 million, no recipient named](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7south-dakota-announces-rural-health-transformation-technology-and-data-grants-82-grants-90-million-no-recipient-named)
 
 2026-07-23[South Dakota running two RFPs](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7south-dakota-running-two-rfps)
 

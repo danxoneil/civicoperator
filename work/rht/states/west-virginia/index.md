@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-20 dated briefs
+31 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -108,9 +108,31 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 20 dated briefs
+## Activity log · 31 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-23[West Virginia names its first Provider Productivity Support Fund award: $500,000 to CHANGE, Inc. for AI tools](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7west-virginia-names-its-first-provider-productivity-support-fund-award-500-000-to-change-inc-for-ai-tools)
+
+2026-08-26[West Virginia opens Increasing Home Dialysis Access under the Personal Health Accelerator, roughly $2 million, closing September 9](https://www.ruralhealthtransformation.life/p/alabama-awards-138-arhtp-round-1#%C2%A7west-virginia-opens-increasing-home-dialysis-access-under-the-personal-health-accelerator-roughly-2-million-closing-september-9)
+
+2026-08-25[West Virginia adds Rural Health Link — Establish Regional Hubs & Mobility Coordinators, up to $7.1 million, closing September 8](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7west-virginia-adds-rural-health-link-establish-regional-hubs-and-mobility-coordinators-up-to-7-1-million-closing-september-8)
+
+2026-08-24[West Virginia adds Smart Care Catalyst and a fourth Rural Health Link solicitation to its funding opportunities table, closing September 3 and 4](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7west-virginia-adds-smart-care-catalyst-and-a-fourth-rural-health-link-solicitation-to-its-funding-opportunities-table-closing-september-3-and-4)
+
+2026-08-17[West Virginia‘s Mobility Platform Software closes August 25 and its EMS Community Paramedicine solicitation closes August 28](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7west-virginia-s-mobility-platform-software-closes-august-25-and-its-ems-community-paramedicine-solicitation-closes-august-28)
+
+2026-08-14[West Virginia releases its first two Rural Health Link solicitations, both due August 26](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7west-virginia-releases-its-first-two-rural-health-link-solicitations-both-due-august-26)
+
+2026-08-04[West Virginia doubles the ceiling on its Design and Administer Statewide, Multi-Payer Payment Models AFA to $5 million](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7west-virginia-doubles-the-ceiling-on-its-design-and-administer-statewide-multi-payer-payment-models-afa-to-5-million)
+
+2026-08-04[West Virginia doubles the ceiling on its Design and Administer Statewide, Multi-Payer Payment Models AFA to $5 million](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7west-virginia-doubles-the-ceiling-on-its-design-and-administer-statewide-multi-payer-payment-models-afa-to-5-million)
+
+2026-07-31[West Virginia puts $14 million into remote patient monitoring](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7west-virginia-puts-14-million-into-remote-patient-monitoring)
+
+2026-07-30[West Virginia reopens its Health-to-Work Programs for Chronic Conditions AFA](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7west-virginia-reopens-its-health-to-work-programs-for-chronic-conditions-afa)
+
+2026-07-28[West Virginia opens a $10M value-based-care on-ramp with three SmartCare Catalyst AFAs](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7west-virginia-opens-a-10m-value-based-care-on-ramp-with-three-smartcare-catalyst-afas)
 
 2026-07-23[West Virginia posts Workforce Catalyst Program AFA](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7west-virginia-posts-workforce-catalyst-program-afa)
 

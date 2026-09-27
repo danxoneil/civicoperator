@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-1 dated brief
+3 dated briefs
 
 ## Questions & answers
 
@@ -94,9 +94,13 @@ Track open opportunities on the state's grant directory and the program hub.
 
 [NJ DOH Grant Programs Directory →](https://healthapps.nj.gov/noticeofgrant/noticegrants.aspx)
 
-## Activity log · 1 dated brief
+## Activity log · 3 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-31[New Jersey‘s $21.7M public health institute grant is now paying clinicians directly through Invest Rural NJ, up to $200,000 for a physician on a five-year rural commitment](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7new-jersey-s-21-7m-public-health-institute-grant-is-now-paying-clinicians-directly-through-invest-rural-nj-up-to-200-000-for-a-physician-on-a-five-year-rural-commitment)
+
+2026-08-01[New Jersey awards $83M across 103 rural health projects](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7new-jersey-awards-83m-across-103-rural-health-projects)
 
 2026-04-10[New Jersey publishes RFA for Doula Integration in Rural New Jersey](https://www.ruralhealthtransformation.life/p/nebraska-workforce-incentive-program#%C2%A7new-jersey-publishes-rfa-for-doula-integration-in-rural-new-jersey)
 

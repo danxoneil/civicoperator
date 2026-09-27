@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## What Arizona committed to measure
 
@@ -100,9 +100,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [AHCCCS RHTP hub](https://www.azahcccs.gov/AHCCCS/Initiatives/RHTP/) and the [Grants Administration portal](https://www.azahcccs.gov/Resources/Grants/GrantsAdministration.html); attend the regional “Share Your Voice” meetings to shape priorities before more solicitations drop; and request a letter of support from the **Arizona Center for Rural Health** (as State Office of Rural Health) by sending them a link to an open funding opportunity.
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-07-28[Arizona has two RFGAs open now — $17M Telehealth and $30.1M Diagnostic Equipment & EHR — with four more forecast](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7arizona-has-two-rfgas-open-now-17m-telehealth-and-30-1m-diagnostic-equipment-and-ehr-with-four-more-forecast)
 
 2026-07-24[Arizona deep dive: three agencies leading the way](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7arizona-deep-dive-three-agencies-leading-the-way)
 

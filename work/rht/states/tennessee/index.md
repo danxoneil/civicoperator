@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-18 dated briefs
+21 dated briefs
 
 ## What Tennessee committed to measure
 
@@ -110,9 +110,15 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Tennessee RHTP hub](https://www.tn.gov/health/rural) and the [RHTP funding portal](https://c2cre237.caspio.com/dp/4cdb40003c407a2328014c28a496), and watch the Department of General Services RFP page for live solicitations.
 
-## Activity log · 18 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-15[Tennessee‘s Community Health Worker (CHW) Infrastructure Project, RFA #31865-00020, takes questions until 2 p.m. today](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7tennessee-s-community-health-worker-chw-infrastructure-project-rfa-31865-00020-takes-questions-until-2-p-m-today)
+
+2026-08-06[Tennessee holds forth on entity-determination guidance](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7tennessee-holds-forth-on-entity-determination-guidance)
+
+2026-08-01[Tennessee posts five RHTP RFPs through General Services and opens competitive grants](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7tennessee-posts-five-rhtp-rfps-through-general-services-and-opens-competitive-grants)
 
 2026-07-23[Tennessee Q&A for Health Technology & Innovation (Long-Range) reveals lots](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7tennessee-q-and-a-for-health-technology-and-innovation-long-range-reveals-lots)
 

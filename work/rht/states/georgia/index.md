@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+9 dated briefs
 
 ## Questions & answers
 
@@ -99,9 +99,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 Apply through the [GREAT Health grants portal](https://portal.greathealth.georgia.gov/) and track opportunities on the [funding opportunities](https://greathealth.georgia.gov/find-funding-opportunities) page and the [program hub](https://greathealth.georgia.gov/).
 
-## Activity log · 5 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-17[Georgia opens the GREAT Health Rural Graduate Medical Education Development Grant Program, up to $3 million per award, closing October 15](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7georgia-opens-the-great-health-rural-graduate-medical-education-development-grant-program-up-to-3-million-per-award-closing-october-15)
+
+2026-09-17[Georgia‘s GME money has to be spent by September 1, 2027, and consultants are an allowable cost](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7georgia-s-gme-money-has-to-be-spent-by-september-1-2027-and-consultants-are-an-allowable-cost)
+
+2026-08-13[Georgia awards $26 million for surgical robots to 13 rural hospitals and names the five that lost](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7georgia-awards-26-million-for-surgical-robots-to-13-rural-hospitals-and-names-the-five-that-lost)
+
+2026-08-01[Georgia posts a Notice of Intent to Award for Workforce Retention Technology, $26 million to 13 rural hospitals](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7georgia-posts-a-notice-of-intent-to-award-for-workforce-retention-technology-26-million-to-13-rural-hospitals)
 
 2026-07-27[Georgia posts its Notice of Intent to Award for Point-of-Care Telepods — eight awards, ~$4.3M, winners named](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7georgia-posts-its-notice-of-intent-to-award-for-point-of-care-telepods-eight-awards-4-3m-winners-named)
 
