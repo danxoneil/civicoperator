@@ -4,7 +4,8 @@
 #
 # Runs on this PC (the GitHub runner can't see Drive) from Task Scheduler task
 # "RHT Dispatch Index Refresh". Works in a dedicated clone so it never touches
-# a working checkout. Log: %LOCALAPPDATA%\civicoperator-dispatch\refresh.log
+# a working checkout. Log: %USERPROFILE%\civicoperator-dispatch\refresh.log
+# (Not under AppData\Local: scheduled tasks on this PC can't write there.)
 
 $ErrorActionPreference = 'Stop'
 $Work   = if ($env:CIVIC_DISPATCH_HOME) { $env:CIVIC_DISPATCH_HOME } else { Join-Path $env:USERPROFILE 'civicoperator-dispatch' }
