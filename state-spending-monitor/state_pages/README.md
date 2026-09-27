@@ -63,5 +63,5 @@ any diff. The GitHub runner **cannot reach Google Drive**, so
 That refresh is automated on DXO's PC by the Task Scheduler task
 **RHT Dispatch Index Refresh** (daily 9:00 AM local, after the ~6–8 AM export
 lands), which runs `refresh_dispatches.ps1`: it parses the newest export in a
-dedicated clone under `%LOCALAPPDATA%\civicoperator-dispatch` and pushes
+dedicated clone under `%USERPROFILE%\civicoperator-dispatch` (launched via `run.cmd` there) and pushes
 `dispatch_index.json` to `main` only when it changed. Log: `refresh.log` there.

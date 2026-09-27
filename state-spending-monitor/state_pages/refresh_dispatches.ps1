@@ -7,7 +7,7 @@
 # a working checkout. Log: %LOCALAPPDATA%\civicoperator-dispatch\refresh.log
 
 $ErrorActionPreference = 'Stop'
-$Work   = Join-Path $env:LOCALAPPDATA 'civicoperator-dispatch'
+$Work   = if ($env:CIVIC_DISPATCH_HOME) { $env:CIVIC_DISPATCH_HOME } else { Join-Path $env:USERPROFILE 'civicoperator-dispatch' }
 $Clone  = Join-Path $Work 'repo'
 $Log    = Join-Path $Work 'refresh.log'
 $Remote = 'https://github.com/danxoneil/civicoperator.git'
