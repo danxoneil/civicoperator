@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-11 dated briefs
+18 dated briefs
 
 ## Questions & answers
 
@@ -96,9 +96,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 11 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-22[Mississippi opens a Stakeholder Survey on the state RHTP site](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7mississippi-opens-a-stakeholder-survey-on-the-state-rhtp-site)
+
+2026-09-16[Mississippi announces 167 Rural Health Transformation Program Awards Totaling More Than $104 Million](https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#%C2%A7mississippi-announces-167-rural-health-transformation-program-awards-totaling-more-than-104-million)
+
+2026-09-01[Mississippi announces the First Round of Technology and Infrastructure Awards, with sub-award execution starting this week](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7mississippi-announces-the-first-round-of-technology-and-infrastructure-awards-with-sub-award-execution-starting-this-week)
+
+2026-08-18[Mississippi is hiring a consultant through Knowledge Services posting 162359 to write its statewide Health Information Exchange solicitation](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7mississippi-is-hiring-a-consultant-through-knowledge-services-posting-162359-to-write-its-statewide-health-information-exchange-solicitation)
+
+2026-07-30[Mississippi posts a Q&A for its PES / EmPATH Units NOFO](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7mississippi-posts-a-q-and-a-for-its-pes-empath-units-nofo)
+
+2026-07-29[Mississippi‘s WEI Q&A reveals who’s circling the $16.8M — and clawback scaries](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7mississippi-s-wei-q-and-a-reveals-who-s-circling-the-16-8m-and-clawback-scaries)
+
+2026-07-28[Mississippi posts a consultant opportunity to design a statewide HIE procurement](https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#%C2%A7mississippi-posts-a-consultant-opportunity-to-design-a-statewide-hie-procurement)
 
 2026-07-16[Mississippi out with two new opps](https://www.ruralhealthtransformation.life/p/iowa-just-put-328m-out-first-deadline#%C2%A7mississippi-out-with-two-new-opps)
 

@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-10 dated briefs
+13 dated briefs
 
 ## What Michigan committed to measure
 
@@ -107,9 +107,15 @@ Track opportunities in **EGrAMS** via the [MDHHS RHTP hub](https://www.michigan.
 
 [MDHHS Rural Health Transformation Program →](https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program)
 
-## Activity log · 10 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-08[Michigan routes $25.8 million of RHTP to the Department of Labor and Economic Opportunity, $16.7 million to the Office of Rural Prosperity and $9.1 million to the High-Speed Intern](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7michigan-routes-25-8-million-of-rhtp-to-the-department-of-labor-and-economic-opportunity-16-7-million-to-the-office-of-rural-prosperity-and-9-1-million-to-the-high-speed-internet-office)
+
+2026-08-27[Michigan puts a number on the pipeline in its July 2026 RHTP newsletter: seven GFOs in Budget Period 1, five of them workforce](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7michigan-puts-a-number-on-the-pipeline-in-its-july-2026-rhtp-newsletter-seven-gfos-in-budget-period-1-five-of-them-workforce)
+
+2026-08-06[Michigan names its RHTP Advisory Council, and tells you not to call them](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7michigan-names-its-rhtp-advisory-council-and-tells-you-not-to-call-them)
 
 2026-07-22[Michigan passes budget with Rural Health Transformation Program appropriation](https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#%C2%A7michigan-passes-budget-with-rural-health-transformation-program-appropriation)
 

@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+8 dated briefs
 
 ## What Arkansas committed to measure
 
@@ -103,9 +103,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 [Arkansas RHTP hub →](https://arkansasrhtp.com/) [Application portal →](https://arkansasrhtp.com/resources/)
 
-## Activity log · 6 dated briefs
+## Activity log · 8 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-25[Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7arkansas-awards-54-685-068-84-in-year-1-rise-ar-and-heart-funding-to-38-organizations)
+
+2026-08-28[Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects](https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#%C2%A7arkansas-posts-its-year-1-rhtp-thrive-and-pact-awards-149-177-618-45-to-31-organizations-across-50-projects)
 
 2026-07-24[Arkansas extendeds HEART](https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#%C2%A7arkansas-extendeds-heart)
 

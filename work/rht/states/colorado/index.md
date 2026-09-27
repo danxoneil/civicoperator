@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-32 dated briefs
+36 dated briefs
 
 ## What Colorado committed to measure
 
@@ -113,9 +113,17 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [HCPF RHTP hub](https://hcpf.colorado.gov/rural-health-transformation-program) and the [RFA application portal](https://coloradorhtp-rfa.my.site.com/apply/s/), and complete the state's vendor interest survey to be listed for partnerships.
 
-## Activity log · 32 dated briefs
+## Activity log · 36 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-18[Colorado’s public vendor interest list is still growing](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7colorado-s-public-vendor-interest-list-is-still-growing)
+
+2026-09-08[Colorado publishes the Potential Grantee Partnership Interest spreadsheet, 43 organizations with named contacts, ahead of end-of-September awards on $200.1 million](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7colorado-publishes-the-potential-grantee-partnership-interest-spreadsheet-43-organizations-with-named-contacts-ahead-of-end-of-september-awards-on-200-1-million)
+
+2026-08-27[Colorado Raises Its Capital Cap to 20% and Warns Grantees About Unspent Money](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7colorado-raises-its-capital-cap-to-20-and-warns-grantees-about-unspent-money)
+
+2026-08-06[Colorado closes its RHTP RFA; award announcements set for September](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7colorado-closes-its-rhtp-rfa-award-announcements-set-for-september)
 
 2026-07-23[Colorado publishes FAQ for Final Application Push and New Program Guidance](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7colorado-publishes-faq-for-final-application-push-and-new-program-guidance)
 

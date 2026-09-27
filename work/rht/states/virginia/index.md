@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-1 dated brief
+12 dated briefs
 
 ## What Virginia committed to measure
 
@@ -101,9 +101,31 @@ Eligibility runs on two tracks. **Direct-to-state contracts and partner agreemen
 
 Track opportunities on the [VA Rural Vitality hub](https://www.ruralhealthtransformationva.virginia.gov/) and the DMAS [Rural Health Transformation page](https://dmas.virginia.gov/data-reporting/programs-services/rural-health-transformation/), and direct questions to [ruralhealth@vdh.virginia.gov](mailto:ruralhealth@vdh.virginia.gov).
 
-## Activity log · 1 dated brief
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Virginia publishes the Earn to Learn Initiative RFA through Virginia Works, $4,679,752.46 for rural allied health apprenticeships, due October 16](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7virginia-publishes-the-earn-to-learn-initiative-rfa-through-virginia-works-4-679-752-46-for-rural-allied-health-apprenticeships-due-october-16)
+
+2026-09-22[Virginia‘s VHCF closes Provider Interoperability and Provider Productivity and dates the awards September 30 and October 14](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7virginia-s-vhcf-closes-provider-interoperability-and-provider-productivity-and-dates-the-awards-september-30-and-october-14)
+
+2026-09-16[Virginia‘s NSVRC posts the Request for Applications – Q&A Addendum, Virginia Rural Health Transformation Program Mobile and Hybrid Care, and says yes to for-profit and vendor-led a](https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#%C2%A7virginia-s-nsvrc-posts-the-request-for-applications-q-and-a-addendum-virginia-rural-health-transformation-program-mobile-and-hybrid-care-and-says-yes-to-for-profit-and-vendor-led-applicants-two-days-before-applications-close)
+
+2026-09-15[Virginia names award dates for the Provider Interoperability & Provider Productivity RFAs](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7virginia-names-award-dates-for-the-provider-interoperability-and-provider-productivity-rfas)
+
+2026-09-14[Virginia‘s NSVRC delays the Q&A Addendum on its Mobile and Hybrid Care RFA, six days before applications close](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7virginia-s-nsvrc-delays-the-q-and-a-addendum-on-its-mobile-and-hybrid-care-rfa-six-days-before-applications-close)
+
+2026-09-11[Virginia‘s VDH opens the Innovative Maternal Care RFA (VDH-26-705-0387), about $11.6 million, due October 6](https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#%C2%A7virginia-s-vdh-opens-the-innovative-maternal-care-rfa-vdh-26-705-0387-about-11-6-million-due-october-6)
+
+2026-09-08[Virginia‘s Provider Interoperability: Where Connection Meets Care deck puts VHCF’s two CareIQ subinitiatives at $26 million in Year 1, which leaves $3 million to $5 million behind](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7virginia-s-provider-interoperability-where-connection-meets-care-deck-puts-vhcf-s-two-careiq-subinitiatives-at-26-million-in-year-1-which-leaves-3-million-to-5-million-behind-the-two-rounds)
+
+2026-09-03[Virginia reissues the Provider Interoperability & Provider Productivity FAQ Responses at 40 questions, only the applicant needs SAM.gov](https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#%C2%A7virginia-reissues-the-provider-interoperability-and-provider-productivity-faq-responses-at-40-questions-only-the-applicant-needs-sam-gov)
+
+2026-09-01[Virginia‘s Provider Productivity Request for Applications is the last VHCF fund open, $7 million to $9 million, due September 14](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7virginia-s-provider-productivity-request-for-applications-is-the-last-vhcf-fund-open-7-million-to-9-million-due-september-14)
+
+2026-08-31[Virginia‘s Northern Shenandoah Valley Regional Commission opens RFA-RHTP-2026-02, Mobile and Hybrid Care, $4.2 million and at least five awards](https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#%C2%A7virginia-s-northern-shenandoah-valley-regional-commission-opens-rfa-rhtp-2026-02-mobile-and-hybrid-care-4-2-million-and-at-least-five-awards)
+
+2026-08-11[Virginia opens its first RFAs and publishes the RHT RFA Navigator](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7virginia-opens-its-first-rfas-and-publishes-the-rht-rfa-navigator)
 
 2026-07-13[Virginia Implementation: The “VA Rural Vitality” Framework](https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#%C2%A7virginia-implementation-the-va-rural-vitality-framework)
 

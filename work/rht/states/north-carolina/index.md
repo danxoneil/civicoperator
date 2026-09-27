@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+18 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,17 @@ Track opportunities on the [NC RHTP Grant Opportunities](https://www.ncdhhs.gov/
 
 [Sign up for the NC RHTP newsletter →](https://ncdhhs.us4.list-manage.com/subscribe?u=58ec19aaea4630b1baad0e5e4&id=10ae728a96)
 
-## Activity log · 14 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[North Carolina‘s ROOTS Region 2 Hub seats its 21-member Advisory Board](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7north-carolina-s-roots-region-2-hub-seats-its-21-member-advisory-board)
+
+2026-09-15[North Carolina sets a September 23 webinar on the $20 million Rural Health Innovation Fund and names five school-based health center recipients](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7north-carolina-sets-a-september-23-webinar-on-the-20-million-rural-health-innovation-fund-and-names-five-school-based-health-center-recipients)
+
+2026-08-20[North Carolina sends applicants to Regional Funding Opportunities through NC ROOTS Hubs, where Trillium has ten RFAs issued July 30 and two close Monday](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7north-carolina-sends-applicants-to-regional-funding-opportunities-through-nc-roots-hubs-where-trillium-has-ten-rfas-issued-july-30-and-two-close-monday)
+
+2026-08-13[North Carolina posts about advisory committee](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7north-carolina-posts-about-advisory-committee)
 
 2026-07-27[North Carolina posts an (invited-only) School Health Centers expansion](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7north-carolina-posts-an-invited-only-school-health-centers-expansion)
 

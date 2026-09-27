@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-11 dated briefs
+12 dated briefs
 
 ## What Oregon committed to measure
 
@@ -108,9 +108,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Complete OHA's [Vendor Interest Form](https://app.smartsheet.com/b/form/019c8c4dc64574cc8d9c0507aaba0e98) to be listed in the public directory, request an ORH regional convening invitation, and watch the [Catalyst Awards RFGP on OregonBuys](https://oregonbuys.gov/bso/external/bidDetail.sdo?docId=S-44300-00001537&external=true&parentUrl=close) and the [RHTP hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx).
 
-## Activity log · 11 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Oregon‘s Transformation Funds show up by name for the first time: Wallowa Memorial Hospital and Medical Clinics awarded over $5.4 million](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7oregon-s-transformation-funds-show-up-by-name-for-the-first-time-wallowa-memorial-hospital-and-medical-clinics-awarded-over-5-4-million)
 
 2026-07-27[Oregon RHTP Progress Recap](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7oregon-rhtp-progress-recap)
 

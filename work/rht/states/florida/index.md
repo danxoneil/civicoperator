@@ -48,7 +48,7 @@ Federal award data
 
 Tracker dispatches
 
-7 dated briefs
+9 dated briefs
 
 ## Questions & answers
 
@@ -99,9 +99,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Find and respond to solicitations on [MyFloridaMarketplace](https://vendor.myfloridamarketplace.com/search/bids) (search “RHTP”), and track updates on the [AHCA RHTP hub](https://ahca.myflorida.com/rural-health-transformation-program.html).
 
-## Activity log · 7 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-14[Florida says Year 1 sub-awards are made and sets a September 23–24 convening in Jacksonville](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7florida-says-year-1-sub-awards-are-made-and-sets-a-september-23-24-convening-in-jacksonville)
+
+2026-07-31[Florida Legislation Watch: $209M is greenlit](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7florida-legislation-watch-209m-is-greenlit)
 
 2026-06-25[Florida legislation watch](https://www.ruralhealthtransformation.life/p/west-virginia-out-with-24m-on-nutrition#%C2%A7florida-legislation-watch)
 

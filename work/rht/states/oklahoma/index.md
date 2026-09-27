@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+27 dated briefs
 
 ## What Oklahoma committed to measure
 
@@ -102,9 +102,17 @@ Track open opportunities on the [RHTP funding page](https://oklahoma.gov/health/
 
 [Oklahoma RHTP funding page →](https://oklahoma.gov/health/rhtp/rhtp-funding.html)
 
-## Activity log · 23 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-21[Oklahoma puts $16,023,961 of RHTP money into Building Health Data Utility at the Health Care Authority, off the state’s RHTP funding page entirely](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7oklahoma-puts-16-023-961-of-rhtp-money-into-building-health-data-utility-at-the-health-care-authority-off-the-state-s-rhtp-funding-page-entirely)
+
+2026-08-25[Oklahoma posts the August 2026 Touchpoint Webinar deck, and leaves the three Budget Period 2 questions unanswered on the slide](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7oklahoma-posts-the-august-2026-touchpoint-webinar-deck-and-leaves-the-three-budget-period-2-questions-unanswered-on-the-slide)
+
+2026-08-19[Oklahoma opens OSDE’s ROOTS Competitive Grant (Year 2 Application), $10,000 per site for 60 rural schools, closing October 15](https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#%C2%A7oklahoma-opens-osde-s-roots-competitive-grant-year-2-application-10-000-per-site-for-60-rural-schools-closing-october-15)
+
+2026-08-13[Oklahoma names Pulsara its statewide EMS centralization platform, with no solicitation anywhere](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7oklahoma-names-pulsara-its-statewide-ems-centralization-platform-with-no-solicitation-anywhere)
 
 2026-07-23[Oklahoma posts slides and videos of webinars; telegraphs regional facilitator approach](https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#%C2%A7oklahoma-posts-slides-and-videos-of-webinars-telegraphs-regional-facilitator-approach)
 
@@ -122,7 +130,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 
 2026-06-10[Oklahoma posts webinar on Community Paramedicine Vehicles NOFO](https://www.ruralhealthtransformation.life/p/michigan-subrecipient-list-mississippi#%C2%A7oklahoma-posts-webinar-on-community-paramedicine-vehicles-nofo)
 
-2026-06-09[Oklahoma releases Behavioral Health Integration – Medications for Opioid and Alcohol Use Disorder Program and Emergency Medical Service and Community Paramedici](https://www.ruralhealthtransformation.life/p/arkansas-launches-46m-pact-oklahoma#%C2%A7oklahoma-releases-behavioral-health-integration-medications-for-opioid-and-alcohol-use-disorder-program-and-emergency-medical-service-and-community-paramedicine-vehicles-nofos)
+2026-06-09[Oklahoma releases Behavioral Health Integration – Medications for Opioid and Alcohol Use Disorder Program and Emergency Medical Service and Community Paramedicine Vehicles NOFOs](https://www.ruralhealthtransformation.life/p/arkansas-launches-46m-pact-oklahoma#%C2%A7oklahoma-releases-behavioral-health-integration-medications-for-opioid-and-alcohol-use-disorder-program-and-emergency-medical-service-and-community-paramedicine-vehicles-nofos)
 
 2026-06-03[Oklahoma updates subrecipient spenddown deadlines](https://www.ruralhealthtransformation.life/p/louisiana-oversight-iowa-adds-a-technical#%C2%A7oklahoma-updates-subrecipient-spenddown-deadlines)
 

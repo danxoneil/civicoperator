@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+12 dated briefs
 
 ## What New Hampshire committed to measure
 
@@ -100,9 +100,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Watch the [GO-NORTH contracts & awards](https://www.gonorth.nh.gov/contracts-awards) and [apply-for-funds](https://www.gonorth.nh.gov/apply-funds) pages, and track the [DHHS RHTP hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program).
 
-## Activity log · 5 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[New Hampshire hands Health Strategies for New Hampshire a $40 million sole-source contract to run GO-NORTH population health grants](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7new-hampshire-hands-health-strategies-for-new-hampshire-a-40-million-sole-source-contract-to-run-go-north-population-health-grants)
+
+2026-09-18[New Hampshire’s Foundation for Healthy Communities is closing School Based Oral Health Program RFA soon](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7new-hampshire-s-foundation-for-healthy-communities-is-closing-school-based-oral-health-program-rfa-soon)
+
+2026-09-10[New Hampshire: USNH HUB: RFA to Support Youth Career Exploration in Healthcare and Allied Health](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7new-hampshire-usnh-hub-rfa-to-support-youth-career-exploration-in-healthcare-and-allied-health)
+
+2026-09-08[New Hampshire is running a rolling Request for Qualifications: Technical Assistance Consultants for RCHIP](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7new-hampshire-is-running-a-rolling-request-for-qualifications-technical-assistance-consultants-for-rchip)
+
+2026-08-04[New Hampshire: GO-NORTH HUB Foundation for Healthy Communities (FHC) hosts School Based Oral Health Informational Session](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7new-hampshire-go-north-hub-foundation-for-healthy-communities-fhc-hosts-school-based-oral-health-informational-session)
+
+2026-08-03[New Hampshire authorizes a $2 million GO-NORTH Planning Grant Agreement to seed rural planning grants](https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#%C2%A7new-hampshire-authorizes-a-2-million-go-north-planning-grant-agreement-to-seed-rural-planning-grants)
+
+2026-07-30[New Hampshire opens four GO-NORTH sub-recipient solicitations](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7new-hampshire-opens-four-go-north-sub-recipient-solicitations)
 
 2026-07-07[New Hampshire chose NORC at the University of Chicago for evaluation](https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#%C2%A7new-hampshire-chose-norc-at-the-university-of-chicago-for-evaluation)
 

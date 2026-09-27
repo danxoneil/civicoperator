@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+18 dated briefs
 
 ## What Nevada committed to measure
 
@@ -103,9 +103,17 @@ Eligibility runs on two tracks, and Nevada has been unusually explicit about the
 
 [Nevada RHTP hub →](https://www.nvha.nv.gov/RHTP/)
 
-## Activity log · 14 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-22[Nevada deep dive: review of newly filed BP2 docs and Y1 annual report](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7nevada-deep-dive-review-of-newly-filed-bp2-docs-and-y1-annual-report)
+
+2026-09-18[Nevada‘s Budget Period 2 NCC Budget Narrative puts $174,803,558 into eight solicitations with published open dates](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7nevada-s-budget-period-2-ncc-budget-narrative-puts-174-803-558-into-eight-solicitations-with-published-open-dates)
+
+2026-09-18[Nevada‘s Annual Report-Year 1 shows 280 applications asking for $330.7 million, and one initiative still unlaunched](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7nevada-s-annual-report-year-1-shows-280-applications-asking-for-330-7-million-and-one-initiative-still-unlaunched)
+
+2026-07-31[Nevada awards more than $50 million to strengthen its rural healthcare workforce](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7nevada-awards-more-than-50-million-to-strengthen-its-rural-healthcare-workforce)
 
 2026-06-15[Nevada clarifies that universities and out-of-state vendors are eligible as primary applicants on RHOAP & RHIT](https://www.ruralhealthtransformation.life/p/alabam-deep-dive-nevada-eligibilty#%C2%A7nevada-clarifies-that-universities-and-out-of-state-vendors-are-eligible-as-primary-applicants-on-rhoap-and-rhit)
 

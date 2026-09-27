@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-11 dated briefs
+13 dated briefs
 
 ## What Alabama committed to measure
 
@@ -108,9 +108,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** are awarded compet
 
 [ARHTP hub →](https://alabamarhtp.com/) [ADECA Funding Opportunities →](https://adeca.alabama.gov/about/funding-opportunities/)
 
-## Activity log · 11 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-26[Alabama awards 138 ARHTP Round 1 grants worth $143,745,821, four of five initiatives over their advertised ceilings](https://www.ruralhealthtransformation.life/p/alabama-awards-138-arhtp-round-1#%C2%A7alabama-awards-138-arhtp-round-1-grants-worth-143-745-821-four-of-five-initiatives-over-their-advertised-ceilings)
+
+2026-08-25[Alabama closes all Year 1 initiative application periods and says applications reopen for Year 2](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7alabama-closes-all-year-1-initiative-application-periods-and-says-applications-reopen-for-year-2)
 
 2026-07-10[Alabama will run two in-person RFP workshops this month](https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#%C2%A7alabama-will-run-two-in-person-rfp-workshops-this-month)
 

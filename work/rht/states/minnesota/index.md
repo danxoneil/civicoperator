@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-3 dated briefs
+5 dated briefs
 
 ## Questions & answers
 
@@ -88,9 +88,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MDH grants and funding page](https://www.health.state.mn.us/facilities/ruralhealth/funding/grants) and the [Minnesota RHTP hub](https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/index.html).
 
-## Activity log · 3 dated briefs
+## Activity log · 5 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-14[Minnesota issues Sub-Recipient Logo Guidance for RHTP grantees, and bars Rural Clinical Rotations Expansion double-dipping](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7minnesota-issues-sub-recipient-logo-guidance-for-rhtp-grantees-and-bars-rural-clinical-rotations-expansion-double-dipping)
+
+2026-08-27[Minnesota opens Analysis of the Rural Maternity Care System and Rural Telehealth Services](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7minnesota-opens-analysis-of-the-rural-maternity-care-system-and-rural-telehealth-services)
 
 2026-06-26[Minnesota posts RHTP Rural Clinical Rotations Expansion Grant Program RFP](https://www.ruralhealthtransformation.life/p/new-rural-clinical-rotations-expansion#%C2%A7minnesota-posts-rhtp-rural-clinical-rotations-expansion-grant-program-rfp)
 

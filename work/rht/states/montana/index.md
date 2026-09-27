@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-15 dated briefs
+21 dated briefs
 
 ## What Montana committed to measure
 
@@ -100,9 +100,21 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 15 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-14[Montana opens RHTP-Montana Community Health Aide Program (CHAP) Technical Assistance, DPHHS-RFP-2027-0700NAV, closing October 1](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7montana-opens-rhtp-montana-community-health-aide-program-chap-technical-assistance-dphhs-rfp-2027-0700nav-closing-october-1)
+
+2026-09-02[Montana publishes FY26 DPHHS Community Integrated Health Pilot Site Grant, rural EMS only, due September 15](https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#%C2%A7montana-publishes-fy26-dphhs-community-integrated-health-pilot-site-grant-rural-ems-only-due-september-15)
+
+2026-08-27[Montana issues RHTP Emergency Medical Dispatch, DPHHS-RFP-2027-0692AB, a single statewide contract closing September 23](https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#%C2%A7montana-issues-rhtp-emergency-medical-dispatch-dphhs-rfp-2027-0692ab-a-single-statewide-contract-closing-september-23)
+
+2026-08-18[Montana has operationalized $157 million of its $233.5 million Year 1 award, per the Aug. 6 Stakeholder Advisory Committee materials, with three procurements still to post in Augus](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7montana-has-operationalized-157-million-of-its-233-5-million-year-1-award-per-the-aug-6-stakeholder-advisory-committee-materials-with-three-procurements-still-to-post-in-august)
+
+2026-08-18[Montana names MHREF the winner of its Center of Excellence Implementation Partner contract, $105.5 million](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7montana-names-mhref-the-winner-of-its-center-of-excellence-implementation-partner-contract-105-5-million)
+
+2026-08-14[Montana opens Rural Health Care Workforce Retention, DLI-RFI-2027-0091, an RFI on health care workforce mental health](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7montana-opens-rural-health-care-workforce-retention-dli-rfi-2027-0091-an-rfi-on-health-care-workforce-mental-health)
 
 2026-07-17[Montana launches $4M in Rural EMS grants](https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#%C2%A7montana-launches-4m-in-rural-ems-grants)
 

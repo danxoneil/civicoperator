@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-6 dated briefs
+12 dated briefs
 
 ## What New York committed to measure
 
@@ -99,9 +99,21 @@ Track opportunities on the [NYSDOH Transforming Rural Healthcare hub](https://he
 
 [NYSDOH Transforming Rural Healthcare →](https://health.ny.gov/facilities/transforming_rural_healthcare/)
 
-## Activity log · 6 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-09[New York names the 56 Rural Community Health Integration Awardees, $76,190,022 to the dollar](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7new-york-names-the-56-rural-community-health-integration-awardees-76-190-022-to-the-dollar)
+
+2026-09-08[New York awards $76.2 million through the Rural Community Health Integration Initiative, 90 awards to 56 organizations](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7new-york-awards-76-2-million-through-the-rural-community-health-integration-initiative-90-awards-to-56-organizations)
+
+2026-08-20[New York makes the cybersecurity resilience assessment a prerequisite for future funding in Introduction to Initiative 4: Cybersecurity Resilience for Rural NY, with an August 31 i](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7new-york-makes-the-cybersecurity-resilience-assessment-a-prerequisite-for-future-funding-in-introduction-to-initiative-4-cybersecurity-resilience-for-rural-ny-with-an-august-31-interest-form-deadline)
+
+2026-08-14[New York posts the August 12 Update Presentation — Rural Community Health Integration drew 91 applications and $156 million in requests](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7new-york-posts-the-august-12-update-presentation-rural-community-health-integration-drew-91-applications-and-156-million-in-requests)
+
+2026-08-13[New York to open Rural Community Health Integration budget period 2 in November, and new applicants are welcome](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7new-york-to-open-rural-community-health-integration-budget-period-2-in-november-and-new-applicants-are-welcome)
+
+2026-08-07[New York schedules an August 12 webinar](https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#%C2%A7new-york-schedules-an-august-12-webinar)
 
 2026-07-07[New York Answers 375 Questions about Its $76M Rural Grant— here’s the upshots](https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#%C2%A7new-york-answers-375-questions-about-its-76m-rural-grant-here-s-the-upshots)
 

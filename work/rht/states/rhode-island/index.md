@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+11 dated briefs
 
 ## What Rhode Island committed to measure
 
@@ -113,9 +113,15 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on [Ocean State Procures](https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46) (search “rural health”), complete the state's [interest survey](https://surveys.health.ri.gov/redcap/surveys/?s=CNJ3ADLPD4MRHLP3), and watch the [RHTP hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-grant) and its Rural Stakeholder Advisory Council.
 
-## Activity log · 8 dated briefs
+## Activity log · 11 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-08[Rhode Island gets $5.48 million for healthcare Career and Technical Education at 14 Local Education Agencies](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7rhode-island-gets-5-48-million-for-healthcare-career-and-technical-education-at-14-local-education-agencies)
+
+2026-08-06[Rhode Island schedules an August 13 technical assistance session for its Rural Community Health Networks application](https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#%C2%A7rhode-island-schedules-an-august-13-technical-assistance-session-for-its-rural-community-health-networks-application)
+
+2026-07-31[Rhode Island opens its Rural Community Health Network (RCHN) Development application](https://www.ruralhealthtransformation.life/p/nevada-awards-more-than-50-million#%C2%A7rhode-island-opens-its-rural-community-health-network-rchn-development-application)
 
 2026-07-10[Rhode Island closes its Administrator for a Health Information Technology (HIT) Rural Infrastructure Fund RFP](https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#%C2%A7rhode-island-closes-its-administrator-for-a-health-information-technology-hit-rural-infrastructure-fund-rfp)
 

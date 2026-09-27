@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-0 dated briefs
+1 dated brief
 
 ## Questions & answers
 
@@ -97,6 +97,12 @@ How can vendors, providers, or consultants engage with Hawaii's program?
 Eligibility is expected to run on two tracks. **Direct-to-state contracts** go out as competitive RFPs, where firms bid as **prime contractors**. **Subgrants and subawards** flow to rural providers — hospitals, Rural Health Clinics, FQHCs, Native Hawaiian and Tribal health organizations, EMS agencies, and counties — and it is here that technology vendors and consultants most often engage as **subcontractors or implementation partners**. Until Hawaii posts its first solicitations, the best move is to monitor the state's engagement hub and reach the Department of Health's Office of Primary Care and Rural Health directly.
 
 [Hawaii RHTP hub →](https://engage.hawaii.gov/rhtp/) [Email the program →](mailto:doh.opcpdh@doh.hawaii.gov)
+
+## Activity log · 1 dated brief
+
+Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-01[Hawaii names $75 million of its $188.9 million, as CMS announces $58 million to Deliver New Ambulances and Upgrade Emergency Communications Systems Across Hawaii and SHPDA awards $](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7hawaii-names-75-million-of-its-188-9-million-as-cms-announces-58-million-to-deliver-new-ambulances-and-upgrade-emergency-communications-systems-across-hawaii-and-shpda-awards-17-million-to-the-hawaii-primary-care-association)
 
 ## Related
 

@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+21 dated briefs
 
 ## What California committed to measure
 
@@ -102,9 +102,23 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [CalRHT funding page](https://hcai.ca.gov/rural-health/calrht/funding/), join the [HCAI mailing list](https://hcai.ca.gov/mailing-list/), and email a resume and expression of interest to [CalRHT@hcai.ca.gov](mailto:CalRHT@hcai.ca.gov) to be considered for the Rural Health Policy Council.
 
-## Activity log · 14 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-24[California posts an EHR Readiness Assessment that every CalRHT EHR Modernization subrecipient is required to complete](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7california-posts-an-ehr-readiness-assessment-that-every-calrht-ehr-modernization-subrecipient-is-required-to-complete)
+
+2026-08-21[California RHT Deep-Dive: The $15 Million CMS Made California Move](https://www.ruralhealthtransformation.life/p/north-dakota-closes-24-of-25-year#%C2%A7california-rht-deep-dive-the-15-million-cms-made-california-move)
+
+2026-08-18[California posts CalRHT EHR Modernization Grant FAQs: rules out vendors, HIEs and consortiums](https://www.ruralhealthtransformation.life/p/mississippi-is-hiring-a-consultant#%C2%A7california-posts-calrht-ehr-modernization-grant-faqs-rules-out-vendors-hies-and-consortiums)
+
+2026-08-13[California posts Workforce Development Recruitment and Retention webinar recording](https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#%C2%A7california-posts-workforce-development-recruitment-and-retention-webinar-recording)
+
+2026-08-11[California posts presentations and recordings for the Accelerator Partners, WDRR, and EHR Modernization grant webinars](https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#%C2%A7california-posts-presentations-and-recordings-for-the-accelerator-partners-wdrr-and-ehr-modernization-grant-webinars)
+
+2026-08-01[California opens its full first CalRHT wave, four programs now taking applications](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7california-opens-its-full-first-calrht-wave-four-programs-now-taking-applications)
+
+2026-07-29[California stands up its subrecipient machinery](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7california-stands-up-its-subrecipient-machinery)
 
 2026-07-27[California has two engagement opportunities this week](https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#%C2%A7california-has-two-engagement-opportunities-this-week)
 

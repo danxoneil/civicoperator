@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+19 dated briefs
 
 ## What Iowa committed to measure
 
@@ -105,9 +105,15 @@ Track opportunities on the [Iowa HHS funding-opportunities portal](https://hhs.i
 
 [Healthy Hometowns — Iowa RHTP →](https://hhs.iowa.gov/initiatives/healthy-hometowns-iowas-rural-health-transformation-plan)
 
-## Activity log · 16 dated briefs
+## Activity log · 19 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-25[Iowa gets CMS’s first State Spotlight for its Combat Cancer Health Hub Program, and its Healthy Hometowns dashboard shows $32,850,309.82 obligated to the hubs and $0 spent](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7iowa-gets-cms-s-first-state-spotlight-for-its-combat-cancer-health-hub-program-and-its-healthy-hometowns-dashboard-shows-32-850-309-82-obligated-to-the-hubs-and-0-spent)
+
+2026-09-22[Iowa releases RFP # COMPADM26007 for Cardiovascular Health Hub Program, $33,361,333](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7iowa-releases-rfp-compadm26007-for-cardiovascular-health-hub-program-33-361-333)
+
+2026-08-03[Iowa Deep Dive: The First State to Award Is Now the First to Force a Choice](https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#%C2%A7iowa-deep-dive-the-first-state-to-award-is-now-the-first-to-force-a-choice)
 
 2026-07-16[Iowa Just Put $328M(?) out — first deadline (LOI) is August 10](https://www.ruralhealthtransformation.life/p/iowa-just-put-328m-out-first-deadline#%C2%A7iowa-just-put-328m-out-first-deadline-loi-is-august-10)
 

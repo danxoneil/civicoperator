@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-4 dated briefs
+14 dated briefs
 
 ## What Maine committed to measure
 
@@ -96,9 +96,29 @@ Track opportunities through the program hub and MCD Global Health's RHTP page.
 
 [Maine RHTP application portal (MCD Global Health) →](https://www.mcd.org/focus-areas/maine-rural-health-transformation-program)
 
-## Activity log · 4 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-24[Maine opens a Youth Tele-Behavioral Health Provider opportunity, applications due October 18](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7maine-opens-a-youth-tele-behavioral-health-provider-opportunity-applications-due-october-18)
+
+2026-09-23[Maine publishes Rural Health Transformation Program Advisory Committee September 2, 2026 deck](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7maine-publishes-rural-health-transformation-program-advisory-committee-september-2-2026-deck)
+
+2026-09-21[Maine publishes its Five Strategic Initiatives and puts $88.5 million of a $190,008,051.09 Year 1 award behind three provider opportunities](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7maine-publishes-its-five-strategic-initiatives-and-puts-88-5-million-of-a-190-008-051-09-year-1-award-behind-three-provider-opportunities)
+
+2026-09-10[Maine‘s technology partner schedules two RHTP: Technology & Innovation Initiatives - Funding Opportunity webinars, September 17 and 22](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7maine-s-technology-partner-schedules-two-rhtp-technology-and-innovation-initiatives-funding-opportunity-webinars-september-17-and-22)
+
+2026-09-09[Maine‘s technology partner posts Funding Opportunities Coming Soon Through Maine’s Rural Health Transformation Program](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7maine-s-technology-partner-posts-funding-opportunities-coming-soon-through-maine-s-rural-health-transformation-program)
+
+2026-09-04[Maine posts its RHTP Y1 Budget (Amended), $184.9 million of $190 million now routed through contracts and subawards, most of it in four Consolidated Partner Agreements](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7maine-posts-its-rhtp-y1-budget-amended-184-9-million-of-190-million-now-routed-through-contracts-and-subawards-most-of-it-in-four-consolidated-partner-agreements)
+
+2026-09-01[Maine sets its September Rural Health Transformation Program Advisory Committee meeting for tomorrow, noon to 1](https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#%C2%A7maine-sets-its-september-rural-health-transformation-program-advisory-committee-meeting-for-tomorrow-noon-to-1)
+
+2026-08-20[Maine’s RHTP Advisory Committee meets again in September, with two meeting decks now in the archive](https://www.ruralhealthtransformation.life/p/ten-rfps-in-north-carolina-running#%C2%A7maine-s-rhtp-advisory-committee-meets-again-in-september-with-two-meeting-decks-now-in-the-archive)
+
+2026-08-04[Maine picks 11 rural hospitals to share $30 million from its Rural Hospital Efficiency Fund for planning](https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#%C2%A7maine-picks-11-rural-hospitals-to-share-30-million-from-its-rural-hospital-efficiency-fund-for-planning)
+
+2026-07-29[Maine opens a $500K rural-workforce opportunity](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7maine-opens-a-500k-rural-workforce-opportunity)
 
 2026-07-13[Maine to put $30M out for EMRs — and nobody has to compete for it](https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#%C2%A7maine-to-put-30m-out-for-emrs-and-nobody-has-to-compete-for-it)
 

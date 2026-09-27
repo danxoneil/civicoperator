@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+9 dated briefs
 
 ## What Wisconsin committed to measure
 
@@ -109,9 +109,17 @@ Track opportunities on the [DHS grant funding opportunities page](https://www.dh
 
 [Wisconsin DHS Rural Health Transformation Program →](https://www.dhs.wisconsin.gov/business/rhtp.htm)
 
-## Activity log · 5 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-08-24[Wisconsin closes its last two RHTP grants and its current grant funding opportunities list is now empty](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7wisconsin-closes-its-last-two-rhtp-grants-and-its-current-grant-funding-opportunities-list-is-now-empty)
+
+2026-08-01[Wisconsin issues a Community Health Workers Training Providers RFA, $600K a year due August 21](https://www.ruralhealthtransformation.life/p/new-jersey-awards-83m-across-103#%C2%A7wisconsin-issues-a-community-health-workers-training-providers-rfa-600k-a-year-due-august-21)
+
+2026-07-30[Wisconsin opens the Sources of Strength Project RFA](https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#%C2%A7wisconsin-opens-the-sources-of-strength-project-rfa)
+
+2026-07-29[Wisconsin closes the Rural Dental Efficiency and Access grant](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7wisconsin-closes-the-rural-dental-efficiency-and-access-grant)
 
 2026-07-07[Wisconsin opens two RHTP funding channels](https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#%C2%A7wisconsin-opens-two-rhtp-funding-channels)
 
