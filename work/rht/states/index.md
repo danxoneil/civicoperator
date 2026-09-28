@@ -35,7 +35,7 @@ Each card: state · exact CMS Year-1 award · dated dispatches · how it defines
 
 $203.4M · 13 dispatches · Uses its own rural definition](/work/rht/states/alabama/)[Alaska
 
-$272.2M · 24 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
+$272.2M · 26 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
 
 $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/arizona/)[Arkansas
 
@@ -63,13 +63,13 @@ $206.9M · 10 dispatches · Uses its own rural definition](/work/rht/states/indi
 
 $209.0M · 19 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[Kansas
 
-$221.9M · 30 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
+$221.9M · 31 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
 
 $212.9M · 14 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
 $208.4M · 14 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
-$190.0M · 14 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
+$190.0M · 15 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
 $168.2M · 16 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
 
@@ -97,7 +97,7 @@ $211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-
 
 $212.1M · 12 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 18 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 19 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
 $198.9M · 42 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
@@ -135,7 +135,7 @@ $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisco
 
 $205.0M · 7 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-09-27. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-09-28. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
