@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## What Missouri committed to measure
 
@@ -110,9 +110,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Missouri‘s RHTP Strategic Minor Renovations Program gets its first per-hospital number: about $580,000 to Texas County Memorial Hospital](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7missouri-s-rhtp-strategic-minor-renovations-program-gets-its-first-per-hospital-number-about-580-000-to-texas-county-memorial-hospital)
 
 2026-09-23[Missouri names the 20 hospitals in its RHTP Strategic Minor Renovations Program, approximately $35 million](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7missouri-names-the-20-hospitals-in-its-rhtp-strategic-minor-renovations-program-approximately-35-million)
 

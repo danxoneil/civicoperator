@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-31 dated briefs
+32 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -108,9 +108,11 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 31 dated briefs
+## Activity log · 32 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[West Virginia names its HealthTech Appalachia fiscal agent: the West Virginia Jobs Investment Trust, for $18.8 million](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7west-virginia-names-its-healthtech-appalachia-fiscal-agent-the-west-virginia-jobs-investment-trust-for-18-8-million)
 
 2026-09-23[West Virginia names its first Provider Productivity Support Fund award: $500,000 to CHANGE, Inc. for AI tools](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7west-virginia-names-its-first-provider-productivity-support-fund-award-500-000-to-change-inc-for-ai-tools)
 

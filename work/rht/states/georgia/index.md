@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## Questions & answers
 
@@ -99,9 +99,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 Apply through the [GREAT Health grants portal](https://portal.greathealth.georgia.gov/) and track opportunities on the [funding opportunities](https://greathealth.georgia.gov/find-funding-opportunities) page and the [program hub](https://greathealth.georgia.gov/).
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Georgia‘s GREAT Health funds the Rural Healthcare Facility Resilience Program, $3.735 million to UGA’s Institute for Disaster Management](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7georgia-s-great-health-funds-the-rural-healthcare-facility-resilience-program-3-735-million-to-uga-s-institute-for-disaster-management)
 
 2026-09-17[Georgia opens the GREAT Health Rural Graduate Medical Education Development Grant Program, up to $3 million per award, closing October 15](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7georgia-opens-the-great-health-rural-graduate-medical-education-development-grant-program-up-to-3-million-per-award-closing-october-15)
 

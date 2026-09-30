@@ -2128,7 +2128,7 @@ $208.8M · 8 dispatches · Federal HRSA rural default](/work/rht/states/arkansas
 
 $233.6M · 21 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
-$200.1M · 36 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
+$200.1M · 37 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
 
 $154.2M · 2 dispatches · Uses its own rural definition](/work/rht/states/connecticut/)[Delaware
 
@@ -2136,11 +2136,11 @@ $157.4M · 4 dispatches · Federal HRSA rural default](/work/rht/states/delaware
 
 $209.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
 
-$218.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
+$218.9M · 10 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
 
 $188.9M · 1 dispatch · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
-$186.0M · 29 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
+$186.0M · 30 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
 
 $193.4M · 3 dispatches · Defined rural county list](/work/rht/states/illinois/)[Indiana
 
@@ -2154,7 +2154,7 @@ $212.9M · 14 dispatches · Defined rural county list](/work/rht/states/kentucky
 
 $208.4M · 14 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
-$190.0M · 15 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
+$190.0M · 16 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
 $168.2M · 16 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
 
@@ -2166,7 +2166,7 @@ $193.1M · 5 dispatches · Federal HRSA rural default](/work/rht/states/minnesot
 
 $205.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 12 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 13 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
 $233.5M · 21 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
@@ -2186,7 +2186,7 @@ $213.0M · 19 dispatches · Defined rural county list](/work/rht/states/north-ca
 
 $198.9M · 42 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
-$202.0M · 8 dispatches · Uses its own rural definition](/work/rht/states/ohio/)[Oklahoma
+$202.0M · 9 dispatches · Uses its own rural definition](/work/rht/states/ohio/)[Oklahoma
 
 $223.5M · 27 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
 
@@ -2204,7 +2204,7 @@ $206.9M · 21 dispatches · Federal HRSA rural default](/work/rht/states/tenness
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 5 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 6 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
 $195.7M · 32 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
@@ -2214,7 +2214,7 @@ $189.5M · 12 dispatches · Defined rural county list](/work/rht/states/virginia
 
 $181.3M · 23 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
 
-$199.5M · 31 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
+$199.5M · 32 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
 
 $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
 
@@ -3169,7 +3169,7 @@ Federal award data
 
 Tracker dispatches
 
-36 dated briefs
+37 dated briefs
 
 ## What Colorado committed to measure
 
@@ -3226,9 +3226,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [HCPF RHTP hub](https://hcpf.colorado.gov/rural-health-transformation-program) and the [RFA application portal](https://coloradorhtp-rfa.my.site.com/apply/s/), and complete the state's vendor interest survey to be listed for partnerships.
 
-## Activity log · 36 dated briefs
+## Activity log · 37 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Colorado publishes its full RHTP awardee list, $170.2 million across 92 awards](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7colorado-publishes-its-full-rhtp-awardee-list-170-2-million-across-92-awards)
 
 2026-09-18[Colorado’s public vendor interest list is still growing](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7colorado-s-public-vendor-interest-list-is-still-growing)
 
@@ -3788,7 +3790,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## Questions & answers
 
@@ -3833,9 +3835,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 Apply through the [GREAT Health grants portal](https://portal.greathealth.georgia.gov/) and track opportunities on the [funding opportunities](https://greathealth.georgia.gov/find-funding-opportunities) page and the [program hub](https://greathealth.georgia.gov/).
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Georgia‘s GREAT Health funds the Rural Healthcare Facility Resilience Program, $3.735 million to UGA’s Institute for Disaster Management](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7georgia-s-great-health-funds-the-rural-healthcare-facility-resilience-program-3-735-million-to-uga-s-institute-for-disaster-management)
 
 2026-09-17[Georgia opens the GREAT Health Rural Graduate Medical Education Development Grant Program, up to $3 million per award, closing October 15](https://www.ruralhealthtransformation.life/p/georgia-opens-the-great-health-rural#%C2%A7georgia-opens-the-great-health-rural-graduate-medical-education-development-grant-program-up-to-3-million-per-award-closing-october-15)
 
@@ -4055,7 +4059,7 @@ Federal award data
 
 Tracker dispatches
 
-29 dated briefs
+30 dated briefs
 
 ## How Idaho defines rural
 
@@ -4113,9 +4117,11 @@ Track opportunities on the [Idaho RHTP funding-opportunities page](https://healt
 
 [Idaho DHW Rural Health Transformation Program →](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant)
 
-## Activity log · 29 dated briefs
+## Activity log · 30 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Idaho‘s legislative committee moves $1.2 million out of the School-Based Family Support Hubs Solicitation and into Healthcare Infrastructure Support](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7idaho-s-legislative-committee-moves-1-2-million-out-of-the-school-based-family-support-hubs-solicitation-and-into-healthcare-infrastructure-support)
 
 2026-09-24[Idaho says its Healthcare Infrastructure Support Solicitation drew more than 250 applications asking for more than $300 million](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7idaho-says-its-healthcare-infrastructure-support-solicitation-drew-more-than-250-applications-asking-for-more-than-300-million)
 
@@ -5182,7 +5188,7 @@ Federal award data
 
 Tracker dispatches
 
-15 dated briefs
+16 dated briefs
 
 ## What Maine committed to measure
 
@@ -5232,9 +5238,11 @@ Track opportunities through the program hub and MCD Global Health's RHTP page.
 
 [Maine RHTP application portal (MCD Global Health) →](https://www.mcd.org/focus-areas/maine-rural-health-transformation-program)
 
-## Activity log · 15 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Maine posts Year 1 EMR Modernization results: 55 organizations, $29.4 million requested, 206 projects](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7maine-posts-year-1-emr-modernization-results-55-organizations-29-4-million-requested-206-projects)
 
 2026-09-28[Maine publishes one rural test for every RHTP dollar in its Maine RHTP Funding Opportunities: Universal Requirements for Funding Eligibility](https://www.ruralhealthtransformation.life/p/alaska-drops-the-letter-of-interest#%C2%A7maine-publishes-one-rural-test-for-every-rhtp-dollar-in-its-maine-rhtp-funding-opportunities-universal-requirements-for-funding-eligibility)
 
@@ -6123,7 +6131,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## What Missouri committed to measure
 
@@ -6181,9 +6189,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Missouri‘s RHTP Strategic Minor Renovations Program gets its first per-hospital number: about $580,000 to Texas County Memorial Hospital](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7missouri-s-rhtp-strategic-minor-renovations-program-gets-its-first-per-hospital-number-about-580-000-to-texas-county-memorial-hospital)
 
 2026-09-23[Missouri names the 20 hospitals in its RHTP Strategic Minor Renovations Program, approximately $35 million](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7missouri-names-the-20-hospitals-in-its-rhtp-strategic-minor-renovations-program-approximately-35-million)
 
@@ -7749,7 +7759,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+9 dated briefs
 
 ## What Ohio committed to measure
 
@@ -7799,9 +7809,11 @@ Join the RHT project listserv and track the ODH solicitation page for open oppor
 
 [Ohio RHTP solicitations →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-invitations/solicitation-invitations) [Join the RHT listserv →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/join-rht-project-listserv)
 
-## Activity log · 8 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Ohio posts the Rural Health Transformation (RHT)-Rural Hospital Training and Technical Assistance Center (RHTAC) solicitation, due October 20](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7ohio-posts-the-rural-health-transformation-rht-rural-hospital-training-and-technical-assistance-center-rhtac-solicitation-due-october-20)
 
 2026-09-04[Ohio opens the Dental Access Collaborative RFP SRC0000041620, one vendor to recruit Medicaid dentists, due October 13](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7ohio-opens-the-dental-access-collaborative-rfp-src0000041620-one-vendor-to-recruit-medicaid-dentists-due-october-13)
 
@@ -9282,7 +9294,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+6 dated briefs
 
 ## Questions & answers
 
@@ -9320,9 +9332,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 5 dated briefs
+## Activity log · 6 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Texas posts its Budget Period 1 Annual Report: $53.3 million obligated, 33 rural hospital districts at $750,000 each](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7texas-posts-its-budget-period-1-annual-report-53-3-million-obligated-33-rural-hospital-districts-at-750-000-each)
 
 2026-07-29[Texas opens award negotiations on three Rural Texas Strong initiatives — on a clock](https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#%C2%A7texas-opens-award-negotiations-on-three-rural-texas-strong-initiatives-on-a-clock)
 
@@ -10092,7 +10106,7 @@ Federal award data
 
 Tracker dispatches
 
-31 dated briefs
+32 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -10150,9 +10164,11 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 31 dated briefs
+## Activity log · 32 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[West Virginia names its HealthTech Appalachia fiscal agent: the West Virginia Jobs Investment Trust, for $18.8 million](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7west-virginia-names-its-healthtech-appalachia-fiscal-agent-the-west-virginia-jobs-investment-trust-for-18-8-million)
 
 2026-09-23[West Virginia names its first Provider Productivity Support Fund award: $500,000 to CHANGE, Inc. for AI tools](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7west-virginia-names-its-first-provider-productivity-support-fund-award-500-000-to-change-inc-for-ai-tools)
 

@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-29 dated briefs
+30 dated briefs
 
 ## How Idaho defines rural
 
@@ -110,9 +110,11 @@ Track opportunities on the [Idaho RHTP funding-opportunities page](https://healt
 
 [Idaho DHW Rural Health Transformation Program →](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant)
 
-## Activity log · 29 dated briefs
+## Activity log · 30 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-29[Idaho‘s legislative committee moves $1.2 million out of the School-Based Family Support Hubs Solicitation and into Healthcare Infrastructure Support](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7idaho-s-legislative-committee-moves-1-2-million-out-of-the-school-based-family-support-hubs-solicitation-and-into-healthcare-infrastructure-support)
 
 2026-09-24[Idaho says its Healthcare Infrastructure Support Solicitation drew more than 250 applications asking for more than $300 million](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7idaho-says-its-healthcare-infrastructure-support-solicitation-drew-more-than-250-applications-asking-for-more-than-300-million)
 
