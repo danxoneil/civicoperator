@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## What Maine committed to measure
 
@@ -96,9 +96,11 @@ Track opportunities through the program hub and MCD Global Health's RHTP page.
 
 [Maine RHTP application portal (MCD Global Health) →](https://www.mcd.org/focus-areas/maine-rural-health-transformation-program)
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-30[Maine opens Nursing Home Telehealth: Nursing Facilities, a grant for up to 15 skilled nursing facilities, due October 22](https://www.ruralhealthtransformation.life/p/new-york-publishes-its-rural-community#%C2%A7maine-opens-nursing-home-telehealth-nursing-facilities-a-grant-for-up-to-15-skilled-nursing-facilities-due-october-22)
 
 2026-09-29[Maine posts Year 1 EMR Modernization results: 55 organizations, $29.4 million requested, 206 projects](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7maine-posts-year-1-emr-modernization-results-55-organizations-29-4-million-requested-206-projects)
 
@@ -141,7 +143,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-09-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-01. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/maine/

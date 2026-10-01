@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## What New York committed to measure
 
@@ -99,9 +99,11 @@ Track opportunities on the [NYSDOH Transforming Rural Healthcare hub](https://he
 
 [NYSDOH Transforming Rural Healthcare →](https://health.ny.gov/facilities/transforming_rural_healthcare/)
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-30[New York publishes its Rural Community Health Integration Awardees List: $76,190,022 to 55 lead applicants, every eligible county but Rensselaer](https://www.ruralhealthtransformation.life/p/new-york-publishes-its-rural-community#%C2%A7new-york-publishes-its-rural-community-health-integration-awardees-list-76-190-022-to-55-lead-applicants-every-eligible-county-but-rensselaer)
 
 2026-09-09[New York names the 56 Rural Community Health Integration Awardees, $76,190,022 to the dollar](https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#%C2%A7new-york-names-the-56-rural-community-health-integration-awardees-76-190-022-to-the-dollar)
 
@@ -136,7 +138,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New York .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-09-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New York .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-01. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-york/
