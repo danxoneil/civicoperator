@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-11 dated briefs
+12 dated briefs
 
 ## What Rhode Island committed to measure
 
@@ -113,9 +113,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on [Ocean State Procures](https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46) (search “rural health”), complete the state's [interest survey](https://surveys.health.ri.gov/redcap/surveys/?s=CNJ3ADLPD4MRHLP3), and watch the [RHTP hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-grant) and its Rural Stakeholder Advisory Council.
 
-## Activity log · 11 dated briefs
+## Activity log · 12 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-01[Rhode Island‘s hospital association seeks a Finance Manager for the Rural Health Transformation Program](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7rhode-island-s-hospital-association-seeks-a-finance-manager-for-the-rural-health-transformation-program)
 
 2026-09-08[Rhode Island gets $5.48 million for healthcare Career and Technical Education at 14 Local Education Agencies](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7rhode-island-gets-5-48-million-for-healthcare-career-and-technical-education-at-14-local-education-agencies)
 
@@ -148,7 +150,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Rhode Island .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-09-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Rhode Island .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-01. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/rhode-island/

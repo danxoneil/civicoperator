@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-10 dated briefs
+11 dated briefs
 
 ## Questions & answers
 
@@ -99,9 +99,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 Apply through the [GREAT Health grants portal](https://portal.greathealth.georgia.gov/) and track opportunities on the [funding opportunities](https://greathealth.georgia.gov/find-funding-opportunities) page and the [program hub](https://greathealth.georgia.gov/).
 
-## Activity log · 10 dated briefs
+## Activity log · 11 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-09-30[Georgia withdraws its $10 million Year 1 Rural Health Transformation Program (RHTP) Strategy for Telehealth Enhancements – Initiative 3: Connecting to Care to Improve Healthcare Ac](https://www.ruralhealthtransformation.life/p/new-york-publishes-its-rural-community#%C2%A7georgia-withdraws-its-10-million-year-1-rural-health-transformation-program-rhtp-strategy-for-telehealth-enhancements-initiative-3-connecting-to-care-to-improve-healthcare-access-funding-opportunity-after-applications-closed)
 
 2026-09-29[Georgia‘s GREAT Health funds the Rural Healthcare Facility Resilience Program, $3.735 million to UGA’s Institute for Disaster Management](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7georgia-s-great-health-funds-the-rural-healthcare-facility-resilience-program-3-735-million-to-uga-s-institute-for-disaster-management)
 
@@ -132,7 +134,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Georgia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-09-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Georgia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-01. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/georgia/

@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-26 dated briefs
+27 dated briefs
 
 ## What Alaska committed to measure
 
@@ -102,9 +102,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** will go out as com
 
 Grant administration and applications run through the [Alaska Community Foundation grants portal](https://alaskacf.org/grants/); contribute ideas via the DOH Community Input Form and track updates on the [Alaska RHTP hub](https://health.alaska.gov/en/education/rural-health-transformation-program/).
 
-## Activity log · 26 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-01[Alaska targets $10 million of its Year 2 Fall Funding Cycle to Pay for Value Readiness, due October 28](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7alaska-targets-10-million-of-its-year-2-fall-funding-cycle-to-pay-for-value-readiness-due-october-28)
 
 2026-09-28[Alaska drops the Letter of Interest for its RHTP Year 2 fall cycle, due October 28, with a limit of five applications per organization](https://www.ruralhealthtransformation.life/p/alaska-drops-the-letter-of-interest#%C2%A7alaska-drops-the-letter-of-interest-for-its-rhtp-year-2-fall-cycle-due-october-28-with-a-limit-of-five-applications-per-organization)
 
@@ -167,7 +169,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alaska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-09-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alaska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-01. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/alaska/

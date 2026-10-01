@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-19 dated briefs
+20 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Track opportunities on the [NC RHTP Grant Opportunities](https://www.ncdhhs.gov/
 
 [Sign up for the NC RHTP newsletter →](https://ncdhhs.us4.list-manage.com/subscribe?u=58ec19aaea4630b1baad0e5e4&id=10ae728a96)
 
-## Activity log · 19 dated briefs
+## Activity log · 20 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-01[North Carolina opens the Rural Health Innovation Fund, five funding tiers up to $250,000, applications close November 16](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7north-carolina-opens-the-rural-health-innovation-fund-five-funding-tiers-up-to-250-000-applications-close-november-16)
 
 2026-09-28[North Carolina files its RHT Program Annual Report: $167,718,439.45 obligated to 14 first-tier entities, $105,290.58 spent](https://www.ruralhealthtransformation.life/p/alaska-drops-the-letter-of-interest#%C2%A7north-carolina-files-its-rht-program-annual-report-167-718-439-45-obligated-to-14-first-tier-entities-105-290-58-spent)
 
@@ -149,7 +151,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-09-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-01. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/north-carolina/
