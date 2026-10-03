@@ -42,7 +42,7 @@ We keep a strict line between **facts** (award amounts, agencies, official docum
 
 ## Editorial ownership
 
-Compiled and maintained by **Civic Operator LLC**. Last reviewed 2026-10-02.
+Compiled and maintained by **Civic Operator LLC**. Last reviewed 2026-10-03.
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/methodology/
