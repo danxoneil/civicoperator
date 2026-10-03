@@ -71,9 +71,15 @@ RURAL_PATH  = os.path.join(HERE, "rural_maps.json")
 rural_maps  = json.load(open(RURAL_PATH, encoding="utf-8")) if os.path.exists(RURAL_PATH) else {}
 KPI_PATH    = os.path.join(HERE, "kpis.json")
 kpis_raw    = json.load(open(KPI_PATH, encoding="utf-8")) if os.path.exists(KPI_PATH) else {"states": []}
-# self-declared metrics/objectives extracted from each state's CMS project narrative,
-# keyed by state display name. Only `tracked` (the topic list) is surfaced publicly;
-# the detailed baseline->target rows stay for the paywalled tracker.
+# self-declared metrics extracted from each state's CMS project narrative, keyed by
+# state display name. This file is a PUBLIC SLICE and holds only what this generator
+# renders: `tracked` (the topic chips) plus source provenance.
+# SPLIT 2026-09-22: the detailed baseline->target measure rows (37 states, 235
+# initiatives, 1,161 measures) used to live in this same file, which is committed to a
+# PUBLIC repo -- so paid-tier content was publicly fetchable. They now live in
+# kpis_detail.json, canonical copy in the private civicoperator-geo repo under
+# rhtp-kpis/. This generator needs NOTHING from that file; do not re-add
+# initiatives[]/objectives[] to kpis.json. A local kpis_detail.json is gitignored here.
 KPIS        = {s["state"]: s for s in kpis_raw.get("states", []) if s.get("tracked")}
 # per-state factual add-ons: rural-geography classification + exact CMS/USAspending
 # obligated award. NB: the maturity "Stage" analysis is intentionally NOT here —
