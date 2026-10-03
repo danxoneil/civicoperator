@@ -2118,7 +2118,7 @@ Each card: state · exact CMS Year-1 award · dated dispatches · how it defines
 
 [Alabama
 
-$203.4M · 13 dispatches · Uses its own rural definition](/work/rht/states/alabama/)[Alaska
+$203.4M · 14 dispatches · Uses its own rural definition](/work/rht/states/alabama/)[Alaska
 
 $272.2M · 27 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
 
@@ -2152,7 +2152,7 @@ $221.9M · 31 dispatches · Federal HRSA rural default](/work/rht/states/kansas/
 
 $212.9M · 14 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
-$208.4M · 14 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
+$208.4M · 15 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
 $190.0M · 17 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
@@ -2184,13 +2184,13 @@ $212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york
 
 $213.0M · 20 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
-$198.9M · 42 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
+$198.9M · 43 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
 $202.0M · 9 dispatches · Uses its own rural definition](/work/rht/states/ohio/)[Oklahoma
 
-$223.5M · 27 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
+$223.5M · 28 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
 
-$197.3M · 12 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
+$197.3M · 13 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
@@ -2212,9 +2212,9 @@ $195.1M · 25 dispatches · Federal HRSA rural default](/work/rht/states/vermont
 
 $189.5M · 12 dispatches · Defined rural county list](/work/rht/states/virginia/)[Washington
 
-$181.3M · 23 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
+$181.3M · 24 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
 
-$199.5M · 33 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
+$199.5M · 34 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
 
 $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
 
@@ -2366,7 +2366,7 @@ Federal award data
 
 Tracker dispatches
 
-13 dated briefs
+14 dated briefs
 
 ## What Alabama committed to measure
 
@@ -2420,9 +2420,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** are awarded compet
 
 [ARHTP hub →](https://alabamarhtp.com/) [ADECA Funding Opportunities →](https://adeca.alabama.gov/about/funding-opportunities/)
 
-## Activity log · 13 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[Alabama awards 34 ARHTP Round 2 grants, $54,793,527, closing out Year 1](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7alabama-awards-34-arhtp-round-2-grants-54-793-527-closing-out-year-1)
 
 2026-08-26[Alabama awards 138 ARHTP Round 1 grants worth $143,745,821, four of five initiatives over their advertised ceilings](https://www.ruralhealthtransformation.life/p/alabama-awards-138-arhtp-round-1#%C2%A7alabama-awards-138-arhtp-round-1-grants-worth-143-745-821-four-of-five-initiatives-over-their-advertised-ceilings)
 
@@ -5038,7 +5040,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## How Louisiana defines rural
 
@@ -5094,9 +5096,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [LA RHTP funding-opportunities page](https://ldh.la.gov/page/rhtp-funding-opportunities), watch for vendor showcases co-hosted with the Louisiana Rural Health Association, and monitor the [program hub](https://ldh.la.gov/page/rural-health-transformation-program).
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[Louisiana sets October 30 for Year 1 contracts and January to March 2027 for Year 2 NOFOs in its October 1 RHTP Updates webinar slides](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7louisiana-sets-october-30-for-year-1-contracts-and-january-to-march-2027-for-year-2-nofos-in-its-october-1-rhtp-updates-webinar-slides)
 
 2026-09-10[Louisiana makes 53 Rural Clinician Credit Bank awards, $12,701,996 against a $10 million allocation](https://www.ruralhealthtransformation.life/p/louisiana-makes-53-rural-clinician#%C2%A7louisiana-makes-53-rural-clinician-credit-bank-awards-12-701-996-against-a-10-million-allocation)
 
@@ -7558,7 +7562,7 @@ Federal award data
 
 Tracker dispatches
 
-42 dated briefs
+43 dated briefs
 
 ## What North Dakota committed to measure
 
@@ -7613,9 +7617,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Vendors can email product information to [rhtp@nd.gov](mailto:rhtp@nd.gov) to be added to the state's interested-vendor list. Track opportunities on the [ND RHTP hub](https://www.hhs.nd.gov/rural-health-transformation) and the [funding opportunities page](https://www.hhs.nd.gov/rural-health-transformation/funding).
 
-## Activity log · 42 dated briefs
+## Activity log · 43 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[North Dakota hands RHTP grant management to three anchor partners, starting with the UND Center for Rural Health](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7north-dakota-hands-rhtp-grant-management-to-three-anchor-partners-starting-with-the-und-center-for-rural-health)
 
 2026-09-15[North Dakota marks Expand Rural Health Care Rotations Awarded, the first of 25 Year 1 opportunities to say so](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7north-dakota-marks-expand-rural-health-care-rotations-awarded-the-first-of-25-year-1-opportunities-to-say-so)
 
@@ -7917,7 +7923,7 @@ Federal award data
 
 Tracker dispatches
 
-27 dated briefs
+28 dated briefs
 
 ## What Oklahoma committed to measure
 
@@ -7967,9 +7973,11 @@ Track open opportunities on the [RHTP funding page](https://oklahoma.gov/health/
 
 [Oklahoma RHTP funding page →](https://oklahoma.gov/health/rhtp/rhtp-funding.html)
 
-## Activity log · 27 dated briefs
+## Activity log · 28 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[Oklahoma posts its Year 1 Chronic Disease Management Program funding recipients, 15 awards for $15,608,845.22](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7oklahoma-posts-its-year-1-chronic-disease-management-program-funding-recipients-15-awards-for-15-608-845-22)
 
 2026-09-21[Oklahoma puts $16,023,961 of RHTP money into Building Health Data Utility at the Health Care Authority, off the state’s RHTP funding page entirely](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7oklahoma-puts-16-023-961-of-rhtp-money-into-building-health-data-utility-at-the-health-care-authority-off-the-state-s-rhtp-funding-page-entirely)
 
@@ -8097,7 +8105,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## What Oregon committed to measure
 
@@ -8155,9 +8163,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Complete OHA's [Vendor Interest Form](https://app.smartsheet.com/b/form/019c8c4dc64574cc8d9c0507aaba0e98) to be listed in the public directory, request an ORH regional convening invitation, and watch the [Catalyst Awards RFGP on OregonBuys](https://oregonbuys.gov/bso/external/bidDetail.sdo?docId=S-44300-00001537&external=true&parentUrl=close) and the [RHTP hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx).
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[Oregon is preparing to award about $2 million to roughly 12 community mental health programs under New RHTP Funding Will Strengthen Oregon’s Rural Behavioral Health Workforce](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7oregon-is-preparing-to-award-about-2-million-to-roughly-12-community-mental-health-programs-under-new-rhtp-funding-will-strengthen-oregon-s-rural-behavioral-health-workforce)
 
 2026-09-24[Oregon‘s Transformation Funds show up by name for the first time: Wallowa Memorial Hospital and Medical Clinics awarded over $5.4 million](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7oregon-s-transformation-funds-show-up-by-name-for-the-first-time-wallowa-memorial-hospital-and-medical-clinics-awarded-over-5-4-million)
 
@@ -9946,7 +9956,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+24 dated briefs
 
 ## What Washington committed to measure
 
@@ -10002,9 +10012,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on Washington's **Electronic Business Solution (WEBS)** to be notified of bids, and track the [HCA Bids & Contracts](https://www.hca.wa.gov/about-hca/bids-and-contracts) page and the [RHTP hub](https://www.hca.wa.gov/about-hca/programs-and-initiatives/value-based-purchasing/rural-health-transformation-program).
 
-## Activity log · 23 dated briefs
+## Activity log · 24 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[Washington names its 13-member Department of Health RHT Program Advisory Committee](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7washington-names-its-13-member-department-of-health-rht-program-advisory-committee)
 
 2026-09-23[Washington maps all $181.26 million by channel in its Rural Health Transformation Program Update webinar deck](https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#%C2%A7washington-maps-all-181-26-million-by-channel-in-its-rural-health-transformation-program-update-webinar-deck)
 
@@ -10124,7 +10136,7 @@ Federal award data
 
 Tracker dispatches
 
-33 dated briefs
+34 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -10182,9 +10194,11 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 33 dated briefs
+## Activity log · 34 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[West Virginia‘s AI documentation awards come in at $363,000 a hospital, per Vandalia Health’s own award release](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7west-virginia-s-ai-documentation-awards-come-in-at-363-000-a-hospital-per-vandalia-health-s-own-award-release)
 
 2026-10-01[West Virginia names nine more RHTP recipients, led by More Than $3.2 Million in Rural Health Transformation Investments for AI documentation at five rural hospitals](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7west-virginia-names-nine-more-rhtp-recipients-led-by-more-than-3-2-million-in-rural-health-transformation-investments-for-ai-documentation-at-five-rural-hospitals)
 

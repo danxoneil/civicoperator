@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-27 dated briefs
+28 dated briefs
 
 ## What Oklahoma committed to measure
 
@@ -102,9 +102,11 @@ Track open opportunities on the [RHTP funding page](https://oklahoma.gov/health/
 
 [Oklahoma RHTP funding page →](https://oklahoma.gov/health/rhtp/rhtp-funding.html)
 
-## Activity log · 27 dated briefs
+## Activity log · 28 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-02[Oklahoma posts its Year 1 Chronic Disease Management Program funding recipients, 15 awards for $15,608,845.22](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7oklahoma-posts-its-year-1-chronic-disease-management-program-funding-recipients-15-awards-for-15-608-845-22)
 
 2026-09-21[Oklahoma puts $16,023,961 of RHTP money into Building Health Data Utility at the Health Care Authority, off the state’s RHTP funding page entirely](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7oklahoma-puts-16-023-961-of-rhtp-money-into-building-health-data-utility-at-the-health-care-authority-off-the-state-s-rhtp-funding-page-entirely)
 
