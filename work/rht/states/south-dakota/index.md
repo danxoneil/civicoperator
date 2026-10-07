@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-13 dated briefs
+14 dated briefs
 
 ## What South Dakota committed to measure
 
@@ -94,9 +94,11 @@ Track opportunities on the [RHT posting board](https://postingboard.esmsolutions
 
 [Join the SD Rural Health listserv →](https://listserv.sd.gov/scripts/wa.exe?SUBED1=SDRURALHEALTH&A=1)
 
-## Activity log · 13 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-06[South Dakota awards approximately $7.2 million to 25 projects under its Enhancing Sustainable Emergency Medical Services (EMS) Initiative](https://www.ruralhealthtransformation.life/p/south-dakota-awards-approximately#%C2%A7south-dakota-awards-approximately-7-2-million-to-25-projects-under-its-enhancing-sustainable-emergency-medical-services-ems-initiative)
 
 2026-09-25[South Dakota has its Rural Health Data Atlas–Informatics Services and Medicaid PACT RFPs open, due September 28 and October 2](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7south-dakota-has-its-rural-health-data-atlas-informatics-services-and-medicaid-pact-rfps-open-due-september-28-and-october-2)
 
@@ -133,7 +135,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-06. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-07. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/south-dakota/

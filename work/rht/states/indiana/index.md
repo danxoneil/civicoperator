@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-10 dated briefs
+11 dated briefs
 
 ## What Indiana committed to measure
 
@@ -106,9 +106,11 @@ Indiana maintains a self-service vendor intake list (add your firm via the state
 
 [Indiana IDOA opportunities →](https://www.in.gov/idoa/procurement/current-business-opportunities/) [Subscribe to GROW updates →](https://cloud.subscription.in.gov/signup?depid=546006748)
 
-## Activity log · 10 dated briefs
+## Activity log · 11 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-06[Indiana reports awards and vendor picks across six statewide initiatives in its October Update](https://www.ruralhealthtransformation.life/p/south-dakota-awards-approximately#%C2%A7indiana-reports-awards-and-vendor-picks-across-six-statewide-initiatives-in-its-october-update)
 
 2026-09-04[Indiana names nearly 200 GROW Regional Grant subrecipients, $112.4 million across eight regions plus $16.25 million in surplus awards](https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#%C2%A7indiana-names-nearly-200-grow-regional-grant-subrecipients-112-4-million-across-eight-regions-plus-16-25-million-in-surplus-awards)
 
@@ -139,7 +141,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Indiana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-06. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Indiana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-07. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/indiana/

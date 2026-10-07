@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-13 dated briefs
+15 dated briefs
 
 ## What Virginia committed to measure
 
@@ -101,9 +101,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts and partner agreemen
 
 Track opportunities on the [VA Rural Vitality hub](https://www.ruralhealthtransformationva.virginia.gov/) and the DMAS [Rural Health Transformation page](https://dmas.virginia.gov/data-reporting/programs-services/rural-health-transformation/), and direct questions to [ruralhealth@vdh.virginia.gov](mailto:ruralhealth@vdh.virginia.gov).
 
-## Activity log · 13 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-07[Virginia opens the CareIQ Tech Innovation Fund RFA (C-27-002), $9.9 million in non-dilutive grants for rural health technology, due October 29](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7virginia-opens-the-careiq-tech-innovation-fund-rfa-c-27-002-9-9-million-in-non-dilutive-grants-for-rural-health-technology-due-october-29)
+
+2026-10-07[Virginia opens Build Career Pipelines through the Department of Education, an estimated $120,868 per award for 75 rural school divisions and 3 regional technical centers, due Octob](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7virginia-opens-build-career-pipelines-through-the-department-of-education-an-estimated-120-868-per-award-for-75-rural-school-divisions-and-3-regional-technical-centers-due-october-23)
 
 2026-10-05[Virginia Health Care Foundation names 25 Provider Interoperability awards, $14.39 million](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7virginia-health-care-foundation-names-25-provider-interoperability-awards-14-39-million)
 
@@ -140,7 +144,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-06. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-07. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/virginia/

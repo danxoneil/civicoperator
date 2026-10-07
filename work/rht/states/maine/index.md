@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-17 dated briefs
+20 dated briefs
 
 ## What Maine committed to measure
 
@@ -96,9 +96,15 @@ Track opportunities through the program hub and MCD Global Health's RHTP page.
 
 [Maine RHTP application portal (MCD Global Health) →](https://www.mcd.org/focus-areas/maine-rural-health-transformation-program)
 
-## Activity log · 17 dated briefs
+## Activity log · 20 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-07[Maine posts its Maine RHTP Y2 Project Narrative, moving $17.9 million out of Innovation & Technology and adding a Tribal Healing activity under its 1115 waiver](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7maine-posts-its-maine-rhtp-y2-project-narrative-moving-17-9-million-out-of-innovation-and-technology-and-adding-a-tribal-healing-activity-under-its-1115-waiver)
+
+2026-10-07[Maine‘s technology partner opens Perinatal Specialty Telehealth, Teledentistry and Virtual Quick Care solicitations on its Digital Health Projects page, and moves Youth Tele-Behavi](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7maine-s-technology-partner-opens-perinatal-specialty-telehealth-teledentistry-and-virtual-quick-care-solicitations-on-its-digital-health-projects-page-and-moves-youth-tele-behavioral-health-up-to-october-16)
+
+2026-10-06[Maine posts the Zoom link for tomorrow’s Rural Health Transformation Program Advisory Committee meeting, now 30 minutes](https://www.ruralhealthtransformation.life/p/south-dakota-awards-approximately#%C2%A7maine-posts-the-zoom-link-for-tomorrow-s-rural-health-transformation-program-advisory-committee-meeting-now-30-minutes)
 
 2026-09-30[Maine opens Nursing Home Telehealth: Nursing Facilities, a grant for up to 15 skilled nursing facilities, due October 22](https://www.ruralhealthtransformation.life/p/new-york-publishes-its-rural-community#%C2%A7maine-opens-nursing-home-telehealth-nursing-facilities-a-grant-for-up-to-15-skilled-nursing-facilities-due-october-22)
 
@@ -143,7 +149,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-06. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-07. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/maine/

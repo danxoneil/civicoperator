@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-0 dated briefs
+1 dated brief
 
 ## What Massachusetts committed to measure
 
@@ -104,6 +104,12 @@ Eligibility for RHTP funds generally runs on two tracks. **Direct-to-state contr
 
 The best entry point today is to monitor the [Massachusetts RHTP hub](https://www.mass.gov/rural-health-transformation-program) and reach the program contact, Kirby Lecy, at [kirby.lecy@mass.gov](mailto:kirby.lecy@mass.gov).
 
+## Activity log · 1 dated brief
+
+Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-07[Massachusetts opens the Rural Health Transformation Program (RHTP) Rural Partners RFA, one application for 27 activities across six initiatives, due October 26](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7massachusetts-opens-the-rural-health-transformation-program-rhtp-rural-partners-rfa-one-application-for-27-activities-across-six-initiatives-due-october-26)
+
 ## Related
 
 [← All 50 state profiles](/work/rht/states/)
@@ -113,7 +119,7 @@ The best entry point today is to monitor the [Massachusetts RHTP hub](https://ww
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Massachusetts .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-06. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Massachusetts .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-07. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/massachusetts/
