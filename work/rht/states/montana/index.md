@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-21 dated briefs
+22 dated briefs
 
 ## What Montana committed to measure
 
@@ -100,9 +100,11 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 21 dated briefs
+## Activity log · 22 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-09[Montana awards $8.7 million in DPHHS EMS Equipment Grants, more than double the $4 million it posted](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7montana-awards-8-7-million-in-dphhs-ems-equipment-grants-more-than-double-the-4-million-it-posted)
 
 2026-09-14[Montana opens RHTP-Montana Community Health Aide Program (CHAP) Technical Assistance, DPHHS-RFP-2027-0700NAV, closing October 1](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7montana-opens-rhtp-montana-community-health-aide-program-chap-technical-assistance-dphhs-rfp-2027-0700nav-closing-october-1)
 
@@ -155,7 +157,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-12. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/montana/
