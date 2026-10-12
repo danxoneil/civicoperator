@@ -83,7 +83,7 @@ $205.9M · 20 dispatches · Federal HRSA rural default](/work/rht/states/mississ
 
 $216.3M · 14 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
-$233.5M · 21 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
+$233.5M · 22 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
 $218.5M · 16 dispatches · Uses its own rural definition](/work/rht/states/nebraska/)[Nevada
 
@@ -97,7 +97,7 @@ $211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-
 
 $212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 22 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 23 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
 $198.9M · 43 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
@@ -105,11 +105,11 @@ $202.0M · 9 dispatches · Uses its own rural definition](/work/rht/states/ohio/
 
 $223.5M · 29 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
 
-$197.3M · 15 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
+$197.3M · 16 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
-$156.2M · 14 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
+$156.2M · 15 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
 
 $200.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
 
@@ -119,7 +119,7 @@ $206.9M · 21 dispatches · Federal HRSA rural default](/work/rht/states/tenness
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 7 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 8 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
 $195.7M · 32 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
@@ -135,7 +135,7 @@ $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisco
 
 $205.0M · 7 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-10-11. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-10-12. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly activity index](/work/rht/activity)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
