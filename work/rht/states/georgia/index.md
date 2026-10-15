@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## Questions & answers
 
@@ -99,9 +99,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 Apply through the [GREAT Health grants portal](https://portal.greathealth.georgia.gov/) and track opportunities on the [funding opportunities](https://greathealth.georgia.gov/find-funding-opportunities) page and the [program hub](https://greathealth.georgia.gov/).
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Georgia opens the GREAT Health Rural Simulation Mannequin Grant Program, $90,000 per award, due November 13](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7georgia-opens-the-great-health-rural-simulation-mannequin-grant-program-90-000-per-award-due-november-13)
 
 2026-10-05[Georgia moves its GME Development GREAT Health Funding Opportunity Announcement deadline to October 30](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7georgia-moves-its-gme-development-great-health-funding-opportunity-announcement-deadline-to-october-30)
 

@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+9 dated briefs
 
 ## Questions & answers
 
@@ -88,9 +88,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 8 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Texas posts 284 Rural Texas Strong applications at Intent to Award in its List of Award Recipients Oct. 8, 2026, $451 million, with 68 contracts executed](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7texas-posts-284-rural-texas-strong-applications-at-intent-to-award-in-its-list-of-award-recipients-oct-8-2026-451-million-with-68-contracts-executed)
 
 2026-10-09[Texas puts dates on its three Year 2 RFAs in its Rural Texas Strong Timelines, with applications due January 5, 12 and 19](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7texas-puts-dates-on-its-three-year-2-rfas-in-its-rural-texas-strong-timelines-with-applications-due-january-5-12-and-19)
 

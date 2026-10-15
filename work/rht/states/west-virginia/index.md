@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-34 dated briefs
+35 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -108,9 +108,11 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 34 dated briefs
+## Activity log · 35 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-14[West Virginia sends $1,656,432 from its Provider Productivity Support Fund to the West Virginia Primary Care Association for a statewide clinically integrated network](https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#%C2%A7west-virginia-sends-1-656-432-from-its-provider-productivity-support-fund-to-the-west-virginia-primary-care-association-for-a-statewide-clinically-integrated-network)
 
 2026-10-02[West Virginia‘s AI documentation awards come in at $363,000 a hospital, per Vandalia Health’s own award release](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7west-virginia-s-ai-documentation-awards-come-in-at-363-000-a-hospital-per-vandalia-health-s-own-award-release)
 

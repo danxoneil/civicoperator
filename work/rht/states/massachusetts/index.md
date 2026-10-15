@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-1 dated brief
+2 dated briefs
 
 ## What Massachusetts committed to measure
 
@@ -104,9 +104,11 @@ Eligibility for RHTP funds generally runs on two tracks. **Direct-to-state contr
 
 The best entry point today is to monitor the [Massachusetts RHTP hub](https://www.mass.gov/rural-health-transformation-program) and reach the program contact, Kirby Lecy, at [kirby.lecy@mass.gov](mailto:kirby.lecy@mass.gov).
 
-## Activity log · 1 dated brief
+## Activity log · 2 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Massachusetts posts a corrected Attachment A – Rural Partner Application for its Rural Partners RFA; questions close October 14](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7massachusetts-posts-a-corrected-attachment-a-rural-partner-application-for-its-rural-partners-rfa-questions-close-october-14)
 
 2026-10-07[Massachusetts opens the Rural Health Transformation Program (RHTP) Rural Partners RFA, one application for 27 activities across six initiatives, due October 26](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7massachusetts-opens-the-rural-health-transformation-program-rhtp-rural-partners-rfa-one-application-for-27-activities-across-six-initiatives-due-october-26)
 

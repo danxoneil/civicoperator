@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+24 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Track opportunities on the [NC RHTP Grant Opportunities](https://www.ncdhhs.gov/
 
 [Sign up for the NC RHTP newsletter →](https://ncdhhs.us4.list-manage.com/subscribe?u=58ec19aaea4630b1baad0e5e4&id=10ae728a96)
 
-## Activity log · 23 dated briefs
+## Activity log · 24 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-13[North Carolina sets an October 15 webinar on NC Medicaid’s Primary Care Payment Pilot Program, a monthly per-patient payment for rural primary care](https://www.ruralhealthtransformation.life/p/catalyst-deep-dive-cms-lists-eight#%C2%A7north-carolina-sets-an-october-15-webinar-on-nc-medicaid-s-primary-care-payment-pilot-program-a-monthly-per-patient-payment-for-rural-primary-care)
 
 2026-10-09[North Carolina‘s Region 4 ROOTS hub names its Early Implementation Partners, and Trillium sets a Region 2 Rural Ready Roundtable for October 19](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7north-carolina-s-region-4-roots-hub-names-its-early-implementation-partners-and-trillium-sets-a-region-2-rural-ready-roundtable-for-october-19)
 

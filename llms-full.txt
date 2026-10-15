@@ -1191,7 +1191,7 @@ Each card: state · exact CMS Year-1 award · dated dispatches · how it defines
 
 $203.4M · 14 dispatches · Uses its own rural definition](/work/rht/states/alabama/)[Alaska
 
-$272.2M · 27 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
+$272.2M · 28 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
 
 $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/arizona/)[Arkansas
 
@@ -1207,7 +1207,7 @@ $157.4M · 4 dispatches · Federal HRSA rural default](/work/rht/states/delaware
 
 $209.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
 
-$218.9M · 12 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
+$218.9M · 13 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
 
 $188.9M · 2 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
@@ -1219,7 +1219,7 @@ $206.9M · 11 dispatches · Uses its own rural definition](/work/rht/states/indi
 
 $209.0M · 19 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[Kansas
 
-$221.9M · 33 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
+$221.9M · 34 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
 
 $212.9M · 14 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
@@ -1229,13 +1229,13 @@ $190.0M · 20 dispatches · Defined rural county list](/work/rht/states/maine/)[
 
 $168.2M · 16 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
 
-$162.0M · 1 dispatch · Uses its own rural definition](/work/rht/states/massachusetts/)[Michigan
+$162.0M · 2 dispatches · Uses its own rural definition](/work/rht/states/massachusetts/)[Michigan
 
-$173.1M · 13 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
+$173.1M · 14 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
 
 $193.1M · 5 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
 
-$205.9M · 20 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
+$205.9M · 22 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
 $216.3M · 14 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
@@ -1253,7 +1253,7 @@ $211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-
 
 $212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 23 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 24 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
 $198.9M · 43 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
@@ -1261,7 +1261,7 @@ $202.0M · 9 dispatches · Uses its own rural definition](/work/rht/states/ohio/
 
 $223.5M · 29 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
 
-$197.3M · 16 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
+$197.3M · 17 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
@@ -1269,13 +1269,13 @@ $156.2M · 15 dispatches · Defined rural county list](/work/rht/states/rhode-is
 
 $200.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
 
-$189.5M · 14 dispatches · Federal HRSA rural default](/work/rht/states/south-dakota/)[Tennessee
+$189.5M · 15 dispatches · Federal HRSA rural default](/work/rht/states/south-dakota/)[Tennessee
 
-$206.9M · 21 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Test Run Pilot
+$206.9M · 22 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Test Run Pilot
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 8 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 9 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
 $195.7M · 32 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
@@ -1285,7 +1285,7 @@ $189.5M · 16 dispatches · Defined rural county list](/work/rht/states/virginia
 
 $181.3M · 24 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
 
-$199.5M · 34 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
+$199.5M · 35 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
 
 $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
 
@@ -1599,7 +1599,7 @@ Federal award data
 
 Tracker dispatches
 
-27 dated briefs
+28 dated briefs
 
 ## What Alaska committed to measure
 
@@ -1647,9 +1647,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** will go out as com
 
 Grant administration and applications run through the [Alaska Community Foundation grants portal](https://alaskacf.org/grants/); contribute ideas via the DOH Community Input Form and track updates on the [Alaska RHTP hub](https://health.alaska.gov/en/education/rural-health-transformation-program/).
 
-## Activity log · 27 dated briefs
+## Activity log · 28 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Alaska issues its last five Year 1 Notices of Intent to Award, $4.8 million, and closes Year 1 at 254 projects and $248,976,547.51 in its award list](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7alaska-issues-its-last-five-year-1-notices-of-intent-to-award-4-8-million-and-closes-year-1-at-254-projects-and-248-976-547-51-in-its-award-list)
 
 2026-10-01[Alaska targets $10 million of its Year 2 Fall Funding Cycle to Pay for Value Readiness, due October 28](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7alaska-targets-10-million-of-its-year-2-fall-funding-cycle-to-pay-for-value-readiness-due-october-28)
 
@@ -2867,7 +2869,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## Questions & answers
 
@@ -2912,9 +2914,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 Apply through the [GREAT Health grants portal](https://portal.greathealth.georgia.gov/) and track opportunities on the [funding opportunities](https://greathealth.georgia.gov/find-funding-opportunities) page and the [program hub](https://greathealth.georgia.gov/).
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Georgia opens the GREAT Health Rural Simulation Mannequin Grant Program, $90,000 per award, due November 13](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7georgia-opens-the-great-health-rural-simulation-mannequin-grant-program-90-000-per-award-due-november-13)
 
 2026-10-05[Georgia moves its GME Development GREAT Health Funding Opportunity Announcement deadline to October 30](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7georgia-moves-its-gme-development-great-health-funding-opportunity-announcement-deadline-to-october-30)
 
@@ -3781,7 +3785,7 @@ Federal award data
 
 Tracker dispatches
 
-33 dated briefs
+34 dated briefs
 
 ## Questions & answers
 
@@ -3829,9 +3833,11 @@ Track opportunities on the [KDHE RHTP hub](https://www.kdhe.ks.gov/2361/Rural-He
 
 [KDHE Rural Health Transformation Program →](https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program)
 
-## Activity log · 33 dated briefs
+## Activity log · 34 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-13[Kansas posts its Year 2 RPGP/CAP RFA Webinar deck: consortia now eligible, RPGP awards capped at $5 million, indirect at 5%](https://www.ruralhealthtransformation.life/p/catalyst-deep-dive-cms-lists-eight#%C2%A7kansas-posts-its-year-2-rpgp-cap-rfa-webinar-deck-consortia-now-eligible-rpgp-awards-capped-at-5-million-indirect-at-5)
 
 2026-10-08[Kansas tells its implementation advisory group that 24 agreements worth about $32 million were unsigned as of October 1, and names five Year 2 RFAs](https://www.ruralhealthtransformation.life/p/mississippi-opens-the-statewide-health#%C2%A7kansas-tells-its-implementation-advisory-group-that-24-agreements-worth-about-32-million-were-unsigned-as-of-october-1-and-names-five-year-2-rfas)
 
@@ -4612,7 +4618,7 @@ Federal award data
 
 Tracker dispatches
 
-1 dated brief
+2 dated briefs
 
 ## What Massachusetts committed to measure
 
@@ -4662,9 +4668,11 @@ Eligibility for RHTP funds generally runs on two tracks. **Direct-to-state contr
 
 The best entry point today is to monitor the [Massachusetts RHTP hub](https://www.mass.gov/rural-health-transformation-program) and reach the program contact, Kirby Lecy, at [kirby.lecy@mass.gov](mailto:kirby.lecy@mass.gov).
 
-## Activity log · 1 dated brief
+## Activity log · 2 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Massachusetts posts a corrected Attachment A – Rural Partner Application for its Rural Partners RFA; questions close October 14](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7massachusetts-posts-a-corrected-attachment-a-rural-partner-application-for-its-rural-partners-rfa-questions-close-october-14)
 
 2026-10-07[Massachusetts opens the Rural Health Transformation Program (RHTP) Rural Partners RFA, one application for 27 activities across six initiatives, due October 26](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7massachusetts-opens-the-rural-health-transformation-program-rhtp-rural-partners-rfa-one-application-for-27-activities-across-six-initiatives-due-october-26)
 
@@ -4797,7 +4805,7 @@ Federal award data
 
 Tracker dispatches
 
-13 dated briefs
+14 dated briefs
 
 ## What Michigan committed to measure
 
@@ -4852,9 +4860,11 @@ Track opportunities in **EGrAMS** via the [MDHHS RHTP hub](https://www.michigan.
 
 [MDHHS Rural Health Transformation Program →](https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program)
 
-## Activity log · 13 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-14[Michigan says its first grant cycle turned 206 applications into 72 awards worth $48.7 million](https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#%C2%A7michigan-says-its-first-grant-cycle-turned-206-applications-into-72-awards-worth-48-7-million)
 
 2026-09-08[Michigan routes $25.8 million of RHTP to the Department of Labor and Economic Opportunity, $16.7 million to the Office of Rural Prosperity and $9.1 million to the High-Speed Intern](https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#%C2%A7michigan-routes-25-8-million-of-rhtp-to-the-department-of-labor-and-economic-opportunity-16-7-million-to-the-office-of-rural-prosperity-and-9-1-million-to-the-high-speed-internet-office)
 
@@ -5080,7 +5090,7 @@ Federal award data
 
 Tracker dispatches
 
-20 dated briefs
+22 dated briefs
 
 ## Questions & answers
 
@@ -5124,9 +5134,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 20 dated briefs
+## Activity log · 22 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-14[Mississippi opens a $9.5 million Electronic Health Records (EHR) Replacement for Small Rural Providers Program, applications October 21 to November 23](https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#%C2%A7mississippi-opens-a-9-5-million-electronic-health-records-ehr-replacement-for-small-rural-providers-program-applications-october-21-to-november-23)
+
+2026-10-10[Mississippi amends its BRIDGE Innovative Pilot Program NOFO: $16 million available, colleges and out-of-state applicants in, one application per NPI or TIN](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7mississippi-amends-its-bridge-innovative-pilot-program-nofo-16-million-available-colleges-and-out-of-state-applicants-in-one-application-per-npi-or-tin)
 
 2026-10-08[Mississippi opens the Statewide Health Information Exchange/Health Data Utility (HIE/HDU) RFP, due November 3](https://www.ruralhealthtransformation.life/p/mississippi-opens-the-statewide-health#%C2%A7mississippi-opens-the-statewide-health-information-exchange-health-data-utility-hie-hdu-rfp-due-november-3)
 
@@ -6503,7 +6517,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+24 dated briefs
 
 ## Questions & answers
 
@@ -6551,9 +6565,11 @@ Track opportunities on the [NC RHTP Grant Opportunities](https://www.ncdhhs.gov/
 
 [Sign up for the NC RHTP newsletter →](https://ncdhhs.us4.list-manage.com/subscribe?u=58ec19aaea4630b1baad0e5e4&id=10ae728a96)
 
-## Activity log · 23 dated briefs
+## Activity log · 24 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-13[North Carolina sets an October 15 webinar on NC Medicaid’s Primary Care Payment Pilot Program, a monthly per-patient payment for rural primary care](https://www.ruralhealthtransformation.life/p/catalyst-deep-dive-cms-lists-eight#%C2%A7north-carolina-sets-an-october-15-webinar-on-nc-medicaid-s-primary-care-payment-pilot-program-a-monthly-per-patient-payment-for-rural-primary-care)
 
 2026-10-09[North Carolina‘s Region 4 ROOTS hub names its Early Implementation Partners, and Trillium sets a Region 2 Rural Ready Roundtable for October 19](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7north-carolina-s-region-4-roots-hub-names-its-early-implementation-partners-and-trillium-sets-a-region-2-rural-ready-roundtable-for-october-19)
 
@@ -7218,7 +7234,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## What Oregon committed to measure
 
@@ -7276,9 +7292,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Complete OHA's [Vendor Interest Form](https://app.smartsheet.com/b/form/019c8c4dc64574cc8d9c0507aaba0e98) to be listed in the public directory, request an ORH regional convening invitation, and watch the [Catalyst Awards RFGP on OregonBuys](https://oregonbuys.gov/bso/external/bidDetail.sdo?docId=S-44300-00001537&external=true&parentUrl=close) and the [RHTP hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Oregon posts version 3 of its RHTP Frequently Asked Questions for Catalyst, Immediate Impact and local public health awardees](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7oregon-posts-version-3-of-its-rhtp-frequently-asked-questions-for-catalyst-immediate-impact-and-local-public-health-awardees)
 
 2026-10-09[Oregon‘s Office of Rural Health reports workforce development and behavioral healthcare access emerge as leading themes during the first round of RHTP convening across Oregon](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7oregon-s-office-of-rural-health-reports-workforce-development-and-behavioral-healthcare-access-emerge-as-leading-themes-during-the-first-round-of-rhtp-convening-across-oregon)
 
@@ -8041,7 +8059,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## What South Dakota committed to measure
 
@@ -8089,9 +8107,11 @@ Track opportunities on the [RHT posting board](https://postingboard.esmsolutions
 
 [Join the SD Rural Health listserv →](https://listserv.sd.gov/scripts/wa.exe?SUBED1=SDRURALHEALTH&A=1)
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[South Dakota puts 292 payments and $12.2 million behind its South Dakota Rural Health Transformation: Where Investment Meets Impact map, $8.8 million of it in PACT quality payments](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7south-dakota-puts-292-payments-and-12-2-million-behind-its-south-dakota-rural-health-transformation-where-investment-meets-impact-map-8-8-million-of-it-in-pact-quality-payments-to-providers)
 
 2026-10-06[South Dakota awards approximately $7.2 million to 25 projects under its Enhancing Sustainable Emergency Medical Services (EMS) Initiative](https://www.ruralhealthtransformation.life/p/south-dakota-awards-approximately#%C2%A7south-dakota-awards-approximately-7-2-million-to-25-projects-under-its-enhancing-sustainable-emergency-medical-services-ems-initiative)
 
@@ -8193,7 +8213,7 @@ Federal award data
 
 Tracker dispatches
 
-21 dated briefs
+22 dated briefs
 
 ## What Tennessee committed to measure
 
@@ -8253,9 +8273,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Tennessee RHTP hub](https://www.tn.gov/health/rural) and the [RHTP funding portal](https://c2cre237.caspio.com/dp/4cdb40003c407a2328014c28a496), and watch the Department of General Services RFP page for live solicitations.
 
-## Activity log · 21 dated briefs
+## Activity log · 22 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Tennessee has its County Health Council Collaborative Action for Rural Engagement (CARE) Grants, RFA #34320-19727 open: $2 million, up to $500,000 per award, due November 20](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7tennessee-has-its-county-health-council-collaborative-action-for-rural-engagement-care-grants-rfa-34320-19727-open-2-million-up-to-500-000-per-award-due-november-20)
 
 2026-09-15[Tennessee‘s Community Health Worker (CHW) Infrastructure Project, RFA #31865-00020, takes questions until 2 p.m. today](https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#%C2%A7tennessee-s-community-health-worker-chw-infrastructure-project-rfa-31865-00020-takes-questions-until-2-p-m-today)
 
@@ -8447,7 +8469,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+9 dated briefs
 
 ## Questions & answers
 
@@ -8485,9 +8507,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 8 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Texas posts 284 Rural Texas Strong applications at Intent to Award in its List of Award Recipients Oct. 8, 2026, $451 million, with 68 contracts executed](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7texas-posts-284-rural-texas-strong-applications-at-intent-to-award-in-its-list-of-award-recipients-oct-8-2026-451-million-with-68-contracts-executed)
 
 2026-10-09[Texas puts dates on its three Year 2 RFAs in its Rural Texas Strong Timelines, with applications due January 5, 12 and 19](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7texas-puts-dates-on-its-three-year-2-rfas-in-its-rural-texas-strong-timelines-with-applications-due-january-5-12-and-19)
 
@@ -9273,7 +9297,7 @@ Federal award data
 
 Tracker dispatches
 
-34 dated briefs
+35 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -9331,9 +9355,11 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 34 dated briefs
+## Activity log · 35 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-14[West Virginia sends $1,656,432 from its Provider Productivity Support Fund to the West Virginia Primary Care Association for a statewide clinically integrated network](https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#%C2%A7west-virginia-sends-1-656-432-from-its-provider-productivity-support-fund-to-the-west-virginia-primary-care-association-for-a-statewide-clinically-integrated-network)
 
 2026-10-02[West Virginia‘s AI documentation awards come in at $363,000 a hospital, per Vandalia Health’s own award release](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7west-virginia-s-ai-documentation-awards-come-in-at-363-000-a-hospital-per-vandalia-health-s-own-award-release)
 
