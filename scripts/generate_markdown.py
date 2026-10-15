@@ -33,7 +33,7 @@ EXCLUDE_DIRS = {
 STRIP_SELECTORS = [
     "script", "style", "noscript", "svg", "iframe", "canvas", "template",
     "nav", "footer", ".navbar", ".sitebar", ".site-footer", ".crumbs",
-    "[class*=subnav]",
+    "[class*=subnav]", "[aria-hidden=true]",
 ]
 
 REFRESH_RE = re.compile(r'http-equiv=["\']?refresh', re.IGNORECASE)

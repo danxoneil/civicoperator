@@ -54,7 +54,6 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # Override with env REPO_ROOT when running from elsewhere (e.g. scratchpad).
 REPO_ROOT = os.environ.get("REPO_ROOT", os.path.abspath(os.path.join(HERE, "..", "..")))
 OUT_ROOT = os.path.join(REPO_ROOT, "work", "rht", "states")
-ACT = os.path.join(REPO_ROOT, "work", "rht", "activity", "index.html")
 
 states_data = json.load(open(os.path.join(HERE, "states_data.json"), encoding="utf-8"))
 dispatches  = json.load(open(os.path.join(HERE, "dispatch_index.json"), encoding="utf-8"))
@@ -87,7 +86,9 @@ outlays_data = json.load(open(OUTLAYS_PATH, encoding="utf-8")) if os.path.exists
 QUESTIONS   = content["questions"]
 AUTHORED    = content["authored"]
 
-STYLE = re.search(r"<style>.*?</style>", open(ACT, encoding="utf-8").read(), re.S).group(0)
+# Shared base CSS for every generated RHT reference page. Originally lifted from the
+# retired /work/rht/activity page; now owned here so that page could be removed.
+STYLE = "<style>" + open(os.path.join(HERE, "base_style.css"), encoding="utf-8").read() + "</style>"
 EXTRA_CSS = """
 <style>
 .facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2px 22px;background:#fff;border:1px solid #eadbcd;border-radius:10px;padding:16px 20px;margin:16px 0 8px;}
@@ -186,8 +187,7 @@ SUBNAV = """<div class="rht-subnav">
   <a href="/work/rht/brief">Consulting</a>
   <a href="/work/rht/intelligence">Intelligence</a>
   <span class="arch-sep">&middot;</span>
-  <a class="arch" href="/work/rht/activity">Activity Index</a>
-  <a class="arch" href="/work/rht/dashboard">Quarterly Report</a>
+  <a class="arch" href="/work/rht/quarterly/">Quarterly Reports</a>
 </div>"""
 
 def slug(name): return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
@@ -718,7 +718,7 @@ def render_index(cards):
 <div class="st"><h2>Browse all {len(cards)} states</h2>
 <p class="note-q">Each card: state &middot; exact CMS Year-1 award &middot; dated dispatches &middot; how it defines rural. Open a state for its full profile.</p>
 <div class="grid">{grid}</div></div>
-<p class="gov">Maintained by <strong>Civic Operator LLC</strong>. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/activity">Quarterly activity index</a></p>
+<p class="gov">Maintained by <strong>Civic Operator LLC</strong>. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/quarterly/">Quarterly reports</a></p>
 <footer>Rural Health Transformation Program &middot; State-by-state reference &middot; Civic Operator LLC &middot; <a href="{TRACKER}/" style="color:#007a99;">Newsletter &amp; analysis</a></footer>
 </div>
 </body>

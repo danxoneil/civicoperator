@@ -1,4 +1,4 @@
-Rural Health Transformation Program · Q2 2026 Quarterly Report
+[Quarterly Reports](/work/rht/quarterly/) · Q2 2026 · Web edition
 
 # Q2 RFP Review / Q3 RFP Watcher
 
@@ -71,4 +71,4 @@ How a state defines “rural” for RHTP reveals how it administers the program.
 ## How this was built
 
 ---
-Source: https://www.civicoperator.com/work/rht/dashboard/
+Source: https://www.civicoperator.com/work/rht/quarterly/2026-q2/
