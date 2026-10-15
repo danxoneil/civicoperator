@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## What Oregon committed to measure
 
@@ -108,9 +108,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Complete OHA's [Vendor Interest Form](https://app.smartsheet.com/b/form/019c8c4dc64574cc8d9c0507aaba0e98) to be listed in the public directory, request an ORH regional convening invitation, and watch the [Catalyst Awards RFGP on OregonBuys](https://oregonbuys.gov/bso/external/bidDetail.sdo?docId=S-44300-00001537&external=true&parentUrl=close) and the [RHTP hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Oregon posts version 3 of its RHTP Frequently Asked Questions for Catalyst, Immediate Impact and local public health awardees](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7oregon-posts-version-3-of-its-rhtp-frequently-asked-questions-for-catalyst-immediate-impact-and-local-public-health-awardees)
 
 2026-10-09[Oregon‘s Office of Rural Health reports workforce development and behavioral healthcare access emerge as leading themes during the first round of RHTP convening across Oregon](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7oregon-s-office-of-rural-health-reports-workforce-development-and-behavioral-healthcare-access-emerge-as-leading-themes-during-the-first-round-of-rhtp-convening-across-oregon)
 

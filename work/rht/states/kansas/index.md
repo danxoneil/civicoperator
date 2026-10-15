@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-33 dated briefs
+34 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Track opportunities on the [KDHE RHTP hub](https://www.kdhe.ks.gov/2361/Rural-He
 
 [KDHE Rural Health Transformation Program →](https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program)
 
-## Activity log · 33 dated briefs
+## Activity log · 34 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-13[Kansas posts its Year 2 RPGP/CAP RFA Webinar deck: consortia now eligible, RPGP awards capped at $5 million, indirect at 5%](https://www.ruralhealthtransformation.life/p/catalyst-deep-dive-cms-lists-eight#%C2%A7kansas-posts-its-year-2-rpgp-cap-rfa-webinar-deck-consortia-now-eligible-rpgp-awards-capped-at-5-million-indirect-at-5)
 
 2026-10-08[Kansas tells its implementation advisory group that 24 agreements worth about $32 million were unsigned as of October 1, and names five Year 2 RFAs](https://www.ruralhealthtransformation.life/p/mississippi-opens-the-statewide-health#%C2%A7kansas-tells-its-implementation-advisory-group-that-24-agreements-worth-about-32-million-were-unsigned-as-of-october-1-and-names-five-year-2-rfas)
 

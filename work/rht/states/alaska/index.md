@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-27 dated briefs
+28 dated briefs
 
 ## What Alaska committed to measure
 
@@ -102,9 +102,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** will go out as com
 
 Grant administration and applications run through the [Alaska Community Foundation grants portal](https://alaskacf.org/grants/); contribute ideas via the DOH Community Input Form and track updates on the [Alaska RHTP hub](https://health.alaska.gov/en/education/rural-health-transformation-program/).
 
-## Activity log · 27 dated briefs
+## Activity log · 28 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-10[Alaska issues its last five Year 1 Notices of Intent to Award, $4.8 million, and closes Year 1 at 254 projects and $248,976,547.51 in its award list](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7alaska-issues-its-last-five-year-1-notices-of-intent-to-award-4-8-million-and-closes-year-1-at-254-projects-and-248-976-547-51-in-its-award-list)
 
 2026-10-01[Alaska targets $10 million of its Year 2 Fall Funding Cycle to Pay for Value Readiness, due October 28](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7alaska-targets-10-million-of-its-year-2-fall-funding-cycle-to-pay-for-value-readiness-due-october-28)
 

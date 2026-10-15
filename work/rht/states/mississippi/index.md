@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-20 dated briefs
+22 dated briefs
 
 ## Questions & answers
 
@@ -96,9 +96,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 20 dated briefs
+## Activity log · 22 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-14[Mississippi opens a $9.5 million Electronic Health Records (EHR) Replacement for Small Rural Providers Program, applications October 21 to November 23](https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#%C2%A7mississippi-opens-a-9-5-million-electronic-health-records-ehr-replacement-for-small-rural-providers-program-applications-october-21-to-november-23)
+
+2026-10-10[Mississippi amends its BRIDGE Innovative Pilot Program NOFO: $16 million available, colleges and out-of-state applicants in, one application per NPI or TIN](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7mississippi-amends-its-bridge-innovative-pilot-program-nofo-16-million-available-colleges-and-out-of-state-applicants-in-one-application-per-npi-or-tin)
 
 2026-10-08[Mississippi opens the Statewide Health Information Exchange/Health Data Utility (HIE/HDU) RFP, due November 3](https://www.ruralhealthtransformation.life/p/mississippi-opens-the-statewide-health#%C2%A7mississippi-opens-the-statewide-health-information-exchange-health-data-utility-hie-hdu-rfp-due-november-3)
 
