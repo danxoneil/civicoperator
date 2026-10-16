@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-15 dated briefs
+16 dated briefs
 
 ## What South Dakota committed to measure
 
@@ -94,9 +94,11 @@ Track opportunities on the [RHT posting board](https://postingboard.esmsolutions
 
 [Join the SD Rural Health listserv →](https://listserv.sd.gov/scripts/wa.exe?SUBED1=SDRURALHEALTH&A=1)
 
-## Activity log · 15 dated briefs
+## Activity log · 16 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-15[South Dakota revises its Rural Health Transformation Program Timeline for Year 2](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7south-dakota-revises-its-rural-health-transformation-program-timeline-for-year-2)
 
 2026-10-10[South Dakota puts 292 payments and $12.2 million behind its South Dakota Rural Health Transformation: Where Investment Meets Impact map, $8.8 million of it in PACT quality payments](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7south-dakota-puts-292-payments-and-12-2-million-behind-its-south-dakota-rural-health-transformation-where-investment-meets-impact-map-8-8-million-of-it-in-pact-quality-payments-to-providers)
 

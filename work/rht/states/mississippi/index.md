@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-22 dated briefs
+23 dated briefs
 
 ## Questions & answers
 
@@ -96,9 +96,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 22 dated briefs
+## Activity log · 23 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-15[Mississippi reposts its Electronic Health Records (EHR) Replacement for Small Rural Providers Program NOFO with a wider priority ranking](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7mississippi-reposts-its-electronic-health-records-ehr-replacement-for-small-rural-providers-program-nofo-with-a-wider-priority-ranking)
 
 2026-10-14[Mississippi opens a $9.5 million Electronic Health Records (EHR) Replacement for Small Rural Providers Program, applications October 21 to November 23](https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#%C2%A7mississippi-opens-a-9-5-million-electronic-health-records-ehr-replacement-for-small-rural-providers-program-applications-october-21-to-november-23)
 
