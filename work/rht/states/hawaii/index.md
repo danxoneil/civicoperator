@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-2 dated briefs
+3 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Eligibility is expected to run on two tracks. **Direct-to-state contracts** go o
 
 [Hawaii RHTP hub →](https://engage.hawaii.gov/rhtp/) [Email the program →](mailto:doh.opcpdh@doh.hawaii.gov)
 
-## Activity log · 2 dated briefs
+## Activity log · 3 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[Hawaii‘s AHEC opens the HOME RUN Informational Session today at 4pm HST](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7hawaii-s-ahec-opens-the-home-run-informational-session-today-at-4pm-hst)
 
 2026-10-05[Hawaii names Healthcare Association of Hawaii and Physicians of Southwest Washington for its two RVBI statewide contracts](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7hawaii-names-healthcare-association-of-hawaii-and-physicians-of-southwest-washington-for-its-two-rvbi-statewide-contracts)
 

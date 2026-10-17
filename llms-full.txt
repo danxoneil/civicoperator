@@ -1197,7 +1197,7 @@ $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/ariz
 
 $208.8M · 8 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
 
-$233.6M · 22 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
+$233.6M · 23 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
 $200.1M · 37 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
 
@@ -1205,11 +1205,11 @@ $154.2M · 2 dispatches · Uses its own rural definition](/work/rht/states/conne
 
 $157.4M · 4 dispatches · Federal HRSA rural default](/work/rht/states/delaware/)[Florida
 
-$209.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
+$209.9M · 10 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
 
 $218.9M · 13 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
 
-$188.9M · 2 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
+$188.9M · 3 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
 $186.0M · 31 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
 
@@ -1245,7 +1245,7 @@ $218.5M · 16 dispatches · Uses its own rural definition](/work/rht/states/nebr
 
 $179.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/nevada/)[New Hampshire
 
-$204.0M · 13 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
+$204.0M · 14 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
 
 $147.3M · 3 dispatches · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
 
@@ -1265,7 +1265,7 @@ $197.3M · 17 dispatches · Uses its own rural definition](/work/rht/states/oreg
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
-$156.2M · 16 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
+$156.2M · 17 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
 
 $200.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
 
@@ -1275,7 +1275,7 @@ $206.9M · 22 dispatches · Federal HRSA rural default](/work/rht/states/tenness
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 9 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 10 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
 $195.7M · 33 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
@@ -2076,7 +2076,7 @@ Federal award data
 
 Tracker dispatches
 
-22 dated briefs
+23 dated briefs
 
 ## What California committed to measure
 
@@ -2122,9 +2122,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [CalRHT funding page](https://hcai.ca.gov/rural-health/calrht/funding/), join the [HCAI mailing list](https://hcai.ca.gov/mailing-list/), and email a resume and expression of interest to [CalRHT@hcai.ca.gov](mailto:CalRHT@hcai.ca.gov) to be considered for the Rural Health Policy Council.
 
-## Activity log · 22 dated briefs
+## Activity log · 23 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[California replaces its CalRHT Subrecipient Agreement template and drops the negotiated track](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7california-replaces-its-calrht-subrecipient-agreement-template-and-drops-the-negotiated-track)
 
 2026-10-01[California posts CalRHT Frequently Asked Questions: Grant Notifications, with remaining decisions due by late October](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7california-posts-calrht-frequently-asked-questions-grant-notifications-with-remaining-decisions-due-by-late-october)
 
@@ -2720,7 +2722,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## Questions & answers
 
@@ -2771,9 +2773,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Find and respond to solicitations on [MyFloridaMarketplace](https://vendor.myfloridamarketplace.com/search/bids) (search “RHTP”), and track updates on the [AHCA RHTP hub](https://ahca.myflorida.com/rural-health-transformation-program.html).
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[Florida posts its Year 1 Annual Report: $10.2 million obligated by July 31, against $188.2 million in intents to award](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7florida-posts-its-year-1-annual-report-10-2-million-obligated-by-july-31-against-188-2-million-in-intents-to-award)
 
 2026-08-14[Florida says Year 1 sub-awards are made and sets a September 23–24 convening in Jacksonville](https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#%C2%A7florida-says-year-1-sub-awards-are-made-and-sets-a-september-23-24-convening-in-jacksonville)
 
@@ -3016,7 +3020,7 @@ Federal award data
 
 Tracker dispatches
 
-2 dated briefs
+3 dated briefs
 
 ## Questions & answers
 
@@ -3064,9 +3068,11 @@ Eligibility is expected to run on two tracks. **Direct-to-state contracts** go o
 
 [Hawaii RHTP hub →](https://engage.hawaii.gov/rhtp/) [Email the program →](mailto:doh.opcpdh@doh.hawaii.gov)
 
-## Activity log · 2 dated briefs
+## Activity log · 3 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[Hawaii‘s AHEC opens the HOME RUN Informational Session today at 4pm HST](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7hawaii-s-ahec-opens-the-home-run-informational-session-today-at-4pm-hst)
 
 2026-10-05[Hawaii names Healthcare Association of Hawaii and Physicians of Southwest Washington for its two RVBI statewide contracts](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7hawaii-names-healthcare-association-of-hawaii-and-physicians-of-southwest-washington-for-its-two-rvbi-statewide-contracts)
 
@@ -5915,7 +5921,7 @@ Federal award data
 
 Tracker dispatches
 
-13 dated briefs
+14 dated briefs
 
 ## What New Hampshire committed to measure
 
@@ -5965,9 +5971,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Watch the [GO-NORTH contracts & awards](https://www.gonorth.nh.gov/contracts-awards) and [apply-for-funds](https://www.gonorth.nh.gov/apply-funds) pages, and track the [DHHS RHTP hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program).
 
-## Activity log · 13 dated briefs
+## Activity log · 14 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[New Hampshire‘s capital hub opens Request for Proposals: Consultants, up to $150,000 per contract, due December 31](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7new-hampshire-s-capital-hub-opens-request-for-proposals-consultants-up-to-150-000-per-contract-due-december-31)
 
 2026-10-07[New Hampshire‘s Foundation for Healthy Communities opens the Critical Access Hospital (CAH) and Acute Care Hospital RFA, approximately $17.5 million, priority deadline November 12](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7new-hampshire-s-foundation-for-healthy-communities-opens-the-critical-access-hospital-cah-and-acute-care-hospital-rfa-approximately-17-5-million-priority-deadline-november-12)
 
@@ -7645,7 +7653,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## What Rhode Island committed to measure
 
@@ -7704,9 +7712,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on [Ocean State Procures](https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46) (search “rural health”), complete the state's [interest survey](https://surveys.health.ri.gov/redcap/surveys/?s=CNJ3ADLPD4MRHLP3), and watch the [RHTP hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-grant) and its Rural Stakeholder Advisory Council.
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[Rhode Island‘s health center association opens Coding Consultant Services – Rural Health Transformation Program (RIHCA-RHTP-RFP-002), proposals due November 3](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7rhode-island-s-health-center-association-opens-coding-consultant-services-rural-health-transformation-program-rihca-rhtp-rfp-002-proposals-due-november-3)
 
 2026-10-15[Rhode Island‘s hospital association opens the Hospital at Home Program Implementation and Scale Grant Opportunity, up to $2 million per hospital, due October 20](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7rhode-island-s-hospital-association-opens-the-hospital-at-home-program-implementation-and-scale-grant-opportunity-up-to-2-million-per-hospital-due-october-20)
 
@@ -8481,7 +8491,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## Questions & answers
 
@@ -8519,9 +8529,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[Texas adds 28 applications to its List of Award Recipients Oct. 15, 2026 and executes its first Initiative 4 and 6 contracts](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7texas-adds-28-applications-to-its-list-of-award-recipients-oct-15-2026-and-executes-its-first-initiative-4-and-6-contracts)
 
 2026-10-10[Texas posts 284 Rural Texas Strong applications at Intent to Award in its List of Award Recipients Oct. 8, 2026, $451 million, with 68 contracts executed](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7texas-posts-284-rural-texas-strong-applications-at-intent-to-award-in-its-list-of-award-recipients-oct-8-2026-451-million-with-68-contracts-executed)
 

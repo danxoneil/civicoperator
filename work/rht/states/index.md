@@ -41,7 +41,7 @@ $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/ariz
 
 $208.8M · 8 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
 
-$233.6M · 22 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
+$233.6M · 23 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
 $200.1M · 37 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
 
@@ -49,11 +49,11 @@ $154.2M · 2 dispatches · Uses its own rural definition](/work/rht/states/conne
 
 $157.4M · 4 dispatches · Federal HRSA rural default](/work/rht/states/delaware/)[Florida
 
-$209.9M · 9 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
+$209.9M · 10 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
 
 $218.9M · 13 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
 
-$188.9M · 2 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
+$188.9M · 3 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
 $186.0M · 31 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
 
@@ -89,7 +89,7 @@ $218.5M · 16 dispatches · Uses its own rural definition](/work/rht/states/nebr
 
 $179.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/nevada/)[New Hampshire
 
-$204.0M · 13 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
+$204.0M · 14 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
 
 $147.3M · 3 dispatches · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
 
@@ -109,7 +109,7 @@ $197.3M · 17 dispatches · Uses its own rural definition](/work/rht/states/oreg
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
-$156.2M · 16 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
+$156.2M · 17 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
 
 $200.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
 
@@ -119,7 +119,7 @@ $206.9M · 22 dispatches · Federal HRSA rural default](/work/rht/states/tenness
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 9 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 10 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
 $195.7M · 33 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 

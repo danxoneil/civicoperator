@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## What Rhode Island committed to measure
 
@@ -113,9 +113,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on [Ocean State Procures](https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46) (search “rural health”), complete the state's [interest survey](https://surveys.health.ri.gov/redcap/surveys/?s=CNJ3ADLPD4MRHLP3), and watch the [RHTP hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-grant) and its Rural Stakeholder Advisory Council.
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[Rhode Island‘s health center association opens Coding Consultant Services – Rural Health Transformation Program (RIHCA-RHTP-RFP-002), proposals due November 3](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7rhode-island-s-health-center-association-opens-coding-consultant-services-rural-health-transformation-program-rihca-rhtp-rfp-002-proposals-due-november-3)
 
 2026-10-15[Rhode Island‘s hospital association opens the Hospital at Home Program Implementation and Scale Grant Opportunity, up to $2 million per hospital, due October 20](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7rhode-island-s-hospital-association-opens-the-hospital-at-home-program-implementation-and-scale-grant-opportunity-up-to-2-million-per-hospital-due-october-20)
 

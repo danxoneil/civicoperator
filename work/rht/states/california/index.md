@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-22 dated briefs
+23 dated briefs
 
 ## What California committed to measure
 
@@ -102,9 +102,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [CalRHT funding page](https://hcai.ca.gov/rural-health/calrht/funding/), join the [HCAI mailing list](https://hcai.ca.gov/mailing-list/), and email a resume and expression of interest to [CalRHT@hcai.ca.gov](mailto:CalRHT@hcai.ca.gov) to be considered for the Rural Health Policy Council.
 
-## Activity log · 22 dated briefs
+## Activity log · 23 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[California replaces its CalRHT Subrecipient Agreement template and drops the negotiated track](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7california-replaces-its-calrht-subrecipient-agreement-template-and-drops-the-negotiated-track)
 
 2026-10-01[California posts CalRHT Frequently Asked Questions: Grant Notifications, with remaining decisions due by late October](https://www.ruralhealthtransformation.life/p/north-carolina-opens-the-rural-health#%C2%A7california-posts-calrht-frequently-asked-questions-grant-notifications-with-remaining-decisions-due-by-late-october)
 
