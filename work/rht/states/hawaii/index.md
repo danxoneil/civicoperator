@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-2 dated briefs
+3 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Eligibility is expected to run on two tracks. **Direct-to-state contracts** go o
 
 [Hawaii RHTP hub →](https://engage.hawaii.gov/rhtp/) [Email the program →](mailto:doh.opcpdh@doh.hawaii.gov)
 
-## Activity log · 2 dated briefs
+## Activity log · 3 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-16[Hawaii‘s AHEC opens the HOME RUN Informational Session today at 4pm HST](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7hawaii-s-ahec-opens-the-home-run-informational-session-today-at-4pm-hst)
 
 2026-10-05[Hawaii names Healthcare Association of Hawaii and Physicians of Southwest Washington for its two RVBI statewide contracts](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7hawaii-names-healthcare-association-of-hawaii-and-physicians-of-southwest-washington-for-its-two-rvbi-statewide-contracts)
 
@@ -115,7 +117,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Hawaii .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-16. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Hawaii .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-17. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/hawaii/
