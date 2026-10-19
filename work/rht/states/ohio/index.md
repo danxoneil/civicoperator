@@ -48,7 +48,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## What Ohio committed to measure
 
@@ -98,9 +98,11 @@ Join the RHT project listserv and track the ODH solicitation page for open oppor
 
 [Ohio RHTP solicitations →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/solicitation-invitations/solicitation-invitations) [Join the RHT listserv →](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program/join-rht-project-listserv)
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-19[Ohio names the recipients behind its Hospitals, Clinically Integrated Networks and Rural Health Innovation Hubs, and Maternal Care awards, with the Ohio High Value Network taking $](https://www.ruralhealthtransformation.life/p/oklahoma-opens-an-ehr-expansion-vendor#%C2%A7ohio-names-the-recipients-behind-its-hospitals-clinically-integrated-networks-and-rural-health-innovation-hubs-and-maternal-care-awards-with-the-ohio-high-value-network-taking-49-9-million)
 
 2026-09-29[Ohio posts the Rural Health Transformation (RHT)-Rural Hospital Training and Technical Assistance Center (RHTAC) solicitation, due October 20](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7ohio-posts-the-rural-health-transformation-rht-rural-hospital-training-and-technical-assistance-center-rhtac-solicitation-due-october-20)
 
@@ -129,7 +131,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Ohio .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-18. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Ohio .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-19. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/ohio/
