@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-4 dated briefs
+5 dated briefs
 
 ## What Delaware committed to measure
 
@@ -101,9 +101,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track and respond to opportunities on the [Delaware bids portal](https://bids.delaware.gov) and follow the [RHTP hub](https://dhss.delaware.gov/dph/rural-health-transformation-program/).
 
-## Activity log · 4 dated briefs
+## Activity log · 5 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-20[Delaware puts more than $1 million into two first-year medical student awards and an expected 61 GME housing and relocation awards](https://www.ruralhealthtransformation.life/p/california-opens-the-uci-calrht-tnt#%C2%A7delaware-puts-more-than-1-million-into-two-first-year-medical-student-awards-and-an-expected-61-gme-housing-and-relocation-awards)
 
 2026-09-25[Delaware awards $22.69 million to its three FQHCs](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7delaware-awards-22-69-million-to-its-three-fqhcs)
 

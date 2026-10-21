@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-17 dated briefs
+18 dated briefs
 
 ## What Maryland committed to measure
 
@@ -103,9 +103,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [RHTP procurement page](https://health.maryland.gov/pophealth/Pages/RHTP-Procurement.aspx), monitor the [program hub](https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx), and route questions to [mdh.transformruralhealth@maryland.gov](mailto:mdh.transformruralhealth@maryland.gov).
 
-## Activity log · 17 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-20[Maryland awards $3.58 million in Postharvest Infrastructure Grants to 37 farms, watermen and a school board, more than double the $1.6 million it posted](https://www.ruralhealthtransformation.life/p/california-opens-the-uci-calrht-tnt#%C2%A7maryland-awards-3-58-million-in-postharvest-infrastructure-grants-to-37-farms-watermen-and-a-school-board-more-than-double-the-1-6-million-it-posted)
 
 2026-10-15[Maryland posts Pathways to Health Careers and Rural Incentives for Strengthening Employment in Healthcare (RISE) awardees: 38 awards and $13.97 million in the tables, $16.4 million](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7maryland-posts-pathways-to-health-careers-and-rural-incentives-for-strengthening-employment-in-healthcare-rise-awardees-38-awards-and-13-97-million-in-the-tables-16-4-million-in-the-text)
 

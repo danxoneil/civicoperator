@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-22 dated briefs
+23 dated briefs
 
 ## What Montana committed to measure
 
@@ -100,9 +100,11 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 22 dated briefs
+## Activity log · 23 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-20[Montana names the 17 rural EMS agencies splitting $3.63 million in DPHHS Community Integrated Health Pilot Site Grants](https://www.ruralhealthtransformation.life/p/california-opens-the-uci-calrht-tnt#%C2%A7montana-names-the-17-rural-ems-agencies-splitting-3-63-million-in-dphhs-community-integrated-health-pilot-site-grants)
 
 2026-10-09[Montana awards $8.7 million in DPHHS EMS Equipment Grants, more than double the $4 million it posted](https://www.ruralhealthtransformation.life/p/texas-puts-dates-on-its-three-year#%C2%A7montana-awards-8-7-million-in-dphhs-ems-equipment-grants-more-than-double-the-4-million-it-posted)
 
