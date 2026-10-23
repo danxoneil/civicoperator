@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-31 dated briefs
+32 dated briefs
 
 ## How Idaho defines rural
 
@@ -110,9 +110,11 @@ Track opportunities on the [Idaho RHTP funding-opportunities page](https://healt
 
 [Idaho DHW Rural Health Transformation Program →](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant)
 
-## Activity log · 31 dated briefs
+## Activity log · 32 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-22[Idaho names 114 awards worth $180.7 million in its list of awardees as of Oct. 16](https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#%C2%A7idaho-names-114-awards-worth-180-7-million-in-its-list-of-awardees-as-of-oct-16)
 
 2026-10-15[Idaho posts its Initial Annual Report to CMS - August 2026: $10.5 million obligated to eight entities, $124,625 disbursed](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7idaho-posts-its-initial-annual-report-to-cms-august-2026-10-5-million-obligated-to-eight-entities-124-625-disbursed)
 
@@ -185,7 +187,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Idaho .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-22. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Idaho .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-23. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/idaho/
