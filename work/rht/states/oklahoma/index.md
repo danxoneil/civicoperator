@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-30 dated briefs
+31 dated briefs
 
 ## What Oklahoma committed to measure
 
@@ -102,9 +102,11 @@ Track open opportunities on the [RHTP funding page](https://oklahoma.gov/health/
 
 [Oklahoma RHTP funding page →](https://oklahoma.gov/health/rhtp/rhtp-funding.html)
 
-## Activity log · 30 dated briefs
+## Activity log · 31 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-22[Oklahoma opens OSU’s Tech Co-Op and Consumer Facing Tech Enrollment Forms, due December 1](https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#%C2%A7oklahoma-opens-osu-s-tech-co-op-and-consumer-facing-tech-enrollment-forms-due-december-1)
 
 2026-10-19[Oklahoma opens an EHR Expansion Vendor Request for Information, responses due December 1](https://www.ruralhealthtransformation.life/p/oklahoma-opens-an-ehr-expansion-vendor#%C2%A7oklahoma-opens-an-ehr-expansion-vendor-request-for-information-responses-due-december-1)
 

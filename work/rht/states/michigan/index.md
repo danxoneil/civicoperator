@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## What Michigan committed to measure
 
@@ -107,9 +107,11 @@ Track opportunities in **EGrAMS** via the [MDHHS RHTP hub](https://www.michigan.
 
 [MDHHS Rural Health Transformation Program →](https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program)
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-22[Michigan posts its RHTP Annual Report Year 1: $13.3 million obligated to six first-tier entities](https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#%C2%A7michigan-posts-its-rhtp-annual-report-year-1-13-3-million-obligated-to-six-first-tier-entities)
 
 2026-10-14[Michigan says its first grant cycle turned 206 applications into 72 awards worth $48.7 million](https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#%C2%A7michigan-says-its-first-grant-cycle-turned-206-applications-into-72-awards-worth-48-7-million)
 
