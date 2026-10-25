@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-31 dated briefs
+32 dated briefs
 
 ## What Oklahoma committed to measure
 
@@ -102,9 +102,11 @@ Track open opportunities on the [RHTP funding page](https://oklahoma.gov/health/
 
 [Oklahoma RHTP funding page →](https://oklahoma.gov/health/rhtp/rhtp-funding.html)
 
-## Activity log · 31 dated briefs
+## Activity log · 32 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-23[Oklahoma opens the Community Paramedicine Consulting Services RFP, EV00000993, due November 18](https://www.ruralhealthtransformation.life/p/oklahoma-opens-a-community-paramedicine#%C2%A7oklahoma-opens-the-community-paramedicine-consulting-services-rfp-ev00000993-due-november-18)
 
 2026-10-22[Oklahoma opens OSU’s Tech Co-Op and Consumer Facing Tech Enrollment Forms, due December 1](https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#%C2%A7oklahoma-opens-osu-s-tech-co-op-and-consumer-facing-tech-enrollment-forms-due-december-1)
 
@@ -177,7 +179,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oklahoma .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-24. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oklahoma .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-25. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/oklahoma/
