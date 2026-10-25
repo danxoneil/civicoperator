@@ -334,6 +334,56 @@ h1, h2, h3, h4 {
 .work-item h3 { font-size: 1.1rem; margin-bottom: 8px; }
 .work-item p { margin-bottom: 0; }
 
+/* ---- Prose bullet list (inside work-item panels) ---- */
+.prose-list { padding-left: 1.2rem; margin-bottom: 0; }
+.prose-list li { margin-bottom: 0.6rem; }
+.prose-list li:last-child { margin-bottom: 0; }
+
+/* ---- Data tables (RHT data license) ---- */
+.data-table-wrap {
+    max-width: 980px;
+    margin: 0 auto;
+    overflow-x: auto;
+    background: #fff;
+    border: 1px solid var(--co-border);
+    border-radius: 12px;
+}
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.97rem; }
+.data-table th, .data-table td {
+    padding: 14px 18px;
+    text-align: left;
+    vertical-align: top;
+    border-bottom: 1px solid var(--co-border);
+}
+.data-table tbody tr:last-child th, .data-table tbody tr:last-child td { border-bottom: 0; }
+.data-table thead th {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--co-teal);
+    background: #fbf5f0;
+}
+.data-table tbody th { font-weight: 600; white-space: nowrap; }
+.data-table .num { white-space: nowrap; font-weight: 600; }
+.compare-table { min-width: 720px; }
+.compare-table tbody th { white-space: normal; width: 26%; }
+.compare-table .ours { background: rgba(125,60,152,0.06); font-weight: 600; }
+.compare-table thead th.ours { color: var(--co-purple); }
+@media (max-width: 640px) {
+    .data-table th, .data-table td { padding: 12px 12px; }
+    .data-table tbody th { white-space: normal; }
+    .data-table .num { white-space: normal; }
+    /* Two-column tables stack into one card per row on phones */
+    .data-table.stack-sm thead { display: none; }
+    .data-table.stack-sm tr { display: block; padding: 14px 16px; border-bottom: 1px solid var(--co-border); }
+    .data-table.stack-sm tbody tr:last-child { border-bottom: 0; }
+    .data-table.stack-sm th, .data-table.stack-sm td { display: block; padding: 0; border: 0; }
+    .data-table.stack-sm tbody th { font-size: 1.02rem; }
+    .data-table.stack-sm td.num { color: var(--co-teal); margin: 2px 0 6px; order: -1; }
+}
+
 /* ---- Centered feature image (legacy pages) ---- */
 .feature-img {
     width: 100%;
