@@ -367,10 +367,6 @@ h1, h2, h3, h4 {
 }
 .data-table tbody th { font-weight: 600; white-space: nowrap; }
 .data-table .num { white-space: nowrap; font-weight: 600; }
-.compare-table { min-width: 720px; }
-.compare-table tbody th { white-space: normal; width: 26%; }
-.compare-table .ours { background: rgba(125,60,152,0.06); font-weight: 600; }
-.compare-table thead th.ours { color: var(--co-purple); }
 @media (max-width: 640px) {
     .data-table th, .data-table td { padding: 12px 12px; }
     .data-table tbody th { white-space: normal; }

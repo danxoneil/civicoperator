@@ -106,36 +106,6 @@ A monday.com workspace with connected tables, ready to use or to copy into your 
 
 Delivered into the system you already run.
 
-## How it compares
-
-Plenty of our buyers already pay for a general platform. This isn't a replacement for it. It's the grant layer those platforms don't carry, for the largest rural health program in a generation.
-
-| Feature | General government-procurement platforms | Healthcare provider databases | RHTP Data License |
-| --- | --- | --- | --- |
-| Built for | Contracts across every agency and industry | Providers, facilities and executives | One program, all fifty states |
-| Grant instruments (NOFOs, RFAs, subawards) | Contracts-first | Not their focus | The core of the dataset |
-| Intermediaries that re-grant money | Not modeled | Not modeled | Their own table |
-| Awards tied to solicitation, hospital and contacts | Partial | Contacts without RHTP awards | Every link in one model |
-| Per-record verification and source document | Varies; often unstated | Varies | On every solicitation and award |
-| Bulk delivery into your own systems | Often an add-on module | Often an add-on module | Included in every license |
-| Redistribution to your customers | Rarely offered | Rarely offered | Available as its own license |
-| How you buy | Annual subscription, quote-based | Annual subscription, quote-based | Snapshot, annual license or partner license |
-
-### Who licenses it
-
-- Health technology and services vendors loading named awardees and decision-makers into their CRM
-- Consultancies and system integrators who advise rural hospitals, states or vendors and want the record in their own tools
-- Platforms and associations serving rural health customers who want RHTP data inside their product or member services
-- Investors and analysts sizing who is receiving money and for what
-
-### License terms, plainly
-
-- **Non-exclusive.** Other licensees receive the same records. Nothing here is a reserved lead.
-- **Internal use** unless you hold a partner license. No reselling, and no building a competing data product from the data.
-- **Contacts come from published public sources.** Your outreach is yours to run, under your own CAN-SPAM and TCPA compliance.
-- **No protected health information.** The dataset contains organizations, public records and professional contacts only.
-- **What you tell us stays yours.** Anything you share with us about your own awards or pipeline is confidential and never enters the shared dataset.
-
 ## Questions
 
 ### How is this different from RHTP Verified Intelligence?
