@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## What Virginia committed to measure
 
@@ -101,9 +101,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts and partner agreemen
 
 Track opportunities on the [VA Rural Vitality hub](https://www.ruralhealthtransformationva.virginia.gov/) and the DMAS [Rural Health Transformation page](https://dmas.virginia.gov/data-reporting/programs-services/rural-health-transformation/), and direct questions to [ruralhealth@vdh.virginia.gov](mailto:ruralhealth@vdh.virginia.gov).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-26[Virginia‘s Thomas Jefferson Planning District Commission opens a $11.8 million Rural Health Transformation Program – Mobile and Hybrid Care RFA, due November 23](https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#%C2%A7virginia-s-thomas-jefferson-planning-district-commission-opens-a-11-8-million-rural-health-transformation-program-mobile-and-hybrid-care-rfa-due-november-23)
 
 2026-10-08[Virginia Works posts its Earn to Learn Initiative (RFA #128140) Q&A: no extension, no indirect, and 100% recoupment on the five-year rural commitment](https://www.ruralhealthtransformation.life/p/mississippi-opens-the-statewide-health#%C2%A7virginia-works-posts-its-earn-to-learn-initiative-rfa-128140-q-and-a-no-extension-no-indirect-and-100-recoupment-on-the-five-year-rural-commitment)
 
@@ -146,7 +148,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-25. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-26. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/virginia/
