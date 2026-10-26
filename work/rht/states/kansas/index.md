@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-34 dated briefs
+35 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Track opportunities on the [KDHE RHTP hub](https://www.kdhe.ks.gov/2361/Rural-He
 
 [KDHE Rural Health Transformation Program →](https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program)
 
-## Activity log · 34 dated briefs
+## Activity log · 35 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-26[Kansas publishes new Non-Emergent Transportation (NEMT) RFA: $3 million, due November 18](https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#%C2%A7kansas-publishes-new-non-emergent-transportation-nemt-rfa-3-million-due-november-18)
 
 2026-10-13[Kansas posts its Year 2 RPGP/CAP RFA Webinar deck: consortia now eligible, RPGP awards capped at $5 million, indirect at 5%](https://www.ruralhealthtransformation.life/p/catalyst-deep-dive-cms-lists-eight#%C2%A7kansas-posts-its-year-2-rpgp-cap-rfa-webinar-deck-consortia-now-eligible-rpgp-awards-capped-at-5-million-indirect-at-5)
 
@@ -179,7 +181,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-25. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-26. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/kansas/

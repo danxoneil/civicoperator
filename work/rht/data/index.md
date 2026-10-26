@@ -30,17 +30,6 @@ Twelve linked tables. Counts are live records as of October 2026 and grow as sta
 | Contacts | Named people at those organizations, with title, email and the awards they are attached to. | 16,000+ |
 | Rural hospitals | Every U.S. rural and critical access hospital, merged from CMS, UNC Sheps Center, HRSA and Flex Monitoring sources, linked to its health system and to the awards it received. | 2,400+ |
 
-## Why you can't get this from a general platform
-
-The big government-data platforms are very good at what they were built for: contracts, posted to procurement portals, coded by commodity. RHTP money mostly doesn't move that way.
-
-- **Grants sit outside state procurement codes.** Colorado's State Controller says so in one line: “The State has exempted Grants from the Procurement Code.” Most RHTP dollars reach providers as subawards, so the portals that general platforms index have no obligation to carry them.
-- **Solicitations land wherever the lead agency puts them.** In our tracking they have appeared on agency news pages, grant systems such as Submittable and IntelliGrants, press releases, posting boards, and in at least one case a Microsoft Form. The lead agency itself varies by state: Medicaid, the health department, or the governor's office.
-- **A large share of the money is re-granted by someone other than the state.** Delegated administrators hold subawards and run their own rounds, often on their own websites. We track them as a table of their own because that is where awards go missing.
-- **Federal award data is retrospective by rule.** Subaward reports are due the month after the obligation, cover first-tier recipients only, and tell you who won, never what is open.
-
-One general state-and-local procurement platform built a category page titled for Rural Health Transformation bids. When we checked it, its default active-opportunity view returned no results. The opportunities exist. They just aren't where those tools look.
-
 ## Every record connected
 
 The value isn't any one table. It's that an award points to the solicitation it came from, the initiative it funds, the organization and hospital that received it, the people at that organization, and the state program above all of it. Ask which critical access hospitals in a state won telehealth money, who runs IT at each, and which vendor was named in the award, and the answer is a filter, not a research project.
