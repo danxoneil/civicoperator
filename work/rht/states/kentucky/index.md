@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## What Kentucky committed to measure
 
@@ -96,9 +96,11 @@ Track open opportunities on the [Request for Applications page](https://ruralhea
 
 [Kentucky RHTP funding opportunities →](https://ruralhealthplan.ky.gov/Pages/Request_For_Applications.aspx)
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[Kentucky opens the Rapid Response to Recovery – Crisis Transportation Support RFA, up to $715,000 for each of its 14 CMHCs, due November 6](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7kentucky-opens-the-rapid-response-to-recovery-crisis-transportation-support-rfa-up-to-715-000-for-each-of-its-14-cmhcs-due-november-6)
 
 2026-08-25[Kentucky routed $10.5M through a foundation for its Rural Community Hubs Hub Leadership Opportunity, and nobody has been named](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7kentucky-routed-10-5m-through-a-foundation-for-its-rural-community-hubs-hub-leadership-opportunity-and-nobody-has-been-named)
 
@@ -137,7 +139,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kentucky .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kentucky .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/kentucky/
