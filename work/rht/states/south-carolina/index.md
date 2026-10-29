@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+9 dated briefs
 
 ## What South Carolina committed to measure
 
@@ -106,9 +106,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [SCDHHS grants portal](https://scdhhs.gov/resources/grants) and the [RHT hub](https://scorh.net/rural-health-transformation-fund/), subscribe to [Office of Rural Health updates](https://public.govdelivery.com/accounts/ORHA/subscriber/new?topic_id=ORHA_209), and direct questions to [grants@scdhhs.gov](mailto:grants@scdhhs.gov).
 
-## Activity log · 8 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[South Carolina‘s SC RHTP Year 1 Annual Report puts $25.9 million with five contractors, $10 million of it to Milliman](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7south-carolina-s-sc-rhtp-year-1-annual-report-puts-25-9-million-with-five-contractors-10-million-of-it-to-milliman)
 
 2026-09-18[South Carolina opens a Public Input Survey to Help Inform Future RHTP Funding Decisions, closing October 2](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7south-carolina-opens-a-public-input-survey-to-help-inform-future-rhtp-funding-decisions-closing-october-2)
 
@@ -135,7 +137,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/south-carolina/

@@ -1330,9 +1330,9 @@ $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/ariz
 
 $208.8M · 8 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
 
-$233.6M · 25 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
+$233.6M · 26 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
-$200.1M · 37 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
+$200.1M · 38 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
 
 $154.2M · 2 dispatches · Uses its own rural definition](/work/rht/states/connecticut/)[Delaware
 
@@ -1354,7 +1354,7 @@ $209.0M · 19 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[
 
 $221.9M · 35 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
 
-$212.9M · 14 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
+$212.9M · 15 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
 $208.4M · 16 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
@@ -1366,7 +1366,7 @@ $162.0M · 4 dispatches · Uses its own rural definition](/work/rht/states/massa
 
 $173.1M · 15 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
 
-$193.1M · 5 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
+$193.1M · 6 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
 
 $205.9M · 24 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
@@ -1378,7 +1378,7 @@ $218.5M · 16 dispatches · Uses its own rural definition](/work/rht/states/nebr
 
 $179.9M · 18 dispatches · Federal HRSA rural default](/work/rht/states/nevada/)[New Hampshire
 
-$204.0M · 14 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
+$204.0M · 15 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
 
 $147.3M · 3 dispatches · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
 
@@ -1394,13 +1394,13 @@ $202.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/ohio
 
 $223.5M · 32 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
 
-$197.3M · 17 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
+$197.3M · 18 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
-$156.2M · 17 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
+$156.2M · 18 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
 
-$200.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
+$200.0M · 9 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
 
 $189.5M · 17 dispatches · Federal HRSA rural default](/work/rht/states/south-dakota/)[Tennessee
 
@@ -1424,7 +1424,7 @@ $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisco
 
 $205.0M · 7 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
@@ -1503,7 +1503,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/agencies/
@@ -1665,7 +1665,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alabama .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alabama .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/alabama/
@@ -1851,7 +1851,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alaska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alaska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/alaska/
@@ -1997,7 +1997,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Arizona .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Arizona .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/arizona/
@@ -2142,7 +2142,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Arkansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Arkansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/arkansas/
@@ -2211,7 +2211,7 @@ Federal award data
 
 Tracker dispatches
 
-25 dated briefs
+26 dated briefs
 
 ## What California committed to measure
 
@@ -2257,9 +2257,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [CalRHT funding page](https://hcai.ca.gov/rural-health/calrht/funding/), join the [HCAI mailing list](https://hcai.ca.gov/mailing-list/), and email a resume and expression of interest to [CalRHT@hcai.ca.gov](mailto:CalRHT@hcai.ca.gov) to be considered for the Rural Health Policy Council.
 
-## Activity log · 25 dated briefs
+## Activity log · 26 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[California opens an $11.65 million non-competitive CalRHT Program Tribal Set-Aside, applications due November 20](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7california-opens-an-11-65-million-non-competitive-calrht-program-tribal-set-aside-applications-due-november-20)
 
 2026-10-26[California names 108 Recommended Subrecipients for CalRHT Budget Period 1, $166.72 million](https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#%C2%A7california-names-108-recommended-subrecipients-for-calrht-budget-period-1-166-72-million)
 
@@ -2320,7 +2322,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, California .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, California .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/california/
@@ -2389,7 +2391,7 @@ Federal award data
 
 Tracker dispatches
 
-37 dated briefs
+38 dated briefs
 
 ## What Colorado committed to measure
 
@@ -2446,9 +2448,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [HCPF RHTP hub](https://hcpf.colorado.gov/rural-health-transformation-program) and the [RFA application portal](https://coloradorhtp-rfa.my.site.com/apply/s/), and complete the state's vendor interest survey to be listed for partnerships.
 
-## Activity log · 37 dated briefs
+## Activity log · 38 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[Colorado tells stakeholders Budget Year 1 is 100% obligated, across 92 grant contracts, 7 contracts, 2 interagency agreements and 2 tribal awards, in its Stakeholder Engagement Mee](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7colorado-tells-stakeholders-budget-year-1-is-100-obligated-across-92-grant-contracts-7-contracts-2-interagency-agreements-and-2-tribal-awards-in-its-stakeholder-engagement-meeting-10-27-26-slides)
 
 2026-09-29[Colorado publishes its full RHTP awardee list, $170.2 million across 92 awards](https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#%C2%A7colorado-publishes-its-full-rhtp-awardee-list-170-2-million-across-92-awards)
 
@@ -2533,7 +2537,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Colorado .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Colorado .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/colorado/
@@ -2665,7 +2669,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Connecticut .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Connecticut .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/connecticut/
@@ -2802,7 +2806,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Delaware .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Delaware .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/delaware/
@@ -2947,7 +2951,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Florida .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Florida .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/florida/
@@ -3098,7 +3102,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Georgia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Georgia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/georgia/
@@ -3230,7 +3234,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Hawaii .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Hawaii .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/hawaii/
@@ -3430,7 +3434,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Idaho .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Idaho .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/idaho/
@@ -3552,7 +3556,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Illinois .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Illinois .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/illinois/
@@ -3706,7 +3710,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Indiana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Indiana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/indiana/
@@ -3875,7 +3879,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Iowa .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Iowa .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/iowa/
@@ -4069,7 +4073,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/kansas/
@@ -4128,7 +4132,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## What Kentucky committed to measure
 
@@ -4178,9 +4182,11 @@ Track open opportunities on the [Request for Applications page](https://ruralhea
 
 [Kentucky RHTP funding opportunities →](https://ruralhealthplan.ky.gov/Pages/Request_For_Applications.aspx)
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[Kentucky opens the Rapid Response to Recovery – Crisis Transportation Support RFA, up to $715,000 for each of its 14 CMHCs, due November 6](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7kentucky-opens-the-rapid-response-to-recovery-crisis-transportation-support-rfa-up-to-715-000-for-each-of-its-14-cmhcs-due-november-6)
 
 2026-08-25[Kentucky routed $10.5M through a foundation for its Rural Community Hubs Hub Leadership Opportunity, and nobody has been named](https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#%C2%A7kentucky-routed-10-5m-through-a-foundation-for-its-rural-community-hubs-hub-leadership-opportunity-and-nobody-has-been-named)
 
@@ -4219,7 +4225,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kentucky .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kentucky .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/kentucky/
@@ -4383,7 +4389,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Louisiana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Louisiana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/louisiana/
@@ -4545,7 +4551,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/maine/
@@ -4712,7 +4718,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maryland .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maryland .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/maryland/
@@ -4850,7 +4856,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Massachusetts .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Massachusetts .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/massachusetts/
@@ -4905,7 +4911,7 @@ We keep a strict line between **facts** (award amounts, agencies, official docum
 
 ## Editorial ownership
 
-Compiled and maintained by **Civic Operator LLC**. Last reviewed 2026-10-28.
+Compiled and maintained by **Civic Operator LLC**. Last reviewed 2026-10-29.
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/methodology/
@@ -5068,7 +5074,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Michigan .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Michigan .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/michigan/
@@ -5127,7 +5133,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+6 dated briefs
 
 ## Questions & answers
 
@@ -5169,9 +5175,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MDH grants and funding page](https://www.health.state.mn.us/facilities/ruralhealth/funding/grants) and the [Minnesota RHTP hub](https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/index.html).
 
-## Activity log · 5 dated briefs
+## Activity log · 6 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[Minnesota posts its first named RHTP award notices: $275,945 to Minnesota Management and Budget and $25,000 to AscendRural/Sourcewell](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7minnesota-posts-its-first-named-rhtp-award-notices-275-945-to-minnesota-management-and-budget-and-25-000-to-ascendrural-sourcewell)
 
 2026-09-14[Minnesota issues Sub-Recipient Logo Guidance for RHTP grantees, and bars Rural Clinical Rotations Expansion double-dipping](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7minnesota-issues-sub-recipient-logo-guidance-for-rhtp-grantees-and-bars-rural-clinical-rotations-expansion-double-dipping)
 
@@ -5192,7 +5200,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Minnesota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Minnesota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/minnesota/
@@ -5362,7 +5370,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Mississippi .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Mississippi .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/mississippi/
@@ -5528,7 +5536,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Missouri .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Missouri .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/missouri/
@@ -5700,7 +5708,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/montana/
@@ -5854,7 +5862,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nebraska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nebraska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/nebraska/
@@ -6019,7 +6027,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nevada .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nevada .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/nevada/
@@ -6082,7 +6090,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## What New Hampshire committed to measure
 
@@ -6132,9 +6140,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Watch the [GO-NORTH contracts & awards](https://www.gonorth.nh.gov/contracts-awards) and [apply-for-funds](https://www.gonorth.nh.gov/apply-funds) pages, and track the [DHHS RHTP hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program).
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[New Hampshire‘s Governor and Executive Council pass three more GO-NORTH contracts: Cheshire County, Trustees of Dartmouth College and NFI-North](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7new-hampshire-s-governor-and-executive-council-pass-three-more-go-north-contracts-cheshire-county-trustees-of-dartmouth-college-and-nfi-north)
 
 2026-10-16[New Hampshire‘s capital hub opens Request for Proposals: Consultants, up to $150,000 per contract, due December 31](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7new-hampshire-s-capital-hub-opens-request-for-proposals-consultants-up-to-150-000-per-contract-due-december-31)
 
@@ -6173,7 +6183,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Hampshire .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Hampshire .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-hampshire/
@@ -6299,7 +6309,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Jersey .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Jersey .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-jersey/
@@ -6480,7 +6490,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Mexico .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Mexico .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-mexico/
@@ -6631,7 +6641,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New York .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New York .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-york/
@@ -6807,7 +6817,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/north-carolina/
@@ -7026,7 +7036,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/north-dakota/
@@ -7170,7 +7180,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Ohio .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Ohio .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/ohio/
@@ -7362,7 +7372,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oklahoma .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oklahoma .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/oklahoma/
@@ -7425,7 +7435,7 @@ Federal award data
 
 Tracker dispatches
 
-17 dated briefs
+18 dated briefs
 
 ## What Oregon committed to measure
 
@@ -7483,9 +7493,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Complete OHA's [Vendor Interest Form](https://app.smartsheet.com/b/form/019c8c4dc64574cc8d9c0507aaba0e98) to be listed in the public directory, request an ORH regional convening invitation, and watch the [Catalyst Awards RFGP on OregonBuys](https://oregonbuys.gov/bso/external/bidDetail.sdo?docId=S-44300-00001537&external=true&parentUrl=close) and the [RHTP hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx).
 
-## Activity log · 17 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[Oregon gives disbursement grantees until November 6 to report Year 1 spending, one report per project, in its Expenditure Report Walkthrough](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7oregon-gives-disbursement-grantees-until-november-6-to-report-year-1-spending-one-report-per-project-in-its-expenditure-report-walkthrough)
 
 2026-10-10[Oregon posts version 3 of its RHTP Frequently Asked Questions for Catalyst, Immediate Impact and local public health awardees](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7oregon-posts-version-3-of-its-rhtp-frequently-asked-questions-for-catalyst-immediate-impact-and-local-public-health-awardees)
 
@@ -7530,7 +7542,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oregon .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oregon .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/oregon/
@@ -7609,7 +7621,7 @@ Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for ea
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/outlays/
@@ -7761,7 +7773,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Pennsylvania .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Pennsylvania .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/pennsylvania/
@@ -7828,7 +7840,7 @@ Federal award data
 
 Tracker dispatches
 
-17 dated briefs
+18 dated briefs
 
 ## What Rhode Island committed to measure
 
@@ -7887,9 +7899,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on [Ocean State Procures](https://webprocure.proactiscloud.com/wp-web-public/en/#/bidboard/search?customerid=46) (search “rural health”), complete the state's [interest survey](https://surveys.health.ri.gov/redcap/surveys/?s=CNJ3ADLPD4MRHLP3), and watch the [RHTP hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-grant) and its Rural Stakeholder Advisory Council.
 
-## Activity log · 17 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[Rhode Island‘s health center association pushes Coding Consultant Services – Rural Health Transformation Program to November 13 “due to the level of interest”](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7rhode-island-s-health-center-association-pushes-coding-consultant-services-rural-health-transformation-program-to-november-13-due-to-the-level-of-interest)
 
 2026-10-16[Rhode Island‘s health center association opens Coding Consultant Services – Rural Health Transformation Program (RIHCA-RHTP-RFP-002), proposals due November 3](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7rhode-island-s-health-center-association-opens-coding-consultant-services-rural-health-transformation-program-rihca-rhtp-rfp-002-proposals-due-november-3)
 
@@ -7934,7 +7948,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Rhode Island .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Rhode Island .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/rhode-island/
@@ -8047,7 +8061,7 @@ The 15 states below publish their own map of where “rural” is under the RHTP
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/rural-definitions/
@@ -8114,7 +8128,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+9 dated briefs
 
 ## What South Carolina committed to measure
 
@@ -8166,9 +8180,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [SCDHHS grants portal](https://scdhhs.gov/resources/grants) and the [RHT hub](https://scorh.net/rural-health-transformation-fund/), subscribe to [Office of Rural Health updates](https://public.govdelivery.com/accounts/ORHA/subscriber/new?topic_id=ORHA_209), and direct questions to [grants@scdhhs.gov](mailto:grants@scdhhs.gov).
 
-## Activity log · 8 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[South Carolina‘s SC RHTP Year 1 Annual Report puts $25.9 million with five contractors, $10 million of it to Milliman](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7south-carolina-s-sc-rhtp-year-1-annual-report-puts-25-9-million-with-five-contractors-10-million-of-it-to-milliman)
 
 2026-09-18[South Carolina opens a Public Input Survey to Help Inform Future RHTP Funding Decisions, closing October 2](https://www.ruralhealthtransformation.life/p/nevadas-budget-period-2-budget-narrative#%C2%A7south-carolina-opens-a-public-input-survey-to-help-inform-future-rhtp-funding-decisions-closing-october-2)
 
@@ -8195,7 +8211,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Carolina .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/south-carolina/
@@ -8349,7 +8365,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, South Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/south-dakota/
@@ -8529,7 +8545,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Tennessee .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Tennessee .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/tennessee/
@@ -8605,7 +8621,7 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Test Run Pilot .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Test Run Pilot .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/test-run-pilot/
@@ -8743,7 +8759,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Texas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Texas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/texas/
@@ -8938,7 +8954,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Utah .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Utah .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/utah/
@@ -9108,7 +9124,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Vermont .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Vermont .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/vermont/
@@ -9269,7 +9285,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/virginia/
@@ -9449,7 +9465,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Washington .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Washington .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/washington/
@@ -9655,7 +9671,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, West Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, West Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/west-virginia/
@@ -9808,7 +9824,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wisconsin .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wisconsin .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/wisconsin/
@@ -9946,7 +9962,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wyoming .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wyoming .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/wyoming/

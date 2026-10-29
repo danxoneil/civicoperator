@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-5 dated briefs
+6 dated briefs
 
 ## Questions & answers
 
@@ -88,9 +88,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MDH grants and funding page](https://www.health.state.mn.us/facilities/ruralhealth/funding/grants) and the [Minnesota RHTP hub](https://www.health.state.mn.us/facilities/ruralhealth/ruraltrans/index.html).
 
-## Activity log · 5 dated briefs
+## Activity log · 6 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[Minnesota posts its first named RHTP award notices: $275,945 to Minnesota Management and Budget and $25,000 to AscendRural/Sourcewell](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7minnesota-posts-its-first-named-rhtp-award-notices-275-945-to-minnesota-management-and-budget-and-25-000-to-ascendrural-sourcewell)
 
 2026-09-14[Minnesota issues Sub-Recipient Logo Guidance for RHTP grantees, and bars Rural Clinical Rotations Expansion double-dipping](https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#%C2%A7minnesota-issues-sub-recipient-logo-guidance-for-rhtp-grantees-and-bars-rural-clinical-rotations-expansion-double-dipping)
 
@@ -111,7 +113,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Minnesota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Minnesota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/minnesota/

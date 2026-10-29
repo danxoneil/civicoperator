@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## What New Hampshire committed to measure
 
@@ -100,9 +100,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Watch the [GO-NORTH contracts & awards](https://www.gonorth.nh.gov/contracts-awards) and [apply-for-funds](https://www.gonorth.nh.gov/apply-funds) pages, and track the [DHHS RHTP hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program).
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-28[New Hampshire‘s Governor and Executive Council pass three more GO-NORTH contracts: Cheshire County, Trustees of Dartmouth College and NFI-North](https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#%C2%A7new-hampshire-s-governor-and-executive-council-pass-three-more-go-north-contracts-cheshire-county-trustees-of-dartmouth-college-and-nfi-north)
 
 2026-10-16[New Hampshire‘s capital hub opens Request for Proposals: Consultants, up to $150,000 per contract, due December 31](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7new-hampshire-s-capital-hub-opens-request-for-proposals-consultants-up-to-150-000-per-contract-due-december-31)
 
@@ -141,7 +143,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Hampshire .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-28. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Hampshire .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-hampshire/
