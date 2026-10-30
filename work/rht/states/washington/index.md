@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-24 dated briefs
+25 dated briefs
 
 ## What Washington committed to measure
 
@@ -106,9 +106,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register on Washington's **Electronic Business Solution (WEBS)** to be notified of bids, and track the [HCA Bids & Contracts](https://www.hca.wa.gov/about-hca/bids-and-contracts) page and the [RHTP hub](https://www.hca.wa.gov/about-hca/programs-and-initiatives/value-based-purchasing/rural-health-transformation-program).
 
-## Activity log · 24 dated briefs
+## Activity log · 25 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-29[Washington‘s Department of Health will open its 5.5 Rural workforce incentives in November: $9.88 million, 50 to 100 awards of $15,000 to $100,000](https://www.ruralhealthtransformation.life/p/nebraska-opens-netech-cohort-1-250000#%C2%A7washington-s-department-of-health-will-open-its-5-5-rural-workforce-incentives-in-november-9-88-million-50-to-100-awards-of-15-000-to-100-000)
 
 2026-10-02[Washington names its 13-member Department of Health RHT Program Advisory Committee](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7washington-names-its-13-member-department-of-health-rht-program-advisory-committee)
 
@@ -167,7 +169,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Washington .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Washington .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/washington/
