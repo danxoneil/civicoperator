@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## What Nebraska committed to measure
 
@@ -96,9 +96,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts and RFAs** are open 
 
 Track opportunities on the [Nebraska RHTP hub](https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx) and the [RFA funding page](https://dhhs.ne.gov/Pages/DHHS-Releases-RFAs-for-RHTP-Funding-Opportunities.aspx), and direct questions to [dhhs.ruralhealth@nebraska.gov](mailto:dhhs.ruralhealth@nebraska.gov).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-29[Nebraska opens Cohort 1 of NETECH, the Nebraska Rural Health Technology Catalyst Fund, $250,000 to $1 million per award, due November 9](https://www.ruralhealthtransformation.life/p/nebraska-opens-netech-cohort-1-250000#%C2%A7nebraska-opens-cohort-1-of-netech-the-nebraska-rural-health-technology-catalyst-fund-250-000-to-1-million-per-award-due-november-9)
 
 2026-09-02[Nebraska awards $5.5 million to 13 providers under Initiative 5.3, Modification of Existing Clinical Facilities for Mental Health Crisis, one day after applications closed](https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#%C2%A7nebraska-awards-5-5-million-to-13-providers-under-initiative-5-3-modification-of-existing-clinical-facilities-for-mental-health-crisis-one-day-after-applications-closed)
 
@@ -141,7 +143,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nebraska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nebraska .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/nebraska/

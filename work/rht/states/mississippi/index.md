@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-24 dated briefs
+25 dated briefs
 
 ## Questions & answers
 
@@ -96,9 +96,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 24 dated briefs
+## Activity log · 25 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-29[Mississippi answers more than 200 applicant questions in its Innovative Pilot Program Public Questions and Answers](https://www.ruralhealthtransformation.life/p/nebraska-opens-netech-cohort-1-250000#%C2%A7mississippi-answers-more-than-200-applicant-questions-in-its-innovative-pilot-program-public-questions-and-answers)
 
 2026-10-22[Mississippi names 60 awards worth $32.6 million from its Workforce Expansion Initiative and Psychiatric Emergency Services NOFOs](https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#%C2%A7mississippi-names-60-awards-worth-32-6-million-from-its-workforce-expansion-initiative-and-psychiatric-emergency-services-nofos)
 
@@ -157,7 +159,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Mississippi .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-29. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Mississippi .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-10-30. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/mississippi/
