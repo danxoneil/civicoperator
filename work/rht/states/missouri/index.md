@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-15 dated briefs
+17 dated briefs
 
 ## What Missouri committed to measure
 
@@ -110,9 +110,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 15 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7missouri-routes-approximately-11-million-in-workforce-retention-and-enablers-funding-through-its-27-torch-care-hubs)
+
+2026-10-30[Missouri‘s $39.7 million for 26 providers is the IFB #DSS26015 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) award](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7missouri-s-39-7-million-for-26-providers-is-the-ifb-dss26015-torch-care-smart-growth-and-service-line-modification-horizon-2-award)
 
 2026-10-15[Missouri awards $1.46 million to Kids Win Missouri to expand Child Care Works for rural health employers](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7missouri-awards-1-46-million-to-kids-win-missouri-to-expand-child-care-works-for-rural-health-employers)
 

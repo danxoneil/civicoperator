@@ -1356,7 +1356,7 @@ $221.9M · 35 dispatches · Federal HRSA rural default](/work/rht/states/kansas/
 
 $212.9M · 15 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
-$208.4M · 16 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
+$208.4M · 17 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
 $190.0M · 20 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
@@ -1370,7 +1370,7 @@ $193.1M · 6 dispatches · Federal HRSA rural default](/work/rht/states/minnesot
 
 $205.9M · 25 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 15 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 17 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
 $233.5M · 23 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
@@ -1386,7 +1386,7 @@ $211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-
 
 $212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 26 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 27 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
 $198.9M · 44 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
@@ -1408,9 +1408,9 @@ $206.9M · 22 dispatches · Federal HRSA rural default](/work/rht/states/tenness
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 12 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 13 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
-$195.7M · 36 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
+$195.7M · 37 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
 $195.1M · 25 dispatches · Federal HRSA rural default](/work/rht/states/vermont/)[Virginia
 
@@ -4290,7 +4290,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## How Louisiana defines rural
 
@@ -4346,9 +4346,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [LA RHTP funding-opportunities page](https://ldh.la.gov/page/rhtp-funding-opportunities), watch for vendor showcases co-hosted with the Louisiana Rural Health Association, and monitor the [program hub](https://ldh.la.gov/page/rural-health-transformation-program).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Louisiana completes all Budget Year 1 award notifications, with Budget Year 2 announcements in January 2027](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7louisiana-completes-all-budget-year-1-award-notifications-with-budget-year-2-announcements-in-january-2027)
 
 2026-10-05[Louisiana closes its Year 1 application cycle, denial notifications by October 16](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7louisiana-closes-its-year-1-application-cycle-denial-notifications-by-october-16)
 
@@ -5441,7 +5443,7 @@ Federal award data
 
 Tracker dispatches
 
-15 dated briefs
+17 dated briefs
 
 ## What Missouri committed to measure
 
@@ -5499,9 +5501,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 15 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7missouri-routes-approximately-11-million-in-workforce-retention-and-enablers-funding-through-its-27-torch-care-hubs)
+
+2026-10-30[Missouri‘s $39.7 million for 26 providers is the IFB #DSS26015 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) award](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7missouri-s-39-7-million-for-26-providers-is-the-ifb-dss26015-torch-care-smart-growth-and-service-line-modification-horizon-2-award)
 
 2026-10-15[Missouri awards $1.46 million to Kids Win Missouri to expand Child Care Works for rural health employers](https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#%C2%A7missouri-awards-1-46-million-to-kids-win-missouri-to-expand-child-care-works-for-rural-health-employers)
 
@@ -6712,7 +6718,7 @@ Federal award data
 
 Tracker dispatches
 
-26 dated briefs
+27 dated briefs
 
 ## Questions & answers
 
@@ -6760,9 +6766,11 @@ Track opportunities on the [NC RHTP Grant Opportunities](https://www.ncdhhs.gov/
 
 [Sign up for the NC RHTP newsletter →](https://ncdhhs.us4.list-manage.com/subscribe?u=58ec19aaea4630b1baad0e5e4&id=10ae728a96)
 
-## Activity log · 26 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[North Carolina sets a November 5 informational webinar for the Rural Health Innovation Fund](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7north-carolina-sets-a-november-5-informational-webinar-for-the-rural-health-innovation-fund)
 
 2026-10-22[North Carolina deep dive: review of the BP1 annual report and the six NC ROOTS hub regions](https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#%C2%A7north-carolina-deep-dive-review-of-the-bp1-annual-report-and-the-six-nc-roots-hub-regions)
 
@@ -8694,7 +8702,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## Questions & answers
 
@@ -8732,9 +8740,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Texas‘s $87 million for 129 rural providers is the October 23 batch on its List of Award Recipients](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7texas-s-87-million-for-129-rural-providers-is-the-october-23-batch-on-its-list-of-award-recipients)
 
 2026-10-23[Texas‘s $8 million in Rural Texas Strong grants is the 28 rows added to its List of Award Recipients Oct. 15, 2026](https://www.ruralhealthtransformation.life/p/oklahoma-opens-a-community-paramedicine#%C2%A7texas-s-8-million-in-rural-texas-strong-grants-is-the-28-rows-added-to-its-list-of-award-recipients-oct-15-2026)
 
@@ -8828,7 +8838,7 @@ Federal award data
 
 Tracker dispatches
 
-36 dated briefs
+37 dated briefs
 
 ## What Utah committed to measure
 
@@ -8879,9 +8889,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Utah RHTP hub](https://dhhs.utah.gov/ruralhealth/) and the [funding-opportunities portal](https://dhhs.utah.gov/ruralhealth/funding-opportunities/), and join the RHTP contact list for new-opportunity alerts by emailing [ruralht@utah.gov](mailto:ruralht@utah.gov).
 
-## Activity log · 36 dated briefs
+## Activity log · 37 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Utah names 41 Year 1 awardees in its RHTP Awardee Announcement, $154 million of it to subgrant administrators](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7utah-names-41-year-1-awardees-in-its-rhtp-awardee-announcement-154-million-of-it-to-subgrant-administrators)
 
 2026-10-26[Utah‘s telehealth network renames its application the SPRINT-UETN Consortium Application and sets an applicant webinar for October 28](https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#%C2%A7utah-s-telehealth-network-renames-its-application-the-sprint-uetn-consortium-application-and-sets-an-applicant-webinar-for-october-28)
 

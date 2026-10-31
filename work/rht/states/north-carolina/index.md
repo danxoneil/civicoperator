@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-26 dated briefs
+27 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Track opportunities on the [NC RHTP Grant Opportunities](https://www.ncdhhs.gov/
 
 [Sign up for the NC RHTP newsletter →](https://ncdhhs.us4.list-manage.com/subscribe?u=58ec19aaea4630b1baad0e5e4&id=10ae728a96)
 
-## Activity log · 26 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[North Carolina sets a November 5 informational webinar for the Rural Health Innovation Fund](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7north-carolina-sets-a-november-5-informational-webinar-for-the-rural-health-innovation-fund)
 
 2026-10-22[North Carolina deep dive: review of the BP1 annual report and the six NC ROOTS hub regions](https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#%C2%A7north-carolina-deep-dive-review-of-the-bp1-annual-report-and-the-six-nc-roots-hub-regions)
 

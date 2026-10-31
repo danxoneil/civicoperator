@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## How Louisiana defines rural
 
@@ -106,9 +106,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [LA RHTP funding-opportunities page](https://ldh.la.gov/page/rhtp-funding-opportunities), watch for vendor showcases co-hosted with the Louisiana Rural Health Association, and monitor the [program hub](https://ldh.la.gov/page/rural-health-transformation-program).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Louisiana completes all Budget Year 1 award notifications, with Budget Year 2 announcements in January 2027](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7louisiana-completes-all-budget-year-1-award-notifications-with-budget-year-2-announcements-in-january-2027)
 
 2026-10-05[Louisiana closes its Year 1 application cycle, denial notifications by October 16](https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#%C2%A7louisiana-closes-its-year-1-application-cycle-denial-notifications-by-october-16)
 

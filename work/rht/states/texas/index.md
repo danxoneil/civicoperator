@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-12 dated briefs
+13 dated briefs
 
 ## Questions & answers
 
@@ -88,9 +88,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 12 dated briefs
+## Activity log · 13 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Texas‘s $87 million for 129 rural providers is the October 23 batch on its List of Award Recipients](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7texas-s-87-million-for-129-rural-providers-is-the-october-23-batch-on-its-list-of-award-recipients)
 
 2026-10-23[Texas‘s $8 million in Rural Texas Strong grants is the 28 rows added to its List of Award Recipients Oct. 15, 2026](https://www.ruralhealthtransformation.life/p/oklahoma-opens-a-community-paramedicine#%C2%A7texas-s-8-million-in-rural-texas-strong-grants-is-the-28-rows-added-to-its-list-of-award-recipients-oct-15-2026)
 

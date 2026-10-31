@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-36 dated briefs
+37 dated briefs
 
 ## What Utah committed to measure
 
@@ -97,9 +97,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Utah RHTP hub](https://dhhs.utah.gov/ruralhealth/) and the [funding-opportunities portal](https://dhhs.utah.gov/ruralhealth/funding-opportunities/), and join the RHTP contact list for new-opportunity alerts by emailing [ruralht@utah.gov](mailto:ruralht@utah.gov).
 
-## Activity log · 36 dated briefs
+## Activity log · 37 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-10-30[Utah names 41 Year 1 awardees in its RHTP Awardee Announcement, $154 million of it to subgrant administrators](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7utah-names-41-year-1-awardees-in-its-rhtp-awardee-announcement-154-million-of-it-to-subgrant-administrators)
 
 2026-10-26[Utah‘s telehealth network renames its application the SPRINT-UETN Consortium Application and sets an applicant webinar for October 28](https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#%C2%A7utah-s-telehealth-network-renames-its-application-the-sprint-uetn-consortium-application-and-sets-an-applicant-webinar-for-october-28)
 
