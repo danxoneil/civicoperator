@@ -67,7 +67,7 @@ $221.9M · 35 dispatches · Federal HRSA rural default](/work/rht/states/kansas/
 
 $212.9M · 15 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
-$208.4M · 16 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
+$208.4M · 17 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
 $190.0M · 20 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
@@ -81,7 +81,7 @@ $193.1M · 6 dispatches · Federal HRSA rural default](/work/rht/states/minnesot
 
 $205.9M · 25 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 15 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 17 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
 $233.5M · 23 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
@@ -97,7 +97,7 @@ $211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-
 
 $212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 26 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 27 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
 $198.9M · 44 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
@@ -119,9 +119,9 @@ $206.9M · 22 dispatches · Federal HRSA rural default](/work/rht/states/tenness
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 12 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 13 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
-$195.7M · 36 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
+$195.7M · 37 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
 $195.1M · 25 dispatches · Federal HRSA rural default](/work/rht/states/vermont/)[Virginia
 
