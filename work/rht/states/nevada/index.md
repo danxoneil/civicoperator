@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-18 dated briefs
+19 dated briefs
 
 ## What Nevada committed to measure
 
@@ -103,9 +103,11 @@ Eligibility runs on two tracks, and Nevada has been unusually explicit about the
 
 [Nevada RHTP hub →](https://www.nvha.nv.gov/RHTP/)
 
-## Activity log · 18 dated briefs
+## Activity log · 19 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-03[Nevada opens Nevada Rural Reentry Flex and RHIT Requests for Applications, $10.8 million for rural jails, due December 15](https://www.ruralhealthtransformation.life/p/nevada-opens-108-million-in-rural#%C2%A7nevada-opens-nevada-rural-reentry-flex-and-rhit-requests-for-applications-10-8-million-for-rural-jails-due-december-15)
 
 2026-09-22[Nevada deep dive: review of newly filed BP2 docs and Y1 annual report](https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#%C2%A7nevada-deep-dive-review-of-newly-filed-bp2-docs-and-y1-annual-report)
 
@@ -152,7 +154,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nevada .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-03. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nevada .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-04. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/nevada/
