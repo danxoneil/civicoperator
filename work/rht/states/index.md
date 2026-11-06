@@ -73,7 +73,7 @@ $190.0M · 20 dispatches · Defined rural county list](/work/rht/states/maine/)[
 
 $168.2M · 19 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
 
-$162.0M · 5 dispatches · Uses its own rural definition](/work/rht/states/massachusetts/)[Michigan
+$162.0M · 6 dispatches · Uses its own rural definition](/work/rht/states/massachusetts/)[Michigan
 
 $173.1M · 15 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
 
@@ -89,7 +89,7 @@ $218.5M · 17 dispatches · Uses its own rural definition](/work/rht/states/nebr
 
 $179.9M · 19 dispatches · Federal HRSA rural default](/work/rht/states/nevada/)[New Hampshire
 
-$204.0M · 15 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
+$204.0M · 16 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
 
 $147.3M · 3 dispatches · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
 
@@ -97,7 +97,7 @@ $211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-
 
 $212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 28 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 29 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
 $198.9M · 44 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
@@ -135,7 +135,7 @@ $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisco
 
 $205.0M · 7 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-05. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-06. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
