@@ -43,7 +43,7 @@ $208.8M · 8 dispatches · Federal HRSA rural default](/work/rht/states/arkansas
 
 $233.6M · 27 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
-$200.1M · 39 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
+$200.1M · 40 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
 
 $154.2M · 2 dispatches · Uses its own rural definition](/work/rht/states/connecticut/)[Delaware
 
@@ -63,7 +63,7 @@ $206.9M · 11 dispatches · Uses its own rural definition](/work/rht/states/indi
 
 $209.0M · 19 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[Kansas
 
-$221.9M · 35 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
+$221.9M · 36 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
 
 $212.9M · 15 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
@@ -81,7 +81,7 @@ $193.1M · 6 dispatches · Federal HRSA rural default](/work/rht/states/minnesot
 
 $205.9M · 25 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 18 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 19 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
 $233.5M · 24 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
@@ -109,7 +109,7 @@ $197.3M · 19 dispatches · Uses its own rural definition](/work/rht/states/oreg
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
-$156.2M · 18 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
+$156.2M · 19 dispatches · Defined rural county list](/work/rht/states/rhode-island/)[South Carolina
 
 $200.0M · 9 dispatches · Federal HRSA rural default](/work/rht/states/south-carolina/)[South Dakota
 
@@ -129,13 +129,13 @@ $189.5M · 17 dispatches · Defined rural county list](/work/rht/states/virginia
 
 $181.3M · 25 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
 
-$199.5M · 37 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
+$199.5M · 38 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
 
 $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
 
 $205.0M · 7 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-06. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-07. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
