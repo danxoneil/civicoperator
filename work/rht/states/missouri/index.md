@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-19 dated briefs
+20 dated briefs
 
 ## What Missouri committed to measure
 
@@ -110,9 +110,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 19 dated briefs
+## Activity log · 20 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-09[Missouri previews more than $55 million in new RHTP funding opportunities, including $5 million for mobile health units](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7missouri-previews-more-than-55-million-in-new-rhtp-funding-opportunities-including-5-million-for-mobile-health-units)
 
 2026-11-06[Missouri sets a November 17 webinar on its Digital Backbone Provider Application, now in four maturity categories](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association-b09#%C2%A7missouri-sets-a-november-17-webinar-on-its-digital-backbone-provider-application-now-in-four-maturity-categories)
 
@@ -161,7 +163,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Missouri .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Missouri .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/missouri/

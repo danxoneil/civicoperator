@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-22 dated briefs
+23 dated briefs
 
 ## What Tennessee committed to measure
 
@@ -110,9 +110,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Tennessee RHTP hub](https://www.tn.gov/health/rural) and the [RHTP funding portal](https://c2cre237.caspio.com/dp/4cdb40003c407a2328014c28a496), and watch the Department of General Services RFP page for live solicitations.
 
-## Activity log · 22 dated briefs
+## Activity log · 23 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-09[Tennessee answers 58 questions on its County Health Council Collaborative Action for Rural Engagement (CARE) Grants, RFA #34320-19727, and holds fiscal sponsors to 10%](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7tennessee-answers-58-questions-on-its-county-health-council-collaborative-action-for-rural-engagement-care-grants-rfa-34320-19727-and-holds-fiscal-sponsors-to-10)
 
 2026-10-10[Tennessee has its County Health Council Collaborative Action for Rural Engagement (CARE) Grants, RFA #34320-19727 open: $2 million, up to $500,000 per award, due November 20](https://www.ruralhealthtransformation.life/p/texas-posts-284-rural-texas-strong#%C2%A7tennessee-has-its-county-health-council-collaborative-action-for-rural-engagement-care-grants-rfa-34320-19727-open-2-million-up-to-500-000-per-award-due-november-20)
 
@@ -167,7 +169,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Tennessee .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Tennessee .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/tennessee/

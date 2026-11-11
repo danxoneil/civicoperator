@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-38 dated briefs
+40 dated briefs
 
 ## What West Virginia committed to measure
 
@@ -108,9 +108,13 @@ Track opportunities on the [WV RHTP hub](https://health.wv.gov/rural-health-tran
 
 [Join the WV RHTP listserv →](https://health.wv.gov/rhtp-listserv)
 
-## Activity log · 38 dated briefs
+## Activity log · 40 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-10[West Virginia opens Water Is Medicine, $3.2 million for McDowell and Mingo Counties, due November 20](https://www.ruralhealthtransformation.life/p/cms-announces-10-billion-in-second#%C2%A7west-virginia-opens-water-is-medicine-3-2-million-for-mcdowell-and-mingo-counties-due-november-20)
+
+2026-11-09[West Virginia posts a third edition of its Released Awards: 57 awards, $83.8 million, with IBM at $6.6 million for the Data Spine](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7west-virginia-posts-a-third-edition-of-its-released-awards-57-awards-83-8-million-with-ibm-at-6-6-million-for-the-data-spine)
 
 2026-11-06[West Virginia adds a birthing center and a clean-water project to its Released RHTP Awards, now 35 awards](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association-b09#%C2%A7west-virginia-adds-a-birthing-center-and-a-clean-water-project-to-its-released-rhtp-awards-now-35-awards)
 
@@ -197,7 +201,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, West Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, West Virginia .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/west-virginia/
