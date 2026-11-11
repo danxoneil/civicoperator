@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-19 dated briefs
+20 dated briefs
 
 ## What Nevada committed to measure
 
@@ -103,9 +103,11 @@ Eligibility runs on two tracks, and Nevada has been unusually explicit about the
 
 [Nevada RHTP hub →](https://www.nvha.nv.gov/RHTP/)
 
-## Activity log · 19 dated briefs
+## Activity log · 20 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-09[Nevada opens a $2 million Children’s Behavioral Health Transformation WRRAP Provider Recruitment and Retention RFA, due December 10](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7nevada-opens-a-2-million-children-s-behavioral-health-transformation-wrrap-provider-recruitment-and-retention-rfa-due-december-10)
 
 2026-11-03[Nevada opens Nevada Rural Reentry Flex and RHIT Requests for Applications, $10.8 million for rural jails, due December 15](https://www.ruralhealthtransformation.life/p/nevada-opens-108-million-in-rural#%C2%A7nevada-opens-nevada-rural-reentry-flex-and-rhit-requests-for-applications-10-8-million-for-rural-jails-due-december-15)
 
@@ -154,7 +156,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nevada .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Nevada .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/nevada/

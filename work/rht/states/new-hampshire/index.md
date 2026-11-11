@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+18 dated briefs
 
 ## What New Hampshire committed to measure
 
@@ -100,9 +100,13 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Watch the [GO-NORTH contracts & awards](https://www.gonorth.nh.gov/contracts-awards) and [apply-for-funds](https://www.gonorth.nh.gov/apply-funds) pages, and track the [DHHS RHTP hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program).
 
-## Activity log · 16 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-09[New Hampshire opens its FHC GO-NORTH Rural Health Transformation Technical Assistance Center (T-TAC) RFQ to consultants outside the state and publishes a rate table](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7new-hampshire-opens-its-fhc-go-north-rural-health-transformation-technical-assistance-center-t-tac-rfq-to-consultants-outside-the-state-and-publishes-a-rate-table)
+
+2026-11-09[New Hampshire posts the Critical Access & Acute Care Hospital RFA Information Session Q&A ahead of the November 12 priority deadline: partners in-state, vendors anywhere](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7new-hampshire-posts-the-critical-access-and-acute-care-hospital-rfa-information-session-q-and-a-ahead-of-the-november-12-priority-deadline-partners-in-state-vendors-anywhere)
 
 2026-11-04[New Hampshire‘s Foundation for Healthy Communities posts the transcript of its Critical Access Hospital (CAH) and Acute Care Hospital RFA information session: outside scorers, GO-N](https://www.ruralhealthtransformation.life/p/massachusetts-posts-the-q-and-a-and#%C2%A7new-hampshire-s-foundation-for-healthy-communities-posts-the-transcript-of-its-critical-access-hospital-cah-and-acute-care-hospital-rfa-information-session-outside-scorers-go-north-approves-awards-mid-december)
 
@@ -145,7 +149,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Hampshire .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Hampshire .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-hampshire/

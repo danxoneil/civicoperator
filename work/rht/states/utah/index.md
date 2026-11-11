@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-37 dated briefs
+38 dated briefs
 
 ## What Utah committed to measure
 
@@ -97,9 +97,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [Utah RHTP hub](https://dhhs.utah.gov/ruralhealth/) and the [funding-opportunities portal](https://dhhs.utah.gov/ruralhealth/funding-opportunities/), and join the RHTP contact list for new-opportunity alerts by emailing [ruralht@utah.gov](mailto:ruralht@utah.gov).
 
-## Activity log · 37 dated briefs
+## Activity log · 38 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-10[Utah gives USU Extension over $1 million from the Utah Food Security Grant to build e-commerce websites for farmers](https://www.ruralhealthtransformation.life/p/cms-announces-10-billion-in-second#%C2%A7utah-gives-usu-extension-over-1-million-from-the-utah-food-security-grant-to-build-e-commerce-websites-for-farmers)
 
 2026-10-30[Utah names 41 Year 1 awardees in its RHTP Awardee Announcement, $154 million of it to subgrant administrators](https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#%C2%A7utah-names-41-year-1-awardees-in-its-rhtp-awardee-announcement-154-million-of-it-to-subgrant-administrators)
 
@@ -184,7 +186,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Utah .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Utah .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/utah/

@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-33 dated briefs
+34 dated briefs
 
 ## What Oklahoma committed to measure
 
@@ -102,9 +102,11 @@ Track open opportunities on the [RHTP funding page](https://oklahoma.gov/health/
 
 [Oklahoma RHTP funding page →](https://oklahoma.gov/health/rhtp/rhtp-funding.html)
 
-## Activity log · 33 dated briefs
+## Activity log · 34 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-10[Oklahoma confirms a $227,097,542.59 Budget Period 2 award, and OSU’s Technology Cooperative shows up in spending reports at $12,623,352](https://www.ruralhealthtransformation.life/p/cms-announces-10-billion-in-second#%C2%A7oklahoma-confirms-a-227-097-542-59-budget-period-2-award-and-osu-s-technology-cooperative-shows-up-in-spending-reports-at-12-623-352)
 
 2026-11-02[Oklahoma sets a December 31 Year 1 deadline for OKSHINE HIE and EHR assistance and opens Year 2 January 15](https://www.ruralhealthtransformation.life/p/west-virginia-publishes-its-year#%C2%A7oklahoma-sets-a-december-31-year-1-deadline-for-okshine-hie-and-ehr-assistance-and-opens-year-2-january-15)
 
@@ -181,7 +183,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oklahoma .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Oklahoma .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/oklahoma/

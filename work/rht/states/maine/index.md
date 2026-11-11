@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-20 dated briefs
+21 dated briefs
 
 ## What Maine committed to measure
 
@@ -96,9 +96,11 @@ Track opportunities through the program hub and MCD Global Health's RHTP page.
 
 [Maine RHTP application portal (MCD Global Health) →](https://www.mcd.org/focus-areas/maine-rural-health-transformation-program)
 
-## Activity log · 20 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-10[Maine opens the RHTP Community Health Worker (CHW) Initiative Request for Applications, $110,000 per award, due November 30](https://www.ruralhealthtransformation.life/p/cms-announces-10-billion-in-second#%C2%A7maine-opens-the-rhtp-community-health-worker-chw-initiative-request-for-applications-110-000-per-award-due-november-30)
 
 2026-10-07[Maine posts its Maine RHTP Y2 Project Narrative, moving $17.9 million out of Innovation & Technology and adding a Tribal Healing activity under its 1115 waiver](https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#%C2%A7maine-posts-its-maine-rhtp-y2-project-narrative-moving-17-9-million-out-of-innovation-and-technology-and-adding-a-tribal-healing-activity-under-its-1115-waiver)
 
@@ -149,7 +151,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-10. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maine .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/maine/
