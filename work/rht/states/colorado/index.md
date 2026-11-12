@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-40 dated briefs
+41 dated briefs
 
 ## What Colorado committed to measure
 
@@ -113,9 +113,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [HCPF RHTP hub](https://hcpf.colorado.gov/rural-health-transformation-program) and the [RFA application portal](https://coloradorhtp-rfa.my.site.com/apply/s/), and complete the state's vendor interest survey to be listed for partnerships.
 
-## Activity log · 40 dated briefs
+## Activity log · 41 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-11[Colorado details Year 1 contractors in its Overview of Budget Year 1 Implementation](https://www.ruralhealthtransformation.life/p/rural-maryland-council-names-20-fiscal#%C2%A7colorado-details-year-1-contractors-in-its-overview-of-budget-year-1-implementation)
 
 2026-11-06[Colorado moves its RHTP Advisory Committee to November 16 to weigh in before a November 17 strategic Technical Assistance meeting with vendors](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association-b09#%C2%A7colorado-moves-its-rhtp-advisory-committee-to-november-16-to-weigh-in-before-a-november-17-strategic-technical-assistance-meeting-with-vendors)
 
@@ -206,7 +208,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Colorado .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-11. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Colorado .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-12. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/colorado/
