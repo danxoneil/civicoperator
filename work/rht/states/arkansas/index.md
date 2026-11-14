@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-8 dated briefs
+9 dated briefs
 
 ## What Arkansas committed to measure
 
@@ -103,9 +103,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out competitive
 
 [Arkansas RHTP hub →](https://arkansasrhtp.com/) [Application portal →](https://arkansasrhtp.com/resources/)
 
-## Activity log · 8 dated briefs
+## Activity log · 9 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-12[Arkansas‘s Baxter Health opens three RHTP-funded RFPs: MRI System, Ambulance Fleet Expansion and Nursing Communication Devices for Baxter Health](https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#%C2%A7arkansas-s-baxter-health-opens-three-rhtp-funded-rfps-mri-system-ambulance-fleet-expansion-and-nursing-communication-devices-for-baxter-health)
 
 2026-09-25[Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations](https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#%C2%A7arkansas-awards-54-685-068-84-in-year-1-rise-ar-and-heart-funding-to-38-organizations)
 
@@ -132,7 +134,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Arkansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-13. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Arkansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-14. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/arkansas/
