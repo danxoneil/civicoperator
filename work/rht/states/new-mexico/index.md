@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-27 dated briefs
+28 dated briefs
 
 ## What New Mexico committed to measure
 
@@ -101,9 +101,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track the [HCA open-RFP portal](https://www.hca.nm.gov/lookingforinformation/open-rfps/), join the [RHTP updates and distribution list](https://forms.monday.com/forms/8e030d1aba2d00bf39f496544cea29ae?r=use1), and watch the [program hub](https://www.hca.nm.gov/rural-health-transformation-program/).
 
-## Activity log · 27 dated briefs
+## Activity log · 28 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-13[New Mexico marks five procurements Selection complete on its Funding & Procurement Opportunities list, and dates the announcements November 20 to December 30](https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#%C2%A7new-mexico-marks-five-procurements-selection-complete-on-its-funding-and-procurement-opportunities-list-and-dates-the-announcements-november-20-to-december-30)
 
 2026-09-21[New Mexico moves the Rural Health Data Hub Administrator (RHDHA) RFP to September 25 and cuts the contract term to four years](https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#%C2%A7new-mexico-moves-the-rural-health-data-hub-administrator-rhdha-rfp-to-september-25-and-cuts-the-contract-term-to-four-years)
 
@@ -168,7 +170,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Mexico .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-13. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, New Mexico .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-14. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/new-mexico/

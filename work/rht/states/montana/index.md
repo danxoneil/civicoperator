@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-26 dated briefs
+27 dated briefs
 
 ## What Montana committed to measure
 
@@ -100,9 +100,11 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 26 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-12[Montana says its Center of Excellence facility application comes by the end of the year, in Governor Gianforte press release](https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#%C2%A7montana-says-its-center-of-excellence-facility-application-comes-by-the-end-of-the-year-in-governor-gianforte-press-release)
 
 2026-11-11[Montana takes down its notice that Year 2 funding would be delayed](https://www.ruralhealthtransformation.life/p/rural-maryland-council-names-20-fiscal#%C2%A7montana-takes-down-its-notice-that-year-2-funding-would-be-delayed)
 
@@ -165,7 +167,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-13. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-14. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/montana/

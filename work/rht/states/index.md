@@ -39,7 +39,7 @@ $272.2M · 29 dispatches · Federal HRSA rural default](/work/rht/states/alaska/
 
 $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/arizona/)[Arkansas
 
-$208.8M · 8 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
+$208.8M · 9 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
 
 $233.6M · 27 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
@@ -71,19 +71,19 @@ $208.4M · 18 dispatches · Uses its own rural definition](/work/rht/states/loui
 
 $190.0M · 21 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
-$168.2M · 20 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
+$168.2M · 21 dispatches · Uses its own rural definition](/work/rht/states/maryland/)[Massachusetts
 
 $162.0M · 6 dispatches · Uses its own rural definition](/work/rht/states/massachusetts/)[Michigan
 
-$173.1M · 15 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
+$173.1M · 16 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
 
 $193.1M · 7 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
 
 $205.9M · 26 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 20 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 21 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
-$233.5M · 26 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
+$233.5M · 27 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
 $218.5M · 17 dispatches · Uses its own rural definition](/work/rht/states/nebraska/)[Nevada
 
@@ -93,7 +93,7 @@ $204.0M · 18 dispatches · Uses its own rural definition](/work/rht/states/new-
 
 $147.3M · 3 dispatches · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
 
-$211.5M · 27 dispatches · Uses its own rural definition](/work/rht/states/new-mexico/)[New York
+$211.5M · 28 dispatches · Uses its own rural definition](/work/rht/states/new-mexico/)[New York
 
 $212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
@@ -119,13 +119,13 @@ $206.9M · 23 dispatches · Federal HRSA rural default](/work/rht/states/tenness
 
 ~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
 
-$281.3M · 14 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 15 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
-$195.7M · 38 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
+$195.7M · 39 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
 $195.1M · 25 dispatches · Federal HRSA rural default](/work/rht/states/vermont/)[Virginia
 
-$189.5M · 17 dispatches · Defined rural county list](/work/rht/states/virginia/)[Washington
+$189.5M · 18 dispatches · Defined rural county list](/work/rht/states/virginia/)[Washington
 
 $181.3M · 26 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
 
@@ -133,9 +133,9 @@ $199.5M · 41 dispatches · Federal HRSA rural default](/work/rht/states/west-vi
 
 $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
 
-$205.0M · 7 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
+$205.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-13. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-14. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/

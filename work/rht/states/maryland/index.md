@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-20 dated briefs
+21 dated briefs
 
 ## What Maryland committed to measure
 
@@ -103,9 +103,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [RHTP procurement page](https://health.maryland.gov/pophealth/Pages/RHTP-Procurement.aspx), monitor the [program hub](https://health.maryland.gov/pophealth/Pages/Rural-Health-Transformation-Program.aspx), and route questions to [mdh.transformruralhealth@maryland.gov](mailto:mdh.transformruralhealth@maryland.gov).
 
-## Activity log · 20 dated briefs
+## Activity log · 21 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-12[Maryland puts its Year 1 competitive awards at nearly $129 million to 187 organizations, in Governor Moore press release](https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#%C2%A7maryland-puts-its-year-1-competitive-awards-at-nearly-129-million-to-187-organizations-in-governor-moore-press-release)
 
 2026-11-11[Maryland‘s Rural Maryland Council names 20 Fiscal Year 2027 Rural Health Transformation Program Grant Recipients, $4,684,777](https://www.ruralhealthtransformation.life/p/rural-maryland-council-names-20-fiscal#%C2%A7maryland-s-rural-maryland-council-names-20-fiscal-year-2027-rural-health-transformation-program-grant-recipients-4-684-777)
 
@@ -156,7 +158,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maryland .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-13. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Maryland .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-14. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/maryland/

@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-7 dated briefs
+8 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Eligibility runs on two tracks. **Subgrants/subawards** flow to rural providers 
 
 [Wyoming RHTP hub →](https://health.wyo.gov/admin/rural-health-transformation-program/) [RFA application portal →](https://wyrhtp.submittable.com/submit)
 
-## Activity log · 7 dated briefs
+## Activity log · 8 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-13[Wyoming reopens 1.2. EMS Regionalization through July 1, 2027](https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#%C2%A7wyoming-reopens-1-2-ems-regionalization-through-july-1-2027)
 
 2026-08-17[Wyoming‘s advisory committee divides $205 million](https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#%C2%A7wyoming-s-advisory-committee-divides-205-million)
 
@@ -125,7 +127,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wyoming .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-13. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wyoming .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-14. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/wyoming/
