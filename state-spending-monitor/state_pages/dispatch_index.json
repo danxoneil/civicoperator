@@ -1,5 +1,659 @@
 {
+  "New Mexico": [
+    {
+      "date": "2026-11-13",
+      "post_title": "Virginia opens Rural Health Innovation Grants, RFA #852P028, $8.6 million for youth health technology, due December 17",
+      "headline": "New Mexico marks five procurements Selection complete on its Funding & Procurement Opportunities list, and dates the announcements November 20 to December 30",
+      "url": "https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#§new-mexico-marks-five-procurements-selection-complete-on-its-funding-and-procurement-opportunities-list-and-dates-the-announcements-november-20-to-december-30",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-21",
+      "post_title": "New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations",
+      "headline": "New Mexico moves the Rural Health Data Hub Administrator (RHDHA) RFP to September 25 and cuts the contract term to four years",
+      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#§new-mexico-moves-the-rural-health-data-hub-administrator-rhdha-rfp-to-september-25-and-cuts-the-contract-term-to-four-years",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-21",
+      "post_title": "New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations",
+      "headline": "New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations",
+      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#§new-mexico-names-six-healthy-horizons-regional-hub-organizations-and-74-061-254-18-in-regional-allocations",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-11",
+      "post_title": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
+      "headline": "New Mexico sets September 21 for the Rural Health Data Hub Administrator (RHDHA) RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#§new-mexico-sets-september-21-for-the-rural-health-data-hub-administrator-rhdha-rfp",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-09",
+      "post_title": "Idaho opens $8 million in Graduate Medical Education subawards",
+      "headline": "New Mexico posts the Rural Health Data Hub Administrator (RHDHA) RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#§new-mexico-posts-the-rural-health-data-hub-administrator-rhdha-rfp",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-28",
+      "post_title": "Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects",
+      "headline": "New Mexico announces a Rooted in New Mexico (RiNM) Q&A and an Amendment and posts neither, seven days from close",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#§new-mexico-announces-a-rooted-in-new-mexico-rinm-q-and-a-and-an-amendment-and-posts-neither-seven-days-from-close",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-27",
+      "post_title": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
+      "headline": "New Mexico answers six questions on RFA 27-630-8000-0037 Ob/Gyn Services and opens the door to telehealth-only bids",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#§new-mexico-answers-six-questions-on-rfa-27-630-8000-0037-ob-gyn-services-and-opens-the-door-to-telehealth-only-bids",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-14",
+      "post_title": "West Virginia releases its first two Rural Health Link solicitations, both due August 26 / Utah opens SHIFT 3.3 Rural EMS, $12.5 million, closing September 13",
+      "headline": "New Mexico opens applications for its RHTP Stakeholder Advisory Committee and puts four RFPs under evaluation",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#§new-mexico-opens-applications-for-its-rhtp-stakeholder-advisory-committee-and-puts-four-rfps-under-evaluation",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-07",
+      "post_title": "New Mexico puts out $22M Rooted in New Mexico Program Administrator RFP",
+      "headline": "New Mexico puts out $22M Rooted in New Mexico Program Administrator RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#§new-mexico-puts-out-22m-rooted-in-new-mexico-program-administrator-rfp",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-29",
+      "post_title": "Pennsylvania maps its entire RHTP pipeline",
+      "headline": "New Mexico revises the Rural Health Innovation Fund schedule",
+      "url": "https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#§new-mexico-revises-the-rural-health-innovation-fund-schedule",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-28",
+      "post_title": "West Virginia’s $10M value-based-care on-ramp, plus new RFGAs from Arizona and Utah",
+      "headline": "New Mexico extends the Rural Health Innovation Fund RFP deadline to Aug 3",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#§new-mexico-extends-the-rural-health-innovation-fund-rfp-deadline-to-aug-3",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-17",
+      "post_title": "Montana launches $4M in Rural EMS grants, Kansas issues Healthworks CVO RFP, Arizona and California up w/ opps",
+      "headline": "New Mexico posts 8 job openings",
+      "url": "https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#§new-mexico-posts-8-job-openings",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-09",
+      "post_title": "New Mexico and West Virginia add RFPs, Kentucky publishes info sheets with CMS changes baked in",
+      "headline": "New Mexico’s RHIF Preproposal Deck Fills in the Numbers and the Calendar",
+      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-and-west-virginia-add#§new-mexico-s-rhif-preproposal-deck-fills-in-the-numbers-and-the-calendar",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-09",
+      "post_title": "New Mexico and West Virginia add RFPs, Kentucky publishes info sheets with CMS changes baked in",
+      "headline": "New Mexico Opens an Onsite Clinic RFP with an Optional Rural Mobile Component",
+      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-and-west-virginia-add#§new-mexico-opens-an-onsite-clinic-rfp-with-an-optional-rural-mobile-component",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-02",
+      "post_title": "New Mexico RHIF RFP, 5 Alabama NOFOs, and four other states are looking to spend",
+      "headline": "New Mexico publishes Rural Health Innovation Fund (RHIF) RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-rhif-rfp-5-alabama-nofos#§new-mexico-publishes-rural-health-innovation-fund-rhif-rfp",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-30",
+      "post_title": "CMS publishes Rural Tech Catalyst Fund Resource Guide, New Mexico opens Rural Health Innovation Fund RFP",
+      "headline": "New Mexico opens Rural Health Innovation Fund RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/cms-publishes-rural-teach-catalyst#§new-mexico-opens-rural-health-innovation-fund-rfp",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-20",
+      "post_title": "Utah reopens RISE 2.2, Vemont is back on their Friday afternoon RFP drop game",
+      "headline": "New Mexico extends Healthy Horizons deadline; posts amendment and FAQ",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-reopens-rise-22-vemont-is-back#§new-mexico-extends-healthy-horizons-deadline-posts-amendment-and-faq",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-16",
+      "post_title": "10 states published grant opportunities & key eligibility guidance in the last day ",
+      "headline": "New Mexico posts Rural Health Innovation Fund release date",
+      "url": "https://www.ruralhealthtransformation.life/p/10-states-published-grant-opportunities#§new-mexico-posts-rural-health-innovation-fund-release-date",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-01",
+      "post_title": "Kansas posts awards and RFA, North Dakota Rural Health Clinical Equipment, New Mexico changes CRHSI deadline",
+      "headline": "New Mexico posts amendment to Center for Rural Health Sustainability & Innovation (CRHSI), changes deadline to June 12, 2026",
+      "url": "https://www.ruralhealthtransformation.life/p/kansas-posts-awards-and-rfa-north#§new-mexico-posts-amendment-to-center-for-rural-health-sustainability-and-innovation-crhsi-changes-deadline-to-june-12-2026",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-29",
+      "post_title": "West Virginia RFP 1 webinar today; Mississippi engages",
+      "headline": "New Mexico flashes release dates, including Healthy Horizons on Monday",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-rfp-1-webinar-today#§new-mexico-flashes-release-dates-including-healthy-horizons-on-monday",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-26",
+      "post_title": "Big movements in Idaho, Alaska, New Mexico, and Vermont",
+      "headline": "New Mexico Extends ASO RFP Deadline, Splits Evaluation Methodology for Federal Funds",
+      "url": "https://www.ruralhealthtransformation.life/p/big-movements-in-idaho-alaska-new#§new-mexico-extends-aso-rfp-deadline-splits-evaluation-methodology-for-federal-funds",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-18",
+      "post_title": "Iowa, Vermont, Georgia, and Lousiana published RFPs last Friday",
+      "headline": "New Mexico webinar info & upcoming opportunities",
+      "url": "https://www.ruralhealthtransformation.life/p/iowa-vermont-georgia-and-lousiana#§new-mexico-webinar-info-and-upcoming-opportunities",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-12",
+      "post_title": "Nevada publishes $27M RHIT Initiative RFP, Kentucky Drops Two EMS RFAs, South Dakota publishes $89.3M RFA for Digital Health Modernization, due June 30",
+      "headline": "New Mexico posts RHTP Webinar info",
+      "url": "https://www.ruralhealthtransformation.life/p/nevada-publishes-27m-rhit-initiative#§new-mexico-posts-rhtp-webinar-info",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-11",
+      "post_title": "Nevada out with $30M RFP for Chronic Disease and Behavioral Health (RHOAP), New Mexico publishes 2 procurements ",
+      "headline": "New Mexico publishes two huge procurements: ASO and CRHSI",
+      "url": "https://www.ruralhealthtransformation.life/p/nevada-out-with-30m-rfp-for-chronic#§new-mexico-publishes-two-huge-procurements-aso-and-crhsi",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-08",
+      "post_title": "Alabama gets CMS approval and posts a launch timeline, new Montana vendor list, Oregon posts awards",
+      "headline": "New Mexico posts about vendor engagement on May 13",
+      "url": "https://www.ruralhealthtransformation.life/p/alabama-gets-cms-approval-and-posts#§new-mexico-posts-about-vendor-engagement-on-may-13",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-05",
+      "post_title": "Montana Advisory & RFI, Michigan's $15M subrecipient list, $10M Kentucky RFP, USASpending Watch",
+      "headline": "New Mexico announces May 13 webinar on funding opportunities",
+      "url": "https://www.ruralhealthtransformation.life/p/montana-advisory-and-rfi-michigans#§new-mexico-announces-may-13-webinar-on-funding-opportunities",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-04-28",
+      "post_title": "Oklahoma $15M NOFO, Iowa Network of Care, New Mexico pipeline, Arizona award tiers",
+      "headline": "New Mexico published RFP for ASO Services for Rural and Behavioral Health Program Administration",
+      "url": "https://www.ruralhealthtransformation.life/p/oklahoma-15m-nofo-iowa-network-of#§new-mexico-published-rfp-for-aso-services-for-rural-and-behavioral-health-program-administration",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-02-24",
+      "post_title": "Florida webinar on Youtube + new details on 15 strategies, Kenutcky and Kansas website funding clarifications, and Oregon webinar",
+      "headline": "New Mexico provided the Latest News for Providers and Communities",
+      "url": "https://www.ruralhealthtransformation.life/p/florida-webinar-on-youtube-new-details#§new-mexico-provided-the-latest-news-for-providers-and-communities",
+      "audience": "only_paid"
+    }
+  ],
+  "Missouri": [
+    {
+      "date": "2026-11-13",
+      "post_title": "Virginia opens Rural Health Innovation Grants, RFA #852P028, $8.6 million for youth health technology, due December 17",
+      "headline": "Missouri‘s five pillars account for $168.2 million of the award in Missouri Commits $216 Million in First-Year Rural Health Investments to Strengthen Care Across Rural Communities",
+      "url": "https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#§missouri-s-five-pillars-account-for-168-2-million-of-the-award-in-missouri-commits-216-million-in-first-year-rural-health-investments-to-strengthen-care-across-rural-communities",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-11-09",
+      "post_title": "West Virginia posts a third edition of its Released Awards: 57 awards, $83.8 million, with IBM at $6.6 million for the Data Spine",
+      "headline": "Missouri previews more than $55 million in new RHTP funding opportunities, including $5 million for mobile health units",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#§missouri-previews-more-than-55-million-in-new-rhtp-funding-opportunities-including-5-million-for-mobile-health-units",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-11-06",
+      "post_title": "Rhode Island’s health center association answers 130 questions on its $82,000 Coding Consultant Services and moves proposals to November 13",
+      "headline": "Missouri sets a November 17 webinar on its Digital Backbone Provider Application, now in four maturity categories",
+      "url": "https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association-b09#§missouri-sets-a-november-17-webinar-on-its-digital-backbone-provider-application-now-in-four-maturity-categories",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-11-02",
+      "post_title": "West Virginia publishes its Year 1 Released Awards, 33 awards totaling $48,758,076",
+      "headline": "Missouri names 25 Smart Growth and Service Line Modernization awardees, $39,400,820.55",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-publishes-its-year#§missouri-names-25-smart-growth-and-service-line-modernization-awardees-39-400-820-55",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-30",
+      "post_title": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
+      "headline": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#§missouri-routes-approximately-11-million-in-workforce-retention-and-enablers-funding-through-its-27-torch-care-hubs",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-30",
+      "post_title": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
+      "headline": "Missouri‘s $39.7 million for 26 providers is the IFB #DSS26015 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) award",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#§missouri-s-39-7-million-for-26-providers-is-the-ifb-dss26015-torch-care-smart-growth-and-service-line-modification-horizon-2-award",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-15",
+      "post_title": "Rhode Island’s hospital association opens the Hospital at Home Program Implementation and Scale Grant Opportunity, up to $2 million per hospital, due October 20",
+      "headline": "Missouri awards $1.46 million to Kids Win Missouri to expand Child Care Works for rural health employers",
+      "url": "https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#§missouri-awards-1-46-million-to-kids-win-missouri-to-expand-child-care-works-for-rural-health-employers",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-06",
+      "post_title": "South Dakota awards approximately $7.2 million to 25 projects under its Enhancing Sustainable Emergency Medical Services (EMS) Initiative",
+      "headline": "Missouri‘s Hub 2 opens $531,762.78 for Andrew and Buchanan counties, due October 14, on the Local Community Hub – Local Program Funding Application",
+      "url": "https://www.ruralhealthtransformation.life/p/south-dakota-awards-approximately#§missouri-s-hub-2-opens-531-762-78-for-andrew-and-buchanan-counties-due-october-14-on-the-local-community-hub-local-program-funding-application",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-29",
+      "post_title": "Colorado publishes its full RHTP awardee list, $170.2 million across 92 awards",
+      "headline": "Missouri‘s RHTP Strategic Minor Renovations Program gets its first per-hospital number: about $580,000 to Texas County Memorial Hospital",
+      "url": "https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#§missouri-s-rhtp-strategic-minor-renovations-program-gets-its-first-per-hospital-number-about-580-000-to-texas-county-memorial-hospital",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-23",
+      "post_title": "Washington maps all $181.26 million by channel in its Rural Health Transformation Program Update webinar deck",
+      "headline": "Missouri names the 20 hospitals in its RHTP Strategic Minor Renovations Program, approximately $35 million",
+      "url": "https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#§missouri-names-the-20-hospitals-in-its-rhtp-strategic-minor-renovations-program-approximately-35-million",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-23",
+      "post_title": "Washington maps all $181.26 million by channel in its Rural Health Transformation Program Update webinar deck",
+      "headline": "Missouri awarded MEMSA $12.3 million through a Single Feasible Source for Rural Health Transformation for Emergency Medical Services Systems,",
+      "url": "https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#§missouri-awarded-memsa-12-3-million-through-a-single-feasible-source-for-rural-health-transformation-for-emergency-medical-services-systems",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-08",
+      "post_title": "Alaska funding announcments, NY Rural Community Health Integration Initiative awards",
+      "headline": "Missouri‘s MEMSA award is $12,343,385 across three pillars on the Rural Health Transformation Funding page, not the $6.5 million announced in July",
+      "url": "https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#§missouri-s-memsa-award-is-12-343-385-across-three-pillars-on-the-rural-health-transformation-funding-page-not-the-6-5-million-announced-in-july",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-01",
+      "post_title": "Mississippi announces the First Round of Technology and Infrastructure Awards, with sub-award execution starting this week",
+      "headline": "Missouri issues RFI 0000000012SL, two telehealth tracks, responses due September 9",
+      "url": "https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#§missouri-issues-rfi-0000000012sl-two-telehealth-tracks-responses-due-september-9",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-27",
+      "post_title": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
+      "headline": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#§missouri-extends-ifb-dss26015-01-torch-care-smart-growth-and-service-line-modification-horizon-2-to-2-p-m-september-1",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-19",
+      "post_title": "Idaho posts three more solicitations totaling $111.7 million",
+      "headline": "Missouri adds a ToRCH Care alignment test to IFB #DSS26015, the nearly $40 million Smart Growth and Service Line Modification solicitation",
+      "url": "https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#§missouri-adds-a-torch-care-alignment-test-to-ifb-dss26015-the-nearly-40-million-smart-growth-and-service-line-modification-solicitation",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-30",
+      "post_title": "New Hampshire opens four GO-NORTH sub-recipient solicitations",
+      "headline": "Missouri opens IFB #DSS26015, a $40M IFB to modernize rural facilities",
+      "url": "https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#§missouri-opens-ifb-dss26015-a-40m-ifb-to-modernize-rural-facilities",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-27",
+      "post_title": "North Dakota adds two more, Georgia names Telepods winners, Missouri routes EMS money through MEMSA, Kentucky out w/ CHW certificates",
+      "headline": "Missouri routes RHTP dollars to rural EMS through MEMSA — a $6.5M Mobile Integrated Healthcare build",
+      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#§missouri-routes-rhtp-dollars-to-rural-ems-through-memsa-a-6-5m-mobile-integrated-healthcare-build",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-21",
+      "post_title": "California opens EHR Modernization Grant Program",
+      "headline": "Missouri launches Missouri Doula Association partnership",
+      "url": "https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#§missouri-launches-missouri-doula-association-partnership",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-18",
+      "post_title": "Missouri announces 27 awardees; North Dakota, Michigan, and Washington launch opportunities",
+      "headline": "Missouri announces 27 Hub Anchor awardees and Rural Health Transformation Funding for Home Visiting",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-announces-27-awardees-north#§missouri-announces-27-hub-anchor-awardees-and-rural-health-transformation-funding-for-home-visiting",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-17",
+      "post_title": "Montana launches $4M in Rural EMS grants, Kansas issues Healthworks CVO RFP, Arizona and California up w/ opps",
+      "headline": "Missouri publishes Digital Backbone slides and roadshow updates",
+      "url": "https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#§missouri-publishes-digital-backbone-slides-and-roadshow-updates",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-03-25",
+      "post_title": "Alaska preliminary LOI summary, Colorado Advisory meeting is today, Missouri announces RHT leader, South Carolina RFPs 4/2/2026, Legislation Watch ID, MS, and U.S. Senate ",
+      "headline": "Missouri appoints Joseph Miller head of RHT",
+      "url": "https://www.ruralhealthtransformation.life/p/alaska-preliminary-loi-summary-colorado#§missouri-appoints-joseph-miller-head-of-rht",
+      "audience": "only_paid"
+    }
+  ],
+  "Michigan": [
+    {
+      "date": "2026-11-13",
+      "post_title": "Virginia opens Rural Health Innovation Grants, RFA #852P028, $8.6 million for youth health technology, due December 17",
+      "headline": "Michigan puts its Subrecipients of Michigan’s Rural Health Transformation Program at 231 awards and $162.2 million as of October 1",
+      "url": "https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#§michigan-puts-its-subrecipients-of-michigan-s-rural-health-transformation-program-at-231-awards-and-162-2-million-as-of-october-1",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-22",
+      "post_title": "Idaho names 114 awards worth $180.7 million in its list of awardees as of Oct. 16",
+      "headline": "Michigan posts its RHTP Annual Report Year 1: $13.3 million obligated to six first-tier entities",
+      "url": "https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#§michigan-posts-its-rhtp-annual-report-year-1-13-3-million-obligated-to-six-first-tier-entities",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-14",
+      "post_title": "Mississippi opens a $9.5 million Electronic Health Records (EHR) Replacement for Small Rural Providers Program, applications October 21 to November 23",
+      "headline": "Michigan says its first grant cycle turned 206 applications into 72 awards worth $48.7 million",
+      "url": "https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#§michigan-says-its-first-grant-cycle-turned-206-applications-into-72-awards-worth-48-7-million",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-08",
+      "post_title": "Alaska funding announcments, NY Rural Community Health Integration Initiative awards",
+      "headline": "Michigan routes $25.8 million of RHTP to the Department of Labor and Economic Opportunity, $16.7 million to the Office of Rural Prosperity and $9.1 million to the High-Speed Intern",
+      "url": "https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#§michigan-routes-25-8-million-of-rhtp-to-the-department-of-labor-and-economic-opportunity-16-7-million-to-the-office-of-rural-prosperity-and-9-1-million-to-the-high-speed-internet-office",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-27",
+      "post_title": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
+      "headline": "Michigan puts a number on the pipeline in its July 2026 RHTP newsletter: seven GFOs in Budget Period 1, five of them workforce",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#§michigan-puts-a-number-on-the-pipeline-in-its-july-2026-rhtp-newsletter-seven-gfos-in-budget-period-1-five-of-them-workforce",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-06",
+      "post_title": "North Dakota opens Non-Emergency Medical Transportation Acquisition, $2 million for wheelchair-accessible vans",
+      "headline": "Michigan names its RHTP Advisory Council, and tells you not to call them",
+      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#§michigan-names-its-rhtp-advisory-council-and-tells-you-not-to-call-them",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-22",
+      "post_title": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
+      "headline": "Michigan passes budget with Rural Health Transformation Program appropriation",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#§michigan-passes-budget-with-rural-health-transformation-program-appropriation",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-22",
+      "post_title": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
+      "headline": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#§michigan-opens-a-12m-improving-care-delivery-and-access-through-transportation-grant-program",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-18",
+      "post_title": "Missouri announces 27 awardees; North Dakota, Michigan, and Washington launch opportunities",
+      "headline": "Michigan opens applications for Chronic Disease Collaborative Care Fund",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-announces-27-awardees-north#§michigan-opens-applications-for-chronic-disease-collaborative-care-fund",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-10",
+      "post_title": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
+      "headline": "Michigan launches RHTP Advisory Council",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#§michigan-launches-rhtp-advisory-council",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-10",
+      "post_title": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
+      "headline": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#§michigan-opens-34-2m-in-rural-workforce-grants-and-bets-big-on-the-social-work-pipeline",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-11",
+      "post_title": "Kansas out with $9.5M for AI & other emerging tech, Michigan names ~100 subrecipients, new ND opps",
+      "headline": "Michigan pushes list of subrecipients to date",
+      "url": "https://www.ruralhealthtransformation.life/p/kansas-out-with-95m-for-ai-and-other#§michigan-pushes-list-of-subrecipients-to-date",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-10",
+      "post_title": "Michigan subrecipient list, Mississippi Comprehensive State Health Plan contract, North $10M for EMS opportunity",
+      "headline": "Michigan posts list of 124 subrecipient awards totalling $65M",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-subrecipient-list-mississippi#§michigan-posts-list-of-124-subrecipient-awards-totalling-65m",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-05",
+      "post_title": "Montana Advisory & RFI, Michigan's $15M subrecipient list, $10M Kentucky RFP, USASpending Watch",
+      "headline": "Michigan launches dedicated RHTP subrecipients award page w/ $15M appropriated to 6 entities",
+      "url": "https://www.ruralhealthtransformation.life/p/montana-advisory-and-rfi-michigans#§michigan-launches-dedicated-rhtp-subrecipients-award-page-w-15m-appropriated-to-6-entities",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-04-18",
+      "post_title": "Indiana prohibits sub-recipients, Michigan publishes Budget Narrative, South Carolina funding forecast",
+      "headline": "Michigan publishes Budget Narrative",
+      "url": "https://www.ruralhealthtransformation.life/p/indiana-prohibits-sub-recipients#§michigan-publishes-budget-narrative",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-02-22",
+      "post_title": "Delaware accepting RFP applications, Michigan updated program structure, Utah posts webinar",
+      "headline": "Michigan",
+      "url": "https://www.ruralhealthtransformation.life/p/delaware-accepting-rfp-applications#§michigan",
+      "audience": "only_paid"
+    }
+  ],
+  "Virginia": [
+    {
+      "date": "2026-11-13",
+      "post_title": "Virginia opens Rural Health Innovation Grants, RFA #852P028, $8.6 million for youth health technology, due December 17",
+      "headline": "Virginia opens Rural Health Innovation Grants, RFA #852P028, $8.6 million for youth health technology, due December 17",
+      "url": "https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#§virginia-opens-rural-health-innovation-grants-rfa-852p028-8-6-million-for-youth-health-technology-due-december-17",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-26",
+      "post_title": "Virginia’s Thomas Jefferson Planning District Commission opens a $11.8 million Rural Health Transformation Program – Mobile and Hybrid Care RFA, due November 23",
+      "headline": "Virginia‘s Thomas Jefferson Planning District Commission opens a $11.8 million Rural Health Transformation Program – Mobile and Hybrid Care RFA, due November 23",
+      "url": "https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#§virginia-s-thomas-jefferson-planning-district-commission-opens-a-11-8-million-rural-health-transformation-program-mobile-and-hybrid-care-rfa-due-november-23",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-08",
+      "post_title": "Mississippi opens the Statewide Health Information Exchange/Health Data Utility (HIE/HDU) RFP, due November 3",
+      "headline": "Virginia Works posts its Earn to Learn Initiative (RFA #128140) Q&A: no extension, no indirect, and 100% recoupment on the five-year rural commitment",
+      "url": "https://www.ruralhealthtransformation.life/p/mississippi-opens-the-statewide-health#§virginia-works-posts-its-earn-to-learn-initiative-rfa-128140-q-and-a-no-extension-no-indirect-and-100-recoupment-on-the-five-year-rural-commitment",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-07",
+      "post_title": "Massachusetts opens the Rural Health Transformation Program (RHTP) Rural Partners RFA, one application for 27 activities across six initiatives, due October 26",
+      "headline": "Virginia opens the CareIQ Tech Innovation Fund RFA (C-27-002), $9.9 million in non-dilutive grants for rural health technology, due October 29",
+      "url": "https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#§virginia-opens-the-careiq-tech-innovation-fund-rfa-c-27-002-9-9-million-in-non-dilutive-grants-for-rural-health-technology-due-october-29",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-07",
+      "post_title": "Massachusetts opens the Rural Health Transformation Program (RHTP) Rural Partners RFA, one application for 27 activities across six initiatives, due October 26",
+      "headline": "Virginia opens Build Career Pipelines through the Department of Education, an estimated $120,868 per award for 75 rural school divisions and 3 regional technical centers, due Octob",
+      "url": "https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#§virginia-opens-build-career-pipelines-through-the-department-of-education-an-estimated-120-868-per-award-for-75-rural-school-divisions-and-3-regional-technical-centers-due-october-23",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-05",
+      "post_title": "RHTP Q3 2026 Quarterly Report",
+      "headline": "Virginia Health Care Foundation names 25 Provider Interoperability awards, $14.39 million",
+      "url": "https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#§virginia-health-care-foundation-names-25-provider-interoperability-awards-14-39-million",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-24",
+      "post_title": "Virginia publishes the Earn to Learn Initiative RFA through Virginia Works, $4,679,752.46 for rural allied health apprenticeships, due October 16",
+      "headline": "Virginia publishes the Earn to Learn Initiative RFA through Virginia Works, $4,679,752.46 for rural allied health apprenticeships, due October 16",
+      "url": "https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#§virginia-publishes-the-earn-to-learn-initiative-rfa-through-virginia-works-4-679-752-46-for-rural-allied-health-apprenticeships-due-october-16",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-22",
+      "post_title": "Iowa releases Cardiovascular Health Hub Program RFP, $33M in Y1 against $108.6M 4-year total ",
+      "headline": "Virginia‘s VHCF closes Provider Interoperability and Provider Productivity and dates the awards September 30 and October 14",
+      "url": "https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#§virginia-s-vhcf-closes-provider-interoperability-and-provider-productivity-and-dates-the-awards-september-30-and-october-14",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-16",
+      "post_title": "South Carolina posts its SC RHTP Year 1 Award List, 228 projects for $167,299,900.69 ",
+      "headline": "Virginia‘s NSVRC posts the Request for Applications – Q&A Addendum, Virginia Rural Health Transformation Program Mobile and Hybrid Care, and says yes to for-profit and vendor-led a",
+      "url": "https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#§virginia-s-nsvrc-posts-the-request-for-applications-q-and-a-addendum-virginia-rural-health-transformation-program-mobile-and-hybrid-care-and-says-yes-to-for-profit-and-vendor-led-applicants-two-days-before-applications-close",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-15",
+      "post_title": "Kansas awards $16,006,648 in Emerging Technology Grants against a $9.5 million RFA",
+      "headline": "Virginia names award dates for the Provider Interoperability & Provider Productivity RFAs",
+      "url": "https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#§virginia-names-award-dates-for-the-provider-interoperability-and-provider-productivity-rfas",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-14",
+      "post_title": "Vermont publishes RHT Year 1 Awards and Contracts — 87 executed agreements, $62,790,450.50",
+      "headline": "Virginia‘s NSVRC delays the Q&A Addendum on its Mobile and Hybrid Care RFA, six days before applications close",
+      "url": "https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#§virginia-s-nsvrc-delays-the-q-and-a-addendum-on-its-mobile-and-hybrid-care-rfa-six-days-before-applications-close",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-11",
+      "post_title": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
+      "headline": "Virginia‘s VDH opens the Innovative Maternal Care RFA (VDH-26-705-0387), about $11.6 million, due October 6",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#§virginia-s-vdh-opens-the-innovative-maternal-care-rfa-vdh-26-705-0387-about-11-6-million-due-october-6",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-08",
+      "post_title": "Alaska funding announcments, NY Rural Community Health Integration Initiative awards",
+      "headline": "Virginia‘s Provider Interoperability: Where Connection Meets Care deck puts VHCF’s two CareIQ subinitiatives at $26 million in Year 1, which leaves $3 million to $5 million behind ",
+      "url": "https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#§virginia-s-provider-interoperability-where-connection-meets-care-deck-puts-vhcf-s-two-careiq-subinitiatives-at-26-million-in-year-1-which-leaves-3-million-to-5-million-behind-the-two-rounds",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-03",
+      "post_title": "llinois: ICAHN opens the first door on its $50 million, and it’s for a vendor, not a hospital",
+      "headline": "Virginia reissues the Provider Interoperability & Provider Productivity FAQ Responses at 40 questions, only the applicant needs SAM.gov",
+      "url": "https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#§virginia-reissues-the-provider-interoperability-and-provider-productivity-faq-responses-at-40-questions-only-the-applicant-needs-sam-gov",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-01",
+      "post_title": "Mississippi announces the First Round of Technology and Infrastructure Awards, with sub-award execution starting this week",
+      "headline": "Virginia‘s Provider Productivity Request for Applications is the last VHCF fund open, $7 million to $9 million, due September 14",
+      "url": "https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#§virginia-s-provider-productivity-request-for-applications-is-the-last-vhcf-fund-open-7-million-to-9-million-due-september-14",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-31",
+      "post_title": "Washington reopens RFA 2026HCA9, the Opioid Treatment Programs (OTP) Workforce Incentive Program, for a second round closing September 8",
+      "headline": "Virginia‘s Northern Shenandoah Valley Regional Commission opens RFA-RHTP-2026-02, Mobile and Hybrid Care, $4.2 million and at least five awards",
+      "url": "https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#§virginia-s-northern-shenandoah-valley-regional-commission-opens-rfa-rhtp-2026-02-mobile-and-hybrid-care-4-2-million-and-at-least-five-awards",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-11",
+      "post_title": "Maryland makes $78.6 million in Pillar 2 award offers to 41 organizations",
+      "headline": "Virginia opens its first RFAs and publishes the RHT RFA Navigator",
+      "url": "https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#§virginia-opens-its-first-rfas-and-publishes-the-rht-rfa-navigator",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-13",
+      "post_title": "Louisiana Food As Medicine NOGO, Maine puts $30M out for EMRs",
+      "headline": "Virginia Implementation: The “VA Rural Vitality” Framework",
+      "url": "https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#§virginia-implementation-the-va-rural-vitality-framework",
+      "audience": "only_paid"
+    }
+  ],
+  "Wyoming": [
+    {
+      "date": "2026-11-13",
+      "post_title": "Virginia opens Rural Health Innovation Grants, RFA #852P028, $8.6 million for youth health technology, due December 17",
+      "headline": "Wyoming reopens 1.2. EMS Regionalization through July 1, 2027",
+      "url": "https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#§wyoming-reopens-1-2-ems-regionalization-through-july-1-2027",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-17",
+      "post_title": "Pennsylvania opens Rapid Response Stabilization — Round 2 today, $35 million at $1 million per location, closing August 24",
+      "headline": "Wyoming‘s advisory committee divides $205 million",
+      "url": "https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#§wyoming-s-advisory-committee-divides-205-million",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-11",
+      "post_title": "Maryland makes $78.6 million in Pillar 2 award offers to 41 organizations",
+      "headline": "Wyoming‘s Rural Health Transformation Advisory Committee meets this morning to discuss awards, with no public comment",
+      "url": "https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#§wyoming-s-rural-health-transformation-advisory-committee-meets-this-morning-to-discuss-awards-with-no-public-comment",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-03",
+      "post_title": "Wyoming closes RFA, New Hampshire approves planning grant mechanism",
+      "headline": "Wyoming closes its first Rural Health Transformation Program RFA round",
+      "url": "https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#§wyoming-closes-its-first-rural-health-transformation-program-rfa-round",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-11",
+      "post_title": "Utah drops a $94M opp, Maryland out w/ $20M+ in rural workforce and connectivity funding, Pennsylvania opens a $25M EHR & HIO interoperability payment",
+      "headline": "Wyoming publishes two of three tech vendor RFPs",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-drops-a-94m-opp-maryland-out#§wyoming-publishes-two-of-three-tech-vendor-rfps",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-01",
+      "post_title": "Wyoming published their RHT application portal this morning, Kansas opens Interfacility Transport Project Request for Applications",
+      "headline": "Wyoming published their RHT application portal this morning",
+      "url": "https://www.ruralhealthtransformation.life/p/wyoming-published-their-rht-application#§wyoming-published-their-rht-application-portal-this-morning",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-20",
+      "post_title": "Wyoming gets CMS approval w/o perpetuity— see video deep-dive into their implementation",
+      "headline": "Wyoming gets CMS approval w/o perpetuity",
+      "url": "https://www.ruralhealthtransformation.life/p/wyoming-gets-cms-approval-wo-perpetuity#§wyoming-gets-cms-approval-w-o-perpetuity",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-03-24",
+      "post_title": "West Virigina youtube, live webinar (today!) & listserv, Connecticut info, Wyoming perpetuity progress; AZ & MS in Legislation Watch",
+      "headline": "Wyoming perpetuity progress",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virigina-youtube-live-webinar#§wyoming-perpetuity-progress",
+      "audience": "only_paid"
+    }
+  ],
   "Montana": [
+    {
+      "date": "2026-11-12",
+      "post_title": "Arkansas’s Baxter Health opens three RHTP-funded RFPs: MRI System, Ambulance Fleet Expansion and Nursing Communication Devices for Baxter Health",
+      "headline": "Montana says its Center of Excellence facility application comes by the end of the year, in Governor Gianforte press release",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#§montana-says-its-center-of-excellence-facility-application-comes-by-the-end-of-the-year-in-governor-gianforte-press-release",
+      "audience": "only_paid"
+    },
     {
       "date": "2026-11-11",
       "post_title": "Rural Maryland Council names 20 Fiscal Year 2027 Rural Health Transformation Program Grant Recipients, $4,684,777",
@@ -235,6 +889,13 @@
     }
   ],
   "Texas": [
+    {
+      "date": "2026-11-12",
+      "post_title": "Arkansas’s Baxter Health opens three RHTP-funded RFPs: MRI System, Ambulance Fleet Expansion and Nursing Communication Devices for Baxter Health",
+      "headline": "Texas says Year 2 Rural Texas Strong applications open in November, in Governor Abbott press release",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#§texas-says-year-2-rural-texas-strong-applications-open-in-november-in-governor-abbott-press-release",
+      "audience": "only_paid"
+    },
     {
       "date": "2026-11-11",
       "post_title": "Rural Maryland Council names 20 Fiscal Year 2027 Rural Health Transformation Program Grant Recipients, $4,684,777",
@@ -958,6 +1619,13 @@
   ],
   "Maryland": [
     {
+      "date": "2026-11-12",
+      "post_title": "Arkansas’s Baxter Health opens three RHTP-funded RFPs: MRI System, Ambulance Fleet Expansion and Nursing Communication Devices for Baxter Health",
+      "headline": "Maryland puts its Year 1 competitive awards at nearly $129 million to 187 organizations, in Governor Moore press release",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#§maryland-puts-its-year-1-competitive-awards-at-nearly-129-million-to-187-organizations-in-governor-moore-press-release",
+      "audience": "only_paid"
+    },
+    {
       "date": "2026-11-11",
       "post_title": "Rural Maryland Council names 20 Fiscal Year 2027 Rural Health Transformation Program Grant Recipients, $4,684,777",
       "headline": "Maryland‘s Rural Maryland Council names 20 Fiscal Year 2027 Rural Health Transformation Program Grant Recipients, $4,684,777",
@@ -1384,6 +2052,346 @@
       "post_title": "West Virigina youtube, live webinar (today!) & listserv, Connecticut info, Wyoming perpetuity progress; AZ & MS in Legislation Watch",
       "headline": "West Virginia livestream is today on youtube + they add a listserv",
       "url": "https://www.ruralhealthtransformation.life/p/west-virigina-youtube-live-webinar#§west-virginia-livestream-is-today-on-youtube-they-add-a-listserv",
+      "audience": "only_paid"
+    }
+  ],
+  "Arkansas": [
+    {
+      "date": "2026-11-12",
+      "post_title": "Arkansas’s Baxter Health opens three RHTP-funded RFPs: MRI System, Ambulance Fleet Expansion and Nursing Communication Devices for Baxter Health",
+      "headline": "Arkansas‘s Baxter Health opens three RHTP-funded RFPs: MRI System, Ambulance Fleet Expansion and Nursing Communication Devices for Baxter Health",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#§arkansas-s-baxter-health-opens-three-rhtp-funded-rfps-mri-system-ambulance-fleet-expansion-and-nursing-communication-devices-for-baxter-health",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-25",
+      "post_title": "Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations",
+      "headline": "Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#§arkansas-awards-54-685-068-84-in-year-1-rise-ar-and-heart-funding-to-38-organizations",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-28",
+      "post_title": "Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects",
+      "headline": "Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#§arkansas-posts-its-year-1-rhtp-thrive-and-pact-awards-149-177-618-45-to-31-organizations-across-50-projects",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-24",
+      "post_title": "North Dakota Washington, and Idaho out with new RFPs",
+      "headline": "Arkansas extendeds HEART",
+      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#§arkansas-extendeds-heart",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-30",
+      "post_title": "CMS publishes Rural Tech Catalyst Fund Resource Guide, New Mexico opens Rural Health Innovation Fund RFP",
+      "headline": "Arkansas officially opens HEART",
+      "url": "https://www.ruralhealthtransformation.life/p/cms-publishes-rural-teach-catalyst#§arkansas-officially-opens-heart",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-23",
+      "post_title": "West Virginia opens worksite clinic grants, Arkansas publishes $28M HEART NOFO, Delaware deep-dive",
+      "headline": "Arkansas publishes $28M HEART NOFO",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-opens-worksite-clinic#§arkansas-publishes-28m-heart-nofo",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-13",
+      "post_title": "Arkansas posts RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early, two WV RFPs, and two Kentucky RFPs",
+      "headline": "Arkansas posts details on $27M RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-rise-recruitment-innovation#§arkansas-posts-details-on-27m-rise-recruitment-innovation-skills-and-education-for-arkansas-healthcare-nofo-two-days-early",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-09",
+      "post_title": "Arkansas launches $4.6M PACT, Oklahoma out with 2 new NOFOs, and New Mexico readies $46M ",
+      "headline": "Arkansas launches PACT, $4.6M available, due July 10",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-launches-46m-pact-oklahoma#§arkansas-launches-pact-4-6m-available-due-july-10",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-06",
+      "post_title": "New engagement and vendor opportunities in Texas, Arkansas, Colorado for $275M near-term",
+      "headline": "Arkansas ramps up engagement with $55.6M THRIVE award process soon",
+      "url": "https://www.ruralhealthtransformation.life/p/new-engagement-and-vendor-opportunities#§arkansas-ramps-up-engagement-with-55-6m-thrive-award-process-soon",
+      "audience": "only_paid"
+    }
+  ],
+  "Utah": [
+    {
+      "date": "2026-11-12",
+      "post_title": "Arkansas’s Baxter Health opens three RHTP-funded RFPs: MRI System, Ambulance Fleet Expansion and Nursing Communication Devices for Baxter Health",
+      "headline": "Utah lets vendors apply directly to the SPRINT-UETN Consortium Application, $20.9 million, due November 20",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#§utah-lets-vendors-apply-directly-to-the-sprint-uetn-consortium-application-20-9-million-due-november-20",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-11-10",
+      "post_title": "CMS announces $10 Billion in Second Year of Rural Health Transformation Awards to All 50 States, and no state moves more than 4%",
+      "headline": "Utah gives USU Extension over $1 million from the Utah Food Security Grant to build e-commerce websites for farmers",
+      "url": "https://www.ruralhealthtransformation.life/p/cms-announces-10-billion-in-second#§utah-gives-usu-extension-over-1-million-from-the-utah-food-security-grant-to-build-e-commerce-websites-for-farmers",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-30",
+      "post_title": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
+      "headline": "Utah names 41 Year 1 awardees in its RHTP Awardee Announcement, $154 million of it to subgrant administrators",
+      "url": "https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#§utah-names-41-year-1-awardees-in-its-rhtp-awardee-announcement-154-million-of-it-to-subgrant-administrators",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-26",
+      "post_title": "Virginia’s Thomas Jefferson Planning District Commission opens a $11.8 million Rural Health Transformation Program – Mobile and Hybrid Care RFA, due November 23",
+      "headline": "Utah‘s telehealth network renames its application the SPRINT-UETN Consortium Application and sets an applicant webinar for October 28",
+      "url": "https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#§utah-s-telehealth-network-renames-its-application-the-sprint-uetn-consortium-application-and-sets-an-applicant-webinar-for-october-28",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-23",
+      "post_title": "Oklahoma opens a Community Paramedicine Consulting Services RFP as a mandatory statewide contract",
+      "headline": "Utah posts CMS’s notice moving Year 2 award announcements to October 30, and says its Year 1 awardee list is coming",
+      "url": "https://www.ruralhealthtransformation.life/p/oklahoma-opens-a-community-paramedicine#§utah-posts-cms-s-notice-moving-year-2-award-announcements-to-october-30-and-says-its-year-1-awardee-list-is-coming",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-22",
+      "post_title": "Idaho names 114 awards worth $180.7 million in its list of awardees as of Oct. 16",
+      "headline": "Utah opens the SPRINT-UETN RFA, due November 20",
+      "url": "https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#§utah-opens-the-sprint-uetn-rfa-due-november-20",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-10-15",
+      "post_title": "Rhode Island’s hospital association opens the Hospital at Home Program Implementation and Scale Grant Opportunity, up to $2 million per hospital, due October 20",
+      "headline": "Utah‘s telehealth network posts the SPRINT Consortium Application, due November 20",
+      "url": "https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#§utah-s-telehealth-network-posts-the-sprint-consortium-application-due-november-20",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-14",
+      "post_title": "Vermont publishes RHT Year 1 Awards and Contracts — 87 executed agreements, $62,790,450.50",
+      "headline": "Utah pushes SHIFT 3.3 Rural EMS Request for Grant Applications to September 20, up to $12,500,000, and finally puts dollar figures on RISE 2.3 and 2.4",
+      "url": "https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#§utah-pushes-shift-3-3-rural-ems-request-for-grant-applications-to-september-20-up-to-12-500-000-and-finally-puts-dollar-figures-on-rise-2-3-and-2-4",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-11",
+      "post_title": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
+      "headline": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#§utah-opens-rise-initiative-2-3-grow-our-own-rural-health-pipeline-and-2-4-expand-non-gme-rural-healthcare-pipeline-both-due-october-29",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-03",
+      "post_title": "llinois: ICAHN opens the first door on its $50 million, and it’s for a vendor, not a hospital",
+      "headline": "Utah posts the final SHIFT 3.4 New Models of Care Q&A, 41 answers, for-profit technology companies can lead",
+      "url": "https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#§utah-posts-the-final-shift-3-4-new-models-of-care-q-and-a-41-answers-for-profit-technology-companies-can-lead",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-03",
+      "post_title": "llinois: ICAHN opens the first door on its $50 million, and it’s for a vendor, not a hospital",
+      "headline": "Utah updates RHTP Evaluation Contract Solicitation",
+      "url": "https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#§utah-updates-rhtp-evaluation-contract-solicitation",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-02",
+      "post_title": "Utah opens RHTP Evaluation Contract Solicitation, $8.2 million for one monitoring and evaluation vendor, due September 15",
+      "headline": "Utah opens the RHTP Evaluation Contract Solicitation, $8.2 million for one monitoring and evaluation vendor, due September 15",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#§utah-opens-the-rhtp-evaluation-contract-solicitation-8-2-million-for-one-monitoring-and-evaluation-vendor-due-september-15",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-14",
+      "post_title": "West Virginia releases its first two Rural Health Link solicitations, both due August 26 / Utah opens SHIFT 3.3 Rural EMS, $12.5 million, closing September 13",
+      "headline": "Utah opens SHIFT 3.3 Rural EMS, $12.5 million in Year 1, closing September 13",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#§utah-opens-shift-3-3-rural-ems-12-5-million-in-year-1-closing-september-13",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-13",
+      "post_title": "Utah opens SHIFT 3.4 New Models of Care five days early, $10 million, closing September 1",
+      "headline": "Utah opens SHIFT 3.4 New Models of Care five days early, $10 million, closing September 1",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#§utah-opens-shift-3-4-new-models-of-care-five-days-early-10-million-closing-september-1",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-08-12",
+      "post_title": "Idaho posts five RHTP subaward solicitations in one day, $14 million and all due September 8",
+      "headline": "Utah forecasts SHIFT 3.4 New Models of Care, $10 million opening August 17",
+      "url": "https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#§utah-forecasts-shift-3-4-new-models-of-care-10-million-opening-august-17",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-29",
+      "post_title": "Pennsylvania maps its entire RHTP pipeline",
+      "headline": "Utah extends its LIFT telehealth RFA to August 10",
+      "url": "https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#§utah-extends-its-lift-telehealth-rfa-to-august-10",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-28",
+      "post_title": "West Virginia’s $10M value-based-care on-ramp, plus new RFGAs from Arizona and Utah",
+      "headline": "Utah opens the PATH 1.4 Community Care Hub RFGA — $2M in Year 1, closing Aug 17",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#§utah-opens-the-path-1-4-community-care-hub-rfga-2m-in-year-1-closing-aug-17",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-23",
+      "post_title": "Utah opens $18.5M SHIFT 3.2: Rural Health Provider Networks, due August 14",
+      "headline": "Utah opens $18.5M SHIFT 3.2: Rural Health Provider Networks, due August 14",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#§utah-opens-18-5m-shift-3-2-rural-health-provider-networks-due-august-14",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-22",
+      "post_title": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
+      "headline": "Utah posts the full LIFT 5.1 Scalable Telehealth Projects RFA — with SPRINT and LINCS closing soon",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#§utah-posts-the-full-lift-5-1-scalable-telehealth-projects-rfa-with-sprint-and-lincs-closing-soon",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-21",
+      "post_title": "California opens EHR Modernization Grant Program",
+      "headline": "Utah pushes Food Security Grant and SPRINT closes Aug 7",
+      "url": "https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#§utah-pushes-food-security-grant-and-sprint-closes-aug-7",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-11",
+      "post_title": "Utah drops a $94M opp, Maryland out w/ $20M+ in rural workforce and connectivity funding, Pennsylvania opens a $25M EHR & HIO interoperability payment",
+      "headline": "Utah drops $94M in one morning — and hands the biggest piece to a consortium that doesn’t exist yet",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-drops-a-94m-opp-maryland-out#§utah-drops-94m-in-one-morning-and-hands-the-biggest-piece-to-a-consortium-that-doesn-t-exist-yet",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-10",
+      "post_title": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
+      "headline": "Utah looks to open $59M Multi-initiative: Sustainable Provider Revenue, Infrastructure, and Network Technology (SPRINT) Consortium today",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#§utah-looks-to-open-59m-multi-initiative-sustainable-provider-revenue-infrastructure-and-network-technology-sprint-consortium-today",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-08",
+      "post_title": "Ohio, West Virginia, and Utah open RFPs collectively worth ~$92M",
+      "headline": "Utah opens $20M RISE 2.5: Recruit and Retain workforce-incentive grant — and hands the wheel to intermediaries",
+      "url": "https://www.ruralhealthtransformation.life/p/ohio-west-virginia-and-utah-open#§utah-opens-20m-rise-2-5-recruit-and-retain-workforce-incentive-grant-and-hands-the-wheel-to-intermediaries",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-07",
+      "post_title": "West Virginia posts Health to Prosperity, Utah and Texas ready to drop new opps",
+      "headline": "Utah set to post RISE 2.5: Recruit and Retain today",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#§utah-set-to-post-rise-2-5-recruit-and-retain-today",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-07-01",
+      "post_title": "Wyoming published their RHT application portal this morning, Kansas opens Interfacility Transport Project Request for Applications",
+      "headline": "Utah publishes video of RHT webinar + slides",
+      "url": "https://www.ruralhealthtransformation.life/p/wyoming-published-their-rht-application#§utah-publishes-video-of-rht-webinar-slides",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-27",
+      "post_title": "Utah's webinar from yesterday revealed everything you need to know: leadership changes, granting structure, and RFP schedule",
+      "headline": "Utah posts June 26 webinar slides and recording. Here’s upshots on leadership, structure, and schedule",
+      "url": "https://www.ruralhealthtransformation.life/p/utahs-webinar-from-yesterday-revealed#§utah-posts-june-26-webinar-slides-and-recording-here-s-upshots-on-leadership-structure-and-schedule",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-26",
+      "post_title": "New Rural Clinical Rotations Expansion Grant RFP in Minnesota",
+      "headline": "Utah updates FAST 4.1: Value-Based Care Models packet",
+      "url": "https://www.ruralhealthtransformation.life/p/new-rural-clinical-rotations-expansion#§utah-updates-fast-4-1-value-based-care-models-packet",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-25",
+      "post_title": "West Virginia out with $24M on nutrition & lifestyle, California launches dedicated RHTP website",
+      "headline": "Utah launches $15M FAST 4.1 Support for Rural Providers to Transition to Value-Based Care (VBC) Models",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-out-with-24m-on-nutrition#§utah-launches-15m-fast-4-1-support-for-rural-providers-to-transition-to-value-based-care-vbc-models",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-20",
+      "post_title": "Utah reopens RISE 2.2, Vemont is back on their Friday afternoon RFP drop game",
+      "headline": "Utah reopens RISE 2.2: Rural Clinical Preceptor Stipend Program",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-reopens-rise-22-vemont-is-back#§utah-reopens-rise-2-2-rural-clinical-preceptor-stipend-program",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-19",
+      "post_title": "Colorado opens RFA Portal, Tennessee launches Memory Care Assessment Network (MCAN) RFP",
+      "headline": "Utah posts major updates to PATH Initiative 1.5: Behavioral Health–Primary Care Integration",
+      "url": "https://www.ruralhealthtransformation.life/p/colorado-opens-rfa-portal-tennessee#§utah-posts-major-updates-to-path-initiative-1-5-behavioral-health-primary-care-integration",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-17",
+      "post_title": "Mississippi opens ~$91M across three provider grant programs",
+      "headline": "Utah adds docs to PATH 1.5: Behavioral Health—Primary Care Integration opp",
+      "url": "https://www.ruralhealthtransformation.life/p/mississippi-opens-91m-across-three#§utah-adds-docs-to-path-1-5-behavioral-health-primary-care-integration-opp",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-13",
+      "post_title": "Arkansas posts RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early, two WV RFPs, and two Kentucky RFPs",
+      "headline": "Utah pushes back PATH 1.5: Behavioral Health—Primary Care Integration deadline to June 29",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-rise-recruitment-innovation#§utah-pushes-back-path-1-5-behavioral-health-primary-care-integration-deadline-to-june-29",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-06-10",
+      "post_title": "Michigan subrecipient list, Mississippi Comprehensive State Health Plan contract, North $10M for EMS opportunity",
+      "headline": "Utah posts rolling Q&A docs for PATH 1.5 and RISE 2.2",
+      "url": "https://www.ruralhealthtransformation.life/p/michigan-subrecipient-list-mississippi#§utah-posts-rolling-q-and-a-docs-for-path-1-5-and-rise-2-2",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-29",
+      "post_title": "West Virginia RFP 1 webinar today; Mississippi engages",
+      "headline": "Utah posts ominous asterisks",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-rfp-1-webinar-today#§utah-posts-ominous-asterisks",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-20",
+      "post_title": "Wyoming gets CMS approval w/o perpetuity— see video deep-dive into their implementation",
+      "headline": "Utah DHHS opens $200K preceptor-stipend RFA",
+      "url": "https://www.ruralhealthtransformation.life/p/wyoming-gets-cms-approval-wo-perpetuity#§utah-dhhs-opens-200k-preceptor-stipend-rfa",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-13",
+      "post_title": "WV deep dive, Utah $9.8M forecast, Vermont AI scribe, Colorado approved project narrative ",
+      "headline": "Utah forecasts $9.8M in awards across four upcoming opportunities",
+      "url": "https://www.ruralhealthtransformation.life/p/wv-deep-dive-utah-98m-forecast-vermont#§utah-forecasts-9-8m-in-awards-across-four-upcoming-opportunities",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-04",
+      "post_title": "Utah posts $15M VBC RFP, Iowa Hub Round 2 soon, South Dakota workforce RFP",
+      "headline": "Utah posts $15M Value-Based Care Models RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-posts-15m-vbc-rfp-iowa-hub-round#§utah-posts-15m-value-based-care-models-rfp",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-03-10",
+      "post_title": "Utah funding opportunites",
+      "headline": "Utah published a one RFP to a page that will be updated regularly",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-funding-opportunites#§utah-published-a-one-rfp-to-a-page-that-will-be-updated-regularly",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-03-07",
+      "post_title": "Alaska FAQ, Colorado advisory meeting Tuesday, Kansas webinar slides, Oklahoma April, Utah bummer",
+      "headline": "Utah posts about the bummer of missing content",
+      "url": "https://www.ruralhealthtransformation.life/p/alaska-faq-colorado-advisory-meeting#§utah-posts-about-the-bummer-of-missing-content",
       "audience": "only_paid"
     }
   ],
@@ -2298,274 +3306,6 @@
       "audience": "only_paid"
     }
   ],
-  "Utah": [
-    {
-      "date": "2026-11-10",
-      "post_title": "CMS announces $10 Billion in Second Year of Rural Health Transformation Awards to All 50 States, and no state moves more than 4%",
-      "headline": "Utah gives USU Extension over $1 million from the Utah Food Security Grant to build e-commerce websites for farmers",
-      "url": "https://www.ruralhealthtransformation.life/p/cms-announces-10-billion-in-second#§utah-gives-usu-extension-over-1-million-from-the-utah-food-security-grant-to-build-e-commerce-websites-for-farmers",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-30",
-      "post_title": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
-      "headline": "Utah names 41 Year 1 awardees in its RHTP Awardee Announcement, $154 million of it to subgrant administrators",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#§utah-names-41-year-1-awardees-in-its-rhtp-awardee-announcement-154-million-of-it-to-subgrant-administrators",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-26",
-      "post_title": "Virginia’s Thomas Jefferson Planning District Commission opens a $11.8 million Rural Health Transformation Program – Mobile and Hybrid Care RFA, due November 23",
-      "headline": "Utah‘s telehealth network renames its application the SPRINT-UETN Consortium Application and sets an applicant webinar for October 28",
-      "url": "https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#§utah-s-telehealth-network-renames-its-application-the-sprint-uetn-consortium-application-and-sets-an-applicant-webinar-for-october-28",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-23",
-      "post_title": "Oklahoma opens a Community Paramedicine Consulting Services RFP as a mandatory statewide contract",
-      "headline": "Utah posts CMS’s notice moving Year 2 award announcements to October 30, and says its Year 1 awardee list is coming",
-      "url": "https://www.ruralhealthtransformation.life/p/oklahoma-opens-a-community-paramedicine#§utah-posts-cms-s-notice-moving-year-2-award-announcements-to-october-30-and-says-its-year-1-awardee-list-is-coming",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-22",
-      "post_title": "Idaho names 114 awards worth $180.7 million in its list of awardees as of Oct. 16",
-      "headline": "Utah opens the SPRINT-UETN RFA, due November 20",
-      "url": "https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#§utah-opens-the-sprint-uetn-rfa-due-november-20",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-15",
-      "post_title": "Rhode Island’s hospital association opens the Hospital at Home Program Implementation and Scale Grant Opportunity, up to $2 million per hospital, due October 20",
-      "headline": "Utah‘s telehealth network posts the SPRINT Consortium Application, due November 20",
-      "url": "https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#§utah-s-telehealth-network-posts-the-sprint-consortium-application-due-november-20",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-14",
-      "post_title": "Vermont publishes RHT Year 1 Awards and Contracts — 87 executed agreements, $62,790,450.50",
-      "headline": "Utah pushes SHIFT 3.3 Rural EMS Request for Grant Applications to September 20, up to $12,500,000, and finally puts dollar figures on RISE 2.3 and 2.4",
-      "url": "https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#§utah-pushes-shift-3-3-rural-ems-request-for-grant-applications-to-september-20-up-to-12-500-000-and-finally-puts-dollar-figures-on-rise-2-3-and-2-4",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-11",
-      "post_title": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
-      "headline": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#§utah-opens-rise-initiative-2-3-grow-our-own-rural-health-pipeline-and-2-4-expand-non-gme-rural-healthcare-pipeline-both-due-october-29",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-03",
-      "post_title": "llinois: ICAHN opens the first door on its $50 million, and it’s for a vendor, not a hospital",
-      "headline": "Utah posts the final SHIFT 3.4 New Models of Care Q&A, 41 answers, for-profit technology companies can lead",
-      "url": "https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#§utah-posts-the-final-shift-3-4-new-models-of-care-q-and-a-41-answers-for-profit-technology-companies-can-lead",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-03",
-      "post_title": "llinois: ICAHN opens the first door on its $50 million, and it’s for a vendor, not a hospital",
-      "headline": "Utah updates RHTP Evaluation Contract Solicitation",
-      "url": "https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#§utah-updates-rhtp-evaluation-contract-solicitation",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-02",
-      "post_title": "Utah opens RHTP Evaluation Contract Solicitation, $8.2 million for one monitoring and evaluation vendor, due September 15",
-      "headline": "Utah opens the RHTP Evaluation Contract Solicitation, $8.2 million for one monitoring and evaluation vendor, due September 15",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rhtp-evaluation-contract#§utah-opens-the-rhtp-evaluation-contract-solicitation-8-2-million-for-one-monitoring-and-evaluation-vendor-due-september-15",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-14",
-      "post_title": "West Virginia releases its first two Rural Health Link solicitations, both due August 26 / Utah opens SHIFT 3.3 Rural EMS, $12.5 million, closing September 13",
-      "headline": "Utah opens SHIFT 3.3 Rural EMS, $12.5 million in Year 1, closing September 13",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#§utah-opens-shift-3-3-rural-ems-12-5-million-in-year-1-closing-september-13",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-13",
-      "post_title": "Utah opens SHIFT 3.4 New Models of Care five days early, $10 million, closing September 1",
-      "headline": "Utah opens SHIFT 3.4 New Models of Care five days early, $10 million, closing September 1",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-shift-34-new-models-of#§utah-opens-shift-3-4-new-models-of-care-five-days-early-10-million-closing-september-1",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-12",
-      "post_title": "Idaho posts five RHTP subaward solicitations in one day, $14 million and all due September 8",
-      "headline": "Utah forecasts SHIFT 3.4 New Models of Care, $10 million opening August 17",
-      "url": "https://www.ruralhealthtransformation.life/p/idaho-posts-five-rhtp-subaward-solicitations#§utah-forecasts-shift-3-4-new-models-of-care-10-million-opening-august-17",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-29",
-      "post_title": "Pennsylvania maps its entire RHTP pipeline",
-      "headline": "Utah extends its LIFT telehealth RFA to August 10",
-      "url": "https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#§utah-extends-its-lift-telehealth-rfa-to-august-10",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-28",
-      "post_title": "West Virginia’s $10M value-based-care on-ramp, plus new RFGAs from Arizona and Utah",
-      "headline": "Utah opens the PATH 1.4 Community Care Hub RFGA — $2M in Year 1, closing Aug 17",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#§utah-opens-the-path-1-4-community-care-hub-rfga-2m-in-year-1-closing-aug-17",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-23",
-      "post_title": "Utah opens $18.5M SHIFT 3.2: Rural Health Provider Networks, due August 14",
-      "headline": "Utah opens $18.5M SHIFT 3.2: Rural Health Provider Networks, due August 14",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-185m-shift-32-rural-health#§utah-opens-18-5m-shift-3-2-rural-health-provider-networks-due-august-14",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-22",
-      "post_title": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
-      "headline": "Utah posts the full LIFT 5.1 Scalable Telehealth Projects RFA — with SPRINT and LINCS closing soon",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#§utah-posts-the-full-lift-5-1-scalable-telehealth-projects-rfa-with-sprint-and-lincs-closing-soon",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-21",
-      "post_title": "California opens EHR Modernization Grant Program",
-      "headline": "Utah pushes Food Security Grant and SPRINT closes Aug 7",
-      "url": "https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#§utah-pushes-food-security-grant-and-sprint-closes-aug-7",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-11",
-      "post_title": "Utah drops a $94M opp, Maryland out w/ $20M+ in rural workforce and connectivity funding, Pennsylvania opens a $25M EHR & HIO interoperability payment",
-      "headline": "Utah drops $94M in one morning — and hands the biggest piece to a consortium that doesn’t exist yet",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-drops-a-94m-opp-maryland-out#§utah-drops-94m-in-one-morning-and-hands-the-biggest-piece-to-a-consortium-that-doesn-t-exist-yet",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-10",
-      "post_title": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
-      "headline": "Utah looks to open $59M Multi-initiative: Sustainable Provider Revenue, Infrastructure, and Network Technology (SPRINT) Consortium today",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#§utah-looks-to-open-59m-multi-initiative-sustainable-provider-revenue-infrastructure-and-network-technology-sprint-consortium-today",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-08",
-      "post_title": "Ohio, West Virginia, and Utah open RFPs collectively worth ~$92M",
-      "headline": "Utah opens $20M RISE 2.5: Recruit and Retain workforce-incentive grant — and hands the wheel to intermediaries",
-      "url": "https://www.ruralhealthtransformation.life/p/ohio-west-virginia-and-utah-open#§utah-opens-20m-rise-2-5-recruit-and-retain-workforce-incentive-grant-and-hands-the-wheel-to-intermediaries",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-07",
-      "post_title": "West Virginia posts Health to Prosperity, Utah and Texas ready to drop new opps",
-      "headline": "Utah set to post RISE 2.5: Recruit and Retain today",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-posts-health-to-prosperity#§utah-set-to-post-rise-2-5-recruit-and-retain-today",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-01",
-      "post_title": "Wyoming published their RHT application portal this morning, Kansas opens Interfacility Transport Project Request for Applications",
-      "headline": "Utah publishes video of RHT webinar + slides",
-      "url": "https://www.ruralhealthtransformation.life/p/wyoming-published-their-rht-application#§utah-publishes-video-of-rht-webinar-slides",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-27",
-      "post_title": "Utah's webinar from yesterday revealed everything you need to know: leadership changes, granting structure, and RFP schedule",
-      "headline": "Utah posts June 26 webinar slides and recording. Here’s upshots on leadership, structure, and schedule",
-      "url": "https://www.ruralhealthtransformation.life/p/utahs-webinar-from-yesterday-revealed#§utah-posts-june-26-webinar-slides-and-recording-here-s-upshots-on-leadership-structure-and-schedule",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-26",
-      "post_title": "New Rural Clinical Rotations Expansion Grant RFP in Minnesota",
-      "headline": "Utah updates FAST 4.1: Value-Based Care Models packet",
-      "url": "https://www.ruralhealthtransformation.life/p/new-rural-clinical-rotations-expansion#§utah-updates-fast-4-1-value-based-care-models-packet",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-25",
-      "post_title": "West Virginia out with $24M on nutrition & lifestyle, California launches dedicated RHTP website",
-      "headline": "Utah launches $15M FAST 4.1 Support for Rural Providers to Transition to Value-Based Care (VBC) Models",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-out-with-24m-on-nutrition#§utah-launches-15m-fast-4-1-support-for-rural-providers-to-transition-to-value-based-care-vbc-models",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-20",
-      "post_title": "Utah reopens RISE 2.2, Vemont is back on their Friday afternoon RFP drop game",
-      "headline": "Utah reopens RISE 2.2: Rural Clinical Preceptor Stipend Program",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-reopens-rise-22-vemont-is-back#§utah-reopens-rise-2-2-rural-clinical-preceptor-stipend-program",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-19",
-      "post_title": "Colorado opens RFA Portal, Tennessee launches Memory Care Assessment Network (MCAN) RFP",
-      "headline": "Utah posts major updates to PATH Initiative 1.5: Behavioral Health–Primary Care Integration",
-      "url": "https://www.ruralhealthtransformation.life/p/colorado-opens-rfa-portal-tennessee#§utah-posts-major-updates-to-path-initiative-1-5-behavioral-health-primary-care-integration",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-17",
-      "post_title": "Mississippi opens ~$91M across three provider grant programs",
-      "headline": "Utah adds docs to PATH 1.5: Behavioral Health—Primary Care Integration opp",
-      "url": "https://www.ruralhealthtransformation.life/p/mississippi-opens-91m-across-three#§utah-adds-docs-to-path-1-5-behavioral-health-primary-care-integration-opp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-13",
-      "post_title": "Arkansas posts RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early, two WV RFPs, and two Kentucky RFPs",
-      "headline": "Utah pushes back PATH 1.5: Behavioral Health—Primary Care Integration deadline to June 29",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-rise-recruitment-innovation#§utah-pushes-back-path-1-5-behavioral-health-primary-care-integration-deadline-to-june-29",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-10",
-      "post_title": "Michigan subrecipient list, Mississippi Comprehensive State Health Plan contract, North $10M for EMS opportunity",
-      "headline": "Utah posts rolling Q&A docs for PATH 1.5 and RISE 2.2",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-subrecipient-list-mississippi#§utah-posts-rolling-q-and-a-docs-for-path-1-5-and-rise-2-2",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-29",
-      "post_title": "West Virginia RFP 1 webinar today; Mississippi engages",
-      "headline": "Utah posts ominous asterisks",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-rfp-1-webinar-today#§utah-posts-ominous-asterisks",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-20",
-      "post_title": "Wyoming gets CMS approval w/o perpetuity— see video deep-dive into their implementation",
-      "headline": "Utah DHHS opens $200K preceptor-stipend RFA",
-      "url": "https://www.ruralhealthtransformation.life/p/wyoming-gets-cms-approval-wo-perpetuity#§utah-dhhs-opens-200k-preceptor-stipend-rfa",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-13",
-      "post_title": "WV deep dive, Utah $9.8M forecast, Vermont AI scribe, Colorado approved project narrative ",
-      "headline": "Utah forecasts $9.8M in awards across four upcoming opportunities",
-      "url": "https://www.ruralhealthtransformation.life/p/wv-deep-dive-utah-98m-forecast-vermont#§utah-forecasts-9-8m-in-awards-across-four-upcoming-opportunities",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-04",
-      "post_title": "Utah posts $15M VBC RFP, Iowa Hub Round 2 soon, South Dakota workforce RFP",
-      "headline": "Utah posts $15M Value-Based Care Models RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-posts-15m-vbc-rfp-iowa-hub-round#§utah-posts-15m-value-based-care-models-rfp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-03-10",
-      "post_title": "Utah funding opportunites",
-      "headline": "Utah published a one RFP to a page that will be updated regularly",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-funding-opportunites#§utah-published-a-one-rfp-to-a-page-that-will-be-updated-regularly",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-03-07",
-      "post_title": "Alaska FAQ, Colorado advisory meeting Tuesday, Kansas webinar slides, Oklahoma April, Utah bummer",
-      "headline": "Utah posts about the bummer of missing content",
-      "url": "https://www.ruralhealthtransformation.life/p/alaska-faq-colorado-advisory-meeting#§utah-posts-about-the-bummer-of-missing-content",
-      "audience": "only_paid"
-    }
-  ],
   "Maine": [
     {
       "date": "2026-11-10",
@@ -3287,148 +4027,6 @@
       "post_title": "Minnesota RFP, New Hampshire GO-NORTH, Alaska youtube, Tennessee info session, Legislation Watch for ID, MS, TN, UT & WV",
       "headline": "Tennessee offers Informational Session for Statewide Partners",
       "url": "https://www.ruralhealthtransformation.life/p/minnesota-rfp-new-hampshire-go-north#§tennessee-offers-informational-session-for-statewide-partners",
-      "audience": "only_paid"
-    }
-  ],
-  "Missouri": [
-    {
-      "date": "2026-11-09",
-      "post_title": "West Virginia posts a third edition of its Released Awards: 57 awards, $83.8 million, with IBM at $6.6 million for the Data Spine",
-      "headline": "Missouri previews more than $55 million in new RHTP funding opportunities, including $5 million for mobile health units",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#§missouri-previews-more-than-55-million-in-new-rhtp-funding-opportunities-including-5-million-for-mobile-health-units",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-11-06",
-      "post_title": "Rhode Island’s health center association answers 130 questions on its $82,000 Coding Consultant Services and moves proposals to November 13",
-      "headline": "Missouri sets a November 17 webinar on its Digital Backbone Provider Application, now in four maturity categories",
-      "url": "https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association-b09#§missouri-sets-a-november-17-webinar-on-its-digital-backbone-provider-application-now-in-four-maturity-categories",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-11-02",
-      "post_title": "West Virginia publishes its Year 1 Released Awards, 33 awards totaling $48,758,076",
-      "headline": "Missouri names 25 Smart Growth and Service Line Modernization awardees, $39,400,820.55",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-publishes-its-year#§missouri-names-25-smart-growth-and-service-line-modernization-awardees-39-400-820-55",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-30",
-      "post_title": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
-      "headline": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#§missouri-routes-approximately-11-million-in-workforce-retention-and-enablers-funding-through-its-27-torch-care-hubs",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-30",
-      "post_title": "Missouri routes approximately $11 million in Workforce Retention and Enablers funding through its 27 ToRCH Care Hubs",
-      "headline": "Missouri‘s $39.7 million for 26 providers is the IFB #DSS26015 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) award",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-routes-approximately-11#§missouri-s-39-7-million-for-26-providers-is-the-ifb-dss26015-torch-care-smart-growth-and-service-line-modification-horizon-2-award",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-15",
-      "post_title": "Rhode Island’s hospital association opens the Hospital at Home Program Implementation and Scale Grant Opportunity, up to $2 million per hospital, due October 20",
-      "headline": "Missouri awards $1.46 million to Kids Win Missouri to expand Child Care Works for rural health employers",
-      "url": "https://www.ruralhealthtransformation.life/p/rhode-islands-hospital-association#§missouri-awards-1-46-million-to-kids-win-missouri-to-expand-child-care-works-for-rural-health-employers",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-10-06",
-      "post_title": "South Dakota awards approximately $7.2 million to 25 projects under its Enhancing Sustainable Emergency Medical Services (EMS) Initiative",
-      "headline": "Missouri‘s Hub 2 opens $531,762.78 for Andrew and Buchanan counties, due October 14, on the Local Community Hub – Local Program Funding Application",
-      "url": "https://www.ruralhealthtransformation.life/p/south-dakota-awards-approximately#§missouri-s-hub-2-opens-531-762-78-for-andrew-and-buchanan-counties-due-october-14-on-the-local-community-hub-local-program-funding-application",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-29",
-      "post_title": "Colorado publishes its full RHTP awardee list, $170.2 million across 92 awards",
-      "headline": "Missouri‘s RHTP Strategic Minor Renovations Program gets its first per-hospital number: about $580,000 to Texas County Memorial Hospital",
-      "url": "https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#§missouri-s-rhtp-strategic-minor-renovations-program-gets-its-first-per-hospital-number-about-580-000-to-texas-county-memorial-hospital",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-23",
-      "post_title": "Washington maps all $181.26 million by channel in its Rural Health Transformation Program Update webinar deck",
-      "headline": "Missouri names the 20 hospitals in its RHTP Strategic Minor Renovations Program, approximately $35 million",
-      "url": "https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#§missouri-names-the-20-hospitals-in-its-rhtp-strategic-minor-renovations-program-approximately-35-million",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-23",
-      "post_title": "Washington maps all $181.26 million by channel in its Rural Health Transformation Program Update webinar deck",
-      "headline": "Missouri awarded MEMSA $12.3 million through a Single Feasible Source for Rural Health Transformation for Emergency Medical Services Systems,",
-      "url": "https://www.ruralhealthtransformation.life/p/washington-maps-all-18126-million#§missouri-awarded-memsa-12-3-million-through-a-single-feasible-source-for-rural-health-transformation-for-emergency-medical-services-systems",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-08",
-      "post_title": "Alaska funding announcments, NY Rural Community Health Integration Initiative awards",
-      "headline": "Missouri‘s MEMSA award is $12,343,385 across three pillars on the Rural Health Transformation Funding page, not the $6.5 million announced in July",
-      "url": "https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#§missouri-s-memsa-award-is-12-343-385-across-three-pillars-on-the-rural-health-transformation-funding-page-not-the-6-5-million-announced-in-july",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-01",
-      "post_title": "Mississippi announces the First Round of Technology and Infrastructure Awards, with sub-award execution starting this week",
-      "headline": "Missouri issues RFI 0000000012SL, two telehealth tracks, responses due September 9",
-      "url": "https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#§missouri-issues-rfi-0000000012sl-two-telehealth-tracks-responses-due-september-9",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-27",
-      "post_title": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
-      "headline": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#§missouri-extends-ifb-dss26015-01-torch-care-smart-growth-and-service-line-modification-horizon-2-to-2-p-m-september-1",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-19",
-      "post_title": "Idaho posts three more solicitations totaling $111.7 million",
-      "headline": "Missouri adds a ToRCH Care alignment test to IFB #DSS26015, the nearly $40 million Smart Growth and Service Line Modification solicitation",
-      "url": "https://www.ruralhealthtransformation.life/p/idaho-posts-three-more-solicitations#§missouri-adds-a-torch-care-alignment-test-to-ifb-dss26015-the-nearly-40-million-smart-growth-and-service-line-modification-solicitation",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-30",
-      "post_title": "New Hampshire opens four GO-NORTH sub-recipient solicitations",
-      "headline": "Missouri opens IFB #DSS26015, a $40M IFB to modernize rural facilities",
-      "url": "https://www.ruralhealthtransformation.life/p/new-hampshire-opens-four-go-north#§missouri-opens-ifb-dss26015-a-40m-ifb-to-modernize-rural-facilities",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-27",
-      "post_title": "North Dakota adds two more, Georgia names Telepods winners, Missouri routes EMS money through MEMSA, Kentucky out w/ CHW certificates",
-      "headline": "Missouri routes RHTP dollars to rural EMS through MEMSA — a $6.5M Mobile Integrated Healthcare build",
-      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#§missouri-routes-rhtp-dollars-to-rural-ems-through-memsa-a-6-5m-mobile-integrated-healthcare-build",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-21",
-      "post_title": "California opens EHR Modernization Grant Program",
-      "headline": "Missouri launches Missouri Doula Association partnership",
-      "url": "https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#§missouri-launches-missouri-doula-association-partnership",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-18",
-      "post_title": "Missouri announces 27 awardees; North Dakota, Michigan, and Washington launch opportunities",
-      "headline": "Missouri announces 27 Hub Anchor awardees and Rural Health Transformation Funding for Home Visiting",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-announces-27-awardees-north#§missouri-announces-27-hub-anchor-awardees-and-rural-health-transformation-funding-for-home-visiting",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-17",
-      "post_title": "Montana launches $4M in Rural EMS grants, Kansas issues Healthworks CVO RFP, Arizona and California up w/ opps",
-      "headline": "Missouri publishes Digital Backbone slides and roadshow updates",
-      "url": "https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#§missouri-publishes-digital-backbone-slides-and-roadshow-updates",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-03-25",
-      "post_title": "Alaska preliminary LOI summary, Colorado Advisory meeting is today, Missouri announces RHT leader, South Carolina RFPs 4/2/2026, Legislation Watch ID, MS, and U.S. Senate ",
-      "headline": "Missouri appoints Joseph Miller head of RHT",
-      "url": "https://www.ruralhealthtransformation.life/p/alaska-preliminary-loi-summary-colorado#§missouri-appoints-joseph-miller-head-of-rht",
       "audience": "only_paid"
     }
   ],
@@ -4617,113 +5215,6 @@
       "audience": "only_paid"
     }
   ],
-  "Kentucky": [
-    {
-      "date": "2026-10-28",
-      "post_title": "California opens an $11.65 million non-competitive Tribal Set-Aside, applications due November 20",
-      "headline": "Kentucky opens the Rapid Response to Recovery – Crisis Transportation Support RFA, up to $715,000 for each of its 14 CMHCs, due November 6",
-      "url": "https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#§kentucky-opens-the-rapid-response-to-recovery-crisis-transportation-support-rfa-up-to-715-000-for-each-of-its-14-cmhcs-due-november-6",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-25",
-      "post_title": "West Virginia adds Rural Health Link — Establish Regional Hubs & Mobility Coordinators, up to $7.1 million and closing September 8",
-      "headline": "Kentucky routed $10.5M through a foundation for its Rural Community Hubs Hub Leadership Opportunity, and nobody has been named",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#§kentucky-routed-10-5m-through-a-foundation-for-its-rural-community-hubs-hub-leadership-opportunity-and-nobody-has-been-named",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-24",
-      "post_title": "Idaho posts SUD Prevention and Behavioral Health Prevention, $400,000 each and both due September 18",
-      "headline": "Kentucky‘s $10.5M Rural Health Transformation Hub Leadership Opportunity has no named awardee eight weeks after Phase 1 started",
-      "url": "https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#§kentucky-s-10-5m-rural-health-transformation-hub-leadership-opportunity-has-no-named-awardee-eight-weeks-after-phase-1-started",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-27",
-      "post_title": "North Dakota adds two more, Georgia names Telepods winners, Missouri routes EMS money through MEMSA, Kentucky out w/ CHW certificates",
-      "headline": "Kentucky opens Community Health Worker Specialized Certificates RFA",
-      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#§kentucky-opens-community-health-worker-specialized-certificates-rfa",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-21",
-      "post_title": "California opens EHR Modernization Grant Program",
-      "headline": "Kentucky publishes Community Health Worker Specialized Certificate RFA",
-      "url": "https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#§kentucky-publishes-community-health-worker-specialized-certificate-rfa",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-16",
-      "post_title": "Iowa Just Put $328M(?) out — first deadline (LOI) is August 10",
-      "headline": "Kentucky opens $800K to build the CHW workforce its plan depends on (& no AI)",
-      "url": "https://www.ruralhealthtransformation.life/p/iowa-just-put-328m-out-first-deadline#§kentucky-opens-800k-to-build-the-chw-workforce-its-plan-depends-on-and-no-ai",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-09",
-      "post_title": "New Mexico and West Virginia add RFPs, Kentucky publishes info sheets with CMS changes baked in",
-      "headline": "Kentucky adds info sheets— here’s the “net new” analysis since the Project Narrative was published",
-      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-and-west-virginia-add#§kentucky-adds-info-sheets-here-s-the-net-new-analysis-since-the-project-narrative-was-published",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-27",
-      "post_title": "Utah's webinar from yesterday revealed everything you need to know: leadership changes, granting structure, and RFP schedule",
-      "headline": "Kentucky posts EMS Transformation Request for Information (RFA) Frequently Asked Questions (FAQs)",
-      "url": "https://www.ruralhealthtransformation.life/p/utahs-webinar-from-yesterday-revealed#§kentucky-posts-ems-transformation-request-for-information-rfa-frequently-asked-questions-faqs",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-16",
-      "post_title": "10 states published grant opportunities & key eligibility guidance in the last day ",
-      "headline": "Kentucky ​Telebehavioral Health Support opportunity “coming soon”",
-      "url": "https://www.ruralhealthtransformation.life/p/10-states-published-grant-opportunities#§kentucky-telebehavioral-health-support-opportunity-coming-soon",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-13",
-      "post_title": "Arkansas posts RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early, two WV RFPs, and two Kentucky RFPs",
-      "headline": "Kentucky posts two RFAs around ​Rapid Response to Recovery",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-rise-recruitment-innovation#§kentucky-posts-two-rfas-around-rapid-response-to-recovery",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-22",
-      "post_title": "South Dakota awards, Texas extends, Iowa requests, Vermont publishes",
-      "headline": "Kentucky signals three EMS-centric RFAs to launch soon",
-      "url": "https://www.ruralhealthtransformation.life/p/south-dakota-awards-texas-extends#§kentucky-signals-three-ems-centric-rfas-to-launch-soon",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-12",
-      "post_title": "Nevada publishes $27M RHIT Initiative RFP, Kentucky Drops Two EMS RFAs, South Dakota publishes $89.3M RFA for Digital Health Modernization, due June 30",
-      "headline": "Kentucky Drops Two New “From Crisis to Care” EMS RFAs",
-      "url": "https://www.ruralhealthtransformation.life/p/nevada-publishes-27m-rhit-initiative#§kentucky-drops-two-new-from-crisis-to-care-ems-rfas",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-05",
-      "post_title": "Montana Advisory & RFI, Michigan's $15M subrecipient list, $10M Kentucky RFP, USASpending Watch",
-      "headline": "Kentucky publishes RHT $10M Opportunity to Establish or Expand Accredited Dental Hygiene Programs RFA",
-      "url": "https://www.ruralhealthtransformation.life/p/montana-advisory-and-rfi-michigans#§kentucky-publishes-rht-10m-opportunity-to-establish-or-expand-accredited-dental-hygiene-programs-rfa",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-03-20",
-      "post_title": "California FAQ, Kentucky plan approval, Maine and Oregon webinars, Montana and South Dakota program detail. AZ, IA, and KT legislation",
-      "headline": "Kentucky adds to nav and refers to their approved plan",
-      "url": "https://www.ruralhealthtransformation.life/p/california-faq-kentucky-plan-approval#§kentucky-adds-to-nav-and-refers-to-their-approved-plan",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-02-24",
-      "post_title": "Florida webinar on Youtube + new details on 15 strategies, Kenutcky and Kansas website funding clarifications, and Oregon webinar",
-      "headline": "Kentucky added award details",
-      "url": "https://www.ruralhealthtransformation.life/p/florida-webinar-on-youtube-new-details#§kentucky-added-award-details",
-      "audience": "only_paid"
-    }
-  ],
   "South Dakota": [
     {
       "date": "2026-10-26",
@@ -4845,124 +5336,110 @@
       "audience": "only_paid"
     }
   ],
-  "Virginia": [
+  "Kentucky": [
     {
-      "date": "2026-10-26",
-      "post_title": "Virginia’s Thomas Jefferson Planning District Commission opens a $11.8 million Rural Health Transformation Program – Mobile and Hybrid Care RFA, due November 23",
-      "headline": "Virginia‘s Thomas Jefferson Planning District Commission opens a $11.8 million Rural Health Transformation Program – Mobile and Hybrid Care RFA, due November 23",
-      "url": "https://www.ruralhealthtransformation.life/p/virginias-thomas-jefferson-planning#§virginia-s-thomas-jefferson-planning-district-commission-opens-a-11-8-million-rural-health-transformation-program-mobile-and-hybrid-care-rfa-due-november-23",
+      "date": "2026-10-28",
+      "post_title": "California opens an $11.65 million non-competitive Tribal Set-Aside, applications due November 20",
+      "headline": "Kentucky opens the Rapid Response to Recovery – Crisis Transportation Support RFA, up to $715,000 for each of its 14 CMHCs, due November 6",
+      "url": "https://www.ruralhealthtransformation.life/p/california-opens-an-1165-million#§kentucky-opens-the-rapid-response-to-recovery-crisis-transportation-support-rfa-up-to-715-000-for-each-of-its-14-cmhcs-due-november-6",
       "audience": "only_paid"
     },
     {
-      "date": "2026-10-08",
-      "post_title": "Mississippi opens the Statewide Health Information Exchange/Health Data Utility (HIE/HDU) RFP, due November 3",
-      "headline": "Virginia Works posts its Earn to Learn Initiative (RFA #128140) Q&A: no extension, no indirect, and 100% recoupment on the five-year rural commitment",
-      "url": "https://www.ruralhealthtransformation.life/p/mississippi-opens-the-statewide-health#§virginia-works-posts-its-earn-to-learn-initiative-rfa-128140-q-and-a-no-extension-no-indirect-and-100-recoupment-on-the-five-year-rural-commitment",
+      "date": "2026-08-25",
+      "post_title": "West Virginia adds Rural Health Link — Establish Regional Hubs & Mobility Coordinators, up to $7.1 million and closing September 8",
+      "headline": "Kentucky routed $10.5M through a foundation for its Rural Community Hubs Hub Leadership Opportunity, and nobody has been named",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-adds-rural-health-link#§kentucky-routed-10-5m-through-a-foundation-for-its-rural-community-hubs-hub-leadership-opportunity-and-nobody-has-been-named",
       "audience": "only_paid"
     },
     {
-      "date": "2026-10-07",
-      "post_title": "Massachusetts opens the Rural Health Transformation Program (RHTP) Rural Partners RFA, one application for 27 activities across six initiatives, due October 26",
-      "headline": "Virginia opens the CareIQ Tech Innovation Fund RFA (C-27-002), $9.9 million in non-dilutive grants for rural health technology, due October 29",
-      "url": "https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#§virginia-opens-the-careiq-tech-innovation-fund-rfa-c-27-002-9-9-million-in-non-dilutive-grants-for-rural-health-technology-due-october-29",
+      "date": "2026-08-24",
+      "post_title": "Idaho posts SUD Prevention and Behavioral Health Prevention, $400,000 each and both due September 18",
+      "headline": "Kentucky‘s $10.5M Rural Health Transformation Hub Leadership Opportunity has no named awardee eight weeks after Phase 1 started",
+      "url": "https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#§kentucky-s-10-5m-rural-health-transformation-hub-leadership-opportunity-has-no-named-awardee-eight-weeks-after-phase-1-started",
       "audience": "only_paid"
     },
     {
-      "date": "2026-10-07",
-      "post_title": "Massachusetts opens the Rural Health Transformation Program (RHTP) Rural Partners RFA, one application for 27 activities across six initiatives, due October 26",
-      "headline": "Virginia opens Build Career Pipelines through the Department of Education, an estimated $120,868 per award for 75 rural school divisions and 3 regional technical centers, due Octob",
-      "url": "https://www.ruralhealthtransformation.life/p/massachusetts-opens-the-rural-health#§virginia-opens-build-career-pipelines-through-the-department-of-education-an-estimated-120-868-per-award-for-75-rural-school-divisions-and-3-regional-technical-centers-due-october-23",
+      "date": "2026-07-27",
+      "post_title": "North Dakota adds two more, Georgia names Telepods winners, Missouri routes EMS money through MEMSA, Kentucky out w/ CHW certificates",
+      "headline": "Kentucky opens Community Health Worker Specialized Certificates RFA",
+      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-adds-two-more-georgia#§kentucky-opens-community-health-worker-specialized-certificates-rfa",
       "audience": "only_paid"
     },
     {
-      "date": "2026-10-05",
-      "post_title": "RHTP Q3 2026 Quarterly Report",
-      "headline": "Virginia Health Care Foundation names 25 Provider Interoperability awards, $14.39 million",
-      "url": "https://www.ruralhealthtransformation.life/p/rhtp-q3-2026-quarterly-report#§virginia-health-care-foundation-names-25-provider-interoperability-awards-14-39-million",
+      "date": "2026-07-21",
+      "post_title": "California opens EHR Modernization Grant Program",
+      "headline": "Kentucky publishes Community Health Worker Specialized Certificate RFA",
+      "url": "https://www.ruralhealthtransformation.life/p/california-opens-ehr-modernization#§kentucky-publishes-community-health-worker-specialized-certificate-rfa",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-24",
-      "post_title": "Virginia publishes the Earn to Learn Initiative RFA through Virginia Works, $4,679,752.46 for rural allied health apprenticeships, due October 16",
-      "headline": "Virginia publishes the Earn to Learn Initiative RFA through Virginia Works, $4,679,752.46 for rural allied health apprenticeships, due October 16",
-      "url": "https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#§virginia-publishes-the-earn-to-learn-initiative-rfa-through-virginia-works-4-679-752-46-for-rural-allied-health-apprenticeships-due-october-16",
+      "date": "2026-07-16",
+      "post_title": "Iowa Just Put $328M(?) out — first deadline (LOI) is August 10",
+      "headline": "Kentucky opens $800K to build the CHW workforce its plan depends on (& no AI)",
+      "url": "https://www.ruralhealthtransformation.life/p/iowa-just-put-328m-out-first-deadline#§kentucky-opens-800k-to-build-the-chw-workforce-its-plan-depends-on-and-no-ai",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-22",
-      "post_title": "Iowa releases Cardiovascular Health Hub Program RFP, $33M in Y1 against $108.6M 4-year total ",
-      "headline": "Virginia‘s VHCF closes Provider Interoperability and Provider Productivity and dates the awards September 30 and October 14",
-      "url": "https://www.ruralhealthtransformation.life/p/iowa-releases-cardiovascular-health#§virginia-s-vhcf-closes-provider-interoperability-and-provider-productivity-and-dates-the-awards-september-30-and-october-14",
+      "date": "2026-07-09",
+      "post_title": "New Mexico and West Virginia add RFPs, Kentucky publishes info sheets with CMS changes baked in",
+      "headline": "Kentucky adds info sheets— here’s the “net new” analysis since the Project Narrative was published",
+      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-and-west-virginia-add#§kentucky-adds-info-sheets-here-s-the-net-new-analysis-since-the-project-narrative-was-published",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-16",
-      "post_title": "South Carolina posts its SC RHTP Year 1 Award List, 228 projects for $167,299,900.69 ",
-      "headline": "Virginia‘s NSVRC posts the Request for Applications – Q&A Addendum, Virginia Rural Health Transformation Program Mobile and Hybrid Care, and says yes to for-profit and vendor-led a",
-      "url": "https://www.ruralhealthtransformation.life/p/south-carolina-posts-its-sc-rhtp#§virginia-s-nsvrc-posts-the-request-for-applications-q-and-a-addendum-virginia-rural-health-transformation-program-mobile-and-hybrid-care-and-says-yes-to-for-profit-and-vendor-led-applicants-two-days-before-applications-close",
+      "date": "2026-06-27",
+      "post_title": "Utah's webinar from yesterday revealed everything you need to know: leadership changes, granting structure, and RFP schedule",
+      "headline": "Kentucky posts EMS Transformation Request for Information (RFA) Frequently Asked Questions (FAQs)",
+      "url": "https://www.ruralhealthtransformation.life/p/utahs-webinar-from-yesterday-revealed#§kentucky-posts-ems-transformation-request-for-information-rfa-frequently-asked-questions-faqs",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-15",
-      "post_title": "Kansas awards $16,006,648 in Emerging Technology Grants against a $9.5 million RFA",
-      "headline": "Virginia names award dates for the Provider Interoperability & Provider Productivity RFAs",
-      "url": "https://www.ruralhealthtransformation.life/p/kansas-awards-16006648-in-emerging#§virginia-names-award-dates-for-the-provider-interoperability-and-provider-productivity-rfas",
+      "date": "2026-06-16",
+      "post_title": "10 states published grant opportunities & key eligibility guidance in the last day ",
+      "headline": "Kentucky ​Telebehavioral Health Support opportunity “coming soon”",
+      "url": "https://www.ruralhealthtransformation.life/p/10-states-published-grant-opportunities#§kentucky-telebehavioral-health-support-opportunity-coming-soon",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-14",
-      "post_title": "Vermont publishes RHT Year 1 Awards and Contracts — 87 executed agreements, $62,790,450.50",
-      "headline": "Virginia‘s NSVRC delays the Q&A Addendum on its Mobile and Hybrid Care RFA, six days before applications close",
-      "url": "https://www.ruralhealthtransformation.life/p/vermont-publishes-rht-year-1-awards#§virginia-s-nsvrc-delays-the-q-and-a-addendum-on-its-mobile-and-hybrid-care-rfa-six-days-before-applications-close",
+      "date": "2026-06-13",
+      "post_title": "Arkansas posts RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early, two WV RFPs, and two Kentucky RFPs",
+      "headline": "Kentucky posts two RFAs around ​Rapid Response to Recovery",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-rise-recruitment-innovation#§kentucky-posts-two-rfas-around-rapid-response-to-recovery",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-11",
-      "post_title": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
-      "headline": "Virginia‘s VDH opens the Innovative Maternal Care RFA (VDH-26-705-0387), about $11.6 million, due October 6",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#§virginia-s-vdh-opens-the-innovative-maternal-care-rfa-vdh-26-705-0387-about-11-6-million-due-october-6",
+      "date": "2026-05-22",
+      "post_title": "South Dakota awards, Texas extends, Iowa requests, Vermont publishes",
+      "headline": "Kentucky signals three EMS-centric RFAs to launch soon",
+      "url": "https://www.ruralhealthtransformation.life/p/south-dakota-awards-texas-extends#§kentucky-signals-three-ems-centric-rfas-to-launch-soon",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-08",
-      "post_title": "Alaska funding announcments, NY Rural Community Health Integration Initiative awards",
-      "headline": "Virginia‘s Provider Interoperability: Where Connection Meets Care deck puts VHCF’s two CareIQ subinitiatives at $26 million in Year 1, which leaves $3 million to $5 million behind ",
-      "url": "https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#§virginia-s-provider-interoperability-where-connection-meets-care-deck-puts-vhcf-s-two-careiq-subinitiatives-at-26-million-in-year-1-which-leaves-3-million-to-5-million-behind-the-two-rounds",
+      "date": "2026-05-12",
+      "post_title": "Nevada publishes $27M RHIT Initiative RFP, Kentucky Drops Two EMS RFAs, South Dakota publishes $89.3M RFA for Digital Health Modernization, due June 30",
+      "headline": "Kentucky Drops Two New “From Crisis to Care” EMS RFAs",
+      "url": "https://www.ruralhealthtransformation.life/p/nevada-publishes-27m-rhit-initiative#§kentucky-drops-two-new-from-crisis-to-care-ems-rfas",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-03",
-      "post_title": "llinois: ICAHN opens the first door on its $50 million, and it’s for a vendor, not a hospital",
-      "headline": "Virginia reissues the Provider Interoperability & Provider Productivity FAQ Responses at 40 questions, only the applicant needs SAM.gov",
-      "url": "https://www.ruralhealthtransformation.life/p/llinois-icahn-opens-the-first-door#§virginia-reissues-the-provider-interoperability-and-provider-productivity-faq-responses-at-40-questions-only-the-applicant-needs-sam-gov",
+      "date": "2026-05-05",
+      "post_title": "Montana Advisory & RFI, Michigan's $15M subrecipient list, $10M Kentucky RFP, USASpending Watch",
+      "headline": "Kentucky publishes RHT $10M Opportunity to Establish or Expand Accredited Dental Hygiene Programs RFA",
+      "url": "https://www.ruralhealthtransformation.life/p/montana-advisory-and-rfi-michigans#§kentucky-publishes-rht-10m-opportunity-to-establish-or-expand-accredited-dental-hygiene-programs-rfa",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-01",
-      "post_title": "Mississippi announces the First Round of Technology and Infrastructure Awards, with sub-award execution starting this week",
-      "headline": "Virginia‘s Provider Productivity Request for Applications is the last VHCF fund open, $7 million to $9 million, due September 14",
-      "url": "https://www.ruralhealthtransformation.life/p/mississippi-announces-the-first-round#§virginia-s-provider-productivity-request-for-applications-is-the-last-vhcf-fund-open-7-million-to-9-million-due-september-14",
+      "date": "2026-03-20",
+      "post_title": "California FAQ, Kentucky plan approval, Maine and Oregon webinars, Montana and South Dakota program detail. AZ, IA, and KT legislation",
+      "headline": "Kentucky adds to nav and refers to their approved plan",
+      "url": "https://www.ruralhealthtransformation.life/p/california-faq-kentucky-plan-approval#§kentucky-adds-to-nav-and-refers-to-their-approved-plan",
       "audience": "only_paid"
     },
     {
-      "date": "2026-08-31",
-      "post_title": "Washington reopens RFA 2026HCA9, the Opioid Treatment Programs (OTP) Workforce Incentive Program, for a second round closing September 8",
-      "headline": "Virginia‘s Northern Shenandoah Valley Regional Commission opens RFA-RHTP-2026-02, Mobile and Hybrid Care, $4.2 million and at least five awards",
-      "url": "https://www.ruralhealthtransformation.life/p/washington-reopens-rfa-2026hca9-the#§virginia-s-northern-shenandoah-valley-regional-commission-opens-rfa-rhtp-2026-02-mobile-and-hybrid-care-4-2-million-and-at-least-five-awards",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-11",
-      "post_title": "Maryland makes $78.6 million in Pillar 2 award offers to 41 organizations",
-      "headline": "Virginia opens its first RFAs and publishes the RHT RFA Navigator",
-      "url": "https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#§virginia-opens-its-first-rfas-and-publishes-the-rht-rfa-navigator",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-13",
-      "post_title": "Louisiana Food As Medicine NOGO, Maine puts $30M out for EMRs",
-      "headline": "Virginia Implementation: The “VA Rural Vitality” Framework",
-      "url": "https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#§virginia-implementation-the-va-rural-vitality-framework",
+      "date": "2026-02-24",
+      "post_title": "Florida webinar on Youtube + new details on 15 strategies, Kenutcky and Kansas website funding clarifications, and Oregon webinar",
+      "headline": "Kentucky added award details",
+      "url": "https://www.ruralhealthtransformation.life/p/florida-webinar-on-youtube-new-details#§kentucky-added-award-details",
       "audience": "only_paid"
     }
   ],
@@ -5201,110 +5678,75 @@
       "audience": "only_paid"
     }
   ],
-  "Michigan": [
+  "Ohio": [
     {
-      "date": "2026-10-22",
-      "post_title": "Idaho names 114 awards worth $180.7 million in its list of awardees as of Oct. 16",
-      "headline": "Michigan posts its RHTP Annual Report Year 1: $13.3 million obligated to six first-tier entities",
-      "url": "https://www.ruralhealthtransformation.life/p/idaho-names-114-awards-worth-1807#§michigan-posts-its-rhtp-annual-report-year-1-13-3-million-obligated-to-six-first-tier-entities",
+      "date": "2026-10-19",
+      "post_title": "Oklahoma opens an EHR Expansion Vendor Request for Information, responses due December 1",
+      "headline": "Ohio names the recipients behind its Hospitals, Clinically Integrated Networks and Rural Health Innovation Hubs, and Maternal Care awards, with the Ohio High Value Network taking $",
+      "url": "https://www.ruralhealthtransformation.life/p/oklahoma-opens-an-ehr-expansion-vendor#§ohio-names-the-recipients-behind-its-hospitals-clinically-integrated-networks-and-rural-health-innovation-hubs-and-maternal-care-awards-with-the-ohio-high-value-network-taking-49-9-million",
       "audience": "only_paid"
     },
     {
-      "date": "2026-10-14",
-      "post_title": "Mississippi opens a $9.5 million Electronic Health Records (EHR) Replacement for Small Rural Providers Program, applications October 21 to November 23",
-      "headline": "Michigan says its first grant cycle turned 206 applications into 72 awards worth $48.7 million",
-      "url": "https://www.ruralhealthtransformation.life/p/mississippi-opens-a-95-million-electronic#§michigan-says-its-first-grant-cycle-turned-206-applications-into-72-awards-worth-48-7-million",
+      "date": "2026-09-29",
+      "post_title": "Colorado publishes its full RHTP awardee list, $170.2 million across 92 awards",
+      "headline": "Ohio posts the Rural Health Transformation (RHT)-Rural Hospital Training and Technical Assistance Center (RHTAC) solicitation, due October 20",
+      "url": "https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#§ohio-posts-the-rural-health-transformation-rht-rural-hospital-training-and-technical-assistance-center-rhtac-solicitation-due-october-20",
       "audience": "only_paid"
     },
     {
-      "date": "2026-09-08",
-      "post_title": "Alaska funding announcments, NY Rural Community Health Integration Initiative awards",
-      "headline": "Michigan routes $25.8 million of RHTP to the Department of Labor and Economic Opportunity, $16.7 million to the Office of Rural Prosperity and $9.1 million to the High-Speed Intern",
-      "url": "https://www.ruralhealthtransformation.life/p/alaska-funding-announcments-ny-rural#§michigan-routes-25-8-million-of-rhtp-to-the-department-of-labor-and-economic-opportunity-16-7-million-to-the-office-of-rural-prosperity-and-9-1-million-to-the-high-speed-internet-office",
+      "date": "2026-09-04",
+      "post_title": "Indiana names nearly 200 GROW Regional Grant subrecipients, $112.4 million across eight regions plus $16.25 million in surplus awards",
+      "headline": "Ohio opens the Dental Access Collaborative RFP SRC0000041620, one vendor to recruit Medicaid dentists, due October 13",
+      "url": "https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#§ohio-opens-the-dental-access-collaborative-rfp-src0000041620-one-vendor-to-recruit-medicaid-dentists-due-october-13",
       "audience": "only_paid"
     },
     {
-      "date": "2026-08-27",
-      "post_title": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
-      "headline": "Michigan puts a number on the pipeline in its July 2026 RHTP newsletter: seven GFOs in Budget Period 1, five of them workforce",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#§michigan-puts-a-number-on-the-pipeline-in-its-july-2026-rhtp-newsletter-seven-gfos-in-budget-period-1-five-of-them-workforce",
+      "date": "2026-08-04",
+      "post_title": "West Virginia doubles the ceiling on its Design and Administer Statewide, Multi-Payer Payment Models AFA to $5 million",
+      "headline": "Ohio RHT Deep Dive: Systemic Integration Over Cash Injection",
+      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#§ohio-rht-deep-dive-systemic-integration-over-cash-injection",
       "audience": "only_paid"
     },
     {
-      "date": "2026-08-06",
-      "post_title": "North Dakota opens Non-Emergency Medical Transportation Acquisition, $2 million for wheelchair-accessible vans",
-      "headline": "Michigan names its RHTP Advisory Council, and tells you not to call them",
-      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-opens-non-emergency#§michigan-names-its-rhtp-advisory-council-and-tells-you-not-to-call-them",
+      "date": "2026-07-13",
+      "post_title": "Louisiana Food As Medicine NOGO, Maine puts $30M out for EMRs",
+      "headline": "Ohio closes the loop: $10M workforce award lands at Ohio University",
+      "url": "https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#§ohio-closes-the-loop-10m-workforce-award-lands-at-ohio-university",
       "audience": "only_paid"
     },
     {
-      "date": "2026-07-22",
-      "post_title": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
-      "headline": "Michigan passes budget with Rural Health Transformation Program appropriation",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#§michigan-passes-budget-with-rural-health-transformation-program-appropriation",
+      "date": "2026-07-08",
+      "post_title": "Ohio, West Virginia, and Utah open RFPs collectively worth ~$92M",
+      "headline": "Ohio launches $62M Rural Ohio Clinically Integrated Networks and Rural Health Innovation Hubs RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/ohio-west-virginia-and-utah-open#§ohio-launches-62m-rural-ohio-clinically-integrated-networks-and-rural-health-innovation-hubs-rfp",
       "audience": "only_paid"
     },
     {
-      "date": "2026-07-22",
-      "post_title": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
-      "headline": "Michigan opens a $12M Improving Care Delivery and Access through Transportation Grant Program",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-a-12m-improving-care#§michigan-opens-a-12m-improving-care-delivery-and-access-through-transportation-grant-program",
+      "date": "2026-06-18",
+      "post_title": "Ohio Peer Group funding, Oklahoma update, Idaho roundup, Kansas analysis ",
+      "headline": "Ohio out with Rural Hospital Peer Group Funding Opportunity",
+      "url": "https://www.ruralhealthtransformation.life/p/ohio-peer-group-funding-oklahoma#§ohio-out-with-rural-hospital-peer-group-funding-opportunity",
       "audience": "only_paid"
     },
     {
-      "date": "2026-07-18",
-      "post_title": "Missouri announces 27 awardees; North Dakota, Michigan, and Washington launch opportunities",
-      "headline": "Michigan opens applications for Chronic Disease Collaborative Care Fund",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-announces-27-awardees-north#§michigan-opens-applications-for-chronic-disease-collaborative-care-fund",
+      "date": "2026-06-16",
+      "post_title": "10 states published grant opportunities & key eligibility guidance in the last day ",
+      "headline": "Ohio pushes School-Based Health Center Competitive Solicitation",
+      "url": "https://www.ruralhealthtransformation.life/p/10-states-published-grant-opportunities#§ohio-pushes-school-based-health-center-competitive-solicitation",
       "audience": "only_paid"
     },
     {
-      "date": "2026-07-10",
-      "post_title": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
-      "headline": "Michigan launches RHTP Advisory Council",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#§michigan-launches-rhtp-advisory-council",
+      "date": "2026-06-01",
+      "post_title": "Kansas posts awards and RFA, North Dakota Rural Health Clinical Equipment, New Mexico changes CRHSI deadline",
+      "headline": "Ohio publishes Counties of Focus Map",
+      "url": "https://www.ruralhealthtransformation.life/p/kansas-posts-awards-and-rfa-north#§ohio-publishes-counties-of-focus-map",
       "audience": "only_paid"
     },
     {
-      "date": "2026-07-10",
-      "post_title": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
-      "headline": "Michigan opens $34.2M in rural workforce grants — and bets big on the social-work pipeline",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-opens-342m-in-rural-workforce#§michigan-opens-34-2m-in-rural-workforce-grants-and-bets-big-on-the-social-work-pipeline",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-11",
-      "post_title": "Kansas out with $9.5M for AI & other emerging tech, Michigan names ~100 subrecipients, new ND opps",
-      "headline": "Michigan pushes list of subrecipients to date",
-      "url": "https://www.ruralhealthtransformation.life/p/kansas-out-with-95m-for-ai-and-other#§michigan-pushes-list-of-subrecipients-to-date",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-10",
-      "post_title": "Michigan subrecipient list, Mississippi Comprehensive State Health Plan contract, North $10M for EMS opportunity",
-      "headline": "Michigan posts list of 124 subrecipient awards totalling $65M",
-      "url": "https://www.ruralhealthtransformation.life/p/michigan-subrecipient-list-mississippi#§michigan-posts-list-of-124-subrecipient-awards-totalling-65m",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-05",
-      "post_title": "Montana Advisory & RFI, Michigan's $15M subrecipient list, $10M Kentucky RFP, USASpending Watch",
-      "headline": "Michigan launches dedicated RHTP subrecipients award page w/ $15M appropriated to 6 entities",
-      "url": "https://www.ruralhealthtransformation.life/p/montana-advisory-and-rfi-michigans#§michigan-launches-dedicated-rhtp-subrecipients-award-page-w-15m-appropriated-to-6-entities",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-04-18",
-      "post_title": "Indiana prohibits sub-recipients, Michigan publishes Budget Narrative, South Carolina funding forecast",
-      "headline": "Michigan publishes Budget Narrative",
-      "url": "https://www.ruralhealthtransformation.life/p/indiana-prohibits-sub-recipients#§michigan-publishes-budget-narrative",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-02-22",
-      "post_title": "Delaware accepting RFP applications, Michigan updated program structure, Utah posts webinar",
-      "headline": "Michigan",
-      "url": "https://www.ruralhealthtransformation.life/p/delaware-accepting-rfp-applications#§michigan",
+      "date": "2026-04-16",
+      "post_title": "Ohio RFP, Washington director, Arizona summary",
+      "headline": "Ohio publishes Chronic Disease RFP",
+      "url": "https://www.ruralhealthtransformation.life/p/ohio-rfp-washington-director-arizona#§ohio-publishes-chronic-disease-rfp",
       "audience": "only_paid"
     }
   ],
@@ -5414,78 +5856,6 @@
       "post_title": "Florida webinar on Youtube + new details on 15 strategies, Kenutcky and Kansas website funding clarifications, and Oregon webinar",
       "headline": "Florida published a webinar and added strategy details",
       "url": "https://www.ruralhealthtransformation.life/p/florida-webinar-on-youtube-new-details#§florida-published-a-webinar-and-added-strategy-details",
-      "audience": "only_paid"
-    }
-  ],
-  "Ohio": [
-    {
-      "date": "2026-10-19",
-      "post_title": "Oklahoma opens an EHR Expansion Vendor Request for Information, responses due December 1",
-      "headline": "Ohio names the recipients behind its Hospitals, Clinically Integrated Networks and Rural Health Innovation Hubs, and Maternal Care awards, with the Ohio High Value Network taking $",
-      "url": "https://www.ruralhealthtransformation.life/p/oklahoma-opens-an-ehr-expansion-vendor#§ohio-names-the-recipients-behind-its-hospitals-clinically-integrated-networks-and-rural-health-innovation-hubs-and-maternal-care-awards-with-the-ohio-high-value-network-taking-49-9-million",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-29",
-      "post_title": "Colorado publishes its full RHTP awardee list, $170.2 million across 92 awards",
-      "headline": "Ohio posts the Rural Health Transformation (RHT)-Rural Hospital Training and Technical Assistance Center (RHTAC) solicitation, due October 20",
-      "url": "https://www.ruralhealthtransformation.life/p/colorado-publishes-its-full-rhtp#§ohio-posts-the-rural-health-transformation-rht-rural-hospital-training-and-technical-assistance-center-rhtac-solicitation-due-october-20",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-04",
-      "post_title": "Indiana names nearly 200 GROW Regional Grant subrecipients, $112.4 million across eight regions plus $16.25 million in surplus awards",
-      "headline": "Ohio opens the Dental Access Collaborative RFP SRC0000041620, one vendor to recruit Medicaid dentists, due October 13",
-      "url": "https://www.ruralhealthtransformation.life/p/indiana-names-nearly-200-grow-regional#§ohio-opens-the-dental-access-collaborative-rfp-src0000041620-one-vendor-to-recruit-medicaid-dentists-due-october-13",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-04",
-      "post_title": "West Virginia doubles the ceiling on its Design and Administer Statewide, Multi-Payer Payment Models AFA to $5 million",
-      "headline": "Ohio RHT Deep Dive: Systemic Integration Over Cash Injection",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-doubles-the-ceiling#§ohio-rht-deep-dive-systemic-integration-over-cash-injection",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-13",
-      "post_title": "Louisiana Food As Medicine NOGO, Maine puts $30M out for EMRs",
-      "headline": "Ohio closes the loop: $10M workforce award lands at Ohio University",
-      "url": "https://www.ruralhealthtransformation.life/p/louisiana-food-as-medicine-nogo-maine#§ohio-closes-the-loop-10m-workforce-award-lands-at-ohio-university",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-08",
-      "post_title": "Ohio, West Virginia, and Utah open RFPs collectively worth ~$92M",
-      "headline": "Ohio launches $62M Rural Ohio Clinically Integrated Networks and Rural Health Innovation Hubs RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/ohio-west-virginia-and-utah-open#§ohio-launches-62m-rural-ohio-clinically-integrated-networks-and-rural-health-innovation-hubs-rfp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-18",
-      "post_title": "Ohio Peer Group funding, Oklahoma update, Idaho roundup, Kansas analysis ",
-      "headline": "Ohio out with Rural Hospital Peer Group Funding Opportunity",
-      "url": "https://www.ruralhealthtransformation.life/p/ohio-peer-group-funding-oklahoma#§ohio-out-with-rural-hospital-peer-group-funding-opportunity",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-16",
-      "post_title": "10 states published grant opportunities & key eligibility guidance in the last day ",
-      "headline": "Ohio pushes School-Based Health Center Competitive Solicitation",
-      "url": "https://www.ruralhealthtransformation.life/p/10-states-published-grant-opportunities#§ohio-pushes-school-based-health-center-competitive-solicitation",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-01",
-      "post_title": "Kansas posts awards and RFA, North Dakota Rural Health Clinical Equipment, New Mexico changes CRHSI deadline",
-      "headline": "Ohio publishes Counties of Focus Map",
-      "url": "https://www.ruralhealthtransformation.life/p/kansas-posts-awards-and-rfa-north#§ohio-publishes-counties-of-focus-map",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-04-16",
-      "post_title": "Ohio RFP, Washington director, Arizona summary",
-      "headline": "Ohio publishes Chronic Disease RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/ohio-rfp-washington-director-arizona#§ohio-publishes-chronic-disease-rfp",
       "audience": "only_paid"
     }
   ],
@@ -6017,64 +6387,6 @@
       "audience": "only_paid"
     }
   ],
-  "Arkansas": [
-    {
-      "date": "2026-09-25",
-      "post_title": "Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations",
-      "headline": "Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#§arkansas-awards-54-685-068-84-in-year-1-rise-ar-and-heart-funding-to-38-organizations",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-28",
-      "post_title": "Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects",
-      "headline": "Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#§arkansas-posts-its-year-1-rhtp-thrive-and-pact-awards-149-177-618-45-to-31-organizations-across-50-projects",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-24",
-      "post_title": "North Dakota Washington, and Idaho out with new RFPs",
-      "headline": "Arkansas extendeds HEART",
-      "url": "https://www.ruralhealthtransformation.life/p/north-dakota-washington-and-idaho#§arkansas-extendeds-heart",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-30",
-      "post_title": "CMS publishes Rural Tech Catalyst Fund Resource Guide, New Mexico opens Rural Health Innovation Fund RFP",
-      "headline": "Arkansas officially opens HEART",
-      "url": "https://www.ruralhealthtransformation.life/p/cms-publishes-rural-teach-catalyst#§arkansas-officially-opens-heart",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-23",
-      "post_title": "West Virginia opens worksite clinic grants, Arkansas publishes $28M HEART NOFO, Delaware deep-dive",
-      "headline": "Arkansas publishes $28M HEART NOFO",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-opens-worksite-clinic#§arkansas-publishes-28m-heart-nofo",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-13",
-      "post_title": "Arkansas posts RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early, two WV RFPs, and two Kentucky RFPs",
-      "headline": "Arkansas posts details on $27M RISE (Recruitment, Innovation, Skills, and Education for Arkansas Healthcare) NOFO two days early",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-rise-recruitment-innovation#§arkansas-posts-details-on-27m-rise-recruitment-innovation-skills-and-education-for-arkansas-healthcare-nofo-two-days-early",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-09",
-      "post_title": "Arkansas launches $4.6M PACT, Oklahoma out with 2 new NOFOs, and New Mexico readies $46M ",
-      "headline": "Arkansas launches PACT, $4.6M available, due July 10",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-launches-46m-pact-oklahoma#§arkansas-launches-pact-4-6m-available-due-july-10",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-06",
-      "post_title": "New engagement and vendor opportunities in Texas, Arkansas, Colorado for $275M near-term",
-      "headline": "Arkansas ramps up engagement with $55.6M THRIVE award process soon",
-      "url": "https://www.ruralhealthtransformation.life/p/new-engagement-and-vendor-opportunities#§arkansas-ramps-up-engagement-with-55-6m-thrive-award-process-soon",
-      "audience": "only_paid"
-    }
-  ],
   "Vermont": [
     {
       "date": "2026-09-24",
@@ -6252,197 +6564,6 @@
       "audience": "only_paid"
     }
   ],
-  "New Mexico": [
-    {
-      "date": "2026-09-21",
-      "post_title": "New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations",
-      "headline": "New Mexico moves the Rural Health Data Hub Administrator (RHDHA) RFP to September 25 and cuts the contract term to four years",
-      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#§new-mexico-moves-the-rural-health-data-hub-administrator-rhdha-rfp-to-september-25-and-cuts-the-contract-term-to-four-years",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-21",
-      "post_title": "New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations",
-      "headline": "New Mexico names six Healthy Horizons Regional Hub Organizations and $74,061,254.18 in regional allocations",
-      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-names-six-healthy-horizons#§new-mexico-names-six-healthy-horizons-regional-hub-organizations-and-74-061-254-18-in-regional-allocations",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-11",
-      "post_title": "Utah opens RISE Initiative 2.3: Grow Our Own Rural Health Pipeline and 2.4: Expand Non-GME Rural Healthcare Pipeline, both due October 29",
-      "headline": "New Mexico sets September 21 for the Rural Health Data Hub Administrator (RHDHA) RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-opens-rise-initiative-23-grow#§new-mexico-sets-september-21-for-the-rural-health-data-hub-administrator-rhdha-rfp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-09",
-      "post_title": "Idaho opens $8 million in Graduate Medical Education subawards",
-      "headline": "New Mexico posts the Rural Health Data Hub Administrator (RHDHA) RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/idaho-opens-8-million-in-graduate#§new-mexico-posts-the-rural-health-data-hub-administrator-rhdha-rfp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-28",
-      "post_title": "Arkansas posts its Year 1 RHTP THRIVE and PACT Awards, $149,177,618.45 to 31 organizations across 50 projects",
-      "headline": "New Mexico announces a Rooted in New Mexico (RiNM) Q&A and an Amendment and posts neither, seven days from close",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-posts-its-year-1-rhtp-thrive#§new-mexico-announces-a-rooted-in-new-mexico-rinm-q-and-a-and-an-amendment-and-posts-neither-seven-days-from-close",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-27",
-      "post_title": "Missouri extends IFB #DSS26015-01 ToRCH Care Smart Growth and Service Line Modification (Horizon 2) to 2 p.m. September 1",
-      "headline": "New Mexico answers six questions on RFA 27-630-8000-0037 Ob/Gyn Services and opens the door to telehealth-only bids",
-      "url": "https://www.ruralhealthtransformation.life/p/missouri-extends-ifb-dss26015-01#§new-mexico-answers-six-questions-on-rfa-27-630-8000-0037-ob-gyn-services-and-opens-the-door-to-telehealth-only-bids",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-14",
-      "post_title": "West Virginia releases its first two Rural Health Link solicitations, both due August 26 / Utah opens SHIFT 3.3 Rural EMS, $12.5 million, closing September 13",
-      "headline": "New Mexico opens applications for its RHTP Stakeholder Advisory Committee and puts four RFPs under evaluation",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-releases-its-first#§new-mexico-opens-applications-for-its-rhtp-stakeholder-advisory-committee-and-puts-four-rfps-under-evaluation",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-07",
-      "post_title": "New Mexico puts out $22M Rooted in New Mexico Program Administrator RFP",
-      "headline": "New Mexico puts out $22M Rooted in New Mexico Program Administrator RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-puts-out-22m-rooted-in#§new-mexico-puts-out-22m-rooted-in-new-mexico-program-administrator-rfp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-29",
-      "post_title": "Pennsylvania maps its entire RHTP pipeline",
-      "headline": "New Mexico revises the Rural Health Innovation Fund schedule",
-      "url": "https://www.ruralhealthtransformation.life/p/pennsylvania-maps-its-entire-rhtp#§new-mexico-revises-the-rural-health-innovation-fund-schedule",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-28",
-      "post_title": "West Virginia’s $10M value-based-care on-ramp, plus new RFGAs from Arizona and Utah",
-      "headline": "New Mexico extends the Rural Health Innovation Fund RFP deadline to Aug 3",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginias-10m-value-based-care#§new-mexico-extends-the-rural-health-innovation-fund-rfp-deadline-to-aug-3",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-17",
-      "post_title": "Montana launches $4M in Rural EMS grants, Kansas issues Healthworks CVO RFP, Arizona and California up w/ opps",
-      "headline": "New Mexico posts 8 job openings",
-      "url": "https://www.ruralhealthtransformation.life/p/montana-launches-4m-in-rural-ems#§new-mexico-posts-8-job-openings",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-09",
-      "post_title": "New Mexico and West Virginia add RFPs, Kentucky publishes info sheets with CMS changes baked in",
-      "headline": "New Mexico’s RHIF Preproposal Deck Fills in the Numbers and the Calendar",
-      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-and-west-virginia-add#§new-mexico-s-rhif-preproposal-deck-fills-in-the-numbers-and-the-calendar",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-09",
-      "post_title": "New Mexico and West Virginia add RFPs, Kentucky publishes info sheets with CMS changes baked in",
-      "headline": "New Mexico Opens an Onsite Clinic RFP with an Optional Rural Mobile Component",
-      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-and-west-virginia-add#§new-mexico-opens-an-onsite-clinic-rfp-with-an-optional-rural-mobile-component",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-02",
-      "post_title": "New Mexico RHIF RFP, 5 Alabama NOFOs, and four other states are looking to spend",
-      "headline": "New Mexico publishes Rural Health Innovation Fund (RHIF) RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/new-mexico-rhif-rfp-5-alabama-nofos#§new-mexico-publishes-rural-health-innovation-fund-rhif-rfp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-30",
-      "post_title": "CMS publishes Rural Tech Catalyst Fund Resource Guide, New Mexico opens Rural Health Innovation Fund RFP",
-      "headline": "New Mexico opens Rural Health Innovation Fund RFP",
-      "url": "https://www.ruralhealthtransformation.life/p/cms-publishes-rural-teach-catalyst#§new-mexico-opens-rural-health-innovation-fund-rfp",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-20",
-      "post_title": "Utah reopens RISE 2.2, Vemont is back on their Friday afternoon RFP drop game",
-      "headline": "New Mexico extends Healthy Horizons deadline; posts amendment and FAQ",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-reopens-rise-22-vemont-is-back#§new-mexico-extends-healthy-horizons-deadline-posts-amendment-and-faq",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-16",
-      "post_title": "10 states published grant opportunities & key eligibility guidance in the last day ",
-      "headline": "New Mexico posts Rural Health Innovation Fund release date",
-      "url": "https://www.ruralhealthtransformation.life/p/10-states-published-grant-opportunities#§new-mexico-posts-rural-health-innovation-fund-release-date",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-06-01",
-      "post_title": "Kansas posts awards and RFA, North Dakota Rural Health Clinical Equipment, New Mexico changes CRHSI deadline",
-      "headline": "New Mexico posts amendment to Center for Rural Health Sustainability & Innovation (CRHSI), changes deadline to June 12, 2026",
-      "url": "https://www.ruralhealthtransformation.life/p/kansas-posts-awards-and-rfa-north#§new-mexico-posts-amendment-to-center-for-rural-health-sustainability-and-innovation-crhsi-changes-deadline-to-june-12-2026",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-29",
-      "post_title": "West Virginia RFP 1 webinar today; Mississippi engages",
-      "headline": "New Mexico flashes release dates, including Healthy Horizons on Monday",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virginia-rfp-1-webinar-today#§new-mexico-flashes-release-dates-including-healthy-horizons-on-monday",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-26",
-      "post_title": "Big movements in Idaho, Alaska, New Mexico, and Vermont",
-      "headline": "New Mexico Extends ASO RFP Deadline, Splits Evaluation Methodology for Federal Funds",
-      "url": "https://www.ruralhealthtransformation.life/p/big-movements-in-idaho-alaska-new#§new-mexico-extends-aso-rfp-deadline-splits-evaluation-methodology-for-federal-funds",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-18",
-      "post_title": "Iowa, Vermont, Georgia, and Lousiana published RFPs last Friday",
-      "headline": "New Mexico webinar info & upcoming opportunities",
-      "url": "https://www.ruralhealthtransformation.life/p/iowa-vermont-georgia-and-lousiana#§new-mexico-webinar-info-and-upcoming-opportunities",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-12",
-      "post_title": "Nevada publishes $27M RHIT Initiative RFP, Kentucky Drops Two EMS RFAs, South Dakota publishes $89.3M RFA for Digital Health Modernization, due June 30",
-      "headline": "New Mexico posts RHTP Webinar info",
-      "url": "https://www.ruralhealthtransformation.life/p/nevada-publishes-27m-rhit-initiative#§new-mexico-posts-rhtp-webinar-info",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-11",
-      "post_title": "Nevada out with $30M RFP for Chronic Disease and Behavioral Health (RHOAP), New Mexico publishes 2 procurements ",
-      "headline": "New Mexico publishes two huge procurements: ASO and CRHSI",
-      "url": "https://www.ruralhealthtransformation.life/p/nevada-out-with-30m-rfp-for-chronic#§new-mexico-publishes-two-huge-procurements-aso-and-crhsi",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-08",
-      "post_title": "Alabama gets CMS approval and posts a launch timeline, new Montana vendor list, Oregon posts awards",
-      "headline": "New Mexico posts about vendor engagement on May 13",
-      "url": "https://www.ruralhealthtransformation.life/p/alabama-gets-cms-approval-and-posts#§new-mexico-posts-about-vendor-engagement-on-may-13",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-05",
-      "post_title": "Montana Advisory & RFI, Michigan's $15M subrecipient list, $10M Kentucky RFP, USASpending Watch",
-      "headline": "New Mexico announces May 13 webinar on funding opportunities",
-      "url": "https://www.ruralhealthtransformation.life/p/montana-advisory-and-rfi-michigans#§new-mexico-announces-may-13-webinar-on-funding-opportunities",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-04-28",
-      "post_title": "Oklahoma $15M NOFO, Iowa Network of Care, New Mexico pipeline, Arizona award tiers",
-      "headline": "New Mexico published RFP for ASO Services for Rural and Behavioral Health Program Administration",
-      "url": "https://www.ruralhealthtransformation.life/p/oklahoma-15m-nofo-iowa-network-of#§new-mexico-published-rfp-for-aso-services-for-rural-and-behavioral-health-program-administration",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-02-24",
-      "post_title": "Florida webinar on Youtube + new details on 15 strategies, Kenutcky and Kansas website funding clarifications, and Oregon webinar",
-      "headline": "New Mexico provided the Latest News for Providers and Communities",
-      "url": "https://www.ruralhealthtransformation.life/p/florida-webinar-on-youtube-new-details#§new-mexico-provided-the-latest-news-for-providers-and-communities",
-      "audience": "only_paid"
-    }
-  ],
   "New Jersey": [
     {
       "date": "2026-08-31",
@@ -6528,57 +6649,6 @@
       "post_title": "Wisconsin sets Advisory Committee, Vermont RFP, Colorado Advisory meeting, Big Legislative Moves in Alabama and Iowa",
       "headline": "Wisconsin sets Advisory Council, publishes a timeline, pushes an EHR RFP, and signals additional contracting",
       "url": "https://www.ruralhealthtransformation.life/p/wisconsin-sets-advisory-committee#§wisconsin-sets-advisory-council-publishes-a-timeline-pushes-an-ehr-rfp-and-signals-additional-contracting",
-      "audience": "only_paid"
-    }
-  ],
-  "Wyoming": [
-    {
-      "date": "2026-08-17",
-      "post_title": "Pennsylvania opens Rapid Response Stabilization — Round 2 today, $35 million at $1 million per location, closing August 24",
-      "headline": "Wyoming‘s advisory committee divides $205 million",
-      "url": "https://www.ruralhealthtransformation.life/p/pennsylvania-opens-rapid-response#§wyoming-s-advisory-committee-divides-205-million",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-11",
-      "post_title": "Maryland makes $78.6 million in Pillar 2 award offers to 41 organizations",
-      "headline": "Wyoming‘s Rural Health Transformation Advisory Committee meets this morning to discuss awards, with no public comment",
-      "url": "https://www.ruralhealthtransformation.life/p/maryland-makes-786-million-in-pillar#§wyoming-s-rural-health-transformation-advisory-committee-meets-this-morning-to-discuss-awards-with-no-public-comment",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-08-03",
-      "post_title": "Wyoming closes RFA, New Hampshire approves planning grant mechanism",
-      "headline": "Wyoming closes its first Rural Health Transformation Program RFA round",
-      "url": "https://www.ruralhealthtransformation.life/p/wyoming-closes-rfa-new-hampshire#§wyoming-closes-its-first-rural-health-transformation-program-rfa-round",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-11",
-      "post_title": "Utah drops a $94M opp, Maryland out w/ $20M+ in rural workforce and connectivity funding, Pennsylvania opens a $25M EHR & HIO interoperability payment",
-      "headline": "Wyoming publishes two of three tech vendor RFPs",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-drops-a-94m-opp-maryland-out#§wyoming-publishes-two-of-three-tech-vendor-rfps",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-07-01",
-      "post_title": "Wyoming published their RHT application portal this morning, Kansas opens Interfacility Transport Project Request for Applications",
-      "headline": "Wyoming published their RHT application portal this morning",
-      "url": "https://www.ruralhealthtransformation.life/p/wyoming-published-their-rht-application#§wyoming-published-their-rht-application-portal-this-morning",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-20",
-      "post_title": "Wyoming gets CMS approval w/o perpetuity— see video deep-dive into their implementation",
-      "headline": "Wyoming gets CMS approval w/o perpetuity",
-      "url": "https://www.ruralhealthtransformation.life/p/wyoming-gets-cms-approval-wo-perpetuity#§wyoming-gets-cms-approval-w-o-perpetuity",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-03-24",
-      "post_title": "West Virigina youtube, live webinar (today!) & listserv, Connecticut info, Wyoming perpetuity progress; AZ & MS in Legislation Watch",
-      "headline": "Wyoming perpetuity progress",
-      "url": "https://www.ruralhealthtransformation.life/p/west-virigina-youtube-live-webinar#§wyoming-perpetuity-progress",
       "audience": "only_paid"
     }
   ],
