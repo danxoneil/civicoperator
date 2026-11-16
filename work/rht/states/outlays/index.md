@@ -60,7 +60,6 @@ Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for ea
 ## Related
 
 [← All 50 state profiles](/work/rht/states/)
-[Federal money disbursed by state →](/work/rht/states/outlays/)
 [How states define “rural” →](/work/rht/states/rural-definitions/)
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
