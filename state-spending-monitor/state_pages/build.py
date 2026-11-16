@@ -881,6 +881,13 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
     tbl_cls = "ptab sortable" if sortable else "ptab"
     sort_css = SORT_CSS if sortable else ""
     sort_js = SORT_JS if sortable else ""
+    # Link to the sibling cluster pages, never to this page itself.
+    cluster_links = "\n".join(
+        f'<a href="/work/rht/states/{s}/">{label} &rarr;</a>' for s, label in [
+            ("outlays", "Federal money disbursed by state"),
+            ("rural-definitions", "How states define &ldquo;rural&rdquo;"),
+            ("agencies", "Administering agencies by state"),
+        ] if s != slug_)
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -911,9 +918,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 {extra_html}
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
-<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
-<a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
-<a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
+{cluster_links}
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
 </p></div>
 <p class="gov">Independent reference compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
