@@ -48,7 +48,6 @@ The designated lead agency running RHTP in each state (federal award recipient o
 | [South Carolina](/work/rht/states/south-carolina/) | Department of Health Human Services | [Official hub](https://scorh.net/rural-health-transformation-fund/) |
 | [South Dakota](/work/rht/states/south-dakota/) | South Dakota Department of Health | [Official hub](https://doh.sd.gov/healthcare-professionals/rural-health/rural-health-transformation-project/) |
 | [Tennessee](/work/rht/states/tennessee/) | Tennessee Department of Health | [Official hub](https://www.tn.gov/health/rural) |
-| [Test Run Pilot](/work/rht/states/test-run-pilot/) | — | — |
 | [Texas](/work/rht/states/texas/) | Health & Human Svc Commn TX | [Official hub](https://pfd.hhs.texas.gov/rural-health-transformation-program) |
 | [Utah](/work/rht/states/utah/) | Utah Department of Health and Human Services | [Official hub](https://dhhs.utah.gov/ruralhealth/) |
 | [Vermont](/work/rht/states/vermont/) | Human Services Vermont Agency of | [Official hub](https://healthcarereform.vermont.gov/hr1rural-health-transformation-fund) |
@@ -66,7 +65,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-11-15. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-11-16. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/agencies/

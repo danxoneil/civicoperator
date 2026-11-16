@@ -1,0 +1,46 @@
+name: IndexNow ping
+
+# Tells IndexNow engines (Bing -> Copilot, DuckDuckGo) about pages changed by a
+# normal push or PR merge to main. Nightly state-page rebuilds are pinged from
+# build-state-pages.yml instead, because their commits carry [skip ci].
+# No secrets: the IndexNow key is public and served at /<key>.txt.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+  workflow_dispatch:
+    inputs:
+      all:
+        description: 'Send every sitemap URL (one-off backfill)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  pages: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Notify IndexNow
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.all }}" = "true" ]; then
+            python scripts/indexnow_ping.py --all --wait-for-pages
+          elif [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            python scripts/indexnow_ping.py --since "${{ github.event.before }}" --wait-for-pages
+          else
+            python scripts/indexnow_ping.py --since HEAD~1 --wait-for-pages
+          fi

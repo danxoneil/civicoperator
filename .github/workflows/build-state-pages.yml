@@ -28,6 +28,7 @@ on:
 
 permissions:
   contents: write
+  pages: read      # IndexNow step waits for the Pages build of the new commit
 
 jobs:
   build:
@@ -87,17 +88,31 @@ jobs:
         run: python scripts/generate_llms_txt.py
 
       - name: Commit changes if any
+        id: commit
         run: |
           cd "$GITHUB_WORKSPACE"
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          echo "before=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           git add work/rht/states state-spending-monitor/state_pages/states_data.json state-spending-monitor/state_pages/outlays.json sitemap.xml llms.txt llms-full.txt
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
             git commit -m "RHT: rebuild state pages [skip ci]"
             git push
+            echo "pushed=true" >> "$GITHUB_OUTPUT"
           fi
+
+      # Push the changed pages to IndexNow (Bing, and through it Copilot and
+      # DuckDuckGo) once GitHub Pages has deployed them. The rebuild commit
+      # carries [skip ci], so indexnow.yml never fires for it -- this step is
+      # the only ping for nightly rebuilds. The script never fails the build.
+      - name: Notify IndexNow of changed pages
+        if: steps.commit.outputs.pushed == 'true'
+        working-directory: ${{ github.workspace }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/indexnow_ping.py --since "${{ steps.commit.outputs.before }}" --wait-for-pages
 
       # The agent-facing text files are regenerated above and are served with
       # Cloudflare cache bypassed, but an already-cached copy is not evicted by

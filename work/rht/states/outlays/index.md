@@ -48,7 +48,6 @@ Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for ea
 | [South Carolina](/work/rht/states/south-carolina/) | $200,030,252 | $453,179 |
 | [South Dakota](/work/rht/states/south-dakota/) | $189,477,607 | $0 |
 | [Tennessee](/work/rht/states/tennessee/) | $206,888,882 | $1,541,113 |
-| [Test Run Pilot](/work/rht/states/test-run-pilot/) | — | — |
 | [Texas](/work/rht/states/texas/) | $281,319,361 | $22,209,391 |
 | [Utah](/work/rht/states/utah/) | $195,743,566 | $827,614 |
 | [Vermont](/work/rht/states/vermont/) | $195,053,740 | $222,465 |
@@ -66,7 +65,7 @@ Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for ea
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-11-15. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference compiled and maintained by **Civic Operator LLC** from primary sources. Last reviewed 2026-11-16. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/outlays/
