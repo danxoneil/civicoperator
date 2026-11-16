@@ -5678,6 +5678,43 @@
       "audience": "only_paid"
     }
   ],
+  "Delaware": [
+    {
+      "date": "2026-10-20",
+      "post_title": "California opens the UCI CalRHT TNT, iHOPE and MBH Fellowship Application",
+      "headline": "Delaware puts more than $1 million into two first-year medical student awards and an expected 61 GME housing and relocation awards",
+      "url": "https://www.ruralhealthtransformation.life/p/california-opens-the-uci-calrht-tnt#§delaware-puts-more-than-1-million-into-two-first-year-medical-student-awards-and-an-expected-61-gme-housing-and-relocation-awards",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-09-25",
+      "post_title": "Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations",
+      "headline": "Delaware awards $22.69 million to its three FQHCs",
+      "url": "https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#§delaware-awards-22-69-million-to-its-three-fqhcs",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-15",
+      "post_title": "WV posts $1.6M match RFP for Upskilling & Mentorships, Indiana out with 2 more RFPs",
+      "headline": "Delaware moves diabetes pilot RFP forward with enabling legislation",
+      "url": "https://www.ruralhealthtransformation.life/p/wv-posts-16m-match-rfp-for-upskilling#§delaware-moves-diabetes-pilot-rfp-forward-with-enabling-legislation",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-05-04",
+      "post_title": "Utah posts $15M VBC RFP, Iowa Hub Round 2 soon, South Dakota workforce RFP",
+      "headline": "Delaware posts a comprehensive update",
+      "url": "https://www.ruralhealthtransformation.life/p/utah-posts-15m-vbc-rfp-iowa-hub-round#§delaware-posts-a-comprehensive-update",
+      "audience": "only_paid"
+    },
+    {
+      "date": "2026-02-22",
+      "post_title": "Delaware accepting RFP applications, Michigan updated program structure, Utah posts webinar",
+      "headline": "Delaware",
+      "url": "https://www.ruralhealthtransformation.life/p/delaware-accepting-rfp-applications#§delaware",
+      "audience": "only_paid"
+    }
+  ],
   "Ohio": [
     {
       "date": "2026-10-19",
@@ -5747,43 +5784,6 @@
       "post_title": "Ohio RFP, Washington director, Arizona summary",
       "headline": "Ohio publishes Chronic Disease RFP",
       "url": "https://www.ruralhealthtransformation.life/p/ohio-rfp-washington-director-arizona#§ohio-publishes-chronic-disease-rfp",
-      "audience": "only_paid"
-    }
-  ],
-  "Delaware": [
-    {
-      "date": "2026-10-20",
-      "post_title": "California opens the UCI CalRHT TNT, iHOPE and MBH Fellowship Application",
-      "headline": "Delaware puts more than $1 million into two first-year medical student awards and an expected 61 GME housing and relocation awards",
-      "url": "https://www.ruralhealthtransformation.life/p/california-opens-the-uci-calrht-tnt#§delaware-puts-more-than-1-million-into-two-first-year-medical-student-awards-and-an-expected-61-gme-housing-and-relocation-awards",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-09-25",
-      "post_title": "Arkansas awards $54,685,068.84 in Year 1 RISE AR and HEART funding to 38 organizations",
-      "headline": "Delaware awards $22.69 million to its three FQHCs",
-      "url": "https://www.ruralhealthtransformation.life/p/arkansas-awards-5468506884-in-year#§delaware-awards-22-69-million-to-its-three-fqhcs",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-15",
-      "post_title": "WV posts $1.6M match RFP for Upskilling & Mentorships, Indiana out with 2 more RFPs",
-      "headline": "Delaware moves diabetes pilot RFP forward with enabling legislation",
-      "url": "https://www.ruralhealthtransformation.life/p/wv-posts-16m-match-rfp-for-upskilling#§delaware-moves-diabetes-pilot-rfp-forward-with-enabling-legislation",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-05-04",
-      "post_title": "Utah posts $15M VBC RFP, Iowa Hub Round 2 soon, South Dakota workforce RFP",
-      "headline": "Delaware posts a comprehensive update",
-      "url": "https://www.ruralhealthtransformation.life/p/utah-posts-15m-vbc-rfp-iowa-hub-round#§delaware-posts-a-comprehensive-update",
-      "audience": "only_paid"
-    },
-    {
-      "date": "2026-02-22",
-      "post_title": "Delaware accepting RFP applications, Michigan updated program structure, Utah posts webinar",
-      "headline": "Delaware",
-      "url": "https://www.ruralhealthtransformation.life/p/delaware-accepting-rfp-applications#§delaware",
       "audience": "only_paid"
     }
   ],
