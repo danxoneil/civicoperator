@@ -1091,8 +1091,9 @@ def render_outlays(names):
         "&mdash; funds actually disbursed to date. This table records both for all 50 states, "
         "pulled weekly from USASpending.gov (federal program 93.798). "
         f"As of {as_of}, states had drawn down <strong>${tot_out/1e6:,.1f} million</strong> "
-        f"of <strong>${tot_ob/1e9:,.2f} billion</strong> obligated in Year&nbsp;1 &mdash; "
-        f"about {pct:.1f}%. Federal award pages report each state&rsquo;s outlays one grant at a "
+        f"of <strong>${tot_ob/1e9:,.2f} billion</strong> obligated so far &mdash; "
+        f"about {pct:.1f}%. Obligated totals include the Year&nbsp;1 award and any "
+        "Year&nbsp;2 continuation funding CMS has since added to the same agreement. Federal award pages report each state&rsquo;s outlays one grant at a "
         "time; this is a maintained side-by-side comparison of all 50. See "
         "<a href=\"/work/rht/states/methodology\">Methodology</a> for sourcing.</p>")
     render_cluster(
