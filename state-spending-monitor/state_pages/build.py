@@ -1110,14 +1110,16 @@ def render_outlays(names):
 
 # ---------- run ----------
 os.makedirs(OUT_ROOT, exist_ok=True)
-cards = []
-for name, d in states_data.items():
-    if name == "CMS":
-        continue
-    cards.append(render_state(name, d))
+# Publish only the 50 real states. The Monday "States - RHT" board also holds
+# non-state rows (the "CMS" federal row, test rows such as "Test Run Pilot");
+# those must never become public pages. RHTP_AWARD_FAIN lists exactly the 50.
+_skipped = [n for n in states_data if n not in RHTP_AWARD_FAIN]
+if _skipped:
+    print(f"Skipping non-state board rows: {', '.join(_skipped)}")
+_state_names = [n for n in states_data if n in RHTP_AWARD_FAIN]
+cards = [render_state(n, states_data[n]) for n in _state_names]
 render_index(cards)
 render_methodology(cards)
-_state_names = [n for n in states_data if n != "CMS"]
 render_rural_definitions(_state_names)
 render_agencies({n: states_data[n] for n in _state_names})
 render_outlays(_state_names)

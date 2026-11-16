@@ -48,7 +48,6 @@ Federal RHTP funds committed (obligated) vs. actually disbursed (outlaid) for ea
 | [South Carolina](/work/rht/states/south-carolina/) | $200,030,252 | $453,179 |
 | [South Dakota](/work/rht/states/south-dakota/) | $189,477,607 | $0 |
 | [Tennessee](/work/rht/states/tennessee/) | $206,888,882 | $1,541,113 |
-| [Test Run Pilot](/work/rht/states/test-run-pilot/) | — | — |
 | [Texas](/work/rht/states/texas/) | $281,319,361 | $22,209,391 |
 | [Utah](/work/rht/states/utah/) | $195,743,566 | $827,614 |
 | [Vermont](/work/rht/states/vermont/) | $195,053,740 | $222,465 |

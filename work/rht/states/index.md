@@ -27,7 +27,7 @@ Single-dimension reference tables that cut across all 50 states, each linking ba
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
-## Browse all 51 states
+## Browse all 50 states
 
 Each card: state · exact CMS Year-1 award · dated dispatches · how it defines rural. Open a state for its full profile.
 
@@ -115,9 +115,7 @@ $200.0M · 10 dispatches · Federal HRSA rural default](/work/rht/states/south-c
 
 $189.5M · 17 dispatches · Federal HRSA rural default](/work/rht/states/south-dakota/)[Tennessee
 
-$206.9M · 23 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Test Run Pilot
-
-~$55M · 0 dispatches](/work/rht/states/test-run-pilot/)[Texas
+$206.9M · 23 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Texas
 
 $281.3M · 15 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
