@@ -881,6 +881,13 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
     tbl_cls = "ptab sortable" if sortable else "ptab"
     sort_css = SORT_CSS if sortable else ""
     sort_js = SORT_JS if sortable else ""
+    # Link to the sibling cluster pages, never to this page itself.
+    cluster_links = "\n".join(
+        f'<a href="/work/rht/states/{s}/">{label} &rarr;</a>' for s, label in [
+            ("outlays", "Federal money disbursed by state"),
+            ("rural-definitions", "How states define &ldquo;rural&rdquo;"),
+            ("agencies", "Administering agencies by state"),
+        ] if s != slug_)
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -911,9 +918,7 @@ def render_cluster(slug_, h1, title, description, intro, headers, rows, note=Non
 {extra_html}
 <div class="st"><h2>Related</h2><p class="related">
 <a href="/work/rht/states/">&larr; All 50 state profiles</a>
-<a href="/work/rht/states/outlays/">Federal money disbursed by state &rarr;</a>
-<a href="/work/rht/states/rural-definitions/">How states define &ldquo;rural&rdquo; &rarr;</a>
-<a href="/work/rht/states/agencies/">Administering agencies by state &rarr;</a>
+{cluster_links}
 <a href="/work/rht/states/methodology">Methodology &amp; sources &rarr;</a>
 </p></div>
 <p class="gov">Independent reference compiled and maintained by <strong>Civic Operator LLC</strong> from primary sources. Last reviewed {LAST_REVIEWED}. &middot; <a href="/work/rht/states/methodology">Methodology &amp; sources</a> &middot; <a href="/work/rht/states">All states</a></p>
@@ -1091,8 +1096,9 @@ def render_outlays(names):
         "&mdash; funds actually disbursed to date. This table records both for all 50 states, "
         "pulled weekly from USASpending.gov (federal program 93.798). "
         f"As of {as_of}, states had drawn down <strong>${tot_out/1e6:,.1f} million</strong> "
-        f"of <strong>${tot_ob/1e9:,.2f} billion</strong> obligated in Year&nbsp;1 &mdash; "
-        f"about {pct:.1f}%. Federal award pages report each state&rsquo;s outlays one grant at a "
+        f"of <strong>${tot_ob/1e9:,.2f} billion</strong> obligated so far &mdash; "
+        f"about {pct:.1f}%. Obligated totals include the Year&nbsp;1 award and any "
+        "Year&nbsp;2 continuation funding CMS has since added to the same agreement. Federal award pages report each state&rsquo;s outlays one grant at a "
         "time; this is a maintained side-by-side comparison of all 50. See "
         "<a href=\"/work/rht/states/methodology\">Methodology</a> for sourcing.</p>")
     render_cluster(

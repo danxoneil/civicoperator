@@ -95,7 +95,6 @@ The 15 states below publish their own map of where “rural” is under the RHTP
 
 [← All 50 state profiles](/work/rht/states/)
 [Federal money disbursed by state →](/work/rht/states/outlays/)
-[How states define “rural” →](/work/rht/states/rural-definitions/)
 [Administering agencies by state →](/work/rht/states/agencies/)
 [Methodology & sources →](/work/rht/states/methodology)
 
