@@ -6,7 +6,7 @@ How the Civic Operator Rural Health Transformation Program reference is compiled
 
 ## What this is (and isn’t)
 
-This is an independent, structured **reference** to the CMS Rural Health Transformation Program (RHTP) — a $50 billion, five-year program covering all 50 states ($10.1B in Year-1 awards tracked here). It exists to collect, in one predictable place per state, facts that are otherwise scattered across federal and state government sites. It is **not** a government site, and it is not the program’s commentary layer — interpretation, opinion and reporting live on the separate [Rural Health Transformation Grant Tracker](https://www.ruralhealthtransformation.life/) newsletter.
+This is an independent, structured **reference** to the CMS Rural Health Transformation Program (RHTP) — a $50 billion, five-year program covering all 50 states ($10.0B in Year-1 awards tracked here). It exists to collect, in one predictable place per state, facts that are otherwise scattered across federal and state government sites. It is **not** a government site, and it is not the program’s commentary layer — interpretation, opinion and reporting live on the separate [Rural Health Transformation Grant Tracker](https://www.ruralhealthtransformation.life/) newsletter.
 
 ## Sources we monitor
 
