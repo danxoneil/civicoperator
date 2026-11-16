@@ -30,6 +30,7 @@ import json
 import logging
 import os
 import smtplib
+import sys
 import time
 from datetime import datetime
 from email.mime.multipart import MIMEMultipart
@@ -242,6 +243,14 @@ class SpendingMonitor:
             logger.info("  No results by award_ids, trying CFDA 93.798...")
             awards = self._fetch_by_cfda()
 
+        # Since FY2027 began (Oct 2026) spending_by_award returns 0 rows for these
+        # awards with or without a time_period. The per-award detail endpoint is
+        # authoritative and keyed on IDs we already know, so fill any gaps from it.
+        missing = [f for f in all_fains if f not in awards]
+        if missing:
+            logger.info(f"  Fetching {len(missing)} awards from per-award endpoint...")
+            awards.update(self._fetch_by_award_detail(missing))
+
         # Report missing awards
         found = set(awards.keys())
         missing = set(all_fains) - found
@@ -288,6 +297,40 @@ class SpendingMonitor:
         except requests.RequestException as e:
             logger.error(f"  CFDA search failed: {e}")
 
+        return awards
+
+    def _fetch_by_award_detail(self, fains: List[str]) -> Dict[str, Dict]:
+        """Fetch each award from /awards/{generated_id}/ and map it onto the
+        spending_by_award field names the rest of this script consumes."""
+        awards = {}
+        for fain in fains:
+            gid = f"ASST_NON_{fain}_075"
+            try:
+                resp = requests.get(f"{USASPENDING_API}/awards/{gid}/", timeout=60)
+                resp.raise_for_status()
+                a = resp.json()
+            except requests.RequestException as e:
+                logger.error(f"  {AWARD_MAP[fain]}: award detail failed: {e}")
+                continue
+            pop = a.get('period_of_performance') or {}
+            awards[fain] = {
+                'Award ID': a.get('fain') or fain,
+                'Recipient Name': (a.get('recipient') or {}).get('recipient_name'),
+                'Start Date': pop.get('start_date'),
+                'End Date': pop.get('end_date'),
+                'Award Amount': a.get('total_obligation'),
+                'Total Outlays': a.get('total_outlay') or 0,
+                'Awarding Agency': ((a.get('awarding_agency') or {})
+                                    .get('toptier_agency') or {}).get('name'),
+                'Award Type': a.get('type_description'),
+                'Description': a.get('description'),
+                'Last Modified Date': pop.get('last_modified_date'),
+                'CFDA Number': '93.798',
+            }
+            logger.info(
+                f"  {AWARD_MAP[fain]}: ${a.get('total_obligation') or 0:,.2f} obligated, "
+                f"${a.get('total_outlay') or 0:,.2f} outlayed")
+            time.sleep(0.2)
         return awards
 
     # ── monday.com board ─────────────────────────────────────────────
@@ -583,8 +626,10 @@ class SpendingMonitor:
             logger.info("outlays-only dry run — no Monday board or email")
             api_data = self.fetch_awards_from_usaspending()
             if not api_data:
-                logger.warning("No award data returned from USASpending API")
-                return
+                # Exit non-zero so the workflow step shows as failed instead of
+                # silently keeping a stale outlays.json (as happened Oct–Nov 2026).
+                logger.error("No award data returned from USASpending API")
+                sys.exit(1)
             self.write_outlays_json(api_data, run_date)
             return
 
