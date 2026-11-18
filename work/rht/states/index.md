@@ -35,7 +35,7 @@ Each card: state · exact CMS Year-1 award · dated dispatches · how it defines
 
 $203.4M · 14 dispatches · Uses its own rural definition](/work/rht/states/alabama/)[Alaska
 
-$272.2M · 29 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
+$272.2M · 30 dispatches · Federal HRSA rural default](/work/rht/states/alaska/)[Arizona
 
 $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/arizona/)[Arkansas
 
@@ -55,7 +55,7 @@ $218.9M · 14 dispatches · Uses its own rural definition](/work/rht/states/geor
 
 $188.9M · 4 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
-$186.0M · 33 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
+$186.0M · 34 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
 
 $193.4M · 3 dispatches · Defined rural county list](/work/rht/states/illinois/)[Indiana
 
@@ -63,7 +63,7 @@ $206.9M · 11 dispatches · Uses its own rural definition](/work/rht/states/indi
 
 $209.0M · 19 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[Kansas
 
-$221.9M · 37 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
+$221.9M · 38 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
 
 $212.9M · 15 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
@@ -75,13 +75,13 @@ $168.2M · 21 dispatches · Uses its own rural definition](/work/rht/states/mary
 
 $162.0M · 6 dispatches · Uses its own rural definition](/work/rht/states/massachusetts/)[Michigan
 
-$173.1M · 16 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
+$173.1M · 18 dispatches · Federal HRSA rural default](/work/rht/states/michigan/)[Minnesota
 
 $193.1M · 7 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
 
 $205.9M · 26 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 21 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 22 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
 $233.5M · 27 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
@@ -89,23 +89,23 @@ $218.5M · 17 dispatches · Uses its own rural definition](/work/rht/states/nebr
 
 $179.9M · 20 dispatches · Federal HRSA rural default](/work/rht/states/nevada/)[New Hampshire
 
-$204.0M · 18 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
+$204.0M · 19 dispatches · Uses its own rural definition](/work/rht/states/new-hampshire/)[New Jersey
 
 $147.3M · 3 dispatches · Defined rural county list](/work/rht/states/new-jersey/)[New Mexico
 
 $211.5M · 28 dispatches · Uses its own rural definition](/work/rht/states/new-mexico/)[New York
 
-$212.1M · 13 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
+$212.1M · 14 dispatches · Defined rural county list](/work/rht/states/new-york/)[North Carolina
 
-$213.0M · 30 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
+$213.0M · 31 dispatches · Defined rural county list](/work/rht/states/north-carolina/)[North Dakota
 
 $198.9M · 45 dispatches · Federal HRSA rural default](/work/rht/states/north-dakota/)[Ohio
 
-$202.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/ohio/)[Oklahoma
+$202.0M · 11 dispatches · Uses its own rural definition](/work/rht/states/ohio/)[Oklahoma
 
 $223.5M · 34 dispatches · Defined rural county list](/work/rht/states/oklahoma/)[Oregon
 
-$197.3M · 20 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
+$197.3M · 21 dispatches · Uses its own rural definition](/work/rht/states/oregon/)[Pennsylvania
 
 $193.3M · 17 dispatches · Defined rural county list](/work/rht/states/pennsylvania/)[Rhode Island
 
@@ -133,7 +133,7 @@ $203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisco
 
 $205.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-17. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-18. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/

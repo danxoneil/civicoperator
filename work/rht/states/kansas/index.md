@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-37 dated briefs
+38 dated briefs
 
 ## Questions & answers
 
@@ -98,9 +98,11 @@ Track opportunities on the [KDHE RHTP hub](https://www.kdhe.ks.gov/2361/Rural-He
 
 [KDHE Rural Health Transformation Program →](https://www.kdhe.ks.gov/2361/Rural-Health-Transformation-Program)
 
-## Activity log · 37 dated briefs
+## Activity log · 38 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-17[Kansas puts Hyve Health and RevSUPPORT KS behind its Revenue Technical Support Organization for rural hospitals](https://www.ruralhealthtransformation.life/p/kansas-puts-hyve-health-and-revsupport#%C2%A7kansas-puts-hyve-health-and-revsupport-ks-behind-its-revenue-technical-support-organization-for-rural-hospitals)
 
 2026-11-11[Kansas confirms $225,896,116.63 for Year 2](https://www.ruralhealthtransformation.life/p/rural-maryland-council-names-20-fiscal#%C2%A7kansas-confirms-225-896-116-63-for-year-2)
 
@@ -185,7 +187,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-17. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Kansas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-18. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/kansas/
