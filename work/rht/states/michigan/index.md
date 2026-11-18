@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+18 dated briefs
 
 ## What Michigan committed to measure
 
@@ -107,9 +107,13 @@ Track opportunities in **EGrAMS** via the [MDHHS RHTP hub](https://www.michigan.
 
 [MDHHS Rural Health Transformation Program →](https://www.michigan.gov/mdhhs/assistance-programs/medicaid/rural-health-transformation-program)
 
-## Activity log · 16 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-17[Michigan pushes Rural Health Technology Innovation - 2027 to November 24](https://www.ruralhealthtransformation.life/p/kansas-puts-hyve-health-and-revsupport#%C2%A7michigan-pushes-rural-health-technology-innovation-2027-to-november-24)
+
+2026-11-16[Michigan opens Rural Health Technology Innovation - 2027, $6.43 million in awards of $50,000 to $700,000, due November 19](https://www.ruralhealthtransformation.life/p/missouri-opens-rural-graduate-medical#%C2%A7michigan-opens-rural-health-technology-innovation-2027-6-43-million-in-awards-of-50-000-to-700-000-due-november-19)
 
 2026-11-13[Michigan puts its Subrecipients of Michigan’s Rural Health Transformation Program at 231 awards and $162.2 million as of October 1](https://www.ruralhealthtransformation.life/p/virginia-opens-rural-health-innovation#%C2%A7michigan-puts-its-subrecipients-of-michigan-s-rural-health-transformation-program-at-231-awards-and-162-2-million-as-of-october-1)
 
@@ -152,7 +156,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Michigan .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-17. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Michigan .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-18. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/michigan/
