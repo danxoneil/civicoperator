@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-34 dated briefs
+35 dated briefs
 
 ## How Idaho defines rural
 
@@ -110,9 +110,11 @@ Track opportunities on the [Idaho RHTP funding-opportunities page](https://healt
 
 [Idaho DHW Rural Health Transformation Program →](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant)
 
-## Activity log · 34 dated briefs
+## Activity log · 35 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Idaho wants a full-time Technical Assistance and Administrative Support Contractor for RHTP EMS, SOQs due December 15](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7idaho-wants-a-full-time-technical-assistance-and-administrative-support-contractor-for-rhtp-ems-soqs-due-december-15)
 
 2026-11-17[Idaho opens Idaho Rural Health Transformation Vendor-Subawardee Resources and a November 20 forum](https://www.ruralhealthtransformation.life/p/kansas-puts-hyve-health-and-revsupport#%C2%A7idaho-opens-idaho-rural-health-transformation-vendor-subawardee-resources-and-a-november-20-forum)
 

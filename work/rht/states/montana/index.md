@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-27 dated briefs
+28 dated briefs
 
 ## What Montana committed to measure
 
@@ -100,9 +100,11 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 27 dated briefs
+## Activity log · 28 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Montana‘s fall RHTP newsletter splits $20.8 million in Community Health Aide Program money and names Applichat and the Clevery Company for physician recruitment](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7montana-s-fall-rhtp-newsletter-splits-20-8-million-in-community-health-aide-program-money-and-names-applichat-and-the-clevery-company-for-physician-recruitment)
 
 2026-11-12[Montana says its Center of Excellence facility application comes by the end of the year, in Governor Gianforte press release](https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#%C2%A7montana-says-its-center-of-excellence-facility-application-comes-by-the-end-of-the-year-in-governor-gianforte-press-release)
 

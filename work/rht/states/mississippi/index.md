@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-26 dated briefs
+27 dated briefs
 
 ## Questions & answers
 
@@ -96,9 +96,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 26 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Mississippi opens the Rural Graduate Medical Education Expansion Grant, $950,000 at up to $95,000 per award, due December 22](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7mississippi-opens-the-rural-graduate-medical-education-expansion-grant-950-000-at-up-to-95-000-per-award-due-december-22)
 
 2026-11-09[Mississippi posts v2 FAQs and the public Q&A for its Electronic Health Record Replacement For Small Rural Providers Program: no vendor gets picked before award](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7mississippi-posts-v2-faqs-and-the-public-q-and-a-for-its-electronic-health-record-replacement-for-small-rural-providers-program-no-vendor-gets-picked-before-award)
 
