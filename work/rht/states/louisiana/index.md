@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-18 dated briefs
+19 dated briefs
 
 ## How Louisiana defines rural
 
@@ -106,9 +106,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [LA RHTP funding-opportunities page](https://ldh.la.gov/page/rhtp-funding-opportunities), watch for vendor showcases co-hosted with the Louisiana Rural Health Association, and monitor the [program hub](https://ldh.la.gov/page/rural-health-transformation-program).
 
-## Activity log · 18 dated briefs
+## Activity log · 19 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Louisiana‘s November 5 Advisory Council deck counts 69 rural hospital awards out of 195, and sets nine regional visits for 2027](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7louisiana-s-november-5-advisory-council-deck-counts-69-rural-hospital-awards-out-of-195-and-sets-nine-regional-visits-for-2027)
 
 2026-11-09[Louisiana reports Budget Period 1 awards to its Advisory Council: 195 competitive awards from 529 applications, and $42.5 million for a state instance of Epic](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7louisiana-reports-budget-period-1-awards-to-its-advisory-council-195-competitive-awards-from-529-applications-and-42-5-million-for-a-state-instance-of-epic)
 

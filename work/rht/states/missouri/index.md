@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+24 dated briefs
 
 ## What Missouri committed to measure
 
@@ -110,9 +110,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 23 dated briefs
+## Activity log · 24 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Missouri opens the Digital Backbone and Ambient AI Funding Opportunity, due December 16](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7missouri-opens-the-digital-backbone-and-ambient-ai-funding-opportunity-due-december-16)
 
 2026-11-18[Missouri staffs seven Regional EMS & MIH-CP Ambassadors for its RHTP EMS ecosystem](https://www.ruralhealthtransformation.life/p/texas-deep-dive-review-of-the-november#%C2%A7missouri-staffs-seven-regional-ems-and-mih-cp-ambassadors-for-its-rhtp-ems-ecosystem)
 

@@ -1338,13 +1338,13 @@ $154.2M · 3 dispatches · Uses its own rural definition](/work/rht/states/conne
 
 $157.4M · 5 dispatches · Federal HRSA rural default](/work/rht/states/delaware/)[Florida
 
-$209.9M · 10 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
+$209.9M · 11 dispatches · Uses its own rural definition](/work/rht/states/florida/)[Georgia
 
 $218.9M · 14 dispatches · Uses its own rural definition](/work/rht/states/georgia/)[Hawaii
 
 $188.9M · 4 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
-$186.0M · 34 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
+$186.0M · 35 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
 
 $193.4M · 3 dispatches · Defined rural county list](/work/rht/states/illinois/)[Indiana
 
@@ -1356,7 +1356,7 @@ $221.9M · 38 dispatches · Federal HRSA rural default](/work/rht/states/kansas/
 
 $212.9M · 15 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
-$208.4M · 18 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
+$208.4M · 19 dispatches · Uses its own rural definition](/work/rht/states/louisiana/)[Maine
 
 $190.0M · 21 dispatches · Defined rural county list](/work/rht/states/maine/)[Maryland
 
@@ -1368,11 +1368,11 @@ $173.1M · 18 dispatches · Federal HRSA rural default](/work/rht/states/michiga
 
 $193.1M · 7 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
 
-$205.9M · 26 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
+$205.9M · 27 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
-$216.3M · 23 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
+$216.3M · 24 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
-$233.5M · 27 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
+$233.5M · 28 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
 $218.5M · 17 dispatches · Uses its own rural definition](/work/rht/states/nebraska/)[Nevada
 
@@ -1406,7 +1406,7 @@ $189.5M · 17 dispatches · Federal HRSA rural default](/work/rht/states/south-d
 
 $206.9M · 23 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Texas
 
-$281.3M · 16 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 17 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
 $195.7M · 39 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
@@ -2877,7 +2877,7 @@ Federal award data
 
 Tracker dispatches
 
-10 dated briefs
+11 dated briefs
 
 ## Questions & answers
 
@@ -2928,9 +2928,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Find and respond to solicitations on [MyFloridaMarketplace](https://vendor.myfloridamarketplace.com/search/bids) (search “RHTP”), and track updates on the [AHCA RHTP hub](https://ahca.myflorida.com/rural-health-transformation-program.html).
 
-## Activity log · 10 dated briefs
+## Activity log · 11 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Florida‘s TA contractor ICF posts Connecting Grant Requirements to Your RHTP Award, its onboarding deck for subawardees, with eight named TA liaisons](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7florida-s-ta-contractor-icf-posts-connecting-grant-requirements-to-your-rhtp-award-its-onboarding-deck-for-subawardees-with-eight-named-ta-liaisons)
 
 2026-10-16[Florida posts its Year 1 Annual Report: $10.2 million obligated by July 31, against $188.2 million in intents to award](https://www.ruralhealthtransformation.life/p/rhode-islands-health-center-association#%C2%A7florida-posts-its-year-1-annual-report-10-2-million-obligated-by-july-31-against-188-2-million-in-intents-to-award)
 
@@ -3311,7 +3313,7 @@ Federal award data
 
 Tracker dispatches
 
-34 dated briefs
+35 dated briefs
 
 ## How Idaho defines rural
 
@@ -3369,9 +3371,11 @@ Track opportunities on the [Idaho RHTP funding-opportunities page](https://healt
 
 [Idaho DHW Rural Health Transformation Program →](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant)
 
-## Activity log · 34 dated briefs
+## Activity log · 35 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Idaho wants a full-time Technical Assistance and Administrative Support Contractor for RHTP EMS, SOQs due December 15](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7idaho-wants-a-full-time-technical-assistance-and-administrative-support-contractor-for-rhtp-ems-soqs-due-december-15)
 
 2026-11-17[Idaho opens Idaho Rural Health Transformation Vendor-Subawardee Resources and a November 20 forum](https://www.ruralhealthtransformation.life/p/kansas-puts-hyve-health-and-revsupport#%C2%A7idaho-opens-idaho-rural-health-transformation-vendor-subawardee-resources-and-a-november-20-forum)
 
@@ -4310,7 +4314,7 @@ Federal award data
 
 Tracker dispatches
 
-18 dated briefs
+19 dated briefs
 
 ## How Louisiana defines rural
 
@@ -4366,9 +4370,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [LA RHTP funding-opportunities page](https://ldh.la.gov/page/rhtp-funding-opportunities), watch for vendor showcases co-hosted with the Louisiana Rural Health Association, and monitor the [program hub](https://ldh.la.gov/page/rural-health-transformation-program).
 
-## Activity log · 18 dated briefs
+## Activity log · 19 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Louisiana‘s November 5 Advisory Council deck counts 69 rural hospital awards out of 195, and sets nine regional visits for 2027](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7louisiana-s-november-5-advisory-council-deck-counts-69-rural-hospital-awards-out-of-195-and-sets-nine-regional-visits-for-2027)
 
 2026-11-09[Louisiana reports Budget Period 1 awards to its Advisory Council: 195 competitive awards from 529 applications, and $42.5 million for a state instance of Epic](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7louisiana-reports-budget-period-1-awards-to-its-advisory-council-195-competitive-awards-from-529-applications-and-42-5-million-for-a-state-instance-of-epic)
 
@@ -5309,7 +5315,7 @@ Federal award data
 
 Tracker dispatches
 
-26 dated briefs
+27 dated briefs
 
 ## Questions & answers
 
@@ -5353,9 +5359,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 26 dated briefs
+## Activity log · 27 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Mississippi opens the Rural Graduate Medical Education Expansion Grant, $950,000 at up to $95,000 per award, due December 22](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7mississippi-opens-the-rural-graduate-medical-education-expansion-grant-950-000-at-up-to-95-000-per-award-due-december-22)
 
 2026-11-09[Mississippi posts v2 FAQs and the public Q&A for its Electronic Health Record Replacement For Small Rural Providers Program: no vendor gets picked before award](https://www.ruralhealthtransformation.life/p/west-virginia-posts-a-third-edition#%C2%A7mississippi-posts-v2-faqs-and-the-public-q-and-a-for-its-electronic-health-record-replacement-for-small-rural-providers-program-no-vendor-gets-picked-before-award)
 
@@ -5483,7 +5491,7 @@ Federal award data
 
 Tracker dispatches
 
-23 dated briefs
+24 dated briefs
 
 ## What Missouri committed to measure
 
@@ -5541,9 +5549,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** can go out as comp
 
 Missouri does not run a single central RFP portal; watch the [ToRCH Care hub](https://mydss.mo.gov/mhd/rural-health) and DSS announcements, and direct questions to [ruralhealth@health.mo.gov](mailto:ruralhealth@health.mo.gov).
 
-## Activity log · 23 dated briefs
+## Activity log · 24 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Missouri opens the Digital Backbone and Ambient AI Funding Opportunity, due December 16](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7missouri-opens-the-digital-backbone-and-ambient-ai-funding-opportunity-due-december-16)
 
 2026-11-18[Missouri staffs seven Regional EMS & MIH-CP Ambassadors for its RHTP EMS ecosystem](https://www.ruralhealthtransformation.life/p/texas-deep-dive-review-of-the-november#%C2%A7missouri-staffs-seven-regional-ems-and-mih-cp-ambassadors-for-its-rhtp-ems-ecosystem)
 
@@ -5663,7 +5673,7 @@ Federal award data
 
 Tracker dispatches
 
-27 dated briefs
+28 dated briefs
 
 ## What Montana committed to measure
 
@@ -5713,9 +5723,11 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 27 dated briefs
+## Activity log · 28 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Montana‘s fall RHTP newsletter splits $20.8 million in Community Health Aide Program money and names Applichat and the Clevery Company for physician recruitment](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7montana-s-fall-rhtp-newsletter-splits-20-8-million-in-community-health-aide-program-money-and-names-applichat-and-the-clevery-company-for-physician-recruitment)
 
 2026-11-12[Montana says its Center of Excellence facility application comes by the end of the year, in Governor Gianforte press release](https://www.ruralhealthtransformation.life/p/arkansass-baxter-health-opens-three#%C2%A7montana-says-its-center-of-excellence-facility-application-comes-by-the-end-of-the-year-in-governor-gianforte-press-release)
 
@@ -8728,7 +8740,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## Questions & answers
 
@@ -8766,9 +8778,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Texas resets its three Year 2 windows to “Applications Open: TBD,” while the Initiative 3 sheet still prints November 20](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7texas-resets-its-three-year-2-windows-to-applications-open-tbd-while-the-initiative-3-sheet-still-prints-november-20)
 
 2026-11-18[Texas deep dive: review of the November 12 award list, the Budget Period 2 narrative and three Year 2 windows](https://www.ruralhealthtransformation.life/p/texas-deep-dive-review-of-the-november#%C2%A7texas-deep-dive-review-of-the-november-12-award-list-the-budget-period-2-narrative-and-three-year-2-windows)
 

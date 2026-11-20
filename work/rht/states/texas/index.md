@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-16 dated briefs
+17 dated briefs
 
 ## Questions & answers
 
@@ -88,9 +88,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 16 dated briefs
+## Activity log · 17 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-19[Texas resets its three Year 2 windows to “Applications Open: TBD,” while the Initiative 3 sheet still prints November 20](https://www.ruralhealthtransformation.life/p/missouri-opens-the-digital-backbone#%C2%A7texas-resets-its-three-year-2-windows-to-applications-open-tbd-while-the-initiative-3-sheet-still-prints-november-20)
 
 2026-11-18[Texas deep dive: review of the November 12 award list, the Budget Period 2 narrative and three Year 2 windows](https://www.ruralhealthtransformation.life/p/texas-deep-dive-review-of-the-november#%C2%A7texas-deep-dive-review-of-the-november-12-award-list-the-budget-period-2-narrative-and-three-year-2-windows)
 
