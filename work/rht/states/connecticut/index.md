@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-2 dated briefs
+3 dated briefs
 
 ## What Connecticut committed to measure
 
@@ -102,9 +102,11 @@ Track opportunities on the [DSS RHTP hub](https://portal.ct.gov/dss/rural-health
 
 [Connecticut DSS Rural Health Transformation Program →](https://portal.ct.gov/dss/rural-health-transformation-program)
 
-## Activity log · 2 dated briefs
+## Activity log · 3 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-18[Connecticut names UConn’s evaluation team, alongside $46 million to four rural hospitals and a $3.98 million Mathematica contract](https://www.ruralhealthtransformation.life/p/texas-deep-dive-review-of-the-november#%C2%A7connecticut-names-uconn-s-evaluation-team-alongside-46-million-to-four-rural-hospitals-and-a-3-98-million-mathematica-contract)
 
 2026-05-26[Connecticut: Health Care Coordination and Remote Patient Monitoring Using Artificial Intelligence](https://www.ruralhealthtransformation.life/p/big-movements-in-idaho-alaska-new#%C2%A7connecticut-health-care-coordination-and-remote-patient-monitoring-using-artificial-intelligence)
 
@@ -119,7 +121,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Connecticut .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-19. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Connecticut .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-20. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/connecticut/
