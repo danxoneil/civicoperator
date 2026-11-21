@@ -57,3 +57,11 @@ state-spending-monitor/newsletter-metadata.json
 # RHT product data — never publish (RHTP Alerts feed + paywalled newsletter content)
 state-spending-monitor/state_pages/procurements.json
 state-spending-monitor/state_pages/dispatch_sources.json
+
+# GEO monitor — local DIY tooling; keep off the public GitHub Pages site
+/geo-monitor/
+
+# Paid-tier RHTP measure detail split out of state_pages/kpis.json on 2026-09-22.
+# Canonical copy lives in the private civicoperator-geo repo (rhtp-kpis/).
+# Never commit it here -- this repo is public.
+state-spending-monitor/state_pages/kpis_detail.json
