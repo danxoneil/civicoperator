@@ -1,357 +1,357 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "source": "USASpending.gov",
   "program": "93.798 — Rural Health Transformation Program",
   "note": "obligated = federal funds committed to the state's cooperative agreement; outlaid = federal funds actually disbursed to date. Pulled weekly from USASpending.gov.",
   "states": {
     "Alabama": {
       "fain": "RHTCMS332060",
-      "obligated": 303404326.54,
+      "obligated": 402683127.94,
       "outlaid": 218657.9,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332060_075/"
     },
     "Alaska": {
       "fain": "RHTCMS332062",
-      "obligated": 372174855.72,
+      "obligated": 544828005.07,
       "outlaid": 6220629.09,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332062_075/"
     },
     "Arizona": {
       "fain": "RHTCMS332059",
-      "obligated": 266988955.92,
+      "obligated": 332003429.44,
       "outlaid": 1840852.93,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332059_075/"
     },
     "Arkansas": {
       "fain": "RHTCMS332061",
-      "obligated": 308779396.02,
+      "obligated": 416568306.28,
       "outlaid": 0.0,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332061_075/"
     },
     "California": {
       "fain": "RHTCMS332078",
-      "obligated": 333639308.47,
+      "obligated": 464745131.25,
       "outlaid": 21823134.89,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332078_075/"
     },
     "Colorado": {
       "fain": "RHTCMS332081",
-      "obligated": 300105604.17,
+      "obligated": 397270537.28,
       "outlaid": 1218386.16,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332081_075/"
     },
     "Connecticut": {
       "fain": "RHTCMS332073",
-      "obligated": 254249105.53,
+      "obligated": 307901183.16,
       "outlaid": 7750978.26,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332073_075/"
     },
     "Delaware": {
       "fain": "RHTCMS332053",
-      "obligated": 257394963.86,
+      "obligated": 317689484.86,
       "outlaid": 34349768.6,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332053_075/"
     },
     "Florida": {
       "fain": "RHTCMS332067",
-      "obligated": 309938194.5,
+      "obligated": 413766265.03,
       "outlaid": 560350.82,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332067_075/"
     },
     "Georgia": {
       "fain": "RHTCMS332046",
-      "obligated": 318862169.63,
+      "obligated": 440593935.39,
       "outlaid": 1829282.46,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332046_075/"
     },
     "Hawaii": {
       "fain": "RHTCMS332064",
-      "obligated": 288892439.75,
+      "obligated": 378508162.37,
       "outlaid": 3372345.47,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332064_075/"
     },
     "Idaho": {
       "fain": "RHTCMS332084",
-      "obligated": 285974367.81,
+      "obligated": 368672744.74,
       "outlaid": 242916.11,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332084_075/"
     },
     "Illinois": {
       "fain": "RHTCMS332055",
-      "obligated": 293418216.21,
+      "obligated": 383876670.24,
       "outlaid": 475980.0,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332055_075/"
     },
     "Indiana": {
       "fain": "RHTCMS332070",
-      "obligated": 306927896.8,
+      "obligated": 415836487.99,
       "outlaid": 4545462.66,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332070_075/"
     },
     "Iowa": {
       "fain": "RHTCMS332065",
-      "obligated": 309040063.71,
+      "obligated": 425047721.03,
       "outlaid": 21493562.32,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332065_075/"
     },
     "Kansas": {
       "fain": "RHTCMS332072",
-      "obligated": 321898007.82,
+      "obligated": 447794124.45,
       "outlaid": 14649453.82,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332072_075/"
     },
     "Kentucky": {
       "fain": "RHTCMS332079",
-      "obligated": 312905590.56,
+      "obligated": 424236189.38,
       "outlaid": 9437455.14,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332079_075/"
     },
     "Louisiana": {
       "fain": "RHTCMS332085",
-      "obligated": 308374447.57,
+      "obligated": 420232826.06,
       "outlaid": 581677.14,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332085_075/"
     },
     "Maine": {
       "fain": "RHTCMS332075",
-      "obligated": 290008051.09,
+      "obligated": 380367044.2,
       "outlaid": 3193004.14,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332075_075/"
     },
     "Maryland": {
       "fain": "RHTCMS332066",
-      "obligated": 268180837.61,
+      "obligated": 336590949.16,
       "outlaid": 213414.45,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332066_075/"
     },
     "Massachusetts": {
       "fain": "RHTCMS332069",
-      "obligated": 262005238.13,
+      "obligated": 320397929.65,
       "outlaid": 202709.72,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332069_075/"
     },
     "Michigan": {
       "fain": "RHTCMS332041",
-      "obligated": 273128201.02,
+      "obligated": 343741470.6,
       "outlaid": 776075.58,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332041_075/"
     },
     "Minnesota": {
       "fain": "RHTCMS332077",
-      "obligated": 293090618.14,
+      "obligated": 383924188.85,
       "outlaid": 2385687.44,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332077_075/"
     },
     "Mississippi": {
       "fain": "RHTCMS332063",
-      "obligated": 305907220.16,
+      "obligated": 410584410.13,
       "outlaid": 1576909.9,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332063_075/"
     },
     "Missouri": {
       "fain": "RHTCMS332090",
-      "obligated": 316276817.66,
+      "obligated": 434823907.98,
       "outlaid": 16401630.2,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332090_075/"
     },
     "Montana": {
       "fain": "RHTCMS332058",
-      "obligated": 333509358.76,
+      "obligated": 473250028.01,
       "outlaid": 8274451.92,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332058_075/"
     },
     "Nebraska": {
       "fain": "RHTCMS332086",
-      "obligated": 318529075.01,
+      "obligated": 437776850.43,
       "outlaid": 10133777.25,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332086_075/"
     },
     "Nevada": {
       "fain": "RHTCMS332074",
-      "obligated": 279931608.42,
+      "obligated": 362335330.68,
       "outlaid": 2327435.38,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332074_075/"
     },
     "New Hampshire": {
       "fain": "RHTCMS332050",
-      "obligated": 304016550.2,
+      "obligated": 408329101.6,
       "outlaid": 1262619.72,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332050_075/"
     },
     "New Jersey": {
       "fain": "RHTCMS332089",
-      "obligated": 247250805.85,
+      "obligated": 289589030.28,
       "outlaid": 14641747.52,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332089_075/"
     },
     "New Mexico": {
       "fain": "RHTCMS332083",
-      "obligated": 311484740.89,
+      "obligated": 422529376.25,
       "outlaid": 474117.06,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332083_075/"
     },
     "New York": {
       "fain": "RHTCMS332049",
-      "obligated": 312058207.8,
+      "obligated": 419808278.74,
       "outlaid": 0.0,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332049_075/"
     },
     "North Carolina": {
       "fain": "RHTCMS332042",
-      "obligated": 313008356.47,
+      "obligated": 429832929.77,
       "outlaid": 2644761.92,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332042_075/"
     },
     "North Dakota": {
       "fain": "RHTCMS332043",
-      "obligated": 298936969.55,
+      "obligated": 405316596.31,
       "outlaid": 1441631.0,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332043_075/"
     },
     "Ohio": {
       "fain": "RHTCMS332087",
-      "obligated": 302030262.02,
+      "obligated": 403956731.64,
       "outlaid": 969176.96,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332087_075/"
     },
     "Oklahoma": {
       "fain": "RHTCMS332048",
-      "obligated": 323476948.62,
+      "obligated": 450574491.21,
       "outlaid": 9166286.65,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332048_075/"
     },
     "Oregon": {
       "fain": "RHTCMS332071",
-      "obligated": 297271577.67,
+      "obligated": 394526097.43,
       "outlaid": 88712761.66,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332071_075/"
     },
     "Pennsylvania": {
       "fain": "RHTCMS332052",
-      "obligated": 293294053.98,
+      "obligated": 384024545.99,
       "outlaid": 58555.69,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332052_075/"
     },
     "Rhode Island": {
       "fain": "RHTCMS332045",
-      "obligated": 256169931.19,
+      "obligated": 314341898.54,
       "outlaid": 2824079.89,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332045_075/"
     },
     "South Carolina": {
       "fain": "RHTCMS332056",
-      "obligated": 300030252.32,
+      "obligated": 396016285.44,
       "outlaid": 500523.25,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332056_075/"
     },
     "South Dakota": {
       "fain": "RHTCMS332080",
-      "obligated": 289477607.26,
+      "obligated": 377131053.07,
       "outlaid": 742988.49,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332080_075/"
     },
     "Tennessee": {
       "fain": "RHTCMS332057",
-      "obligated": 306888882.11,
+      "obligated": 417233406.0,
       "outlaid": 9428995.68,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332057_075/"
     },
     "Texas": {
       "fain": "RHTCMS332068",
-      "obligated": 381319360.67,
+      "obligated": 563295386.36,
       "outlaid": 22780499.31,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332068_075/"
     },
     "Utah": {
       "fain": "RHTCMS332051",
-      "obligated": 295743566.29,
+      "obligated": 387666618.65,
       "outlaid": 971678.51,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332051_075/"
     },
     "Vermont": {
       "fain": "RHTCMS332047",
-      "obligated": 295053740.44,
+      "obligated": 385049776.51,
       "outlaid": 222465.17,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332047_075/"
     },
     "Virginia": {
       "fain": "RHTCMS332088",
-      "obligated": 289544888.14,
+      "obligated": 385255005.93,
       "outlaid": 2199438.97,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332088_075/"
     },
     "Washington": {
       "fain": "RHTCMS332044",
-      "obligated": 281257515.06,
+      "obligated": 358317727.1,
       "outlaid": 2510481.03,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332044_075/"
     },
     "West Virginia": {
       "fain": "RHTCMS332054",
-      "obligated": 299476098.72,
+      "obligated": 401557453.35,
       "outlaid": 7809519.39,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332054_075/"
     },
     "Wisconsin": {
       "fain": "RHTCMS332076",
-      "obligated": 303670005.21,
+      "obligated": 407365094.25,
       "outlaid": 1570635.25,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332076_075/"
     },
     "Wyoming": {
       "fain": "RHTCMS332082",
-      "obligated": 305004742.95,
+      "obligated": 412236673.93,
       "outlaid": 90452.76,
-      "award_last_modified": "2026-11-06",
+      "award_last_modified": "2026-11-20",
       "usaspending_url": "https://www.usaspending.gov/award/ASST_NON_RHTCMS332082_075/"
     }
   }

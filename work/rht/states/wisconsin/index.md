@@ -56,7 +56,7 @@ Federal award data
 
 Tracker dispatches
 
-9 dated briefs
+10 dated briefs
 
 ## What Wisconsin committed to measure
 
@@ -109,9 +109,11 @@ Track opportunities on the [DHS grant funding opportunities page](https://www.dh
 
 [Wisconsin DHS Rural Health Transformation Program →](https://www.dhs.wisconsin.gov/business/rhtp.htm)
 
-## Activity log · 9 dated briefs
+## Activity log · 10 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-20[Wisconsin names Epic for its $29 million Rural Health Care Collaborative: Statewide EHR and posts Year 1 award tables for 70 technology and dental grantees](https://www.ruralhealthtransformation.life/p/wisconsin-names-epic-for-its-29-million#%C2%A7wisconsin-names-epic-for-its-29-million-rural-health-care-collaborative-statewide-ehr-and-posts-year-1-award-tables-for-70-technology-and-dental-grantees)
 
 2026-08-24[Wisconsin closes its last two RHTP grants and its current grant funding opportunities list is now empty](https://www.ruralhealthtransformation.life/p/idaho-posts-sud-prevention-and-behavioral#%C2%A7wisconsin-closes-its-last-two-rhtp-grants-and-its-current-grant-funding-opportunities-list-is-now-empty)
 
@@ -140,7 +142,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wisconsin .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-20. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Wisconsin .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-21. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/wisconsin/
