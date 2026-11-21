@@ -55,7 +55,7 @@ $218.9M · 14 dispatches · Uses its own rural definition](/work/rht/states/geor
 
 $188.9M · 4 dispatches · Federal HRSA rural default](/work/rht/states/hawaii/)[Idaho
 
-$186.0M · 35 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
+$186.0M · 36 dispatches · Uses its own rural definition](/work/rht/states/idaho/)[Illinois
 
 $193.4M · 3 dispatches · Defined rural county list](/work/rht/states/illinois/)[Indiana
 
@@ -83,7 +83,7 @@ $205.9M · 27 dispatches · Federal HRSA rural default](/work/rht/states/mississ
 
 $216.3M · 24 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
-$233.5M · 28 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
+$233.5M · 29 dispatches · Defined rural county list](/work/rht/states/montana/)[Nebraska
 
 $218.5M · 17 dispatches · Uses its own rural definition](/work/rht/states/nebraska/)[Nevada
 
@@ -127,13 +127,13 @@ $189.5M · 18 dispatches · Defined rural county list](/work/rht/states/virginia
 
 $181.3M · 26 dispatches · Federal HRSA rural default](/work/rht/states/washington/)[West Virginia
 
-$199.5M · 42 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
+$199.5M · 44 dispatches · Federal HRSA rural default](/work/rht/states/west-virginia/)[Wisconsin
 
-$203.7M · 9 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
+$203.7M · 10 dispatches · Uses its own rural definition](/work/rht/states/wisconsin/)[Wyoming
 
 $205.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-20. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-21. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
