@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-46 dated briefs
+47 dated briefs
 
 ## What North Dakota committed to measure
 
@@ -105,9 +105,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Vendors can email product information to [rhtp@nd.gov](mailto:rhtp@nd.gov) to be added to the state's interested-vendor list. Track opportunities on the [ND RHTP hub](https://www.hhs.nd.gov/rural-health-transformation) and the [funding opportunities page](https://www.hhs.nd.gov/rural-health-transformation/funding).
 
-## Activity log · 46 dated briefs
+## Activity log · 47 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-23[North Dakota marks 11 Year 1 funding opportunities Awarded and revises the applicant counts on seven of them](https://www.ruralhealthtransformation.life/p/montanas-revised-notice-of-intent#%C2%A7north-dakota-marks-11-year-1-funding-opportunities-awarded-and-revises-the-applicant-counts-on-seven-of-them)
 
 2026-11-18[North Dakota says its Year 1 awardee list comes by early January, and a Grand Forks grant agreement is already public](https://www.ruralhealthtransformation.life/p/texas-deep-dive-review-of-the-november#%C2%A7north-dakota-says-its-year-1-awardee-list-comes-by-early-january-and-a-grand-forks-grant-agreement-is-already-public)
 
@@ -210,7 +212,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-23. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, North Dakota .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-24. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/north-dakota/
