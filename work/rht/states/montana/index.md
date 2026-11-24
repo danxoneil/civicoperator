@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-29 dated briefs
+31 dated briefs
 
 ## What Montana committed to measure
 
@@ -100,9 +100,13 @@ Montana has built explicit on-ramps for firms: a Vendor Information page, a vend
 
 [Montana RHTP funding portal →](https://ruralhealth.mt.gov)
 
-## Activity log · 29 dated briefs
+## Activity log · 31 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-23[Montana‘s revised Notice of Intent to Award gives the Center of Excellence Strategy and Analytics contract to Deloitte, the low bidder, after disqualifying Indelible](https://www.ruralhealthtransformation.life/p/montanas-revised-notice-of-intent#%C2%A7montana-s-revised-notice-of-intent-to-award-gives-the-center-of-excellence-strategy-and-analytics-contract-to-deloitte-the-low-bidder-after-disqualifying-indelible)
+
+2026-11-23[Montana‘s Notice of Intent to Award for RHTP-Montana Community Health Aide Program (CHAP) Technical Assistance goes to CKF Consulting at $5.5 million](https://www.ruralhealthtransformation.life/p/montanas-revised-notice-of-intent#%C2%A7montana-s-notice-of-intent-to-award-for-rhtp-montana-community-health-aide-program-chap-technical-assistance-goes-to-ckf-consulting-at-5-5-million)
 
 2026-11-20[Montana names Deloitte Consulting LLP as its Center of Excellence Strategy and Analytics vendor](https://www.ruralhealthtransformation.life/p/wisconsin-names-epic-for-its-29-million#%C2%A7montana-names-deloitte-consulting-llp-as-its-center-of-excellence-strategy-and-analytics-vendor)
 
@@ -171,7 +175,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-23. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Montana .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-24. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/montana/

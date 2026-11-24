@@ -54,7 +54,7 @@ Federal award data
 
 Tracker dispatches
 
-14 dated briefs
+15 dated briefs
 
 ## What Alabama committed to measure
 
@@ -108,9 +108,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** are awarded compet
 
 [ARHTP hub →](https://alabamarhtp.com/) [ADECA Funding Opportunities →](https://adeca.alabama.gov/about/funding-opportunities/)
 
-## Activity log · 14 dated briefs
+## Activity log · 15 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-23[Alabama posts its ARHTP Procurement Standards Subrecipient Training and opens a Procurement Support Portal for grantee purchases](https://www.ruralhealthtransformation.life/p/montanas-revised-notice-of-intent#%C2%A7alabama-posts-its-arhtp-procurement-standards-subrecipient-training-and-opens-a-procurement-support-portal-for-grantee-purchases)
 
 2026-10-02[Alabama awards 34 ARHTP Round 2 grants, $54,793,527, closing out Year 1](https://www.ruralhealthtransformation.life/p/oklahoma-posts-its-year-1-chronic#%C2%A7alabama-awards-34-arhtp-round-2-grants-54-793-527-closing-out-year-1)
 
@@ -149,7 +151,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alabama .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-23. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Alabama .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-24. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/alabama/
