@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-17 dated briefs
+18 dated briefs
 
 ## Questions & answers
 
@@ -92,9 +92,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** would go out compe
 
 [PA RHTP hub →](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan) [Subscribe for updates →](https://maestro.pa.gov/list/subscribe.html?mContainer=870&mOwner=G1j1d&mListId=HL%231142)
 
-## Activity log · 17 dated briefs
+## Activity log · 18 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-24[Pennsylvania puts $30.2 million into the IUP College of Osteopathic Medicine for full tuition and a $45,000 stipend in exchange for five years of rural practice](https://www.ruralhealthtransformation.life/p/virginias-dars-opens-the-rhtp-medicare#%C2%A7pennsylvania-puts-30-2-million-into-the-iup-college-of-osteopathic-medicine-for-full-tuition-and-a-45-000-stipend-in-exchange-for-five-years-of-rural-practice)
 
 2026-09-30[Pennsylvania posts its first RHTP recipient list](https://www.ruralhealthtransformation.life/p/new-york-publishes-its-rural-community#%C2%A7pennsylvania-posts-its-first-rhtp-recipient-list)
 
@@ -139,7 +141,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Pennsylvania .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-24. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Pennsylvania .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-25. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/pennsylvania/
