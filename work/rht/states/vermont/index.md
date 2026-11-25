@@ -46,7 +46,7 @@ Federal award data
 
 Tracker dispatches
 
-25 dated briefs
+26 dated briefs
 
 ## What Vermont committed to measure
 
@@ -94,9 +94,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 [Vermont RHT hub →](https://healthcarereform.vermont.gov/hr1rural-health-transformation-fund) [Join the RHT list →](https://list.vermont.gov/mailman/listinfo/vt.rht)
 
-## Activity log · 25 dated briefs
+## Activity log · 26 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-24[Vermont gets $190 million for Year 2, and Year 1 applicants still waiting will be funded out of it](https://www.ruralhealthtransformation.life/p/virginias-dars-opens-the-rhtp-medicare#%C2%A7vermont-gets-190-million-for-year-2-and-year-1-applicants-still-waiting-will-be-funded-out-of-it)
 
 2026-09-24[Vermont‘s RHT Year 1 Awards and Contracts list adds 26 agreements and $22,365,970.68 in a week, and Rutland Regional’s primary care agreement comes off it](https://www.ruralhealthtransformation.life/p/virginia-publishes-the-earn-to-learn#%C2%A7vermont-s-rht-year-1-awards-and-contracts-list-adds-26-agreements-and-22-365-970-68-in-a-week-and-rutland-regional-s-primary-care-agreement-comes-off-it)
 
@@ -157,7 +159,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Vermont .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-24. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Vermont .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-25. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/vermont/
