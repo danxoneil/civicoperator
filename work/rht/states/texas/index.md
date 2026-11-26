@@ -50,7 +50,7 @@ Federal award data
 
 Tracker dispatches
 
-18 dated briefs
+19 dated briefs
 
 ## Questions & answers
 
@@ -88,9 +88,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Register for an IAMOnline account and GMS access ahead of postings, watch the [ESBD funding portal](https://www.txsmartbuy.gov/esbd?page=1&keyword=rural%20health%20transformation) and the [Rural Texas Strong hub](https://pfd.hhs.texas.gov/rural-health-transformation-program), subscribe to [HHSC updates](https://public.govdelivery.com/accounts/TXHHSC/subscriber/new?topic_id=TXHHSC_1016), and direct questions to [RuralTexasStrong@hhs.texas.gov](mailto:RuralTexasStrong@hhs.texas.gov).
 
-## Activity log · 18 dated briefs
+## Activity log · 19 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-25[Texas opens CFO RTS Initiative 2: Rural Texas Patients in the Driver’s Seat, RFA No. HHS0017518, due January 8, and pushes Initiatives 3 and 5 into December](https://www.ruralhealthtransformation.life/p/texas-opens-cfo-rts-initiative-2#%C2%A7texas-opens-cfo-rts-initiative-2-rural-texas-patients-in-the-driver-s-seat-rfa-no-hhs0017518-due-january-8-and-pushes-initiatives-3-and-5-into-december)
 
 2026-11-24[Texas sets a 60 percent rural membership floor for Lone Star Advanced AI and Telehealth, RFA HHS0017519, and the dates are not out yet](https://www.ruralhealthtransformation.life/p/virginias-dars-opens-the-rhtp-medicare#%C2%A7texas-sets-a-60-percent-rural-membership-floor-for-lone-star-advanced-ai-and-telehealth-rfa-hhs0017519-and-the-dates-are-not-out-yet)
 
@@ -137,7 +139,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Texas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-25. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Texas .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-26. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/texas/

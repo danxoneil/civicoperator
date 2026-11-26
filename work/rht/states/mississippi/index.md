@@ -52,7 +52,7 @@ Federal award data
 
 Tracker dispatches
 
-28 dated briefs
+29 dated briefs
 
 ## Questions & answers
 
@@ -96,9 +96,11 @@ Eligibility runs on two tracks. **Direct-to-state contracts** go out as competit
 
 Track opportunities on the [MS RHTP Funding Opportunities](https://mississippirhtp.com/funding/) page and the [program hub](https://mississippirhtp.com).
 
-## Activity log · 28 dated briefs
+## Activity log · 29 dated briefs
 
 Chronology of official activity compiled from automated monitoring of state sources, with personal review and verification. Links to primary documents and related [Tracker analysis](https://www.ruralhealthtransformation.life/).
+
+2026-11-25[Mississippi sets a Year 2 Technical Assistance Webinar for December 3 at 10 a.m. CT](https://www.ruralhealthtransformation.life/p/texas-opens-cfo-rts-initiative-2#%C2%A7mississippi-sets-a-year-2-technical-assistance-webinar-for-december-3-at-10-a-m-ct)
 
 2026-11-24[Mississippi‘s Division of Medicaid seeks Closed-Loop Referral System (CLRS) proposals, Project #25-0067, and the RFP goes only to vendors with a Strategic Communications agreement](https://www.ruralhealthtransformation.life/p/virginias-dars-opens-the-rhtp-medicare#%C2%A7mississippi-s-division-of-medicaid-seeks-closed-loop-referral-system-clrs-proposals-project-25-0067-and-the-rfp-goes-only-to-vendors-with-a-strategic-communications-agreement)
 
@@ -165,7 +167,7 @@ Chronology of official activity compiled from automated monitoring of state sour
 [Methodology & sources →](/work/rht/states/methodology)
 [Newsletter analysis →](https://www.ruralhealthtransformation.life/)
 
-Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Mississippi .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-25. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
+Independent reference profile compiled and maintained by **Civic Operator LLC** from primary sources (CMS, Mississippi .gov program and procurement pages, the Governor's newsroom) and the Rural Health Transformation Grant Tracker. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly from the latest reporting and changes reviewed before publication. Last reviewed 2026-11-26. · [Methodology & sources](/work/rht/states/methodology) · [All states](/work/rht/states)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/mississippi/

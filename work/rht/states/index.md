@@ -41,7 +41,7 @@ $167.0M · 10 dispatches · Uses its own rural definition](/work/rht/states/ariz
 
 $208.8M · 9 dispatches · Federal HRSA rural default](/work/rht/states/arkansas/)[California
 
-$233.6M · 27 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
+$233.6M · 28 dispatches · Uses its own rural definition](/work/rht/states/california/)[Colorado
 
 $200.1M · 41 dispatches · Uses its own rural definition](/work/rht/states/colorado/)[Connecticut
 
@@ -63,7 +63,7 @@ $206.9M · 12 dispatches · Uses its own rural definition](/work/rht/states/indi
 
 $209.0M · 19 dispatches · Federal HRSA rural default](/work/rht/states/iowa/)[Kansas
 
-$221.9M · 38 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
+$221.9M · 39 dispatches · Federal HRSA rural default](/work/rht/states/kansas/)[Kentucky
 
 $212.9M · 15 dispatches · Defined rural county list](/work/rht/states/kentucky/)[Louisiana
 
@@ -79,7 +79,7 @@ $173.1M · 18 dispatches · Federal HRSA rural default](/work/rht/states/michiga
 
 $193.1M · 7 dispatches · Federal HRSA rural default](/work/rht/states/minnesota/)[Mississippi
 
-$205.9M · 28 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
+$205.9M · 29 dispatches · Federal HRSA rural default](/work/rht/states/mississippi/)[Missouri
 
 $216.3M · 24 dispatches · Uses its own rural definition](/work/rht/states/missouri/)[Montana
 
@@ -117,7 +117,7 @@ $189.5M · 17 dispatches · Federal HRSA rural default](/work/rht/states/south-d
 
 $206.9M · 24 dispatches · Federal HRSA rural default](/work/rht/states/tennessee/)[Texas
 
-$281.3M · 18 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
+$281.3M · 19 dispatches · Defined rural county list](/work/rht/states/texas/)[Utah
 
 $195.7M · 39 dispatches · Uses its own rural definition](/work/rht/states/utah/)[Vermont
 
@@ -133,7 +133,7 @@ $203.7M · 11 dispatches · Uses its own rural definition](/work/rht/states/wisc
 
 $205.0M · 8 dispatches · Federal HRSA rural default](/work/rht/states/wyoming/)
 
-Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-25. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
+Maintained by **Civic Operator LLC**. Official-source data and dispatch links refresh nightly; profiles are regenerated weekly and reviewed before publication. Last reviewed 2026-11-26. · [Methodology & sources](/work/rht/states/methodology) · [Quarterly reports](/work/rht/quarterly/)
 
 ---
 Source: https://www.civicoperator.com/work/rht/states/
