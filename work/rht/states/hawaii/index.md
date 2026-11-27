@@ -2,9 +2,9 @@
 
 Hawaii's **$188.9M** Rural Health Transformation Program award — the administering agency, the state's stated focus areas, and where to watch for procurements for vendors, providers, and consultants tracking the program.
 
-[Hawaii’s official RHTP hub →](https://engage.hawaii.gov/rhtp/)
+[Hawaii’s official RHTP hub →](https://rhtp.hawaii.gov/home)
 
-Hawaii’s official Rural Health Transformation Program page — [engage.hawaii.gov](https://engage.hawaii.gov/rhtp/), captured 2026-02-22.
+Hawaii’s official Rural Health Transformation Program page — [rhtp.hawaii.gov](https://rhtp.hawaii.gov/home), captured 2026-02-22.
 
 ## At a glance
 
@@ -18,7 +18,7 @@ Hawaiʻi’s Rural Health Transformation Plan
 
 Official RHTP hub
 
-[Hawaii program page](https://engage.hawaii.gov/rhtp/)
+[Hawaii program page](https://rhtp.hawaii.gov/home)
 
 Program contact
 

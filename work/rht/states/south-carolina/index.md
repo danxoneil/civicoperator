@@ -2,9 +2,9 @@
 
 South Carolina's **$200.03M** first-year Rural Health Transformation award — the five-initiative plan, the SCDHHS team and its partners, the four concurrent RFPs, the Tech Catalyst Fund, with a dated log of official activity.
 
-[South Carolina’s official RHTP hub →](https://scorh.net/rural-health-transformation-fund/)
+[South Carolina’s official RHTP hub →](https://www.scdhhs.gov/rural-health-transformation-program-rhtp)
 
-South Carolina’s official Rural Health Transformation Program page — [scorh.net](https://scorh.net/rural-health-transformation-fund/), captured 2026-06-27.
+South Carolina’s official Rural Health Transformation Program page — [scdhhs.gov](https://www.scdhhs.gov/rural-health-transformation-program-rhtp), captured 2026-06-27.
 
 ## At a glance
 
@@ -18,7 +18,7 @@ South Carolina Rural Health Transformation
 
 Official RHTP hub
 
-[South Carolina program page](https://scorh.net/rural-health-transformation-fund/)
+[South Carolina program page](https://www.scdhhs.gov/rural-health-transformation-program-rhtp)
 
 Program contact
 

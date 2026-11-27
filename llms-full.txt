@@ -1451,7 +1451,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 | [Delaware](/work/rht/states/delaware/) | Executive Office of the Governor of Delaware | [Official hub](https://dhss.delaware.gov/dph/rural-health-transformation-program/) |
 | [Florida](/work/rht/states/florida/) | Florida Agency for Health Care Administration | [Official hub](https://ahca.myflorida.com/rural-health-transformation-program.html) |
 | [Georgia](/work/rht/states/georgia/) | Georgia Department of Community Health | [Official hub](https://greathealth.georgia.gov/) |
-| [Hawaii](/work/rht/states/hawaii/) | Executive Office of the State of Hawaii | [Official hub](https://engage.hawaii.gov/rhtp/) |
+| [Hawaii](/work/rht/states/hawaii/) | Executive Office of the State of Hawaii | [Official hub](https://rhtp.hawaii.gov/home) |
 | [Idaho](/work/rht/states/idaho/) | Idaho Department of Health & Welfare | [Official hub](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant) |
 | [Illinois](/work/rht/states/illinois/) | Illinois Department of Healthcare & Family Services | [Official hub](https://hfs.illinois.gov/info/fedresctr/ruralhealthtp.html) |
 | [Indiana](/work/rht/states/indiana/) | Indiana Family and Social Serv | [Official hub](https://www.in.gov/grow-rural-health/) |
@@ -1469,18 +1469,18 @@ The designated lead agency running RHTP in each state (federal award recipient o
 | [Montana](/work/rht/states/montana/) | State of Montana Department of Health and Human Services | [Official hub](https://dphhs.mt.gov/RuralHealthTransformationProgram/) |
 | [Nebraska](/work/rht/states/nebraska/) | Nebraska Department of Health & Human Services | [Official hub](https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx) |
 | [Nevada](/work/rht/states/nevada/) | Nevada Health Authority | [Official hub](https://www.nvha.nv.gov/RHTP/) |
-| [New Hampshire](/work/rht/states/new-hampshire/) | New Hampshire Department of Health & Human Services | [Official hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program) |
+| [New Hampshire](/work/rht/states/new-hampshire/) | New Hampshire Department of Health & Human Services | [Official hub](https://www.gonorth.nh.gov/cms) |
 | [New Jersey](/work/rht/states/new-jersey/) | New Jersey Department of Human Services | [Official hub](https://www.nj.gov/rural-health-transformation/) |
-| [New Mexico](/work/rht/states/new-mexico/) | Department of Human Services New Mexico | [Official hub](https://www.hca.nm.gov/rural-health-transformation-program/) |
+| [New Mexico](/work/rht/states/new-mexico/) | Department of Human Services New Mexico | [Official hub](https://www.hca.nm.gov/about-us/news-updates) |
 | [New York](/work/rht/states/new-york/) | NYS Department of Health | [Official hub](https://health.ny.gov/facilities/transforming_rural_healthcare/) |
 | [North Carolina](/work/rht/states/north-carolina/) | North Carolina Department of Health & Human Services | [Official hub](https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program) |
 | [North Dakota](/work/rht/states/north-dakota/) | North Dakota Department of Human Services | [Official hub](https://www.hhs.nd.gov/rural-health-transformation) |
 | [Ohio](/work/rht/states/ohio/) | Ohio Department of Health | [Official hub](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program) |
 | [Oklahoma](/work/rht/states/oklahoma/) | Oklahoma State Department of Health | [Official hub](https://oklahoma.gov/health/rhtp.html) |
 | [Oregon](/work/rht/states/oregon/) | Oregon Health Authority | [Official hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx) |
-| [Pennsylvania](/work/rht/states/pennsylvania/) | PA Department of Human Services | [Official hub](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan) |
+| [Pennsylvania](/work/rht/states/pennsylvania/) | PA Department of Human Services | [Official hub](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health) |
 | [Rhode Island](/work/rht/states/rhode-island/) | Rhode Island Executive Office of Health & Human Services | [Official hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-program) |
-| [South Carolina](/work/rht/states/south-carolina/) | Department of Health Human Services | [Official hub](https://scorh.net/rural-health-transformation-fund/) |
+| [South Carolina](/work/rht/states/south-carolina/) | Department of Health Human Services | [Official hub](https://www.scdhhs.gov/rural-health-transformation-program-rhtp) |
 | [South Dakota](/work/rht/states/south-dakota/) | South Dakota Department of Health | [Official hub](https://doh.sd.gov/healthcare-professionals/rural-health/rural-health-transformation-project/) |
 | [Tennessee](/work/rht/states/tennessee/) | Tennessee Department of Health | [Official hub](https://www.tn.gov/health/rural) |
 | [Texas](/work/rht/states/texas/) | Health & Human Svc Commn TX | [Official hub](https://pfd.hhs.texas.gov/rural-health-transformation-program) |
@@ -3139,9 +3139,9 @@ Source: https://www.civicoperator.com/work/rht/states/hawaii/
 
 Hawaii's **$188.9M** Rural Health Transformation Program award — the administering agency, the state's stated focus areas, and where to watch for procurements for vendors, providers, and consultants tracking the program.
 
-[Hawaii’s official RHTP hub →](https://engage.hawaii.gov/rhtp/)
+[Hawaii’s official RHTP hub →](https://rhtp.hawaii.gov/home)
 
-Hawaii’s official Rural Health Transformation Program page — [engage.hawaii.gov](https://engage.hawaii.gov/rhtp/), captured 2026-02-22.
+Hawaii’s official Rural Health Transformation Program page — [rhtp.hawaii.gov](https://rhtp.hawaii.gov/home), captured 2026-02-22.
 
 ## At a glance
 
@@ -3155,7 +3155,7 @@ Hawaiʻi’s Rural Health Transformation Plan
 
 Official RHTP hub
 
-[Hawaii program page](https://engage.hawaii.gov/rhtp/)
+[Hawaii program page](https://rhtp.hawaii.gov/home)
 
 Program contact
 
@@ -6160,9 +6160,9 @@ Source: https://www.civicoperator.com/work/rht/states/new-hampshire/
 
 **New Hampshire**'s roughly **$204 million** Rural Health Transformation Program award — the plan, the GO-NORTH office that runs it, the hub-organization contracts, the competitive evaluation award, with a dated log of official activity.
 
-[New Hampshire’s official RHTP hub →](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program)
+[New Hampshire’s official RHTP hub →](https://www.gonorth.nh.gov/cms)
 
-New Hampshire’s official Rural Health Transformation Program page — [dhhs.nh.gov](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program), captured 2026-07-21.
+New Hampshire’s official Rural Health Transformation Program page — [gonorth.nh.gov](https://www.gonorth.nh.gov/cms), captured 2026-07-21.
 
 ## At a glance
 
@@ -6172,7 +6172,7 @@ $204,016,550 · CMS obligated
 
 Official RHTP hub
 
-[New Hampshire program page](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program)
+[New Hampshire program page](https://www.gonorth.nh.gov/cms)
 
 Program contact
 
@@ -6452,9 +6452,9 @@ Source: https://www.civicoperator.com/work/rht/states/new-mexico/
 
 **New Mexico**'s **$211,484,741** Rural Health Transformation Program award — the plan, the administering agency, the outsourced operating model, the live procurements, with a dated log of official activity.
 
-[New Mexico’s official RHTP hub →](https://www.hca.nm.gov/rural-health-transformation-program/)
+[New Mexico’s official RHTP hub →](https://www.hca.nm.gov/about-us/news-updates)
 
-New Mexico’s official Rural Health Transformation Program page — [hca.nm.gov](https://www.hca.nm.gov/rural-health-transformation-program/), captured 2026-07-29.
+New Mexico’s official Rural Health Transformation Program page — [hca.nm.gov](https://www.hca.nm.gov/about-us/news-updates), captured 2026-07-29.
 
 ## At a glance
 
@@ -6464,7 +6464,7 @@ $211,484,741 · CMS obligated
 
 Official RHTP hub
 
-[New Mexico program page](https://www.hca.nm.gov/rural-health-transformation-program/)
+[New Mexico program page](https://www.hca.nm.gov/about-us/news-updates)
 
 Program contact
 
@@ -6472,7 +6472,7 @@ Program contact
 
 Funding / RFP portal
 
-[Funding opportunities](https://www.hca.nm.gov/lookingforinformation/open-rfps/)
+[Funding opportunities](https://www.hca.nm.gov/hca-partners/contracts-procurements/rfp)
 
 Governor's newsroom
 
@@ -7796,9 +7796,9 @@ Source: https://www.civicoperator.com/work/rht/states/pennsylvania/
 
 Pennsylvania's **$193.3M** Rural Health Transformation Program award — the six-initiative plan, the administering agency, its first-come program payments, with a dated log of official activity for vendors, providers, and consultants tracking the program.
 
-[Pennsylvania’s official RHTP hub →](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan)
+[Pennsylvania’s official RHTP hub →](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health)
 
-Pennsylvania’s official Rural Health Transformation Program page — [pa.gov](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan), captured 2026-07-29.
+Pennsylvania’s official Rural Health Transformation Program page — [pa.gov](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health), captured 2026-07-29.
 
 Pennsylvania’s own state-published rural map — PREP Regions (Figure 2, p7) — regional collaboratives with HRSA rural tracts shaded. Source: [pa.gov](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/rural-health/2026-02-06-pennsylvania-rural-health-transformation-plan-february-2026.pdf). See [how every state defines rural](/work/rht/states/rural-definitions/#map-pennsylvania).
 
@@ -7810,7 +7810,7 @@ $193,294,054 · CMS obligated
 
 Official RHTP hub
 
-[Pennsylvania program page](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan)
+[Pennsylvania program page](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health)
 
 Program contact
 
@@ -8240,9 +8240,9 @@ Source: https://www.civicoperator.com/work/rht/states/south-carolina/
 
 South Carolina's **$200.03M** first-year Rural Health Transformation award — the five-initiative plan, the SCDHHS team and its partners, the four concurrent RFPs, the Tech Catalyst Fund, with a dated log of official activity.
 
-[South Carolina’s official RHTP hub →](https://scorh.net/rural-health-transformation-fund/)
+[South Carolina’s official RHTP hub →](https://www.scdhhs.gov/rural-health-transformation-program-rhtp)
 
-South Carolina’s official Rural Health Transformation Program page — [scorh.net](https://scorh.net/rural-health-transformation-fund/), captured 2026-06-27.
+South Carolina’s official Rural Health Transformation Program page — [scdhhs.gov](https://www.scdhhs.gov/rural-health-transformation-program-rhtp), captured 2026-06-27.
 
 ## At a glance
 
@@ -8256,7 +8256,7 @@ South Carolina Rural Health Transformation
 
 Official RHTP hub
 
-[South Carolina program page](https://scorh.net/rural-health-transformation-fund/)
+[South Carolina program page](https://www.scdhhs.gov/rural-health-transformation-program-rhtp)
 
 Program contact
 

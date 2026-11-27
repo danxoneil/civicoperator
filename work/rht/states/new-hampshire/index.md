@@ -2,9 +2,9 @@
 
 **New Hampshire**'s roughly **$204 million** Rural Health Transformation Program award — the plan, the GO-NORTH office that runs it, the hub-organization contracts, the competitive evaluation award, with a dated log of official activity.
 
-[New Hampshire’s official RHTP hub →](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program)
+[New Hampshire’s official RHTP hub →](https://www.gonorth.nh.gov/cms)
 
-New Hampshire’s official Rural Health Transformation Program page — [dhhs.nh.gov](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program), captured 2026-07-21.
+New Hampshire’s official Rural Health Transformation Program page — [gonorth.nh.gov](https://www.gonorth.nh.gov/cms), captured 2026-07-21.
 
 ## At a glance
 
@@ -14,7 +14,7 @@ $204,016,550 · CMS obligated
 
 Official RHTP hub
 
-[New Hampshire program page](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program)
+[New Hampshire program page](https://www.gonorth.nh.gov/cms)
 
 Program contact
 

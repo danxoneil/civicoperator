@@ -16,7 +16,7 @@ The designated lead agency running RHTP in each state (federal award recipient o
 | [Delaware](/work/rht/states/delaware/) | Executive Office of the Governor of Delaware | [Official hub](https://dhss.delaware.gov/dph/rural-health-transformation-program/) |
 | [Florida](/work/rht/states/florida/) | Florida Agency for Health Care Administration | [Official hub](https://ahca.myflorida.com/rural-health-transformation-program.html) |
 | [Georgia](/work/rht/states/georgia/) | Georgia Department of Community Health | [Official hub](https://greathealth.georgia.gov/) |
-| [Hawaii](/work/rht/states/hawaii/) | Executive Office of the State of Hawaii | [Official hub](https://engage.hawaii.gov/rhtp/) |
+| [Hawaii](/work/rht/states/hawaii/) | Executive Office of the State of Hawaii | [Official hub](https://rhtp.hawaii.gov/home) |
 | [Idaho](/work/rht/states/idaho/) | Idaho Department of Health & Welfare | [Official hub](https://healthandwelfare.idaho.gov/providers/rural-health-transformation-program-grant/about-rural-health-transformation-program-grant) |
 | [Illinois](/work/rht/states/illinois/) | Illinois Department of Healthcare & Family Services | [Official hub](https://hfs.illinois.gov/info/fedresctr/ruralhealthtp.html) |
 | [Indiana](/work/rht/states/indiana/) | Indiana Family and Social Serv | [Official hub](https://www.in.gov/grow-rural-health/) |
@@ -34,18 +34,18 @@ The designated lead agency running RHTP in each state (federal award recipient o
 | [Montana](/work/rht/states/montana/) | State of Montana Department of Health and Human Services | [Official hub](https://dphhs.mt.gov/RuralHealthTransformationProgram/) |
 | [Nebraska](/work/rht/states/nebraska/) | Nebraska Department of Health & Human Services | [Official hub](https://dhhs.ne.gov/Pages/Rural-Health-Transformation.aspx) |
 | [Nevada](/work/rht/states/nevada/) | Nevada Health Authority | [Official hub](https://www.nvha.nv.gov/RHTP/) |
-| [New Hampshire](/work/rht/states/new-hampshire/) | New Hampshire Department of Health & Human Services | [Official hub](https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program) |
+| [New Hampshire](/work/rht/states/new-hampshire/) | New Hampshire Department of Health & Human Services | [Official hub](https://www.gonorth.nh.gov/cms) |
 | [New Jersey](/work/rht/states/new-jersey/) | New Jersey Department of Human Services | [Official hub](https://www.nj.gov/rural-health-transformation/) |
-| [New Mexico](/work/rht/states/new-mexico/) | Department of Human Services New Mexico | [Official hub](https://www.hca.nm.gov/rural-health-transformation-program/) |
+| [New Mexico](/work/rht/states/new-mexico/) | Department of Human Services New Mexico | [Official hub](https://www.hca.nm.gov/about-us/news-updates) |
 | [New York](/work/rht/states/new-york/) | NYS Department of Health | [Official hub](https://health.ny.gov/facilities/transforming_rural_healthcare/) |
 | [North Carolina](/work/rht/states/north-carolina/) | North Carolina Department of Health & Human Services | [Official hub](https://www.ncdhhs.gov/divisions/office-rural-health/rural-health-transformation-program) |
 | [North Dakota](/work/rht/states/north-dakota/) | North Dakota Department of Human Services | [Official hub](https://www.hhs.nd.gov/rural-health-transformation) |
 | [Ohio](/work/rht/states/ohio/) | Ohio Department of Health | [Official hub](https://odh.ohio.gov/know-our-programs/rural-health-transformation-program) |
 | [Oklahoma](/work/rht/states/oklahoma/) | Oklahoma State Department of Health | [Official hub](https://oklahoma.gov/health/rhtp.html) |
 | [Oregon](/work/rht/states/oregon/) | Oregon Health Authority | [Official hub](https://www.oregon.gov/oha/hpa/hp/pages/rural-health-transformation.aspx) |
-| [Pennsylvania](/work/rht/states/pennsylvania/) | PA Department of Human Services | [Official hub](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan) |
+| [Pennsylvania](/work/rht/states/pennsylvania/) | PA Department of Human Services | [Official hub](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health) |
 | [Rhode Island](/work/rht/states/rhode-island/) | Rhode Island Executive Office of Health & Human Services | [Official hub](https://eohhs.ri.gov/initiatives/rural-health-transformation-program) |
-| [South Carolina](/work/rht/states/south-carolina/) | Department of Health Human Services | [Official hub](https://scorh.net/rural-health-transformation-fund/) |
+| [South Carolina](/work/rht/states/south-carolina/) | Department of Health Human Services | [Official hub](https://www.scdhhs.gov/rural-health-transformation-program-rhtp) |
 | [South Dakota](/work/rht/states/south-dakota/) | South Dakota Department of Health | [Official hub](https://doh.sd.gov/healthcare-professionals/rural-health/rural-health-transformation-project/) |
 | [Tennessee](/work/rht/states/tennessee/) | Tennessee Department of Health | [Official hub](https://www.tn.gov/health/rural) |
 | [Texas](/work/rht/states/texas/) | Health & Human Svc Commn TX | [Official hub](https://pfd.hhs.texas.gov/rural-health-transformation-program) |
