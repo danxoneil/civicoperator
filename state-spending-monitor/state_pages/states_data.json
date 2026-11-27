@@ -141,7 +141,7 @@
  },
  "Hawaii": {
   "name": "Hawaii",
-  "hub_url": "https://engage.hawaii.gov/rhtp/",
+  "hub_url": "https://rhtp.hawaii.gov/home",
   "rfp_link": "https://hands.ehawaii.gov/hands/opportunities",
   "advisory": null,
   "gov_news": "https://governor.hawaii.gov/category/newsroom/office-of-the-governor-press-releases/",
@@ -393,7 +393,7 @@
  },
  "New Hampshire": {
   "name": "New Hampshire",
-  "hub_url": "https://www.dhhs.nh.gov/programs-services/medicaid/rural-health-transformation-program",
+  "hub_url": "https://www.gonorth.nh.gov/cms",
   "rfp_link": "https://www.gonorth.nh.gov/contracts-awards",
   "advisory": "https://www.gonorth.nh.gov/",
   "gov_news": "https://www.governor.nh.gov/news/press-releases",
@@ -421,8 +421,8 @@
  },
  "New Mexico": {
   "name": "New Mexico",
-  "hub_url": "https://www.hca.nm.gov/rural-health-transformation-program/",
-  "rfp_link": "https://www.hca.nm.gov/lookingforinformation/open-rfps/",
+  "hub_url": "https://www.hca.nm.gov/about-us/news-updates",
+  "rfp_link": "https://www.hca.nm.gov/hca-partners/contracts-procurements/rfp",
   "advisory": null,
   "gov_news": "https://www.governor.state.nm.us/press-releases/",
   "email": "Wenona.padgett@hca.nm.gov",
@@ -519,7 +519,7 @@
  },
  "Pennsylvania": {
   "name": "Pennsylvania",
-  "hub_url": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan",
+  "hub_url": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health",
   "rfp_link": "https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rhtp-funding-opportunities",
   "advisory": "https://www.pa.gov/agencies/dhs/newsroom/rural-health-transformation-plan",
   "gov_news": "https://www.pa.gov/governor/newsroom",
@@ -547,7 +547,7 @@
  },
  "South Carolina": {
   "name": "South Carolina",
-  "hub_url": "https://scorh.net/rural-health-transformation-fund/",
+  "hub_url": "https://www.scdhhs.gov/rural-health-transformation-program-rhtp",
   "rfp_link": "https://scdhhs.gov/resources/grants",
   "advisory": "https://www.scdhhs.gov/communications/stakeholder-meeting-rural-health-transformation-program-0",
   "gov_news": "https://governor.sc.gov/news",

@@ -2,9 +2,9 @@
 
 **New Mexico**'s **$211,484,741** Rural Health Transformation Program award — the plan, the administering agency, the outsourced operating model, the live procurements, with a dated log of official activity.
 
-[New Mexico’s official RHTP hub →](https://www.hca.nm.gov/rural-health-transformation-program/)
+[New Mexico’s official RHTP hub →](https://www.hca.nm.gov/about-us/news-updates)
 
-New Mexico’s official Rural Health Transformation Program page — [hca.nm.gov](https://www.hca.nm.gov/rural-health-transformation-program/), captured 2026-07-29.
+New Mexico’s official Rural Health Transformation Program page — [hca.nm.gov](https://www.hca.nm.gov/about-us/news-updates), captured 2026-07-29.
 
 ## At a glance
 
@@ -14,7 +14,7 @@ $211,484,741 · CMS obligated
 
 Official RHTP hub
 
-[New Mexico program page](https://www.hca.nm.gov/rural-health-transformation-program/)
+[New Mexico program page](https://www.hca.nm.gov/about-us/news-updates)
 
 Program contact
 
@@ -22,7 +22,7 @@ Program contact
 
 Funding / RFP portal
 
-[Funding opportunities](https://www.hca.nm.gov/lookingforinformation/open-rfps/)
+[Funding opportunities](https://www.hca.nm.gov/hca-partners/contracts-procurements/rfp)
 
 Governor's newsroom
 

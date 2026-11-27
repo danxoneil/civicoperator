@@ -2,9 +2,9 @@
 
 Pennsylvania's **$193.3M** Rural Health Transformation Program award — the six-initiative plan, the administering agency, its first-come program payments, with a dated log of official activity for vendors, providers, and consultants tracking the program.
 
-[Pennsylvania’s official RHTP hub →](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan)
+[Pennsylvania’s official RHTP hub →](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health)
 
-Pennsylvania’s official Rural Health Transformation Program page — [pa.gov](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan), captured 2026-07-29.
+Pennsylvania’s official Rural Health Transformation Program page — [pa.gov](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health), captured 2026-07-29.
 
 Pennsylvania’s own state-published rural map — PREP Regions (Figure 2, p7) — regional collaboratives with HRSA rural tracts shaded. Source: [pa.gov](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/rural-health/2026-02-06-pennsylvania-rural-health-transformation-plan-february-2026.pdf). See [how every state defines rural](/work/rht/states/rural-definitions/#map-pennsylvania).
 
@@ -16,7 +16,7 @@ $193,294,054 · CMS obligated
 
 Official RHTP hub
 
-[Pennsylvania program page](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health/rural-health-transformation-plan)
+[Pennsylvania program page](https://www.pa.gov/agencies/dhs/programs-services/healthcare/rural-health)
 
 Program contact
 
